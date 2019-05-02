@@ -57,7 +57,7 @@ Word files and work with raw XML files there, what a trip that was.
 This beautiful website is built using http://asciidoctor.org[Asciidoctor]
 
 ``` bash
-find . -type f | grep '\.txt$' | xargs asciidoctor
+find . -type f | grep '\.adoc$' | xargs asciidoctor
 ```
 
 It is one of my dreams to typeset documents and books like Brian
