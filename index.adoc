@@ -1,10 +1,10 @@
-# Sandy's Website
+= Sandy's Website =
 Sagindyk Urazayev <thecsw@ku.edu>
-LinkedIn | GitHub | Resume | PGP Key
+LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK
 
-## Welcome to my website!
+== Welcome to my website! ==
 
-### About me
+=== About me ===
 
 My name is Sagindyk, everybody just calls me Sandy.
 Currently, I am a Computer Science undergraduate student
@@ -41,15 +41,15 @@ https://github.com/thecsw[github page]!
 
 TIP: Scroll to the bottom for details on how this website is built.
 
-### My articles
+=== My articles ===
 
 Here is a list of my articles I have here. I hope you will find
 some of them interesting and you can learn something new! Always
 learn something new!
 
-* link:./articles/arch_installation.html[Installing Glorious Arch Linux]
+* link:./articles/installing_arch.html[Installing Glorious Arch Linux]
 
-### This Website
+=== This Website ===
 
 I love typesetting tools. In my experience, I have used and written
 articles and papers using the following list of tools: `LaTeX`, `groff`,
