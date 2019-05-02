@@ -50,7 +50,7 @@ You should see a prompt of this form:
 root@archios
 ```
 
-IMPORTANT: If you see a bunch of files when running the command command, then everything is [green]*OK*
+IMPORTANT: If you see a bunch of files when running the command below, then everything is [green]*OK*
 
 ``` shell
 ls /sys/firmware/efi/efivars
