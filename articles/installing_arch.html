@@ -450,10 +450,41 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_pre_installation">Pre-Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
+<p>Welcome to my guide on installing Glorious Arch Linux! For some background,
+I have been using arch for the last and it is still my only machine that
+I use as a daily driver. Arch Linux is a lightweight DIY type of distro that
+does not assume what kind of person you are and thus just lets you be yourself.</p>
+</div>
+<div class="paragraph">
+<p>The whole system comes with a pre-compiled kernel (<code>Linux</code>), package manager (<code>pacman</code>), and
+some basic coreutils (<code>GNU</code>). That does not seem a lot, but this is just
+enough to make some great things. It installs a barebone system which allows
+the user to customize their system to smallest details and making it their own. Not like <code>ubuntu</code>
+with all the whistles and bangs included.</p>
+</div>
+<div class="paragraph">
 <p>Open the
 <a href="https://www.archlinux.org/">Arch Linux Official Website</a>
 and download the latest image file. Later on just take a flash drive and burn it
-with <code>rufus</code> on Windows or with <code>dd</code> on Linux.</p>
+with <code>rufus</code> on Windows or with <code>dd</code> on Linux. To save you some trouble, here is an
+example <code>dd</code> command to burn the image</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">sudo dd if=/path/to/image.iso if=/dev/your_drive</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+This guide does not include installing Arch Linux as dual boot.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -467,8 +498,7 @@ with <code>rufus</code> on Windows or with <code>dd</code> on Linux.</p>
 <div class="paragraph">
 <p>This part is quite easy. The only thing that you should do is to tell
 your BIOS to boot from Flash Drives instead of bootloader and other
-drives.
-This process is different for every BIOS Version and motherboard,
+drives. This process is different for every BIOS Version and motherboard,
 however, this is really easy as all the entries in the BIOS menu are
 self-explanatory.</p>
 </div>
@@ -476,50 +506,47 @@ self-explanatory.</p>
 <div class="sect3">
 <h4 id="_flash_drive">Flash Drive</h4>
 <div class="paragraph">
-<p>Just plug in your flash drive and power on/reboot your device.</p>
-</div>
-<div class="paragraph">
-<p>Now you will see a systemd prompt asking to boot. Choose the boot option
-that includes Arch Linux in it.</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>Root on archios</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Now you will see a promtpt that looks like this.</p>
+<p>Just plug in your flash drive and power on/reboot your device.<br>
+Now, you will see a systemd prompt asking to boot. Choose the boot option
+that includes Arch Linux in it.<br>
+You should see a prompt of this form:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>root@archios</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">root@archios</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>Everything is going very well. Now, this guide includes Arch Linux
-installation without dual boot. So suppose that Arch Linux is the only
-Operating System on your device. If you want to go with dual boot with
-Windows or other OS. Refer to another guide or do it at your own risk.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_verify_the_boot_mode_optional">Verify the boot mode (OPTIONAL)</h3>
-<div class="paragraph">
-<p>If you see a bunch of files when running this command, then everything is OK</p>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+If you see a bunch of files when running the command command, then everything is <strong class="green">OK</strong>
+</td>
+</tr>
+</table>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>ls /sys/firmware/efi/efivars</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">ls /sys/firmware/efi/efivars</code></pre>
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_connecting_to_internet_optional">Connecting to internet (OPTIONAL)</h3>
-<div class="paragraph">
-<p>If you have an Ethernet connection, you may skip this step. If you are trying
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+If you have an Ethernet connection, you may skip this step. If you are trying
 to install Arch Linux on a laptop, please use <code>wifi-menu</code> to connect to a wifi
-point.</p>
+point.
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -533,7 +560,7 @@ command line type.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>fdisk -l</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">fdisk -l</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -547,7 +574,7 @@ Okay, good. Now, launch <code>cfdisk</code> by typing</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>cfdisk -z /dev/sda</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">cfdisk -z /dev/sda</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -571,7 +598,7 @@ To do that, type</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>mkfs.fat -F32 /dev/sda1</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">mkfs.fat -F32 /dev/sda1</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -579,7 +606,7 @@ To do that, type</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>mkswap /dev/sda2
+<pre class="highlight"><code class="language-shell" data-lang="shell">mkswap /dev/sda2
 swapon /dev/sda2</code></pre>
 </div>
 </div>
@@ -589,25 +616,22 @@ files further on</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>mkfs.ext4 /dev/sda3</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">mkfs.ext4 /dev/sda3</code></pre>
 </div>
 </div>
 <div class="paragraph">
 <p>Very good, our partitions are properly formatted and we can go on.</p>
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_mounting">Mounting</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_mounting">Mounting</h3>
 <div class="paragraph">
 <p>Now, we should mount our partitions. Firstly, we should mount our root
 partition</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>mount /dev/sda3 /mnt</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">mount /dev/sda3 /mnt</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -616,20 +640,16 @@ the boot point. We also need to create boot directory on our own.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>mkdir /mnt/boot
+<pre class="highlight"><code class="language-shell" data-lang="shell">mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Awesome, everything is mounted, now we can start installing the system!</p>
+<p>Awesome, everything is mounted, now we can start installing the system</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_installing_the_actual_os">Installing the actual OS</h2>
-<div class="sectionbody">
 <div class="sect2">
-<h3 id="_finding_fast_mirrors">Finding fast mirrors</h3>
+<h3 id="_finding_closest_mirrors">Finding closest mirrors</h3>
 <div class="paragraph">
 <p>This part is quite easy. However, when I was installing my system, I had
 a problem with downloading speed, it was something like 20-50KB/s.
@@ -637,13 +657,13 @@ Awful. To fix that and get the maximum download speed, do the following:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+<pre class="highlight"><code class="language-shell" data-lang="shell">cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
 rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Now you will be connected to the fastest mirrors in your location.
+<p>Now, you will be connected to the fastest mirrors in your location.
 Hurray!</p>
 </div>
 </div>
@@ -652,11 +672,12 @@ Hurray!</p>
 <div class="paragraph">
 <p>Now we will install the base system. Here, we will intall base and
 base-devel packages, because it will get us enough packages to start
-using Arch Linux.</p>
+using Arch Linux. It may take a while. Sit back, take a cup of coffee
+and relax.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>pacstrap /mnt base base-devel</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">pacstrap /mnt base base-devel</code></pre>
 </div>
 </div>
 </div>
@@ -668,11 +689,20 @@ and Bootloader about the partitions of our disk. To do so, perform:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>CHECK THE <code>/mnt/etc/fstab</code> FOR ANY CORRUPTIONS!!!</p>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+Check <code>/mnt/etc/fstab</code> for any errors. If it looks right to you, it probably is.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -680,7 +710,7 @@ and Bootloader about the partitions of our disk. To do so, perform:</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-05-02 11:41:44 -0500
+Last updated 2019-05-02 16:46:30 -0500
 </div>
 </div>
 </body>
