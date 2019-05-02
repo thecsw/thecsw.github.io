@@ -463,6 +463,16 @@ the user to customize their system to smallest details and making it their own. 
 with all the whistles and bangs included.</p>
 </div>
 <div class="paragraph">
+<p>This guide has an exact copy of steps I use when installing Arch Linux. Installed
+it over ~25 times. The beauty of arch is that no installation is considered the best
+one. Every installation can be unique and bespoke. This guide only shows how to setup
+a complete arch environment with simple and straight-forward steps. If you want to know
+more about each step and different options you can go with, please consult with
+the official
+<a href="https://wiki.archlinux.org/index.php/Installation_guide">Arch Wiki</a>.
+They have everything and more than you will ever need.</p>
+</div>
+<div class="paragraph">
 <p>Open the
 <a href="https://www.archlinux.org/">Arch Linux Official Website</a>
 and download the latest image file. Later on just take a flash drive and burn it
@@ -471,8 +481,20 @@ example <code>dd</code> command to burn the image</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">sudo dd if=/path/to/image.iso if=/dev/your_drive</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% sudo dd if=/path/to/image.iso if=/dev/your_drive</code></pre>
 </div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<code>%</code> indicates that we are in the terminal. Everything after <code>%</code> should be run.
+</td>
+</tr>
+</table>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -513,7 +535,7 @@ You should see a prompt of this form:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">root@archios</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% root@archios</code></pre>
 </div>
 </div>
 <div class="admonitionblock important">
@@ -530,7 +552,7 @@ If you see a bunch of files when running the command below, then everything is <
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">ls /sys/firmware/efi/efivars</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% ls /sys/firmware/efi/efivars</code></pre>
 </div>
 </div>
 <div class="admonitionblock important">
@@ -560,7 +582,7 @@ command line type.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">fdisk -l</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% fdisk -l</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -574,7 +596,7 @@ Okay, good. Now, launch <code>cfdisk</code> by typing</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">cfdisk -z /dev/sda</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% cfdisk -z /dev/sda</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -598,7 +620,7 @@ To do that, type</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">mkfs.fat -F32 /dev/sda1</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% mkfs.fat -F32 /dev/sda1</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -606,8 +628,8 @@ To do that, type</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">mkswap /dev/sda2
-swapon /dev/sda2</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% mkswap /dev/sda2
+% swapon /dev/sda2</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -616,7 +638,7 @@ files further on</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">mkfs.ext4 /dev/sda3</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% mkfs.ext4 /dev/sda3</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -631,7 +653,7 @@ partition</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">mount /dev/sda3 /mnt</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% mount /dev/sda3 /mnt</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -640,8 +662,8 @@ the boot point. We also need to create boot directory on our own.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">mkdir /mnt/boot
-mount /dev/sda1 /mnt/boot</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% mkdir /mnt/boot
+% mount /dev/sda1 /mnt/boot</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -657,9 +679,9 @@ Awful. To fix that and get the maximum download speed, do the following:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
-rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+% sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
+% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -677,7 +699,7 @@ and relax.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">pacstrap /mnt base base-devel</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% pacstrap /mnt base base-devel</code></pre>
 </div>
 </div>
 </div>
@@ -689,7 +711,7 @@ and Bootloader about the partitions of our disk. To do so, perform:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
+<pre class="highlight"><code class="language-shell" data-lang="shell">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
 </div>
 </div>
 <div class="admonitionblock caution">
@@ -705,12 +727,234 @@ Check <code>/mnt/etc/fstab</code> for any errors. If it looks right to you, it p
 </table>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_configuring_the_system">Configuring the system</h3>
+<div class="paragraph">
+<p>If you have come this far, congratulations! You have installed the raw
+version of arch and essential tools. We have to perform some number
+of necessary configurations to make it usable as a daily driver.</p>
+</div>
+<div class="paragraph">
+<p>Log in to the newly installed system with</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">% arch-chroot /mnt</code></pre>
+</div>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+If it does not let you in or some error occurs, please make sure you followed all
+the steps correctly.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_setting_the_time">Setting the time</h4>
+<div class="paragraph">
+<p>We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code>
+and use it instead of <code><em>Region</em></code> and <code><em>City</em></code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">% ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+% hwclock --systohc</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_configuring_essential_files">Configuring essential files</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Uncomment <code>en_US.UTF-8 UTF-8</code> and other if needed in <code>/etc/locale.gen</code></p>
+</li>
+<li>
+<p>Generate locales by running <code>% locale-gen</code></p>
+</li>
+<li>
+<p>Set the <code>LANG</code> variable equal to locale <code>% echo 'LANG=en_US.UTF-8' &gt; /etc/locale.conf</code></p>
+</li>
+<li>
+<p>Set the keyboard layout to standard QWERTY <code>% echo 'KEYMAP=us' &gt; /etc/vconsole.conf</code></p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+If you are a power user with <em>dvorak</em>, run <code>% echo 'KEYMAP=dvorak' &gt; /etc/vconsole.conf</code>
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Set the hostname of your choice <code>% echo <em>myhostname</em> &gt; /etc/hostname</code></p>
+</li>
+<li>
+<p>Configure the hosts on your machine</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><code>
+% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 <em>myhostname</em>.localdomain <em>myhostname</em>
+</code></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Configuring your network drivers with <code>% pacman -S iw dialog wpa_actiond wpa_supplicant sudo</code></p>
+</li>
+<li>
+<p>Generate your kernel image (initramfs) <code>% mkinitcpio -p linux</code></p>
+</li>
+<li>
+<p>Change your default root password <code>% passwd</code></p>
+</li>
+<li>
+<p>Add new users <code>% useradd -m -G wheel -s /usr/bin/bash <em>user</em></code></p>
+</li>
+<li>
+<p>Set the sudo access by uncommenting <code>%wheel ALL=(ALL) ALL</code> when running <code>visudo</code></p>
+</li>
+<li>
+<p>Changing the <em>user</em>'s password <code>% passwd <em>user</em></code></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bootloader">Bootloader</h3>
+<div class="paragraph">
+<p>Small but important things swept out of the way, we have to configure one of the most
+important parts of this installation. Usually only arch and gentoo people have to work
+with manually setting up a bootloader.
+<a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">Bootloader</a> is a
+small program that boots your actual OS after motherboard&#8217;s BIOS gives you control
+over the system. In this installation, we are going with
+<a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a>. It is the most compatible
+bootloader with Arch system in general. Also, my laptop&#8217;s hardware does not work
+with other bootloaders. Systemd is getting some bad fame because it is bloated, massive,
+and way too complicated. I agree with it but this is the best we have right now. Just
+like C++.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>,
+but please consult with Arch Wiki before trying to do that.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Assuming you have an intel chipset, run the following</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">% pacman -S intel-ucode
+% bootctl --path=/boot install</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Use <code>vi</code> or <code>nano</code> text editor to write down the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-file" data-lang="file">/boot/loader/loader.conf
+------------------------
+default Arch(arch)
+timeout 4
+editor 0</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>And for the second file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-file" data-lang="file">/boot/loader/entries/entry.conf
+-------------------------------
+title Arch Linux
+linux /vmlinuz-linux
+initrd /intel-ucode.img
+initrd /initramfs-linux.img
+options root=/dev/sda3 rw</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_finishing_up">Finishing up</h3>
+<div class="paragraph">
+<p>You  are exactly two commands away from a complete Arch Linux installation!</p>
+</div>
+<div class="paragraph">
+<p>You need to exit <code>chroot</code> by runing <code>% exit</code> and reboot with <code>% reboot</code></p>
+</div>
+<div class="paragraph">
+<p>When you turn your machine back on, you should see some text popping out on
+the screen (that&#8217;s systemd) and finally, you should see the following prompt:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>Arch Linux (tty1)
+_myhostname_ login:</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you see this, then <strong>Congratulations!</strong><br>
+You have completed the installation. Everything is terminal based,
+if you want to install X Window Server for GUI and other shiny stuff,
+please follow to teh Post-Installation chapter.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+If you did not see the login prompt, retrace your steps and make
+sure you followed everything in this guide. Best way to get out, is just
+search for the problem online or visit <a href="https://reddit.com/r/archlinux">r/archlinux</a>
+to get some real online help.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_post_installation">Post-Installation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>TBD</strong></p>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-05-02 16:59:57 -0500
+Last updated 2019-05-02 18:39:16 -0500
 </div>
 </div>
 </body>
