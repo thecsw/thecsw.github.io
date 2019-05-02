@@ -4,10 +4,28 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 
 == Pre-Installation ==
 
+Welcome to my guide on installing Glorious Arch Linux! For some background,
+I have been using arch for the last and it is still my only machine that
+I use as a daily driver. Arch Linux is a lightweight DIY type of distro that
+does not assume what kind of person you are and thus just lets you be yourself.
+
+The whole system comes with a pre-compiled kernel (`Linux`), package manager (`pacman`), and
+some basic coreutils (`GNU`). That does not seem a lot, but this is just
+enough to make some great things. It installs a barebone system which allows
+the user to customize their system to smallest details and making it their own. Not like `ubuntu`
+with all the whistles and bangs included.
+
 Open the
 https://www.archlinux.org/[Arch Linux Official Website]
 and download the latest image file. Later on just take a flash drive and burn it
-with `rufus` on Windows or with `dd` on Linux.
+with `rufus` on Windows or with `dd` on Linux. To save you some trouble, here is an
+example `dd` command to burn the image
+
+``` shell
+sudo dd if=/path/to/image.iso if=/dev/your_drive
+```
+
+NOTE: This guide does not include installing Arch Linux as dual boot.
 
 == Installation ==
 
@@ -17,46 +35,32 @@ with `rufus` on Windows or with `dd` on Linux.
 
 This part is quite easy. The only thing that you should do is to tell
 your BIOS to boot from Flash Drives instead of bootloader and other
-drives.
-This process is different for every BIOS Version and motherboard,
+drives. This process is different for every BIOS Version and motherboard,
 however, this is really easy as all the entries in the BIOS menu are
 self-explanatory.
 
 ==== Flash Drive ====
 
-Just plug in your flash drive and power on/reboot your device.
+Just plug in your flash drive and power on/reboot your device. +
+Now, you will see a systemd prompt asking to boot. Choose the boot option
+that includes Arch Linux in it. +
+You should see a prompt of this form:
 
-Now you will see a systemd prompt asking to boot. Choose the boot option
-that includes Arch Linux in it.
-
- Root on archios
-
-Now you will see a promtpt that looks like this.
-
-```
+``` shell
 root@archios
 ```
 
-Everything is going very well. Now, this guide includes Arch Linux
-installation without dual boot. So suppose that Arch Linux is the only
-Operating System on your device. If you want to go with dual boot with
-Windows or other OS. Refer to another guide or do it at your own risk.
+IMPORTANT: If you see a bunch of files when running the command command, then everything is [green]*OK*
 
-### Verify the boot mode (OPTIONAL)
-
-If you see a bunch of files when running this command, then everything is OK
-
-```
+``` shell
 ls /sys/firmware/efi/efivars
 ```
 
-### Connecting to internet (OPTIONAL)
-
-If you have an Ethernet connection, you may skip this step. If you are trying
+IMPORTANT: If you have an Ethernet connection, you may skip this step. If you are trying
 to install Arch Linux on a laptop, please use `wifi-menu` to connect to a wifi
 point.
 
-### Disk Partitioning
+=== Disk Partitioning ===
 
 Okay, now we need to partition our hard/state drive. How do we do that?
 Actually, there are many ways to to it, however I prefer to use `cfdisk`.
@@ -64,7 +68,7 @@ It has pseudo-GUI, which is easier to work and operate with. Before
 partitioning, we should find the name of your drive. For that, in your
 command line type.
 
-```
+``` shell
 fdisk -l
 ```
 
@@ -76,7 +80,7 @@ For the sake of simplicity, let's use notation `/dev/sda` for the name of
 the drive.
 Okay, good. Now, launch `cfdisk` by typing
 
-```
+``` shell
 cfdisk -z /dev/sda
 ```
 
@@ -89,19 +93,19 @@ like it.
 By the rules, your swap should be 2xRAM and EFI System 512MB. Everything
 else can be given to Root Directory. Now, exit cfdisk by choosing QUIT.
 
-### Formatting partitions
+=== Formatting partitions ===
 
 We need to format partitions appropriately and accordignly.
 Your EFI System should be FAT32 formatted, because we use systemd-boot.
 To do that, type
 
-```
+``` shell
 mkfs.fat -F32 /dev/sda1
 ```
 
 Your swap partition should be formatted as swap memory (obviously)
 
-```
+``` shell
 mkswap /dev/sda2
 swapon /dev/sda2
 ```
@@ -109,64 +113,64 @@ swapon /dev/sda2
 Your main directory should be formatted as ext4, so to use all your
 files further on
 
-```
+``` shell
 mkfs.ext4 /dev/sda3
 ```
 
 Very good, our partitions are properly formatted and we can go on.
 
-## Mounting
+=== Mounting ===
 
 Now, we should mount our partitions. Firstly, we should mount our root
 partition
 
-```
+``` shell
 mount /dev/sda3 /mnt
 ```
 
 Then, we should mount the EFI System, so the system would know where is
 the boot point. We also need to create boot directory on our own.
 
-```
+``` shell
 mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot
 ```
 
-Awesome, everything is mounted, now we can start installing the system!
+Awesome, everything is mounted, now we can start installing the system
 
-## Installing the actual OS
-
-### Finding fast mirrors
+=== Finding closest mirrors ===
 
 This part is quite easy. However, when I was installing my system, I had
 a problem with downloading speed, it was something like 20-50KB/s.
 Awful. To fix that and get the maximum download speed, do the following:
 
-```
+``` shell
 cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
 rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
 ```
-Now you will be connected to the fastest mirrors in your location.
+
+Now, you will be connected to the fastest mirrors in your location.
 Hurray!
 
-### Pacstrap
+=== Pacstrap ===
 
 Now we will install the base system. Here, we will intall base and
 base-devel packages, because it will get us enough packages to start
-using Arch Linux.
+using Arch Linux. It may take a while. Sit back, take a cup of coffee
+and relax. 
 
-```
+``` shell
 pacstrap /mnt base base-devel
 ```
 
-### Genfstab
+=== Genfstab ===
 
 Now, the system is installed on the device and we need to tell our OS
 and Bootloader about the partitions of our disk. To do so, perform:
 
-```
+``` shell
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
-CHECK THE `/mnt/etc/fstab` FOR ANY CORRUPTIONS!!!
+CAUTION: Check `/mnt/etc/fstab` for any errors. If it looks right to you, it probably is.
