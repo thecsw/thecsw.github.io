@@ -54,7 +54,7 @@ articles and papers using the following list of tools: LaTeX, groff,
 markdown, Org-Mode, asciidoctor, HTML, plain text. I had to uncompress
 Word files and work with raw XML files there, what a trip that was.
 
-This beautiful website is built using http://asciidoc.org[AsciiDoc]
+This beautiful website is built using http://asciidoctor.org[Asciidoctor]
 
 ``` bash
 find . -type f | grep '\.txt$' | xargs asciidoctor
