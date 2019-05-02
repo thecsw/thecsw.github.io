@@ -62,6 +62,8 @@ This beautiful website is built using http://asciidoctor.org[Asciidoctor]
 find . -type f | grep '\.adoc$' | xargs asciidoctor
 ```
 
+The website you see right now is built straight from the https://github.com/thecsw/thecsw.github.io[repo].
+
 It is one of my dreams to typeset documents and books like Brian
 Kernighan:
 
