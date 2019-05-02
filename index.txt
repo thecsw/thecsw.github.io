@@ -1,0 +1,68 @@
+# Sandy's Website
+Sagindyk Urazayev <thecsw@ku.edu>
+
+## Welcome to my website!
+
+### About me
+
+My name is Sagindyk, everybody just calls me Sandy.
+Currently, I am a Computer Science undergraduate student
+at https://ku.edu[University of Kansas]. I am a huge
+fan of +UNIX+ philosophy and +Linux+ tools in general.
+Wield the power of the terminal with +awk+, +sed+, and +grep+!
+I have interests in cyber-security, DevOps, Software Development,
+System Automation, Data Science, and Typesetting tools.
+
+I am the creator and founder of
+https://reddit.com/u/MemeInvestor_bot[Meme Investor Bot] -
+the biggest interactive reddit bot on the platform that
+allows users from all over to world to invest in memes
+and collaborate together around their favorite content!
+Almost a year after the initial launch, more than 20
+developers and ethusiasts worked together towards making
+a better platform for collaborative content creation and
+promotion. We have more than 85 thousand registered users
+on our system. We have our https://meme.market[website]
+where we keep all the statistics updated and available
+with the current trends, popular content, and meme markets!
+I am the main maintainer of the project. Feel free to check
+out our
+https://github.com/MemeInvestor/memeinvestor_bot[github page]
+and commit new changes!
+
+I am also the creator of other various projects and bots,
+such as https://reddit.com/u/prequelmemes_bot[u/PrequelMemes_bot],
+https://reddit.com/u/HiveWriting_bot[u/HiveWriting_bot],
+https://reddit.com/u/MemePolice_bot[u/MemePolice_bot], and so much more!
+For a more detailed list of my open projects, check my
+https://github.com/thecsw[github page]!
+
+TIP: Scroll to the bottom for details on how this website is built.
+
+### My articles
+
+Here is a list of my articles I have here. I hope you will find
+some of them interesting and you can learn something new! Always
+learn something new!
+
+* First Article
+
+### This Website
+
+I love typesetting tools. In my experience, I have used and written
+articles and papers using the following list of tools: LaTeX, groff,
+markdown, Org-Mode, asciidoctor, HTML, plain text. I had to uncompress
+Word files and work with raw XML files there, what a trip that was.
+
+This beautiful website is built using http://asciidoc.org[AsciiDoc]
+
+``` bash
+find . -type f | grep '\.txt$' | xargs asciidoctor
+```
+
+It is one of my dreams to typeset documents and books like Brian
+Kernighan:
+
+* https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/ref=sr_1_1?keywords=The+go+programming+languagu&qid=1556766950&s=gateway&sr=8-1-spell[The GO Programming Language] +
+* https://read.amazon.com/kp/embed?asin=B009ZUZ9FW&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_whMYCbD4T9EW2[C Programming Language, 2nd Edition] +
+* https://www.amazon.com/gp/product/013937681X/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5[The Unix Programming Environment] +
