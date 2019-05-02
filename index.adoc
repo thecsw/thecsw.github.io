@@ -1,5 +1,6 @@
 # Sandy's Website
 Sagindyk Urazayev <thecsw@ku.edu>
+LinkedIn | GitHub | Resume | PGP Key
 
 ## Welcome to my website!
 
@@ -11,7 +12,8 @@ at https://ku.edu[University of Kansas]. I am a huge
 fan of `*UNIX*` philosophy and +Linux+ tools in general.
 Wield the power of the terminal with `awk`, `sed`, and `grep`!
 I have interests in cyber-security, DevOps, Software Development,
-System Automation, Data Science, and Typesetting tools.
+System Automation, Data Science, and Typesetting tools. I am the
+current active CTO at https://kuisc.com[KU Information Security Club].
 
 I am the creator and founder of
 https://reddit.com/u/MemeInvestor_bot[Meme Investor Bot] -
