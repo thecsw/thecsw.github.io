@@ -1,13 +1,17 @@
 = Installing Glorious Arch Linux =
 Sagindyk Urazayev <thecsw@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
+:toc: left
+:toc-title: Table of Adventures
 
-== Pre-Installation ==
-
+[abstract]
+.Abstract
 Welcome to my guide on installing Glorious Arch Linux! For some background,
 I have been using arch for the last and it is still my only machine that
 I use as a daily driver. Arch Linux is a lightweight DIY type of distro that
 does not assume what kind of person you are and thus just lets you be yourself.
+
+== Pre-Installation ==
 
 The whole system comes with a pre-compiled kernel (`Linux`), package manager (`pacman`), and
 some basic coreutils (`GNU`). That does not seem a lot, but this is just
@@ -345,3 +349,15 @@ when installing it.
 * https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions[Arch Linux compared to other distributions]
 * https://www.archlinux.org/packages/[Arch Linux packages]
 * https://aur.archlinux.org/[Arch Linux AUR home]
+
+== Pictures ==
+
+[#pic1]
+.Writing my website in tmux
+image::pic1.png[pic1.png, 475, role="left", link="./pic1.png"]
+[#pic2]
+.My desktop
+image::pic2.png[pic2.png, 475, role="right", link="./pic2.png"]
+[#pic3]
+.Fancy window tiling with cowsay, pipes.sh, htop, neofetch in anti-clockwise order
+image::pic3.png[pic3.png, role="center", link="./pic3.png"]
