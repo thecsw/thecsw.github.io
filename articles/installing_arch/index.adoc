@@ -34,7 +34,7 @@ example `dd` command to burn the image
 % sudo dd if=/path/to/image.iso if=/dev/your_drive
 ```
 
-NOTE: `%` indicates that we are in the terminal. Everything after `%` should be run.
+NOTE: `%` indicates that we are in the terminal. Everything after `%` should be executed.
 
 NOTE: This guide does not include installing Arch Linux as dual boot.
 

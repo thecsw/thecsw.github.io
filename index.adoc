@@ -47,7 +47,7 @@ Here is a list of my articles I have here. I hope you will find
 some of them interesting and you can learn something new! Always
 learn something new!
 
-* link:./articles/installing_arch.html[Installing Glorious Arch Linux]
+* link:./articles/installing_arch/[Installing Glorious Arch Linux]
 
 === This Website ===
 
