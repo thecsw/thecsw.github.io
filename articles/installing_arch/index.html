@@ -436,7 +436,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>Installing Glorious Arch Linux</h1>
 <div class="details">
@@ -444,17 +444,47 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <span id="email" class="email"><a href="mailto:thecsw@ku.edu">thecsw@ku.edu</a></span><br>
 <span id="revdate"><a href="https://www.linkedin.com/in/thecsw/">LinkedIn</a> | <a href="https://github.com/thecsw">GitHub</a> | <a href="./resume.pdf">Resume</a> | <a href="https://pgp.key-server.io/pks/lookup?op=vindex&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B">PGP Key</a> | <a href="https://thecsw.github.io">Home</a></span>
 </div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Adventures</div>
+<ul class="sectlevel1">
+<li><a href="#_pre_installation">Pre-Installation</a></li>
+<li><a href="#_installation">Installation</a>
+<ul class="sectlevel2">
+<li><a href="#_bios_and_flash_drive">BIOS and Flash Drive</a></li>
+<li><a href="#_disk_partitioning">Disk Partitioning</a></li>
+<li><a href="#_formatting_partitions">Formatting partitions</a></li>
+<li><a href="#_mounting">Mounting</a></li>
+<li><a href="#_finding_closest_mirrors">Finding closest mirrors</a></li>
+<li><a href="#_pacstrap">Pacstrap</a></li>
+<li><a href="#_genfstab">Genfstab</a></li>
+<li><a href="#_configuring_the_system">Configuring the system</a></li>
+<li><a href="#_bootloader">Bootloader</a></li>
+<li><a href="#_finishing_up">Finishing up</a></li>
+</ul>
+</li>
+<li><a href="#_post_installation">Post-Installation</a></li>
+<li><a href="#_further_reading">Further Reading</a></li>
+<li><a href="#_pictures">Pictures</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="quoteblock abstract">
+<div class="title">Abstract</div>
+<blockquote>
+Welcome to my guide on installing Glorious Arch Linux! For some background,
+I have been using arch for the last and it is still my only machine that
+I use as a daily driver. Arch Linux is a lightweight DIY type of distro that
+does not assume what kind of person you are and thus just lets you be yourself.
+</blockquote>
+</div>
+</div>
+</div>
 <div class="sect1">
 <h2 id="_pre_installation">Pre-Installation</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Welcome to my guide on installing Glorious Arch Linux! For some background,
-I have been using arch for the last and it is still my only machine that
-I use as a daily driver. Arch Linux is a lightweight DIY type of distro that
-does not assume what kind of person you are and thus just lets you be yourself.</p>
-</div>
 <div class="paragraph">
 <p>The whole system comes with a pre-compiled kernel (<code>Linux</code>), package manager (<code>pacman</code>), and
 some basic coreutils (<code>GNU</code>). That does not seem a lot, but this is just
@@ -1054,10 +1084,33 @@ when installing it.
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_pictures">Pictures</h2>
+<div class="sectionbody">
+<div id="pic1" class="imageblock left">
+<div class="content">
+<a class="image" href="./pic1.png"><img src="pic1.png" alt="pic1.png" width="475"></a>
+</div>
+<div class="title">Figure 1. Writing my website in tmux</div>
+</div>
+<div id="pic2" class="imageblock right">
+<div class="content">
+<a class="image" href="./pic2.png"><img src="pic2.png" alt="pic2.png" width="475"></a>
+</div>
+<div class="title">Figure 2. My desktop</div>
+</div>
+<div id="pic3" class="imageblock center">
+<div class="content">
+<a class="image" href="./pic3.png"><img src="pic3.png" alt="pic3.png"></a>
+</div>
+<div class="title">Figure 3. Fancy window tiling with cowsay, pipes.sh, htop, neofetch in anti-clockwise order</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-05-04 13:35:46 -0500
+Last updated 2019-05-04 14:26:18 -0500
 </div>
 </div>
 </body>
