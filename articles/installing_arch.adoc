@@ -306,4 +306,42 @@ to get some real online help.
 
 == Post-Installation ==
 
-*TBD*
+I hope you enjoyed this installation guide. After the last step, you should
+be able to have an actual working and stable system. I will not go into details
+how to set up your Desktop Environment or Window Manager. It should be unique and
+this is your adventure now. I will give you a list of useful commands just to get
+started. Also, further reading links will be included.
+
+* Run this to install a package `% sudo pacman -S _package_name_`
+* Remove a package from your system `% sudo pacman -Rs _package_name_`
+* Update the system's packages `% sudo pacman -Syu`
+* Installing X Graphical Server `% sudo pacman -S xorg xorg-xinit`
+* Installing zshell `% sudo pacman -S zsh` and update your shell `% chsh`
+* Installing graphical terminal emulator `% sudo pacman -S rxvt-unicode rxvt-unicode-terminfo`
+* Installing `i3` and `dmenu` with `% sudo pacman -S i3 dmenu`
+* Enable `i3` with `% echo \#!/bin/bash\nexec i3 > ~/.xinitrc` and `% chmod 700 ~/.xinitrc`
+* Start graphical X server with `% startx`
+
+IMPORTANT: Never ever run `% sudo pacman --force`.
+The only exception is if you have a loaded gun pointed at your
+head (which is very unlikely, hopefully).
+
+I hope you enjoyed the installation process and I am sure you were able to learn something
+new about Linux and yourself.
+
+_See you next time._
+
+== Further Reading ==
+
+*IT'S DANGEROUS TO GO ALONE! TAKE THIS.*
+
+* https://wiki.archlinux.org/index.php/Frequently_asked_questions[Arch Linux Frequently Asked Questions]
+* https://wiki.archlinux.org/index.php/General_recommendations[Arch Linux General Recommendations]
+* https://wiki.archlinux.org/index.php/List_of_applications[Arch Linux List of Applications]
+
+TIP: Always try to consult with the List of Applications while searching for a program and
+when installing it.
+
+* https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions[Arch Linux compared to other distributions]
+* https://www.archlinux.org/packages/[Arch Linux packages]
+* https://aur.archlinux.org/[Arch Linux AUR home]

@@ -947,14 +947,117 @@ to get some real online help.
 <h2 id="_post_installation">Post-Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>TBD</strong></p>
+<p>I hope you enjoyed this installation guide. After the last step, you should
+be able to have an actual working and stable system. I will not go into details
+how to set up your Desktop Environment or Window Manager. It should be unique and
+this is your adventure now. I will give you a list of useful commands just to get
+started. Also, further reading links will be included.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Run this to install a package <code>% sudo pacman -S <em>package_name</em></code></p>
+</li>
+<li>
+<p>Remove a package from your system <code>% sudo pacman -Rs <em>package_name</em></code></p>
+</li>
+<li>
+<p>Update the system&#8217;s packages <code>% sudo pacman -Syu</code></p>
+</li>
+<li>
+<p>Installing X Graphical Server <code>% sudo pacman -S xorg xorg-xinit</code></p>
+</li>
+<li>
+<p>Installing zshell <code>% sudo pacman -S zsh</code> and update your shell <code>% chsh</code></p>
+</li>
+<li>
+<p>Installing graphical terminal emulator <code>% sudo pacman -S rxvt-unicode rxvt-unicode-terminfo</code></p>
+</li>
+<li>
+<p>Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3 dmenu</code></p>
+</li>
+<li>
+<p>Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and <code>% chmod 700 ~/.xinitrc</code></p>
+</li>
+<li>
+<p>Start graphical X server with <code>% startx</code></p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+Never ever run <code>% sudo pacman --force</code>.
+The only exception is if you have a loaded gun pointed at your
+head (which is very unlikely, hopefully).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>I hope you enjoyed the installation process and I am sure you were able to learn something
+new about Linux and yourself.</p>
+</div>
+<div class="paragraph">
+<p><em>See you next time.</em></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_further_reading">Further Reading</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>IT&#8217;S DANGEROUS TO GO ALONE! TAKE THIS.</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://wiki.archlinux.org/index.php/Frequently_asked_questions">Arch Linux Frequently Asked Questions</a></p>
+</li>
+<li>
+<p><a href="https://wiki.archlinux.org/index.php/General_recommendations">Arch Linux General Recommendations</a></p>
+</li>
+<li>
+<p><a href="https://wiki.archlinux.org/index.php/List_of_applications">Arch Linux List of Applications</a></p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+Always try to consult with the List of Applications while searching for a program and
+when installing it.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions">Arch Linux compared to other distributions</a></p>
+</li>
+<li>
+<p><a href="https://www.archlinux.org/packages/">Arch Linux packages</a></p>
+</li>
+<li>
+<p><a href="https://aur.archlinux.org/">Arch Linux AUR home</a></p>
+</li>
+</ul>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-05-02 18:39:16 -0500
+Last updated 2019-05-04 02:13:36 -0500
 </div>
 </div>
 </body>
