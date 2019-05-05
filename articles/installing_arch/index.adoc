@@ -4,8 +4,6 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures
 
-PREVIEW_IMAGE
-
 [abstract]
 .Abstract
 Welcome to my guide on installing Glorious Arch Linux! For some background,
