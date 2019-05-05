@@ -359,5 +359,5 @@ image::pic1.png[pic1.png, width=475, role="left", link="./pic1.png"]
 .My desktop
 image::pic2.png[pic2.png, width=475, role="right", link="./pic2.png"]
 [#pic3]
-.Fancy window tiling with cowsay, pipes.sh, htop, neofetch in anti-clockwise order
+.Fancy window tiling with cowsay, pipes.sh, htop, neofetch in counterclockwise order
 image::pic3.png[pic3.png, role="center", link="./pic3.png"]
