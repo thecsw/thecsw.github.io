@@ -4,6 +4,8 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures
 
+PREVIEW_IMAGE
+
 [abstract]
 .Abstract
 Welcome to my guide on installing Glorious Arch Linux! For some background,
@@ -173,7 +175,7 @@ Hurray!
 Now we will install the base system. Here, we will intall base and
 base-devel packages, because it will get us enough packages to start
 using Arch Linux. It may take a while. Sit back, take a cup of coffee
-and relax. 
+and relax.
 
 ``` shell
 % pacstrap /mnt base base-devel
