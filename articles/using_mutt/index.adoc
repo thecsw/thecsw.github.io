@@ -1,4 +1,4 @@
-= Bring back joy to e-mail with Mutt =
+= Bring joy back to e-mail with Mutt =
 Sagindyk Urazayev <thecsw@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
