@@ -47,7 +47,7 @@ Here is a list of my articles I have here. I hope you will find
 some of them interesting and you can learn something new! Always
 learn something new!
 
-* link:./articles/using_mutt/[Bring back joy to e-mail with Mutt]
+* link:./articles/using_mutt/[Bring joy back to e-mail with Mutt]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux]
 
 === This Website ===
