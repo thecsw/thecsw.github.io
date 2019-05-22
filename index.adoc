@@ -1,5 +1,5 @@
 = Sandy's Website =
-Sagindyk Urazayev <thecsw@ku.edu>
+Sagindyk Urazayev <ctu@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK
 
 == Welcome to my website! ==
