@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/thecsw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thecsw.github.io
+  * I am thecsw (https://keybase.io/thecsw) on keybase.
+  * I have a public key ASCpnwyWovBdTv_l_IuMtaROA8Zzwm6vPrTacX5BLOhDlQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a99f0c96a2f05d4effe5fc8b8cb5a44e03c673c26eaf3eb4da717e412ce843950a",
+      "host": "keybase.io",
+      "kid": "0120a99f0c96a2f05d4effe5fc8b8cb5a44e03c673c26eaf3eb4da717e412ce843950a",
+      "uid": "5cee09f7b0df40cf54ec5ff895449c19",
+      "username": "thecsw"
+    },
+    "merkle_root": {
+      "ctime": 1563754061,
+      "hash": "cdd1057c5fa3edc0a744580349563b93fcca44c8dc7187151e79be9288ef3d861611d434c9727347a95faa60a355d360514b389f3d5df994640280eb25dee182",
+      "hash_meta": "fc2be1fe56caaf82c4f6fa8bec8fb8c7adb4e0efe0d752b228619f16b528b000",
+      "seqno": 5818490
+    },
+    "service": {
+      "entropy": "IiTzXqFGc9BsVcYvu4/OlTTg",
+      "hostname": "thecsw.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1563754253,
+  "expire_in": 504576000,
+  "prev": "ac13f60eeafe8c0dc697526df47dd4210893e63a97ffadf1875fec717555beff",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqZ8MlqLwXU7/5fyLjLWkTgPGc8Jurz602nF+QSzoQ5UKp3BheWxvYWTESpcCEsQgrBP2Dur+jA3Gl1Jt9H3UIQiT5jqX/63xh1/scXVVvv/EIB9h6JWz5rI6sOH+o3F8Mpp6/AbonQ8UfUyltRxN70Q8AgHCo3NpZ8RAKIVNqkU2YHlrvrq0AefwXIAxNf/ThNroS3tICrVMz/EmXMHlKXvZ1EWkJh6zH+H8A36nXUHDyoZzV5QC3CKIAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPhxBPKM/JO74fZzWgNm7ljM1jRJqgt1po/TzIbU8zG5o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thecsw
+
+==================================================================
