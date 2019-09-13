@@ -35,7 +35,7 @@ with `rufus` on Windows or with `dd` on Linux. To save you some trouble, here is
 example `dd` command to burn the image
 
 ``` shell
-% sudo dd if=/path/to/image.iso if=/dev/your_drive
+% sudo dd if=/path/to/image.iso of=/dev/your_drive
 ```
 
 NOTE: `%` indicates that we are in the terminal. Everything after `%` should be executed.
