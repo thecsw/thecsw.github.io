@@ -55,9 +55,8 @@ interesting!
   uncompress Word files and work with raw XML files there, what a trip
   that was.
 
-  This beautiful website is built using [[http://asciidoctor.org][Asciidoctor]]
-
-  The website you see right now is built straight from the [[https://github.com/thecsw/thecsw.github.io][repo]].
+  This beautiful website typed in [[https://orgmode.org/][Org-Mode]] and built using [[http://asciidoctor.org][Asciidoctor]]. The
+  source code can be found [[https://github.com/thecsw/thecsw.github.io][here]].
 
   It is one of my dreams to typeset documents and books like Brian
   Kernighan:
