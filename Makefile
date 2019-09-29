@@ -15,25 +15,46 @@ COMPILER = asciidoctor
 FLAGS = -a toc
 FLAGS = 
 NAME = mywebsite
-INPUT_TYPE = '*.adoc'
-OUTPUT_TYPE = '*.html'
+ORIGINAL_TYPE = org
+INPUT_TYPE = adoc
+OUTPUT_TYPE = html
+NAME = Sagindyk Urazayev
+EMAIL = ctu@ku.edu
+VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK\n:toc: left\n:toc-title: Table of Adventures
+LINKEDIN = https://www.linkedin.com/in/thecsw/
+GITHUB = https://github.com/thecsw
+GPG_KEY = https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B
 
 $(NAME):
+	$(E) "	CONVERTING ORG TO ADOC ..."
+	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
+	$(E) "	ADJUSTING HEADERS ..."
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed 's/^=//g' -i 
+	$(E) "	ADDING VCARD ..."
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed '1 a $(VCARD)' -i
+	$(E) "	ADJUSTING THE HOMEPAGE ..."
+	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs sed 's/| Home_LINK//g;/^:/d' -i
+	$(E) "	FIXING ARTIFACTS ..."
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/~(.+)~/_\1/g' -i
+	$(E) "	ADDING ABSTRACTS ..."
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/== Abstract/[abstract]\n.Abstract\n/g' -i 
 	$(E) "	BUILDING ..."
-	$(Q) find . -type f -name $(INPUT_TYPE) | xargs $(COMPILER) $(FLAGS)
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs $(COMPILER) $(FLAGS)
 	$(E) "	SETTING LINKEDIN ..."
-	$(Q) find . -type f -name $(OUTPUT_TYPE) | xargs sed 's|LinkedIn_LINK|<a href="https://www.linkedin.com/in/thecsw/">LinkedIn</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|LinkedIn_LINK|<a href="$(LINKEDIN)">LinkedIn</a>|g' -i
 	$(E) "	SETTING GITHUB ..."
-	$(Q) find . -type f -name $(OUTPUT_TYPE) | xargs sed 's|GitHub_LINK|<a href="https://github.com/thecsw">GitHub</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub</a>|g' -i
 	$(E) "	SETTING RESUME ..."
-	$(Q) find . -type f -name $(OUTPUT_TYPE) | xargs sed 's|Resume_LINK|<a href="./resume.pdf">Resume</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Resume_LINK|<a href="./resume.pdf">Resume</a>|g' -i
 	$(E) "	SETTING PGP KEYS ..."
-	$(Q) find . -type f -name $(OUTPUT_TYPE) | xargs sed 's|PGP Key_LINK|<a href="https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B">PGP Key</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key</a>|g' -i
 	$(E) "	SETTING HOME ..."
-	$(Q) find . -type f -name $(OUTPUT_TYPE) | xargs sed 's|Home_LINK|<a href="../../">Home</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Home_LINK|<a href="../../">Home</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
-	$(Q) find . -type f -name $(OUTPUT_TYPE) | xargs sed 's|<title>|<meta property="og:image" content="preview.png">\n<title>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|<title>|<meta property="og:image" content="preview.png">\n<title>|g' -i
 
 clean:
-	$(E) "	CLEAN"
-	$(Q) find . -type f -name $(OUTPUT_TYPE) | xargs rm
+	$(E) "	CLEANING OUTPUT"
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs rm
+	$(E) "	CLEANING CONVERTED"
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs rm
