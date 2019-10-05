@@ -1,5 +1,5 @@
 *  Installing Glorious Arch Linux
-
+  
 Welcome to my guide on installing Glorious Arch
 Linux! For some background, I have been using arch for the last and it
 is still my only machine that I use as a daily driver. Arch Linux is a
@@ -20,10 +20,9 @@ you are and thus just lets you be yourself.
  bespoke. This guide only shows how to setup a complete arch environment
  with simple and straight-forward steps. If you want to know more about
  each step and different options you can go with, please consult with the
- official https://wiki.archlinux.org/index.php/Installation_guide[Arch
- Wiki]. They have everything and more than you will ever need.
+ official [[https://wiki.archlinux.org/index.php/Installation_guide][Arch Wiki]]. They have everything and more than you will ever need.
 
- Open the https://www.archlinux.org/[Arch Linux Official Website] and
+ Open the [[https://www.archlinux.org/][Arch Linux Official Website]] and
  download the latest image file. Later on just take a flash drive and
  burn it with =rufus= on Windows or with =dd= on Linux. To save you some
  trouble, here is an example =dd= command to burn the image
