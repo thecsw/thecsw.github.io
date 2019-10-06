@@ -49,7 +49,7 @@ $(NAME):
 	$(E) "	SETTING PGP KEYS ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key</a>|g' -i
 	$(E) "	SETTING HOME ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Home_LINK|<a href="../../">Home</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Home_LINK|<a href="https://thecsw.github.io">Home</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|<title>|<meta property="og:image" content="preview.png">\n<title>|g' -i
 
