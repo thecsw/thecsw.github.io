@@ -47,6 +47,10 @@ interesting!
 
  - [[./documents/20190320-KCDC-Alpha-Report.pdf][KCDC Alpha Cybersecurity competition]]
  - [[./documents/20181130-Twin-Peaks-as-a-Cult-Film.pdf][Twin Peaks as a Cult Film]]
+*** My randomness
+I say some things that I would like to save for the future and so let me log
+them on my page! Click on [[./quotes][this link]] and get to know me.
+
 *** This Website
 
   I love typesetting tools. In my experience, I have used and written
@@ -61,6 +65,6 @@ interesting!
   It is one of my dreams to typeset documents and books like Brian
   Kernighan:
 
-  - [[https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/ref=sr_1_1?keywords=The+go+programming+languagu&qid=1556766950&s=gateway&sr=8-1-spell][The GO Programming Language]]
-  - [[https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_2?crid=3CGWLG27VTZ18&keywords=the+c+programming+language+2nd+edition&qid=1556952161&s=gateway&sprefix=The+c+program%252Caps%252C182&sr=8-2][C Programming Language, 2nd Edition]] 
-  - [[https://www.amazon.com/gp/product/013937681X/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5][The Unix Programming Environment]]
+  - [[https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/ref=sr_1_1?keywords=The+go+programming+languagu&qid=1556766950&s=gateway&sr=8-1-spell][The GO Programming Language, title="Best GO Book you can find out there"]]
+  - [[https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_2?crid=3CGWLG27VTZ18&keywords=the+c+programming+language+2nd+edition&qid=1556952161&s=gateway&sprefix=The+c+program%252Caps%252C182&sr=8-2][C Programming Language, 2nd Edition, title="The Bible of computing world"]] 
+  - [[https://www.amazon.com/gp/product/013937681X/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5][The Unix Programming Environment, title="The Almanac of computing world"]]
