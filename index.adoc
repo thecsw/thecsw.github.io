@@ -63,10 +63,30 @@ Cybersecurity competition]
 * link:./documents/20181130-Twin-Peaks-as-a-Cult-Film.pdf[Twin Peaks as
 a Cult Film]
 
-=== My favorites
+=== My quotes
 
 I have some of my favorite quotes and sayings recorded. Some of them are
 mine. link:./quotes[The page is here!]
+
+=== My favorite movies
+
+I love movies and I think movies deserve a separate full section on my
+website. Well, I have taken a Film class my freshman year and I loved
+it. It was a class about trash movies. Talk to me about that! Alright,
+here is the list:
+
+* The Godfather
+* The Godfather Part II
+* 2001: A Space Odyssey
+* The Big Lebowski
+
+=== My favorite books
+
+I love reading too! Here is some list of my favorites:
+
+* Solaris
+* The Tao of Pooh
+* A Doll's House
 
 === This Website
 
