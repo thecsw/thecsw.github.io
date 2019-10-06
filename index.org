@@ -47,9 +47,9 @@ interesting!
 
  - [[./documents/20190320-KCDC-Alpha-Report.pdf][KCDC Alpha Cybersecurity competition]]
  - [[./documents/20181130-Twin-Peaks-as-a-Cult-Film.pdf][Twin Peaks as a Cult Film]]
-*** My randomness
-I say some things that I would like to save for the future and so let me log
-them on my page! Click on [[./quotes][this link]] and get to know me.
+*** My favorites
+I have some of my favorite quotes and sayings recorded. Some of them are
+mine. [[./quotes][The page is here!]]
 
 *** This Website
 
