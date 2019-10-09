@@ -48,6 +48,8 @@
  - [[./documents/20191005-Jeffersonian-Democracy.pdf][Jeffersonian Democracy and Education]]
  - [[./documents/20190320-KCDC-Alpha-Report.pdf][KCDC Alpha Cybersecurity competition]]
  - [[./documents/20181130-Twin-Peaks-as-a-Cult-Film.pdf][Twin Peaks as a Cult Film]]
+ - [[./documents/20180500-IB-EE-RSA.pdf][RSA: Encrypting, Decrypting, Hacking.]]
+ - [[./documents/20180400-Approximation-of-Divergent-Series.pdf][Approximation of Divergent Series]]
 *** My quotes
     I have some of my favorite quotes and sayings recorded. Some of them are
     mine. [[./quotes][The page is here!]]

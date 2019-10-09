@@ -62,6 +62,10 @@ Democracy and Education]
 Cybersecurity competition]
 * link:./documents/20181130-Twin-Peaks-as-a-Cult-Film.pdf[Twin Peaks as
 a Cult Film]
+* link:./documents/20180500-IB-EE-RSA.pdf[RSA: Encrypting, Decrypting,
+Hacking.]
+* link:./documents/20180400-Approximation-of-Divergent-Series.pdf[Approximation
+of Divergent Series]
 
 === My quotes
 
