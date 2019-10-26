@@ -4,8 +4,12 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures
 
-BEGIN_ABSTRACT This is a converted version of my speech I gave at my
-public speaking class in college. You can find the original document
+[abstract]
+.Abstract
+
+
+This is a converted version of my speech I gave at my public speaking
+class in college. You can find the original document
 link:../../documents/20190500-Year-2019.pdf[here]. Thisspeech is meant
 to persuade its audience. I truly believe that changing the current
 marking method of history can shift the way we thenx and perceive
