@@ -23,6 +23,7 @@ EMAIL = ctu@ku.edu
 VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK\n:toc: left\n:toc-title: Table of Adventures
 LINKEDIN = https://www.linkedin.com/in/thecsw/
 GITHUB = https://github.com/thecsw
+RESUME = /resume
 GPG_KEY = https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B
 
 $(NAME):
@@ -45,7 +46,7 @@ $(NAME):
 	$(E) "	SETTING GITHUB ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub</a>|g' -i
 	$(E) "	SETTING RESUME ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Resume_LINK|<a href="./resume.pdf">Resume</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume</a>|g' -i
 	$(E) "	SETTING PGP KEYS ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key</a>|g' -i
 	$(E) "	SETTING HOME ..."
@@ -54,6 +55,8 @@ $(NAME):
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|<title>|<meta property="og:image" content="preview.png">\n<title>|g' -i
 	$(E) "	SETTING FAVICON ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>|g' -i
+	$(E) "	SETTING META TAGS ..."
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|&lt;|<|g;s|&gt;|>|g;' -i
 
 clean:
 	$(E) "	CLEANING OUTPUT"
