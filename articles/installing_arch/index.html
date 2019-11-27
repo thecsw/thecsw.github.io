@@ -716,7 +716,7 @@ Awful. To fix that and get the maximum download speed, do the following:</p>
 <div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 % sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
-% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist</code></pre>
+% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -746,7 +746,7 @@ and Bootloader about the partitions of our disk. To do so, perform:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% genfstab -U /mnt >> /mnt/etc/fstab</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
 </div>
 </div>
 <div class="admonitionblock caution">
@@ -820,11 +820,11 @@ sure you followed all the steps correctly.
 </li>
 <li>
 <p>Set the <code>LANG</code> variable equal to locale
-<code>% echo 'LANG=en_US.UTF-8' > /etc/locale.conf</code></p>
+<code>% echo 'LANG=en_US.UTF-8' &gt; /etc/locale.conf</code></p>
 </li>
 <li>
 <p>Set the keyboard layout to standard QWERTY
-<code>% echo 'KEYMAP=us' > /etc/vconsole.conf</code></p>
+<code>% echo 'KEYMAP=us' &gt; /etc/vconsole.conf</code></p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -833,7 +833,7 @@ sure you followed all the steps correctly.
 </td>
 <td class="content">
 If you are a power user with <em>dvorak</em>, run
-<code>% echo 'KEYMAP=dvorak' > /etc/vconsole.conf</code>
+<code>% echo 'KEYMAP=dvorak' &gt; /etc/vconsole.conf</code>
 </td>
 </tr>
 </table>
@@ -841,7 +841,7 @@ If you are a power user with <em>dvorak</em>, run
 </li>
 <li>
 <p>Set the hostname of your choice
-<code>% echo _myhostname_ > /etc/hostname</code></p>
+<code>% echo _myhostname_ &gt; /etc/hostname</code></p>
 </li>
 <li>
 <p>Configure the hosts on your machine</p>
@@ -1023,7 +1023,7 @@ links will be included.</p>
 <p>Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3 dmenu</code></p>
 </li>
 <li>
-<p>Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 > ~/.xinitrc</code> and
+<p>Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and
 <code>% chmod 700 ~/.xinitrc</code></p>
 </li>
 <li>
@@ -1131,7 +1131,7 @@ Linux compared to other distributions</a>]</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-11-02 00:32:53 -0500
+Last updated 2019-11-27 14:55:07 -0600
 </div>
 </div>
 </body>

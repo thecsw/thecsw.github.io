@@ -248,8 +248,7 @@ will be simple, I promise).
 +
 [source,example]
 ----
-~/.muttrc
----------
+# This should go to ~/.muttrc
 # Set up all the folders
 set folder="~/.mail/mymail"
 mailboxes = +INBOX

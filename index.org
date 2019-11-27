@@ -34,6 +34,7 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+  - [[./articles/better_mutt/][Advanced Neomutt]]
   - [[./articles/year_12019/][Welcome to year 12,019]]
   - [[./articles/mini_jenni/][Mini Jenni - my new best friend]]
   - [[./articles/using_mutt/][Bring joy back to e-mail with Mutt]]

@@ -232,8 +232,7 @@ be an exercise for the reader to get the meaning of the entries (this
 will be simple, I promise).
 
 #+BEGIN_EXAMPLE
-  ~/.muttrc
-  ---------
+  # This should go to ~/.muttrc
   # Set up all the folders
   set folder="~/.mail/mymail"
   mailboxes = +INBOX
