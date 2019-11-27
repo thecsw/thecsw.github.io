@@ -7,7 +7,7 @@
 <meta name="generator" content="Asciidoctor 2.0.10">
 <meta name="author" content="Sagindyk Urazayev">
 <meta property="og:image" content="preview.png">
-<title>My randomness</title>
+<title>Advanced Neomutt</title>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -439,54 +439,119 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>My randomness</h1>
+<h1>Advanced Neomutt</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="https://www.linkedin.com/in/thecsw/">LinkedIn</a> | <a href="https://github.com/thecsw">GitHub</a> | <a href="/resume">Resume</a> | <a href="https://pgp.key-server.io/pks/lookup?op=vindex&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B">PGP Key</a> | <a href="/">Home</a></span>
 </div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Adventures</div>
+<ul class="sectlevel1">
+<li><a href="#_named_mailboxes">Named Mailboxes</a></li>
+<li><a href="#_threads">Threads</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
-<div class="ulist">
-<ul>
-<li>
-<p>You know what I miracle it is to wake up? You can go to sleep and
-never wake up. It happens pretty often. So when you wake up and feel the
-sunshine on your eyelids, be grateful that you get to experience this
-beatiful world at least one more time. – Me to my roommate on a Friday
-morning</p>
-</li>
-<li>
-<p>There are only two skills worth developing, empathy and faith. Empathy
-to support others and faith to support yourself.</p>
-</li>
-<li>
-<p>It&#8217;s hard to explain, except by example, but it works. Things just
-happen in the right way, at the right time. At least they do when you
-let them, when you work with circumstances instead of saying, "This
-isn&#8217;t supposed to be happening this way," and trying hard to make it
-happen some other way. If you&#8217;re in tune with The Way Things Work, then
-they work the way they need to, no matter what you may think about it at
-the time. – <em>The Tao of Pooh</em></p>
-</li>
-<li>
-<p><em>What day is it?</em>, asked Pooh. <em>Why, it&#8217;s Today!</em>, squeaked Piglet.
-<em>My favorite day</em>, said Pooh.</p>
-</li>
-<li>
-<p>An Empty sort of mind is valuable for finding pearls and tails and
-things because it can see what&#8217;s in front of it. An Overstuffed mind is
-unable to. While the Clear mind listens to a bird singing, the
-Stuffed-Full-of-Knowledge-and-Cleverness mind wonders what kind of bird
-is singing. The more Stuffed Up it is, the less it can hear through its
-own ears and see through its own eyes.</p>
-</li>
-<li>
-<p>My destination everywhere is nowhere.</p>
-</li>
-</ul>
+<div id="preamble">
+<div class="sectionbody">
+<div class="quoteblock abstract">
+<div class="title">Abstract</div>
+<blockquote>
+Hello there! This is an article on advanced neomutt features that might
+have been missed in my <a href="../using_mutt">previous article</a> on
+(neo)mutt. This page has been inspired by
+<a href="https://github.com/neomutt/neomutt/issues/1958">some of the issues</a> I had
+with neomutt and the fantastic neomutt community.
+</blockquote>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_named_mailboxes">Named Mailboxes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>With release <a href="https://github.com/neomutt/neomutt/tree/20191102">20191102</a>,
+neomutt team has introduced named-mailboxes features, which allows you
+to name your mailboxes (duh) in the sidebar. It can be used for some
+pretty creative things, like setting a mailbox different to what you
+have in your <code>.mail</code> directory, change the language, or make delimeters.
+For example, here is an excerpt from one of my neomutt accounts that is
+tied to my KU mail account</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">set folder="~/.mail/kumail"
+set spoolfile = +'INBOX'
+
+set trash = +'Deleted Items'
+set postponed = +'Drafts'
+set record = +'Sent Items'
+named-mailboxes "  ―――――― ♠ KU ――――――  " =Journal
+named-mailboxes "↓ Inbox" =INBOX
+named-mailboxes "↑ Sent" ='Sent Items'
+named-mailboxes "∇ Trash" ='Deleted Items'
+named-mailboxes "∗ Junk" ='Junk Email'
+named-mailboxes "∃ Drafts" ='Drafts'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After launching neomutt, it gives me nice custom sidebar with a dope
+delimeter</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">  ―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
+↓ Inbox [32]       3568│ 2 |   [11-27-19 09:07:01] Bill      All rights reserved.
+↑ Sent              797│ 3 |   [11-27-19 06:07:02] Lao Tse   Difficult Paths
+∇ Trash             359│ 4 |   [11-27-19 06:59:18] Mando     This is the way
+∗ Junk                4│ 5 |   [11-26-19 22:59:02] BlondiXXX How much does she love you?
+∃ Drafts               │ 6 |   ...</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>named-mailboxes</code> also work with multiple accounts. You can use some
+garbage mailboxes (looking at you, Journal) as delimeters.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_threads">Threads</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I have been looking around how to do threads and I finally found out
+how. Usually, mutt just gives you your mail all in one blob of a list.
+With threads, you can have beautiful trees of replies, threads,
+forwards, and more! To trigger that, just add this to your <code>.muttrc</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">set sort = 'reverse-threads'
+set sort_aux = 'last-date-received'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This is how it looks with huge mail chains</p>
+</div>
+<div class="imageblock center">
+<div class="content">
+<a class="image" href="./threads.png"><img src="threads.png" alt="threads"></a>
+</div>
+<div class="title">Figure 1. Fortune mailchain with threads enabled</div>
+</div>
+<div class="paragraph">
+<p>For ease of use, you can add the following line to bind your <code>c</code> key to
+collapse threads</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">macro index c &lt;collapse-thread&gt; "collapse-thread"</code></pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div id="footer">
