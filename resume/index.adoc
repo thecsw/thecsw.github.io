@@ -6,4 +6,5 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 
 <meta http-equiv="refresh" content="0; url=./resume.pdf" /> You
 shouldn't really see this. This page will take you to my resume
-automatically.
+automatically. If it doesn't load, link:./resume.pdf[click here] to
+continue.
