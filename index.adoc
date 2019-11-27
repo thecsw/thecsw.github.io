@@ -44,7 +44,7 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
-* link:./articles/better_mutt/[Advanced Neomutt]
+* link:./articles/better_mutt/[Faster, better, stronger neomutt]
 * link:./articles/year_12019/[Welcome to year 12,019]
 * link:./articles/mini_jenni/[Mini Jenni - my new best friend]
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt]
