@@ -55,8 +55,8 @@ $(NAME):
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|<title>|<meta property="og:image" content="preview.png">\n<title>|g' -i
 	$(E) "	SETTING FAVICON ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>|g' -i
-#	$(E) "	SETTING META TAGS ..."
-#	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|&lt;|<|g;s|&gt;|>|g;' -i
+	$(E) "	FIXING RESUME REDIRECT ..."
+	$(Q) find ./resume -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|&lt;|<|g;s|&gt;|>|g;' -i
 
 clean:
 	$(E) "	CLEANING OUTPUT"
