@@ -52,7 +52,7 @@ $(NAME):
 	$(E) "	SETTING HOME ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Home_LINK|<a href="/">Home</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|<title>|<title>\n<meta property="og:image" content="preview.png">\n|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<meta property="og:image" content="preview.png">\n|g' -i
 	$(E) "	SETTING FAVICON ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>|g' -i
 	$(E) "	SETTING SCRIPTS ..."
