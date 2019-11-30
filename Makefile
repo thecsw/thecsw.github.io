@@ -56,7 +56,7 @@ $(NAME):
 	$(E) "	SETTING FAVICON ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>|g' -i
 	$(E) "	SETTING SCRIPTS ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n</style><script src="snowstorm-min.js"></script>""|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g' -i
 	$(E) "	FIXING RESUME REDIRECT ..."
 	$(Q) find ./resume -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|&lt;|<|g;s|&gt;|>|g;' -i
 
