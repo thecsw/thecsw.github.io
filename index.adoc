@@ -13,7 +13,8 @@ general. Wield the power of the terminal with `+awk+`, `+sed+`, and
 `+grep+`! I have interests in cyber-security, DevOps, Software
 Development, System Automation, Data Science, and Typesetting tools. I
 am the current active CTO at https://kuisc.com[KU Information Security
-Club].
+Club]. I am also the co-founder of https://kuemacs.github.io/[KU Emacs
+Club]!
 
 I am the creator and founder of
 https://reddit.com/u/MemeInvestor_bot[Meme Investor Bot] - the biggest
