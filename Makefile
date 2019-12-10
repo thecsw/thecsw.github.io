@@ -25,6 +25,8 @@ LINKEDIN = https://www.linkedin.com/in/thecsw/
 GITHUB = https://github.com/thecsw
 RESUME = /resume
 GPG_KEY = https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B
+FONT = Inter
+FONT_CODE = Iosevka
 
 $(NAME):
 	$(E) "	CONVERTING ORG TO ADOC ..."
@@ -59,6 +61,8 @@ $(NAME):
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g' -i
 	$(E) "	FIXING RESUME REDIRECT ..."
 	$(Q) find ./resume -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|&lt;|<|g;s|&gt;|>|g;' -i
+	$(E) "	UPDATING FONTS ..."
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
 
 clean:
 	$(E) "	CLEANING OUTPUT"
