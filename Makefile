@@ -63,6 +63,7 @@ $(NAME):
 	$(Q) find ./resume -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|&lt;|<|g;s|&gt;|>|g;' -i
 	$(E) "	UPDATING FONTS ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<link rel="stylesheet" type="text/css" href="/inter/inter.css">|g' -i
 
 clean:
 	$(E) "	CLEANING OUTPUT"
