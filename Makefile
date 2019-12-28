@@ -64,6 +64,8 @@ $(NAME):
 	$(E) "	UPDATING FONTS ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">|g' -i
+	$(E) "	UPDATING AUDIO ..."
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|g;' -i
 
 clean:
 	$(E) "	CLEANING OUTPUT"
