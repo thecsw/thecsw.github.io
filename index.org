@@ -85,4 +85,9 @@
 
   - [[https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/ref=sr_1_1?keywords=The+go+programming+languagu&qid=1556766950&s=gateway&sr=8-1-spell][The GO Programming Language, title="Best GO Book you can find out there"]]
   - [[https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_2?crid=3CGWLG27VTZ18&keywords=the+c+programming+language+2nd+edition&qid=1556952161&s=gateway&sprefix=The+c+program%252Caps%252C182&sr=8-2][C Programming Language, 2nd Edition, title="The Bible of computing world"]] 
-  - [[https://www.amazon.com/gp/product/013937681X/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5][The Unix Programming Environment, title="The Almanac of computing world"]]
+  - [[https://www.amazon.com/gp/product/013937681X/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5][The
+    Unix Programming Environment, title="The Almanac of computing world"]]
+*** Good stuff
+I wish to share this [[https://en.wikipedia.org/wiki/Por_una_Cabeza][beautiful song]] with you 
+
+PLAY_SONG porunacabeza.mp3

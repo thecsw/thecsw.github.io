@@ -8,13 +8,12 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK
 
 My name is Sagindyk, everybody just calls me Sandy. Currently, I am a
 Computer Science undergraduate student at https://ku.edu[University of
-Kansas] I am a huge fan of `+*UNIX*+` philosophy and `+Linux+` tools in
-general. Wield the power of the terminal with `+awk+`, `+sed+`, and
-`+grep+`! I have interests in cyber-security, DevOps, Software
-Development, System Automation, Data Science, and Typesetting tools. I
-am the current active CTO at https://kuisc.com[KU Information Security
-Club]. I am also the co-founder of https://kuemacs.github.io/[KU Emacs
-Club]!
+Kansas] I am a huge fan of `*UNIX*` philosophy and `Linux` tools in
+general. Wield the power of the terminal with `awk`, `sed`, and `grep`!
+I have interests in cyber-security, DevOps, Software Development, System
+Automation, Data Science, and Typesetting tools. I am the current active
+CTO at https://kuisc.com[KU Information Security Club]. I am also the
+co-founder of https://kuemacs.github.io/[KU Emacs Club]!
 
 I am the creator and founder of
 https://reddit.com/u/MemeInvestor_bot[Meme Investor Bot] - the biggest
@@ -97,10 +96,10 @@ I love reading too! Here is some list of my favorites:
 === This Website
 
 I love typesetting tools. In my experience, I have used and written
-articles and papers using the following list of tools: `+LaTeX+`,
-`+groff+`, `+markdown+`, `+Org-Mode+`, `+asciidoctor+`, `+HTML+`,
-`+plain text+`. I had to uncompress Word files and work with raw XML
-files there, what a trip that was.
+articles and papers using the following list of tools: `LaTeX`, `groff`,
+`markdown`, `Org-Mode`, `asciidoctor`, `HTML`, `plain text`. I had to
+uncompress Word files and work with raw XML files there, what a trip
+that was.
 
 This beautiful website typed in https://orgmode.org/[Org-Mode] and built
 using http://asciidoctor.org[Asciidoctor]. The source code can be found
@@ -115,3 +114,10 @@ GO Programming Language, title="Best GO Book you can find out there"]
 Programming Language, 2nd Edition, title="The Bible of computing world"]
 * https://www.amazon.com/gp/product/013937681X/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5[The
 Unix Programming Environment, title="The Almanac of computing world"]
+
+=== Good stuff
+
+I wish to share this
+https://en.wikipedia.org/wiki/Por_una_Cabeza[beautiful song] with you
+
+PLAY_SONG porunacabeza.mp3
