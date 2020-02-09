@@ -35,11 +35,11 @@
   them interesting and you can learn something new! Always learn something
   new!
 
-  - [[./articles/better_mutt/][Faster, better, stronger neomutt]]
-  - [[./articles/year_12019/][Welcome to year 12,019]]
-  - [[./articles/mini_jenni/][Mini Jenni - my new best friend]]
-  - [[./articles/using_mutt/][Bring joy back to e-mail with Mutt]]
-  - [[./articles/installing_arch/][Installing Glorious Arch Linux]]
+  - [[./articles/better_mutt/][Faster, better, stronger neomutt]] 🐩
+  - [[./articles/year_12019/][Welcome to year 12,019]] 📅
+  - [[./articles/mini_jenni/][Mini Jenni - my new best friend]] 🏮
+  - [[./articles/using_mutt/][Bring joy back to e-mail with Mutt]] 🐕
+  - [[./articles/installing_arch/][Installing Glorious Arch Linux ☄️]  
 
 *** My documents
     This is a list of some articles, essays, reports and presentations I have made

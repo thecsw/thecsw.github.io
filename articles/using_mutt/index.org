@@ -1,4 +1,4 @@
-* Bring joy back to e-mail with Mutt
+* Bring joy back to e-mail with Mutt 🐕
 
 ** Abstract
  "Electronic mail (email or e-mail) is a method of

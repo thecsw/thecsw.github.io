@@ -1,4 +1,4 @@
-*  Installing Glorious Arch Linux
+*  Installing Glorious Arch Linux ☄️
   
 Welcome to my guide on installing Glorious Arch
 Linux! For some background, I have been using arch for the last and it
