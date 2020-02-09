@@ -2,7 +2,7 @@
 Sagindyk Urazayev <ctu@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
-:toc-title: Table of Adventures
+:toc-title: Table of Adventures ⛵
 
 Welcome to my guide on installing Glorious Arch Linux! For some
 background, I have been using arch for the last and it is still my only

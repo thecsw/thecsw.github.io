@@ -2,7 +2,7 @@
 Sagindyk Urazayev <ctu@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
-:toc-title: Table of Adventures
+:toc-title: Table of Adventures ⛵
 
 This is just a showcase of my building process of my new best friend -
 https://myminijenni.weebly.com/[Mini Jenni], made by Jenny Cox. Before
