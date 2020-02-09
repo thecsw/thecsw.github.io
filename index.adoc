@@ -48,7 +48,7 @@ something new!
 * link:./articles/year_12019/[Welcome to year 12,019] 📅
 * link:./articles/mini_jenni/[Mini Jenni - my new best friend] 🏮
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt] 🐕
-* [[./articles/installing_arch/][Installing Glorious Arch Linux ☄️]
+* link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
 === My documents
 
