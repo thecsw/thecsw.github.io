@@ -20,7 +20,7 @@ INPUT_TYPE = adoc
 OUTPUT_TYPE = html
 NAME = Sagindyk Urazayev
 EMAIL = ctu@ku.edu
-VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK\n:toc: left\n:toc-title: Table of Adventures
+VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK\n:toc: left\n:toc-title: Table of Adventures ⛵
 LINKEDIN = https://www.linkedin.com/in/thecsw/
 GITHUB = https://github.com/thecsw
 RESUME = /resume
@@ -44,15 +44,15 @@ $(NAME):
 	$(E) "	BUILDING ..."
 	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs $(COMPILER) $(FLAGS)
 	$(E) "	SETTING LINKEDIN ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|LinkedIn_LINK|<a href="$(LINKEDIN)">LinkedIn</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|LinkedIn_LINK|<a href="$(LINKEDIN)">LinkedIn 🕴</a>|g' -i
 	$(E) "	SETTING GITHUB ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub 🐙</a>|g' -i
 	$(E) "	SETTING RESUME ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume 📋</a>|g' -i
 	$(E) "	SETTING PGP KEYS ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key 🔑</a>|g' -i
 	$(E) "	SETTING HOME ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Home_LINK|<a href="/">Home</a>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Home_LINK|<a href="/">Home 🏠</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<meta property="og:image" content="preview.png">\n|g' -i
 	$(E) "	SETTING FAVICON ..."
