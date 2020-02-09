@@ -1,4 +1,4 @@
-= Installing Glorious Arch Linux
+= Installing Glorious Arch Linux ☄️
 Sagindyk Urazayev <ctu@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
