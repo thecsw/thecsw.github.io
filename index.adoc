@@ -4,7 +4,7 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK
 
 == Welcome to my website! 🌷
 
-=== About me
+=== About me 🤔
 
 My name is Sagindyk, everybody just calls me Sandy. Currently, I am a
 Computer Science undergraduate student at https://ku.edu[University of
@@ -38,7 +38,7 @@ https://github.com/thecsw[my github page]!
 
 TIP: Scroll to the bottom for details on how this website is built.
 
-=== My online articles
+=== My online articles 💻
 
 Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
@@ -50,7 +50,7 @@ something new!
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt 🐕]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
-=== My documents
+=== My documents ⌨
 
 This is a list of some articles, essays, reports and presentations I
 have made for purposes other than publishing online. Most of them (if
@@ -68,12 +68,12 @@ Hacking.]
 * link:./documents/20180400-Approximation-of-Divergent-Series.pdf[Approximation
 of Divergent Series]
 
-=== My quotes
+=== My quotes ☁️
 
 I have some of my favorite quotes and sayings recorded. Some of them are
 mine. link:./quotes[The page is here!]
 
-=== My favorite movies
+=== My favorite movies 🎥
 
 I love movies and I think movies deserve a separate full section on my
 website. Well, I have taken a Film class my freshman year and I loved
@@ -85,7 +85,7 @@ here is the list:
 * 2001: A Space Odyssey
 * The Big Lebowski
 
-=== My favorite books
+=== My favorite books 📚
 
 I love reading too! Here is some list of my favorites:
 
@@ -93,7 +93,7 @@ I love reading too! Here is some list of my favorites:
 * The Tao of Pooh
 * A Doll's House
 
-=== This Website
+=== This Website 🌐
 
 I love typesetting tools. In my experience, I have used and written
 articles and papers using the following list of tools: `LaTeX`, `groff`,
