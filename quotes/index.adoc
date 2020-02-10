@@ -27,3 +27,4 @@ Stuffed-Full-of-Knowledge-and-Cleverness mind wonders what kind of bird
 is singing. The more Stuffed Up it is, the less it can hear through its
 own ears and see through its own eyes.
 * My destination everywhere is nowhere.
+* Life is too short to write C++ programs
