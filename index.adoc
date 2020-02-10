@@ -50,7 +50,7 @@ something new!
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt 🐕]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
-=== My documents ⌨
+=== My documents 📰
 
 This is a list of some articles, essays, reports and presentations I
 have made for purposes other than publishing online. Most of them (if
