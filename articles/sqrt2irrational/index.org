@@ -2,15 +2,15 @@
 
 ** Abstract
 It's been a while since I wanted to install some math packages on my
-website. Finally, I managed to do it by installing =asciidoctor-latex= and
-running some quick =Makefile= magic. It looks that it's working fine! Here is a
+website. Finally, I managed to do it by getting =asciidoctor-latex= and
+running some quick =Makefile= magic. It looks like it's working fine! Here is a
 simple proof that I've come to like over the years.
 
- THEOREM
+ $\underline{Theorem}$
 
  $\sqrt{2}$ is irrational.
 
- PROOF
+ $\underline{Proof}$
 
  Let $a,b \in \mathbb{Z} \quad, \frac{a}{b}=\sqrt{2},\quad b \neq 0, \quad (a,b)=1$
 
