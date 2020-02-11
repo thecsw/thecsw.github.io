@@ -11,7 +11,7 @@ else
 endif
 export E Q
 
-COMPILER = asciidoctor
+COMPILER = asciidoctor-latex -b html
 FLAGS = -a toc
 FLAGS = 
 NAME = mywebsite
@@ -40,7 +40,12 @@ $(NAME):
 	$(E) "	FIXING ARTIFACTS ..."
 	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/~(.+)~/_\1/g' -i
 	$(E) "	ADDING ABSTRACTS ..."
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/== Abstract/[abstract]\n.Abstract\n/g' -i 
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/== Abstract/[abstract]\n.Abstract\n/g' -i
+	$(E) "	UPDATING MATH FORMULAS ..."
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/^PROOF/[latexmath]\n++++\n\\underline{Proof}\n++++\n/g' -i
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/^THEOREM/[latexmath]\n++++\n\\underline{Theorem}\n++++\n/g' -i
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's=\\]$$==g;s=^\\\[==g;' -i
+	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's=latexmath:\[==g;s=[$$]]=$$=g' -i
 	$(E) "	BUILDING ..."
 	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs $(COMPILER) $(FLAGS)
 	$(E) "	SETTING LINKEDIN ..."
