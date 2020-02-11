@@ -35,6 +35,7 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+  - [[./articles/sqrt2irrational][$\sqrt{2}$ is irrational ◻]]
   - [[./articles/better_mutt/][Faster, better, stronger neomutt 🐩]]
   - [[./articles/year_12019/][Welcome to year 12,019 📅]]
   - [[./articles/mini_jenni/][Mini Jenni - my new best friend 🏮]]
