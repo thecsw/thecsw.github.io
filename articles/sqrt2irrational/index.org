@@ -6,11 +6,11 @@ website. Finally, I managed to do it by getting =asciidoctor-latex= and
 running some quick =Makefile= magic. It looks like it's working fine! Here is a
 simple proof that I've come to like over the years.
 
- $\underline{Theorem}$
+ THEOREM
 
  $\sqrt{2}$ is irrational.
 
- $\underline{Proof}$
+ PROOF
 
  Let $a,b \in \mathbb{Z} \quad, \frac{a}{b}=\sqrt{2},\quad b \neq 0, \quad (a,b)=1$
 
