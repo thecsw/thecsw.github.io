@@ -435,55 +435,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 
-<style>
-  .click .title { color: blue; }
-  .click {margin-top: 0.5em; margin-bottom: 0.5em;}
-  .openblock { margin-top: 1em; margin-bottom: 1em; }
-  .openblock>.box>.content { margin-top:1em;margin-bottom: 1em;margin-left:3em;margin-right:4em; }
-</style>
-
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script>
-
-
-
-var ready2;
-
-ready2 = function() {
-
-    $(document).ready(function(){
-
-        $('.openblock.click').click( function()  { $(this).find('.content').slideToggle('200'); } )
-        $('.openblock.click').find('.content').hide()
-
-
-        $('.listingblock.click').click( function()  { $(this).find('.content').slideToggle('200') }  )
-        $('.listingblock.click').find('.content').hide()
-
-    });
-
-}
-
-
-
-
-$(document).ready(ready2);
-$(document).on('page:load', ready2);
-
-
-</script>
-
-</head>
-
-
 <body class="article toc2 toc-left">
 <div id="header">
 <h1>Installing Glorious Arch Linux ☄️</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
-<span id="email" class="email"><a href=mailto:ctu@ku.edu>ctu@ku.edu</a></span><br>
+<span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="https://www.linkedin.com/in/thecsw/">LinkedIn 🕴</a> | <a href="https://github.com/thecsw">GitHub 🐙</a> | <a href="/resume">Resume 📋</a> | <a href="https://pgp.key-server.io/pks/lookup?op=vindex&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B">PGP Key 🔑</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="toc" class="toc2">
@@ -540,11 +497,11 @@ is considered the best one. Every installation can be unique and
 bespoke. This guide only shows how to setup a complete arch environment
 with simple and straight-forward steps. If you want to know more about
 each step and different options you can go with, please consult with the
-official <a href=https://wiki.archlinux.org/index.php/Installation_guide>Arch
+official <a href="https://wiki.archlinux.org/index.php/Installation_guide">Arch
 Wiki</a>. They have everything and more than you will ever need.</p>
 </div>
 <div class="paragraph">
-<p>Inter the <a href=https://www.archlinux.org/>Arch Linux Official Website</a> and
+<p>Inter the <a href="https://www.archlinux.org/">Arch Linux Official Website</a> and
 download the latest image file. Later on just take a flash drive and
 burn it with <code>rufus</code> on Windows or with <code>dd</code> on Linux. To save you some
 trouble, here is an example <code>dd</code> command to burn the image</p>
@@ -917,10 +874,10 @@ running <code>visudo</code></p>
 <p>Small but important things swept out of the way, we have to configure
 one of the most important parts of this installation. Usually only arch
 and gentoo people have to work with manually setting up a bootloader.
-<a href=https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader>Bootloader</a>
+<a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">Bootloader</a>
 is a small program that boots your actual OS after motherboard&#8217;s BIOS
 gives you control over the system. In this installation, we are going
-with <a href=https://freedesktop.org/wiki/Software/systemd/>systemd</a>. It is the
+with <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a>. It is the
 most compatible bootloader with Arch system in general. Also, my
 laptop&#8217;s hardware does not work with other bootloaders. Systemd is
 getting some bad fame because it is bloated, massive, and way too
@@ -934,7 +891,7 @@ Just like C++.</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-You can go with <a href=https://www.gnu.org/software/grub/>GRUB</a>, but
+You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>, but
 please consult with Arch Wiki before trying to do that.
 </td>
 </tr>
@@ -1012,7 +969,7 @@ Post-Installation chapter.</p>
 If you did not see the login prompt, retrace your steps and
 make sure you followed everything in this guide. Best way to get out, is
 just search for the problem online or visit
-<a href=https://reddit.com/r/archlinux>r/archlinux</a> to get some real online
+<a href="https://reddit.com/r/archlinux">r/archlinux</a> to get some real online
 help.
 </td>
 </tr>
@@ -1098,15 +1055,15 @@ to learn something new about Linux and yourself.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a href=https://wiki.archlinux.org/index.php/Frequently_asked_questions>Arch
+<p><a href="https://wiki.archlinux.org/index.php/Frequently_asked_questions">Arch
 Linux Frequently Asked Questions</a></p>
 </li>
 <li>
-<p><a href=https://wiki.archlinux.org/index.php/General_recommendations>Arch
+<p><a href="https://wiki.archlinux.org/index.php/General_recommendations">Arch
 Linux General Recommendations</a></p>
 </li>
 <li>
-<p><a href=https://wiki.archlinux.org/index.php/List_of_applications>Arch Linux
+<p><a href="https://wiki.archlinux.org/index.php/List_of_applications">Arch Linux
 List of Applications</a></p>
 </li>
 </ul>
@@ -1127,14 +1084,14 @@ for a program and when installing it.
 <div class="ulist">
 <ul>
 <li>
-<p><a href=https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions>Arch
+<p><a href="https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions">Arch
 Linux compared to other distributions</a>]</p>
 </li>
 <li>
-<p><a href=https://www.archlinux.org/packages/>Arch Linux packages</a></p>
+<p><a href="https://www.archlinux.org/packages/">Arch Linux packages</a></p>
 </li>
 <li>
-<p><a href=https://aur.archlinux.org/>Arch Linux AUR Home</a></p>
+<p><a href="https://aur.archlinux.org/">Arch Linux AUR Home</a></p>
 </li>
 </ul>
 </div>
@@ -1166,7 +1123,7 @@ Linux compared to other distributions</a>]</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-15 23:27:34 -0600
+Last updated 2020-02-15 23:42:57 -0600
 </div>
 </div>
 <script type="text/x-mathjax-config">
