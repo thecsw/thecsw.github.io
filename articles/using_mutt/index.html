@@ -435,55 +435,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 
-<style>
-  .click .title { color: blue; }
-  .click {margin-top: 0.5em; margin-bottom: 0.5em;}
-  .openblock { margin-top: 1em; margin-bottom: 1em; }
-  .openblock>.box>.content { margin-top:1em;margin-bottom: 1em;margin-left:3em;margin-right:4em; }
-</style>
-
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script>
-
-
-
-var ready2;
-
-ready2 = function() {
-
-    $(document).ready(function(){
-
-        $('.openblock.click').click( function()  { $(this).find('.content').slideToggle('200'); } )
-        $('.openblock.click').find('.content').hide()
-
-
-        $('.listingblock.click').click( function()  { $(this).find('.content').slideToggle('200') }  )
-        $('.listingblock.click').find('.content').hide()
-
-    });
-
-}
-
-
-
-
-$(document).ready(ready2);
-$(document).on('page:load', ready2);
-
-
-</script>
-
-</head>
-
-
 <body class="article toc2 toc-left">
 <div id="header">
 <h1>Bring joy back to e-mail with Mutt 🐕</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
-<span id="email" class="email"><a href=mailto:ctu@ku.edu>ctu@ku.edu</a></span><br>
+<span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="https://www.linkedin.com/in/thecsw/">LinkedIn 🕴</a> | <a href="https://github.com/thecsw">GitHub 🐙</a> | <a href="/resume">Resume 📋</a> | <a href="https://pgp.key-server.io/pks/lookup?op=vindex&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B">PGP Key 🔑</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="toc" class="toc2">
@@ -578,12 +535,12 @@ other.</p>
 <h2 id="_what_is_mutt">What is Mutt?</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><a href=http://www.mutt.org/>Mutt</a> is a text-based email client developed by
+<p><a href="http://www.mutt.org/">Mutt</a> is a text-based email client developed by
 Michael Elkins in 1995 for UNIX-like systems. I want to say that this is
 truly the way emails were meant to be used. Before I start getting angry
 emails, I am aware of other fantastic <code>TUI</code> and <code>ncurses</code> email clients,
-such as: <a href=http://www.gnus.org/>Gnus</a>, <a href=http://www.instinct.org/elm/>Elm</a>,
-and <a href=http://alpine.x10host.com/alpine/>Alpine</a> (Used by Brian
+such as: <a href="http://www.gnus.org/">Gnus</a>, <a href="http://www.instinct.org/elm/">Elm</a>,
+and <a href="http://alpine.x10host.com/alpine/">Alpine</a> (Used by Brian
 Kernighan!). However, it is safe to say that <code>Mutt</code> is the most
 extensive, feature-rich, actively developed, and well-supported by its
 community. Just to list some of its features, please take a look at the
@@ -622,7 +579,7 @@ excerpt from Mutt&#8217;s website below:</p>
 <p><em>It&#8217;s free!</em> (no cost and GPL&#8217;ed)</p>
 </li>
 <li>
-<p>and so <a href=http://www.mutt.org/>much more!</a></p>
+<p>and so <a href="http://www.mutt.org/">much more!</a></p>
 </li>
 </ul>
 </div>
@@ -694,7 +651,7 @@ should be executed.
 <div class="paragraph">
 <p>If you do not have it installed, you can run
 <code>% sudo pacman -S offlineimap</code> on Arch Linux to install it or use python
-package manager <a href=https://pypi.org/project/pip/>pip</a> to install it.</p>
+package manager <a href="https://pypi.org/project/pip/">pip</a> to install it.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -806,7 +763,7 @@ Arch Linux, it just would be</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Consult with the <a href=https://neomutt.org/distro.html>official downloads
+<p>Consult with the <a href="https://neomutt.org/distro.html">official downloads
 page</a> for a list of the biggest distributions and how to install package
 on them.</p>
 </div>
@@ -922,7 +879,7 @@ your email password and only you should be able te unlock it. We will
 encrypt your password with GPG. To do so, you have to have a pair of
 keys: public and private. To read more about public and private key
 encryption, visit its
-<a href=https://en.wikipedia.org/wiki/Public-key_cryptography>Wikipedia page.</a></p>
+<a href="https://en.wikipedia.org/wiki/Public-key_cryptography">Wikipedia page.</a></p>
 </div>
 <div class="paragraph">
 <p>We will make you a pair of your own encryption keys to store your
@@ -1020,7 +977,7 @@ Don't call me</code></pre>
 <div class="paragraph">
 <p>If you are feeling dangerous, you can start signing your emails,
 encrypting them, armored signatures, and other cool stuff. To do that,
-download <a href=./gpg.rc>this file</a>, add that to your <code>~/.mutt/</code>
+download <a href="./gpg.rc">this file</a>, add that to your <code>~/.mutt/</code>
 directory, create one if you don&#8217;t have it, and add the following line
 to your <code>_/.muttrc</code>: <code>source /.mutt/gpg.rc</code></p>
 </div>
@@ -1031,7 +988,7 @@ to your <code>_/.muttrc</code>: <code>source /.mutt/gpg.rc</code></p>
 <li>
 <p>Read web pages in your email</p>
 <div class="paragraph">
-<p>Download <a href=./mailcap>this file</a>, move the file to the <code>~/.mutt/</code>
+<p>Download <a href="./mailcap">this file</a>, move the file to the <code>~/.mutt/</code>
 directory, add this line to your configuration file
 <code>set mailcap_path = ~/.mutt/mailcap</code></p>
 </div>
@@ -1042,7 +999,7 @@ directory, add this line to your configuration file
 <p>Make your NeoMutt look really good. Same drill.</p>
 </div>
 <div class="paragraph">
-<p>Download <a href=./color.mutt>this file</a>, move the file to the <code>~/.mutt/</code>
+<p>Download <a href="./color.mutt">this file</a>, move the file to the <code>~/.mutt/</code>
 directory, add this line to your configuration file
 <code>source $HOME/.mutt/color.mutt</code></p>
 </div>
@@ -1064,12 +1021,12 @@ directory, add this line to your configuration file
 <div id="footnotes">
 <hr>
 <div class="footnote" id="_footnotedef_1">
-<a href="#_footnoteref_1">1</a>. Taken directly from <a href=https://en.wikipedia.org/wiki/Email>Wikipedia</a>
+<a href="#_footnoteref_1">1</a>. Taken directly from <a href="https://en.wikipedia.org/wiki/Email">Wikipedia</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-15 23:27:34 -0600
+Last updated 2020-02-15 23:42:57 -0600
 </div>
 </div>
 <script type="text/x-mathjax-config">

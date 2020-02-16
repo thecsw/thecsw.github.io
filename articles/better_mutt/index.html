@@ -435,55 +435,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 
-<style>
-  .click .title { color: blue; }
-  .click {margin-top: 0.5em; margin-bottom: 0.5em;}
-  .openblock { margin-top: 1em; margin-bottom: 1em; }
-  .openblock>.box>.content { margin-top:1em;margin-bottom: 1em;margin-left:3em;margin-right:4em; }
-</style>
-
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script>
-
-
-
-var ready2;
-
-ready2 = function() {
-
-    $(document).ready(function(){
-
-        $('.openblock.click').click( function()  { $(this).find('.content').slideToggle('200'); } )
-        $('.openblock.click').find('.content').hide()
-
-
-        $('.listingblock.click').click( function()  { $(this).find('.content').slideToggle('200') }  )
-        $('.listingblock.click').find('.content').hide()
-
-    });
-
-}
-
-
-
-
-$(document).ready(ready2);
-$(document).on('page:load', ready2);
-
-
-</script>
-
-</head>
-
-
 <body class="article toc2 toc-left">
 <div id="header">
 <h1>Faster, better, stronger neomutt 🐩</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
-<span id="email" class="email"><a href=mailto:ctu@ku.edu>ctu@ku.edu</a></span><br>
+<span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="https://www.linkedin.com/in/thecsw/">LinkedIn 🕴</a> | <a href="https://github.com/thecsw">GitHub 🐙</a> | <a href="/resume">Resume 📋</a> | <a href="https://pgp.key-server.io/pks/lookup?op=vindex&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B">PGP Key 🔑</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="toc" class="toc2">
@@ -501,9 +458,9 @@ $(document).on('page:load', ready2);
 <div class="title">Abstract</div>
 <blockquote>
 Hello there! This is an article on advanced neomutt features that might
-have been missed in my <a href=../using_mutt>previous article</a> on
+have been missed in my <a href="../using_mutt">previous article</a> on
 (neo)mutt. This page has been inspired by
-<a href=https://github.com/neomutt/neomutt/issues/1958>some of the issues</a> I had
+<a href="https://github.com/neomutt/neomutt/issues/1958">some of the issues</a> I had
 with neomutt and the fantastic neomutt community.
 </blockquote>
 </div>
@@ -513,7 +470,7 @@ with neomutt and the fantastic neomutt community.
 <h2 id="_named_mailboxes">Named Mailboxes</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>With release <a href=https://github.com/neomutt/neomutt/tree/20191102>20191102</a>,
+<p>With release <a href="https://github.com/neomutt/neomutt/tree/20191102">20191102</a>,
 neomutt team has introduced named-mailboxes features, which allows you
 to name your mailboxes (duh) in the sidebar. It can be used for some
 pretty creative things, like setting a mailbox different to what you
@@ -595,7 +552,7 @@ collapse threads</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-15 23:27:34 -0600
+Last updated 2020-02-15 23:42:57 -0600
 </div>
 </div>
 <script type="text/x-mathjax-config">
