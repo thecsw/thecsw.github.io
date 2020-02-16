@@ -6,7 +6,7 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK
 
 === Introduction 🛀
 
-Hey, everyone! This is Sandy. Welcome to my website - _circa 2007_
+*Hey, everyone! This is Sandy. Welcome to my website* - _circa 2007_
 
 I don't really use facebook™ or MySpace, so this webpage is kind of my
 home on the internet now. I do my online articles here, weekly quotes,
