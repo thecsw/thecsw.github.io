@@ -67,6 +67,7 @@ $(NAME):
 	$(E) "	FIXING RESUME REDIRECT ..."
 	$(Q) find ./resume -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|&lt;|<|g;s|&gt;|>|g;' -i
 	$(E) "	UPDATING FONTS ..."
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<link rel="stylesheet" href="https:\/\/fonts.googleapis.com/d' -i
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">|g' -i
 	$(E) "	UPDATING AUDIO ..."
