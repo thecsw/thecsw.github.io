@@ -72,6 +72,8 @@ $(NAME):
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">|g' -i
 	$(E) "	UPDATING AUDIO ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|g;' -i
+	$(E) "	UPDATING COLORS ..."
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fff8dc;color:\#3a1616;|g;' -i
 
 clean:
 	$(E) "	CLEANING OUTPUT"
