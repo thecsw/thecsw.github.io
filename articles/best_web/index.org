@@ -4,11 +4,13 @@ This list has some of my favorite stuff on the internet, divided into categories
 with links! The list is completely biased
 
 ** Some videos
-*** Sharpest stand-up
-    PLAY_YOUTUBE kyBH5oNQOS0
-*** Best functional programming 
-    PLAY_YOUTUBE a9xAKttWgP4
+*** Scent Of A Woman - Tango scene
+PLAY_YOUTUBE 0V0bMhYWz48
 *** Scrabble story
     PLAY_YOUTUBE 9czoezm2vqw
 *** Ferris Bueller's Parade
     PLAY_YOUTUBE tRcv4nokK50
+*** Sharpest stand-up
+    PLAY_YOUTUBE kyBH5oNQOS0
+*** Best functional programming 
+    PLAY_YOUTUBE a9xAKttWgP4
