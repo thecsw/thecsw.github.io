@@ -26,6 +26,8 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
+* link:./articles/quick_dirty_js/exercise3[Cat that reached
+transcendence 🐱]
 * link:./articles/best_web[My favorite stuff on the web 🌍]
 * link:./articles/sqrt2irrational[$\sqrt{2}$ is irrational
 ◻]
