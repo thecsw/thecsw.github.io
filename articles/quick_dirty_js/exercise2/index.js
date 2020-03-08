@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded",() => {
     });
     
     prev.addEventListener('click', (e) => {
-	image = (image - 1) % num_of_images;
+	image -= 1
 	if (image === -1) image = num_of_images - 1;
 	show.src = "image-" + image + ".jpg";
 	return
