@@ -20,6 +20,7 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+  - [[./articles/quick_dirty_js/exercise3][Cat that reached transcendence 🐱]]
   - [[./articles/best_web][My favorite stuff on the web 🌍]]
   - [[./articles/sqrt2irrational][$\sqrt{2}$ is irrational ◻]]
   - [[./articles/better_mutt/][Faster, better, stronger neomutt 🐩]]
