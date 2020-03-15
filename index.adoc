@@ -20,12 +20,13 @@ I have a page where you can learn more link:./aboutme[about me 🤔]
 
 TIP: Scroll to the bottom for details on how this website is built.
 
-=== My online articles 💻
+=== My cozy blog 💻
 
 Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
+* link:./articles/why_use_emojis[Why use emojis? 🎷🕺]
 * link:./articles/quick_dirty_js/exercise3[Cat that reached
 transcendence 🐱]
 * link:./articles/best_web[My favorite stuff on the web 🌍]
@@ -37,7 +38,7 @@ transcendence 🐱]
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt 🐕]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
-=== My documents 📰
+=== My type stuff 📰
 
 This is a list of some articles, essays, reports and presentations I
 have made for purposes other than publishing online. Most of them (if

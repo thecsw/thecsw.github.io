@@ -14,12 +14,13 @@
     I have a page where you can learn more [[./aboutme][about me 🤔]]
 
   TIP: Scroll to the bottom for details on how this website is built.
-*** My online articles 💻
+*** My cozy blog 💻
 
   Here is a list of my articles I have online. I hope you will find some of
   them interesting and you can learn something new! Always learn something
   new!
 
+  - [[./articles/why_use_emojis][Why use emojis? 🎷🕺]]
   - [[./articles/quick_dirty_js/exercise3][Cat that reached transcendence 🐱]]
   - [[./articles/best_web][My favorite stuff on the web 🌍]]
   - [[./articles/sqrt2irrational][$\sqrt{2}$ is irrational ◻]]
@@ -29,7 +30,7 @@
   - [[./articles/using_mutt/][Bring joy back to e-mail with Mutt 🐕]]
   - [[./articles/installing_arch/][Installing Glorious Arch Linux ☄️]]
 
-*** My documents 📰
+*** My type stuff 📰
     This is a list of some articles, essays, reports and presentations I have made
     for purposes other than publishing online. Most of them (if not all) should be
     in a PDF format, typed in LaTeX, Org-Mode, or troff/groff. I hope you find them
