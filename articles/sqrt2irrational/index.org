@@ -1,5 +1,7 @@
 * $\sqrt{2}$ is irrational ◻
 
+February 11th, 2020
+
 ** Abstract
 It's been a while since I wanted to install some math packages on my
 website. Finally, I managed to do it by getting =asciidoctor-latex= and

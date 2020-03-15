@@ -4,6 +4,8 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
 
+May 26th, 2019
+
 [abstract]
 .Abstract
 

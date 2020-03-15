@@ -1,4 +1,6 @@
 *  Installing Glorious Arch Linux ☄️
+
+May 2nd, 2019
   
 Welcome to my guide on installing Glorious Arch
 Linux! For some background, I have been using arch for the last and it

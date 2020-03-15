@@ -1,5 +1,7 @@
 * Bring joy back to e-mail with Mutt 🐕
 
+May 13th, 2019
+
 ** Abstract
  "Electronic mail (email or e-mail) is a method of
  exchanging messages ("mail") between people using electronic devices.

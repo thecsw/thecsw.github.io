@@ -4,6 +4,8 @@ LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
 
+March 15th, 2020
+
 If you visited my website, you probably have noticed some number of
 emojis I have put up almost everywhere. I like to send emojis via tex
 messages and post statuses with them. Many ask me, **why?**
