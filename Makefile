@@ -29,6 +29,7 @@ FONT = Inter
 FONT_CODE = Iosevka
 
 $(NAME):
+	$(Q) notify-send "Sandy's Website" "building..."
 	$(E) "	CONVERTING ORG TO ADOC ..."
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
 	$(E) "	ADJUSTING HEADERS ..."
@@ -76,3 +77,4 @@ $(NAME):
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|PLAY_YOUTUBE ([^<>]+)|<iframe width="420" height="256" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|g;' -i
 	$(E) "	UPDATING COLORS ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fffff4;color:\#3a1616;|g;' -i
+	$(Q) notify-send "Sandy's Website" "Build complete!"
