@@ -26,7 +26,6 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
-* link:./articles/social_ladder[Social network ladder 🎈]
 * link:./articles/good_bad_movies[Watching good and bad movies 🎭]
 * link:./articles/why_use_emojis[Why use emojis? 🎷🕺]
 * link:./articles/quick_dirty_js/exercise3[Cat that reached
