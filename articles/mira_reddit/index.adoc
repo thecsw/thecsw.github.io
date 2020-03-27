@@ -21,7 +21,7 @@ https://github.com/turnage/graw[graw], one of the most popular Go Reddit
 Api Wrappers. I remember that I was just learning Go at a time and
 really just wanted to do something with it. Graw's deal with `announcer`
 and other stuff confused me a bit. So I did what every software engineer
-does when it itches the wrong wap. Make a new library!
+does when it itches the wrong way. Make a new library!
 
 I present to you, https://github.com/thecsw/mira[mira]! It's really
 playful and straight-forward library. It aggressively uses the
