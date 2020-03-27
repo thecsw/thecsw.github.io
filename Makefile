@@ -60,9 +60,13 @@ $(NAME):
 	$(E) "	SETTING HOME ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Home_LINK|<a href="/">Home 🏠</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|content="Sagindyk Urazayev">|content="Sagindyk Urazayev">\n<meta property="og:image" content="preview.png">\n|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:image" content="preview.png">' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:site_name" content="Sand&apos;s Website">' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:type" content="object">' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:title" content="test">' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">' -i
 	$(E) "	SETTING FAVICON ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|content="Sagindyk Urazayev">|content="Sagindyk Urazayev">\n<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>' -i
 	$(E) "	SETTING SCRIPTS ..."
 #	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g' -i
 	$(E) "	FIXING RESUME REDIRECT ..."
@@ -70,7 +74,7 @@ $(NAME):
 	$(E) "	UPDATING FONTS ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<link rel="stylesheet" href="https:\/\/fonts.googleapis.com/d' -i
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|content="Sagindyk Urazayev">|content="Sagindyk Urazayev">\n<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">|g' -i
+	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">' -i
 	$(E) "	UPDATING AUDIO ..."
 	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|g;' -i
 	$(E) "	UPDATING YOUTUBE ..."
