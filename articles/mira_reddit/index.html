@@ -669,8 +669,9 @@ example, mira currently supports:</p>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The library only supports ~15 endpoints. Reddit has well over 50-60.
-Mira exposes its caller and http request handler, so you can build your
-own mira callers and work with them!</p>
+Mira exposes its caller
+<code>Reddit.MiraRequest(httpMethod, endpoint, payload)</code> and http request
+handler, so you can build your own mira callers and work with them!</p>
 </div>
 <div class="paragraph">
 <p>Here is an example of how <code>r.Comment(&#8230;&#8203;).Reply(subject, text)</code> is
@@ -713,7 +714,7 @@ you can lookup <code>checkType(&#8230;&#8203;)</code> in mira&#8217;s readme
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-03-27 11:01:06 -0500
+Last updated 2020-03-27 13:09:23 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
