@@ -21,13 +21,13 @@ https://github.com/turnage/graw[graw], one of the most popular Go Reddit
 Api Wrappers. I remember that I was just learning Go at a time and
 really just wanted to do something with it. Graw's deal with `announcer`
 and other stuff confused me a bit. So I did what every software engineer
-does when it itches. Make a new library!
+does when it itches the wrong wap. Make a new library!
 
-I present to you, https://github.com/thecsw/mira[mira]! I really playful
-and straight-forward library. It aggressively uses the dot-notation
-(https://github.com/jinzhu/gorm[gorm-style]) and has the simplicity of
-praw. Go's great features as goroutines are used to implement the
-streaming functionality. Let's dive straight into it!
+I present to you, https://github.com/thecsw/mira[mira]! It's really
+playful and straight-forward library. It aggressively uses the
+dot-notation (https://github.com/jinzhu/gorm[gorm-style]) and has the
+simplicity of praw. Go's great features as goroutines are used to
+implement the streaming functionality. Let's dive straight into it!
 
 == Installing
 
@@ -159,7 +159,7 @@ example, mira currently supports:
 * `r.Redditor(...).StreamSubmissions()`
 * `r.Submission(...).StreamSubmissions()`
 
-The names are very Java like and we can deduce what they do.
+The names are very Java like and I hope they are intuitive
 
 == Extending mira
 
