@@ -146,8 +146,8 @@ The names are very Java like and I hope they are intuitive
 ** Extending mira
 
 The library only supports ~15 endpoints. Reddit has well over 50-60. Mira
-exposes its caller and http request handler, so you can build your own mira
-callers and work with them!
+exposes its caller =Reddit.MiraRequest(httpMethod, endpoint, payload)= and http
+request handler, so you can build your own mira callers and work with them!
 
 Here is an example of how =r.Comment(...).Reply(subject, text)= is implemented: 
 
