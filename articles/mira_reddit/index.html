@@ -10,7 +10,7 @@
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 <meta property="og:image" content="preview.png">
 
-<title>\(\sqrt{2}\) is irrational ◻</title>
+<title>Building Reddit apps in Go with mira ⛳</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 /* Uncomment @import statement below to use as custom stylesheet */
@@ -434,84 +434,281 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>\(\sqrt{2}\) is irrational ◻</h1>
+<h1>Building Reddit apps in Go with mira ⛳</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="https://www.linkedin.com/in/thecsw/">LinkedIn 🕴</a> | <a href="https://github.com/thecsw">GitHub 🐙</a> | <a href="/resume">Resume 📋</a> | <a href="https://pgp.key-server.io/pks/lookup?op=vindex&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B">PGP Key 🔑</a> | <a href="/">Home 🏠</a></span>
 </div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Adventures ⛵</div>
+<ul class="sectlevel1">
+<li><a href="#_installing">Installing</a></li>
+<li><a href="#_introduction">Introduction</a></li>
+<li><a href="#_basic_reddit">Basic reddit</a></li>
+<li><a href="#_streaming">Streaming</a></li>
+<li><a href="#_extending_mira">Extending mira</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>February 11th, 2020</p>
+<p>March 26th, 2020</p>
 </div>
-<div class="quoteblock abstract">
-<div class="title">Abstract</div>
-<blockquote>
-It&#8217;s been a while since I wanted to install some math packages on my
-website. Finally, I managed to do it by getting <code>asciidoctor-latex</code> and
-running some quick <code>Makefile</code> magic. It looks like it&#8217;s working fine!
-Here is a simple proof that I&#8217;ve come to like over the years.
-</blockquote>
+<div class="paragraph">
+<p>I like Go and I think it&#8217;s a great language. I built
+<a href="https://github.com/thecsw/memeinvestor_bot">memeinvestor_bot</a>, which was
+one of the interactive reddit bots on the platform at the time. So you
+can imagine we used quite a bit of
+<a href="https://github.com/praw-dev/praw">praw</a>. About year and a half later, the
+python codebase grew so disgusting and unmaintainable, where I decided
+to re-write the whole thing in Go. (The old "let&#8217;s rewrite everything
+syndrome") Re-write would be too strong, re-build from scratch is what
+the goal was.</p>
 </div>
-<div class="stemblock">
+<div class="paragraph">
+<p>Surely, after a couple of seconds of DuckDuckGoing, I stumbled upon
+<a href="https://github.com/turnage/graw">graw</a>, one of the most popular Go Reddit
+Api Wrappers. I remember that I was just learning Go at a time and
+really just wanted to do something with it. Graw&#8217;s deal with <code>announcer</code>
+and other stuff confused me a bit. So I did what every software engineer
+does when it itches. Make a new library!</p>
+</div>
+<div class="paragraph">
+<p>I present to you, <a href="https://github.com/thecsw/mira">mira</a>! I really playful
+and straight-forward library. It aggressively uses the dot-notation
+(<a href="https://github.com/jinzhu/gorm">gorm-style</a>) and has the simplicity of
+praw. Go&#8217;s great features as goroutines are used to implement the
+streaming functionality. Let&#8217;s dive straight into it!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_installing">Installing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>mira can be installed like any other go package, just run</p>
+</div>
+<div class="listingblock">
 <div class="content">
-\[\underline{Theorem}\]
+<pre class="highlight"><code class="language-bash" data-lang="bash">go get -u github.com/thecsw/mira</code></pre>
 </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>mira requires you to authenticate via reddit by supplying reddit tokens.
+Other methods of authing should be implemented. Maybe you are the chosen
+one?</p>
 </div>
 <div class="paragraph">
-<p>\(\sqrt{2}\) is irrational.</p>
+<p>For authentication, take a look at mira&#8217;s readme, we will get to the
+cream of the crops and actual features.</p>
 </div>
-<div class="stemblock">
+</div>
+</div>
+<div class="sect1">
+<h2 id="_basic_reddit">Basic reddit</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can post submissions and submit/reply/edit/delete comments. You can
+also grab N number of submissions from any subreddit, paginate through
+them, and other exciting stuff! Below is some basic functionality
+example.</p>
+</div>
+<div class="listingblock">
 <div class="content">
-\[\underline{Proof}\]
+<pre class="highlight"><code class="language-go" data-lang="go">package main
+
+import (
+    "fmt"
+
+    "github.com/thecsw/mira"
+)
+
+// Error checking is omitted for brevity
+func main() {
+    // Start mira
+    r, err := mira.Init(mira.ReadCredsFromFile("login.conf"))
+
+    // Make a submission
+    post, err := r.Subreddit("mysubreddit").Submit("mytitle", "mytext")
+
+    // Comment on our new submission
+    comment, err := r.Submission(post.GetId()).Save("mycomment")
+
+    // Reply to our own comment
+    reply, err := r.Comment(comment.GetId()).Reply("myreply")
+
+    // Delete the reply
+    r.Comment(reply.GetId()).Delete()
+
+    // Edit the first comment
+    newComment, err := r.Comment(comment.GetId()).Edit("myedit")
+
+    // Show the comment's body
+    fmt.Println(newComment.GetBody())
+}</code></pre>
 </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_streaming">Streaming</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Streaming Reddit data is probably the most exciting part of using mira
+and usually the top reason of using any Reddit API wrappers. When you
+want to run a stream of submissions/comments/replies, mira will give you
+a channel where it will get populated as new streaming data becomes
+available.</p>
 </div>
 <div class="paragraph">
-<p>Let
-\(a,b \in \mathbb{Z} \quad, \frac{a}{b}=\sqrt{2},\quad b \neq 0, \quad (a,b)=1\)</p>
+<p>Let&#8217;s take a quick example of how we can build a reminder bot from
+<a href="https://turnage.gitbooks.io/graw/content/graw.html">graw guide</a>. This
+code is originally from the graw guide, the only diffence is that it&#8217;s
+written to use mira instead of graw. Example done to show how those two
+libraries differ.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">package main
+
+import (
+    "strings"
+    "time"
+    "github.com/thecsw/mira"
+)
+
+func main() {
+    r, err := mira.Init(mira.ReadCredsFromFile("login.conf"))
+    if err != nil {
+        panic(err)
+    }
+    c, err := r.Subreddit("bottesting").StreamSubmissions()
+    if err != nil {
+        panic(err)
+    }
+    for {
+        post := &lt;-c
+        if !strings.Contains(post.GetBody(), "remind me of this bot") {
+            continue
+        }
+        go func() {
+            &lt;-time.After(10 * time.Second)
+            err = r.Redditor(post.GetAuthor()).Compose(
+                fmt.Sprintf("Reminder: %s", post.GetTitle()),
+                "You've been reminded!",
+            )
+            // check the error if you wish
+        }()
+    }
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+mira is not <strong>completely</strong> concurrency safe! When you run
+<code>r.Comment(&#8230;&#8203;)</code> or <code>r.Redditor(&#8230;&#8203;)</code>, it adds those values to its
+internal queue and dequeues them when requested. If two threads or
+routines try to dequeue at the same time or expect something, then the
+data can get mingled up a bit. For example, there is a
+<code>r.ReplyWithID(commentID, text)</code> that makes an http request directly,
+without using the internal queue, which works fine. It&#8217;s a quick
+workaround that works. If you have more suggestions, I&#8217;m happy to wait
+for your PR!
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>Then \(a=\sqrt{2}b\)</p>
+<p>Similar API is available for other Reddit entities and objects. For
+example, mira currently supports:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>r.Me().StreamCommentReplies()</code></p>
+</li>
+<li>
+<p><code>r.Me().StreamMentions()</code></p>
+</li>
+<li>
+<p><code>r.Redditor(&#8230;&#8203;).StreamComments()</code></p>
+</li>
+<li>
+<p><code>r.Submission(&#8230;&#8203;).StreamComments()</code></p>
+</li>
+<li>
+<p><code>r.Redditor(&#8230;&#8203;).StreamSubmissions()</code></p>
+</li>
+<li>
+<p><code>r.Submission(&#8230;&#8203;).StreamSubmissions()</code></p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>\(\implies a^2=2 \times b^2 \quad (\Xi)\)</p>
+<p>The names are very Java like and we can deduce what they do.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_extending_mira">Extending mira</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The library only supports ~15 endpoints. Reddit has well over 50-60.
+Mira exposes its caller and http request handler, so you can build your
+own mira callers and work with them!</p>
 </div>
 <div class="paragraph">
-<p>\(\implies 2|a^2\)</p>
+<p>Here is an example of how <code>r.Comment(&#8230;&#8203;).Reply(subject, text)</code> is
+implemented:</p>
 </div>
-<div class="paragraph">
-<p>\(\implies 2|a\)</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+you can lookup <code>checkType(&#8230;&#8203;)</code> in mira&#8217;s readme
+</td>
+</tr>
+</table>
 </div>
-<div class="paragraph">
-<p>Then if \(a\) is even,
-\(\exists k \in \mathbb{Z} \ni a = 2k\)</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
+    ret := &amp;models.CommentWrap{}
+    // Second return is type, which is "comment"
+    name, _, err := c.checkType("comment")
+    if err != nil {
+        return *ret, err
+    }
+    target := RedditOauth + "/api/comment"
+    ans, err := c.MiraRequest("POST", target, map[string]string{
+        "text":     text,
+        "thing_id": name,
+        "api_type": "json",
+    })
+    json.Unmarshal(ans, ret)
+    return *ret, err
+}</code></pre>
 </div>
-<div class="paragraph">
-<p>Then substitute into \((\Xi)\), we get
-\((2 \times k)^2=2\times b^2\)</p>
 </div>
-<div class="paragraph">
-<p>\(\implies 4 \times k^2 = 2 \times b^2\)</p>
 </div>
-<div class="paragraph">
-<p>\(\implies 2 \times k^2 = b^2\)</p>
-</div>
-<div class="paragraph">
-<p>\(\implies 2|b^2\)</p>
-</div>
-<div class="paragraph">
-<p>\(\implies 2|b\)</p>
-</div>
-<div class="paragraph">
-<p>If \(a\) and \(b\) are both even, it contradicts the
-initial condition \((a,b)=1\).</p>
-</div>
-<div class="paragraph">
-<p>\(\therefore\) By Law of Contradiction, \(\sqrt{2}\)
-is irrational</p>
 </div>
 </div>
 <div id="footer">
