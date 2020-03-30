@@ -21,6 +21,7 @@
   new!
 
   # - [[./articles/social_ladder][Social network ladder 🎈]]
+  # - [[./articles/ryan_codes][Programmer Ryan Gosling: The Return 👨‍💻]]
   - [[./articles/mira_reddit][Building Reddit apps in Go with mira ⛳]]
   - [[./articles/good_bad_movies][Watching good and bad movies 🎭]]
   - [[./articles/why_use_emojis][Why use emojis? 🎷🕺]]
