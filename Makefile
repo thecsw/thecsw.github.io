@@ -28,57 +28,60 @@ GPG_KEY = https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465
 FONT = Inter
 FONT_CODE = Iosevka
 
+INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
+OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" | sort | diff - exclude.txt | grep '<' | sed -E "s/< (.+)/\1/"
+
 $(NAME):
 	$(Q) notify-send "Sandy's Website" "building..."
 	$(E) "	CONVERTING ORG TO ADOC ..."
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
 	$(E) "	ADJUSTING HEADERS ..."
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed 's/^=//g' -i 
+	$(Q) $(INPUT_FILES) | xargs sed 's/^=//g' -i 
 	$(E) "	ADDING VCARD ..."
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed '1 a $(VCARD)' -i
+	$(Q) $(INPUT_FILES) | xargs sed '1 a $(VCARD)' -i
 	$(E) "	ADJUSTING THE HOMEPAGE ..."
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs sed 's/| Home_LINK//g;/^:/d' -i
 	$(E) "	FIXING ARTIFACTS ..."
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/~(.+)~/_\1/g' -i
+	$(Q) $(INPUT_FILES) | xargs sed -E 's/~(.+)~/_\1/g' -i
 	$(E) "	ADDING ABSTRACTS ..."
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/== Abstract/[abstract]\n.Abstract\n/g' -i
+	$(Q) $(INPUT_FILES) | xargs sed -E 's/== Abstract/[abstract]\n.Abstract\n/g' -i
 	$(E) "	UPDATING MATH FORMULAS ..."
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/^PROOF/[latexmath]\n++++\n\\underline{Proof}\n++++\n/g' -i
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's/^THEOREM/[latexmath]\n++++\n\\underline{Theorem}\n++++\n/g' -i
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's=\\]$$==g;s=^\\\[==g;' -i
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs sed -E 's=latexmath:\[==g;s=[$$]]=$$=g' -i
+	$(Q) $(INPUT_FILES) | xargs sed -E 's/^PROOF/[latexmath]\n++++\n\\underline{Proof}\n++++\n/g' -i
+	$(Q) $(INPUT_FILES) | xargs sed -E 's/^THEOREM/[latexmath]\n++++\n\\underline{Theorem}\n++++\n/g' -i
+	$(Q) $(INPUT_FILES) | xargs sed -E 's=\\]$$==g;s=^\\\[==g;' -i
+	$(Q) $(INPUT_FILES) | xargs sed -E 's=latexmath:\[==g;s=[$$]]=$$=g' -i
 	$(E) "	BUILDING ..."
-	$(Q) find . -type f -name '*$(INPUT_TYPE)' | xargs $(COMPILER) $(FLAGS)
+	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS)
 	$(E) "	SETTING LINKEDIN ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|LinkedIn_LINK|<a href="$(LINKEDIN)">LinkedIn 🕴</a>|g' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|LinkedIn_LINK|<a href="$(LINKEDIN)">LinkedIn 🕴</a>|g' -i
 	$(E) "	SETTING GITHUB ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub 🐙</a>|g' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub 🐙</a>|g' -i
 	$(E) "	SETTING RESUME ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume 📋</a>|g' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume 📋</a>|g' -i
 	$(E) "	SETTING PGP KEYS ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key 🔑</a>|g' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key 🔑</a>|g' -i
 	$(E) "	SETTING HOME ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Home_LINK|<a href="/">Home 🏠</a>|g' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|Home_LINK|<a href="/">Home 🏠</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:image" content="preview.png">' -i
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:site_name" content="Sand&apos;s Website">' -i
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:type" content="object">' -i
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:title" content="test">' -i
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:image" content="preview.png">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:site_name" content="Sand&apos;s Website">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:type" content="object">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:title" content="test">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">' -i
 	$(E) "	SETTING FAVICON ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>' -i
 	$(E) "	SETTING SCRIPTS ..."
-#	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g' -i
+#	$(Q) $(OUTPUT_FILES) | xargs sed 's|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g' -i
 	$(E) "	FIXING RESUME REDIRECT ..."
 	$(Q) find ./resume -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|&lt;|<|g;s|&gt;|>|g;' -i
 	$(E) "	UPDATING FONTS ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<link rel="stylesheet" href="https:\/\/fonts.googleapis.com/d' -i
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed '/<title/i\<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<link rel="stylesheet" href="https:\/\/fonts.googleapis.com/d' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">' -i
 	$(E) "	UPDATING AUDIO ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|g;' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|g;' -i
 	$(E) "	UPDATING YOUTUBE ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|PLAY_YOUTUBE ([^<>]+)|<iframe width="420" height="256" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|g;' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|PLAY_YOUTUBE ([^<>]+)|<iframe width="420" height="256" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|g;' -i
 	$(E) "	UPDATING COLORS ..."
-	$(Q) find . -type f -name '*$(OUTPUT_TYPE)' | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fffff4;color:\#3a1616;|g;' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fffff4;color:\#3a1616;|g;' -i
 	$(Q) notify-send "Sandy's Website" "Build complete!"
