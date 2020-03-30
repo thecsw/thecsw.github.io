@@ -20,6 +20,8 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+  GIST thecsw/cc4019d75869a76166f677e596f79d0b.pibb
+
   # - [[./articles/social_ladder][Social network ladder 🎈]]
   # - [[./articles/ryan_codes][Programmer Ryan Gosling: The Return 👨‍💻]]
   - [[./articles/mira_reddit][Building Reddit apps in Go with mira ⛳]]
