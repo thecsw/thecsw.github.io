@@ -88,21 +88,4 @@ Here is an example of how =r.Comment(...).Reply(subject, text)= is implemented:
 
 NOTE: you can lookup =checkType(...)= in mira's readme
 
-#+BEGIN_SRC go
-  func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
-	  ret := &models.CommentWrap{}
-	  // Second return is type, which is "comment"
-	  name, _, err := c.checkType("comment")
-	  if err != nil {
-		  return *ret, err
-	  }
-	  target := RedditOauth + "/api/comment"
-	  ans, err := c.MiraRequest("POST", target, map[string]string{
-		  "text":     text,
-		  "thing_id": name,
-		  "api_type": "json",
-	  })
-	  json.Unmarshal(ans, ret)
-	  return *ret, err
-  }
-#+END_SRC
+GIST thecsw/25ff8b8e247b33b3cf023740ee5083bf
