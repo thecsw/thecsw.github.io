@@ -54,40 +54,7 @@ also grab N number of submissions from any subreddit, paginate through
 them, and other exciting stuff! Below is some basic functionality
 example.
 
-[source,go]
-----
-package main
-
-import (
-    "fmt"
-
-    "github.com/thecsw/mira"
-)
-
-// Error checking is omitted for brevity
-func main() {
-    // Start mira
-    r, err := mira.Init(mira.ReadCredsFromFile("login.conf"))
-
-    // Make a submission
-    post, err := r.Subreddit("mysubreddit").Submit("mytitle", "mytext")
-
-    // Comment on our new submission
-    comment, err := r.Submission(post.GetId()).Save("mycomment")
-
-    // Reply to our own comment
-    reply, err := r.Comment(comment.GetId()).Reply("myreply")
-
-    // Delete the reply
-    r.Comment(reply.GetId()).Delete()
-
-    // Edit the first comment
-    newComment, err := r.Comment(comment.GetId()).Edit("myedit")
-
-    // Show the comment's body
-    fmt.Println(newComment.GetBody())
-}
-----
+GIST thecsw/c8bd97b96c892734eca1f945a049b834
 
 == Streaming
 
@@ -103,41 +70,7 @@ code is originally from the graw guide, the only diffence is that it's
 written to use mira instead of graw. Example done to show how those two
 libraries differ.
 
-[source,go]
-----
-package main
-
-import (
-    "strings"
-    "time"
-    "github.com/thecsw/mira"
-)
-
-func main() {
-    r, err := mira.Init(mira.ReadCredsFromFile("login.conf"))
-    if err != nil {
-        panic(err)
-    }
-    c, err := r.Subreddit("bottesting").StreamSubmissions()
-    if err != nil {
-        panic(err)
-    }
-    for {
-        post := <-c
-        if !strings.Contains(post.GetBody(), "remind me of this bot") {
-            continue
-        }
-        go func() {
-            <-time.After(10 * time.Second)
-            err = r.Redditor(post.GetAuthor()).Compose(
-                fmt.Sprintf("Reminder: %s", post.GetTitle()),
-                "You've been reminded!",
-            )
-            // check the error if you wish
-        }()
-    }
-}
-----
+GIST thecsw/e2e3d2b558f943fb3f5047ed4979282d
 
 NOTE: mira is not **completely** concurrency safe! When you run
 `r.Comment(...)` or `r.Redditor(...)`, it adds those values to its

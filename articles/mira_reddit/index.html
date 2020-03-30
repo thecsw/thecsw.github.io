@@ -526,40 +526,8 @@ also grab N number of submissions from any subreddit, paginate through
 them, and other exciting stuff! Below is some basic functionality
 example.</p>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-go" data-lang="go">package main
-
-import (
-    "fmt"
-
-    "github.com/thecsw/mira"
-)
-
-// Error checking is omitted for brevity
-func main() {
-    // Start mira
-    r, err := mira.Init(mira.ReadCredsFromFile("login.conf"))
-
-    // Make a submission
-    post, err := r.Subreddit("mysubreddit").Submit("mytitle", "mytext")
-
-    // Comment on our new submission
-    comment, err := r.Submission(post.GetId()).Save("mycomment")
-
-    // Reply to our own comment
-    reply, err := r.Comment(comment.GetId()).Reply("myreply")
-
-    // Delete the reply
-    r.Comment(reply.GetId()).Delete()
-
-    // Edit the first comment
-    newComment, err := r.Comment(comment.GetId()).Edit("myedit")
-
-    // Show the comment's body
-    fmt.Println(newComment.GetBody())
-}</code></pre>
-</div>
+<div class="paragraph">
+<p><script src="https://gist.github.com/thecsw/c8bd97b96c892734eca1f945a049b834.js"></script></p>
 </div>
 </div>
 </div>
@@ -580,41 +548,8 @@ code is originally from the graw guide, the only diffence is that it&#8217;s
 written to use mira instead of graw. Example done to show how those two
 libraries differ.</p>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-go" data-lang="go">package main
-
-import (
-    "strings"
-    "time"
-    "github.com/thecsw/mira"
-)
-
-func main() {
-    r, err := mira.Init(mira.ReadCredsFromFile("login.conf"))
-    if err != nil {
-        panic(err)
-    }
-    c, err := r.Subreddit("bottesting").StreamSubmissions()
-    if err != nil {
-        panic(err)
-    }
-    for {
-        post := &lt;-c
-        if !strings.Contains(post.GetBody(), "remind me of this bot") {
-            continue
-        }
-        go func() {
-            &lt;-time.After(10 * time.Second)
-            err = r.Redditor(post.GetAuthor()).Compose(
-                fmt.Sprintf("Reminder: %s", post.GetTitle()),
-                "You've been reminded!",
-            )
-            // check the error if you wish
-        }()
-    }
-}</code></pre>
-</div>
+<div class="paragraph">
+<p><script src="https://gist.github.com/thecsw/e2e3d2b558f943fb3f5047ed4979282d.js"></script></p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -717,7 +652,7 @@ you can lookup <code>checkType(&#8230;&#8203;)</code> in mira&#8217;s readme
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-03-29 22:26:10 -0500
+Last updated 2020-03-29 23:08:56 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
