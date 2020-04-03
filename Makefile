@@ -50,6 +50,8 @@ $(NAME):
 	$(Q) $(INPUT_FILES) | xargs sed -E 's/^THEOREM/[latexmath]\n++++\n\\underline{Theorem}\n++++\n/g' -i
 	$(Q) $(INPUT_FILES) | xargs sed -E 's=\\]$$==g;s=^\\\[==g;' -i
 	$(Q) $(INPUT_FILES) | xargs sed -E 's=latexmath:\[==g;s=[$$]]=$$=g' -i
+	$(E) "	ADDING PICTURES"
+	$(Q) $(INPUT_FILES) | xargs sed -E 's|PICTURE ([^<>]+):([^<>]+):([0-9]+):([a-z]+)|.\2\nimage::\1[\2, width=\3, role="\4", link="\1"]|g;' -i
 	$(E) "	BUILDING ..."
 	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS)
 	$(E) "	SETTING LINKEDIN ..."
@@ -64,7 +66,7 @@ $(NAME):
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Home_LINK|<a href="/">Home 🏠</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:image" content="preview.png">' -i
-	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:site_name" content="Sand&apos;s Website">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:site_name" content="Sandy&apos;s Website">' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:type" content="object">' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:title" content="test">' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">' -i
