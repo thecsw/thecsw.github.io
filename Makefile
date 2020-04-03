@@ -68,7 +68,7 @@ $(NAME):
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:image" content="preview.png">' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:site_name" content="Sandy&apos;s Website">' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:type" content="object">' -i
-	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:title" content="test">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</title>|g' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">' -i
 	$(E) "	SETTING FAVICON ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>' -i
