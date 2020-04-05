@@ -1,6 +1,6 @@
 = Welcome to year 12,019 📅
 Sagindyk Urazayev <ctu@ku.edu>
-LinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK
+LinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
 

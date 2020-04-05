@@ -20,10 +20,11 @@ INPUT_TYPE = adoc
 OUTPUT_TYPE = html
 NAME = Sagindyk Urazayev
 EMAIL = ctu@ku.edu
-VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | PGP Key_LINK | Home_LINK\n:toc: left\n:toc-title: Table of Adventures ⛵
+VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK\n:toc: left\n:toc-title: Table of Adventures ⛵
 LINKEDIN = https://www.linkedin.com/in/thecsw/
 GITHUB = https://github.com/thecsw
 RESUME = /resume
+KEYBASE = https://keybase.io/thecsw
 GPG_KEY = https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B
 FONT = Inter
 FONT_CODE = Iosevka
@@ -60,8 +61,10 @@ $(NAME):
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub 🐙</a>|g' -i
 	$(E) "	SETTING RESUME ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume 📋</a>|g' -i
-	$(E) "	SETTING PGP KEYS ..."
-	$(Q) $(OUTPUT_FILES) | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key 🔑</a>|g' -i
+#	$(E) "	SETTING PGP KEYS ..."
+#	$(Q) $(OUTPUT_FILES) | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key 🔑</a>|g' -i
+	$(E) "	SETTING KEYBASE ..."
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|Keybase_LINK|<a href="$(KEYBASE)">Keybase 💆</a>|g' -i
 	$(E) "	SETTING HOME ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Home_LINK|<a href="/">Home 🏠</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."

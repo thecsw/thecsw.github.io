@@ -2,3 +2,4 @@
 ./articles/quick_dirty_js/exercise2/index.html
 ./articles/quick_dirty_js/exercise3/index.html
 ./articles/quick_dirty_js/exercise4/index.html
+./articles/quick_dirty_js/connect4/index.html
