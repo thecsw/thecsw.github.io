@@ -5,8 +5,8 @@ March 26th, 2020
 I like Go and I think it's a great language. I built [[https://github.com/thecsw/memeinvestor_bot][memeinvestor_bot]], which was
 one of the interactive reddit bots on the platform at the time. So you can
 imagine we used quite a bit of [[https://github.com/praw-dev/praw][praw]]. About year and a half later, the python
-codebase grew so disgusting and unmaintainable, where I decided to re-write the
-whole thing in Go. (The old "let's rewrite everything syndrome") Re-write would be
+codebase became so disgusting and unmaintainable, where I decided to re-write the
+whole thing in Go. (The old "let's rewrite everything" syndrome") Re-write would be
 too strong, re-build from scratch is what the goal was.  
 
 Surely, after a couple of seconds of DuckDuckGoing, I stumbled upon [[https://github.com/turnage/graw][graw]], one of
