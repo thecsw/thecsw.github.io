@@ -23,6 +23,7 @@
   GIST thecsw/cc4019d75869a76166f677e596f79d0b.pibb
 
   # - [[./articles/social_ladder][Social network ladder 🎈]]
+  - [[./articles/encrypting_usb][How to encrypt your flash drive with LUKS 🗝]]
   - [[./articles/ryan_codes][Programmer Ryan Gosling: Legacy 👨‍💻]]
   - [[./articles/mira_reddit][Building Reddit apps in Go with mira ⛳]]
   - [[./articles/good_bad_movies][Watching good and bad movies 🎭]]
