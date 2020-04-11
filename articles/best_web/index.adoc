@@ -9,36 +9,34 @@ March 3rd, 2020
 This list has some of my favorite stuff on the internet, divided into
 categories with links! The list is completely biased
 
-== Some videos
-
-=== The prophecy is true
+== The prophecy is true
 
 PLAY_YOUTUBE uwmeH6Rnj2E
 
-=== Why is the milk gone
+== Why is the milk gone
 
 PLAY_YOUTUBE KjeKiIa7XEk
 
-=== Scent Of A Woman - Tango scene
+== Scent Of A Woman - Tango scene
 
 PLAY_YOUTUBE 0V0bMhYWz48
 
-=== 009 Sound System
+== 009 Sound System
 
 PLAY_YOUTUBE GsWFMgzdfoE
 
-=== Scrabble story
+== Scrabble story
 
 PLAY_YOUTUBE 9czoezm2vqw
 
-=== Ferris Bueller's Parade
+== Ferris Bueller's Parade
 
 PLAY_YOUTUBE tRcv4nokK50
 
-=== Sharpest stand-up
+== Sharpest stand-up
 
 PLAY_YOUTUBE kyBH5oNQOS0
 
-=== Best functional programming
+== Best functional programming
 
 PLAY_YOUTUBE a9xAKttWgP4
