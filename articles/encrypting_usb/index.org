@@ -1,4 +1,4 @@
-* How to encrypt your flash drive with LUKS 🗝
+* Encrypting your flash drive with LUKS 🗝
 
 April 11th
 
