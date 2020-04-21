@@ -83,6 +83,8 @@ $(NAME):
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<link rel="stylesheet" href="https:\/\/fonts.googleapis.com/d' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">' -i
+	$(E) "	UPDATING COLORS ..."
+	$(Q) $(OUTPUT_FILES) | xargs sed '/Asciidoctor default stylesheet/i\::selection{color:white;background:#FF4081}' -i
 	$(E) "	UPDATING AUDIO ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|g;' -i
 	$(E) "	UPDATING YOUTUBE ..."
