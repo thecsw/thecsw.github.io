@@ -13,6 +13,9 @@ export E Q
 
 COMPILER = asciidoctor-latex -b html
 FLAGS = -a toc
+# Emptying the flags because we don't want
+# to have TOC on the front page, be lazy
+FLAGS = 
 NAME = mywebsite
 ORIGINAL_TYPE = org
 INPUT_TYPE = adoc
