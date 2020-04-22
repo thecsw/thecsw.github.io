@@ -13,7 +13,6 @@ export E Q
 
 COMPILER = asciidoctor-latex -b html
 FLAGS = -a toc
-FLAGS = 
 NAME = mywebsite
 ORIGINAL_TYPE = org
 INPUT_TYPE = adoc
@@ -30,7 +29,7 @@ FONT = Inter
 FONT_CODE = Iosevka
 
 INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
-OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" | sort | diff - exclude.txt | grep '<' | sed -E "s/< (.+)/\1/"
+OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" | sort | diff - $(sort exclude.txt) | grep '<' | sed -E "s/< (.+)/\1/"
 
 $(NAME):
 	$(Q) notify-send "Sandy's Website" "building..."
