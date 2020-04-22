@@ -45,24 +45,6 @@ transcendence 🐱]
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt 🐕]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
-=== My type stuff 📰
-
-This is a list of some articles, essays, reports and presentations I
-have made for purposes other than publishing online. Most of them (if
-not all) should be in a PDF format, typed in LaTeX, Org-Mode, or
-troff/groff. I hope you find them interesting!
-
-* link:./documents/20191005-Jeffersonian-Democracy.pdf[Jeffersonian
-Democracy and Education]
-* link:./documents/20190320-KCDC-Alpha-Report.pdf[KCDC Alpha
-Cybersecurity competition]
-* link:./documents/20181130-Twin-Peaks-as-a-Cult-Film.pdf[Twin Peaks as
-a Cult Film]
-* link:./documents/20180500-IB-EE-RSA.pdf[RSA: Encrypting, Decrypting,
-Hacking.]
-* link:./documents/20180400-Approximation-of-Divergent-Series.pdf[Approximation
-of Divergent Series]
-
 === My quotes ☁️
 
 I have some of my favorite quotes and sayings recorded. Some of them are
