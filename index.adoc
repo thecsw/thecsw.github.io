@@ -26,8 +26,7 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
-GIST thecsw/cc4019d75869a76166f677e596f79d0b.pibb
-
+* link:./articles/twin-peaks[Twin Peaks as a Cult Film 🌲🌲]
 * link:./articles/encrypting_usb[Encrypting your flash drive with LUKS
 🗝]
 * link:./articles/ryan_codes[Programmer Ryan Gosling: Legacy 👨‍💻]

@@ -37,7 +37,7 @@ you are and thus just lets you be yourself.
  should be executed.
 
  NOTE: This guide does not include installing Arch Linux as dual boot.
-**  Installation
+** Installation
 *** BIOS and Flash Drive
 **** BIOS Configuration
 

@@ -1,7 +1,5 @@
 * Welcome to year 12,019 📅
-
 May 26th, 2019
-
 ** Abstract
    This is a converted version of my speech I gave at my public speaking class in
    college. You can find the original document [[../../documents/20190500-Year-2019.pdf][here]].
