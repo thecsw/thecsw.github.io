@@ -70,7 +70,7 @@ $(NAME):
 	$(E) "	SETTING HOME ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Home_LINK|<a href="/">Home 🏠</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
-	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:image" content="preview.png">' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:image" content="./preview.png">' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:site_name" content="Sandy&apos;s Website">' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<meta property="og:type" content="object">' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</title>|g' -i
