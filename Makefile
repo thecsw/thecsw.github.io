@@ -56,7 +56,7 @@ $(NAME):
 	$(E) "	ADDING PICTURES"
 	$(Q) $(INPUT_FILES) | xargs sed -E 's|PICTURE ([^<>]+):([^<>]+):([0-9]+):([a-z]+)|.\2\nimage::\1[\2, width=\3, role="\4", link="\1"]|g;' -i
 	$(E) "	BUILDING ..."
-	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS)
+	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS) 2>/dev/null
 	$(E) "	SETTING LINKEDIN ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|LinkedIn_LINK|<a href="$(LINKEDIN)">LinkedIn 🕴</a>|g' -i
 	$(E) "	SETTING GITHUB ..."
