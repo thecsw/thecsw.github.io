@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Bring joy back to e-mail with Mutt 🐕
 ====================================
 

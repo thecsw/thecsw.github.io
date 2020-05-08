@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Building Reddit apps in Go with mira ⛳
 ======================================
 

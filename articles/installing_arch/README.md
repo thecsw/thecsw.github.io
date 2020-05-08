@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Installing Glorious Arch Linux ☄️
 =================================
 

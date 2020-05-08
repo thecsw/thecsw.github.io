@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Encrypting your drive with LUKS 🗝
 =================================
 

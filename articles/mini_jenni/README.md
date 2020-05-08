@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Mini Jenni - my new best friend 🏮
 =================================
 

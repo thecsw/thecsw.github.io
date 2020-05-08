@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Programmer Ryan Gosling: Legacy 👨‍💻
 ===================================
 

@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Watching good and bad movies 🎭
 ==============================
 

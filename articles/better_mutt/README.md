@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Faster, better, stronger neomutt 🐩
 ==================================
 
