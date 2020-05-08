@@ -1,0 +1,30 @@
+/* Originally from http://bettermotherfuckingwebsite.com */
+body {
+  margin: 40px auto;
+  max-width: 900px;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #444;
+  padding: 0 10px;
+  font-family: "DejaVu Sans";
+}
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-family: "DejaVu Sans Mono";
+}
+img {
+  width: 700px;
+  border-style: solid;
+  border-color: #b76ac4;
+  border-radius: 10px;
+  border-width: 8px;
+}
+pre {
+  font-family: "DejaVu Sans Mono";
+}
+::selection {
+  color: white;
+  background: #ff4081;
+}
