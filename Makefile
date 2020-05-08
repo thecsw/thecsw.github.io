@@ -29,7 +29,7 @@ RESUME = /resume
 KEYBASE = https://keybase.io/thecsw
 GPG_KEY = https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B
 FONT = Inter
-FONT_CODE = Iosevka
+FONT_CODE = DejaVu Sans Mono
 
 INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
 OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" | sort | diff - $(sort exclude.txt) | grep '<' | sed -E "s/< (.+)/\1/"
