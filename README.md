@@ -27,6 +27,7 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
+-   [Setting up an emacs server 😈](./articles/emacsd)
 -   [Becoming an emacs gopher 🐗](./articles/go-emacs)
 -   [Twin Peaks as a Cult Film 🌲🌲](./articles/twin-peaks)
 -   [Encrypting your drive with LUKS 🗝](./articles/encrypting_usb)
