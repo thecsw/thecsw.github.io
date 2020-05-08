@@ -20,6 +20,7 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+  - [[./articles/emacsd][Setting up an emacs server 😈]]
   - [[./articles/go-emacs][Becoming an emacs gopher 🐗]]
   - [[./articles/twin-peaks][Twin Peaks as a Cult Film 🌲🌲]]
   - [[./articles/encrypting_usb][Encrypting your drive with LUKS 🗝]]

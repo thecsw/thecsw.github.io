@@ -1,7 +1,7 @@
 Becoming an emacs gopher 🐗
 ==========================
 
-May 8th, 2020
+May 7th, 2020
 
 I have been a full-time emacs user for the past 4 years and I have been
 working in Golang professionally for about 2 years now. Combining those
@@ -19,9 +19,9 @@ First tool you need is usually [Go itself](https://golang.org/). After
 that, install some of the go tools dependencies below:
 
 ``` {.bash org-language="sh"}
-go get -u golang.org/x/tools/cmd/goimports
-go get -u github.com/rogpeppe/godef
-go get -u github.com/nsf/gocode
+% go get -u golang.org/x/tools/cmd/goimports
+% go get -u github.com/rogpeppe/godef
+% go get -u github.com/nsf/gocode
 ```
 
 Next we need to install some of the emacs dependencies through
