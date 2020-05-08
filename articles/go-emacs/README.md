@@ -1,9 +1,5 @@
-= Becoming an emacs gopher 🐗
-Sagindyk Urazayev <ctu@ku.edu>
-LinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK
- :toc: left
-:toc-title: Table of Adventures ⛵
-:experimental:
+Becoming an emacs gopher 🐗
+==========================
 
 May 8th, 2020
 
@@ -11,46 +7,46 @@ I have been a full-time emacs user for the past 4 years and I have been
 working in Golang professionally for about 2 years now. Combining those
 two beauties is quite a task with so many different modules and addons
 available. I believe I found an example of a modular and a comfortable
-setup. _Demo below!_
+setup. *Demo below!*
 
-== Getting dependencies
+Getting dependencies
+--------------------
 
 One of many great things about Go is its tooling environment. You can
 write any tools and implement your ideas with ease.
 
-First tool you need is usually https://golang.org/[Go itself]. After
+First tool you need is usually [Go itself](https://golang.org/). After
 that, install some of the go tools dependencies below:
 
-[source,bash]
-----
+``` {.bash org-language="sh"}
 go get -u golang.org/x/tools/cmd/goimports
 go get -u github.com/rogpeppe/godef
 go get -u github.com/nsf/gocode
-----
+```
 
 Next we need to install some of the emacs dependencies through
-https://melpa.org[MELPA]. This is gonna be big, prep your `.emacs.d` for
-some fun time compiling elisp. Refresh your local repo of packages by
-running kbd:[M-x package-refresh-contents]. You can install packages by
-running kbd:[M-x package-install PACKAGE-NAME]
+[MELPA](https://melpa.org). This is gonna be big, prep your `.emacs.d`
+for some fun time compiling elisp. Refresh your local repo of packages
+by running kbd:\[M-x package-refresh-contents\]. You can install
+packages by running kbd:\[M-x package-install PACKAGE-NAME\]
 
 Here is the list:
 
-* https://github.com/auto-complete/auto-complete[auto-complete]
-* https://github.com/dominikh/go-mode.el[go-mode]
-* https://github.com/vibhavp/go-complete[go-complete]
-* https://melpa.org/#/go-autocomplete[go-autocomplete]
-* https://github.com/capitaomorte/autopair[autopair]
+-   [auto-complete](https://github.com/auto-complete/auto-complete)
+-   [go-mode](https://github.com/dominikh/go-mode.el)
+-   [go-complete](https://github.com/vibhavp/go-complete)
+-   [go-autocomplete](https://melpa.org/#/go-autocomplete)
+-   [autopair](https://github.com/capitaomorte/autopair)
 
-== Config
+Config
+------
 
-You can just put this in your `.emacs` or whatever init file you're
+You can just put this in your `.emacs` or whatever init file you\'re
 using. The following config is all you need to get yourself started with
 automatic code formatting, code completion, parenthesis matching, dot
 completion (!), and jump to definition.
 
-[source,commonlisp]
-----
+``` {.commonlisp org-language="emacs-lisp"}
 ;; Init the auto complete modules
 (ac-config-default)
 (global-auto-complete-mode t)
@@ -74,13 +70,14 @@ completion (!), and jump to definition.
 (setq gofmt-command "goimports")
 (add-hook 'before-save-hook 'gofmt-before-save)
 (add-hook 'go-mode-hook 'auto-complete-for-go)
-----
+```
 
 After that, just reload your emacs and you should have full go
 environment installed!
 
-== Demo
+Demo
+----
 
 .Gopher in emacs
 
-image::demo.svg[demo.svg, role="center", link="./demo.svg"]
+image::demo.svg\[demo.svg, role=\"center\", link=\"./demo.svg\"\]

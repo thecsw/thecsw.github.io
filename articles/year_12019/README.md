@@ -1,0 +1,111 @@
+Welcome to year 12,019 📅
+========================
+
+May 26th, 2019
+
+Abstract
+--------
+
+This is a converted version of my speech I gave at my public speaking
+class in college. You can find the original document
+[here](../../documents/20190500-Year-2019.pdf). Thisspeech is meant to
+persuade its audience. I truly believe that changing the current marking
+method of history can shift the way we thenx and perceive ourselves. The
+idea itself was greatly inspired by Kurzgesagt\'s [famous
+video](https://www.youtube.com/watch?v=czgOWmtGVGs). Enjoy!
+
+Hello there. My name is Sandy and I want to talk with you about our
+current Gregorian calendar and the reasons why we might consider
+switching to a new calendar system. In this persuasive speech, I will
+introduce you to the Gregorian Calendar, its inconsistencies, and a
+better alternative to it.
+
+*\[Let\'s get started!\]*
+
+Our current Gregorian calendar is the most used calendar in the world.
+It was introduced by Pope Gregory XIII in October 1582. Each year
+roughly elapses to 365 days. footnote:\[United States Naval Observatory,
+[Introduction to Calendars]{.underline} (27 February 2019). Accessed
+April 13.\] The Gregorian Calendar includes two eras in itself: BC and
+AD. According to Merriam-Webster dictionary, BC stands for \"before
+Christ\" and AD roughly translates from Latin \"Anno Domini\" to \"in
+the year of our Lord\". footnote:\[Merriam-Webster, [Anno
+Domini]{.underline} (2019). Accessed April 13.\] The current year 2019
+can be fully expanded as the year 2019 after birth of Christ or AD 2019.
+Due to an ongoing and ever active globalization, the calendar was even
+adopted by most of the non-Western countries. It is truly, the dominant
+way of understanding time and our history. The question rises, does it
+necessarily mean it is the best one?
+
+*\[As we learned about the Gregorian calendar, let\'s see where it lacks
+consistency.\]*
+
+The Gregorian calendar and the Julian calendar before it are very much
+centered around the birth of Jesus of Nazareth. footnote:\[Geza Vermes
+in [Jesus the Jew: A historian's reading of the Gospels]{.underline}
+(1973).\] Firstly, current calendar\'s system of year counting is
+computationally and conceptually confusing when we want to get to the
+fundamental levels. There is no year 0 in the Gregorian calendar, so the
+difference between 1.5 BC and AD 1.5 is 1 year instead of 3. And BC era
+does not have a year 0 either. Secondly, the current calendar explicitly
+accounts only to around two thousand years of our human history which
+itself is a tiny part of our actual history.
+
+*\[What is one of the possible solutions to resolve the current
+calendar\'s problems?\]*
+
+In 1993, Italian-American scientist Cesare Emiliani proposed a new
+calendar in the Nature journal article \"Calendar Reform\".
+footnote:\[Cesare Emiliani, "Calendar Reform," [Nature]{.underline},
+University of Miami (1993).\] In his article, Professor Emiliani
+proposes that the beginning of calendrical time could be set at the
+beginning of the current Julian Cycle, 4713 BC, established by Joseph
+Scalinger and still used by astronomers. To simplify the arithmetic,
+round 10000 years could be added to the current AD year), ultimately
+converting 2019 AD to 12019 HE. Setting the birth of Christ at 25
+December of the year 10,000 from the beginning of Human Era. Adding a
+round number to the current date conserves all established holidays,
+months, and days. However it adds a whole another level of understanding
+of our human civilization. Let us take a brief look at our history from
+the beginning of Human Era. footnote:\[Virginia Tech, [Important Events
+in Human History]{.underline} (2006). Accessed April 13.\]
+
+-   0-1,000 HE : Ain Mallaha, also known as Eynan, one of the first
+    settled villages in the world.
+-   1,500 HE : First farmers, start of agriculture. Domestication of
+    wheat, olive, sheep, and etc. footnote:\[Ensminger, Parker in [Sheep
+    and Goat Science]{.underline} (1986).\]
+-   2,000 HE : The whole world\'s population was around 5 million
+    people. footnote:\[Vaughn Aubuchon, [World Population Growth
+    History]{.underline} (2019). Accessed April 13.\]
+-   3,500 HE : Beginning of trading between villages over long
+    distances. footnote:\[History World, [HISTORY OF TRADE]{.underline}
+    (2019). Accessed April 13.\]
+-   5,000 HE : Start of the Bronze Age. footnote:\[Britannica, [Bronze
+    Age]{.underline} (2019). Accessed April 13.\]
+-   6,700 HE : First invention of writing in Mesopotamia.
+    footnote:\[Ancient History Encyclopedia, [Writing]{.underline}
+    (2019). Accessed April 13.\]
+-   7,520 HE : Construction of Pyramid of Giza begun.
+    footnote:\[National Geographic, [Pyramids at Giza]{.underline}
+    (2019). Accessed April 13.\]
+-   9,000 HE : The end of Bronze Age and the Start of Iron Age.
+-   9,200 HE : Iliad and Odyssey published.
+-   9,500 HE : The beginning of Western Culture and the Golden Age.
+-   9,700 HE : The reign of Alexander the Great.
+-   9,956 HE : Julius Caesar killed by his own Senate.
+-   9,980 HE : The world population just reached 300 million people.
+-   10,000 HE : The current method of marking human history begins.
+
+*\[After merely 2 thousand years after, here we are.\]*
+
+If we keep thinking about our history as we do now, we underplay almost
+10 thousand years of human progress and development. Human Era
+incorporates all humans from all cultures and races. By only moving our
+point of reference, the year zero, we can fundamentally reframe the way
+we perceive ourselves. We can truly understand where we came from and be
+proud of who we are today. Only by knowing and respecting our past, we
+can have a clear vision into the future beyond the skies.
+
+*\[Thank you for your attention. Let\'s live in our new mindset and
+expand our horizons.\]*
