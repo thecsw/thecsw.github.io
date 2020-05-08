@@ -3,6 +3,7 @@ Sagindyk Urazayev <ctu@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
+:experimental:
 
 * You know what I miracle it is to wake up? You can go to sleep and
 never wake up. It happens pretty often. So when you wake up and feel the
