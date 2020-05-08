@@ -438,7 +438,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>Becoming an emacs gopher 🐗</h1>
 <div class="details">
@@ -446,17 +446,18 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="https://www.linkedin.com/in/thecsw/">LinkedIn 🕴</a> | <a href="https://github.com/thecsw">GitHub 🐙</a> | <a href="/resume">Resume 📋</a> | <a href="https://keybase.io/thecsw">Keybase 💆</a> | <a href="/">Home 🏠</a></span>
 </div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Adventures ⛵</div>
+<ul class="sectlevel1">
+<li><a href="#_getting_dependencies">Getting dependencies</a></li>
+<li><a href="#_config">Config</a></li>
+<li><a href="#_demo">Demo</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
-<div class="literalblock">
-<div class="content">
-<pre> :toc: left
-:toc-title: Table of Adventures ⛵
-:experimental:</pre>
-</div>
-</div>
 <div class="paragraph">
 <p>May 8th, 2020</p>
 </div>
@@ -491,8 +492,8 @@ go get -u github.com/nsf/gocode</code></pre>
 <p>Next we need to install some of the emacs dependencies through
 <a href="https://melpa.org">MELPA</a>. This is gonna be big, prep your <code>.emacs.d</code> for
 some fun time compiling elisp. Refresh your local repo of packages by
-running kbd:[M-x package-refresh-contents]. You can install packages by
-running kbd:[M-x package-install PACKAGE-NAME]</p>
+running <kbd>M-x package-refresh-contents</kbd>. You can install packages by
+running <kbd>M-x package-install PACKAGE-NAME</kbd></p>
 </div>
 <div class="paragraph">
 <p>Here is the list:</p>
@@ -574,7 +575,7 @@ environment installed!</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-05-08 01:41:11 -0500
+Last updated 2020-05-08 01:43:21 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">

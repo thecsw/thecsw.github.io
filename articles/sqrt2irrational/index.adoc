@@ -1,7 +1,7 @@
 = $\sqrt{2}$ is irrational ◻
 Sagindyk Urazayev <ctu@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK
- :toc: left
+:toc: left
 :toc-title: Table of Adventures ⛵
 :experimental:
 
