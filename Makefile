@@ -96,3 +96,5 @@ $(NAME):
 	$(E) "	UPDATING COLORS ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fffff4;color:\#3a1616;|g;' -i
 	$(Q) notify-send "Sandy's Website" "Build complete!"
+	$(E) "	MAKING README ..."
+	$(Q) pandoc -i index.org -o README.md
