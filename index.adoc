@@ -26,9 +26,9 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
+* link:./articles/go-emacs[Becoming an emacs gopher 🐗]
 * link:./articles/twin-peaks[Twin Peaks as a Cult Film 🌲🌲]
-* link:./articles/encrypting_usb[Encrypting your flash drive with LUKS
-🗝]
+* link:./articles/encrypting_usb[Encrypting your drive with LUKS 🗝]
 * link:./articles/ryan_codes[Programmer Ryan Gosling: Legacy 👨‍💻]
 * link:./articles/mira_reddit[Building Reddit apps in Go with mira ⛳]
 * link:./articles/good_bad_movies[Watching good and bad movies 🎭]

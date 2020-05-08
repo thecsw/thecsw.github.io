@@ -9,11 +9,11 @@
 <meta property="og:image" content="./preview.png">
 <meta property="og:site_name" content="Sandy&apos;s Website">
 <meta property="og:type" content="object">
-<meta property="og:title" content="About me 🤔">
+<meta property="og:title" content="Becoming an emacs gopher 🐗">
 <meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" type="text/css" href="/fonts/fonts.css">
-<title>About me 🤔</title>
+<title>Becoming an emacs gopher 🐗</title>
 <style>
 ::selection{color:white;background:#FF4081}
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -438,48 +438,139 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>About me 🤔</h1>
+<h1>Becoming an emacs gopher 🐗</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="https://www.linkedin.com/in/thecsw/">LinkedIn 🕴</a> | <a href="https://github.com/thecsw">GitHub 🐙</a> | <a href="/resume">Resume 📋</a> | <a href="https://keybase.io/thecsw">Keybase 💆</a> | <a href="/">Home 🏠</a></span>
 </div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Adventures ⛵</div>
+<ul class="sectlevel1">
+<li><a href="#_getting_dependencies">Getting dependencies</a></li>
+<li><a href="#_config">Config</a></li>
+<li><a href="#_screenshot">Screenshot</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>My name is Sagindyk, everybody just calls me Sandy. Currently, I am a
-Computer Science undergraduate student at <a href="https://ku.edu">University of
-Kansas</a> I am a huge fan of <code><strong>UNIX</strong></code> philosophy and <code>Linux</code> tools in
-general. Wield the power of the terminal with <code>awk</code>, <code>sed</code>, and <code>grep</code>!
-I have interests in cyber-security, DevOps, Software Development, System
-Automation, Data Science, and Typesetting tools. I am the current active
-CTO at <a href="https://kuisc.com">KU Information Security Club</a>. I am also the
-co-founder of <a href="https://kuemacs.github.io/">KU Emacs Club</a>!</p>
+<p>May 8th, 2020</p>
 </div>
 <div class="paragraph">
-<p>I am the creator and founder of
-<a href="https://reddit.com/u/MemeInvestor_bot">Meme Investor Bot</a> - the biggest
-interactive reddit bot on the platform that allows users from all over
-to world to invest in memes and collaborate together around their
-favorite content! Almost a year after the initial launch, more than 20
-developers and ethusiasts worked together towards making a better
-platform for collaborative content creation and promotion. We have more
-than 100 thousand registered users on our system. We have our
-<a href="https://meme.market">website</a> where we keep all the statistics updated
-and available with the current trends, popular content, and meme
-markets! I am the main maintainer of the project. Feel free to check out
-our <a href="https://github.com/thecsw/memeinvestor_bot">github page</a> and commit
-new changes!</p>
+<p>I have been a full-time emacs user for the past 4 years and I have been
+working in Golang professionally for about 2 years now. Combining those
+two beauties is quite a task with so many different modules and addons
+available. I believe I found an example of a modular and a comfortable
+setup.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_getting_dependencies">Getting dependencies</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>One of many great things about Go is its tooling environment. You can
+write any tools and implement your ideas with ease.</p>
 </div>
 <div class="paragraph">
-<p>I am also the creator of other various projects and bots, such as
-<a href="https://reddit.com/u/prequelmemes_bot">u/PrequelMemes_bot</a>,
-<a href="https://reddit.com/u/HiveWriting_bot">u/HiveWriting_bot</a>,
-<a href="https://reddit.com/u/MemePolice_bot">u/MemePolice_bot</a>, and so much
-more! For a more detailed list of my open projects, check
-<a href="https://github.com/thecsw">my github page</a>!</p>
+<p>First tool you need is usually <a href="https://golang.org/">Go itself</a>. After
+that, install some of the go tools dependencies below:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">go get -u golang.org/x/tools/cmd/goimports
+go get -u github.com/rogpeppe/godef
+go get -u github.com/nsf/gocode</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Next we need to install some of the emacs dependencies through
+<a href="https://melpa.org">MELPA</a>. This is gonna be big, prep your <code>.emacs.d</code> for
+some fun time compiling elisp. Refresh your local repo of packages by
+running <kbd>M-x package-refresh-contents</kbd>. You can install packages by
+running <kbd>M-x package-install PACKAGE-NAME</kbd></p>
+</div>
+<div class="paragraph">
+<p>Here is the list:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/auto-complete/auto-complete">auto-complete</a></p>
+</li>
+<li>
+<p><a href="https://github.com/dominikh/go-mode.el">go-mode</a></p>
+</li>
+<li>
+<p><a href="https://github.com/vibhavp/go-complete">go-complete</a></p>
+</li>
+<li>
+<p><a href="https://melpa.org/#/go-autocomplete">go-autocomplete</a></p>
+</li>
+<li>
+<p><a href="https://github.com/capitaomorte/autopair">autopair</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_config">Config</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can just put this in your <code>.emacs</code> or whatever init file you&#8217;re
+using. The following config is all you need to get yourself started with
+automatic code formatting, code completion, parenthesis matching, dot
+completion (!), and jump to definition.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-commonlisp" data-lang="commonlisp">;; Init the auto complete modules
+(ac-config-default)
+(global-auto-complete-mode t)
+(require 'go-autocomplete)
+
+;; Enable auto-complete
+(auto-complete-mode 1)
+
+;; Define keymaps
+(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
+(global-set-key (kbd"C-c C-c") 'godef-jump)
+
+;; Set some quick config vals
+(setq ac-auto-start 1)
+(setq ac-auto-show-menu 0.8)
+
+;; Just to make sure go tools are enabled
+(add-to-list 'exec-path "~/go/bin")
+
+;; Automatically format code on save
+(setq gofmt-command "goimports")
+(add-hook 'before-save-hook 'gofmt-before-save)
+(add-hook 'go-mode-hook 'auto-complete-for-go)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After that, just reload your emacs and you should have full go
+environment installed!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_screenshot">Screenshot</h2>
+<div class="sectionbody">
+<div class="imageblock center">
+<div class="content">
+<a class="image" href="./go-emacs.png"><img src="go-emacs.png" alt="go-emacs.png"></a>
+</div>
+<div class="title">Figure 1. Gopher in emacs</div>
+</div>
+</div>
 </div>
 </div>
 <div id="footer">

@@ -3,6 +3,7 @@ Sagindyk Urazayev <ctu@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
+:experimental:
 
 My name is Sagindyk, everybody just calls me Sandy. Currently, I am a
 Computer Science undergraduate student at https://ku.edu[University of

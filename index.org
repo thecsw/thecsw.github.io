@@ -20,8 +20,9 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+  - [[./articles/go-emacs][Becoming an emacs gopher 🐗]]
   - [[./articles/twin-peaks][Twin Peaks as a Cult Film 🌲🌲]]
-  - [[./articles/encrypting_usb][Encrypting your flash drive with LUKS 🗝]]
+  - [[./articles/encrypting_usb][Encrypting your drive with LUKS 🗝]]
   - [[./articles/ryan_codes][Programmer Ryan Gosling: Legacy 👨‍💻]]
   - [[./articles/mira_reddit][Building Reddit apps in Go with mira ⛳]]
   - [[./articles/good_bad_movies][Watching good and bad movies 🎭]]
