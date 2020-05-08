@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Setting up an emacs server 😈
 ============================
 

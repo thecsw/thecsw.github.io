@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Sandy\'s Website 🚀
 ==================
 

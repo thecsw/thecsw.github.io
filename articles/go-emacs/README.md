@@ -1,3 +1,4 @@
+![preview](./preview.png)
 Becoming an emacs gopher 🐗
 ==========================
 

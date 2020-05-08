@@ -41,6 +41,7 @@ $(NAME):
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
 	$(E) "	MAKING README ..."
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
+	$(Q) find . -type f -name "README.md" | xargs sed "1 i ![preview](./preview.png)" -i
 	$(E) "	ADJUSTING HEADERS ..."
 	$(Q) $(INPUT_FILES) | xargs sed 's/^=//g' -i 
 	$(E) "	ADDING VCARD ..."

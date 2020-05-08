@@ -1,3 +1,4 @@
+![preview](./preview.png)
 My resume
 =========
 
