@@ -1,0 +1,110 @@
+Building Reddit apps in Go with mira ⛳
+======================================
+
+March 26th, 2020
+
+I like Go and I think it\'s a great language. I built
+[memeinvestor~bot~](https://github.com/thecsw/memeinvestor_bot), which
+was one of the interactive reddit bots on the platform at the time. So
+you can imagine we used quite a bit of
+[praw](https://github.com/praw-dev/praw). About year and a half later,
+the python codebase became so disgusting and unmaintainable, where I
+decided to re-write the whole thing in Go. (The old \"let\'s rewrite
+everything\" syndrome\") Re-write would be too strong, re-build from
+scratch is what the goal was.
+
+Surely, after a couple of seconds of DuckDuckGoing, I stumbled upon
+[graw](https://github.com/turnage/graw), one of the most popular Go
+Reddit Api Wrappers. I remember that I was just learning Go at a time
+and really just wanted to do something with it. Graw\'s deal with
+`announcer` and other stuff confused me a bit. So I did what every
+software engineer does when it itches the wrong way. Make a new library!
+
+I present to you, [mira](https://github.com/thecsw/mira)! It\'s a really
+playful and straight-forward library. Mira aggressively uses the
+dot-notation ([gorm](https://github.com/jinzhu/gorm) style) and has the
+simplicity of praw. Golang\'s great features as goroutines are used to
+implement the streaming functionality. Let\'s dive straight into it!
+
+Installing
+----------
+
+mira can be installed like any other go package, just run
+
+``` {.bash org-language="sh"}
+go get -u github.com/thecsw/mira
+```
+
+Introduction
+------------
+
+mira requires you to authenticate via reddit by supplying reddit tokens.
+Other methods of authing should be implemented. Maybe you are the chosen
+one?
+
+For authentication, take a look at mira\'s readme, we will get to the
+cream of the crops and actual features.
+
+Basic reddit
+------------
+
+You can post submissions and submit/reply/edit/delete comments. You can
+also grab N number of submissions from any subreddit, paginate through
+them, and other exciting stuff! Below is some basic functionality
+example.
+
+GIST thecsw/c8bd97b96c892734eca1f945a049b834
+
+Streaming
+---------
+
+Streaming Reddit data is probably the most exciting part of using mira
+and usually the top reason of using any Reddit API wrappers. When you
+want to run a stream of submissions/comments/replies, mira will give you
+a channel where it will get populated as new streaming data becomes
+available.
+
+Let\'s take a quick example of how we can build a reminder bot from
+[graw guide](https://turnage.gitbooks.io/graw/content/graw.html). This
+code is originally from the graw guide, the only diffence is that it\'s
+written to use mira instead of graw. Example done to show how those two
+libraries differ.
+
+GIST thecsw/e2e3d2b558f943fb3f5047ed4979282d
+
+NOTE: mira is not ****completely**** concurrency safe! When you run
+`r.Comment(...)` or `r.Redditor(...)`, it adds those values to its
+internal queue and dequeues them when requested. If two threads or
+routines try to dequeue at the same time or expect something, then the
+data can get mingled up a bit. For example, there is a
+`r.ReplyWithID(commentID, text)` that makes an http request directly,
+without using the internal queue, which works fine. It\'s a quick
+workaround that works. If you have more suggestions, I\'m happy to wait
+for your PR!
+
+Similar API is available for other Reddit entities and objects. For
+example, mira currently supports:
+
+-   `r.Me().StreamCommentReplies()`
+-   `r.Me().StreamMentions()`
+-   `r.Redditor(...).StreamComments()`
+-   `r.Submission(...).StreamComments()`
+-   `r.Redditor(...).StreamSubmissions()`
+-   `r.Submission(...).StreamSubmissions()`
+
+The names are very Java like and I hope they are intuitive
+
+Extending mira
+--------------
+
+The library only supports \~15 endpoints. Reddit has well over 50-60.
+Mira exposes its caller
+`Reddit.MiraRequest(httpMethod, endpoint, payload)` and http request
+handler, so you can build your own mira callers and work with them!
+
+Here is an example of how `r.Comment(...).Reply(subject, text)` is
+implemented:
+
+NOTE: you can lookup `checkType(...)` in mira\'s readme
+
+GIST thecsw/25ff8b8e247b33b3cf023740ee5083bf

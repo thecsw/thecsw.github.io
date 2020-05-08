@@ -1,6 +1,7 @@
 = Sandy's Website 🚀
 Sagindyk Urazayev <ctu@ku.edu>
 LinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK 
+ :toc: left
 
 == Welcome to my website! 🌷
 

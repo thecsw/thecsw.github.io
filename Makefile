@@ -22,7 +22,8 @@ INPUT_TYPE = adoc
 OUTPUT_TYPE = html
 NAME = Sagindyk Urazayev
 EMAIL = ctu@ku.edu
-VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK\n:toc: left\n:toc-title: Table of Adventures ⛵\n:experimental:
+ATTRS = :toc: left\n:toc-title: Table of Adventures ⛵\n:experimental:
+VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK\n $(ATTRS)
 LINKEDIN = https://www.linkedin.com/in/thecsw/
 GITHUB = https://github.com/thecsw
 RESUME = /resume
@@ -38,6 +39,8 @@ $(NAME):
 	$(Q) notify-send "Sandy's Website" "building..."
 	$(E) "	CONVERTING ORG TO ADOC ..."
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
+	$(E) "	MAKING README ..."
+	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
 	$(E) "	ADJUSTING HEADERS ..."
 	$(Q) $(INPUT_FILES) | xargs sed 's/^=//g' -i 
 	$(E) "	ADDING VCARD ..."
@@ -96,5 +99,3 @@ $(NAME):
 	$(E) "	UPDATING COLORS ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fffff4;color:\#3a1616;|g;' -i
 	$(Q) notify-send "Sandy's Website" "Build complete!"
-	$(E) "	MAKING README ..."
-	$(Q) pandoc -i index.org -o README.md
