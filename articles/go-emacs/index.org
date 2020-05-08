@@ -27,11 +27,11 @@ your local repo of packages by running kbd:[M-x package-refresh-contents].
 You can install packages by running kbd:[M-x package-install PACKAGE-NAME]
 
 Here is the list:
- - [[https://github.com/auto-complete/auto-complete][auto-complete]]
- - [[https://github.com/dominikh/go-mode.el][go-mode]]
- - [[https://github.com/vibhavp/go-complete][go-complete]]
- - [[https://melpa.org/#/go-autocomplete][go-autocomplete]]
- - [[https://github.com/capitaomorte/autopair][autopair]]
+ - [[https://github.com/auto-complete/auto-complete][auto-complete]] - An Intelligent auto-completion extension for Emacs
+ - [[https://github.com/dominikh/go-mode.el][go-mode]] - Emacs mode for the Go programming language 
+ - [[https://github.com/vibhavp/go-complete][go-complete]] - Native Go completion for Emacs 
+ - [[https://melpa.org/#/go-autocomplete][go-autocomplete]] - auto-complete-mode backend for go-mode
+ - [[https://github.com/capitaomorte/autopair][autopair]] - Automagically pair braces and quotes in emacs like TextMate 
 
 ** Config
 

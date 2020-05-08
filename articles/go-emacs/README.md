@@ -32,11 +32,16 @@ packages by running kbd:\[M-x package-install PACKAGE-NAME\]
 
 Here is the list:
 
--   [auto-complete](https://github.com/auto-complete/auto-complete)
--   [go-mode](https://github.com/dominikh/go-mode.el)
--   [go-complete](https://github.com/vibhavp/go-complete)
--   [go-autocomplete](https://melpa.org/#/go-autocomplete)
--   [autopair](https://github.com/capitaomorte/autopair)
+-   [auto-complete](https://github.com/auto-complete/auto-complete) - An
+    Intelligent auto-completion extension for Emacs
+-   [go-mode](https://github.com/dominikh/go-mode.el) - Emacs mode for
+    the Go programming language
+-   [go-complete](https://github.com/vibhavp/go-complete) - Native Go
+    completion for Emacs
+-   [go-autocomplete](https://melpa.org/#/go-autocomplete) -
+    auto-complete-mode backend for go-mode
+-   [autopair](https://github.com/capitaomorte/autopair) - Automagically
+    pair braces and quotes in emacs like TextMate
 
 Config
 ------
