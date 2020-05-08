@@ -79,8 +79,8 @@ completion (!), and jump to definition.
 After that, just reload your emacs and you should have full go
 environment installed!
 
-== Screenshot
+== Demo
 
 .Gopher in emacs
 
-image::go-emacs.png[go-emacs.png, role="center", link="./go-emacs.png"]
+image::go-emacs.svg[go-emacs.svg, role="center", link="./go-emacs.svg"]
