@@ -69,10 +69,6 @@ $(NAME):
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub 🐙</a>|g' -i
 	$(E) "	SETTING ABOUT ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|About_LINK|<a href="$(ABOUT)">About 🤔</a>|g' -i
-#	$(E) "	SETTING RESUME ..."
-#	$(Q) $(OUTPUT_FILES) | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume 📋</a>|g' -i
-#	$(E) "	SETTING PGP KEYS ..."
-#	$(Q) $(OUTPUT_FILES) | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key 🔑</a>|g' -i
 	$(E) "	SETTING KEYBASE ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Keybase_LINK|<a href="$(KEYBASE)">Keybase 💆</a>|g' -i
 	$(E) "	SETTING HOME ..."
@@ -92,6 +88,7 @@ $(NAME):
 	$(E) "	UPDATING FONTS ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<link rel="stylesheet" href="https:\/\/fonts.googleapis.com/d' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
+	$(E) "	UPDATING STYLES ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<body/i\<link rel="stylesheet" type="text/css" href="/styles/web.min.css">' -i
 	$(E) "	UPDATING AUDIO ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|g;' -i
@@ -99,6 +96,4 @@ $(NAME):
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|PLAY_YOUTUBE ([^<>]+)|<iframe width="420" height="256" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|g;' -i
 	$(E) "	ADDING GISTS"
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|GIST ([^<>]+)|<script src="https://gist.github.com/\1.js"></script>|g;' -i
-#	$(E) "	UPDATING COLORS ..."
-#	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fffff4;color:\#3a1616;|g;' -i
 	$(Q) notify-send "Sandy's Website" "Build complete!"

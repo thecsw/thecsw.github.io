@@ -25,5 +25,3 @@
   I am also the creator of other various projects and bots, such as
   [[https://reddit.com/u/prequelmemes_bot][u/PrequelMemes_bot]], [[https://reddit.com/u/HiveWriting_bot][u/HiveWriting_bot]], [[https://reddit.com/u/MemePolice_bot][u/MemePolice_bot]], and so much more!
   For a more detailed list of my open projects, check [[https://github.com/thecsw][my github page]]!
-
-  PIC armenia.png:Armenia

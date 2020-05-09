@@ -34,6 +34,3 @@ https://reddit.com/u/HiveWriting_bot[u/HiveWriting_bot],
 https://reddit.com/u/MemePolice_bot[u/MemePolice_bot], and so much
 more! For a more detailed list of my open projects, check
 https://github.com/thecsw[my github page]!
-
-.Armenia
-image::armenia.png[Armenia, link="armenia.png"]
