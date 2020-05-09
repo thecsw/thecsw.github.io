@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-About me 🤔
-==========
+About 🤔
+=======
 
 My name is Sagindyk, everybody just calls me Sandy. Currently, I am a
 Computer Science undergraduate student at [University of
@@ -32,3 +32,5 @@ I am also the creator of other various projects and bots, such as
 [u/MemePolice~bot~](https://reddit.com/u/MemePolice_bot), and so much
 more! For a more detailed list of my open projects, check [my github
 page](https://github.com/thecsw)!
+
+PIC armenia.png:Armenia

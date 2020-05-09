@@ -23,9 +23,10 @@ OUTPUT_TYPE = html
 NAME = Sagindyk Urazayev
 EMAIL = ctu@ku.edu
 ATTRS=:toc: left\n:toc-title: Table of Adventures ⛵\n:experimental:
-VCARD = $(NAME) <$(EMAIL)>\nLinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK\n$(ATTRS)
+VCARD = $(NAME) <$(EMAIL)>\nAbout_LINK | GitHub_LINK | LinkedIn_LINK | Keybase_LINK | Home_LINK\n$(ATTRS)
 LINKEDIN = https://www.linkedin.com/in/thecsw/
 GITHUB = https://github.com/thecsw
+ABOUT = /about
 RESUME = /resume
 KEYBASE = https://keybase.io/thecsw
 GPG_KEY = https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B
@@ -59,14 +60,17 @@ $(NAME):
 	$(Q) $(INPUT_FILES) | xargs sed -E 's=latexmath:\[==g;s=[$$]]=$$=g' -i
 	$(E) "	ADDING PICTURES"
 	$(Q) $(INPUT_FILES) | xargs sed -E 's|PICTURE ([^<>]+):([^<>]+):([0-9]+):([a-z]+)|.\2\nimage::\1[\2, width=\3, role="\4", link="\1"]|g;' -i
+	$(Q) $(INPUT_FILES) | xargs sed -E 's|PIC ([^<>]+):([^<>]+)|.\2\nimage::\1[\2, link="\1"]|g;' -i
 	$(E) "	BUILDING ..."
 	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS) 2>/dev/null
 	$(E) "	SETTING LINKEDIN ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|LinkedIn_LINK|<a href="$(LINKEDIN)">LinkedIn 🕴</a>|g' -i
 	$(E) "	SETTING GITHUB ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|GitHub_LINK|<a href="$(GITHUB)">GitHub 🐙</a>|g' -i
-	$(E) "	SETTING RESUME ..."
-	$(Q) $(OUTPUT_FILES) | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume 📋</a>|g' -i
+	$(E) "	SETTING ABOUT ..."
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|About_LINK|<a href="$(ABOUT)">About 🤔</a>|g' -i
+#	$(E) "	SETTING RESUME ..."
+#	$(Q) $(OUTPUT_FILES) | xargs sed 's|Resume_LINK|<a href="$(RESUME)">Resume 📋</a>|g' -i
 #	$(E) "	SETTING PGP KEYS ..."
 #	$(Q) $(OUTPUT_FILES) | xargs sed 's|PGP Key_LINK|<a href="$(GPG_KEY)">PGP Key 🔑</a>|g' -i
 	$(E) "	SETTING KEYBASE ..."
@@ -88,15 +92,15 @@ $(NAME):
 	$(E) "	UPDATING FONTS ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed '/<link rel="stylesheet" href="https:\/\/fonts.googleapis.com/d' -i
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Noto Serif|$(FONT)|g;s|Open|$(FONT)|g;s|DejaVu|$(FONT)|g;s|Droid Sans Mono|$(FONT_CODE)|g;' -i
-	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<link rel="stylesheet" type="text/css" href="/fonts/fonts.css">' -i
-	$(E) "	UPDATING COLORS ..."
-	$(Q) $(OUTPUT_FILES) | xargs sed '/Asciidoctor default stylesheet/i\::selection{color:white;background:#FF4081}' -i
+	$(Q) $(OUTPUT_FILES) | xargs sed '/<title/i\<link rel="stylesheet" type="text/css" href="/styles/web.css">' -i
+#	$(E) "	UPDATING COLORS ..."
+#	$(Q) $(OUTPUT_FILES) | xargs sed '/Asciidoctor default stylesheet/i\::selection{color:white;background:#FF4081}' -i
 	$(E) "	UPDATING AUDIO ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|g;' -i
 	$(E) "	UPDATING YOUTUBE ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|PLAY_YOUTUBE ([^<>]+)|<iframe width="420" height="256" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|g;' -i
 	$(E) "	ADDING GISTS"
 	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|GIST ([^<>]+)|<script src="https://gist.github.com/\1.js"></script>|g;' -i
-	$(E) "	UPDATING COLORS ..."
-	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fffff4;color:\#3a1616;|g;' -i
+#	$(E) "	UPDATING COLORS ..."
+#	$(Q) $(OUTPUT_FILES) | xargs sed -E 's|body\{background:\#fff;color:rgba\(0,0,0,.8\);|body\{background:\#fffff4;color:\#3a1616;|g;' -i
 	$(Q) notify-send "Sandy's Website" "Build complete!"
