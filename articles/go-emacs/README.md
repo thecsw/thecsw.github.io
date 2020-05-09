@@ -7,8 +7,8 @@ May 7th, 2020
 I have been a full-time emacs user for the past 4 years and I have been
 working in Golang professionally for about 2 years now. Combining those
 two beauties is quite a task with so many different modules and addons
-available. I believe I found an example of a modular and a comfortable
-setup. *Demo below!*
+available. This is a comfortable setup I found for myself and I wish to
+share it. *Demo below!*
 
 Getting dependencies
 --------------------
