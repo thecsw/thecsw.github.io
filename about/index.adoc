@@ -1,6 +1,6 @@
-= About me 🤔
+= About 🤔
 Sagindyk Urazayev <ctu@ku.edu>
-LinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK
+About_LINK | GitHub_LINK | LinkedIn_LINK | Keybase_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
 :experimental:
@@ -34,3 +34,6 @@ https://reddit.com/u/HiveWriting_bot[u/HiveWriting_bot],
 https://reddit.com/u/MemePolice_bot[u/MemePolice_bot], and so much
 more! For a more detailed list of my open projects, check
 https://github.com/thecsw[my github page]!
+
+.Armenia
+image::armenia.png[Armenia, link="armenia.png"]

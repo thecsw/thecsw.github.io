@@ -18,8 +18,6 @@ website. There is something very profound about Web 1.0, like
 have their own website that allows them to modify it in any conceivable
 way. Please enjoy!
 
-I have a page where you can learn more [about me 🤔](./aboutme)
-
 TIP: Scroll to the bottom for details on how this website is built.
 
 ### My cozy blog 💻

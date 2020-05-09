@@ -1,6 +1,6 @@
 = Twin Peaks as a Cult Film 🌲🌲
 Sagindyk Urazayev <ctu@ku.edu>
-LinkedIn_LINK | GitHub_LINK | Resume_LINK | Keybase_LINK | Home_LINK
+About_LINK | GitHub_LINK | LinkedIn_LINK | Keybase_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
 :experimental:
