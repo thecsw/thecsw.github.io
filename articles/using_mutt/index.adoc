@@ -55,22 +55,23 @@ became this big hassle of navigating to intermediate apps and typing a
 message.
 
 Is there a solution for this unfortunate turn of events and
-overcomplication of email technology? I wish to introduce you to `Mutt`
-email client that brings back joy and happiness into emailing each
-other.
+overcomplication of email technology? I wish to introduce you to
+`+Mutt+` email client that brings back joy and happiness into emailing
+each other.
 
 == What is Mutt?
 
 http://www.mutt.org/[Mutt] is a text-based email client developed by
 Michael Elkins in 1995 for UNIX-like systems. I want to say that this is
 truly the way emails were meant to be used. Before I start getting angry
-emails, I am aware of other fantastic `TUI` and `ncurses` email clients,
-such as: http://www.gnus.org/[Gnus], http://www.instinct.org/elm/[Elm],
-and http://alpine.x10host.com/alpine/[Alpine] (Used by Brian
-Kernighan!). However, it is safe to say that `Mutt` is the most
-extensive, feature-rich, actively developed, and well-supported by its
-community. Just to list some of its features, please take a look at the
-excerpt from Mutt's website below:
+emails, I am aware of other fantastic `+TUI+` and `+ncurses+` email
+clients, such as: http://www.gnus.org/[Gnus],
+http://www.instinct.org/elm/[Elm], and
+http://alpine.x10host.com/alpine/[Alpine] (Used by Brian Kernighan!).
+However, it is safe to say that `+Mutt+` is the most extensive,
+feature-rich, actively developed, and well-supported by its community.
+Just to list some of its features, please take a look at the excerpt
+from Mutt's website below:
 
 * color support
 * active development community
@@ -84,9 +85,9 @@ excerpt from Mutt's website below:
 * _It's free!_ (no cost and GPL'ed)
 * and so http://www.mutt.org/[much more!]
 
-`Mutt` accompanied with `offlineimap` will allow you to have all your
-emails saved on your machine so you will have a 24/7 access to them even
-if you do not have internet connection. You can write an email and
+`+Mutt+` accompanied with `+offlineimap+` will allow you to have all
+your emails saved on your machine so you will have a 24/7 access to them
+even if you do not have internet connection. You can write an email and
 postpone it indefinitely until your internet connection comes back. It
 also takes 0.1 seconds to boot it up and start composing a message. Do
 not forget about the aesthetics and romance with the terminal. Let us
@@ -106,17 +107,18 @@ messages and store them locally. Simple Mail Transfer Protocol or SMTP
 is used for sending messages and handling remote mail server message
 transferring.
 
-You can imagine that `Mutt` email client will rely on both of the
-protocols to operate normally. And you will be right. `offlineimap` is a
-program that allows us to use IMAP protocol and store all messages
+You can imagine that `+Mutt+` email client will rely on both of the
+protocols to operate normally. And you will be right. `+offlineimap+` is
+a program that allows us to use IMAP protocol and store all messages
 directly on our machine. There is also an option where you could use
-`Mutt` without `offlineimap`, it would mean that everytime you want to
-open your mailbox, Mutt will contact your mail server to download list
-of your messages. This is a very time expensive operation as it greatly
-depends on your bandwidth, internet location, and physical location from
-the mail server. Also, it would not allow you to access your messages
-without a constant internet connection. For this article, I will include
-full `offlineimap` configuration before we start using `Mutt`.
+`+Mutt+` without `+offlineimap+`, it would mean that everytime you want
+to open your mailbox, Mutt will contact your mail server to download
+list of your messages. This is a very time expensive operation as it
+greatly depends on your bandwidth, internet location, and physical
+location from the mail server. Also, it would not allow you to access
+your messages without a constant internet connection. For this article,
+I will include full `+offlineimap+` configuration before we start using
+`+Mutt+`.
 
 == offlineimap
 
@@ -124,26 +126,26 @@ full `offlineimap` configuration before we start using `Mutt`.
 
 If you are using one of the bigger Linux distributions (Ubuntu, Fedora,
 Debian, and etc), it should already be installed. Try runnig
-`% offlineimap` to see if you have an active executable.
+`+% offlineimap+` to see if you have an active executable.
 
-NOTE: `%` indicates that we are in the terminal. Everything after `%`
-should be executed.
+NOTE: `+%+` indicates that we are in the terminal. Everything after
+`+%+` should be executed.
 
 If you do not have it installed, you can run
-`% sudo pacman -S offlineimap` on Arch Linux to install it or use python
-package manager https://pypi.org/project/pip/[pip] to install it.
+`+% sudo pacman -S offlineimap+` on Arch Linux to install it or use
+python package manager https://pypi.org/project/pip/[pip] to install it.
 
 [source,bash]
 ----
 % pip install --user offlineimap
 ----
 
-That should get you a fresh copy of `offlineimap`.
+That should get you a fresh copy of `+offlineimap+`.
 
 === Configuration
 
-`offlineimap` as a UNIX application, uses a configuration file,
-conveniently called `.offlineimaprc`. To make things easier, touch the
+`+offlineimap+` as a UNIX application, uses a configuration file,
+conveniently called `+.offlineimaprc+`. To make things easier, touch the
 file in your home directory or open your favorite tex editor, _emacs_,
 and write down the following:
 
@@ -176,12 +178,12 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 ----
 
 This config file just gives us some details about how to contact the
-IMAP server and how to save it. `_mymail_` is any name of your choice.
-For my university mail, I have it named `kumail`, feel free to name it
+IMAP server and how to save it. `+_mymail_+` is any name of your choice.
+For my university mail, I have it named `+kumail+`, feel free to name it
 whatever name is convenient for you.
 
 Local Repository gives info where it store all our email data, that
-would be `.mail/_mymail_` directory in your home directory. Remote
+would be `+.mail/_mymail_+` directory in your home directory. Remote
 repository is a bit more trickier but not difficult. It just specifies
 what you mail server is. Find your IMAP server, ports are not really
 important because they are usually the default ones (993). For example,
@@ -210,16 +212,16 @@ email client.
 
 == Mutt and NeoMutt
 
-So far, we talked about `Mutt`, but there is also a fork of it (same
-software with more features), called `NeoMutt`. We will be using it
-instead of `Mutt` as it is more extensible, faster, and
-backward-compatible with `Mutt`. You have same configuration files for
+So far, we talked about `+Mutt+`, but there is also a fork of it (same
+software with more features), called `+NeoMutt+`. We will be using it
+instead of `+Mutt+` as it is more extensible, faster, and
+backward-compatible with `+Mutt+`. You have same configuration files for
 both of them.
 
 === Installation
 
-Installation of `NeoMutt` is super straight forward. Just pick your
-favorite flavor of Linux and install a package called `neomutt`. For
+Installation of `+NeoMutt+` is super straight forward. Just pick your
+favorite flavor of Linux and install a package called `+neomutt+`. For
 Arch Linux, it just would be
 
 [source,bash]
@@ -242,7 +244,7 @@ and other cool stuff.
 . Basic config
 +
 Just to get you started, the drill is the same as the last time, but now
-it would be called `~/.muttrc` The config file has a lot of different
+it would be called `+~/.muttrc+` The config file has a lot of different
 entries, so to keep it short, I will include the config file and it will
 be an exercise for the reader to get the meaning of the entries (this
 will be simple, I promise).
@@ -316,8 +318,8 @@ set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
 ----
 +
 You can easily leave everything as it is, just edit all the lines with
-`# edit this`. Please pay a close attention to the line
-`set smtp_url...`. You have to find your SMTP server address and port
+`+# edit this+`. Please pay a close attention to the line
+`+set smtp_url...+`. You have to find your SMTP server address and port
 number (usually 587). After that, your email should be operational!
 
 === Make it cool
@@ -325,7 +327,7 @@ number (usually 587). After that, your email should be operational!
 . Secure password
 +
 You might not like that we store your password in plain text in your
-`~/.muttrc`. I do not like it either. In this section, we will encrypt
+`+~/.muttrc+`. I do not like it either. In this section, we will encrypt
 your email password and only you should be able te unlock it. We will
 encrypt your password with GPG. To do so, you have to have a pair of
 keys: public and private. To read more about public and private key
@@ -343,35 +345,35 @@ The following command will get you through everything
 % gpg --gen-key
 ----
 +
-Make a new directory in your home directory with `% mkdir ~/.mutt`
+Make a new directory in your home directory with `+% mkdir ~/.mutt+`
 .. Creating password file
 +
 You have to create your password with
-`% echo set my_pass = '_mypassword_' > ~/.mutt/mypass`
+`+% echo set my_pass = '_mypassword_' > ~/.mutt/mypass+`
 +
 IMPORTANT: Put a space before the command so your system will not save
 your plain text password in its shell history.
 +
-Encrypt the file with `% gpg -r _my_email_ -e ~/.mutt/mypass`, where
-`_my_email_` is the email address you used when you created your key.
-You will have a new file called `mypass.gpg` that is your actual
+Encrypt the file with `+% gpg -r _my_email_ -e ~/.mutt/mypass+`, where
+`+_my_email_+` is the email address you used when you created your key.
+You will have a new file called `+mypass.gpg+` that is your actual
 encrypted password.
 +
 You can decrypt it and get the contents with
-`% gpg -d ~/.mutt/mypass.gpg`
+`+% gpg -d ~/.mutt/mypass.gpg+`
 +
-Remove the old file with `% rm mypass`
+Remove the old file with `+% rm mypass+`
 .. Add key to Mutt
 +
-Add the following line to the top of your `~/.muttrc`:
-`source "gpg -dq $HOME/.mutt/mypass.gpg |"`
+Add the following line to the top of your `+~/.muttrc+`:
+`+source "gpg -dq $HOME/.mutt/mypass.gpg |"+`
 +
-Now, you can get rid of the plain text password from your `~/.muttrc`
+Now, you can get rid of the plain text password from your `+~/.muttrc+`
 and you are done! Try opening NeoMutt, it should ask you for your gpg
 password if you set up one.
 . Add your signature
 +
-Make your signature in the `~/.mutt/mysig.sig`, for example
+Make your signature in the `+~/.mutt/mysig.sig+`, for example
 +
 [source,example]
 ----
@@ -384,28 +386,28 @@ Don't call me
 ----
 +
 Add the line below to include your signature in every new email message.
-`set signature = "$HOME/.mutt/mysig.sig"`
+`+set signature = "$HOME/.mutt/mysig.sig"+`
 . Encrypting your emails
 +
 If you are feeling dangerous, you can start signing your emails,
 encrypting them, armored signatures, and other cool stuff. To do that,
-download link:./gpg.rc[this file], add that to your `~/.mutt/`
+download link:./gpg.rc[this file], add that to your `+~/.mutt/+`
 directory, create one if you don't have it, and add the following line
-to your `_/.muttrc`: `source /.mutt/gpg.rc`
+to your `+_/.muttrc+`: `+source /.mutt/gpg.rc+`
 +
-Press `p` when composing email to see the available options.
+Press `+p+` when composing email to see the available options.
 . Read web pages in your email
 +
-Download link:./mailcap[this file], move the file to the `~/.mutt/`
+Download link:./mailcap[this file], move the file to the `+~/.mutt/+`
 directory, add this line to your configuration file
-`set mailcap_path = ~/.mutt/mailcap`
+`+set mailcap_path = ~/.mutt/mailcap+`
 . Make it corolful
 +
 Make your NeoMutt look really good. Same drill.
 +
-Download link:./color.mutt[this file], move the file to the `~/.mutt/`
+Download link:./color.mutt[this file], move the file to the `+~/.mutt/+`
 directory, add this line to your configuration file
-`source $HOME/.mutt/color.mutt`
+`+source $HOME/.mutt/color.mutt+`
 
 == Conclusion
 

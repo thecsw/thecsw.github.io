@@ -29,10 +29,10 @@ that, install some of the go tools dependencies below:
 ----
 
 Next we need to install some of the emacs dependencies through
-https://melpa.org[MELPA]. This is gonna be big, prep your `.emacs.d` for
-some fun time compiling elisp. Refresh your local repo of packages by
-running kbd:[M-x package-refresh-contents]. You can install packages by
-running kbd:[M-x package-install PACKAGE-NAME]
+https://melpa.org[MELPA]. This is gonna be big, prep your `+.emacs.d+`
+for some fun time compiling elisp. Refresh your local repo of packages
+by running kbd:[M-x package-refresh-contents]. You can install packages
+by running kbd:[M-x package-install PACKAGE-NAME]
 
 Here is the list:
 
@@ -49,7 +49,7 @@ pair braces and quotes in emacs like TextMate
 
 == Config
 
-You can just put this in your `.emacs` or whatever init file you're
+You can just put this in your `+.emacs+` or whatever init file you're
 using. The following config is all you need to get yourself started with
 automatic code formatting, code completion, parenthesis matching, dot
 completion (!), and jump to definition.
