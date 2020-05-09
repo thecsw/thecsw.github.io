@@ -32,5 +32,3 @@ I am also the creator of other various projects and bots, such as
 [u/MemePolice~bot~](https://reddit.com/u/MemePolice_bot), and so much
 more! For a more detailed list of my open projects, check [my github
 page](https://github.com/thecsw)!
-
-PIC armenia.png:Armenia
