@@ -1,5 +1,5 @@
 /* Originally from http://bettermotherfuckingwebsite.com */
-@import url(https://fonts.googleapis.com/css?family=DejaVu+Sans);
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Inter&display=swap');
 body {
   margin: 40px auto;
   max-width: 900px;
@@ -7,13 +7,13 @@ body {
   font-size: 16px;
   color: #444;
   padding: 0 10px;
-  font-family: "DejaVu Sans";
+  font-family: 'Inter', sans-serif;;
 }
 h1,
 h2,
 h3 {
   line-height: 1.2;
-  font-family: "DejaVu Sans Mono";
+  font-family: 'Inter', sans-serif;;
 }
 img {
   width: 700px;
@@ -21,7 +21,7 @@ img {
 }
 pre {
   font-size: 14px;
-  font-family: "DejaVu Sans Mono";
+  font-family: 'Inconsolata', monospace;
 }
 ::selection {
   color: white;
