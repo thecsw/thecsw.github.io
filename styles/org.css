@@ -16,10 +16,7 @@ h3 {
 }
 img {
   width: 700px;
-  border-style: solid;
-  border-color: #b76ac4;
   border-radius: 10px;
-  border-width: 8px;
 }
 pre {
   font-size: 14px;
