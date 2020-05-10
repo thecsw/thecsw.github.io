@@ -5,6 +5,8 @@ About_LINK | GitHub_LINK | LinkedIn_LINK | Keybase_LINK | Home_LINK
 :toc-title: Table of Adventures ⛵
 :experimental:
 
+May 9th, 2020
+
 Org Mode HTML output can look like
 https://motherfuckingwebsite.com/[this webpage], but as its
 http://bettermotherfuckingwebsite.com/[big brother] rightfully states, a

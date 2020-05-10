@@ -89,7 +89,7 @@ Reading makes me sleepy, but here are some that give me good dreams:
 I love typesetting tools. In my experience, I have used and written
 articles and papers using the following list of tools: `LaTeX`, `groff`,
 `markdown`, `Org-Mode`, `asciidoctor`, `HTML`, `plain text`. I had to
-uncompress Word files and work with raw XML files there, what a trip
+decompress Word files and work with raw XML files there, what a trip
 that was.
 
 This beautiful website typed in [Org-Mode](https://orgmode.org/) and

@@ -1,5 +1,7 @@
 * Prettifying Org Mode with CSS 💅
 
+May 9th, 2020
+
 Org Mode HTML output can look like [[https://motherfuckingwebsite.com/][this webpage]], but as its [[http://bettermotherfuckingwebsite.com/][big brother]]
 rightfully states, a /grotesque pile of shit/. Same goes for orgmode. I wrote a
 very small CSS file that you can add to your orgmode header and the output
