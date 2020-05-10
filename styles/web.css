@@ -2,6 +2,23 @@
 img {
   border-radius: 10px;
 }
+a {
+  cursor: pointer;
+  color: #217ab7;
+  line-height: inherit;
+}
+a:hover {
+  color: white;
+  background-color: #3297d3;
+}
+a:visited {
+  color: #555abf;
+  border-color: #555abf;
+}
+a:visited:hover {
+  color: white;
+  background-color: #6772e5;
+}
 body {
   background: #fffff4;
   color: #3a1616;
