@@ -2,6 +2,6 @@
 About 🤔
 =======
 
-What should I say?
+What can I say?
 
 ¯\\\\~(ツ)~\_/¯
