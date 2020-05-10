@@ -11,7 +11,7 @@ You can just add this line here:
 #+HTML_HEAD: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
 #+END_SRC
 
-Even a really small makeup can make a big difference! That's why I prefer Dior
+Even a really little makeup can make a big difference! That's why I prefer Dior
 
 *Before* and *after*
 
