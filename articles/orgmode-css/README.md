@@ -23,3 +23,6 @@ Even a really little makeup can make a big difference!
 **Before** and **after**
 
 PIC example.png:Before and After
+
+There is a good discussion about this article on
+[hackernews](https://news.ycombinator.com/item?id=23130104)!
