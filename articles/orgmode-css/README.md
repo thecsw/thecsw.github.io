@@ -2,6 +2,8 @@
 Prettifying Org Mode with CSS 💅
 ===============================
 
+May 9th, 2020
+
 Org Mode HTML output can look like [this
 webpage](https://motherfuckingwebsite.com/), but as its [big
 brother](http://bettermotherfuckingwebsite.com/) rightfully states, a

@@ -38,11 +38,11 @@ solutions at the end
 Backup all your data on your thumb drive, because we will need to erase
 everything from it and rewrite the filesystem tables.
 
-NOTE: `+%+` symbolizes the shell prompt.
+NOTE: `%` symbolizes the shell prompt.
 
 === Setting it up
 
-Let `+/dev/sdb+` be your USB drive. Be careful, we don't want to
+Let `/dev/sdb` be your USB drive. Be careful, we don't want to
 accidentally wipe everything out on your hard drive. Follow the
 instructions
 
@@ -52,8 +52,8 @@ instructions
 ----
 
 Now, let's open the drive with LUKS and write a filesystem to it. Enter
-your new passphrase and name where to map it, `+sdb+` is just an
-example. It maps to `+/dev/mapper/sdb+`
+your new passphrase and name where to map it, `sdb` is just an example.
+It maps to `/dev/mapper/sdb`
 
 [source,bash]
 ----
@@ -61,7 +61,7 @@ example. It maps to `+/dev/mapper/sdb+`
 ----
 
 Now we got access to the drive, let's write your favorite filesystem,
-I'll go with `+ext4+`
+I'll go with `ext4`
 
 [source,bash]
 ----
@@ -70,8 +70,7 @@ I'll go with `+ext4+`
 
 === Mounting the drive
 
-Let's write something to the drive. `+/mnt/flash+` is some mounting
-target
+Let's write something to the drive. `/mnt/flash` is some mounting target
 
 [source,bash]
 ----
