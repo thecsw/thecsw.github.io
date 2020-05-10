@@ -3,6 +3,7 @@ Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | GitHub_LINK | LinkedIn_LINK | Keybase_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
+:nofooter:
 :experimental:
 
 <meta http-equiv="refresh" content="0; url=./resume.pdf" />
