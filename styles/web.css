@@ -12,12 +12,12 @@ a:hover {
   background-color: #3297d3;
 }
 a:visited {
-  color: #555abf;
-  border-color: #555abf;
+  color: #43458b;
+  border-color: #43458b;
 }
 a:visited:hover {
   color: white;
-  background-color: #6772e5;
+  background-color: #9251ac;
 }
 body {
   background: #fffff4;
