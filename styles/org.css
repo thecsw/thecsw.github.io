@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Inter&display=swap');
 body {
   margin: 40px auto;
-  max-width: 900px;
+  max-width: 90%;
   line-height: 1.6;
   font-size: 16px;
   color: #444;
@@ -16,7 +16,7 @@ h3 {
   font-family: 'Inter', sans-serif;;
 }
 img {
-  width: 700px;
+  width: 80%;
   border-radius: 10px;
 }
 pre {
