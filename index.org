@@ -18,6 +18,7 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+  - [[./articles/orgmode-css][Prettifying Org Mode with CSS 💅]]
   - [[./articles/emacsd][Setting up an emacs server 😈]]
   - [[./articles/go-emacs][Becoming an emacs gopher 🐗]]
   - [[./articles/twin-peaks][Twin Peaks as a Cult Film 🌲🌲]]
