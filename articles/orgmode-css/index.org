@@ -7,13 +7,14 @@ rightfully states, a /grotesque pile of shit/. Same goes for orgmode. I wrote a
 very small CSS file that you can add to your orgmode header and the output
 should smoother
 
-You can just add this line here:
+You can just add this line here or just use the bare CSS as a starting point to
+make your own (everyone has their own style):
 
 #+BEGIN_SRC org
 #+HTML_HEAD: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
 #+END_SRC
 
-Even a really little makeup can make a big difference! That's why I prefer Dior
+Even a really little makeup can make a big difference!
 
 *Before* and *after*
 

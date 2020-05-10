@@ -11,14 +11,14 @@ brother](http://bettermotherfuckingwebsite.com/) rightfully states, a
 CSS file that you can add to your orgmode header and the output should
 smoother
 
-You can just add this line here:
+You can just add this line here or just use the bare CSS as a starting
+point to make your own (everyone has their own style):
 
 ``` {.org}
 #+HTML_HEAD: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
 ```
 
-Even a really little makeup can make a big difference! That\'s why I
-prefer Dior
+Even a really little makeup can make a big difference!
 
 **Before** and **after**
 
