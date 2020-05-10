@@ -29,3 +29,6 @@ Even a really little makeup can make a big difference!
 
 .Before and After
 image::example.png[Before and After, link="example.png"]
+
+There is a good discussion about this article on
+https://news.ycombinator.com/item?id=23130104[hackernews]!
