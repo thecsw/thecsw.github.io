@@ -530,9 +530,9 @@ message.</p>
 </div>
 <div class="paragraph">
 <p>Is there a solution for this unfortunate turn of events and
-overcomplication of email technology? I wish to introduce you to <code>Mutt</code>
-email client that brings back joy and happiness into emailing each
-other.</p>
+overcomplication of email technology? I wish to introduce you to
+<code>Mutt</code> email client that brings back joy and happiness into emailing
+each other.</p>
 </div>
 </div>
 </div>
@@ -543,13 +543,14 @@ other.</p>
 <p><a href="http://www.mutt.org/">Mutt</a> is a text-based email client developed by
 Michael Elkins in 1995 for UNIX-like systems. I want to say that this is
 truly the way emails were meant to be used. Before I start getting angry
-emails, I am aware of other fantastic <code>TUI</code> and <code>ncurses</code> email clients,
-such as: <a href="http://www.gnus.org/">Gnus</a>, <a href="http://www.instinct.org/elm/">Elm</a>,
-and <a href="http://alpine.x10host.com/alpine/">Alpine</a> (Used by Brian
-Kernighan!). However, it is safe to say that <code>Mutt</code> is the most
-extensive, feature-rich, actively developed, and well-supported by its
-community. Just to list some of its features, please take a look at the
-excerpt from Mutt&#8217;s website below:</p>
+emails, I am aware of other fantastic <code>TUI</code> and <code>ncurses</code> email
+clients, such as: <a href="http://www.gnus.org/">Gnus</a>,
+<a href="http://www.instinct.org/elm/">Elm</a>, and
+<a href="http://alpine.x10host.com/alpine/">Alpine</a> (Used by Brian Kernighan!).
+However, it is safe to say that <code>Mutt</code> is the most extensive,
+feature-rich, actively developed, and well-supported by its community.
+Just to list some of its features, please take a look at the excerpt
+from Mutt&#8217;s website below:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -589,9 +590,9 @@ excerpt from Mutt&#8217;s website below:</p>
 </ul>
 </div>
 <div class="paragraph">
-<p><code>Mutt</code> accompanied with <code>offlineimap</code> will allow you to have all your
-emails saved on your machine so you will have a 24/7 access to them even
-if you do not have internet connection. You can write an email and
+<p><code>Mutt</code> accompanied with <code>offlineimap</code> will allow you to have all
+your emails saved on your machine so you will have a 24/7 access to them
+even if you do not have internet connection. You can write an email and
 postpone it indefinitely until your internet connection comes back. It
 also takes 0.1 seconds to boot it up and start composing a message. Do
 not forget about the aesthetics and romance with the terminal. Let us
@@ -617,16 +618,17 @@ transferring.</p>
 </div>
 <div class="paragraph">
 <p>You can imagine that <code>Mutt</code> email client will rely on both of the
-protocols to operate normally. And you will be right. <code>offlineimap</code> is a
-program that allows us to use IMAP protocol and store all messages
+protocols to operate normally. And you will be right. <code>offlineimap</code> is
+a program that allows us to use IMAP protocol and store all messages
 directly on our machine. There is also an option where you could use
-<code>Mutt</code> without <code>offlineimap</code>, it would mean that everytime you want to
-open your mailbox, Mutt will contact your mail server to download list
-of your messages. This is a very time expensive operation as it greatly
-depends on your bandwidth, internet location, and physical location from
-the mail server. Also, it would not allow you to access your messages
-without a constant internet connection. For this article, I will include
-full <code>offlineimap</code> configuration before we start using <code>Mutt</code>.</p>
+<code>Mutt</code> without <code>offlineimap</code>, it would mean that everytime you want
+to open your mailbox, Mutt will contact your mail server to download
+list of your messages. This is a very time expensive operation as it
+greatly depends on your bandwidth, internet location, and physical
+location from the mail server. Also, it would not allow you to access
+your messages without a constant internet connection. For this article,
+I will include full <code>offlineimap</code> configuration before we start using
+<code>Mutt</code>.</p>
 </div>
 </div>
 </div>
@@ -647,16 +649,16 @@ Debian, and etc), it should already be installed. Try runnig
 <div class="title">Note</div>
 </td>
 <td class="content">
-<code>%</code> indicates that we are in the terminal. Everything after <code>%</code>
-should be executed.
+<code>%</code> indicates that we are in the terminal. Everything after
+<code>%</code> should be executed.
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
 <p>If you do not have it installed, you can run
-<code>% sudo pacman -S offlineimap</code> on Arch Linux to install it or use python
-package manager <a href="https://pypi.org/project/pip/">pip</a> to install it.</p>
+<code>% sudo pacman -S offlineimap</code> on Arch Linux to install it or use
+python package manager <a href="https://pypi.org/project/pip/">pip</a> to install it.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -705,13 +707,13 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt</code></pre>
 </div>
 <div class="paragraph">
 <p>This config file just gives us some details about how to contact the
-IMAP server and how to save it. <code><em>mymail</em></code> is any name of your choice.
+IMAP server and how to save it. <code>_mymail_</code> is any name of your choice.
 For my university mail, I have it named <code>kumail</code>, feel free to name it
 whatever name is convenient for you.</p>
 </div>
 <div class="paragraph">
 <p>Local Repository gives info where it store all our email data, that
-would be <code>.mail/<em>mymail</em></code> directory in your home directory. Remote
+would be <code>.mail/_mymail_</code> directory in your home directory. Remote
 repository is a bit more trickier but not difficult. It just specifies
 what you mail server is. Find your IMAP server, ports are not really
 important because they are usually the default ones (993). For example,
@@ -864,7 +866,7 @@ set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-</code></pre>
 <div class="paragraph">
 <p>You can easily leave everything as it is, just edit all the lines with
 <code># edit this</code>. Please pay a close attention to the line
-<code>set smtp_url&#8230;&#8203;</code>. You have to find your SMTP server address and port
+<code>set smtp_url...</code>. You have to find your SMTP server address and port
 number (usually 587). After that, your email should be operational!</p>
 </div>
 </li>
@@ -913,7 +915,7 @@ Make a new directory in your home directory with <code>% mkdir ~/.mutt</code></p
 <p>Creating password file</p>
 <div class="paragraph">
 <p>You have to create your password with
-<code>% echo set my_pass = '<em>mypassword</em>' &gt; ~/.mutt/mypass</code></p>
+<code>% echo set my_pass = '_mypassword_' &gt; ~/.mutt/mypass</code></p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -929,8 +931,8 @@ your plain text password in its shell history.
 </table>
 </div>
 <div class="paragraph">
-<p>Encrypt the file with <code>% gpg -r <em>my_email</em> -e ~/.mutt/mypass</code>, where
-<code><em>my_email</em></code> is the email address you used when you created your key.
+<p>Encrypt the file with <code>% gpg -r _my_email_ -e ~/.mutt/mypass</code>, where
+<code>_my_email_</code> is the email address you used when you created your key.
 You will have a new file called <code>mypass.gpg</code> that is your actual
 encrypted password.</p>
 </div>
