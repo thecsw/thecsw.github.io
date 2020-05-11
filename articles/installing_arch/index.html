@@ -489,11 +489,11 @@ just lets you be yourself.</p>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The whole system comes with a pre-compiled kernel (<code>Linux</code>), package
-manager (<code>pacman</code>), and some basic coreutils (<code>GNU</code>). That does not seem
-a lot, but this is just enough to make some great things. It installs a
-barebone system which allows the user to customize their system to
-smallest details and making it their own. Not like <code>ubuntu</code> with all the
-whistles and bangs included.</p>
+manager (<code>pacman</code>), and some basic coreutils (<code>GNU</code>). That does not
+seem a lot, but this is just enough to make some great things. It
+installs a barebone system which allows the user to customize their
+system to smallest details and making it their own. Not like <code>ubuntu</code>
+with all the whistles and bangs included.</p>
 </div>
 <div class="paragraph">
 <p>This guide has an exact copy of steps I use when installing Arch Linux.
@@ -508,8 +508,8 @@ Wiki</a>. They have everything and more than you will ever need.</p>
 <div class="paragraph">
 <p>Inter the <a href="https://www.archlinux.org/">Arch Linux Official Website</a> and
 download the latest image file. Later on just take a flash drive and
-burn it with <code>rufus</code> on Windows or with <code>dd</code> on Linux. To save you some
-trouble, here is an example <code>dd</code> command to burn the image</p>
+burn it with <code>rufus</code> on Windows or with <code>dd</code> on Linux. To save you
+some trouble, here is an example <code>dd</code> command to burn the image</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -523,8 +523,8 @@ trouble, here is an example <code>dd</code> command to burn the image</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-<code>%</code> indicates that we are in the terminal. Everything after <code>%</code>
-should be executed.
+<code>%</code> indicates that we are in the terminal. Everything after
+<code>%</code> should be executed.
 </td>
 </tr>
 </table>
@@ -626,9 +626,9 @@ your command line type.</p>
 <p>You will see a list of available storages. Ignore everything that ends
 with: boot, root, include, etc. What you are interested in is the
 biggest available drive. For example, my laptop has integrated SD Card
-27GB and it is called <code>/dev/mmcblk0</code>. For the sake of simplicity, let&#8217;s
-use notation <code>/dev/sda</code> for the name of the drive. Okay, good. Now,
-launch <code>cfdisk</code> by typing</p>
+27GB and it is called <code>/dev/mmcblk0</code>. For the sake of simplicity,
+let&#8217;s use notation <code>/dev/sda</code> for the name of the drive. Okay, good.
+Now, launch <code>cfdisk</code> by typing</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -798,7 +798,8 @@ sure you followed all the steps correctly.
 <p>Setting the time</p>
 <div class="paragraph">
 <p>We need to set your local time. Find your timezone in
-<code>/usr/share/zonenifo</code> and use it instead of <code><em>Region</em></code> and <code><em>City</em></code></p>
+<code>/usr/share/zonenifo</code> and use it instead of <code>_Region_</code> and
+<code>_City_</code></p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -812,7 +813,8 @@ sure you followed all the steps correctly.
 <div class="ulist">
 <ul>
 <li>
-<p>Uncomment <code>en_US.UTF-8 UTF-8</code> and other if needed in <code>/etc/locale.gen</code></p>
+<p>Uncomment <code>en_US.UTF-8 UTF-8</code> and other if needed in
+<code>/etc/locale.gen</code></p>
 </li>
 <li>
 <p>Generate locales by running <code>% locale-gen</code></p>
@@ -839,12 +841,13 @@ If you are a power user with <em>dvorak</em>, run
 </div>
 </li>
 <li>
-<p>Set the hostname of your choice <code>% echo <em>myhostname</em> &gt; /etc/hostname</code></p>
+<p>Set the hostname of your choice
+<code>% echo _myhostname_ &gt; /etc/hostname</code></p>
 </li>
 <li>
 <p>Configure the hosts on your machine</p>
 <div class="paragraph">
-<p><code>% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 <em>myhostname</em>.localdomain <em>myhostname</em></code></p>
+<p><code>% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 _myhostname_.localdomain _myhostname_</code></p>
 </div>
 </li>
 <li>
@@ -858,14 +861,14 @@ If you are a power user with <em>dvorak</em>, run
 <p>Change your default root password <code>% passwd</code></p>
 </li>
 <li>
-<p>Add new users <code>% useradd -m -G wheel -s /usr/bin/bash <em>user</em></code></p>
+<p>Add new users <code>% useradd -m -G wheel -s /usr/bin/bash _user_</code></p>
 </li>
 <li>
 <p>Set the sudo access by uncommenting <code>%wheel ALL=(ALL) ALL</code> when
 running <code>visudo</code></p>
 </li>
 <li>
-<p>Changing the <em>user</em>'s password <code>% passwd <em>user</em></code></p>
+<p>Changing the <em>user</em>'s password <code>% passwd _user_</code></p>
 </li>
 </ul>
 </div>
@@ -945,7 +948,8 @@ options root=/dev/sda3 rw</code></pre>
 installation!</p>
 </div>
 <div class="paragraph">
-<p>You need to exit <code>chroot</code> by runing <code>% exit</code> and reboot with <code>% reboot</code></p>
+<p>You need to exit <code>chroot</code> by runing <code>% exit</code> and reboot with
+<code>% reboot</code></p>
 </div>
 <div class="paragraph">
 <p>When you turn your machine back on, you should see some text popping out
@@ -997,10 +1001,10 @@ links will be included.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Run this to install a package <code>% sudo pacman -S <em>package_name</em></code></p>
+<p>Run this to install a package <code>% sudo pacman -S _package_name_</code></p>
 </li>
 <li>
-<p>Remove a package from your system <code>% sudo pacman -Rs <em>package_name</em></code></p>
+<p>Remove a package from your system <code>% sudo pacman -Rs _package_name_</code></p>
 </li>
 <li>
 <p>Update the system&#8217;s packages <code>% sudo pacman -Syu</code></p>
@@ -1035,9 +1039,9 @@ links will be included.</p>
 <div class="title">Important</div>
 </td>
 <td class="content">
-Never ever run <code>% sudo pacman --force</code>. The only exception is
-if you have a loaded gun pointed at your head (which is very unlikely,
-hopefully).
+Never ever run <code>% sudo pacman --force</code>. The only exception
+is if you have a loaded gun pointed at your head (which is very
+unlikely, hopefully).
 </td>
 </tr>
 </table>

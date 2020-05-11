@@ -21,9 +21,9 @@ the goal was.
 Surely, after a couple of seconds of DuckDuckGoing, I stumbled upon
 https://github.com/turnage/graw[graw], one of the most popular Go Reddit
 Api Wrappers. I remember that I was just learning Go at a time and
-really just wanted to do something with it. Graw's deal with `announcer`
-and other stuff confused me a bit. So I did what every software engineer
-does when it itches the wrong way. Make a new library!
+really just wanted to do something with it. Graw's deal with
+`+announcer+` and other stuff confused me a bit. So I did what every
+software engineer does when it itches the wrong way. Make a new library!
 
 I present to you, https://github.com/thecsw/mira[mira]! It's a really
 playful and straight-forward library. Mira aggressively uses the
@@ -75,11 +75,11 @@ libraries differ.
 GIST thecsw/e2e3d2b558f943fb3f5047ed4979282d
 
 NOTE: mira is not **completely** concurrency safe! When you run
-`r.Comment(...)` or `r.Redditor(...)`, it adds those values to its
+`+r.Comment(...)+` or `+r.Redditor(...)+`, it adds those values to its
 internal queue and dequeues them when requested. If two threads or
 routines try to dequeue at the same time or expect something, then the
 data can get mingled up a bit. For example, there is a
-`r.ReplyWithID(commentID, text)` that makes an http request directly,
+`+r.ReplyWithID(commentID, text)+` that makes an http request directly,
 without using the internal queue, which works fine. It's a quick
 workaround that works. If you have more suggestions, I'm happy to wait
 for your PR!
@@ -87,12 +87,12 @@ for your PR!
 Similar API is available for other Reddit entities and objects. For
 example, mira currently supports:
 
-* `r.Me().StreamCommentReplies()`
-* `r.Me().StreamMentions()`
-* `r.Redditor(...).StreamComments()`
-* `r.Submission(...).StreamComments()`
-* `r.Redditor(...).StreamSubmissions()`
-* `r.Submission(...).StreamSubmissions()`
+* `+r.Me().StreamCommentReplies()+`
+* `+r.Me().StreamMentions()+`
+* `+r.Redditor(...).StreamComments()+`
+* `+r.Submission(...).StreamComments()+`
+* `+r.Redditor(...).StreamSubmissions()+`
+* `+r.Submission(...).StreamSubmissions()+`
 
 The names are very Java like and I hope they are intuitive
 
@@ -100,12 +100,12 @@ The names are very Java like and I hope they are intuitive
 
 The library only supports ~15 endpoints. Reddit has well over 50-60.
 Mira exposes its caller
-`Reddit.MiraRequest(httpMethod, endpoint, payload)` and http request
+`+Reddit.MiraRequest(httpMethod, endpoint, payload)+` and http request
 handler, so you can build your own mira callers and work with them!
 
-Here is an example of how `r.Comment(...).Reply(subject, text)` is
+Here is an example of how `+r.Comment(...).Reply(subject, text)+` is
 implemented:
 
-NOTE: you can lookup `checkType(...)` in mira's readme
+NOTE: you can lookup `+checkType(...)+` in mira's readme
 
 GIST thecsw/25ff8b8e247b33b3cf023740ee5083bf
