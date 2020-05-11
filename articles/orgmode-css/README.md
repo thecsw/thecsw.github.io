@@ -18,11 +18,10 @@ point to make your own (everyone has their own style):
 #+HTML_HEAD: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
 ```
 
-Even a really little makeup can make a big difference!
+Even a really little makeup can make a big difference! There is a good
+discussion about this article on
+[hackernews](https://news.ycombinator.com/item?id=23130104)!
 
 **Before** and **after**
 
 PIC example.png:Before and After
-
-There is a good discussion about this article on
-[hackernews](https://news.ycombinator.com/item?id=23130104)!
