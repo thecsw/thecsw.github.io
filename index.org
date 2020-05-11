@@ -18,6 +18,7 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+#  - [[./articles/battleship][Writing small battleship in Haskell 🚢]]
   - [[./articles/orgmode-css][Prettifying Org Mode with CSS 💅]]
   - [[./articles/emacsd][Setting up an emacs server 😈]]
   - [[./articles/go-emacs][Becoming an emacs gopher 🐗]]
@@ -79,10 +80,9 @@
   It is one of my dreams to typeset documents and books like Brian
   Kernighan:
 
-  - [[https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/ref=sr_1_1?keywords=The+go+programming+languagu&qid=1556766950&s=gateway&sr=8-1-spell][The GO Programming Language, title="Best GO Book you can find out there"]]
-  - [[https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_2?crid=3CGWLG27VTZ18&keywords=the+c+programming+language+2nd+edition&qid=1556952161&s=gateway&sprefix=The+c+program%252Caps%252C182&sr=8-2][C Programming Language, 2nd Edition, title="The Bible of computing world"]] 
-  - [[https://www.amazon.com/gp/product/013937681X/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5][The
-    Unix Programming Environment, title="The Almanac of computing world"]]
+  - [[https://www.gopl.io/][The GO Programming Language]]
+  - [[https://en.wikipedia.org/wiki/The_C_Programming_Language][C Programming Language, 2nd Edition]] 
+  - [[https://en.wikipedia.org/wiki/The_Unix_Programming_Environment][The Unix Programming Environment]]
 *** Good stuff 💃💃💃
 I wish to share this [[https://en.wikipedia.org/wiki/Por_una_Cabeza][beautiful song]] with you
 
