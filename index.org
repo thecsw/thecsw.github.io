@@ -19,6 +19,7 @@
   new!
 
 #  - [[./articles/battleship][Writing small battleship in Haskell 🚢]]
+  - [[./articles/diffeq][Differential Equations Cookbook 🔥]]
   - [[./articles/orgmode-css][Prettifying Org Mode with CSS 💅]]
   - [[./articles/emacsd][Setting up an emacs server 😈]]
   - [[./articles/go-emacs][Becoming an emacs gopher 🐗]]
