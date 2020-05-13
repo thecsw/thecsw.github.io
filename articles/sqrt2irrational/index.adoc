@@ -13,9 +13,9 @@ February 11th, 2020
 
 
 It's been a while since I wanted to install some math packages on my
-website. Finally, I managed to do it by getting `+asciidoctor-latex+`
-and running some quick `+Makefile+` magic. It looks like it's working
-fine! Here is a simple proof that I've come to like over the years.
+website. Finally, I managed to do it by getting `asciidoctor-latex` and
+running some quick `Makefile` magic. It looks like it's working fine!
+Here is a simple proof that I've come to like over the years.
 
 [latexmath]
 ++++

@@ -9,10 +9,10 @@
 <meta property="og:image" content="./preview.png">
 <meta property="og:site_name" content="Sandy&apos;s Website">
 <meta property="og:type" content="object">
-<meta property="og:title" content="Building Reddit apps in Go with mira ⛳">
+<meta property="og:title" content="Differential Equations Cookbook 🔥">
 <meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-<title>Building Reddit apps in Go with mira ⛳</title>
+<title>Differential Equations Cookbook 🔥</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 /* Uncomment @import statement below to use as custom stylesheet */
@@ -439,7 +439,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <link rel="stylesheet" type="text/css" href="/styles/web.min.css">
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Building Reddit apps in Go with mira ⛳</h1>
+<h1>Differential Equations Cookbook 🔥</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
@@ -447,12 +447,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Adventures ⛵</div>
-<ul class="sectlevel1">
-<li><a href="#_installing">Installing</a></li>
-<li><a href="#_introduction">Introduction</a></li>
-<li><a href="#_basic_reddit">Basic reddit</a></li>
-<li><a href="#_streaming">Streaming</a></li>
-<li><a href="#_extending_mira">Extending mira</a></li>
+<ul class="sectlevel2">
+<li><a href="#_quick_notes">Quick notes</a></li>
+<li><a href="#_first_order_linear">First-order, linear</a></li>
+<li><a href="#_first_order_separable">First-order, separable</a></li>
+<li><a href="#_exact_equations">Exact equations</a></li>
+<li><a href="#_second_order_linear_constant_coefficient_equations">Second-order, linear, constant-coefficient equations</a></li>
+<li><a href="#_second_order_linear_variable_coefficient_equations">Second-order, linear, variable-coefficient equations</a></li>
+<li><a href="#_higher_order_linear_equations">Higher-order, linear equations</a></li>
+<li><a href="#_laplace_transform">Laplace transform</a></li>
+<li><a href="#_constant_coefficient_homogeneous_systems_of_ode">Constant-coefficient, homogeneous systems of ODE</a></li>
+<li><a href="#_linear_systems_of_ode">Linear systems of ODE</a></li>
+<li><a href="#_applications">Applications</a></li>
+<li><a href="#_conclusion">Conclusion</a></li>
 </ul>
 </div>
 </div>
@@ -460,160 +467,222 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>March 26th, 2020</p>
+<p>May 12th, 2020</p>
+</div>
+<div class="quoteblock abstract">
+<div class="title">Abstract</div>
+<blockquote>
+When I got first introduced to differential equations, I had a love-hate
+relationship with it. Mainly due to some back-of-the-book problems we
+were given and never-ending projects we were assigned to. After some
+time, differential equations is a way to truly understand physics and
+the foundations of gravity, fields, and everything. This articles is
+merely an intro on manually solving common forms of differential
+equations. Hope you enjoy
+</blockquote>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_quick_notes">Quick notes</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>\(f_x \iff \partial_x f\)</p>
+</li>
+<li>
+<p>\(A,B,C\) are usually a constants</p>
+</li>
+<li>
+<p>\(c_k\) is usually a solution constant that is resolved with
+initial conditions</p>
+</li>
+<li>
+<p>Most of the functions are \(\mathbb{R}^k \to \mathbb{R}\),
+\(k \in \mathbb{N}^+\)</p>
+</li>
+<li>
+<p>If you found a typo or want to comment, feel free to email me. Email
+on top of the page.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_first_order_linear">First-order, linear</h3>
+<div class="paragraph">
+<p>Those equations have the form: \(y' + p(t) y = q(t)\)</p>
 </div>
 <div class="paragraph">
-<p>I like Go and I think it&#8217;s a great language. I built
-<a href="https://github.com/thecsw/memeinvestor_bot">memeinvestor_bot</a>, which was
-one of the interactive reddit bots on the platform at the time. So you
-can imagine we used quite a bit of
-<a href="https://github.com/praw-dev/praw">praw</a>. About year and a half later, the
-python codebase became so disgusting and unmaintainable, where I decided
-to re-write the whole thing in Go. (The old "let&#8217;s rewrite everything"
-syndrome") Re-write would be too strong, re-build from scratch is what
-the goal was.</p>
+<p>Find \(\mu(t) = e^{\int p(t) dt}\)</p>
 </div>
 <div class="paragraph">
-<p>Surely, after a couple of seconds of DuckDuckGoing, I stumbled upon
-<a href="https://github.com/turnage/graw">graw</a>, one of the most popular Go Reddit
-Api Wrappers. I remember that I was just learning Go at a time and
-really just wanted to do something with it. Graw&#8217;s deal with <code>announcer</code>
-and other stuff confused me a bit. So I did what every software engineer
-does when it itches the wrong way. Make a new library!</p>
+<p>Then \(\frac{d}{dt}(\mu(t)y) = q(t) \mu(t)\)
+\(\implies y = \frac{\int q(t) \mu(t) dt}{\mu(t)}\)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_first_order_separable">First-order, separable</h3>
+<div class="paragraph">
+<p>Those equations have the form: \(\frac{dy}{dx} = f(x)g(y)\)</p>
 </div>
 <div class="paragraph">
-<p>I present to you, <a href="https://github.com/thecsw/mira">mira</a>! It&#8217;s a really
-playful and straight-forward library. Mira aggressively uses the
-dot-notation (<a href="https://github.com/jinzhu/gorm">gorm</a> style) and has the
-simplicity of praw. Golang&#8217;s great features as goroutines are used to
-implement the streaming functionality. Let&#8217;s dive straight into it!</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_installing">Installing</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>mira can be installed like any other go package, just run</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">go get -u github.com/thecsw/mira</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_introduction">Introduction</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>mira requires you to authenticate via reddit by supplying reddit tokens.
-Other methods of authing should be implemented. Maybe you are the chosen
-one?</p>
+<p>Find the solution by solving
+\(\int \frac{dy}{g(y)} = \int f(x) dx\)</p>
 </div>
 <div class="paragraph">
-<p>For authentication, take a look at mira&#8217;s readme, we will get to the
-cream of the crops and actual features.</p>
+<p>Solve for exact (explicit) values of \(y\)</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_basic_reddit">Basic reddit</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_exact_equations">Exact equations</h3>
 <div class="paragraph">
-<p>You can post submissions and submit/reply/edit/delete comments. You can
-also grab N number of submissions from any subreddit, paginate through
-them, and other exciting stuff! Below is some basic functionality
-example.</p>
-</div>
-<div class="paragraph">
-<p><script src="https://gist.github.com/thecsw/c8bd97b96c892734eca1f945a049b834.js"></script></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_streaming">Streaming</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Streaming Reddit data is probably the most exciting part of using mira
-and usually the top reason of using any Reddit API wrappers. When you
-want to run a stream of submissions/comments/replies, mira will give you
-a channel where it will get populated as new streaming data becomes
-available.</p>
-</div>
-<div class="paragraph">
-<p>Let&#8217;s take a quick example of how we can build a reminder bot from
-<a href="https://turnage.gitbooks.io/graw/content/graw.html">graw guide</a>. This
-code is originally from the graw guide, the only diffence is that it&#8217;s
-written to use mira instead of graw. Example done to show how those two
-libraries differ.</p>
-</div>
-<div class="paragraph">
-<p><script src="https://gist.github.com/thecsw/e2e3d2b558f943fb3f5047ed4979282d.js"></script></p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-mira is not <strong>completely</strong> concurrency safe! When you run
-<code>r.Comment(&#8230;&#8203;)</code> or <code>r.Redditor(&#8230;&#8203;)</code>, it adds those values to its
-internal queue and dequeues them when requested. If two threads or
-routines try to dequeue at the same time or expect something, then the
-data can get mingled up a bit. For example, there is a
-<code>r.ReplyWithID(commentID, text)</code> that makes an http request directly,
-without using the internal queue, which works fine. It&#8217;s a quick
-workaround that works. If you have more suggestions, I&#8217;m happy to wait
-for your PR!
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>Similar API is available for other Reddit entities and objects. For
-example, mira currently supports:</p>
+<p>They have the form \(M(x,y) + N(x,y) \frac{dy}{dx} = 0\)</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><code>r.Me().StreamCommentReplies()</code></p>
+<p>\((\xi)\) If \(M_y = N_y\)</p>
+<div class="paragraph">
+<p>\(\implies\) Find such \(F(x,y)=C\), where
+\(F_x = M\), \(F_y = N\)</p>
+</div>
 </li>
 <li>
-<p><code>r.Me().StreamMentions()</code></p>
+<p>otherwise, make it exact, such that</p>
+<div class="paragraph">
+<p>\(\frac{M_y-N_x}{N}\) only depends on \(x\) <strong>or</strong>
+\(\frac{N_x-M_y}{M}\) only depends on \(y\)</p>
+</div>
+<div class="paragraph">
+<p>Find \(\mu(x) = e^{\int \frac{M_y-N_x}{N} dx}\) <strong>or</strong>
+\(\mu(y) = e^{\int \frac{N_x-M_y}{M} dy}\), multiply both by
+\(M\) <strong>and</strong> \(N\), so the condition
+\(M_y = N_y\) is satisfied. Go to \((\xi)\) and
+proceed with finding \(F(x,y)\)</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_second_order_linear_constant_coefficient_equations">Second-order, linear, constant-coefficient equations</h3>
+<div class="paragraph">
+<p>They have the form \(y'' + p y' + q y = f(t)\)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>First, solve for the homogeneous case, where
+\(y'' + p y' + q y = 0\)</p>
+<div class="paragraph">
+<p>Make a characteristic polynomial, let \(y = e^{rt}\):</p>
+</div>
+<div class="paragraph">
+<p>\(r^2+pr+q=0\)</p>
+</div>
+<div class="paragraph">
+<p>Find roots, solution (general) will be
+\(y = c_1 e^{r_1 t} + c_2 e^{r_2 t}\)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>if repeated root
+\(\implies y = c_1 e^{rt} + c_2 t e^{rt}\)</p>
 </li>
 <li>
-<p><code>r.Redditor(&#8230;&#8203;).StreamComments()</code></p>
+<p>if \(r = \alpha \pm i \beta\)
+\(\implies y=c_1 \cos(\beta t)e^{\alpha t} + c_2 \sin(\beta t) e^{\alpha t}\)</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
-<p><code>r.Submission(&#8230;&#8203;).StreamComments()</code></p>
+<p>Solving for particular solution \(y_p(t)\)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Undetermined coefficients (superpositioned) for \(f(t)\)</p>
+<div class="paragraph">
+<p>Whatever is in \(f(t)\), start adding up the corresponding
+coefficients into \(y_p(t)\)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>\(e^{nt} \to Ae^{nt}\)</p>
 </li>
 <li>
-<p><code>r.Redditor(&#8230;&#8203;).StreamSubmissions()</code></p>
+<p>\(t^m \to A_m t^m + \ldots + A_1 t + A_0\)</p>
 </li>
 <li>
-<p><code>r.Submission(&#8230;&#8203;).StreamSubmissions()</code></p>
+<p>\(\cos(\beta t)\) or
+\(\sin(\beta t) \to Acos(\beta t) + B\sin(\beta t)\)</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+should not be linearly dependent with the general solution. If it
+is, multiply by \(t\) until it is linearly independent.
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Variation of parameters</p>
+<div class="paragraph">
+<p>Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where</p>
+</div>
+<div class="paragraph">
+<p>\(\begin{cases}v_1'y_1+v_2'y_2=0\\v_1'y_1'+v_2'y_2'=f(t)\end{cases}\)</p>
+</div>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>The names are very Java like and I hope they are intuitive</p>
+<p>So the final solution is
+\(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_extending_mira">Extending mira</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_second_order_linear_variable_coefficient_equations">Second-order, linear, variable-coefficient equations</h3>
 <div class="paragraph">
-<p>The library only supports ~15 endpoints. Reddit has well over 50-60.
-Mira exposes its caller
-<code>Reddit.MiraRequest(httpMethod, endpoint, payload)</code> and http request
-handler, so you can build your own mira callers and work with them!</p>
+<p>Equations have the form</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>\((1)\): \(a(t)y'' + b(t)y'+c(t)y = f(t)\)</p>
+</li>
+<li>
+<p>\((2)\): \(y'' + p(t)y'+q(t)y = g(t)\)</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>Here is an example of how <code>r.Comment(&#8230;&#8203;).Reply(subject, text)</code> is
-implemented:</p>
+<p>In general case, guess the first homogeneous solution (try
+\(y_1=e^t\)) and use reduction of order to find the second
+homogeneous solution, so that</p>
+</div>
+<div class="paragraph">
+<p>\(y_2(t) = v(t)y_1(t)\)</p>
+</div>
+<div class="paragraph">
+<p>\(\implies y_2'' + p(t)y_2' + q(t)y_2 = 0\)</p>
+</div>
+<div class="paragraph">
+<p>\(\implies (v(t)y_1(t))''+p(t)(v(t)y_1(t))'+q(t)(v(t)y_1(t))=0\)</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -622,14 +691,358 @@ implemented:</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-you can lookup <code>checkType(&#8230;&#8203;)</code> in mira&#8217;s readme
+Also applicable with form \((1)\)
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p><script src="https://gist.github.com/thecsw/25ff8b8e247b33b3cf023740ee5083bf.js"></script></p>
+<p>You will probably have another differential equation emerge from above.
+It should have lower order than our current equation, so just refer to
+one of the techniques above to find \(v(t)\) and then you can
+find \(y_2(t)=v(t)y_1(t)\)</p>
 </div>
+<div class="paragraph">
+<p>Use <strong>variation of parameters</strong> to find a particular solution. It&#8217;s that
+system with \(v\)s</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+What you if you have a <strong>Cauchy-Euler equation</strong>?
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>They have the form \(at^2y''+bty'+cy=0\)</p>
+</div>
+<div class="paragraph">
+<p>then \(y=t^r \implies ar^2+(b-a)r+c=0\)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>if \(r\) is repeated, \(y_1=t^r\),
+\(y_2=ln|t|t^r\)</p>
+</li>
+<li>
+<p>if \(r=\alpha\pm i\beta\),
+\(y_1=t^{\alpha}\cos(\beta ln|t|)\) and
+\(y_2=t^{\alpha}\sin(\beta ln|t|)\)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_higher_order_linear_equations">Higher-order, linear equations</h3>
+<div class="paragraph">
+<p>\(a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y'+a_0(t)y=g(t)\)</p>
+</div>
+<div class="paragraph">
+<p>All second-order methods above extend to \(n^{th}\) order.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_laplace_transform">Laplace transform</h3>
+<div class="paragraph">
+<p>Laplace is a holy grail of solving differential equations with initial
+values defined. Laplace is the same kind of Bible to engineers like
+Taylor Series is.</p>
+</div>
+<div class="paragraph">
+<p>\(\mathcal{L}\{f\}(s) = \int_0^{\infty} e^{-st} f(t) dt\)</p>
+</div>
+<div class="paragraph">
+<p>assuming \(f\) is piecewise continuous and of exponential
+order.</p>
+</div>
+<div class="paragraph">
+<p>Table of common transformations:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">\(f(t)\)</th>
+<th class="tableblock halign-left valign-top">\(\mathcal{L}\{f\}(s)\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(1\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{1}{s}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{at}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{1}{s-a}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\sin(bt)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{b}{s^2+b^2}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\cos(bt)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{s}{s^2+b^2}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(u(t-a)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{e^{-as}}{s}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\delta(t-a)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{-as}\)</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Where \(u(t)\) is the
+<a href="https://en.wikipedia.org/wiki/Heaviside_step_function">Heaviside step
+function</a> and \(\delta(t)\) is the
+<a href="https://en.wikipedia.org/wiki/Dirac_delta_function">Dirac delta
+function</a>.</p>
+</div>
+<div class="paragraph">
+<p>Some Laplace transform properties:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>\(\mathcal{L}\{e^{at}f(t)\}(s) = \mathcal{L}\{f(t)\}(s-a)\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}\{t^nf(t)\}(s)=s^n\mathcal{L}\{f\}(s)-s^{n-1}f(0)-s^{n-2}f'(0)-\ldots-sf^{(n-2)}(0)-f^{(n-1)}(0)\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}\{t^nf(t)\}(s) = (-1)^n \frac{d^n}{ds^n} \mathcal{L}\{f(t)\}(s)\)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If \(f\) is a T-periodic function,</p>
+</div>
+<div class="paragraph">
+<p>\(\mathcal{L}\{f(t)\}(s) = \frac{\int_0^T e^{-sT} f(t) dt}{1-e^{-sT}}\)</p>
+</div>
+<div class="paragraph">
+<p>where \(\int_0^T e^{-sT} f(t) dt = \mathcal{L}\{f_T(t)\}(s)\),
+the sum of integrals of different parts of the piecewise function.</p>
+</div>
+<div class="paragraph">
+<p>Convolutions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>\((f*g)(t) = \int_0^t f(t-v)g(v)dv\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}\{(f*g)(t)\} = \mathcal{L}\{f(t)\}(s)\cdot \mathcal{L}\{g(t)\}(s)\)</p>
+</li>
+<li>
+<p>\((f*g)(t) = \mathcal{L}^{-1}\{F\cdot G\}(t)\), where
+\(F=\mathcal{L}\{f\}(s)\) and
+\(G=\mathcal{L}\{g\}(s)\)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Heaviside/unit step function:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>\(\mathcal{L}\{u(t-a)f(t)\}(s) = e^{-as}\mathcal{L}\{f(t+a)\}(s)\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}^{-1}\{e^{-as}F(s)\}(t)=u(t-a)\mathcal{L}^{-1}\{F(s-a)\}(t)\)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If IVP is not at 0, define some new function like
+\(w(t)=y(t+\alpha)\), and solve for \(w\). Finally,
+you can offset to find \(y\)</p>
+</div>
+<div class="paragraph">
+<p>Step (block) function:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>\(\Pi_{a,b}(t) = u(t-a)-u(t-b)\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s}\)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_constant_coefficient_homogeneous_systems_of_ode">Constant-coefficient, homogeneous systems of ODE</h3>
+<div class="paragraph">
+<p>\(\vec{x}' = A \vec{x}\), where
+\(A\in\mathbb{R}^{n\times n}\), \(x\in\mathbb{R}^n\)</p>
+</div>
+<div class="paragraph">
+<p>If \(A\) has n linearly independent eigenvectors
+\(\vec{u_i}\) associated to n eigenvalues
+\(\lambda_i\), then a general solution of the system is given
+by
+\(\vec{x}(t) = c_1 e^{\lambda_1 t}\vec{u_1}+c_2e^{\lambda_2t}\vec{u_2}+\ldots+c_ne^{\lambda_nt}\vec{u_n}\)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If \(\lambda=\alpha \pm i \beta\), so
+\(\vec{u}=\vec{a}+i\vec{b}\), we have</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>\(\vec{x}=c_1e^{\alpha t}(\cos(\beta t)\vec{a}-\sin(\beta t)\vec{b}) + c_2e^{\alpha t}(\cos(\beta t)\vec{b}+\sin(\beta t)\vec{a})\)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Matrix exponential</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>\(e^{At} = \sum_{k=0}^{\infty} \frac{A^k t^k}{k!}\), where
+\(A^0=I\), an identity matrix.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Find solutions for any eigenvalues</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Compute the characteristic polynomial \(p(\lambda)\) of
+\(A\)</p>
+<div class="paragraph">
+<p>\(p(\lambda)=det(A-\lambda I)\)</p>
+</div>
+</li>
+<li>
+<p>Factor \(p(\lambda)\) into linear factors to yield</p>
+<div class="paragraph">
+<p>\(p(\lambda) = c(\lambda-\lambda_1)^{m_1} \cdot \ldots \cdot (\lambda-\lambda_k)^{m_k}\),
+where \(c=\pm 1\)</p>
+</div>
+</li>
+<li>
+<p>For each \(\lambda_j\), find \(m_j\) linearly
+independent generalized eigenvectors
+\(\{\vec{u_j}^{m_1},\cdots,\vec{u_j}^{m_j}\}\) satisfying</p>
+<div class="paragraph">
+<p>\((A-\lambda_i I)^{m_j} \vec{u} = \vec{0}\)</p>
+</div>
+</li>
+<li>
+<p>For each $<sup>i</sup> computed in the previous step, compute
+\(e^{At}\vec{u_j}^i\) by</p>
+<div class="paragraph">
+<p>\(e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)\)</p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_linear_systems_of_ode">Linear systems of ODE</h3>
+<div class="paragraph">
+<p>\(\vec{x}' = A(t)\vec{x} + \vec{f}(t)\), where
+\(A\in\mathbb{R}^{n\times n}\),
+\(x\in\mathbb{R}^n\), \(f\in\mathbb{R}^n\)</p>
+</div>
+<div class="paragraph">
+<p>If \(X(t)\) is a matrix whose columns are made up of n
+linearly independent homogeneous solutions (\(X(t)\) is the
+fundamental matrix), then a general solution may be written as
+\(\vec{x}(t_0)=\vec{x_0}\)</p>
+</div>
+<div class="paragraph">
+<p>\(\vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds\)</p>
+</div>
+<div class="paragraph">
+<p>If \(A(t)\) is constant-coefficient, then we recover Duhamel&#8217;s
+formula:</p>
+</div>
+<div class="paragraph">
+<p>\(\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds\)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_applications">Applications</h3>
+<div class="paragraph">
+<p>There are many applications of differential equations in classical
+mechanics, fields, etc. Below you will find just a snippet of some very
+common Physics 1/2 scenarios</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Falling object</p>
+<div class="paragraph">
+<p>\(m\frac{dv}{dt}=mg-bv\), where \(b\) is the air
+resistance</p>
+</div>
+</li>
+<li>
+<p>Fluid mix, define \(R_{in}\) and \(R_{out}\)</p>
+<div class="paragraph">
+<p>\(\frac{dx}{dt}=R_{in}-R_{out}\)</p>
+</div>
+</li>
+<li>
+<p>Mass-Spring System</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Vertical spring (direction of gravity)</p>
+<div class="paragraph">
+<p>\(my''=-by'-k(L+y)+mg+F_{ext}(t)\), assume
+\(KL=mg\), where \(b\) is dumping, and
+\(k\) is stiffness</p>
+</div>
+</li>
+<li>
+<p>Horizontal spring</p>
+<div class="paragraph">
+<p>\(my''=-by'-ky+F_{ext}(t)\), where \(b\) is dumping,
+and \(k\) is stiffness</p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_conclusion">Conclusion</h3>
+<div class="paragraph">
+<p>This is as much as I can recover from my initial experience with
+differential equations. This article is not as much to teach you how to
+solve them but provide a quick lookup cheatsheet if needed or glance at
+different forms that we can actually solve! There are infinitely many
+differential equations that we cannot find an exact solution for!</p>
 </div>
 </div>
 </div>
