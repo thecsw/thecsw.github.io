@@ -198,7 +198,7 @@ Convolutions:
 Heaviside/unit step function:
 
 -   $\mathcal{L}\{u(t-a)f(t)\}(s) = e^{-as}\mathcal{L}\{f(t+a)\}(s)$
--   $\mathcal{L}^{-1}\{e^{-as}F(s)\}(t)=u(t-a)\mathcal{L}^{-1}\{F(s-a)\}(t)$
+-   $\mathcal{L}^{-1}\{e^{-as}F(s)\}(t)=u(t-a)\mathcal{L}^{-1}\{F(s)\}(t-a)$
 
 If IVP is not at 0, define some new function like $w(t)=y(t+\alpha)$,
 and solve for $w$. Finally, you can offset to find $y$
