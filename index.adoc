@@ -45,10 +45,9 @@ transcendence 🐱]
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt 🐕]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
-=== My quotes ☁️
+=== Quote of the week ☁️
 
-I have some of my favorite quotes and sayings recorded. Some of them are
-mine. link:./quotes[The page is here!]
+A page of weekly quotes link:./quotes[right here]!
 
 === My favorite movies 🎥
 
