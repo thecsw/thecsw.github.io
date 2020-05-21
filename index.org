@@ -38,9 +38,8 @@
   - [[./articles/using_mutt/][Bring joy back to e-mail with Mutt 🐕]]
   - [[./articles/installing_arch/][Installing Glorious Arch Linux ☄️]]
 
-*** My quotes ☁️
-    I have some of my favorite quotes and sayings recorded. Some of them are
-    mine. [[./quotes][The page is here!]]
+*** Quote of the week ☁️
+    A page of weekly quotes [[./quotes][right here]]!
 *** My favorite movies 🎥
     I love movies and I think movies deserve a separate full section on my
     website. Well, I have taken a Film class my freshman year and I loved it. It was

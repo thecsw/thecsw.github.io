@@ -46,10 +46,9 @@ something new!
 -   [Bring joy back to e-mail with Mutt 🐕](./articles/using_mutt/)
 -   [Installing Glorious Arch Linux ☄️](./articles/installing_arch/)
 
-### My quotes ☁️
+### Quote of the week ☁️
 
-I have some of my favorite quotes and sayings recorded. Some of them are
-mine. [The page is here!](./quotes)
+A page of weekly quotes [right here](./quotes)!
 
 ### My favorite movies 🎥
 
