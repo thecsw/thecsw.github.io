@@ -15,13 +15,13 @@ Let\'s say you bought your domain `myname.com`. First thing to do, go to
 your domain dashboard and set the following in your domain\'s custom
 records:
 
-  Name   Type    TTL   Data
-  ------ ------- ----- -------------------
-  @      A       1h    185.199.108.153
-                       185.199.109.153
-                       185.199.110.153
-                       185.199.111.153
-  www    CNAME   1h    myname.github.io.
+  Name    Type      TTL    Data
+  ------- --------- ------ ---------------------
+  `@`     `A`       `1h`   `185.199.108.153`
+                           `185.199.109.153`
+                           `185.199.110.153`
+                           `185.199.111.153`
+  `www`   `CNAME`   `1h`   `myname.github.io.`
 
 After that, go to your `myname.github.io` repo\'s settings and in the
 section **Github Pages**, fill in your custom domain and tick the
