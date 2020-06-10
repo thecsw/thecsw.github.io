@@ -6,6 +6,12 @@ About_LINK | GitHub_LINK | LinkedIn_LINK | Keybase_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+* _Tuesday, June 9, 2020_
+
+It is by the fortune of God that, in this country, we have three
+benefits: freedom of speech, freedom of thought, and the wisdom never to
+use either. – Mark Twain
+
 * _Wednesday, May 20, 2020_
 
 C++ is history repeated as tragedy. Java is history repeated as farce. –
