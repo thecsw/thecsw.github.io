@@ -9,9 +9,15 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Install SSH Client 🔑
+        uses: webfactory/ssh-agent@v0.2.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+            
       - name: Getting pandoc
         run: |
-            sudo apt install pandoc
+            sudo apt-get update
+            sudo apt-get install -y pandoc
             
       - name: Ruby dependencies
         run: |
@@ -24,6 +30,11 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
+          SSH: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_BRANCH: master
           BRANCH: gh-pages
+          FOLDER: .
+          CLEAN: true
+          
 
