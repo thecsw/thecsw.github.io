@@ -53,9 +53,6 @@ var (
 		AuthorEmail: "ctu@ku.edu",
 		Prepend:     "Astrie: ",
 	}
-)
-
-const (
 	// repo link
 	repoUrl = "git@github.com:thecsw/thecsw.github.io"
 	// reference to source branch
@@ -209,7 +206,7 @@ func (g *Gitter) Init() error {
 	logrus.Infoln("Getting keys...")
 	auth, err := g.publicKey(AstrieKey)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "Getting public key")
 	}
 	g.Auth = auth
 	// Get the repo
@@ -219,10 +216,16 @@ func (g *Gitter) Init() error {
 		Auth:              auth,
 		RecurseSubmodules: git.DefaultSubmoduleRecursionDepth,
 	})
+	if err != nil {
+		return errors.Wrap(err, "Cloning repo")
+	}
 	logrus.Infoln("Opening the repo...")
 	r, err := git.PlainOpen(AstrieHome)
+	if err != nil {
+		return errors.Wrap(err, "Opening repo")
+	}
 	g.Repo = r
-	return err
+	return nil
 }
 
 // Commit just commits everything
