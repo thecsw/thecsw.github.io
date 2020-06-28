@@ -1,9 +1,13 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"log"
+	"net/http"
 	"os"
+	"os/signal"
 	"strings"
 	"time"
 
@@ -11,7 +15,9 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/object"
 	"github.com/go-git/go-git/v5/plumbing/transport"
 	"github.com/go-git/go-git/v5/plumbing/transport/ssh"
+	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
+	"github.com/rs/cors"
 	"github.com/sirupsen/logrus"
 	tb "gopkg.in/tucnak/telebot.v2"
 )
@@ -118,7 +124,55 @@ func main() {
 
 	// Start listening and capturing messages
 	logrus.Infoln("Listening...")
-	b.Start()
+	go b.Start()
+
+	r := mux.NewRouter()
+	r.HandleFunc("/", greet).Methods(http.MethodGet)
+	handler := cors.Default().Handler(r)
+	srv := &http.Server{
+		Handler: handler,
+		Addr:    ":" + os.Getenv("PORT"),
+		// Good practice: enforce timeouts for servers you create!
+		WriteTimeout: 15 * time.Second,
+		ReadTimeout:  15 * time.Second,
+		IdleTimeout:  60 * time.Second,
+	}
+	// Let it run
+	go func() {
+		if err := srv.ListenAndServe(); err != nil {
+			log.Println(err)
+		}
+	}()
+	c := make(chan os.Signal, 1)
+	// We'll accept graceful shutdowns when quit via SIGINT (Ctrl+C)
+	// SIGKILL, SIGQUIT or SIGTERM (Ctrl+/) will not be caught.
+	signal.Notify(c, os.Interrupt)
+	// Block until we receive our signal.
+	<-c
+	log.Println("shutting down")
+	os.Exit(0)
+
+}
+
+// Response returns a message from the API
+type Response struct {
+	Msg string `json:"msg"`
+	Err string `json:"err"`
+}
+
+// greet is just / handler
+func greet(w http.ResponseWriter, r *http.Request) {
+	writeGoodStuff(w, Response{"hello, world"})
+}
+
+func writeGoodStuff(w http.ResponseWriter, data interface{}) {
+	w.WriteHeader(http.StatusOK)
+	json.NewEncoder(w).Encode(data)
+}
+
+func writeBadStuff(w http.ResponseWriter, err error) {
+	w.WriteHeader(http.StatusInternalServerError)
+	json.NewEncoder(w).Encode(Response{Err: err.Error()})
 }
 
 // formQuote adds the day in italics for org mode
