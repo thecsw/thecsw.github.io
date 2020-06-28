@@ -76,7 +76,9 @@ func main() {
 	}
 	// Git interface for astrie
 	logrus.Infoln("Initializing gitter")
-	gitter.Init()
+	if err := gitter.Init(); err != nil {
+		panic(err)
+	}
 	// Telegram bot
 	logrus.Infoln("Initializing telegram bot")
 	b, err := tb.NewBot(settings)
