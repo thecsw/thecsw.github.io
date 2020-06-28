@@ -182,11 +182,11 @@ func (g *Gitter) publicKey(filePath string) (*ssh.PublicKeys, error) {
 	var publicKey *ssh.PublicKeys
 	sshKey, err := ioutil.ReadFile(filePath)
 	if err != nil {
-		return errors.Wrap(err, "Failed gathering the deploy key")
+		return nil, errors.Wrap(err, "Failed gathering the deploy key")
 	}
 	publicKey, err := ssh.NewPublicKeys("git", sshKey, "")
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "Failed generating public key")
 	}
 
 	return publicKey, err
