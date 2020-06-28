@@ -16,9 +16,9 @@ jobs:
             
       - name: Getting pandoc
         run: |
-            sudo apt-get update
-            sudo apt-get install -y pandoc
-            
+            wget https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-1-amd64.deb
+            sudo dpkg -i pandoc-2.9.2.1-1-amd64.deb
+
       - name: Ruby dependencies
         run: |
             sudo gem install asciidoctor-latex --pre
