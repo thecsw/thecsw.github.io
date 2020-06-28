@@ -263,7 +263,7 @@ func (g *Gitter) Commit(msg string) error {
 func (g *Gitter) Push() error {
 	g.Repo.CreateRemote(&config.RemoteConfig{
 		Name: "astrie",
-		URL:  []string{"git@github.com:thecsw/thecsw.github.io.git"},
+		URLs: []string{"git@github.com:thecsw/thecsw.github.io.git"},
 	})
 	r, _ := g.Repo.Remote("astrie")
 	return r.Push(&git.PushOptions{
