@@ -204,17 +204,20 @@ func checkUser(user string) bool {
 // Init initializes the repo struct
 func (g *Gitter) Init() error {
 	// Grab the deploy key
+	logrus.Infoln("Getting keys...")
 	auth, err := g.publicKey(AstrieKey)
 	if err != nil {
 		return err
 	}
 	g.Auth = auth
 	// Get the repo
+	logrus.Infoln("Cloning the repo...")
 	_, err = git.PlainClone(AstrieHome, false, &git.CloneOptions{
 		URL:               repoUrl,
 		Auth:              auth,
 		RecurseSubmodules: git.DefaultSubmoduleRecursionDepth,
 	})
+	logrus.Infoln("Opening the repo...")
 	r, err := git.PlainOpen(AstrieHome)
 	g.Repo = r
 	return err
