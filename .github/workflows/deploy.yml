@@ -11,6 +11,7 @@ jobs:
             
       - name: Dependencies
         run: |
+            apt-get install -y gnupg2
             curl -sSL https://get.rvm.io | bash -s stable
             rvm install ruby
 
