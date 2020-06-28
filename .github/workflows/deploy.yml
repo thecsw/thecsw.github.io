@@ -11,9 +11,7 @@ jobs:
             
       - name: Dependencies
         run: |
-            sudo apt-get install -y gnupg2
-            curl -sSL https://get.rvm.io | bash -s stable
-            rvm install ruby
+            sudo gem install asciidoctor-latex --pre
 
       - name: Make 🔧 
         run: |
