@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"github.com/go-git/go-git/v5"
+	"github.com/go-git/go-git/v5/config"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/plumbing/object"
 	"github.com/go-git/go-git/v5/plumbing/transport"
@@ -55,7 +56,7 @@ var (
 		Prepend:     "Astrie: ",
 	}
 	// repo link
-	repoUrl = "git@github.com:thecsw/thecsw.github.io"
+	repoUrl = "https://github.com/thecsw/thecsw.github.io"
 	// reference to source branch
 	sourceBranch = "source"
 	// Astrie home git the source branch
@@ -260,7 +261,12 @@ func (g *Gitter) Commit(msg string) error {
 
 // Push pushes, duh
 func (g *Gitter) Push() error {
-	return g.Repo.Push(&git.PushOptions{
+	g.Repo.CreateRemote(&config.RemoteConfig{
+		Name: "astrie",
+		URL:  []string{"git@github.com:thecsw/thecsw.github.io.git"},
+	})
+	r, _ := g.Repo.Remote("astrie")
+	return r.Push(&git.PushOptions{
 		Auth: g.Auth,
 	})
 }
