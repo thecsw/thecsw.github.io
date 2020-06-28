@@ -11,7 +11,8 @@ jobs:
             
       - name: Dependencies
         run: |
-            gem install asciidoctor-latex --pre
+            curl -sSL https://get.rvm.io | bash -s stable
+            rvm install ruby
 
       - name: Make 🔧 
         run: |
