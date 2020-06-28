@@ -11,7 +11,7 @@ jobs:
             
       - name: Dependencies
         run: |
-            gem install asciidoctor-latex
+            gem install asciidoctor-latex --pre
 
       - name: Make 🔧 
         run: |
