@@ -162,7 +162,7 @@ type Response struct {
 
 // greet is just / handler
 func greet(w http.ResponseWriter, r *http.Request) {
-	writeGoodStuff(w, Response{"hello, world"})
+	writeGoodStuff(w, Response{Msg: "hello, world"})
 }
 
 func writeGoodStuff(w http.ResponseWriter, data interface{}) {
