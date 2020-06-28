@@ -1,2 +1,3 @@
 # Ignore my emacs backup directory
 .saves
+.astrie
