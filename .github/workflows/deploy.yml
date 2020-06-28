@@ -32,8 +32,8 @@ jobs:
         with:
           SSH: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: master
-          BRANCH: gh-pages
+          BASE_BRANCH: source
+          BRANCH: master
           FOLDER: .
           CLEAN: true
           
