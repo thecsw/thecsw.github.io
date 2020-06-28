@@ -56,7 +56,7 @@ var (
 		Prepend:     "Astrie: ",
 	}
 	// repo link
-	repoUrl = "https://github.com/thecsw/thecsw.github.io"
+	repoUrl = "git@github.com:thecsw/thecsw.github.io"
 	// reference to source branch
 	sourceBranch = "source"
 	// Astrie home git the source branch
