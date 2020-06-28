@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"github.com/go-git/go-git/v5"
+	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/plumbing/object"
 	"github.com/go-git/go-git/v5/plumbing/transport"
 	"github.com/go-git/go-git/v5/plumbing/transport/ssh"
@@ -56,7 +57,7 @@ var (
 	// repo link
 	repoUrl = "git@github.com:thecsw/thecsw.github.io"
 	// reference to source branch
-	sourceBranch = "refs/heads/source"
+	sourceBranch = "source"
 	// Astrie home git the source branch
 	AstrieHome = "./astrie_repo"
 	// quote anchor
@@ -235,7 +236,7 @@ func (g *Gitter) Commit(msg string) error {
 		return errors.Wrap(err, "Failed to open worktree")
 	}
 	err = w.Checkout(&git.CheckoutOptions{
-		Branch: sourceBranch,
+		Branch: plumbing.NewBranchReferenceName(sourceBranch),
 		Keep:   true,
 	})
 	if err != nil {
