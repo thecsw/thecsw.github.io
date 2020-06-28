@@ -104,22 +104,25 @@ func main() {
 		}
 		logrus.Infoln("Got /quote from " + m.Sender.Username + ": " + m.Payload)
 		logrus.Infoln("Adding quote...")
+		b.Send(m.Sender, "Adding quote...")
 		if err := AddQuote(m.Payload); err != nil {
 			logrus.Errorln("Failed adding quote: " + err.Error())
 			return
 		}
 		logrus.Infoln("Committing...")
+		b.Send(m.Sender, "Committing...")
 		if err := gitter.Commit("Added new quote"); err != nil {
 			logrus.Errorln("Failed committing: " + err.Error())
 			return
 		}
 		logrus.Infoln("Pushing...")
+		b.Send(m.Sender, "Pushing...")
 		if err := gitter.Push(); err != nil {
 			logrus.Errorln("Failed pushing: " + err.Error())
 			return
 		}
 		logrus.Infoln("Success!")
-
+		b.Send(m.Sender, "Success! Check out https://sandyuraz.com/quotes/")
 	})
 
 	// Start listening and capturing messages
