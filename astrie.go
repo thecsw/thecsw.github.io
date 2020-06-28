@@ -18,19 +18,18 @@ import (
 
 // Gitter is the command line interface for astrie
 type Gitter struct {
-	Directory   string
-	AuthorName  string
-	AuthorEmail string
-	Repo        *git.Repository
-	Auth        transport.AuthMethod
-	Prepend     string
+	Directory    string
+	AuthorName   string
+	AuthorEmail  string
+	Repo         *git.Repository
+	SourceBranch *git.Worktree
+	Auth         transport.AuthMethod
+	Prepend      string
 }
 
 var (
 	// Astrie token for telegram
 	AstrieToken = os.Getenv("ASTRIE_TOKEN")
-	// The location of the website root directory
-	AstrieHome = os.Getenv("ASTRIE_HOME")
 	// Astrie keys
 	AstrieKey = os.Getenv("ASTRIE_KEY")
 	// The initial token settings for astrie
@@ -50,13 +49,27 @@ var (
 	}
 )
 
+const (
+	// repo link
+	repoUrl = "git@github.com:thecsw/thecsw.github.io"
+	// reference to source branch
+	sourceBranch = "refs/heads/source"
+	// Astrie home git the source branch
+	AstrieHome = "./astrie_repo"
+	// quote anchor
+	quoteAnchor = "Some quotes are regular and some are not"
+)
+
 func main() {
 	// Check if env vars are initalized.
-	if AstrieHome == "" || AstrieToken == "" {
-		logrus.Fatalln("One of the env vars is not initialized")
+	if AstrieToken == "" {
+		logrus.Fatalln("Missing token.")
+	}
+	if AstrieKey == "" {
+		logrus.Fatalln("Missing key.")
 	}
 	// Git interface for astrie
-	logrus.Infoln("Initializing gitter at " + AstrieHome)
+	logrus.Infoln("Initializing gitter")
 	gitter.Init()
 	// Telegram bot
 	logrus.Infoln("Initializing telegram bot")
@@ -133,28 +146,37 @@ func checkUser(user string) bool {
 
 // Init initializes the repo struct
 func (g *Gitter) Init() error {
-	// Init the repo
-	r, err := git.PlainOpen(AstrieHome)
-	if err != nil {
-		return err
-	}
-	g.Repo = r
 	// Grab the deploy key
-	auth, err := g.publicKey(AstrieHome + "/" + AstrieKey)
+	auth, err := g.publicKey(AstrieKey)
 	if err != nil {
 		return err
 	}
 	g.Auth = auth
-	return nil
+	// Get the repo
+	_, err = git.PlainClone(AstrieHome, false, &git.CloneOptions{
+		URL:               repoUrl,
+		Auth:              auth,
+		RecurseSubmodules: git.DefaultSubmoduleRecursionDepth,
+	})
+	r, err := git.PlainOpen(AstrieHome)
+	g.Repo = r
+	return err
 }
 
 // Commit just commits everything
 func (g *Gitter) Commit(msg string) error {
 	w, err := g.Repo.Worktree()
 	if err != nil {
-		return err
+		return errors.Wrap(err, "Failed to open worktree")
 	}
-	_, err = w.Commit(msg, &git.CommitOptions{
+	err = w.Checkout(&git.CheckoutOptions{
+		Branch: sourceBranch,
+		Keep:   true,
+	})
+	if err != nil {
+		return errors.Wrap(err, "Failed to check out source")
+	}
+	_, err = w.Commit(g.Prepend+msg, &git.CommitOptions{
 		All: true,
 		Author: &object.Signature{
 			Name:  g.AuthorName,
@@ -178,15 +200,10 @@ func (g *Gitter) Push() error {
 }
 
 // Reads private rsa key and generates a public one, this is deploy key
-func (g *Gitter) publicKey(filePath string) (*ssh.PublicKeys, error) {
-	var publicKey *ssh.PublicKeys
-	sshKey, err := ioutil.ReadFile(filePath)
+func (g *Gitter) publicKey(sshKey string) (*ssh.PublicKeys, error) {
+	publicKey, err := ssh.NewPublicKeys("git", []byte(sshKey), "")
 	if err != nil {
-		return errors.Wrap(err, "Failed gathering the deploy key")
-	}
-	publicKey, err := ssh.NewPublicKeys("git", sshKey, "")
-	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "Failed generating public key")
 	}
 
 	return publicKey, err
@@ -200,7 +217,7 @@ func AddQuote(msg string) error {
 		return errors.Wrap(err, "Failed reading the quote file")
 	}
 	quotes := string(dat)
-	quotes = strings.ReplaceAll(quotes, "%QUOTE%", "%QUOTE%\n\n"+formQuote(msg))
+	quotes = strings.ReplaceAll(quotes, quoteAnchor, quoteAnchor+"\n\n"+formQuote(msg))
 	err = ioutil.WriteFile(filename, []byte(quotes), 0644)
 	if err != nil {
 		return errors.Wrap(err, "Failed writing quotes")
