@@ -184,7 +184,7 @@ func (g *Gitter) publicKey(filePath string) (*ssh.PublicKeys, error) {
 	if err != nil {
 		return nil, errors.Wrap(err, "Failed gathering the deploy key")
 	}
-	publicKey, err := ssh.NewPublicKeys("git", sshKey, "")
+	publicKey, err = ssh.NewPublicKeys("git", sshKey, "")
 	if err != nil {
 		return nil, errors.Wrap(err, "Failed generating public key")
 	}
