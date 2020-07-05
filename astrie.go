@@ -1,23 +1,36 @@
+//
+//   ┌───────────────────────────────────┐
+//   │      ___         __       _       │
+//   │     /   │  _____/ /______(_)__    │
+//   │    / /│ │ / ___/ __/ ___/ / _ \   │
+//   │   / ___ │(__  ) /_/ /  / /  __/   │
+//   │  /_/  │_/____/\__/_/  /_/\___/    │
+//   │                                   │
+//   └───────────────────────────────────┘
+//
+// Astrie is my personal web assisstant. She
+// takes care of my quotes page and maybe some
+// other stuff in the future. Long live Astrie!
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"io/ioutil"
-	"log"
-	"net/http"
-	"os"
-	"os/signal"
-	"strings"
-	"time"
+        "encoding/json"
+        "fmt"
+        "io/ioutil"
+        "log"
+        "net/http"
+        "os"
+        "os/signal"
+        "strings"
+        "time"
 
-	"github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/plumbing/transport/ssh"
-	"github.com/gorilla/mux"
+        "github.com/go-git/go-git/v5"
+        "github.com/gorilla/mux"
+        "github.com/go─git/go─git/v5/config"
+	"github.com/go─git/go─git/v5/plumbing"
+	"github.com/go─git/go─git/v5/plumbing/object"
+	"github.com/go─git/go─git/v5/plumbing/transport"
+	"github.com/go─git/go─git/v5/plumbing/transport/ssh"
 	"github.com/pkg/errors"
 	"github.com/rs/cors"
 	"github.com/sirupsen/logrus"
@@ -182,7 +195,7 @@ func writeBadStuff(w http.ResponseWriter, err error) {
 // formQuote adds the day in italics for org mode
 func formQuote(quote string) string {
 	now := time.Now()
-	return fmt.Sprintf("  - /%s, %s %d, %d/\n\n%s",
+	return fmt.Sprintf("  ─ /%s, %s %d, %d/\n\n%s",
 		now.Weekday().String(),
 		now.Month().String(),
 		now.Day(),
