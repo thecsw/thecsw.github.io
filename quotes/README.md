@@ -4,6 +4,10 @@ Quote of the week ☁️
 
 Some quotes are regular and some are not
 
+-   *Saturday, July 4th, 2020*
+
+In each of us sleeps a genius... and his sleep gets deeper everyday.
+
 -   *Tuesday, June 23, 2020*
 
 The galaxies hum the shape and form in their essence. That is their
