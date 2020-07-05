@@ -1,36 +1,56 @@
+//
+//   ┌───────────────────────────────────┐
+//   │      ___         __       _       │
+//   │     /   │  _____/ /______(_)__    │
+//   │    / /│ │ / ___/ __/ ___/ / _ \   │
+//   │   / ___ │(__  ) /_/ /  / /  __/   │
+//   │  /_/  │_/____/\__/_/  /_/\___/    │
+//   │                                   │
+//   └───────────────────────────────────┘
+//
+// Astrie is my personal web assisstant. She
+// takes care of my quotes page and maybe some
+// other stuff in the future. Long live Astrie!
 package main
 
 import (
-	"fmt"
-	"io/ioutil"
-	"os"
-	"strings"
-	"time"
+        "encoding/json"
+        "fmt"
+        "io/ioutil"
+        "log"
+        "net/http"
+        "os"
+        "os/signal"
+        "strings"
+        "time"
 
-	"github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/plumbing/transport/ssh"
+        "github.com/go-git/go-git/v5"
+        "github.com/gorilla/mux"
+        "github.com/go─git/go─git/v5/config"
+	"github.com/go─git/go─git/v5/plumbing"
+	"github.com/go─git/go─git/v5/plumbing/object"
+	"github.com/go─git/go─git/v5/plumbing/transport"
+	"github.com/go─git/go─git/v5/plumbing/transport/ssh"
 	"github.com/pkg/errors"
+	"github.com/rs/cors"
 	"github.com/sirupsen/logrus"
 	tb "gopkg.in/tucnak/telebot.v2"
 )
 
 // Gitter is the command line interface for astrie
 type Gitter struct {
-	Directory   string
-	AuthorName  string
-	AuthorEmail string
-	Repo        *git.Repository
-	Auth        transport.AuthMethod
-	Prepend     string
+	Directory    string
+	AuthorName   string
+	AuthorEmail  string
+	Repo         *git.Repository
+	SourceBranch *git.Worktree
+	Auth         transport.AuthMethod
+	Prepend      string
 }
 
 var (
 	// Astrie token for telegram
 	AstrieToken = os.Getenv("ASTRIE_TOKEN")
-	// The location of the website root directory
-	AstrieHome = os.Getenv("ASTRIE_HOME")
 	// Astrie keys
 	AstrieKey = os.Getenv("ASTRIE_KEY")
 	// The initial token settings for astrie
@@ -48,16 +68,29 @@ var (
 		AuthorEmail: "ctu@ku.edu",
 		Prepend:     "Astrie: ",
 	}
+	// repo link
+	repoUrl = "git@github.com:thecsw/thecsw.github.io"
+	// reference to source branch
+	sourceBranch = "source"
+	// Astrie home git the source branch
+	AstrieHome = "./astrie_repo"
+	// quote anchor
+	quoteAnchor = "Some quotes are regular and some are not"
 )
 
 func main() {
 	// Check if env vars are initalized.
-	if AstrieHome == "" || AstrieToken == "" {
-		logrus.Fatalln("One of the env vars is not initialized")
+	if AstrieToken == "" {
+		logrus.Fatalln("Missing token.")
+	}
+	if AstrieKey == "" {
+		logrus.Fatalln("Missing key.")
 	}
 	// Git interface for astrie
-	logrus.Infoln("Initializing gitter at " + AstrieHome)
-	gitter.Init()
+	logrus.Infoln("Initializing gitter")
+	if err := gitter.Init(); err != nil {
+		panic(err)
+	}
 	// Telegram bot
 	logrus.Infoln("Initializing telegram bot")
 	b, err := tb.NewBot(settings)
@@ -85,33 +118,84 @@ func main() {
 		}
 		logrus.Infoln("Got /quote from " + m.Sender.Username + ": " + m.Payload)
 		logrus.Infoln("Adding quote...")
+		b.Send(m.Sender, "Adding quote...")
 		if err := AddQuote(m.Payload); err != nil {
 			logrus.Errorln("Failed adding quote: " + err.Error())
 			return
 		}
 		logrus.Infoln("Committing...")
+		b.Send(m.Sender, "Committing...")
 		if err := gitter.Commit("Added new quote"); err != nil {
 			logrus.Errorln("Failed committing: " + err.Error())
 			return
 		}
 		logrus.Infoln("Pushing...")
+		b.Send(m.Sender, "Pushing...")
 		if err := gitter.Push(); err != nil {
 			logrus.Errorln("Failed pushing: " + err.Error())
 			return
 		}
 		logrus.Infoln("Success!")
-
+		b.Send(m.Sender, "Success! Check out https://sandyuraz.com/quotes/")
 	})
 
 	// Start listening and capturing messages
 	logrus.Infoln("Listening...")
-	b.Start()
+	go b.Start()
+
+	r := mux.NewRouter()
+	r.HandleFunc("/", greet).Methods(http.MethodGet)
+	handler := cors.Default().Handler(r)
+	srv := &http.Server{
+		Handler: handler,
+		Addr:    ":" + os.Getenv("PORT"),
+		// Good practice: enforce timeouts for servers you create!
+		WriteTimeout: 15 * time.Second,
+		ReadTimeout:  15 * time.Second,
+		IdleTimeout:  60 * time.Second,
+	}
+	// Let it run
+	go func() {
+		if err := srv.ListenAndServe(); err != nil {
+			log.Println(err)
+		}
+	}()
+	c := make(chan os.Signal, 1)
+	// We'll accept graceful shutdowns when quit via SIGINT (Ctrl+C)
+	// SIGKILL, SIGQUIT or SIGTERM (Ctrl+/) will not be caught.
+	signal.Notify(c, os.Interrupt)
+	// Block until we receive our signal.
+	<-c
+	log.Println("shutting down")
+	os.Exit(0)
+
+}
+
+// Response returns a message from the API
+type Response struct {
+	Msg string `json:"msg"`
+	Err string `json:"err"`
+}
+
+// greet is just / handler
+func greet(w http.ResponseWriter, r *http.Request) {
+	writeGoodStuff(w, Response{Msg: "hello, world"})
+}
+
+func writeGoodStuff(w http.ResponseWriter, data interface{}) {
+	w.WriteHeader(http.StatusOK)
+	json.NewEncoder(w).Encode(data)
+}
+
+func writeBadStuff(w http.ResponseWriter, err error) {
+	w.WriteHeader(http.StatusInternalServerError)
+	json.NewEncoder(w).Encode(Response{Err: err.Error()})
 }
 
 // formQuote adds the day in italics for org mode
 func formQuote(quote string) string {
 	now := time.Now()
-	return fmt.Sprintf("  - /%s, %s %d, %d/\n\n%s",
+	return fmt.Sprintf("  ─ /%s, %s %d, %d/\n\n%s",
 		now.Weekday().String(),
 		now.Month().String(),
 		now.Day(),
@@ -133,18 +217,29 @@ func checkUser(user string) bool {
 
 // Init initializes the repo struct
 func (g *Gitter) Init() error {
-	// Init the repo
-	r, err := git.PlainOpen(AstrieHome)
-	if err != nil {
-		return err
-	}
-	g.Repo = r
 	// Grab the deploy key
-	auth, err := g.publicKey(AstrieHome + "/" + AstrieKey)
+	logrus.Infoln("Getting keys...")
+	auth, err := g.publicKey(AstrieKey)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "Getting public key")
 	}
 	g.Auth = auth
+	// Get the repo
+	logrus.Infoln("Cloning the repo...")
+	_, err = git.PlainClone(AstrieHome, false, &git.CloneOptions{
+		URL:               repoUrl,
+		Auth:              auth,
+		RecurseSubmodules: git.DefaultSubmoduleRecursionDepth,
+	})
+	if err != nil {
+		return errors.Wrap(err, "Cloning repo")
+	}
+	logrus.Infoln("Opening the repo...")
+	r, err := git.PlainOpen(AstrieHome)
+	if err != nil {
+		return errors.Wrap(err, "Opening repo")
+	}
+	g.Repo = r
 	return nil
 }
 
@@ -152,9 +247,16 @@ func (g *Gitter) Init() error {
 func (g *Gitter) Commit(msg string) error {
 	w, err := g.Repo.Worktree()
 	if err != nil {
-		return err
+		return errors.Wrap(err, "Failed to open worktree")
 	}
-	_, err = w.Commit(msg, &git.CommitOptions{
+	err = w.Checkout(&git.CheckoutOptions{
+		Branch: plumbing.NewBranchReferenceName(sourceBranch),
+		Keep:   true,
+	})
+	if err != nil {
+		return errors.Wrap(err, "Failed to check out source")
+	}
+	_, err = w.Commit(g.Prepend+msg, &git.CommitOptions{
 		All: true,
 		Author: &object.Signature{
 			Name:  g.AuthorName,
@@ -172,21 +274,21 @@ func (g *Gitter) Commit(msg string) error {
 
 // Push pushes, duh
 func (g *Gitter) Push() error {
-	return g.Repo.Push(&git.PushOptions{
+	g.Repo.CreateRemote(&config.RemoteConfig{
+		Name: "astrie",
+		URLs: []string{"git@github.com:thecsw/thecsw.github.io.git"},
+	})
+	r, _ := g.Repo.Remote("astrie")
+	return r.Push(&git.PushOptions{
 		Auth: g.Auth,
 	})
 }
 
 // Reads private rsa key and generates a public one, this is deploy key
-func (g *Gitter) publicKey(filePath string) (*ssh.PublicKeys, error) {
-	var publicKey *ssh.PublicKeys
-	sshKey, err := ioutil.ReadFile(filePath)
+func (g *Gitter) publicKey(sshKey string) (*ssh.PublicKeys, error) {
+	publicKey, err := ssh.NewPublicKeys("git", []byte(sshKey), "")
 	if err != nil {
-		return errors.Wrap(err, "Failed gathering the deploy key")
-	}
-	publicKey, err := ssh.NewPublicKeys("git", sshKey, "")
-	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "Failed generating public key")
 	}
 
 	return publicKey, err
@@ -200,7 +302,7 @@ func AddQuote(msg string) error {
 		return errors.Wrap(err, "Failed reading the quote file")
 	}
 	quotes := string(dat)
-	quotes = strings.ReplaceAll(quotes, "%QUOTE%", "%QUOTE%\n\n"+formQuote(msg))
+	quotes = strings.ReplaceAll(quotes, quoteAnchor, quoteAnchor+"\n\n"+formQuote(msg))
 	err = ioutil.WriteFile(filename, []byte(quotes), 0644)
 	if err != nil {
 		return errors.Wrap(err, "Failed writing quotes")
