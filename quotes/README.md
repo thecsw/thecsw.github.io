@@ -4,6 +4,13 @@ Quote of the week ☁️
 
 Some quotes are regular and some are not
 
+-   *Monday, July 6th, 2020*
+
+\"When I picture it in my head I think of the early web as more of a
+library. Over time it has transitioned into a shopping mall.\"
+
+-- chris~f~ (Hacker News comments)
+
 -   *Saturday, July 4th, 2020*
 
 In each of us sleeps a genius... and his sleep gets deeper everyday.
