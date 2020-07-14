@@ -8,18 +8,18 @@ About_LINK | GitHub_LINK | LinkedIn_LINK | Keybase_LINK | Home_LINK
 
 Some quotes are regular and some are not
 
-* _Monday, July 6th, 2020_
+== _Monday, July 6th, 2020_
 
 "When I picture it in my head I think of the early web as more of a
 library. Over time it has transitioned into a shopping mall."
 
 – chris_f (Hacker News comments)
 
-* _Saturday, July 4th, 2020_
+== _Saturday, July 4th, 2020_
 
 In each of us sleeps a genius… and his sleep gets deeper everyday.
 
-* _Tuesday, June 23, 2020_
+== _Tuesday, June 23, 2020_
 
 The galaxies hum the shape and form in their essence. That is their
 secret.
@@ -32,13 +32,13 @@ that the leaves all sing of God.
 
 – Exurb1a, _The Fifth Science_
 
-* _Tuesday, June 9, 2020_
+== _Tuesday, June 9, 2020_
 
 It is by the fortune of God that, in this country, we have three
 benefits: freedom of speech, freedom of thought, and the wisdom never to
 use either. – Mark Twain
 
-* _Wednesday, May 20, 2020_
+== _Wednesday, May 20, 2020_
 
 C++ is history repeated as tragedy. Java is history repeated as farce. –
 Scott McKay
