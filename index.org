@@ -18,6 +18,7 @@
     them interesting and you can learn something new! Always learn something
     new!
     
+  * [[./articles/foundation-time][Using Foundation-style Time 💫]]
   * [[./articles/song_challenge][My 30-day song challenge 🎵🤘]]
   * [[./articles/githubio][Custom domains with Github Pages 🦉]]
   * [[./articles/diffeq][Differential Equations Cookbook 🔥]]
