@@ -7,11 +7,12 @@
     I don't really use facebook™ or MySpace, so this webpage is kind of my home
     on the internet now. I do my online articles here, weekly quotes, webpage
     updates, the good stuff, etc. I really enjoy having a personal
-    website. There is something very profound about Web 1.0, like [[http://burger.com][burger.com]] and
+    website. There is something profound about Web 1.0, like [[http://burger.com][burger.com]] and
     [[http://fmboschetto.it][fmboschetto.it]]. Maybe more people will try to have their own website that
     allows them to modify it in any conceivable way. Please enjoy!
-    
-    TIP: Scroll to the bottom for details on how this website is built.
+
+    TIP: Check out some [[./quotes][fortunes]]
+
 *** My cozy blog 💻
 
     Here is a list of my articles I have online. I hope you will find some of
@@ -40,8 +41,6 @@
   * [[./articles/using_mutt/][Bring joy back to e-mail with Mutt 🐕]]
   * [[./articles/installing_arch/][Installing Glorious Arch Linux ☄️]]
 
-*** Quote of the week ☁️
-    A page of weekly quotes [[./quotes][right here]]!
 *** My favorite movies 🎥
     I love movies and I think movies deserve a separate full section on my
     website. Well, I have taken a Film class my freshman year and I loved it. It was
@@ -73,11 +72,11 @@
     I love typesetting tools. In my experience, I have used and written
     articles and papers using the following list of tools: =LaTeX=, =groff=,
     =markdown=, =Org-Mode=, =asciidoctor=, =HTML=, =plain text=. I had to
-    decompress Word files and work with raw XML files there, what a trip
+    decompress Word files and wrestle with raw XML files there, what a trip
     that was.
     
     This beautiful website typed in [[https://orgmode.org/][Org-Mode]] and built using [[http://asciidoctor.org][Asciidoctor]]. The
-    source code can be found [[https://github.com/thecsw/thecsw.github.io][here]].
+    source code is [[https://github.com/thecsw/thecsw.github.io][here]].
     
     It is one of my dreams to typeset documents and books like Brian
     Kernighan:
