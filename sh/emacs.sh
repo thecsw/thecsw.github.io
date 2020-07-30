@@ -20,7 +20,21 @@ step() {
 }
 
 error() {
-    show_message $BOLD$RED $1
+    show_message $BOLD$RED "$1"
+}
+
+check_existing_emacs() {
+    if [ -d .emacs.d ]
+    then
+	error " ! existing .emacs.d installation found, moving to .emacs.d.bak ..."
+	mv .emacs.d .emacs.d.bak
+    fi
+    
+    if [ -f .emacs ]
+    then
+	error " ! existing .emacs found, moving to .emacs.bak ..."
+	mv .emacs .emacs.bak
+    fi
 }
 
 setup_go_tools() {
@@ -35,7 +49,7 @@ setup_go_tools() {
 main() {
     setup_color
 
-    printf "$YELLOW"
+    printf "$BOLD$YELLOW"
     cat <<-'EOF'
     _____      	       	  __   	 _
 		   / ___/____ _____  ____/ /_  _( )_____
@@ -63,6 +77,9 @@ main() {
 	EOF
     printf "$RESET"
 
+    step " - Checking for existing emacs ..."
+    check_existing_emacs
+    
     step " - Cloning .emacs.d ..."
     git clone https://github.com/thecsw/.emacs.d
 
