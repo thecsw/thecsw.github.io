@@ -31,12 +31,13 @@ OUTPUT_TYPE = html
 NAME = Sagindyk Urazayev
 EMAIL = ctu@ku.edu
 ATTRS=:toc: left\n:toc-title: Table of Adventures ⛵\n:nofooter:\n:experimental:
-VCARD = $(NAME) <$(EMAIL)>\nAbout_LINK | GitHub_LINK | LinkedIn_LINK | Keybase_LINK | Home_LINK\n$(ATTRS)
+VCARD = $(NAME) <$(EMAIL)>\nAbout_LINK | GitHub_LINK | LinkedIn_LINK | Telegram_LINK | Home_LINK\n$(ATTRS)
 LINKEDIN = https://www.linkedin.com/in/thecsw/
 GITHUB = https://github.com/thecsw
 ABOUT = /about
 RESUME = /resume
 KEYBASE = https://keybase.io/thecsw
+TELEGRAM = https://t.me/thecsw
 GPG_KEY = https://pgp.key-server.io/pks/lookup?op=vindex\&search=0xCCE2E27DAC465AC163013F1161BB674C628BB45B
 FONT = Inter
 FONT_CODE = DejaVu Sans Mono
@@ -79,6 +80,8 @@ $(NAME):
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|About_LINK|<a href="$(ABOUT)">About 🤔</a>|g' -i
 	$(E) "	SETTING KEYBASE ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Keybase_LINK|<a href="$(KEYBASE)">Keybase 💆</a>|g' -i
+	$(E) "	SETTING TELEGRAM ..."
+	$(Q) $(OUTPUT_FILES) | xargs sed 's|Telegram_LINK|<a href="$(TELEGRAM)">Telegram ✈️</a>|g' -i
 	$(E) "	SETTING HOME ..."
 	$(Q) $(OUTPUT_FILES) | xargs sed 's|Home_LINK|<a href="/">Home 🏠</a>|g' -i
 	$(E) "	SETTING PREVIEW ..."
