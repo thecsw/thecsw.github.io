@@ -11,7 +11,7 @@
     [[http://fmboschetto.it][fmboschetto.it]]. Maybe more people will try to have their own website that
     allows them to modify it in any conceivable way. Please enjoy!
 
-    TIP: Check out some [[./quotes][fortunes]]
+    TIP: Check out some [[./fortunes][fortunes]]
 
 *** My cozy blog 💻
 
