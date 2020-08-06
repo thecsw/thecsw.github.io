@@ -9,9 +9,9 @@
 <meta property="og:image" content="./preview.png">
 <meta property="og:site_name" content="Sandy&apos;s Website">
 <meta property="og:type" content="object">
-<meta property="og:title" content="Differential Equations Cookbook 🔥">
 <meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<meta property="og:title" content="Differential Equations Cookbook 🔥">
 <title>Differential Equations Cookbook 🔥</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -486,7 +486,7 @@ $(document).on('page:load', ready2);
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href=mailto:ctu@ku.edu>ctu@ku.edu</a></span><br>
-<span id="revdate"><a href="/about">About 🤔</a> | <a href="https://github.com/thecsw">GitHub 🐙</a> | <a href="https://www.linkedin.com/in/thecsw/">LinkedIn 🕴</a> | <a href="https://keybase.io/thecsw">Keybase 💆</a> | <a href="/">Home 🏠</a></span>
+<span id="revdate"><a href="/about">About 🤔</a> | <a href="/books">Bookshelf 📖</a> | <a href="/fortunes">Fortunes 🥠</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Adventures ⛵</div>
@@ -531,18 +531,18 @@ equations. Hope you enjoy
 <div class="ulist">
 <ul>
 <li>
-<p>\(f_x \iff \partial_x f\)</p>
+<p>\(f_x \iff \partial_x f\)$</p>
 </li>
 <li>
-<p>\(A,B,C\) are usually a constants</p>
+<p>\(A,B,C\)$ are usually a constants</p>
 </li>
 <li>
-<p>\(c_k\) is usually a solution constant that is resolved with
+<p>\(c_k\)$ is usually a solution constant that is resolved with
 initial conditions</p>
 </li>
 <li>
-<p>Most of the functions are \(\mathbb{R}^k \to \mathbb{R}\),
-\(k \in \mathbb{N}^+\)</p>
+<p>Most of the functions are \(\mathbb{R}^k \to \mathbb{R}\)$,
+\(k \in \mathbb{N}^+\)$</p>
 </li>
 <li>
 <p>If you found a typo or want to comment, feel free to email me. Email
@@ -554,55 +554,55 @@ on top of the page.</p>
 <div class="sect2">
 <h3 id="_first_order_linear">First-order, linear</h3>
 <div class="paragraph">
-<p>Those equations have the form: \(y' + p(t) y = q(t)\)</p>
+<p>Those equations have the form: \(y' + p(t) y = q(t)\)$</p>
 </div>
 <div class="paragraph">
-<p>Find \(\mu(t) = e^{\int p(t) dt}\)</p>
+<p>Find \(\mu(t) = e^{\int p(t) dt}\)$</p>
 </div>
 <div class="paragraph">
-<p>Then \(\frac{d}{dt}(\mu(t)y) = q(t) \mu(t)\)
-\(\implies y = \frac{\int q(t) \mu(t) dt}{\mu(t)}\)</p>
+<p>Then \(\frac{d}{dt}(\mu(t)y) = q(t) \mu(t)\)$
+\(\implies y = \frac{\int q(t) \mu(t) dt}{\mu(t)}\)$</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_first_order_separable">First-order, separable</h3>
 <div class="paragraph">
-<p>Those equations have the form: \(\frac{dy}{dx} = f(x)g(y)\)</p>
+<p>Those equations have the form: \(\frac{dy}{dx} = f(x)g(y)\)$</p>
 </div>
 <div class="paragraph">
 <p>Find the solution by solving
-\(\int \frac{dy}{g(y)} = \int f(x) dx\)</p>
+\(\int \frac{dy}{g(y)} = \int f(x) dx\)$</p>
 </div>
 <div class="paragraph">
-<p>Solve for exact (explicit) values of \(y\)</p>
+<p>Solve for exact (explicit) values of \(y\)$</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_exact_equations">Exact equations</h3>
 <div class="paragraph">
-<p>They have the form \(M(x,y) + N(x,y) \frac{dy}{dx} = 0\)</p>
+<p>They have the form \(M(x,y) + N(x,y) \frac{dy}{dx} = 0\)$</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>\((\xi)\) If \(M_y = N_y\)</p>
+<p>\((\xi)\)\( If \)M_y = N_y\(\)</p>
 <div class="paragraph">
-<p>\(\implies\) Find such \(F(x,y)=C\), where
-\(F_x = M\), \(F_y = N\)</p>
+<p>\(\implies\)\( Find such \)F(x,y)=C\(\), where
+\(F_x = M\)\(, \)F_y = N\(\)</p>
 </div>
 </li>
 <li>
 <p>otherwise, make it exact, such that</p>
 <div class="paragraph">
-<p>\(\frac{M_y-N_x}{N}\) only depends on \(x\) <strong>or</strong>
-\(\frac{N_x-M_y}{M}\) only depends on \(y\)</p>
+<p>\(\frac{M_y-N_x}{N}\)\( only depends on \)x\(\) <strong>or</strong>
+\(\frac{N_x-M_y}{M}\)\( only depends on \)y\(\)</p>
 </div>
 <div class="paragraph">
-<p>Find \(\mu(x) = e^{\int \frac{M_y-N_x}{N} dx}\) <strong>or</strong>
-\(\mu(y) = e^{\int \frac{N_x-M_y}{M} dy}\), multiply both by
-\(M\) <strong>and</strong> \(N\), so the condition
-\(M_y = N_y\) is satisfied. Go to \((\xi)\) and
-proceed with finding \(F(x,y)\)</p>
+<p>Find \(\mu(x) = e^{\int \frac{M_y-N_x}{N} dx}\)$ <strong>or</strong>
+\(\mu(y) = e^{\int \frac{N_x-M_y}{M} dy}\)$, multiply both by
+\(M\)\( *and* \)N\(\), so the condition
+\(M_y = N_y\)\( is satisfied. Go to \)(\xi)\(\) and
+proceed with finding \(F(x,y)\)$</p>
 </div>
 </li>
 </ul>
@@ -611,57 +611,57 @@ proceed with finding \(F(x,y)\)</p>
 <div class="sect2">
 <h3 id="_second_order_linear_constant_coefficient_equations">Second-order, linear, constant-coefficient equations</h3>
 <div class="paragraph">
-<p>They have the form \(y'' + p y' + q y = f(t)\)</p>
+<p>They have the form \(y'' + p y' + q y = f(t)\)$</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
 <p>First, solve for the homogeneous case, where
-\(y'' + p y' + q y = 0\)</p>
+\(y'' + p y' + q y = 0\)$</p>
 <div class="paragraph">
-<p>Make a characteristic polynomial, let \(y = e^{rt}\):</p>
+<p>Make a characteristic polynomial, let \(y = e^{rt}\)$:</p>
 </div>
 <div class="paragraph">
-<p>\(r^2+pr+q=0\)</p>
+<p>\(r^2+pr+q=0\)$</p>
 </div>
 <div class="paragraph">
 <p>Find roots, solution (general) will be
-\(y = c_1 e^{r_1 t} + c_2 e^{r_2 t}\)</p>
+\(y = c_1 e^{r_1 t} + c_2 e^{r_2 t}\)$</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
 <p>if repeated root
-\(\implies y = c_1 e^{rt} + c_2 t e^{rt}\)</p>
+\(\implies y = c_1 e^{rt} + c_2 t e^{rt}\)$</p>
 </li>
 <li>
-<p>if \(r = \alpha \pm i \beta\)
-\(\implies y=c_1 \cos(\beta t)e^{\alpha t} + c_2 \sin(\beta t) e^{\alpha t}\)</p>
+<p>if \(r = \alpha \pm i \beta\)$
+\(\implies y=c_1 \cos(\beta t)e^{\alpha t} + c_2 \sin(\beta t) e^{\alpha t}\)$</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Solving for particular solution \(y_p(t)\)</p>
+<p>Solving for particular solution \(y_p(t)\)$</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Undetermined coefficients (superpositioned) for \(f(t)\)</p>
+<p>Undetermined coefficients (superpositioned) for \(f(t)\)$</p>
 <div class="paragraph">
-<p>Whatever is in \(f(t)\), start adding up the corresponding
-coefficients into \(y_p(t)\)</p>
+<p>Whatever is in \(f(t)\)$, start adding up the corresponding
+coefficients into \(y_p(t)\)$</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>\(e^{nt} \to Ae^{nt}\)</p>
+<p>\(e^{nt} \to Ae^{nt}\)$</p>
 </li>
 <li>
-<p>\(t^m \to A_m t^m + \ldots + A_1 t + A_0\)</p>
+<p>\(t^m \to A_m t^m + \ldots + A_1 t + A_0\)$</p>
 </li>
 <li>
-<p>\(\cos(\beta t)\) or
-\(\sin(\beta t) \to Acos(\beta t) + B\sin(\beta t)\)</p>
+<p>\(\cos(\beta t)\)$ or
+\(\sin(\beta t) \to Acos(\beta t) + B\sin(\beta t)\)$</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -670,7 +670,7 @@ coefficients into \(y_p(t)\)</p>
 </td>
 <td class="content">
 should not be linearly dependent with the general solution. If it
-is, multiply by \(t\) until it is linearly independent.
+is, multiply by \(t\)$ until it is linearly independent.
 </td>
 </tr>
 </table>
@@ -682,10 +682,10 @@ is, multiply by \(t\) until it is linearly independent.
 <li>
 <p>Variation of parameters</p>
 <div class="paragraph">
-<p>Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where</p>
+<p>Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\)$, where</p>
 </div>
 <div class="paragraph">
-<p>\(\begin{cases}v_1'y_1+v_2'y_2=0\\v_1'y_1'+v_2'y_2'=f(t)\end{cases}\)</p>
+<p>\(\begin{cases}v_1'y_1+v_2'y_2=0\\v_1'y_1'+v_2'y_2'=f(t)\end{cases}\)$</p>
 </div>
 </li>
 </ul>
@@ -695,7 +695,7 @@ is, multiply by \(t\) until it is linearly independent.
 </div>
 <div class="paragraph">
 <p>So the final solution is
-\(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)</p>
+\(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)$</p>
 </div>
 </div>
 <div class="sect2">
@@ -706,26 +706,26 @@ is, multiply by \(t\) until it is linearly independent.
 <div class="ulist">
 <ul>
 <li>
-<p>\((1)\): \(a(t)y'' + b(t)y'+c(t)y = f(t)\)</p>
+<p>\((1)\)\(: \)a(t)y'' + b(t)y'+c(t)y = f(t)\(\)</p>
 </li>
 <li>
-<p>\((2)\): \(y'' + p(t)y'+q(t)y = g(t)\)</p>
+<p>\((2)\)\(: \)y'' + p(t)y'+q(t)y = g(t)\(\)</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
 <p>In general case, guess the first homogeneous solution (try
-\(y_1=e^t\)) and use reduction of order to find the second
+\(y_1=e^t\)$) and use reduction of order to find the second
 homogeneous solution, so that</p>
 </div>
 <div class="paragraph">
-<p>\(y_2(t) = v(t)y_1(t)\)</p>
+<p>\(y_2(t) = v(t)y_1(t)\)$</p>
 </div>
 <div class="paragraph">
-<p>\(\implies y_2'' + p(t)y_2' + q(t)y_2 = 0\)</p>
+<p>\(\implies y_2'' + p(t)y_2' + q(t)y_2 = 0\)$</p>
 </div>
 <div class="paragraph">
-<p>\(\implies (v(t)y_1(t))''+p(t)(v(t)y_1(t))'+q(t)(v(t)y_1(t))=0\)</p>
+<p>\(\implies (v(t)y_1(t))''+p(t)(v(t)y_1(t))'+q(t)(v(t)y_1(t))=0\)$</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -734,7 +734,7 @@ homogeneous solution, so that</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-Also applicable with form \((1)\)
+Also applicable with form \((1)\)$
 </td>
 </tr>
 </table>
@@ -742,8 +742,8 @@ Also applicable with form \((1)\)
 <div class="paragraph">
 <p>You will probably have another differential equation emerge from above.
 It should have lower order than our current equation, so just refer to
-one of the techniques above to find \(v(t)\) and then you can
-find \(y_2(t)=v(t)y_1(t)\)</p>
+one of the techniques above to find \(v(t)\)$ and then you can
+find \(y_2(t)=v(t)y_1(t)\)$</p>
 </div>
 <div class="paragraph">
 <p>Use <strong>variation of parameters</strong> to find a particular solution. It&#8217;s that
@@ -762,35 +762,35 @@ What you if you have a <strong>Cauchy-Euler equation</strong>?
 </table>
 </div>
 <div class="paragraph">
-<p>They have the form \(at^2y''+bty'+cy=0\)</p>
+<p>They have the form \(at^2y''+bty'+cy=0\)$</p>
 </div>
 <div class="paragraph">
-<p>then \(y=t^r \implies ar^2+(b-a)r+c=0\)</p>
+<p>then \(y=t^r \implies ar^2+(b-a)r+c=0\)$</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>if \(r\) is repeated, \(y_1=t^r\),
-\(y_2=ln|t|t^r\)</p>
+<p>if \(r\)\( is repeated, \)y_1=t^r\(\),
+\(y_2=ln|t|t^r\)$</p>
 </li>
 <li>
-<p>if \(r=\alpha\pm i\beta\),
-\(y_1=t^{\alpha}\cos(\beta ln|t|)\) and
-\(y_2=t^{\alpha}\sin(\beta ln|t|)\)</p>
+<p>if \(r=\alpha\pm i\beta\)$,
+\(y_1=t^{\alpha}\cos(\beta ln|t|)\)$ and
+\(y_2=t^{\alpha}\sin(\beta ln|t|)\)$</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)</p>
+<p>Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)$</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_higher_order_linear_equations">Higher-order, linear equations</h3>
 <div class="paragraph">
-<p>\(a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y'+a_0(t)y=g(t)\)</p>
+<p>\(a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y'+a_0(t)y=g(t)\)$</p>
 </div>
 <div class="paragraph">
-<p>All second-order methods above extend to \(n^{th}\) order.</p>
+<p>All second-order methods above extend to \(n^{th}\)$ order.</p>
 </div>
 </div>
 <div class="sect2">
@@ -801,10 +801,10 @@ values defined. Laplace is the same kind of Bible to engineers like
 Taylor Series is.</p>
 </div>
 <div class="paragraph">
-<p>\(\mathcal{L}\{f\}(s) = \int_0^{\infty} e^{-st} f(t) dt\)</p>
+<p>\(\mathcal{L}\{f\}(s) = \int_0^{\infty} e^{-st} f(t) dt\)$</p>
 </div>
 <div class="paragraph">
-<p>assuming \(f\) is piecewise continuous and of exponential
+<p>assuming \(f\)$ is piecewise continuous and of exponential
 order.</p>
 </div>
 <div class="paragraph">
@@ -817,41 +817,41 @@ order.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">\(f(t)\)</th>
-<th class="tableblock halign-left valign-top">\(\mathcal{L}\{f\}(s)\)</th>
+<th class="tableblock halign-left valign-top">\(f(t)\)pass:[\(</th>
+<th class="tableblock halign-left valign-top">\)]\mathcal{L}{f}(s)\(\)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(1\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{1}{s}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(1\)pass:[\(</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\)]\frac{1}{s}\(\)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{at}\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{1}{s-a}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{at}\)pass:[\(</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\)]\frac{1}{s-a}\(\)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\sin(bt)\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{b}{s^2+b^2}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\sin(bt)\)pass:[\(</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\)]\frac{b}{s<sup>2+b</sup>2}\(\)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\cos(bt)\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{s}{s^2+b^2}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\cos(bt)\)pass:[\(</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\)]\frac{s}{s<sup>2+b</sup>2}\(\)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(u(t-a)\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{e^{-as}}{s}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(u(t-a)\)pass:[\(</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\)]\frac{e^{-as}}{s}\(\)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\delta(t-a)\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{-as}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\delta(t-a)\)pass:[\(</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\)]e^{-as}\(\)</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Where \(u(t)\) is the
+<p>Where \(u(t)\)$ is the
 <a href=https://en.wikipedia.org/wiki/Heaviside_step_function>Heaviside step
-function</a> and \(\delta(t)\) is the
+function</a> and \(\delta(t)\)$ is the
 <a href=https://en.wikipedia.org/wiki/Dirac_delta_function>Dirac delta
 function</a>.</p>
 </div>
@@ -861,24 +861,24 @@ function</a>.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\(\mathcal{L}\{e^{at}f(t)\}(s) = \mathcal{L}\{f(t)\}(s-a)\)</p>
+<p>\(\mathcal{L}\{e^{at}f(t)\}(s) = \mathcal{L}\{f(t)\}(s-a)\)$</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{t^nf(t)\}(s)=s^n\mathcal{L}\{f\}(s)-s^{n-1}f(0)-s^{n-2}f'(0)-\ldots-sf^{(n-2)}(0)-f^{(n-1)}(0)\)</p>
+<p>\(\mathcal{L}\{t^nf(t)\}(s)=s^n\mathcal{L}\{f\}(s)-s^{n-1}f(0)-s^{n-2}f'(0)-\ldots-sf^{(n-2)}(0)-f^{(n-1)}(0)\)$</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{t^nf(t)\}(s) = (-1)^n \frac{d^n}{ds^n} \mathcal{L}\{f(t)\}(s)\)</p>
+<p>\(\mathcal{L}\{t^nf(t)\}(s) = (-1)^n \frac{d^n}{ds^n} \mathcal{L}\{f(t)\}(s)\)$</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>If \(f\) is a T-periodic function,</p>
+<p>If \(f\)$ is a T-periodic function,</p>
 </div>
 <div class="paragraph">
-<p>\(\mathcal{L}\{f(t)\}(s) = \frac{\int_0^T e^{-sT} f(t) dt}{1-e^{-sT}}\)</p>
+<p>\(\mathcal{L}\{f(t)\}(s) = \frac{\int_0^T e^{-sT} f(t) dt}{1-e^{-sT}}\)$</p>
 </div>
 <div class="paragraph">
-<p>where \(\int_0^T e^{-sT} f(t) dt = \mathcal{L}\{f_T(t)\}(s)\),
+<p>where \(\int_0^T e^{-sT} f(t) dt = \mathcal{L}\{f_T(t)\}(s)\)$,
 the sum of integrals of different parts of the piecewise function.</p>
 </div>
 <div class="paragraph">
@@ -887,15 +887,15 @@ the sum of integrals of different parts of the piecewise function.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\((f*g)(t) = \int_0^t f(t-v)g(v)dv\)</p>
+<p>\((f*g)(t) = \int_0^t f(t-v)g(v)dv\)$</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{(f*g)(t)\} = \mathcal{L}\{f(t)\}(s)\cdot \mathcal{L}\{g(t)\}(s)\)</p>
+<p>\(\mathcal{L}\{(f*g)(t)\} = \mathcal{L}\{f(t)\}(s)\cdot \mathcal{L}\{g(t)\}(s)\)$</p>
 </li>
 <li>
-<p>\((f*g)(t) = \mathcal{L}^{-1}\{F\cdot G\}(t)\), where
-\(F=\mathcal{L}\{f\}(s)\) and
-\(G=\mathcal{L}\{g\}(s)\)</p>
+<p>\((f*g)(t) = \mathcal{L}^{-1}\{F\cdot G\}(t)\)$, where
+\(F=\mathcal{L}\{f\}(s)\)$ and
+\(G=\mathcal{L}\{g\}(s)\)$</p>
 </li>
 </ul>
 </div>
@@ -905,17 +905,17 @@ the sum of integrals of different parts of the piecewise function.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\(\mathcal{L}\{u(t-a)f(t)\}(s) = e^{-as}\mathcal{L}\{f(t+a)\}(s)\)</p>
+<p>\(\mathcal{L}\{u(t-a)f(t)\}(s) = e^{-as}\mathcal{L}\{f(t+a)\}(s)\)$</p>
 </li>
 <li>
-<p>\(\mathcal{L}^{-1}\{e^{-as}F(s)\}(t)=u(t-a)\mathcal{L}^{-1}\{F(s)\}(t-a)\)</p>
+<p>\(\mathcal{L}^{-1}\{e^{-as}F(s)\}(t)=u(t-a)\mathcal{L}^{-1}\{F(s)\}(t-a)\)$</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
 <p>If IVP is not at 0, define some new function like
-\(w(t)=y(t+\alpha)\), and solve for \(w\). Finally,
-you can offset to find \(y\)</p>
+\(w(t)=y(t+\alpha)\)\(, and solve for \)w\(\). Finally,
+you can offset to find \(y\)$</p>
 </div>
 <div class="paragraph">
 <p>Step (block) function:</p>
@@ -923,10 +923,10 @@ you can offset to find \(y\)</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\(\Pi_{a,b}(t) = u(t-a)-u(t-b)\)</p>
+<p>\(\Pi_{a,b}(t) = u(t-a)-u(t-b)\)$</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s}\)</p>
+<p>\(\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s}\)$</p>
 </li>
 </ul>
 </div>
@@ -934,26 +934,26 @@ you can offset to find \(y\)</p>
 <div class="sect2">
 <h3 id="_constant_coefficient_homogeneous_systems_of_ode">Constant-coefficient, homogeneous systems of ODE</h3>
 <div class="paragraph">
-<p>\(\vec{x}' = A \vec{x}\), where
-\(A\in\mathbb{R}^{n\times n}\), \(x\in\mathbb{R}^n\)</p>
+<p>\(\vec{x}' = A \vec{x}\)$, where
+\(A\in\mathbb{R}^{n\times n}\)\(, \)x\in\mathbb{R}^n\(\)</p>
 </div>
 <div class="paragraph">
-<p>If \(A\) has n linearly independent eigenvectors
-\(\vec{u_i}\) associated to n eigenvalues
-\(\lambda_i\), then a general solution of the system is given
+<p>If \(A\)$ has n linearly independent eigenvectors
+\(\vec{u_i}\)$ associated to n eigenvalues
+\(\lambda_i\)$, then a general solution of the system is given
 by
-\(\vec{x}(t) = c_1 e^{\lambda_1 t}\vec{u_1}+c_2e^{\lambda_2t}\vec{u_2}+\ldots+c_ne^{\lambda_nt}\vec{u_n}\)</p>
+\(\vec{x}(t) = c_1 e^{\lambda_1 t}\vec{u_1}+c_2e^{\lambda_2t}\vec{u_2}+\ldots+c_ne^{\lambda_nt}\vec{u_n}\)$</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>If \(\lambda=\alpha \pm i \beta\), so
-\(\vec{u}=\vec{a}+i\vec{b}\), we have</p>
+<p>If \(\lambda=\alpha \pm i \beta\)$, so
+\(\vec{u}=\vec{a}+i\vec{b}\)$, we have</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>\(\vec{x}=c_1e^{\alpha t}(\cos(\beta t)\vec{a}-\sin(\beta t)\vec{b}) + c_2e^{\alpha t}(\cos(\beta t)\vec{b}+\sin(\beta t)\vec{a})\)</p>
+<p>\(\vec{x}=c_1e^{\alpha t}(\cos(\beta t)\vec{a}-\sin(\beta t)\vec{b}) + c_2e^{\alpha t}(\cos(\beta t)\vec{b}+\sin(\beta t)\vec{a})\)$</p>
 </div>
 <div class="ulist">
 <ul>
@@ -963,8 +963,8 @@ by
 </ul>
 </div>
 <div class="paragraph">
-<p>\(e^{At} = \sum_{k=0}^{\infty} \frac{A^k t^k}{k!}\), where
-\(A^0=I\), an identity matrix.</p>
+<p>\(e^{At} = \sum_{k=0}^{\infty} \frac{A^k t^k}{k!}\)$, where
+\(A^0=I\)$, an identity matrix.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -973,32 +973,32 @@ by
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Compute the characteristic polynomial \(p(\lambda)\) of
-\(A\)</p>
+<p>Compute the characteristic polynomial \(p(\lambda)\)$ of
+\(A\)$</p>
 <div class="paragraph">
-<p>\(p(\lambda)=det(A-\lambda I)\)</p>
+<p>\(p(\lambda)=det(A-\lambda I)\)$</p>
 </div>
 </li>
 <li>
-<p>Factor \(p(\lambda)\) into linear factors to yield</p>
+<p>Factor \(p(\lambda)\)$ into linear factors to yield</p>
 <div class="paragraph">
-<p>\(p(\lambda) = c(\lambda-\lambda_1)^{m_1} \cdot \ldots \cdot (\lambda-\lambda_k)^{m_k}\),
-where \(c=\pm 1\)</p>
+<p>\(p(\lambda) = c(\lambda-\lambda_1)^{m_1} \cdot \ldots \cdot (\lambda-\lambda_k)^{m_k}\)$,
+where \(c=\pm 1\)$</p>
 </div>
 </li>
 <li>
-<p>For each \(\lambda_j\), find \(m_j\) linearly
+<p>For each \(\lambda_j\)\(, find \)m_j\(\) linearly
 independent generalized eigenvectors
-\(\{\vec{u_j}^{m_1},\cdots,\vec{u_j}^{m_j}\}\) satisfying</p>
+\(\{\vec{u_j}^{m_1},\cdots,\vec{u_j}^{m_j}\}\)$ satisfying</p>
 <div class="paragraph">
-<p>\((A-\lambda_i I)^{m_j} \vec{u} = \vec{0}\)</p>
+<p>\((A-\lambda_i I)^{m_j} \vec{u} = \vec{0}\)$</p>
 </div>
 </li>
 <li>
 <p>For each $<sup>i</sup> computed in the previous step, compute
-\(e^{At}\vec{u_j}^i\) by</p>
+\(e^{At}\vec{u_j}^i\)$ by</p>
 <div class="paragraph">
-<p>\(e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)\)</p>
+<p>\(e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)\)$</p>
 </div>
 </li>
 </ol>
@@ -1010,25 +1010,25 @@ independent generalized eigenvectors
 <div class="sect2">
 <h3 id="_linear_systems_of_ode">Linear systems of ODE</h3>
 <div class="paragraph">
-<p>\(\vec{x}' = A(t)\vec{x} + \vec{f}(t)\), where
-\(A\in\mathbb{R}^{n\times n}\),
-\(x\in\mathbb{R}^n\), \(f\in\mathbb{R}^n\)</p>
+<p>\(\vec{x}' = A(t)\vec{x} + \vec{f}(t)\)$, where
+\(A\in\mathbb{R}^{n\times n}\)$,
+\(x\in\mathbb{R}^n\)\(, \)f\in\mathbb{R}^n\(\)</p>
 </div>
 <div class="paragraph">
-<p>If \(X(t)\) is a matrix whose columns are made up of n
-linearly independent homogeneous solutions (\(X(t)\) is the
+<p>If \(X(t)\)$ is a matrix whose columns are made up of n
+linearly independent homogeneous solutions (\(X(t)\)$ is the
 fundamental matrix), then a general solution may be written as
-\(\vec{x}(t_0)=\vec{x_0}\)</p>
+\(\vec{x}(t_0)=\vec{x_0}\)$</p>
 </div>
 <div class="paragraph">
-<p>\(\vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds\)</p>
+<p>\(\vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds\)$</p>
 </div>
 <div class="paragraph">
-<p>If \(A(t)\) is constant-coefficient, then we recover Duhamel&#8217;s
+<p>If \(A(t)\)$ is constant-coefficient, then we recover Duhamel&#8217;s
 formula:</p>
 </div>
 <div class="paragraph">
-<p>\(\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds\)</p>
+<p>\(\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds\)$</p>
 </div>
 </div>
 <div class="sect2">
@@ -1043,14 +1043,14 @@ common Physics 1/2 scenarios</p>
 <li>
 <p>Falling object</p>
 <div class="paragraph">
-<p>\(m\frac{dv}{dt}=mg-bv\), where \(b\) is the air
+<p>\(m\frac{dv}{dt}=mg-bv\)\(, where \)b\(\) is the air
 resistance</p>
 </div>
 </li>
 <li>
-<p>Fluid mix, define \(R_{in}\) and \(R_{out}\)</p>
+<p>Fluid mix, define \(R_{in}\)\( and \)R_{out}\(\)</p>
 <div class="paragraph">
-<p>\(\frac{dx}{dt}=R_{in}-R_{out}\)</p>
+<p>\(\frac{dx}{dt}=R_{in}-R_{out}\)$</p>
 </div>
 </li>
 <li>
@@ -1060,16 +1060,16 @@ resistance</p>
 <li>
 <p>Vertical spring (direction of gravity)</p>
 <div class="paragraph">
-<p>\(my''=-by'-k(L+y)+mg+F_{ext}(t)\), assume
-\(KL=mg\), where \(b\) is dumping, and
-\(k\) is stiffness</p>
+<p>\(my''=-by'-k(L+y)+mg+F_{ext}(t)\)$, assume
+\(KL=mg\)\(, where \)b\(\) is dumping, and
+\(k\)$ is stiffness</p>
 </div>
 </li>
 <li>
 <p>Horizontal spring</p>
 <div class="paragraph">
-<p>\(my''=-by'-ky+F_{ext}(t)\), where \(b\) is dumping,
-and \(k\) is stiffness</p>
+<p>\(my''=-by'-ky+F_{ext}(t)\)\(, where \)b\(\) is dumping,
+and \(k\)$ is stiffness</p>
 </div>
 </li>
 </ol>

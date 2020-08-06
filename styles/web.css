@@ -32,3 +32,11 @@ pre {
   color: white;
   background: #ff4081;
 }
+h2 {
+  font-size: 2em;
+}
+h3,
+#toctitle,
+.sidebarblock > .content > .title {
+  font-size: 1.5em;
+}
