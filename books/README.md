@@ -1,3 +1,3 @@
 ![preview](./preview.png)
-Sandy\'s bookshelf
-==================
+Sandy\'s bookshelf 📖
+====================

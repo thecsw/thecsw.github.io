@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Sandy\'s fortunes ☁️
-====================
+Sandy\'s fortunes 🥠
+===================
 
 ### 219; 12020 H.E.
 
