@@ -17,6 +17,7 @@
     them interesting and you can learn something new! Always learn something
     new!
     
+  * [[./blog/web-toolbox][Essential toolbox for the web 🧰]]
   * [[./blog/emacs.sh][Getting Sandy's .emacs.d 🤺]]
   * [[./articles/foundation-time][Using Foundation-style Time 💫]]
   * [[./articles/song_challenge][My 30-day song challenge 🎵🤘]]
