@@ -85,31 +85,31 @@ IP address is using VPN services.
 This is how naked connections looks like, it may not even be secured and
 there might be an eavesdropper in the middle!
 
-                                     +----------------+
-    +-----+     --> Your IP          |                |
-    | You +----------------------+---+  THE INTERNET  |
-    +-----+      <-- Data        |   |                |
-                                 |   +----------------+
-                                 |
-                                 |
-                           +-----+--------+
-                           | Eavesdropper |
-                           +--------------+
+                                     ┌────────────────┐
+    ┌─────┐     ──> Your IP          │                │
+    │ You ├──────────────────────┬───┤  THE INTERNET  │
+    └─────┘      <── Data        │   │                │
+                                 │   └────────────────┘
+                                 │
+                                 │
+                           ┌─────┴────────┐
+                           │ Eavesdropper │
+                           └──────────────┘
 
 VPN is basically accessing the internet goods through a secure
 middle-man that ideally keeps your identity secret and takes the main
 hit of being exposed to everything out there
 
-                                     +----------------+
-    +-----+     +-----+ --> VPN IP   |                |
-    | You +-----+ VPN +----------+---+  THE INTERNET  |
-    +-----+     +-----+ <-- Data |   |                |
-                                 |   +----------------+
-                                 |
-                                 |
-                           +-----+--------+
-                           | Eavesdropper |
-                           +--------------+
+                                     ┌────────────────┐
+    ┌─────┐     ┌─────┐ ──> VPN IP   │                │
+    │ You ├─────┤ VPN ├──────────┬───┤  THE INTERNET  │
+    └─────┘     └─────┘ <── Data │   │                │
+                                 │   └────────────────┘
+                                 │
+                                 │
+                           ┌─────┴────────┐
+                           │ Eavesdropper │
+                           └──────────────┘
 
 You were probably bombarded by millions of different VPN ads, like
 **NordVPN**, **ProtonVPN**, **BearVPN**? There are some you should NOT
