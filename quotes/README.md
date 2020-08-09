@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 222; 12020 H.E.
+
+Be yourself; everyone else is already taken.
+
+--- Oscar Wilde
+
 ### 219; 12020 H.E.
 
 Let us cultivate our garden.
