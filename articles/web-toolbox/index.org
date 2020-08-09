@@ -67,16 +67,16 @@
    there might be an eavesdropper in the middle!
 
    #+BEGIN_SRC
-                                    ┌────────────────┐
-   ┌─────┐     	──> Your IP         │                │
-   │ You ├──────────────────────┬───│  THE INTERNET  │
-   └─────┘      <── Data        │   │                │
-                                │   └────────────────┘
-                                │
-                                │
-                          ┌─────┴────────┐
-                          │ Eavesdropper │
-                          └──────────────┘
+                                    +----------------+
+   +-----+     --> Your IP          |                |
+   | You +----------------------+---+  THE INTERNET  |
+   +-----+      <-- Data        |   |                |
+                                |   +----------------+
+                                |
+                                |
+                          +-----+--------+
+                          | Eavesdropper |
+                          +--------------+
    #+END_SRC
 
    VPN is basically accessing the internet goods through a secure middle-man
@@ -85,16 +85,16 @@
 
 
    #+BEGIN_SRC
-                                    ┌────────────────┐
-   ┌─────┐     ┌─────┐ ──> VPN IP   │                │
-   │ You ├─────┤ VPN ├──────────┬───│  THE INTERNET  │
-   └─────┘     └─────┘ <── Data │   │                │
-                                │   └────────────────┘
-                                │
-                                │
-                          ┌─────┴────────┐
-                          │ Eavesdropper │
-                          └──────────────┘
+                                    +----------------+
+   +-----+     +-----+ --> VPN IP   |                |
+   | You +-----+ VPN +----------+---+  THE INTERNET  |
+   +-----+     +-----+ <-- Data |   |                |
+                                |   +----------------+
+                                |
+                                |
+                          +-----+--------+
+                          | Eavesdropper |
+                          +--------------+
    #+END_SRC
 
    You were probably bombarded by millions of different VPN ads, like *NordVPN*,
