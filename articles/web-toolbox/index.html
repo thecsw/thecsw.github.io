@@ -604,16 +604,16 @@ there might be an eavesdropper in the middle!</p>
 </div>
 <div class="literalblock">
 <div class="content">
-<pre>                                 +----------------+
-+-----+     --&gt; Your IP          |                |
-| You +----------------------+---+  THE INTERNET  |
-+-----+      &lt;-- Data        |   |                |
-                             |   +----------------+
-                             |
-                             |
-                       +-----+--------+
-                       | Eavesdropper |
-                       +--------------+</pre>
+<pre>                                 ┌────────────────┐
+┌─────┐     ──&gt; Your IP          │                │
+│ You ├──────────────────────┬───┤  THE INTERNET  │
+└─────┘      &lt;── Data        │   │                │
+                             │   └────────────────┘
+                             │
+                             │
+                       ┌─────┴────────┐
+                       │ Eavesdropper │
+                       └──────────────┘</pre>
 </div>
 </div>
 <div class="paragraph">
@@ -623,16 +623,16 @@ hit of being exposed to everything out there</p>
 </div>
 <div class="literalblock">
 <div class="content">
-<pre>                                 +----------------+
-+-----+     +-----+ --&gt; VPN IP   |                |
-| You +-----+ VPN +----------+---+  THE INTERNET  |
-+-----+     +-----+ &lt;-- Data |   |                |
-                             |   +----------------+
-                             |
-                             |
-                       +-----+--------+
-                       | Eavesdropper |
-                       +--------------+</pre>
+<pre>                                 ┌────────────────┐
+┌─────┐     ┌─────┐ ──&gt; VPN IP   │                │
+│ You ├─────┤ VPN ├──────────┬───┤  THE INTERNET  │
+└─────┘     └─────┘ &lt;── Data │   │                │
+                             │   └────────────────┘
+                             │
+                             │
+                       ┌─────┴────────┐
+                       │ Eavesdropper │
+                       └──────────────┘</pre>
 </div>
 </div>
 <div class="paragraph">
