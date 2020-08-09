@@ -12,15 +12,15 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 └─┬────────────────────────────────┬──┘
   │                                │
   │      Foundation and Earth      │
+  │         by Isaac Asimov        │
   │                                │
-  │                                │
-┌─┴────────────────────┬───────────┘
-│                      │
-│  Foundation's Edge   │
-│                      │
-└───┬──────────────────┴───────────┐
-    │       THE PRINCE OF MILK     │
-    │         by Exurb1a           │
+┌─┴──────────────────────┬─────────┘
+│                        │
+│   Foundation's Edge    │
+│                        │
+└───┬────────────────────┴─────────┐
+    │      The Prince of Milk      │
+    │          by Exurb1a          │
    ┌┴───────────────────────────┬──┘
    │      Second Foundation     │
    ├────────────────────────────┤
@@ -28,7 +28,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
    ├────────────────────────────┤
    │         Foundation         │
  ┌─┴────────────────────────────┴─┐
- │       THE FIFTH SCIENCE        │
+ │       The Fifth Science        │
  │          by Exurb1a            │
  └───┬─────────────────────────┬──┘
      │     The Tao of Pooh     │
