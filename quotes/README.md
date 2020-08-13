@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 226; 12020 H.E.
+
+Life is too important to be taken seriously.
+
+--- Oscar Wilde
+
 ### 223; 12020 H.E.
 
 To live is the rarest thing in the world. Most people exist, that is
