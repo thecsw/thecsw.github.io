@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 230; 12020 H.E.
+
+Against stupidity the very gods; Themselves contend in vain.
+
+--- Friedrich Schiller
+
 ### 226; 12020 H.E.
 
 Life is too important to be taken seriously.
