@@ -2,6 +2,14 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 232; 12020 H.E.
+
+\"Internally, Emacs still belives it's a text program, and we pretend Xt
+is a text terminal, and we pretend GTK is an Xt toolkit. It's a fractal
+of delusion.\"
+
+--- marai2 (Hackernews comments)
+
 ### 230; 12020 H.E.
 
 Against stupidity the very gods; Themselves contend in vain.
