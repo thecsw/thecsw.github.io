@@ -6,6 +6,13 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 236; 12020 H.E.
+
+Вот как нам писать. Пушкин приступает прямо к делу. Другой бы начал
+описывать гостей, комнаты, а он вводит в действие сразу
+
+— Л. Н. Толстой (запись в дневнике С. А. Толстой от 19 марта 1873).
+
 == 232; 12020 H.E.
 
 "Internally, Emacs still belives it’s a text program, and we pretend Xt
