@@ -72,8 +72,8 @@ Excessive bureaucracy is the start of the fall of any civilization
 
 ### 206; 12020 H.E.
 
-All happy families are alike; each unhappy family is unhappy in its own
-way.
+Все счастливые семьи похожи друг на друга, каждая несчастливая семья
+несчастлива по-своему.
 
 --- Leo Tolstoy
 
