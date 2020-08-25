@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 237; 12020 H.E.
+
+Most people do not really want freedom, because freedom involves
+responsibility, and most people are frightened of responsibility.
+
+--- Sigmund Freud, Civilization and Its Discontents
+
 ### 236; 12020 H.E.
 
 Вот как нам писать. Пушкин приступает прямо к делу. Другой бы начал
