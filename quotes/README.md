@@ -2,6 +2,14 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 238; 12020 H.E.
+
+Almost nothing great has ever been done in the world except by the
+genius and firmness of a single man combating the prejudices of the
+multitude.
+
+--- Voltaire, correspondence with Catherine the Great
+
 ### 237; 12020 H.E.
 
 Most people do not really want freedom, because freedom involves
