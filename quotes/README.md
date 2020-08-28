@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 241; 12020 H.E.
+
+Misery is wasted on the miserable.
+
+--- *Louie*
+
 ### 238; 12020 H.E.
 
 Almost nothing great has ever been done in the world except by the
