@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 247; 12020 H.E.
+
+Those who abjure violence can do so only because others are committing
+violence on their behalf.
+
+--- George Orwell
+
 ### 241; 12020 H.E.
 
 Misery is wasted on the miserable.
