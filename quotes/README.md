@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 248; 12020 H.E.
+
+A wise man can learn more from a foolish question than a fool can learn
+from a wise answer.
+
+--- Bruce Lee
+
 ### 247; 12020 H.E.
 
 Those who abjure violence can do so only because others are committing
