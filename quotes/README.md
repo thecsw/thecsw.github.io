@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 249; 12020 H.E.
+
+Nature abhors a vacuum.
+
+--- Aristotle
+
 ### 248; 12020 H.E.
 
 A wise man can learn more from a foolish question than a fool can learn
