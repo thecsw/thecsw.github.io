@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 256; 12020 H.E.
+
+There are no sides in this world, only players
+
 ### 249; 12020 H.E.
 
 Nature abhors a vacuum.
