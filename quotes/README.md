@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 257; 12020 H.E.
+
+No good deed goes unpunished.
+
 ### 256; 12020 H.E.
 
 There are no sides in this world, only players
