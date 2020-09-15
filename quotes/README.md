@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 259; 12020 H.E.
+
+Man plans, God laughs
+
 ### 257; 12020 H.E.
 
 No good deed goes unpunished.
