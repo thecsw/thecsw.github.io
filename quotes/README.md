@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 260; 12020 H.E.
+
+Men learn to love the woman they are attracted to. Women learn to become
+attracted to the man they fall in love with.
+
+--- Woody Allen
+
 ### 259; 12020 H.E.
 
 Man plans, God laughs
