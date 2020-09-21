@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 265; 12020 H.E.
+
+There are no bad questions, only horrible answers
+
 ### 260; 12020 H.E.
 
 Men learn to love the woman they are attracted to. Women learn to become
