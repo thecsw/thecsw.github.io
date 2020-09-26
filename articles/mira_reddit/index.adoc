@@ -74,7 +74,7 @@ libraries differ.
 
 GIST thecsw/e2e3d2b558f943fb3f5047ed4979282d
 
-NOTE: mira is not  *  * completely *  *  concurrency safe! When you run
+NOTE: mira is not **completely** concurrency safe! When you run
 `r.Comment(...)` or `r.Redditor(...)`, it adds those values to its
 internal queue and dequeues them when requested. If two threads or
 routines try to dequeue at the same time or expect something, then the
@@ -87,12 +87,12 @@ for your PR!
 Similar API is available for other Reddit entities and objects. For
 example, mira currently supports:
 
- *  `r.Me().StreamCommentReplies()`
- *  `r.Me().StreamMentions()`
- *  `r.Redditor(...).StreamComments()`
- *  `r.Submission(...).StreamComments()`
- *  `r.Redditor(...).StreamSubmissions()`
- *  `r.Submission(...).StreamSubmissions()`
+* `r.Me().StreamCommentReplies()`
+* `r.Me().StreamMentions()`
+* `r.Redditor(...).StreamComments()`
+* `r.Submission(...).StreamComments()`
+* `r.Redditor(...).StreamSubmissions()`
+* `r.Submission(...).StreamSubmissions()`
 
 The names are very Java like and I hope they are intuitive
 
