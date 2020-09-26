@@ -11,6 +11,12 @@ s|Home_LINK|<a href="/">Home 🏠</a>|
 s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</title>|g
 /<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">
 /<title/i\<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+/<title/i\<script id="MathJax-script" async src="/mathjax/tex-chtml.js"></script>
+
+# Make the MathJax script
+s=\$([^$]+)\$=\\(\1\\)=g
+s=<sup>=^=g
+s=</sup>=^=g
 
 # Add scripts, like snow effoct
 #s|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g

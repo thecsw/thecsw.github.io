@@ -1,4 +1,4 @@
-= Bring joy back to e-mail with Mutt 🐕
+= Bring joy back to e - mail with Mutt 🐕
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left
@@ -12,10 +12,10 @@ May 13th, 2019
 .Abstract
 
 
-"Electronic mail (email or e-mail) is a method of exchanging messages
+"Electronic mail (email or e - mail) is a method of exchanging messages
 ("mail") between people using electronic devices. Invented by Ray
 Tomlinson, email first entered limited use in the 1960s and by the
-mid-1970s had taken the form now recognized as email." footnote:[Taken
+mid - 1970s had taken the form now recognized as email." footnote:[Taken
 directly from https://en.wikipedia.org/wiki/Email[Wikipedia]] Email has
 been around for more than 50 years now. As we go further on our
 timeline, folks from new generations are starting to forget the beauty
@@ -28,8 +28,8 @@ When you ask someone to check their email, I am sure they would rather
 use their phone if they do not have one open already on their computer.
 The reason for this is the discomfort people have opening their email
 services in their browsers. The key for this discomfort is time. When I
-open my email on my laptop, it takes about 5-6 seconds to just open my
-browser, 2-3 more seconds to enter the email address, and God knows how
+open my email on my laptop, it takes about 5 - 6 seconds to just open my
+browser, 2 - 3 more seconds to enter the email address, and God knows how
 much longer until my inbox actually opens. Looking at you, Gmail.
 
 People want their services to work fast and without any delays. Phones
@@ -51,7 +51,7 @@ In reality, email is a fantastic way of communication. Indeed, it was
 the _only_ way to communicate over the Internet back in 1970s and 1980s.
 As the time progresses and we create our future, developers around the
 world tried to work on email clients and unfortunately made them more
-unintuitive and less user-friendly. This beautiful way of communication
+unintuitive and less user - friendly. This beautiful way of communication
 became this big hassle of navigating to intermediate apps and typing a
 message.
 
@@ -62,28 +62,28 @@ other.
 
 == What is Mutt?
 
-http://www.mutt.org/[Mutt] is a text-based email client developed by
-Michael Elkins in 1995 for UNIX-like systems. I want to say that this is
+http://www.mutt.org/[Mutt] is a text - based email client developed by
+Michael Elkins in 1995 for UNIX - like systems. I want to say that this is
 truly the way emails were meant to be used. Before I start getting angry
 emails, I am aware of other fantastic `TUI` and `ncurses` email clients,
 such as: http://www.gnus.org/[Gnus], http://www.instinct.org/elm/[Elm],
 and http://alpine.x10host.com/alpine/[Alpine] (Used by Brian
 Kernighan!). However, it is safe to say that `Mutt` is the most
-extensive, feature-rich, actively developed, and well-supported by its
+extensive, feature - rich, actively developed, and well - supported by its
 community. Just to list some of its features, please take a look at the
 excerpt from Mutt's website below:
 
-* color support
-* active development community
-* full control of message headers when composing
-* highly customizable, including keybindings and macros
-* postpone message composition indefinetly for later recall
-* easily include attachments when composing, even from the command line
-* easy to install (uses GNU autoconf)
-* translation into at least 20 languages
-* small and efficient
-* _It's free!_ (no cost and GPL'ed)
-* and so http://www.mutt.org/[much more!]
+ *  color support
+ *  active development community
+ *  full control of message headers when composing
+ *  highly customizable, including keybindings and macros
+ *  postpone message composition indefinetly for later recall
+ *  easily include attachments when composing, even from the command line
+ *  easy to install (uses GNU autoconf)
+ *  translation into at least 20 languages
+ *  small and efficient
+ *  _It's free!_ (no cost and GPL'ed)
+ *  and so http://www.mutt.org/[much more!]
 
 `Mutt` accompanied with `offlineimap` will allow you to have all your
 emails saved on your machine so you will have a 24/7 access to them even
@@ -131,13 +131,13 @@ NOTE: `%` indicates that we are in the terminal. Everything after `%`
 should be executed.
 
 If you do not have it installed, you can run
-`% sudo pacman -S offlineimap` on Arch Linux to install it or use python
+`% sudo pacman  - S offlineimap` on Arch Linux to install it or use python
 package manager https://pypi.org/project/pip/[pip] to install it.
 
 [source,bash]
-----
-% pip install --user offlineimap
-----
+ -  -  -  - 
+% pip install  -  - user offlineimap
+ -  -  -  - 
 
 That should get you a fresh copy of `offlineimap`.
 
@@ -149,9 +149,9 @@ file in your home directory or open your favorite tex editor, _emacs_,
 and write down the following:
 
 [source,example]
-----
+ -  -  -  - 
 ~/.offlineimaprc
-----------------
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 [general]
 metadata = ~/.offlineimap
 # You can change mymail to something else
@@ -159,22 +159,22 @@ accounts = mymail
 socktimeout = 60
 
 [Account mymail]
-localrepository = local-mymail
-remoterepository = remote-mymail
+localrepository = local - mymail
+remoterepository = remote - mymail
 
-[Repository local-mymail]
+[Repository local - mymail]
 type = Maildir
 localfolders = ~/.mail/mymail
 
-[Repository remote-mymail]
+[Repository remote - mymail]
 type = IMAP
 remotehost = imap.site.com # edit this
 remoteuser = myusername # edit this
 remotepass = mypassword # edit this
 ssl = yes
 realdelete = no
-sslcacertfile = /etc/ssl/certs/ca-certificates.crt
-----
+sslcacertfile = /etc/ssl/certs/ca - certificates.crt
+ -  -  -  - 
 
 This config file just gives us some details about how to contact the
 IMAP server and how to save it. `_mymail_` is any name of your choice.
@@ -195,13 +195,13 @@ Just run the command below to synchronize your email server and your
 local mailbox.
 
 [source,bash]
-----
+ -  -  -  - 
 % offlineimap
-----
+ -  -  -  - 
 
 It will take a while to run this command for the first time because it
 has to download _everything_. Depending on your mailbox size, it may
-take a non-trivial time. Just be patient and let it do the magic for
+take a non - trivial time. Just be patient and let it do the magic for
 you. It is also a good advice for life. Just live the best you can, it
 will play itself out in the best way possible. Also, a little bit of
 faith always helps.
@@ -214,7 +214,7 @@ email client.
 So far, we talked about `Mutt`, but there is also a fork of it (same
 software with more features), called `NeoMutt`. We will be using it
 instead of `Mutt` as it is more extensible, faster, and
-backward-compatible with `Mutt`. You have same configuration files for
+backward - compatible with `Mutt`. You have same configuration files for
 both of them.
 
 === Installation
@@ -224,9 +224,9 @@ favorite flavor of Linux and install a package called `neomutt`. For
 Arch Linux, it just would be
 
 [source,bash]
-----
-% sudo pacman -S neomutt
-----
+ -  -  -  - 
+% sudo pacman  - S neomutt
+ -  -  -  - 
 
 Consult with the https://neomutt.org/distro.html[official downloads
 page] for a list of the biggest distributions and how to install package
@@ -241,32 +241,32 @@ all, making it super colorful, with signatures, ANSI escape sequences,
 and other cool stuff.
 
 . Basic config
-+
+ + 
 Just to get you started, the drill is the same as the last time, but now
 it would be called `~/.muttrc` The config file has a lot of different
 entries, so to keep it short, I will include the config file and it will
 be an exercise for the reader to get the meaning of the entries (this
 will be simple, I promise).
-+
+ + 
 [source,example]
-----
+ -  -  -  - 
 # This should go to ~/.muttrc
 # Set up all the folders
 set folder="~/.mail/mymail"
-mailboxes = +INBOX
-mailboxes = +'Sent Items'
-mailboxes = +'Deleted Items'
-set spoolfile = +INBOX
-set trash = +'Deleted Items'
-set postponed = +'Drafts'
-set record = +'Sent Items'
+mailboxes =  + INBOX
+mailboxes =  + 'Sent Items'
+mailboxes =  + 'Deleted Items'
+set spoolfile =  + INBOX
+set trash =  + 'Deleted Items'
+set postponed =  + 'Drafts'
+set record =  + 'Sent Items'
 
 # Sort by reverse date
 set sleep_time = 0
-set sort = 'reverse-date'
+set sort = 'reverse - date'
 
 # Default sending charset
-set send_charset="utf-8"
+set send_charset="utf - 8"
 
 # SMTP FOR SENDING EMAIL
 set realname="Big Lebowski" # edit this
@@ -293,9 +293,9 @@ auto_view text/html
 alternative_order text/plain text/html
 
 # Headers
-my_hdr X-Info: Keep It Simple, Stupid.
-my_hdr X-Operating-System: `uname -s`, kernel `uname -r`
-my_hdr User-Agent: Every email client sucks, this one just sucks less.
+my_hdr X - Info: Keep It Simple, Stupid.
+my_hdr X - Operating - System: `uname  - s`, kernel `uname  - r`
+my_hdr User - Agent: Every email client sucks, this one just sucks less.
 
 set markers = no
 set mark_old = no
@@ -307,15 +307,15 @@ set reverse_name                     # reply as whomever it was to
 #set include                          # include message in replies
 
 auto_view text/html
-auto_view application/pgp-encrypted
+auto_view application/pgp - encrypted
 alternative_order text/plain text/enriched text/html
 set rfc2047_parameters = yes
 
 # Date and index formatting styles
-set date_format="%m-%d-%y %T"
-set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
-----
-+
+set date_format="%m - %d - %y %T"
+set index_format="%2C | %Z [%d] % - 30.30F (% - 4.4c) %s"#  -  *  - muttrc -  *  - 
+ -  -  -  - 
+ + 
 You can easily leave everything as it is, just edit all the lines with
 `# edit this`. Please pay a close attention to the line
 `set smtp_url...`. You have to find your SMTP server address and port
@@ -324,86 +324,86 @@ number (usually 587). After that, your email should be operational!
 === Make it cool
 
 . Secure password
-+
+ + 
 You might not like that we store your password in plain text in your
 `~/.muttrc`. I do not like it either. In this section, we will encrypt
 your email password and only you should be able te unlock it. We will
 encrypt your password with GPG. To do so, you have to have a pair of
 keys: public and private. To read more about public and private key
 encryption, visit its
-https://en.wikipedia.org/wiki/Public-key_cryptography[Wikipedia page.]
-+
+https://en.wikipedia.org/wiki/Public - key_cryptography[Wikipedia page.]
+ + 
 We will make you a pair of your own encryption keys to store your
 password in a very very secure way.
 .. Generating pair of keys
-+
+ + 
 The following command will get you through everything
-+
+ + 
 [source,bash]
-----
-% gpg --gen-key
-----
-+
+ -  -  -  - 
+% gpg  -  - gen - key
+ -  -  -  - 
+ + 
 Make a new directory in your home directory with `% mkdir ~/.mutt`
 .. Creating password file
-+
+ + 
 You have to create your password with
 `% echo set my_pass = '_mypassword_' > ~/.mutt/mypass`
-+
+ + 
 IMPORTANT: Put a space before the command so your system will not save
 your plain text password in its shell history.
-+
-Encrypt the file with `% gpg -r _my_email_ -e ~/.mutt/mypass`, where
+ + 
+Encrypt the file with `% gpg  - r _my_email_  - e ~/.mutt/mypass`, where
 `_my_email_` is the email address you used when you created your key.
 You will have a new file called `mypass.gpg` that is your actual
 encrypted password.
-+
+ + 
 You can decrypt it and get the contents with
-`% gpg -d ~/.mutt/mypass.gpg`
-+
+`% gpg  - d ~/.mutt/mypass.gpg`
+ + 
 Remove the old file with `% rm mypass`
 .. Add key to Mutt
-+
+ + 
 Add the following line to the top of your `~/.muttrc`:
-`source "gpg -dq $HOME/.mutt/mypass.gpg |"`
-+
+`source "gpg  - dq $HOME/.mutt/mypass.gpg |"`
+ + 
 Now, you can get rid of the plain text password from your `~/.muttrc`
 and you are done! Try opening NeoMutt, it should ask you for your gpg
 password if you set up one.
 . Add your signature
-+
+ + 
 Make your signature in the `~/.mutt/mysig.sig`, for example
-+
+ + 
 [source,example]
-----
+ -  -  -  - 
 ~/.mutt/mysig.sig
------------------
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 Jack Bauer
 
 Director of C.T.U.
 Don't call me
-----
-+
+ -  -  -  - 
+ + 
 Add the line below to include your signature in every new email message.
 `set signature = "$HOME/.mutt/mysig.sig"`
 . Encrypting your emails
-+
+ + 
 If you are feeling dangerous, you can start signing your emails,
 encrypting them, armored signatures, and other cool stuff. To do that,
 download link:./gpg.rc[this file], add that to your `~/.mutt/`
 directory, create one if you don't have it, and add the following line
 to your `_/.muttrc`: `source /.mutt/gpg.rc`
-+
+ + 
 Press `p` when composing email to see the available options.
 . Read web pages in your email
-+
+ + 
 Download link:./mailcap[this file], move the file to the `~/.mutt/`
 directory, add this line to your configuration file
 `set mailcap_path = ~/.mutt/mailcap`
 . Make it corolful
-+
+ + 
 Make your NeoMutt look really good. Same drill.
-+
+ + 
 Download link:./color.mutt[this file], move the file to the `~/.mutt/`
 directory, add this line to your configuration file
 `source $HOME/.mutt/color.mutt`

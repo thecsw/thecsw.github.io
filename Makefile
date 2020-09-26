@@ -19,7 +19,7 @@ else
 endif
 export NOTIFY
 
-COMPILER = asciidoctor-latex -b html
+COMPILER = asciidoctor -b html
 FLAGS = -a toc
 # Emptying the flags because we don't want
 # to have TOC on the front page, be lazy
