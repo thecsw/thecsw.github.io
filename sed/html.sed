@@ -13,7 +13,7 @@ s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</ti
 /<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">
 /<title/i\<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 /<title/i\<script id="MathJax-script" async src="/scripts/mathjax/tex-chtml.js"></script>
-/<title/i\<script async src="./scripts/time.js"></script>
+/<title/i\<script async src="/scripts/time.js"></script>
 
 # Make the MathJax script
 s=\$([^$]+)\$=\\(\1\\)=g
