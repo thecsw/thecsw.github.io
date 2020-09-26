@@ -20,7 +20,6 @@ s=\\]$$==g
 s=^\\\[==
 s=latexmath:\[==g
 s=[$$]]=$=g
-s=([-+])= \1 =g
 
 # Covert the picture macros into asciidoctor
 s|PICTURE ([^<>]+):([^<>]+):([0-9]+):([a-z]+)|.\2\nimage::\1[\2, width=\3, role="\4", link="\1"]|
