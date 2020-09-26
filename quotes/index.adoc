@@ -130,7 +130,7 @@ in physical technology; in the capacity of handling the inanimate world
 about Man. Control of self and society has been left to to chance or to
 the vague gropings of intuitive ethical systems based on inspiration and
 emotion. As a result no culture of greater stability than about
-fifty - five percent has ever existed, and these only as the result of
+fifty-five percent has ever existed, and these only as the result of
 great human misery.
 
 — Isaac Asimov
@@ -148,7 +148,7 @@ Excessive bureaucracy is the start of the fall of any civilization
 == 206; 12020 H.E.
 
 Все счастливые семьи похожи друг на друга, каждая несчастливая семья
-несчастлива по - своему.
+несчастлива по-своему.
 
 — Leo Tolstoy
 
@@ -238,5 +238,5 @@ use either. – Mark Twain
 
 == Wednesday, May 20, 2020
 
-C +  +  is history repeated as tragedy. Java is history repeated as farce. –
+C++ is history repeated as tragedy. Java is history repeated as farce. –
 Scott McKay

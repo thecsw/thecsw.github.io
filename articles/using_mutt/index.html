@@ -12,8 +12,8 @@
 <meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 <script id="MathJax-script" async src="/mathjax/tex-chtml.js"></script>
-<meta property="og:title" content="Bring joy back to e - mail with Mutt 🐕">
-<title>Bring joy back to e - mail with Mutt 🐕</title>
+<meta property="og:title" content="Bring joy back to e-mail with Mutt 🐕">
+<title>Bring joy back to e-mail with Mutt 🐕</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 /* Uncomment @import statement to use as custom stylesheet */
@@ -446,7 +446,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <link rel="stylesheet" type="text/css" href="/styles/web.min.css">
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Bring joy back to e - mail with Mutt 🐕</h1>
+<h1>Bring joy back to e-mail with Mutt 🐕</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
@@ -469,22 +469,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_installation_2">Installation</a></li>
 <li><a href="#_configuration_2">Configuration</a></li>
-</ul>
-</li>
-<li><a href="#_sort_by_reverse_date">Sort by reverse date</a></li>
-<li><a href="#_default_sending_charset">Default sending charset</a></li>
-<li><a href="#_smtp_for_sending_email">SMTP FOR SENDING EMAIL</a></li>
-<li><a href="#_sending_mail_options">Sending mail options</a></li>
-<li><a href="#_ssl_options">SSL options</a></li>
-<li><a href="#_default_text_editor">Default text editor</a></li>
-<li><a href="#_ways_to_open_the_mail_messages">Ways to open the mail messages</a></li>
-<li><a href="#_headers">Headers</a></li>
-<li><a href="#_date_and_index_formatting_styles">Date and index formatting styles</a>
-<ul class="sectlevel2">
 <li><a href="#_make_it_cool">Make it cool</a></li>
-<li><a href="#_conclusion">Conclusion</a></li>
 </ul>
 </li>
+<li><a href="#_conclusion">Conclusion</a></li>
 </ul>
 </div>
 </div>
@@ -497,10 +485,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="quoteblock abstract">
 <div class="title">Abstract</div>
 <blockquote>
-"Electronic mail (email or e - mail) is a method of exchanging messages
+"Electronic mail (email or e-mail) is a method of exchanging messages
 ("mail") between people using electronic devices. Invented by Ray
 Tomlinson, email first entered limited use in the 1960s and by the
-mid - 1970s had taken the form now recognized as email." <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]^ Email has
+mid-1970s had taken the form now recognized as email." <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]^ Email has
 been around for more than 50 years now. As we go further on our
 timeline, folks from new generations are starting to forget the beauty
 of email. This article will discuss the problems with the current state
@@ -517,8 +505,8 @@ of emails and the ways to bring back joy into it.
 use their phone if they do not have one open already on their computer.
 The reason for this is the discomfort people have opening their email
 services in their browsers. The key for this discomfort is time. When I
-open my email on my laptop, it takes about 5 - 6 seconds to just open my
-browser, 2 - 3 more seconds to enter the email address, and God knows how
+open my email on my laptop, it takes about 5-6 seconds to just open my
+browser, 2-3 more seconds to enter the email address, and God knows how
 much longer until my inbox actually opens. Looking at you, Gmail.</p>
 </div>
 <div class="paragraph">
@@ -543,7 +531,7 @@ problem, it is a general issue with most if not all technologies.</p>
 the <em>only</em> way to communicate over the Internet back in 1970s and 1980s.
 As the time progresses and we create our future, developers around the
 world tried to work on email clients and unfortunately made them more
-unintuitive and less user - friendly. This beautiful way of communication
+unintuitive and less user-friendly. This beautiful way of communication
 became this big hassle of navigating to intermediate apps and typing a
 message.</p>
 </div>
@@ -559,14 +547,14 @@ other.</p>
 <h2 id="_what_is_mutt">What is Mutt?</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><a href="http://www.mutt.org/">Mutt</a> is a text - based email client developed by
-Michael Elkins in 1995 for UNIX - like systems. I want to say that this is
+<p><a href="http://www.mutt.org/">Mutt</a> is a text-based email client developed by
+Michael Elkins in 1995 for UNIX-like systems. I want to say that this is
 truly the way emails were meant to be used. Before I start getting angry
 emails, I am aware of other fantastic <code>TUI</code> and <code>ncurses</code> email clients,
 such as: <a href="http://www.gnus.org/">Gnus</a>, <a href="http://www.instinct.org/elm/">Elm</a>,
 and <a href="http://alpine.x10host.com/alpine/">Alpine</a> (Used by Brian
 Kernighan!). However, it is safe to say that <code>Mutt</code> is the most
-extensive, feature - rich, actively developed, and well - supported by its
+extensive, feature-rich, actively developed, and well-supported by its
 community. Just to list some of its features, please take a look at the
 excerpt from Mutt&#8217;s website below:</p>
 </div>
@@ -674,14 +662,12 @@ should be executed.
 </div>
 <div class="paragraph">
 <p>If you do not have it installed, you can run
-<code>% sudo pacman  - S offlineimap</code> on Arch Linux to install it or use python
+<code>% sudo pacman -S offlineimap</code> on Arch Linux to install it or use python
 package manager <a href="https://pypi.org/project/pip/">pip</a> to install it.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% pip install  -  - user offlineimap
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% pip install --user offlineimap</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -698,33 +684,31 @@ and write down the following:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-example" data-lang="example"> -  -  -  -
-~/.offlineimaprc
- -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+<pre class="highlight"><code class="language-example" data-lang="example">~/.offlineimaprc
+----------------
 [general]
 metadata = ~/.offlineimap
 # You can change mymail to something else
 accounts = mymail
-socktimeout = 60</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>localrepository = local - mymail
-remoterepository = remote - mymail</p>
-</div>
-<div class="paragraph">
-<p>type = Maildir
-localfolders = ~/.mail/mymail</p>
-</div>
-<div class="paragraph">
-<p>type = IMAP
+socktimeout = 60
+
+[Account mymail]
+localrepository = local-mymail
+remoterepository = remote-mymail
+
+[Repository local-mymail]
+type = Maildir
+localfolders = ~/.mail/mymail
+
+[Repository remote-mymail]
+type = IMAP
 remotehost = imap.site.com # edit this
 remoteuser = myusername # edit this
 remotepass = mypassword # edit this
 ssl = yes
 realdelete = no
-sslcacertfile = /etc/ssl/certs/ca - certificates.crt
- -  -  -  -</p>
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt</code></pre>
+</div>
 </div>
 <div class="paragraph">
 <p>This config file just gives us some details about how to contact the
@@ -750,15 +734,13 @@ local mailbox.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% offlineimap
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% offlineimap</code></pre>
 </div>
 </div>
 <div class="paragraph">
 <p>It will take a while to run this command for the first time because it
 has to download <em>everything</em>. Depending on your mailbox size, it may
-take a non - trivial time. Just be patient and let it do the magic for
+take a non-trivial time. Just be patient and let it do the magic for
 you. It is also a good advice for life. Just live the best you can, it
 will play itself out in the best way possible. Also, a little bit of
 faith always helps.</p>
@@ -777,7 +759,7 @@ email client.</p>
 <p>So far, we talked about <code>Mutt</code>, but there is also a fork of it (same
 software with more features), called <code>NeoMutt</code>. We will be using it
 instead of <code>Mutt</code> as it is more extensible, faster, and
-backward - compatible with <code>Mutt</code>. You have same configuration files for
+backward-compatible with <code>Mutt</code>. You have same configuration files for
 both of them.</p>
 </div>
 <div class="sect2">
@@ -789,9 +771,7 @@ Arch Linux, it just would be</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% sudo pacman  - S neomutt
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% sudo pacman -S neomutt</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -812,217 +792,233 @@ and other cool stuff.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Basic config
-<br>
-Just to get you started, the drill is the same as the last time, but now
+<p>Basic config</p>
+<div class="paragraph">
+<p>Just to get you started, the drill is the same as the last time, but now
 it would be called <code>~/.muttrc</code> The config file has a lot of different
 entries, so to keep it short, I will include the config file and it will
 be an exercise for the reader to get the meaning of the entries (this
-will be simple, I promise).
-<br></p>
+will be simple, I promise).</p>
+</div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-example" data-lang="example"> -  -  -  -
-# This should go to ~/.muttrc
+<pre class="highlight"><code class="language-example" data-lang="example"># This should go to ~/.muttrc
 # Set up all the folders
 set folder="~/.mail/mymail"
-mailboxes =  + INBOX
-mailboxes =  + 'Sent Items'
-mailboxes =  + 'Deleted Items'
-set spoolfile =  + INBOX
-set trash =  + 'Deleted Items'
-set postponed =  + 'Drafts'
-set record =  + 'Sent Items'</code></pre>
+mailboxes = +INBOX
+mailboxes = +'Sent Items'
+mailboxes = +'Deleted Items'
+set spoolfile = +INBOX
+set trash = +'Deleted Items'
+set postponed = +'Drafts'
+set record = +'Sent Items'
+
+# Sort by reverse date
+set sleep_time = 0
+set sort = 'reverse-date'
+
+# Default sending charset
+set send_charset="utf-8"
+
+# SMTP FOR SENDING EMAIL
+set realname="Big Lebowski" # edit this
+set my_user=myusername # edit this
+set my_pass=mypassword # edit this
+set from = myaddress@example.com # edit this
+set smtp_url=smtp://\(my_user:\)my_pass@authsmtp.site.com:587 # edit this
+
+# Sending mail options
+set edit_headers=yes
+set use_from = yes
+set fast_reply=yes
+set include=no
+
+# SSL options
+set ssl_force_tls = yes
+set ssl_starttls = yes
+
+# Default text editor
+set editor = $EDITOR
+
+# Ways to open the mail messages
+auto_view text/html
+alternative_order text/plain text/html
+
+# Headers
+my_hdr X-Info: Keep It Simple, Stupid.
+my_hdr X-Operating-System: `uname -s`, kernel `uname -r`
+my_hdr User-Agent: Every email client sucks, this one just sucks less.
+
+set markers = no
+set mark_old = no
+
+set forward_format = "Fwd: %s"       # format of subject when forwarding
+set forward_decode                   # decode when forwarding
+set forward_quote                    # include message in forwards
+set reverse_name                     # reply as whomever it was to
+#set include                          # include message in replies
+
+auto_view text/html
+auto_view application/pgp-encrypted
+alternative_order text/plain text/enriched text/html
+set rfc2047_parameters = yes
+
+# Date and index formatting styles
+set date_format="%m-%d-%y %T"
+set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-</code></pre>
 </div>
+</div>
+<div class="paragraph">
+<p>You can easily leave everything as it is, just edit all the lines with
+<code># edit this</code>. Please pay a close attention to the line
+<code>set smtp_url&#8230;&#8203;</code>. You have to find your SMTP server address and port
+number (usually 587). After that, your email should be operational!</p>
 </div>
 </li>
 </ol>
 </div>
-</div>
-</div>
-</div>
-<h1 id="_sort_by_reverse_date" class="sect0">Sort by reverse date</h1>
-<div class="paragraph">
-<p>set sleep_time = 0
-set sort = 'reverse - date'</p>
-</div>
-<h1 id="_default_sending_charset" class="sect0">Default sending charset</h1>
-<div class="paragraph">
-<p>set send_charset="utf - 8"</p>
-</div>
-<h1 id="_smtp_for_sending_email" class="sect0">SMTP FOR SENDING EMAIL</h1>
-<div class="paragraph">
-<p>set realname="Big Lebowski" # edit this
-set my_user=myusername # edit this
-set my_pass=mypassword # edit this
-set from = <a href="mailto:myaddress@example.com">myaddress@example.com</a> # edit this
-set smtp_url=smtp://\(my_user:\)<a href="mailto:my_pass@authsmtp.site.com">my_pass@authsmtp.site.com</a>:587 # edit this</p>
-</div>
-<h1 id="_sending_mail_options" class="sect0">Sending mail options</h1>
-<div class="paragraph">
-<p>set edit_headers=yes
-set use_from = yes
-set fast_reply=yes
-set include=no</p>
-</div>
-<h1 id="_ssl_options" class="sect0">SSL options</h1>
-<div class="paragraph">
-<p>set ssl_force_tls = yes
-set ssl_starttls = yes</p>
-</div>
-<h1 id="_default_text_editor" class="sect0">Default text editor</h1>
-<div class="paragraph">
-<p>set editor = $EDITOR</p>
-</div>
-<h1 id="_ways_to_open_the_mail_messages" class="sect0">Ways to open the mail messages</h1>
-<div class="paragraph">
-<p>auto_view text/html
-alternative_order text/plain text/html</p>
-</div>
-<h1 id="_headers" class="sect0">Headers</h1>
-<div class="paragraph">
-<p>my_hdr X - Info: Keep It Simple, Stupid.
-my_hdr X - Operating - System: <code>uname  - s</code>, kernel <code>uname  - r</code>
-my_hdr User - Agent: Every email client sucks, this one just sucks less.</p>
-</div>
-<div class="paragraph">
-<p>set markers = no
-set mark_old = no</p>
-</div>
-<div class="paragraph">
-<p>set forward_format = "Fwd: %s"       # format of subject when forwarding
-set forward_decode                   # decode when forwarding
-set forward_quote                    # include message in forwards
-set reverse_name                     # reply as whomever it was to
-#set include                          # include message in replies</p>
-</div>
-<div class="paragraph">
-<p>auto_view text/html
-auto_view application/pgp - encrypted
-alternative_order text/plain text/enriched text/html
-set rfc2047_parameters = yes</p>
-</div>
-<h1 id="_date_and_index_formatting_styles" class="sect0">Date and index formatting styles</h1>
-<div class="paragraph">
-<p>set date_format="%m - %d - %y %T"
-set index_format="%2C | %Z [%d] % - 30.30F (% - 4.4c) %s"#  - * - muttrc - * -
- -  -  -  -
-<br>
-You can easily leave everything as it is, just edit all the lines with
-<code># edit this</code>. Please pay a close attention to the line
-<code>set smtp_url&#8230;&#8203;</code>. You have to find your SMTP server address and port
-number (usually 587). After that, your email should be operational!</p>
 </div>
 <div class="sect2">
 <h3 id="_make_it_cool">Make it cool</h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Secure password
-<br>
-You might not like that we store your password in plain text in your
+<p>Secure password</p>
+<div class="paragraph">
+<p>You might not like that we store your password in plain text in your
 <code>~/.muttrc</code>. I do not like it either. In this section, we will encrypt
 your email password and only you should be able te unlock it. We will
 encrypt your password with GPG. To do so, you have to have a pair of
 keys: public and private. To read more about public and private key
 encryption, visit its
-<a href="https://en.wikipedia.org/wiki/Public" class="bare">https://en.wikipedia.org/wiki/Public</a> - key_cryptography[Wikipedia page.]
-<br>
-We will make you a pair of your own encryption keys to store your
-password in a very very secure way.</p>
+<a href="https://en.wikipedia.org/wiki/Public-key_cryptography">Wikipedia page.</a></p>
+</div>
+<div class="paragraph">
+<p>We will make you a pair of your own encryption keys to store your
+password in a very very secure way.
+.. Generating pair of keys</p>
+</div>
+<div class="paragraph">
+<p>+
+The following command will get you through everything</p>
+</div>
+<div class="paragraph">
+<p>+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% gpg --gen-key</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>+
+Make a new directory in your home directory with <code>% mkdir ~/.mutt</code></p>
+</div>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Generating pair of keys
-<br>
-The following command will get you through everything
-<br></p>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% gpg  -  - gen - key
- -  -  -  -
- +
-Make a new directory in your home directory with `% mkdir ~/.mutt`</code></pre>
+<p>Creating password file</p>
+<div class="paragraph">
+<p>You have to create your password with
+<code>% echo set my_pass = '<em>mypassword</em>' &gt; ~/.mutt/mypass</code></p>
 </div>
-</div>
-</li>
-<li>
-<p>Creating password file
-<br>
-You have to create your password with
-<code>% echo set my_pass = '<em>mypassword</em>' &gt; ~/.mutt/mypass</code>
-<br>
-IMPORTANT: Put a space before the command so your system will not save
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+Put a space before the command so your system will not save
 your plain text password in its shell history.
-<br>
-Encrypt the file with <code>% gpg  - r <em>my_email</em>  - e ~/.mutt/mypass</code>, where
-<code><em>my_email</em></code> is the email address you used when you created your key.
-You will have a new file called <code>mypass.gpg</code> that is your actual
-encrypted password.
-<br>
-You can decrypt it and get the contents with
-<code>% gpg  - d ~/.mutt/mypass.gpg</code>
-<br>
-Remove the old file with <code>% rm mypass</code></p>
-</li>
-<li>
-<p>Add key to Mutt
-<br>
-Add the following line to the top of your <code>~/.muttrc</code>:
-<code>source "gpg  - dq $HOME/.mutt/mypass.gpg |"</code>
-<br>
-Now, you can get rid of the plain text password from your <code>~/.muttrc</code>
-and you are done! Try opening NeoMutt, it should ask you for your gpg
-password if you set up one.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Add your signature
-<br>
-Make your signature in the <code>~/.mutt/mysig.sig</code>, for example
-<br></p>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-example" data-lang="example"> -  -  -  -
-~/.mutt/mysig.sig
- -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-Jack Bauer</code></pre>
-</div>
-</div>
-</li>
-</ol>
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>Director of C.T.U.
-Don&#8217;t call me
- -  -  -  -
-<br>
-Add the line below to include your signature in every new email message.
-<code>set signature = "$HOME/.mutt/mysig.sig"</code>
-. Encrypting your emails
-<br>
-If you are feeling dangerous, you can start signing your emails,
+<p>Encrypt the file with <code>% gpg -r <em>my_email</em> -e ~/.mutt/mypass</code>, where
+<code><em>my_email</em></code> is the email address you used when you created your key.
+You will have a new file called <code>mypass.gpg</code> that is your actual
+encrypted password.</p>
+</div>
+<div class="paragraph">
+<p>You can decrypt it and get the contents with
+<code>% gpg -d ~/.mutt/mypass.gpg</code></p>
+</div>
+<div class="paragraph">
+<p>Remove the old file with <code>% rm mypass</code></p>
+</div>
+</li>
+<li>
+<p>Add key to Mutt</p>
+<div class="paragraph">
+<p>Add the following line to the top of your <code>~/.muttrc</code>:
+<code>source "gpg -dq $HOME/.mutt/mypass.gpg |"</code></p>
+</div>
+<div class="paragraph">
+<p>Now, you can get rid of the plain text password from your <code>~/.muttrc</code>
+and you are done! Try opening NeoMutt, it should ask you for your gpg
+password if you set up one.</p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Add your signature</p>
+<div class="paragraph">
+<p>Make your signature in the <code>~/.mutt/mysig.sig</code>, for example</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">~/.mutt/mysig.sig
+-----------------
+Jack Bauer
+
+Director of C.T.U.
+Don't call me</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Add the line below to include your signature in every new email message.
+<code>set signature = "$HOME/.mutt/mysig.sig"</code></p>
+</div>
+</li>
+<li>
+<p>Encrypting your emails</p>
+<div class="paragraph">
+<p>If you are feeling dangerous, you can start signing your emails,
 encrypting them, armored signatures, and other cool stuff. To do that,
 download <a href="./gpg.rc">this file</a>, add that to your <code>~/.mutt/</code>
 directory, create one if you don&#8217;t have it, and add the following line
-to your <code>_/.muttrc</code>: <code>source /.mutt/gpg.rc</code>
-<br>
-Press <code>p</code> when composing email to see the available options.
-. Read web pages in your email
-<br>
-Download <a href="./mailcap">this file</a>, move the file to the <code>~/.mutt/</code>
+to your <code>_/.muttrc</code>: <code>source /.mutt/gpg.rc</code></p>
+</div>
+<div class="paragraph">
+<p>Press <code>p</code> when composing email to see the available options.</p>
+</div>
+</li>
+<li>
+<p>Read web pages in your email</p>
+<div class="paragraph">
+<p>Download <a href="./mailcap">this file</a>, move the file to the <code>~/.mutt/</code>
 directory, add this line to your configuration file
-<code>set mailcap_path = ~/.mutt/mailcap</code>
-. Make it corolful
-<br>
-Make your NeoMutt look really good. Same drill.
-<br>
-Download <a href="./color.mutt">this file</a>, move the file to the <code>~/.mutt/</code>
+<code>set mailcap_path = ~/.mutt/mailcap</code></p>
+</div>
+</li>
+<li>
+<p>Make it corolful</p>
+<div class="paragraph">
+<p>Make your NeoMutt look really good. Same drill.</p>
+</div>
+<div class="paragraph">
+<p>Download <a href="./color.mutt">this file</a>, move the file to the <code>~/.mutt/</code>
 directory, add this line to your configuration file
 <code>source $HOME/.mutt/color.mutt</code></p>
+</div>
+</li>
+</ol>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">

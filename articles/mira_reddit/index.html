@@ -474,10 +474,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <a href="https://github.com/thecsw/memeinvestor_bot">memeinvestor_bot</a>, which was
 one of the interactive reddit bots on the platform at the time. So you
 can imagine we used quite a bit of
-<a href="https://github.com/praw" class="bare">https://github.com/praw</a> - dev/praw[praw]. About year and a half later, the
+<a href="https://github.com/praw-dev/praw">praw</a>. About year and a half later, the
 python codebase became so disgusting and unmaintainable, where I decided
-to re - write the whole thing in Go. (The old "let&#8217;s rewrite everything"
-syndrome") Re - write would be too strong, re - build from scratch is what
+to re-write the whole thing in Go. (The old "let&#8217;s rewrite everything"
+syndrome") Re-write would be too strong, re-build from scratch is what
 the goal was.</p>
 </div>
 <div class="paragraph">
@@ -490,8 +490,8 @@ does when it itches the wrong way. Make a new library!</p>
 </div>
 <div class="paragraph">
 <p>I present to you, <a href="https://github.com/thecsw/mira">mira</a>! It&#8217;s a really
-playful and straight - forward library. Mira aggressively uses the
-dot - notation (<a href="https://github.com/jinzhu/gorm">gorm</a> style) and has the
+playful and straight-forward library. Mira aggressively uses the
+dot-notation (<a href="https://github.com/jinzhu/gorm">gorm</a> style) and has the
 simplicity of praw. Golang&#8217;s great features as goroutines are used to
 implement the streaming functionality. Let&#8217;s dive straight into it!</p>
 </div>
@@ -505,9 +505,7 @@ implement the streaming functionality. Let&#8217;s dive straight into it!</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-go get  - u github.com/thecsw/mira
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">go get -u github.com/thecsw/mira</code></pre>
 </div>
 </div>
 </div>
@@ -615,7 +613,7 @@ example, mira currently supports:</p>
 <h2 id="_extending_mira">Extending mira</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The library only supports ~15 endpoints. Reddit has well over 50 - 60.
+<p>The library only supports ~15 endpoints. Reddit has well over 50-60.
 Mira exposes its caller
 <code>Reddit.MiraRequest(httpMethod, endpoint, payload)</code> and http request
 handler, so you can build your own mira callers and work with them!</p>

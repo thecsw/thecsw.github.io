@@ -14,7 +14,7 @@ May 26th, 2019
 
 This is a converted version of my speech I gave at my public speaking
 class in college. You can find the original document
-link:../../documents/20190500 - Year - 2019.pdf[here]. Thisspeech is meant
+link:../../documents/20190500-Year-2019.pdf[here]. Thisspeech is meant
 to persuade its audience. I truly believe that changing the current
 marking method of history can shift the way we thenx and perceive
 ourselves. The idea itself was greatly inspired by Kurzgesagt's
@@ -33,13 +33,13 @@ It was introduced by Pope Gregory XIII in October 1582. Each year
 roughly elapses to 365 days. footnote:[United States Naval Observatory,
 [.underline]#Introduction to Calendars# (27 February 2019). Accessed
 April 13.] The Gregorian Calendar includes two eras in itself: BC and
-AD. According to Merriam - Webster dictionary, BC stands for "before
+AD. According to Merriam-Webster dictionary, BC stands for "before
 Christ" and AD roughly translates from Latin "Anno Domini" to "in the
-year of our Lord". footnote:[Merriam - Webster, [.underline]#Anno Domini#
+year of our Lord". footnote:[Merriam-Webster, [.underline]#Anno Domini#
 (2019). Accessed April 13.] The current year 2019 can be fully expanded
 as the year 2019 after birth of Christ or AD 2019. Due to an ongoing and
 ever active globalization, the calendar was even adopted by most of the
-non - Western countries. It is truly, the dominant way of understanding
+non-Western countries. It is truly, the dominant way of understanding
 time and our history. The question rises, does it necessarily mean it is
 the best one?
 
@@ -60,7 +60,7 @@ itself is a tiny part of our actual history.
 _[What is one of the possible solutions to resolve the current
 calendar's problems?]_
 
-In 1993, Italian - American scientist Cesare Emiliani proposed a new
+In 1993, Italian-American scientist Cesare Emiliani proposed a new
 calendar in the Nature journal article "Calendar Reform".
 footnote:[Cesare Emiliani, “Calendar Reform,” [.underline]#Nature#,
 University of Miami (1993).] In his article, Professor Emiliani proposes
@@ -76,7 +76,7 @@ Let us take a brief look at our history from the beginning of Human Era.
 footnote:[Virginia Tech, [.underline]#Important Events in Human History#
 (2006). Accessed April 13.]
 
-* 0 - 1,000 HE : Ain Mallaha, also known as Eynan, one of the first
+* 0-1,000 HE : Ain Mallaha, also known as Eynan, one of the first
 settled villages in the world.
 * 1,500 HE : First farmers, start of agriculture. Domestication of
 wheat, olive, sheep, and etc. footnote:[Ensminger, Parker in
