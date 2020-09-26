@@ -22,7 +22,7 @@ jobs:
 
       - name: Ruby dependencies
         run: |
-            sudo gem install asciidoctor-latex --pre
+            sudo gem install asciidoctor
 
       - name: Make 🔧 
         run: |
@@ -37,5 +37,3 @@ jobs:
           BRANCH: master
           FOLDER: .
           CLEAN: true
-          
-
