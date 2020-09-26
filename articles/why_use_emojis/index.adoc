@@ -10,7 +10,7 @@ March 15th, 2020
 
 If you visited my website, you probably have noticed some number of
 emojis I have put up almost everywhere. I like to send emojis via tex
-messages and post statuses with them. Many ask me,  *  * why? *  * 
+messages and post statuses with them. Many ask me, **why?**
 
 My first argument would be is that they are fun. Surely, most of my
 friends and current adolescents might see them as cringey and overused.

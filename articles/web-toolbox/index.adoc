@@ -115,7 +115,7 @@ hit of being exposed to everything out there
 ....
 
 You were probably bombarded by millions of different VPN ads, like
- * NordVPN * ,  * ProtonVPN * ,  * BearVPN * ? There are some you should NOT use.
+*NordVPN*, *ProtonVPN*, *BearVPN*? There are some you should NOT use.
 Like
 https://www.comparitech.com/blog/vpn - privacy/ufo - vpn - data - exposure/[UFO
 VPN], they made a promise of not storing the original plain data and

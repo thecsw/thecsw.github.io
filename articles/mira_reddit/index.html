@@ -567,7 +567,7 @@ libraries differ.</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-mira is not  *  * completely *  *  concurrency safe! When you run
+mira is not <strong>completely</strong> concurrency safe! When you run
 <code>r.Comment(&#8230;&#8203;)</code> or <code>r.Redditor(&#8230;&#8203;)</code>, it adds those values to its
 internal queue and dequeues them when requested. If two threads or
 routines try to dequeue at the same time or expect something, then the

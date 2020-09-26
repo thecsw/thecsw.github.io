@@ -557,12 +557,12 @@ on top of the page.</p>
 <li>
 <p>otherwise, make it exact, such that
 <br>
-\(\frac{M_y - N_x}{N}\) only depends on \(x\)  * or *
+\(\frac{M_y - N_x}{N}\) only depends on \(x\) <strong>or</strong>
 \(\frac{N_x - M_y}{M}\) only depends on \(y\)
 <br>
-Find \(\mu(x) = e^{\int \frac{M_y - N_x}{N} dx}\)  * or *
+Find \(\mu(x) = e^{\int \frac{M_y - N_x}{N} dx}\) <strong>or</strong>
 \(\mu(y) = e^{\int \frac{N_x - M_y}{M} dy}\), multiply both by
-\(M\)  * and *  \(N\), so the condition
+\(M\) <strong>and</strong> \(N\), so the condition
 \(M_y = N_y\) is satisfied. Go to \((\xi)\) and
 proceed with finding \(F(x,y)\)</p>
 </li>
@@ -587,49 +587,61 @@ Make a characteristic polynomial, let \(y = e^{rt}\):
 Find roots, solution (general) will be
 \(y = c_1 e^{r_1 t}  +  c_2 e^{r_2 t}\)
 <br></p>
-</li>
+<div class="ulist">
+<ul>
 <li>
-<p>*  *  *  if repeated root
+<p>if repeated root
 \(\implies y = c_1 e^{rt}  +  c_2 t e^{rt}\)
 <br></p>
 </li>
 <li>
-<p>*  *  *  if \(r = \alpha \pm i \beta\)
+<p>if \(r = \alpha \pm i \beta\)
 \(\implies y=c_1 \cos(\beta t)e^{\alpha t}  +  c_2 \sin(\beta t) e^{\alpha t}\)</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p>Solving for particular solution \(y_p(t)\)
 +</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
-<p>*  *  *  Undetermined coefficients (superpositioned) for \(f(t)\)
+<p>Undetermined coefficients (superpositioned) for \(f(t)\)
 <br>
 Whatever is in \(f(t)\), start adding up the corresponding
 coefficients into \(y_p(t)\)
 <br></p>
-</li>
+<div class="ulist">
+<ul>
 <li>
-<p>*  *  *  *  \(e^{nt} \to Ae^{nt}\)
+<p>\(e^{nt} \to Ae^{nt}\)
 +</p>
 </li>
 <li>
-<p>*  *  *  *  \(t^m \to A_m t^m  +  \ldots  +  A_1 t  +  A_0\)
+<p>\(t^m \to A_m t^m  +  \ldots  +  A_1 t  +  A_0\)
 +</p>
 </li>
 <li>
-<p>*  *  *  *  \(\cos(\beta t)\) or
+<p>\(\cos(\beta t)\) or
 \(\sin(\beta t) \to Acos(\beta t)  +  B\sin(\beta t)\)
 <br>
 NOTE: should not be linearly dependent with the general solution. If it
 is, multiply by \(t\) until it is linearly independent.
 <br></p>
 </li>
+</ul>
+</div>
+</li>
 <li>
-<p>*  *  *  Variation of parameters
+<p>Variation of parameters
 <br>
 Seek \(y_p(t) = v_1(t)y_1(t) + v_2(t)y_2(t)\), where
 <br>
 \(\begin{cases}v_1&#8217;y_1 + v_2&#8217;y_2=0\\v_1&#8217;y_1' + v_2&#8217;y_2'=f(t)\end{cases}\)</p>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
@@ -686,7 +698,7 @@ one of the techniques above to find \(v(t)\) and then you can
 find \(y_2(t)=v(t)y_1(t)\)</p>
 </div>
 <div class="paragraph">
-<p>Use  * variation of parameters *  to find a particular solution. It&#8217;s that
+<p>Use <strong>variation of parameters</strong> to find a particular solution. It&#8217;s that
 system with \(v\)s</p>
 </div>
 <div class="admonitionblock note">
@@ -696,7 +708,7 @@ system with \(v\)s</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-What you if you have a  * Cauchy - Euler equation * ?
+What you if you have a <strong>Cauchy - Euler equation</strong>?
 </td>
 </tr>
 </table>
@@ -827,13 +839,13 @@ the sum of integrals of different parts of the piecewise function.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\((f * g)(t) = \int_0^t f(t - v)g(v)dv\)</p>
+<p>\((f*g)(t) = \int_0^t f(t - v)g(v)dv\)</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{(f * g)(t)\} = \mathcal{L}\{f(t)\}(s)\cdot \mathcal{L}\{g(t)\}(s)\)</p>
+<p>\(\mathcal{L}\{(f*g)(t)\} = \mathcal{L}\{f(t)\}(s)\cdot \mathcal{L}\{g(t)\}(s)\)</p>
 </li>
 <li>
-<p>\((f * g)(t) = \mathcal{L}^{ - 1}\{F\cdot G\}(t)\), where
+<p>\((f*g)(t) = \mathcal{L}^{ - 1}\{F\cdot G\}(t)\), where
 \(F=\mathcal{L}{f}(s)\) and
 \(G=\mathcal{L}{g}(s)\)</p>
 </li>

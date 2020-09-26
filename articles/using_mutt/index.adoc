@@ -73,17 +73,17 @@ extensive, feature - rich, actively developed, and well - supported by its
 community. Just to list some of its features, please take a look at the
 excerpt from Mutt's website below:
 
- *  color support
- *  active development community
- *  full control of message headers when composing
- *  highly customizable, including keybindings and macros
- *  postpone message composition indefinetly for later recall
- *  easily include attachments when composing, even from the command line
- *  easy to install (uses GNU autoconf)
- *  translation into at least 20 languages
- *  small and efficient
- *  _It's free!_ (no cost and GPL'ed)
- *  and so http://www.mutt.org/[much more!]
+* color support
+* active development community
+* full control of message headers when composing
+* highly customizable, including keybindings and macros
+* postpone message composition indefinetly for later recall
+* easily include attachments when composing, even from the command line
+* easy to install (uses GNU autoconf)
+* translation into at least 20 languages
+* small and efficient
+* _It's free!_ (no cost and GPL'ed)
+* and so http://www.mutt.org/[much more!]
 
 `Mutt` accompanied with `offlineimap` will allow you to have all your
 emails saved on your machine so you will have a 24/7 access to them even
@@ -313,7 +313,7 @@ set rfc2047_parameters = yes
 
 # Date and index formatting styles
 set date_format="%m - %d - %y %T"
-set index_format="%2C | %Z [%d] % - 30.30F (% - 4.4c) %s"#  -  *  - muttrc -  *  - 
+set index_format="%2C | %Z [%d] % - 30.30F (% - 4.4c) %s"#  - * - muttrc - * - 
  -  -  -  - 
  + 
 You can easily leave everything as it is, just edit all the lines with

@@ -30,8 +30,8 @@ records:
 |===
 
 After that, go to your `myname.github.io` repo's settings and in the
-section  * Github Pages * , fill in your custom domain and tick the  * Enforce
-HTTPS *  option. Now, just wait. You might get bad redirects, bad
+section *Github Pages*, fill in your custom domain and tick the *Enforce
+HTTPS* option. Now, just wait. You might get bad redirects, bad
 certificates, etc. Give it couple of minutes up to an hour to start
 working properly.
 

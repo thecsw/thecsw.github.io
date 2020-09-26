@@ -106,7 +106,7 @@ launch `cfdisk` by typing
 % cfdisk  - z /dev/sda
  -  -  -  - 
 
-You will enter pseudo - GUI interface. Select  * gpt *  and now you will see
+You will enter pseudo - GUI interface. Select *gpt* and now you will see
 your drive's partitions. Next, we need to create 3 partitions:
 `EFI System(/dev/sda1)`, `Swap memory(/dev/sda2)` and
 `Root Directory (x86\_64)(/dev/sda3)`. I don't create home partitions,
@@ -233,27 +233,27 @@ We need to set your local time. Find your timezone in
 % hwclock  -  - systohc
  -  -  -  - 
 . Configuring essential files
- *  Uncomment `en_US.UTF - 8 UTF - 8` and other if needed in `/etc/locale.gen`
- *  Generate locales by running `% locale - gen`
- *  Set the `LANG` variable equal to locale
+* Uncomment `en_US.UTF - 8 UTF - 8` and other if needed in `/etc/locale.gen`
+* Generate locales by running `% locale - gen`
+* Set the `LANG` variable equal to locale
 `% echo 'LANG=en_US.UTF - 8' > /etc/locale.conf`
- *  Set the keyboard layout to standard QWERTY
+* Set the keyboard layout to standard QWERTY
 `% echo 'KEYMAP=us' > /etc/vconsole.conf`
  + 
 NOTE: If you are a power user with _dvorak_, run
 `% echo 'KEYMAP=dvorak' > /etc/vconsole.conf`
- *  Set the hostname of your choice `% echo _myhostname_ > /etc/hostname`
- *  Configure the hosts on your machine
+* Set the hostname of your choice `% echo _myhostname_ > /etc/hostname`
+* Configure the hosts on your machine
  + 
 `% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 _myhostname_.localdomain _myhostname_`
- *  Configuring your network drivers with
+* Configuring your network drivers with
 `% pacman  - S iw dialog wpa_actiond wpa_supplicant sudo`
- *  Generate your kernel image (initramfs) `% mkinitcpio  - p linux`
- *  Change your default root password `% passwd`
- *  Add new users `% useradd  - m  - G wheel  - s /usr/bin/bash _user_`
- *  Set the sudo access by uncommenting `%wheel ALL=(ALL) ALL` when
+* Generate your kernel image (initramfs) `% mkinitcpio  - p linux`
+* Change your default root password `% passwd`
+* Add new users `% useradd  - m  - G wheel  - s /usr/bin/bash _user_`
+* Set the sudo access by uncommenting `%wheel ALL=(ALL) ALL` when
 running `visudo`
- *  Changing the _user_'s password `% passwd _user_`
+* Changing the _user_'s password `% passwd _user_`
 
 === Bootloader
 
@@ -342,18 +342,18 @@ Manager. It should be unique and this is your adventure now. I will give
 you a list of useful commands just to get started. Also, further reading
 links will be included.
 
- *  Run this to install a package `% sudo pacman  - S _package_name_`
- *  Remove a package from your system `% sudo pacman  - Rs _package_name_`
- *  Update the system's packages `% sudo pacman  - Syu`
- *  Installing X Graphical Server `% sudo pacman  - S xorg xorg - xinit`
- *  Installing zshell `% sudo pacman  - S zsh` and update your shell
+* Run this to install a package `% sudo pacman  - S _package_name_`
+* Remove a package from your system `% sudo pacman  - Rs _package_name_`
+* Update the system's packages `% sudo pacman  - Syu`
+* Installing X Graphical Server `% sudo pacman  - S xorg xorg - xinit`
+* Installing zshell `% sudo pacman  - S zsh` and update your shell
 `% chsh`
- *  Installing graphical terminal emulator
+* Installing graphical terminal emulator
 `% sudo pacman  - S rxvt - unicode rxvt - unicode - terminfo`
- *  Installing `i3` and `dmenu` with `% sudo pacman  - S i3 dmenu`
- *  Enable `i3` with `% echo \#!/bin/bash\nexec i3 > ~/.xinitrc` and
+* Installing `i3` and `dmenu` with `% sudo pacman  - S i3 dmenu`
+* Enable `i3` with `% echo \#!/bin/bash\nexec i3 > ~/.xinitrc` and
 `% chmod 700 ~/.xinitrc`
- *  Start graphical X server with `% startx`
+* Start graphical X server with `% startx`
 
 IMPORTANT: Never ever run `% sudo pacman  -  - force`. The only exception is
 if you have a loaded gun pointed at your head (which is very unlikely,
@@ -368,20 +368,20 @@ _See you next time._
 
 _IT'S DANGEROUS TO GO ALONE! TAKE THIS._
 
- *  https://wiki.archlinux.org/index.php/Frequently_asked_questions[Arch
+* https://wiki.archlinux.org/index.php/Frequently_asked_questions[Arch
 Linux Frequently Asked Questions]
- *  https://wiki.archlinux.org/index.php/General_recommendations[Arch
+* https://wiki.archlinux.org/index.php/General_recommendations[Arch
 Linux General Recommendations]
- *  https://wiki.archlinux.org/index.php/List_of_applications[Arch Linux
+* https://wiki.archlinux.org/index.php/List_of_applications[Arch Linux
 List of Applications]
 
 TIP: Always try to consult with the List of Applications while searching
 for a program and when installing it.
 
- *  https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions[Arch
+* https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions[Arch
 Linux compared to other distributions]]
- *  https://www.archlinux.org/packages/[Arch Linux packages]
- *  https://aur.archlinux.org/[Arch Linux AUR Home]
+* https://www.archlinux.org/packages/[Arch Linux packages]
+* https://aur.archlinux.org/[Arch Linux AUR Home]
 
 == Pictures
 
