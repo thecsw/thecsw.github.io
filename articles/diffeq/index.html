@@ -2,27 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.8">
+<meta name="generator" content="Asciidoctor 2.0.10">
 <meta name="author" content="Sagindyk Urazayev">
 <meta property="og:image" content="./preview.png">
 <meta property="og:site_name" content="Sandy&apos;s Website">
 <meta property="og:type" content="object">
 <meta property="og:description" content="Hey, everyone! This is Sandy. Welcome to my website">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<script id="MathJax-script" async src="/mathjax/tex-chtml.js"></script>
 <meta property="og:title" content="Differential Equations Cookbook 🔥">
 <title>Differential Equations Cookbook 🔥</title>
 <style>
-/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
-/* Uncomment @import statement below to use as custom stylesheet */
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment @import statement to use as custom stylesheet */
 /*@import "https://fonts.googleapis.com/css?family=Inter+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
-audio,canvas,video{display:inline-block}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}
+audio,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
-script{display:none!important}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-a{background:transparent}
+a{background:none}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
 h1{font-size:2em;margin:.67em 0}
@@ -75,7 +75,7 @@ select{width:100%}
 div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
 a{color:#2156a5;text-decoration:underline;line-height:inherit}
 a:hover,a:focus{color:#1d4b8f}
-a img{border:none}
+a img{border:0}
 p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
 p aside{font-size:.875em;line-height:1.35;font-style:italic}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Inter Sans","Inter Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
@@ -116,20 +116,23 @@ table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
 table thead,table tfoot{background:#f7f8f7}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
-table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
+table tr.even,table tr.alt{background:#f8f8f7}
 table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
 h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
 .clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
 .clearfix::after,.float-group::after{clear:both}
-*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
-*:not(pre)>code.nobreak{word-wrap:normal}
-*:not(pre)>code.nowrap{white-space:nowrap}
-pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"DejaVu Sans Mono","Inter Sans Mono",monospace;font-weight:400;text-rendering:optimizeSpeed}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
+:not(pre)>code.nobreak{word-wrap:normal}
+:not(pre)>code.nowrap{white-space:nowrap}
+pre{color:rgba(0,0,0,.9);font-family:"DejaVu Sans Mono","Inter Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
 .keyseq{color:rgba(51,51,51,.8)}
-kbd{font-family:"DejaVu Sans Mono","Inter Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+kbd{font-family:"DejaVu Sans Mono","Inter Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
 .menuseq,.menuref{color:#000}
@@ -170,7 +173,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
-#toc.toc2{margin-top:0!important;background-color:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
 #toc.toc2 ul ul{margin-left:0;padding-left:1em}
@@ -186,7 +189,7 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
 #content #toc>:first-child{margin-top:0}
 #content #toc>:last-child{margin-bottom:0}
-#footer{max-width:100%;background-color:rgba(0,0,0,.8);padding:1.25em}
+#footer{max-width:100%;background:rgba(0,0,0,.8);padding:1.25em}
 #footer-text{color:rgba(255,255,255,.8);line-height:1.44}
 #content{margin-bottom:.625em}
 .sect1{padding-bottom:.625em}
@@ -199,7 +202,8 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
 #content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
-.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details>summary:first-of-type{cursor:pointer;display:list-item;outline:none;margin-bottom:.75em}
 .admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Inter","Inter Serif",serif;font-size:1rem;font-style:italic}
 table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .paragraph.lead>p,#preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
@@ -213,34 +217,37 @@ table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font
 .exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
 .exampleblock>.content>:first-child{margin-top:0}
 .exampleblock>.content>:last-child{margin-bottom:0}
-.sidebarblock{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock{border-style:solid;border-width:1px;border-color:#dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;-webkit-border-radius:4px;border-radius:4px}
 .sidebarblock>:first-child{margin-top:0}
 .sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
 .exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
-.literalblock pre,.listingblock pre:not(.highlight),.listingblock pre[class="highlight"],.listingblock pre[class^="highlight "],.listingblock pre.CodeRay,.listingblock pre.prettyprint{background:#f7f7f8}
-.sidebarblock .literalblock pre,.sidebarblock .listingblock pre:not(.highlight),.sidebarblock .listingblock pre[class="highlight"],.sidebarblock .listingblock pre[class^="highlight "],.sidebarblock .listingblock pre.CodeRay,.sidebarblock .listingblock pre.prettyprint{background:#f2f1f1}
-.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
-@media screen and (min-width:768px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:.90625em}}
-@media screen and (min-width:1280px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:1em}}
-.literalblock pre.nowrap,.literalblock pre.nowrap pre,.listingblock pre.nowrap,.listingblock pre.nowrap pre{white-space:pre;word-wrap:normal}
-.literalblock.output pre{color:#f7f7f8;background-color:rgba(0,0,0,.9)}
+.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
 .listingblock pre.highlightjs{padding:0}
 .listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
 .listingblock pre.prettyprint{border-width:0}
-.listingblock>.content{position:relative}
-.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:#999}
-.listingblock:hover code[data-lang]::before{display:block}
-.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:#999}
-.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
-table.pyhltable{border-collapse:separate;border:0;margin-bottom:0;background:none}
-table.pyhltable td{vertical-align:top;padding-top:0;padding-bottom:0;line-height:1.45}
-table.pyhltable td.code{padding-left:.75em;padding-right:0}
-pre.pygments .lineno,table.pyhltable td:not(.code){color:#999;padding-left:0;padding-right:.5em;border-right:1px solid #dddddf}
-pre.pygments .lineno{display:inline-block;margin-right:.25em}
-table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos{border-right:1px solid currentColor;opacity:.35;padding-right:.5em}
+pre.pygments .lineno{border-right:1px solid currentColor;opacity:.35;display:inline-block;margin-right:.75em}
+pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
-.quoteblock>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
 .quoteblock blockquote{margin:0;padding:0;border:0}
 .quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
@@ -257,12 +264,14 @@ table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
 .quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
 .quoteblock.abstract{margin:0 1em 1.25em;display:block}
 .quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
-.quoteblock.excerpt,.quoteblock .quoteblock{margin:0 0 1.25em;padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
 .quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
 .quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;text-align:left;margin-right:0}
 table.tableblock{max-width:100%;border-collapse:separate}
 p.tableblock:last-child{margin-bottom:0}
-td.tableblock>.content{margin-bottom:-1.25em}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+td.tableblock>.content>:last-child.sidebarblock{margin-bottom:0}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
 table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
 table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
@@ -274,8 +283,7 @@ table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>t
 table.frame-all{border-width:1px}
 table.frame-sides{border-width:0 1px}
 table.frame-topbot,table.frame-ends{border-width:1px 0}
-table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd){background:#f8f8f7}
-table.stripes-none tr,table.stripes-odd tr:nth-of-type(even){background:none}
+table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
 th.halign-center,td.halign-center{text-align:center}
@@ -287,7 +295,6 @@ tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
 tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
 p.tableblock>code:only-child{background:none;padding:0}
 p.tableblock{font-size:1em}
-td>div.verse{white-space:pre}
 ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
@@ -346,37 +353,37 @@ div.unbreakable{page-break-inside:avoid}
 .overline{text-decoration:overline}
 .line-through{text-decoration:line-through}
 .aqua{color:#00bfbf}
-.aqua-background{background-color:#00fafa}
+.aqua-background{background:#00fafa}
 .black{color:#000}
-.black-background{background-color:#000}
+.black-background{background:#000}
 .blue{color:#0000bf}
-.blue-background{background-color:#0000fa}
+.blue-background{background:#0000fa}
 .fuchsia{color:#bf00bf}
-.fuchsia-background{background-color:#fa00fa}
+.fuchsia-background{background:#fa00fa}
 .gray{color:#606060}
-.gray-background{background-color:#7d7d7d}
+.gray-background{background:#7d7d7d}
 .green{color:#006000}
-.green-background{background-color:#007d00}
+.green-background{background:#007d00}
 .lime{color:#00bf00}
-.lime-background{background-color:#00fa00}
+.lime-background{background:#00fa00}
 .maroon{color:#600000}
-.maroon-background{background-color:#7d0000}
+.maroon-background{background:#7d0000}
 .navy{color:#000060}
-.navy-background{background-color:#00007d}
+.navy-background{background:#00007d}
 .olive{color:#606000}
-.olive-background{background-color:#7d7d00}
+.olive-background{background:#7d7d00}
 .purple{color:#600060}
-.purple-background{background-color:#7d007d}
+.purple-background{background:#7d007d}
 .red{color:#bf0000}
-.red-background{background-color:#fa0000}
+.red-background{background:#fa0000}
 .silver{color:#909090}
-.silver-background{background-color:#bcbcbc}
+.silver-background{background:#bcbcbc}
 .teal{color:#006060}
-.teal-background{background-color:#007d7d}
+.teal-background{background:#007d7d}
 .white{color:#bfbfbf}
-.white-background{background-color:#fafafa}
+.white-background{background:#fafafa}
 .yellow{color:#bfbf00}
-.yellow-background{background-color:#fafa00}
+.yellow-background{background:#fafa00}
 span.icon>.fa{cursor:default}
 a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
@@ -385,7 +392,7 @@ a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
 .admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
 .admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
-.conum[data-value]{display:inline-block;color:#fff!important;background-color:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Inter Sans","Inter Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Inter Sans","Inter Sans",sans-serif;font-style:normal;font-weight:bold}
 .conum[data-value] *{color:#fff!important}
 .conum[data-value]+b{display:none}
 .conum[data-value]::after{content:attr(data-value)}
@@ -398,7 +405,7 @@ p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
 p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
-.exampleblock>.content{background-color:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
 .print-only{display:none!important}
 @page{margin:1.25cm .75cm}
 @media print{*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
@@ -435,71 +442,28 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
-
-<style>
-  .click .title { color: blue; }
-  .click {margin-top: 0.5em; margin-bottom: 0.5em;}
-  .openblock { margin-top: 1em; margin-bottom: 1em; }
-  .openblock>.box>.content { margin-top:1em;margin-bottom: 1em;margin-left:3em;margin-right:4em; }
-</style>
-
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script>
-
-
-
-var ready2;
-
-ready2 = function() {
-
-    $(document).ready(function(){
-
-        $('.openblock.click').click( function()  { $(this).find('.content').slideToggle('200'); } )
-        $('.openblock.click').find('.content').hide()
-
-
-        $('.listingblock.click').click( function()  { $(this).find('.content').slideToggle('200') }  )
-        $('.listingblock.click').find('.content').hide()
-
-    });
-
-}
-
-
-
-
-$(document).ready(ready2);
-$(document).on('page:load', ready2);
-
-
-</script>
-
 </head>
-
-
 <link rel="stylesheet" type="text/css" href="/styles/web.min.css">
 <body class="article toc2 toc-left">
 <div id="header">
 <h1>Differential Equations Cookbook 🔥</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
-<span id="email" class="email"><a href=mailto:ctu@ku.edu>ctu@ku.edu</a></span><br>
+<span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="/about">About 🤔</a> | <a href="/books">Bookshelf 📖</a> | <a href="/fortunes">Fortunes 🥠</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Adventures ⛵</div>
 <ul class="sectlevel2">
 <li><a href="#_quick_notes">Quick notes</a></li>
-<li><a href="#_first_order_linear">First-order, linear</a></li>
-<li><a href="#_first_order_separable">First-order, separable</a></li>
+<li><a href="#_first_order_linear">First - order, linear</a></li>
+<li><a href="#_first_order_separable">First - order, separable</a></li>
 <li><a href="#_exact_equations">Exact equations</a></li>
-<li><a href="#_second_order_linear_constant_coefficient_equations">Second-order, linear, constant-coefficient equations</a></li>
-<li><a href="#_second_order_linear_variable_coefficient_equations">Second-order, linear, variable-coefficient equations</a></li>
-<li><a href="#_higher_order_linear_equations">Higher-order, linear equations</a></li>
+<li><a href="#_second_order_linear_constant_coefficient_equations">Second - order, linear, constant - coefficient equations</a></li>
+<li><a href="#_second_order_linear_variable_coefficient_equations">Second - order, linear, variable - coefficient equations</a></li>
+<li><a href="#_higher_order_linear_equations">Higher - order, linear equations</a></li>
 <li><a href="#_laplace_transform">Laplace transform</a></li>
-<li><a href="#_constant_coefficient_homogeneous_systems_of_ode">Constant-coefficient, homogeneous systems of ODE</a></li>
+<li><a href="#_constant_coefficient_homogeneous_systems_of_ode">Constant - coefficient, homogeneous systems of ODE</a></li>
 <li><a href="#_linear_systems_of_ode">Linear systems of ODE</a></li>
 <li><a href="#_applications">Applications</a></li>
 <li><a href="#_conclusion">Conclusion</a></li>
@@ -515,9 +479,9 @@ $(document).on('page:load', ready2);
 <div class="quoteblock abstract">
 <div class="title">Abstract</div>
 <blockquote>
-When I got first introduced to differential equations, I had a love-hate
-relationship with it. Mainly due to some back-of-the-book problems we
-were given and never-ending projects we were assigned to. After some
+When I got first introduced to differential equations, I had a love - hate
+relationship with it. Mainly due to some back - of - the - book problems we
+were given and never - ending projects we were assigned to. After some
 time, differential equations is a way to truly understand physics and
 the foundations of gravity, fields, and everything. This articles is
 merely an intro on manually solving common forms of differential
@@ -542,7 +506,7 @@ initial conditions</p>
 </li>
 <li>
 <p>Most of the functions are \(\mathbb{R}^k \to \mathbb{R}\),
-\(k \in \mathbb{N}^+\)</p>
+\(k \in \mathbb{N}^ + \)</p>
 </li>
 <li>
 <p>If you found a typo or want to comment, feel free to email me. Email
@@ -552,9 +516,9 @@ on top of the page.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_first_order_linear">First-order, linear</h3>
+<h3 id="_first_order_linear">First - order, linear</h3>
 <div class="paragraph">
-<p>Those equations have the form: \(y' + p(t) y = q(t)\)</p>
+<p>Those equations have the form: \(y'  +  p(t) y = q(t)\)</p>
 </div>
 <div class="paragraph">
 <p>Find \(\mu(t) = e^{\int p(t) dt}\)</p>
@@ -565,7 +529,7 @@ on top of the page.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_first_order_separable">First-order, separable</h3>
+<h3 id="_first_order_separable">First - order, separable</h3>
 <div class="paragraph">
 <p>Those equations have the form: \(\frac{dy}{dx} = f(x)g(y)\)</p>
 </div>
@@ -580,136 +544,112 @@ on top of the page.</p>
 <div class="sect2">
 <h3 id="_exact_equations">Exact equations</h3>
 <div class="paragraph">
-<p>They have the form \(M(x,y) + N(x,y) \frac{dy}{dx} = 0\)</p>
+<p>They have the form \(M(x,y)  +  N(x,y) \frac{dy}{dx} = 0\)</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>\((\xi)\) If \(M_y = N_y\)</p>
-<div class="paragraph">
-<p>\(\implies\) Find such \(F(x,y)=C\), where
+<p>\((\xi)\) If \(M_y = N_y\)
+<br>
+\(\implies\) Find such \(F(x,y)=C\), where
 \(F_x = M\), \(F_y = N\)</p>
-</div>
 </li>
 <li>
-<p>otherwise, make it exact, such that</p>
-<div class="paragraph">
-<p>\(\frac{M_y-N_x}{N}\) only depends on \(x\) <strong>or</strong>
-\(\frac{N_x-M_y}{M}\) only depends on \(y\)</p>
-</div>
-<div class="paragraph">
-<p>Find \(\mu(x) = e^{\int \frac{M_y-N_x}{N} dx}\) <strong>or</strong>
-\(\mu(y) = e^{\int \frac{N_x-M_y}{M} dy}\), multiply both by
-\(M\) <strong>and</strong> \(N\), so the condition
+<p>otherwise, make it exact, such that
+<br>
+\(\frac{M_y - N_x}{N}\) only depends on \(x\)  * or *
+\(\frac{N_x - M_y}{M}\) only depends on \(y\)
+<br>
+Find \(\mu(x) = e^{\int \frac{M_y - N_x}{N} dx}\)  * or *
+\(\mu(y) = e^{\int \frac{N_x - M_y}{M} dy}\), multiply both by
+\(M\)  * and *  \(N\), so the condition
 \(M_y = N_y\) is satisfied. Go to \((\xi)\) and
 proceed with finding \(F(x,y)\)</p>
-</div>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_second_order_linear_constant_coefficient_equations">Second-order, linear, constant-coefficient equations</h3>
+<h3 id="_second_order_linear_constant_coefficient_equations">Second - order, linear, constant - coefficient equations</h3>
 <div class="paragraph">
-<p>They have the form \(y'' + p y' + q y = f(t)\)</p>
+<p>They have the form \(y''  +  p y'  +  q y = f(t)\)</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
 <p>First, solve for the homogeneous case, where
-\(y'' + p y' + q y = 0\)</p>
-<div class="paragraph">
-<p>Make a characteristic polynomial, let \(y = e^{rt}\):</p>
-</div>
-<div class="paragraph">
-<p>\(r^2+pr+q=0\)</p>
-</div>
-<div class="paragraph">
-<p>Find roots, solution (general) will be
-\(y = c_1 e^{r_1 t} + c_2 e^{r_2 t}\)</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>if repeated root
-\(\implies y = c_1 e^{rt} + c_2 t e^{rt}\)</p>
+\(y''  +  p y'  +  q y = 0\)
+<br>
+Make a characteristic polynomial, let \(y = e^{rt}\):
+<br>
+\(r^2 + pr + q=0\)
+<br>
+Find roots, solution (general) will be
+\(y = c_1 e^{r_1 t}  +  c_2 e^{r_2 t}\)
+<br></p>
 </li>
 <li>
-<p>if \(r = \alpha \pm i \beta\)
-\(\implies y=c_1 \cos(\beta t)e^{\alpha t} + c_2 \sin(\beta t) e^{\alpha t}\)</p>
-</li>
-</ul>
-</div>
+<p>*  *  *  if repeated root
+\(\implies y = c_1 e^{rt}  +  c_2 t e^{rt}\)
+<br></p>
 </li>
 <li>
-<p>Solving for particular solution \(y_p(t)\)</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Undetermined coefficients (superpositioned) for \(f(t)\)</p>
-<div class="paragraph">
-<p>Whatever is in \(f(t)\), start adding up the corresponding
-coefficients into \(y_p(t)\)</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>\(e^{nt} \to Ae^{nt}\)</p>
+<p>*  *  *  if \(r = \alpha \pm i \beta\)
+\(\implies y=c_1 \cos(\beta t)e^{\alpha t}  +  c_2 \sin(\beta t) e^{\alpha t}\)</p>
 </li>
 <li>
-<p>\(t^m \to A_m t^m + \ldots + A_1 t + A_0\)</p>
+<p>Solving for particular solution \(y_p(t)\)
++</p>
 </li>
 <li>
-<p>\(\cos(\beta t)\) or
-\(\sin(\beta t) \to Acos(\beta t) + B\sin(\beta t)\)</p>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-should not be linearly dependent with the general solution. If it
+<p>*  *  *  Undetermined coefficients (superpositioned) for \(f(t)\)
+<br>
+Whatever is in \(f(t)\), start adding up the corresponding
+coefficients into \(y_p(t)\)
+<br></p>
+</li>
+<li>
+<p>*  *  *  *  \(e^{nt} \to Ae^{nt}\)
++</p>
+</li>
+<li>
+<p>*  *  *  *  \(t^m \to A_m t^m  +  \ldots  +  A_1 t  +  A_0\)
++</p>
+</li>
+<li>
+<p>*  *  *  *  \(\cos(\beta t)\) or
+\(\sin(\beta t) \to Acos(\beta t)  +  B\sin(\beta t)\)
+<br>
+NOTE: should not be linearly dependent with the general solution. If it
 is, multiply by \(t\) until it is linearly independent.
-</td>
-</tr>
-</table>
-</div>
-</li>
-</ul>
-</div>
+<br></p>
 </li>
 <li>
-<p>Variation of parameters</p>
-<div class="paragraph">
-<p>Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where</p>
-</div>
-<div class="paragraph">
-<p>\(\begin{cases}v_1'y_1+v_2'y_2=0\\v_1'y_1'+v_2'y_2'=f(t)\end{cases}\)</p>
-</div>
-</li>
-</ul>
-</div>
+<p>*  *  *  Variation of parameters
+<br>
+Seek \(y_p(t) = v_1(t)y_1(t) + v_2(t)y_2(t)\), where
+<br>
+\(\begin{cases}v_1&#8217;y_1 + v_2&#8217;y_2=0\\v_1&#8217;y_1' + v_2&#8217;y_2'=f(t)\end{cases}\)</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
 <p>So the final solution is
-\(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)</p>
+\(y(t)=c_1 y_1(t)  +  c_2 y_2(t)  +  y_p(t)\)</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_second_order_linear_variable_coefficient_equations">Second-order, linear, variable-coefficient equations</h3>
+<h3 id="_second_order_linear_variable_coefficient_equations">Second - order, linear, variable - coefficient equations</h3>
 <div class="paragraph">
 <p>Equations have the form</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>\((1)\): \(a(t)y'' + b(t)y'+c(t)y = f(t)\)</p>
+<p>\((1)\): \(a(t)y''  +  b(t)y' + c(t)y = f(t)\)</p>
 </li>
 <li>
-<p>\((2)\): \(y'' + p(t)y'+q(t)y = g(t)\)</p>
+<p>\((2)\): \(y''  +  p(t)y' + q(t)y = g(t)\)</p>
 </li>
 </ul>
 </div>
@@ -722,10 +662,10 @@ homogeneous solution, so that</p>
 <p>\(y_2(t) = v(t)y_1(t)\)</p>
 </div>
 <div class="paragraph">
-<p>\(\implies y_2'' + p(t)y_2' + q(t)y_2 = 0\)</p>
+<p>\(\implies y_2''  +  p(t)y_2'  +  q(t)y_2 = 0\)</p>
 </div>
 <div class="paragraph">
-<p>\(\implies (v(t)y_1(t))''+p(t)(v(t)y_1(t))'+q(t)(v(t)y_1(t))=0\)</p>
+<p>\(\implies (v(t)y_1(t))'' + p(t)(v(t)y_1(t))' + q(t)(v(t)y_1(t))=0\)</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -746,7 +686,7 @@ one of the techniques above to find \(v(t)\) and then you can
 find \(y_2(t)=v(t)y_1(t)\)</p>
 </div>
 <div class="paragraph">
-<p>Use <strong>variation of parameters</strong> to find a particular solution. It&#8217;s that
+<p>Use  * variation of parameters *  to find a particular solution. It&#8217;s that
 system with \(v\)s</p>
 </div>
 <div class="admonitionblock note">
@@ -756,16 +696,16 @@ system with \(v\)s</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-What you if you have a <strong>Cauchy-Euler equation</strong>?
+What you if you have a  * Cauchy - Euler equation * ?
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>They have the form \(at^2y''+bty'+cy=0\)</p>
+<p>They have the form \(at^2y'' + bty' + cy=0\)</p>
 </div>
 <div class="paragraph">
-<p>then \(y=t^r \implies ar^2+(b-a)r+c=0\)</p>
+<p>then \(y=t^r \implies ar^2 + (b - a)r + c=0\)</p>
 </div>
 <div class="ulist">
 <ul>
@@ -781,16 +721,16 @@ What you if you have a <strong>Cauchy-Euler equation</strong>?
 </ul>
 </div>
 <div class="paragraph">
-<p>Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)</p>
+<p>Generally, solution has the form \(y=c_1t^{r_1} + c_2t^{r_2}\)</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_higher_order_linear_equations">Higher-order, linear equations</h3>
+<h3 id="_higher_order_linear_equations">Higher - order, linear equations</h3>
 <div class="paragraph">
-<p>\(a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y'+a_0(t)y=g(t)\)</p>
+<p>\(a_n(t)y^{(n)} + a_{n - 1}(t)y^{(n - 1)} + \ldots + a_1(t)y' + a_0(t)y=g(t)\)</p>
 </div>
 <div class="paragraph">
-<p>All second-order methods above extend to \(n^{th}\) order.</p>
+<p>All second - order methods above extend to \(n^{th}\) order.</p>
 </div>
 </div>
 <div class="sect2">
@@ -801,7 +741,7 @@ values defined. Laplace is the same kind of Bible to engineers like
 Taylor Series is.</p>
 </div>
 <div class="paragraph">
-<p>\(\mathcal{L}\{f\}(s) = \int_0^{\infty} e^{-st} f(t) dt\)</p>
+<p>\(\mathcal{L}{f}(s) = \int_0^{\infty} e^{ - st} f(t) dt\)</p>
 </div>
 <div class="paragraph">
 <p>assuming \(f\) is piecewise continuous and of exponential
@@ -818,7 +758,7 @@ order.</p>
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">\(f(t)\)</th>
-<th class="tableblock halign-left valign-top">\(\mathcal{L}\{f\}(s)\)</th>
+<th class="tableblock halign-left valign-top">\(\mathcal{L}{f}(s)\)</th>
 </tr>
 </thead>
 <tbody>
@@ -828,31 +768,31 @@ order.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{at}\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{1}{s-a}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{1}{s - a}\)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">\(\sin(bt)\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{b}{s^2+b^2}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{b}{s^2 + b^2}\)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">\(\cos(bt)\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{s}{s^2+b^2}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{s}{s^2 + b^2}\)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(u(t-a)\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{e^{-as}}{s}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(u(t - a)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{e^{ - as}}{s}\)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(\delta(t-a)\)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{-as}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\delta(t - a)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{ - as}\)</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
 <p>Where \(u(t)\) is the
-<a href=https://en.wikipedia.org/wiki/Heaviside_step_function>Heaviside step
+<a href="https://en.wikipedia.org/wiki/Heaviside_step_function">Heaviside step
 function</a> and \(\delta(t)\) is the
-<a href=https://en.wikipedia.org/wiki/Dirac_delta_function>Dirac delta
+<a href="https://en.wikipedia.org/wiki/Dirac_delta_function">Dirac delta
 function</a>.</p>
 </div>
 <div class="paragraph">
@@ -861,24 +801,24 @@ function</a>.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\(\mathcal{L}\{e^{at}f(t)\}(s) = \mathcal{L}\{f(t)\}(s-a)\)</p>
+<p>\(\mathcal{L}\{e^{at}f(t)\}(s) = \mathcal{L}\{f(t)\}(s - a)\)</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{t^nf(t)\}(s)=s^n\mathcal{L}\{f\}(s)-s^{n-1}f(0)-s^{n-2}f'(0)-\ldots-sf^{(n-2)}(0)-f^{(n-1)}(0)\)</p>
+<p>\(\mathcal{L}\{t^nf(t)\}(s)=s^n\mathcal{L}{f}(s) - s^{n - 1}f(0) - s^{n - 2}f'(0) - \ldots - sf^{(n - 2)}(0) - f^{(n - 1)}(0)\)</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{t^nf(t)\}(s) = (-1)^n \frac{d^n}{ds^n} \mathcal{L}\{f(t)\}(s)\)</p>
+<p>\(\mathcal{L}\{t^nf(t)\}(s) = ( - 1)^n \frac{d^n}{ds^n} \mathcal{L}\{f(t)\}(s)\)</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>If \(f\) is a T-periodic function,</p>
+<p>If \(f\) is a T - periodic function,</p>
 </div>
 <div class="paragraph">
-<p>\(\mathcal{L}\{f(t)\}(s) = \frac{\int_0^T e^{-sT} f(t) dt}{1-e^{-sT}}\)</p>
+<p>\(\mathcal{L}\{f(t)\}(s) = \frac{\int_0^T e^{ - sT} f(t) dt}{1 - e^{ - sT}}\)</p>
 </div>
 <div class="paragraph">
-<p>where \(\int_0^T e^{-sT} f(t) dt = \mathcal{L}\{f_T(t)\}(s)\),
+<p>where \(\int_0^T e^{ - sT} f(t) dt = \mathcal{L}\{f_T(t)\}(s)\),
 the sum of integrals of different parts of the piecewise function.</p>
 </div>
 <div class="paragraph">
@@ -887,15 +827,15 @@ the sum of integrals of different parts of the piecewise function.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\((f*g)(t) = \int_0^t f(t-v)g(v)dv\)</p>
+<p>\((f * g)(t) = \int_0^t f(t - v)g(v)dv\)</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{(f*g)(t)\} = \mathcal{L}\{f(t)\}(s)\cdot \mathcal{L}\{g(t)\}(s)\)</p>
+<p>\(\mathcal{L}\{(f * g)(t)\} = \mathcal{L}\{f(t)\}(s)\cdot \mathcal{L}\{g(t)\}(s)\)</p>
 </li>
 <li>
-<p>\((f*g)(t) = \mathcal{L}^{-1}\{F\cdot G\}(t)\), where
-\(F=\mathcal{L}\{f\}(s)\) and
-\(G=\mathcal{L}\{g\}(s)\)</p>
+<p>\((f * g)(t) = \mathcal{L}^{ - 1}\{F\cdot G\}(t)\), where
+\(F=\mathcal{L}{f}(s)\) and
+\(G=\mathcal{L}{g}(s)\)</p>
 </li>
 </ul>
 </div>
@@ -905,16 +845,16 @@ the sum of integrals of different parts of the piecewise function.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\(\mathcal{L}\{u(t-a)f(t)\}(s) = e^{-as}\mathcal{L}\{f(t+a)\}(s)\)</p>
+<p>\(\mathcal{L}\{u(t - a)f(t)\}(s) = e^{ - as}\mathcal{L}\{f(t + a)\}(s)\)</p>
 </li>
 <li>
-<p>\(\mathcal{L}^{-1}\{e^{-as}F(s)\}(t)=u(t-a)\mathcal{L}^{-1}\{F(s)\}(t-a)\)</p>
+<p>\(\mathcal{L}^{ - 1}\{e^{ - as}F(s)\}(t)=u(t - a)\mathcal{L}^{ - 1}\{F(s)\}(t - a)\)</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
 <p>If IVP is not at 0, define some new function like
-\(w(t)=y(t+\alpha)\), and solve for \(w\). Finally,
+\(w(t)=y(t + \alpha)\), and solve for \(w\). Finally,
 you can offset to find \(y\)</p>
 </div>
 <div class="paragraph">
@@ -923,16 +863,16 @@ you can offset to find \(y\)</p>
 <div class="ulist">
 <ul>
 <li>
-<p>\(\Pi_{a,b}(t) = u(t-a)-u(t-b)\)</p>
+<p>\(\Pi_{a,b}(t) = u(t - a) - u(t - b)\)</p>
 </li>
 <li>
-<p>\(\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s}\)</p>
+<p>\(\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{ - sa} - e^{ - sb}}{s}\)</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_constant_coefficient_homogeneous_systems_of_ode">Constant-coefficient, homogeneous systems of ODE</h3>
+<h3 id="_constant_coefficient_homogeneous_systems_of_ode">Constant - coefficient, homogeneous systems of ODE</h3>
 <div class="paragraph">
 <p>\(\vec{x}' = A \vec{x}\), where
 \(A\in\mathbb{R}^{n\times n}\), \(x\in\mathbb{R}^n\)</p>
@@ -942,18 +882,18 @@ you can offset to find \(y\)</p>
 \(\vec{u_i}\) associated to n eigenvalues
 \(\lambda_i\), then a general solution of the system is given
 by
-\(\vec{x}(t) = c_1 e^{\lambda_1 t}\vec{u_1}+c_2e^{\lambda_2t}\vec{u_2}+\ldots+c_ne^{\lambda_nt}\vec{u_n}\)</p>
+\(\vec{x}(t) = c_1 e^{\lambda_1 t}\vec{u_1} + c_2e^{\lambda_2t}\vec{u_2}  +  \ldots  +  c_ne^{\lambda_nt}\vec{u_n}\)</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
 <p>If \(\lambda=\alpha \pm i \beta\), so
-\(\vec{u}=\vec{a}+i\vec{b}\), we have</p>
+\(\vec{u}=\vec{a} + i\vec{b}\), we have</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>\(\vec{x}=c_1e^{\alpha t}(\cos(\beta t)\vec{a}-\sin(\beta t)\vec{b}) + c_2e^{\alpha t}(\cos(\beta t)\vec{b}+\sin(\beta t)\vec{a})\)</p>
+<p>\(\vec{x}=c_1e^{\alpha t}(\cos(\beta t)\vec{a} - \sin(\beta t)\vec{b})  +  c_2e^{\alpha t}(\cos(\beta t)\vec{b} + \sin(\beta t)\vec{a})\)</p>
 </div>
 <div class="ulist">
 <ul>
@@ -974,32 +914,28 @@ by
 <ol class="arabic">
 <li>
 <p>Compute the characteristic polynomial \(p(\lambda)\) of
-\(A\)</p>
-<div class="paragraph">
-<p>\(p(\lambda)=det(A-\lambda I)\)</p>
-</div>
+\(A\)
+<br>
+\(p(\lambda)=det(A - \lambda I)\)</p>
 </li>
 <li>
-<p>Factor \(p(\lambda)\) into linear factors to yield</p>
-<div class="paragraph">
-<p>\(p(\lambda) = c(\lambda-\lambda_1)^{m_1} \cdot \ldots \cdot (\lambda-\lambda_k)^{m_k}\),
+<p>Factor \(p(\lambda)\) into linear factors to yield
+<br>
+\(p(\lambda) = c(\lambda - \lambda_1)^{m_1} \cdot \ldots \cdot (\lambda - \lambda_k)^{m_k}\),
 where \(c=\pm 1\)</p>
-</div>
 </li>
 <li>
 <p>For each \(\lambda_j\), find \(m_j\) linearly
 independent generalized eigenvectors
-\(\{\vec{u_j}^{m_1},\cdots,\vec{u_j}^{m_j}\}\) satisfying</p>
-<div class="paragraph">
-<p>\((A-\lambda_i I)^{m_j} \vec{u} = \vec{0}\)</p>
-</div>
+\(\{\vec{u_j}^{m_1},\cdots,\vec{u_j}^{m_j}\}\) satisfying
+<br>
+\((A - \lambda_i I)^{m_j} \vec{u} = \vec{0}\)</p>
 </li>
 <li>
-<p>For each $<sup>i</sup> computed in the previous step, compute
-\(e^{At}\vec{u_j}^i\) by</p>
-<div class="paragraph">
-<p>\(e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)\)</p>
-</div>
+<p>For each \(\vec{u_j}^i\) computed in the previous step,
+compute \(e^{At}\vec{u_j}^i\) by
+<br>
+\(e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A - \lambda_jI)t}\vec{u_j}^i=e^{\lambda_jt}(\vec{u_j}^i + t(A - \lambda_jI)\vec{u_j}^i + \cdots + \frac{t^{m_j - 1}}{(m_j - 1)!}(A - \lambda_jI)^{m_j - 1}\vec{u_j}^i)\)</p>
 </li>
 </ol>
 </div>
@@ -1010,7 +946,7 @@ independent generalized eigenvectors
 <div class="sect2">
 <h3 id="_linear_systems_of_ode">Linear systems of ODE</h3>
 <div class="paragraph">
-<p>\(\vec{x}' = A(t)\vec{x} + \vec{f}(t)\), where
+<p>\(\vec{x}' = A(t)\vec{x}  +  \vec{f}(t)\), where
 \(A\in\mathbb{R}^{n\times n}\),
 \(x\in\mathbb{R}^n\), \(f\in\mathbb{R}^n\)</p>
 </div>
@@ -1021,14 +957,14 @@ fundamental matrix), then a general solution may be written as
 \(\vec{x}(t_0)=\vec{x_0}\)</p>
 </div>
 <div class="paragraph">
-<p>\(\vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds\)</p>
+<p>\(\vec{x}(t) = X(t)X^{ - 1}(t_0)\vec{x_0} + X(t)\int_{t_0}^{t}X^{ - 1}(s)f(s)ds\)</p>
 </div>
 <div class="paragraph">
-<p>If \(A(t)\) is constant-coefficient, then we recover Duhamel&#8217;s
+<p>If \(A(t)\) is constant - coefficient, then we recover Duhamel&#8217;s
 formula:</p>
 </div>
 <div class="paragraph">
-<p>\(\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds\)</p>
+<p>\(\vec{x}(t) = e^{A(t - t_0)}x_0  +  \int_{t_0}^{t}e^{A(t - s)}f(s)ds\)</p>
 </div>
 </div>
 <div class="sect2">
@@ -1041,36 +977,32 @@ common Physics 1/2 scenarios</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Falling object</p>
-<div class="paragraph">
-<p>\(m\frac{dv}{dt}=mg-bv\), where \(b\) is the air
+<p>Falling object
+<br>
+\(m\frac{dv}{dt}=mg - bv\), where \(b\) is the air
 resistance</p>
-</div>
 </li>
 <li>
-<p>Fluid mix, define \(R_{in}\) and \(R_{out}\)</p>
-<div class="paragraph">
-<p>\(\frac{dx}{dt}=R_{in}-R_{out}\)</p>
-</div>
+<p>Fluid mix, define \(R_{in}\) and \(R_{out}\)
+<br>
+\(\frac{dx}{dt}=R_{in} - R_{out}\)</p>
 </li>
 <li>
-<p>Mass-Spring System</p>
+<p>Mass - Spring System</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Vertical spring (direction of gravity)</p>
-<div class="paragraph">
-<p>\(my''=-by'-k(L+y)+mg+F_{ext}(t)\), assume
+<p>Vertical spring (direction of gravity)
+<br>
+\(my''= - by' - k(L + y) + mg + F_{ext}(t)\), assume
 \(KL=mg\), where \(b\) is dumping, and
 \(k\) is stiffness</p>
-</div>
 </li>
 <li>
-<p>Horizontal spring</p>
-<div class="paragraph">
-<p>\(my''=-by'-ky+F_{ext}(t)\), where \(b\) is dumping,
+<p>Horizontal spring
+<br>
+\(my''= - by' - ky + F_{ext}(t)\), where \(b\) is dumping,
 and \(k\) is stiffness</p>
-</div>
 </li>
 </ol>
 </div>
@@ -1089,21 +1021,5 @@ differential equations that we cannot find an exact solution for!</p>
 </div>
 </div>
 </div>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  messageStyle: "none",
-  tex2jax: {
-    inlineMath: [["\\(", "\\)"]],
-    displayMath: [["\\[", "\\]"]],
-    ignoreClass: "nostem|nolatexmath"
-  },
-  asciimath2jax: {
-    delimiters: [["\\$", "\\$"]],
-    ignoreClass: "nostem|noasciimath"
-  },
-  TeX: { extensions: ["mhchem.js"] }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>

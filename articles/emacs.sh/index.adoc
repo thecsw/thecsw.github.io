@@ -22,9 +22,9 @@ All you have to run is the curl command below in your home directory
 NOTE: existing installation will move to .bak append
 
 [source,bash]
-----
-curl -fsSL https://raw.githubusercontent.com/thecsw/thecsw.github.io/master/sh/emacs.sh | sh
-----
+ -  -  -  - 
+curl  - fsSL https://raw.githubusercontent.com/thecsw/thecsw.github.io/master/sh/emacs.sh | sh
+ -  -  -  - 
 
 It will clone `.emacs.d`, symlink `.emacs`, and optionally install
 golang X tools (considering you have Go installed)

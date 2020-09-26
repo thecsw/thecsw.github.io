@@ -8,7 +8,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 
 May 7th, 2020
 
-I have been a full-time emacs user for the past 4 years and I have been
+I have been a full - time emacs user for the past 4 years and I have been
 working in Golang professionally for about 2 years now. Combining those
 two beauties is quite a task with so many different modules and addons
 available. This is a comfortable setup I found for myself and I wish to
@@ -23,29 +23,29 @@ First tool you need is usually https://golang.org/[Go itself]. After
 that, install some of the go tools dependencies below:
 
 [source,bash]
-----
-% go get -u golang.org/x/tools/cmd/goimports
-% go get -u github.com/rogpeppe/godef
-% go get -u github.com/nsf/gocode
-----
+ -  -  -  - 
+% go get  - u golang.org/x/tools/cmd/goimports
+% go get  - u github.com/rogpeppe/godef
+% go get  - u github.com/nsf/gocode
+ -  -  -  - 
 
 Next we need to install some of the emacs dependencies through
 https://melpa.org[MELPA]. This is gonna be big, prep your `.emacs.d` for
 some fun time compiling elisp. Refresh your local repo of packages by
-running kbd:[M-x package-refresh-contents]. You can install packages by
-running kbd:[M-x package-install PACKAGE-NAME]
+running kbd:[M - x package - refresh - contents]. You can install packages by
+running kbd:[M - x package - install PACKAGE - NAME]
 
 Here is the list:
 
-* https://github.com/auto-complete/auto-complete[auto-complete] - An
-Intelligent auto-completion extension for Emacs
-* https://github.com/dominikh/go-mode.el[go-mode] - Emacs mode for the
+ *  https://github.com/auto - complete/auto - complete[auto - complete]  -  An
+Intelligent auto - completion extension for Emacs
+ *  https://github.com/dominikh/go - mode.el[go - mode]  -  Emacs mode for the
 Go programming language
-* https://github.com/vibhavp/go-complete[go-complete] - Native Go
+ *  https://github.com/vibhavp/go - complete[go - complete]  -  Native Go
 completion for Emacs
-* https://melpa.org/#/go-autocomplete[go-autocomplete] -
-auto-complete-mode backend for go-mode
-* https://github.com/capitaomorte/autopair[autopair] - Automagically
+ *  https://melpa.org/#/go - autocomplete[go - autocomplete]  - 
+auto - complete - mode backend for go - mode
+ *  https://github.com/capitaomorte/autopair[autopair]  -  Automagically
 pair braces and quotes in emacs like TextMate
 
 == Config
@@ -56,31 +56,31 @@ automatic code formatting, code completion, parenthesis matching, dot
 completion (!), and jump to definition.
 
 [source,commonlisp]
-----
+ -  -  -  - 
 ;; Init the auto complete modules
-(ac-config-default)
-(global-auto-complete-mode t)
-(require 'go-autocomplete)
+(ac - config - default)
+(global - auto - complete - mode t)
+(require 'go - autocomplete)
 
-;; Enable auto-complete
-(auto-complete-mode 1)
+;; Enable auto - complete
+(auto - complete - mode 1)
 
 ;; Define keymaps
-(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
-(global-set-key (kbd"C-c C-c") 'godef-jump)
+(define - key ac - mode - map (kbd "M - TAB") 'auto - complete)
+(global - set - key (kbd"C - c C - c") 'godef - jump)
 
 ;; Set some quick config vals
-(setq ac-auto-start 1)
-(setq ac-auto-show-menu 0.8)
+(setq ac - auto - start 1)
+(setq ac - auto - show - menu 0.8)
 
 ;; Just to make sure go tools are enabled
-(add-to-list 'exec-path "~/go/bin")
+(add - to - list 'exec - path "~/go/bin")
 
 ;; Automatically format code on save
-(setq gofmt-command "goimports")
-(add-hook 'before-save-hook 'gofmt-before-save)
-(add-hook 'go-mode-hook 'auto-complete-for-go)
-----
+(setq gofmt - command "goimports")
+(add - hook 'before - save - hook 'gofmt - before - save)
+(add - hook 'go - mode - hook 'auto - complete - for - go)
+ -  -  -  - 
 
 After that, just reload your emacs and you should have full go
 environment installed!

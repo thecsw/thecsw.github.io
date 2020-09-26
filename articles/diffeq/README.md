@@ -216,7 +216,7 @@ $x\in\mathbb{R}^n$
 If $A$ has n linearly independent eigenvectors $\vec{u_i}$ associated to
 n eigenvalues $\lambda_i$, then a general solution of the system is
 given by
-$\vec{x}(t) = c_1 e^{\lambda_1 t}\vec{u_1}+c_2e^{\lambda_2t}\vec{u_2}+\ldots+c_ne^{\lambda_nt}\vec{u_n}$
+$\vec{x}(t) = c_1 e^{\lambda_1 t}\vec{u_1}+c_2e^{\lambda_2t}\vec{u_2} + \ldots + c_ne^{\lambda_nt}\vec{u_n}$
 
 -   If $\lambda=\alpha \pm i \beta$, so $\vec{u}=\vec{a}+i\vec{b}$, we
     have
@@ -244,8 +244,8 @@ identity matrix.
 
     $(A-\lambda_i I)^{m_j} \vec{u} = \vec{0}$
 
-4.  For each \$`\vec{u_j}`{=latex}^i^ computed in the previous step,
-    compute $e^{At}\vec{u_j}^i$ by
+4.  For each $\vec{u_j}^i$ computed in the previous step, compute
+    $e^{At}\vec{u_j}^i$ by
 
     $e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)$
 
