@@ -6,7 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK
 
 === Introduction 🛀
 
-*Hey, everyone! This is Sandy. Welcome to my website*  -  _circa 2007_
+*Hey, everyone! This is Sandy. Welcome to my website* - _circa 2007_
 
 I don't really use facebook™ or MySpace, so this webpage is kind of my
 home on the internet now. I do my online articles here, weekly quotes,
@@ -22,16 +22,16 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
-* link:./blog/web - toolbox[Essential toolbox for the web 🧰]
+* link:./blog/web-toolbox[Essential toolbox for the web 🧰]
 * link:./blog/emacs.sh[Getting Sandy's .emacs.d 🤺]
-* link:./articles/foundation - time[Using Foundation - style Time 💫]
-* link:./articles/song_challenge[My 30 - day song challenge 🎵🤘]
+* link:./articles/foundation-time[Using Foundation-style Time 💫]
+* link:./articles/song_challenge[My 30-day song challenge 🎵🤘]
 * link:./articles/githubio[Custom domains with Github Pages 🦉]
 * link:./articles/diffeq[Differential Equations Cookbook 🔥]
-* link:./articles/orgmode - css[Prettifying Org Mode with CSS 💅]
+* link:./articles/orgmode-css[Prettifying Org Mode with CSS 💅]
 * link:./articles/emacsd[Setting up an emacs server 😈]
-* link:./articles/go - emacs[Becoming an emacs gopher 🐗]
-* link:./articles/twin - peaks[Twin Peaks as a Cult Film 🌲🌲]
+* link:./articles/go-emacs[Becoming an emacs gopher 🐗]
+* link:./articles/twin-peaks[Twin Peaks as a Cult Film 🌲🌲]
 * link:./articles/encrypting_usb[Encrypting your drive with LUKS 🗝]
 * link:./articles/ryan_codes[Programmer Ryan Gosling: Legacy 👨‍💻]
 * link:./articles/mira_reddit[Building Reddit apps in Go with mira ⛳]
@@ -44,8 +44,8 @@ transcendence 🐱]
 ◻]
 * link:./articles/better_mutt/[Faster, better, stronger neomutt 🐩]
 * link:./articles/year_12019/[Welcome to year 12,019 📅]
-* link:./articles/mini_jenni/[Mini Jenni  -  my new best friend 🏮]
-* link:./articles/using_mutt/[Bring joy back to e - mail with Mutt 🐕]
+* link:./articles/mini_jenni/[Mini Jenni - my new best friend 🏮]
+* link:./articles/using_mutt/[Bring joy back to e-mail with Mutt 🐕]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
 === My favorite movies 🎥
@@ -89,11 +89,11 @@ Reading makes me sleepy, but here are some that give me good dreams:
 
 I love typesetting tools. In my experience, I have used and written
 articles and papers using the following list of tools: `LaTeX`, `groff`,
-`markdown`, `Org - Mode`, `asciidoctor`, `HTML`, `plain text`. I had to
+`markdown`, `Org-Mode`, `asciidoctor`, `HTML`, `plain text`. I had to
 decompress Word files and wrestle with raw XML files there, what a trip
 that was.
 
-This beautiful website typed in https://orgmode.org/[Org - Mode] and built
+This beautiful website typed in https://orgmode.org/[Org-Mode] and built
 using http://asciidoctor.org[Asciidoctor]. The source code is
 https://github.com/thecsw/thecsw.github.io[here].
 

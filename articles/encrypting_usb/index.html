@@ -474,7 +474,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <blockquote>
 The Linux Unified Key Setup (LUKS) is a disk encryption specification
 created by Clemens Fruhwirth in 2004 and was originally intended for
-Linux.  -  Wikipedia
+Linux. - Wikipedia
 </blockquote>
 </div>
 <div class="paragraph">
@@ -528,9 +528,7 @@ instructions</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% cryptsetup  -  - verbose  -  - verify - passphrase luksFormat /dev/sdb
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -540,9 +538,7 @@ It maps to <code>/dev/mapper/sdb</code></p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% cryptsetup open /dev/sdb sdb
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup open /dev/sdb sdb</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -551,9 +547,7 @@ I&#8217;ll go with <code>ext4</code></p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% mkfs.ext4 /dev/mapper/sdb
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.ext4 /dev/mapper/sdb</code></pre>
 </div>
 </div>
 </div>
@@ -564,9 +558,7 @@ I&#8217;ll go with <code>ext4</code></p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% mount /dev/mapper/sdb /mnt/flash
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mount /dev/mapper/sdb /mnt/flash</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -574,11 +566,9 @@ I&#8217;ll go with <code>ext4</code></p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% cd /mnt/flash
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cd /mnt/flash
 % touch man
-% echo cat &gt; fish
- -  -  -  -</code></pre>
+% echo cat &gt; fish</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -586,9 +576,7 @@ I&#8217;ll go with <code>ext4</code></p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% umount /mnt/flash
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% umount /mnt/flash</code></pre>
 </div>
 </div>
 </div>
@@ -600,9 +588,7 @@ details</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> -  -  -  -
-% cryptsetup close sdb
- -  -  -  -</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup close sdb</code></pre>
 </div>
 </div>
 </div>
