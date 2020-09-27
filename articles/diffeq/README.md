@@ -178,7 +178,7 @@ function](https://en.wikipedia.org/wiki/Dirac_delta_function).
 Some Laplace transform properties:
 
 -   $\mathcal{L}\{e^{at}f(t)\}(s) = \mathcal{L}\{f(t)\}(s-a)$
--   $\mathcal{L}\{t^nf(t)\}(s)=s^n\mathcal{L}\{f\}(s)-s^{n-1}f(0)-s^{n-2}f'(0)-\ldots-sf^{(n-2)}(0)-f^{(n-1)}(0)$
+-   $\mathcal{L}\{t^nf(t)\}(s) = s^n\mathcal{L}\{f\}(s)-s^{n-1}f(0)-\ldots-sf^{(n-2)}(0)-f^{(n-1)}(0)$
 -   $\mathcal{L}\{t^nf(t)\}(s) = (-1)^n \frac{d^n}{ds^n} \mathcal{L}\{f(t)\}(s)$
 
 If $f$ is a T-periodic function,
@@ -247,7 +247,9 @@ identity matrix.
 4.  For each $\vec{u_j}^i$ computed in the previous step, compute
     $e^{At}\vec{u_j}^i$ by
 
-    $e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i$
+    $e^{At}\vec{u_j}^i$
+
+    $=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i$
 
     $=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)$
 
