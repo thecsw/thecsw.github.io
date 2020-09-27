@@ -247,7 +247,9 @@ identity matrix.
 4.  For each $\vec{u_j}^i$ computed in the previous step, compute
     $e^{At}\vec{u_j}^i$ by
 
-    $e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)$
+    $e^{At}\vec{u_j}^i=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i$
+
+    $=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)$
 
 ### Linear systems of ODE
 
