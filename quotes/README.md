@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 271; 12020 H.E.
+
+All it takes for evil to succeed, is for good people to say - \"It\'s a
+business\"
+
 ### 265; 12020 H.E.
 
 There are no bad questions, only horrible answers
