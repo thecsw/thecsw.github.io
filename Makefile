@@ -43,6 +43,7 @@ $(NAME):
 	$(Q) $(INPUT_FILES) | xargs sed -E -f ./sed/adoc.sed -i
 	$(E) "	ADJUSTING THE HOMEPAGE ..."
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs sed 's/| Home_LINK//g;/^:/d' -i
+	$(Q) find ./fortunes/ -type f -name '*$(INPUT_TYPE)' | xargs sed '/^:/d' -i
 	$(E) "	BUILDING ..."
 	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS) 2>/dev/null
 	$(E) "	ADJUSTING HTML"
