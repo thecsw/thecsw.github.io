@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let time = document.querySelector("#time");
+  let time = document.querySelector("#hetime");
   const day = 24 * 60 * 60 * 1000;
 
   setTime = () => {
