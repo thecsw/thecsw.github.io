@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 272; 12020 H.E.
+
+Thank goodness technology progressed to the point where we don\'t have
+to deal with our issues privately
+
 ### 271; 12020 H.E.
 
 All it takes for evil to succeed, is for good people to say - \"It\'s a
