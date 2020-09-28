@@ -1,0 +1,39 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2 
+        with:
+          persist-credentials: false
+
+      - name: Install SSH Client 🔑
+        uses: webfactory/ssh-agent@v0.2.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+            
+      - name: Getting pandoc
+        run: |
+            wget https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-1-amd64.deb
+            sudo dpkg -i pandoc-2.9.2.1-1-amd64.deb
+            rm pandoc-2.9.2.1-1-amd64.deb
+
+      - name: Ruby dependencies
+        run: |
+            sudo gem install asciidoctor
+
+      - name: Make 🔧 
+        run: |
+          make
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          SSH: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_BRANCH: source
+          BRANCH: master
+          FOLDER: .
+          CLEAN: true
