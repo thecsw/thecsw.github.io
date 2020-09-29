@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 273; 12020 H.E.
+
+The meaning of life is that it ends
+
+--- Franz Kafka
+
 ### 272; 12020 H.E.
 
 Thank goodness technology progressed to the point where we don\'t have
