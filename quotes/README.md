@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 274; 12020 H.E.
+
+Those who would give up essential Liberty, to purchase a little
+temporary Safety, deserve neither Liberty nor Safety.
+
+--- Benjamin Franklin
+
 ### 273; 12020 H.E.
 
 The meaning of life is that it ends
