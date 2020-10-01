@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 275; 12020 H.E.
+
+Fate goes ever as fate must.
+
+--- Beowulf, 455
+
 ### 274; 12020 H.E.
 
 Those who would give up essential Liberty, to purchase a little
