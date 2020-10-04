@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 278; 12020 H.E.
+
+Go to Heaven for the climate, Hell for the company.
+
+--- Mark Twain
+
 ### 275; 12020 H.E.
 
 Fate goes ever as fate must.
