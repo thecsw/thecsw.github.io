@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 281; 12020 H.E.
+
+In a mad world, only the mad are sane.
+
+--- Akira Kurosawa
+
 ### 280; 12020 H.E.
 
 Ours \[i.e., the Christian religion\] is assuredly the most ridiculous,
