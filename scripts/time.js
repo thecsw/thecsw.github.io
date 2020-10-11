@@ -24,4 +24,4 @@ window.onload = () => {
 
   setTime();
   setInterval(setTime, 1000);
-});
+};
