@@ -73,10 +73,6 @@ good show and its experience can even be aphrodisiacal:
 -   Louie
 -   Boston Legal
 
-I like watching soaps and straight up showing all symptoms of an addict
-when I find something good, like Billions, Homeland, etc. (Going through
-withdrawal rn)
-
 ### My favorite books 📚
 
 Reading makes me sleepy, but here are some that give me good dreams:
