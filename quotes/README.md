@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 300; 12020 H.E.
+
+For there are moments when one can neither think nor feel. And if one
+can neither think nor feel, she thought, where is one?
+
+--- Virginia Woolf, \"To the Lighthouse\"
+
 ### 299; 12020 H.E.
 
 Are we THERE yet?
