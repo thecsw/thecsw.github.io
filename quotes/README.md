@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 313; 12020 H.E.
+
+University politics are vicious precisely because the stakes are so
+small.
+
+--- C. P. Snow
+
 ### 305; 12020 H.E.
 
 It doesn\'t interest me what you do for a living. I want to know what
