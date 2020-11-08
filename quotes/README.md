@@ -7,7 +7,7 @@ Sandy\'s fortunes 🥠
 University politics are vicious precisely because the stakes are so
 small.
 
---- C. P. Snow
+--- C. P. Snow (see \"Sayre\'s law\")
 
 ### 305; 12020 H.E.
 
