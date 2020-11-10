@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 314; 12020 H.E.
+
+The devil can cite Scripture for his purpose.
+
+--- William Shakespeare, "The Merchant of Venice"
+
 ### 313; 12020 H.E.
 
 University politics are vicious precisely because the stakes are so
