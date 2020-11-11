@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 315; 12020 H.E.
+
+Judge each day not by the harvest you reap, but by the seeds you plant.
+
+--- Robert Louis Stevenson (Found on the back of my red wine vinegar
+bottle)
+
 ### 314; 12020 H.E.
 
 The devil can cite Scripture for his purpose.
