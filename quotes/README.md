@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 318; 12020 H.E.
+
+The only thing we have to fear is fear itself.
+
+--- Franklin Delano Roosevelt
+
 ### 315; 12020 H.E.
 
 Judge each day not by the harvest you reap, but by the seeds you plant.
