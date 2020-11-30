@@ -2,19 +2,6 @@
 Sandy\'s fortunes 🥠
 ===================
 
-### 331; 12020 H.E.
-
-Q: How many Harvard MBA\'s does it take to screw in a light bulb?
-
-A: Just one. He grasps it firmly and the universe revolves around him.
-
-### 322; 12020 H.E.
-
-Don't go around saying the world owes you a living. The world owes you
-nothing. It was here first.
-
---- Mark Twain
-
 ### 318; 12020 H.E.
 
 The only thing we have to fear is fear itself.
