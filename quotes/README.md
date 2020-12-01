@@ -2,6 +2,20 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 335; 12020 H.E.
+
+\"When you wake up in the morning, Pooh,\" said Piglet at last,
+\"what\'s the first thing you say to yourserf?\"
+
+\"What\'s for breakfast?\" said Pooh. \"What do *you* say, Piglet?\"
+
+\"I say, I wonder what\'s going to happen exciting *today*?\" said
+Piglet.
+
+Pooh nodded thoughtfully.
+
+\"It\'s the same thing,\" he said.
+
 ### 331; 12020 H.E.
 
 Q: How many Harvard MBA\'s does it take to screw in a light bulb?
