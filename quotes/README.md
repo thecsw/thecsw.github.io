@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 336; 12020 H.E.
+
+The longest part of the journey is said to be the passing of the gate.
+
+-- Marcus Terentius Varro
+
 ### 335; 12020 H.E.
 
 \"When you wake up in the morning, Pooh,\" said Piglet at last,
