@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 338; 12020 H.E.
+
+The unexamined life is not worth living
+
+-- Socrates
+
 ### 336; 12020 H.E.
 
 The longest part of the journey is said to be the passing of the gate.
