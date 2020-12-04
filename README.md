@@ -53,7 +53,7 @@ something new!
 
 I love movies and I think movies deserve a separate full section on my
 website. Well, I have taken a Film class my freshman year and I loved
-it. It was a class about trash movies. Talk to me about that! Alright,
+it. Just a class about trash movies. Talk to me about that! Alright,
 here is the list:
 
 -   The Godfather
