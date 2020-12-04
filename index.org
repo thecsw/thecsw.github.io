@@ -1,7 +1,6 @@
 *  Sandy's Website 🚀
 **  Welcome to my website! 🌷
 *** Introduction 🛀
-
     *Hey, everyone! This is Sandy. Welcome to my website* - /circa 2007/
     
     I don't really use facebook™ or MySpace, so this webpage is kind of my home
@@ -12,7 +11,6 @@
     allows them to modify it in any conceivable way. Please enjoy!
 
 *** My cozy blog 💻
-
     Here is a list of my articles I have online. I hope you will find some of
     them interesting and you can learn something new! Always learn something
     new!
@@ -43,7 +41,7 @@
 
 *** My favorite movies 🎥
     I love movies and I think movies deserve a separate full section on my
-    website. Well, I have taken a Film class my freshman year and I loved it. It was
+    website. Well, I have taken a Film class my freshman year and I loved it. Just
     a class about trash movies. Talk to me about that! Alright, here is the
     list:
     - The Godfather
@@ -68,8 +66,8 @@
     - The Tao of Pooh
     - A Doll's House
     - Foundation series
+
 *** This Website 🌐
-    
     I love typesetting tools. In my experience, I have used and written
     articles and papers using the following list of tools: =LaTeX=, =groff=,
     =markdown=, =Org-Mode=, =asciidoctor=, =HTML=, =plain text=. I had to
@@ -85,6 +83,7 @@
   - [[https://www.gopl.io/][The GO Programming Language]]
   - [[https://en.wikipedia.org/wiki/The_C_Programming_Language][C Programming Language, 2nd Edition]] 
   - [[https://en.wikipedia.org/wiki/The_Unix_Programming_Environment][The Unix Programming Environment]]
+
 *** Good stuff 💃💃💃
     I wish to share this [[https://en.wikipedia.org/wiki/Por_una_Cabeza][beautiful song]] with you
 
