@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 341; 12020 H.E.
+
+My name is Ozymandias, King of Kings;
+
+Look on my Works, ye Mighty, and despair!
+
 ### 338; 12020 H.E.
 
 The unexamined life is not worth living
