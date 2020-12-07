@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 342; 12020 H.E.
+
+By studying the masters -- not their pupils.
+
+--- Niels Henrik Abel
+
 ### 341; 12020 H.E.
 
 My name is Ozymandias, King of Kings;
