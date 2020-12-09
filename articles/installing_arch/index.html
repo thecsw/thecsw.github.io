@@ -13,8 +13,8 @@
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 <script id="MathJax-script" async src="/scripts/mathjax/tex-chtml.js"></script>
 <script async src="/scripts/time.js"></script>
-<meta property="og:title" content="Sandy&#8217;s fortunes 🥠">
-<title>Sandy&#8217;s fortunes 🥠</title>
+<meta property="og:title" content="Installing Glorious Arch Linux ☄️">
+<title>Installing Glorious Arch Linux ☄️</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 /* Uncomment @import statement to use as custom stylesheet */
@@ -447,777 +447,694 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 </head>
 <link rel="stylesheet" type="text/css" href="/styles/web.min.css">
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>Sandy&#8217;s fortunes 🥠</h1>
+<h1>Installing Glorious Arch Linux ☄️</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="/about">About 🤔</a> | <a href="/books">Bookshelf 📖</a> | <a href="/fortunes">Fortunes 🥠</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="hetime" class="details"></div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Adventures ⛵</div>
+<ul class="sectlevel1">
+<li><a href="#_pre_installation">Pre-Installation</a></li>
+<li><a href="#_installation">Installation</a>
+<ul class="sectlevel2">
+<li><a href="#_bios_and_flash_drive">BIOS and Flash Drive</a></li>
+<li><a href="#_disk_partitioning">Disk Partitioning</a></li>
+<li><a href="#_formatting_partitions">Formatting partitions</a></li>
+<li><a href="#_mounting">Mounting</a></li>
+<li><a href="#_finding_closest_mirrors">Finding closest mirrors</a></li>
+<li><a href="#_pacstrap">Pacstrap</a></li>
+<li><a href="#_genfstab">Genfstab</a></li>
+<li><a href="#_configuring_the_system">Configuring the system</a></li>
+<li><a href="#_bootloader">Bootloader</a></li>
+<li><a href="#_finishing_up">Finishing up</a></li>
+</ul>
+</li>
+<li><a href="#_post_installation">Post-Installation</a></li>
+<li><a href="#_further_reading">Further Reading</a></li>
+<li><a href="#_pictures">Pictures</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_342_12020_h_e">342; 12020 H.E.</h2>
+<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>By studying the masters – not their pupils.</p>
+<p>May 2nd, 2019</p>
 </div>
 <div class="paragraph">
-<p>— Niels Henrik Abel</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_341_12020_h_e">341; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>My name is Ozymandias, King of Kings;</p>
-</div>
-<div class="paragraph">
-<p>Look on my Works, ye Mighty, and despair!</p>
+<p>Welcome to my guide on installing Glorious Arch Linux! For some
+background, I have been using arch for the last and it is still my only
+machine that I use as a daily driver. Arch Linux is a lightweight DIY
+type of distro that does not assume what kind of person you are and thus
+just lets you be yourself.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_338_12020_h_e">338; 12020 H.E.</h2>
+<h2 id="_pre_installation">Pre-Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The unexamined life is not worth living</p>
+<p>The whole system comes with a pre-compiled kernel (<code>Linux</code>), package
+manager (<code>pacman</code>), and some basic coreutils (<code>GNU</code>). That does not seem
+a lot, but this is just enough to make some great things. It installs a
+barebone system which allows the user to customize their system to
+smallest details and making it their own. Not like <code>ubuntu</code> with all the
+whistles and bangs included.</p>
 </div>
 <div class="paragraph">
-<p>– Socrates</p>
+<p>This guide has an exact copy of steps I use when installing Arch Linux.
+Installed it over ~25 times. The beauty of arch is that no installation
+is considered the best one. Every installation can be unique and
+bespoke. This guide only shows how to setup a complete arch environment
+with simple and straight-forward steps. If you want to know more about
+each step and different options you can go with, please consult with the
+official <a href="https://wiki.archlinux.org/index.php/Installation_guide">Arch
+Wiki</a>. They have everything and more than you will ever need.</p>
+</div>
+<div class="paragraph">
+<p>Inter the <a href="https://www.archlinux.org/">Arch Linux Official Website</a> and
+download the latest image file. Later on just take a flash drive and
+burn it with <code>rufus</code> on Windows or with <code>dd</code> on Linux. To save you some
+trouble, here is an example <code>dd</code> command to burn the image</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% sudo dd if=/path/to/image.iso of=/dev/your_drive</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<code>%</code> indicates that we are in the terminal. Everything after <code>%</code>
+should be executed.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+This guide does not include installing Arch Linux as dual boot.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_336_12020_h_e">336; 12020 H.E.</h2>
+<h2 id="_installation">Installation</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_bios_and_flash_drive">BIOS and Flash Drive</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>BIOS Configuration</p>
 <div class="paragraph">
-<p>The longest part of the journey is said to be the passing of the gate.</p>
+<p>This part is quite easy. The only thing that you should do is to tell
+your BIOS to boot from Flash Drives instead of bootloader and other
+drives. This process is different for every BIOS Version and
+motherboard, however, this is really easy as all the entries in the BIOS
+menu are self-explanatory.</p>
+</div>
+</li>
+<li>
+<p>Flash Drive</p>
+<div class="paragraph">
+<p>Just plug in your flash drive and power on/reboot your device. + Now,
+you will see a systemd prompt asking to boot. Choose the boot option
+that includes Arch Linux in it. + You should see a prompt of this form:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% root@archios</code></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+If you see a bunch of files when running the command below,
+then everything is [green]/OK/
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% ls /sys/firmware/efi/efivars</code></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+If you have an Ethernet connection, you may skip this step.
+If you are trying to install Arch Linux on a laptop, please use
+<code>wifi-menu</code> to connect to a wifi point.
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_disk_partitioning">Disk Partitioning</h3>
+<div class="paragraph">
+<p>Okay, now we need to partition our hard/state drive. How do we do that?
+Actually, there are many ways to to it, however I prefer to use
+<code>cfdisk</code>. It has pseudo-GUI, which is easier to work and operate with.
+Before partitioning, we should find the name of your drive. For that, in
+your command line type.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% fdisk -l</code></pre>
+</div>
 </div>
 <div class="paragraph">
-<p>– Marcus Terentius Varro</p>
+<p>You will see a list of available storages. Ignore everything that ends
+with: boot, root, include, etc. What you are interested in is the
+biggest available drive. For example, my laptop has integrated SD Card
+27GB and it is called <code>/dev/mmcblk0</code>. For the sake of simplicity, let&#8217;s
+use notation <code>/dev/sda</code> for the name of the drive. Okay, good. Now,
+launch <code>cfdisk</code> by typing</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cfdisk -z /dev/sda</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You will enter pseudo-GUI interface. Select <strong>gpt</strong> and now you will see
+your drive&#8217;s partitions. Next, we need to create 3 partitions:
+<code>EFI System(/dev/sda1)</code>, <code>Swap memory(/dev/sda2)</code> and
+<code>Root Directory (x86\_64)(/dev/sda3)</code>. I don&#8217;t create home partitions,
+as I just don&#8217;t like it.</p>
+</div>
+<div class="paragraph">
+<p>By the rules, your swap should be 2xRAM and EFI System 512MB. Everything
+else can be given to Root Directory. Now, exit cfdisk by choosing QUIT.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_formatting_partitions">Formatting partitions</h3>
+<div class="paragraph">
+<p>We need to format partitions appropriately and accordignly. Your EFI
+System should be FAT32 formatted, because we use systemd-boot. To do
+that, type</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.fat -F32 /dev/sda1</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Your swap partition should be formatted as swap memory (obviously)</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkswap /dev/sda2
+% swapon /dev/sda2</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Your main directory should be formatted as ext4, so to use all your
+files further on</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.ext4 /dev/sda3</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Very good, our partitions are properly formatted and we can go on.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_mounting">Mounting</h3>
+<div class="paragraph">
+<p>Now, we should mount our partitions. Firstly, we should mount our root
+partition</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mount /dev/sda3 /mnt</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then, we should mount the EFI System, so the system would know where is
+the boot point. We also need to create boot directory on our own.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkdir /mnt/boot
+% mount /dev/sda1 /mnt/boot</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Awesome, everything is mounted, now we can start installing the system</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_finding_closest_mirrors">Finding closest mirrors</h3>
+<div class="paragraph">
+<p>This part is quite easy. However, when I was installing my system, I had
+a problem with downloading speed, it was something like 20-50KB/s.
+Awful. To fix that and get the maximum download speed, do the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+% sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
+% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now, you will be connected to the fastest mirrors in your location.
+Hurray!</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_pacstrap">Pacstrap</h3>
+<div class="paragraph">
+<p>Now we will install the base system. Here, we will intall base and
+base-devel packages, because it will get us enough packages to start
+using Arch Linux. It may take a while. Sit back, take a cup of coffee
+and relax.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% pacstrap /mnt base base-devel</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_genfstab">Genfstab</h3>
+<div class="paragraph">
+<p>Now, the system is installed on the device and we need to tell our OS
+and Bootloader about the partitions of our disk. To do so, perform:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
+</div>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+Check <code>/mnt/etc/fstab</code> for any errors. If it looks right to
+you, it probably is.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_configuring_the_system">Configuring the system</h3>
+<div class="paragraph">
+<p>If you have come this far, congratulations! You have installed the raw
+version of arch and essential tools. We have to perform some number of
+necessary configurations to make it usable as a daily driver.</p>
+</div>
+<div class="paragraph">
+<p>Log in to the newly installed system with</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% arch-chroot /mnt</code></pre>
+</div>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+If it does not let you in or some error occurs, please make
+sure you followed all the steps correctly.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Setting the time</p>
+<div class="paragraph">
+<p>We need to set your local time. Find your timezone in
+<code>/usr/share/zonenifo</code> and use it instead of <code><em>Region</em></code> and <code><em>City</em></code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+% hwclock --systohc</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Configuring essential files</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Uncomment <code>en_US.UTF-8 UTF-8</code> and other if needed in <code>/etc/locale.gen</code></p>
+</li>
+<li>
+<p>Generate locales by running <code>% locale-gen</code></p>
+</li>
+<li>
+<p>Set the <code>LANG</code> variable equal to locale
+<code>% echo 'LANG=en_US.UTF-8' &gt; /etc/locale.conf</code></p>
+</li>
+<li>
+<p>Set the keyboard layout to standard QWERTY
+<code>% echo 'KEYMAP=us' &gt; /etc/vconsole.conf</code></p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+If you are a power user with <em>dvorak</em>, run
+<code>% echo 'KEYMAP=dvorak' &gt; /etc/vconsole.conf</code>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Set the hostname of your choice <code>% echo <em>myhostname</em> &gt; /etc/hostname</code></p>
+</li>
+<li>
+<p>Configure the hosts on your machine</p>
+<div class="paragraph">
+<p><code>% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 <em>myhostname</em>.localdomain <em>myhostname</em></code></p>
+</div>
+</li>
+<li>
+<p>Configuring your network drivers with
+<code>% pacman -S iw dialog wpa_actiond wpa_supplicant sudo</code></p>
+</li>
+<li>
+<p>Generate your kernel image (initramfs) <code>% mkinitcpio -p linux</code></p>
+</li>
+<li>
+<p>Change your default root password <code>% passwd</code></p>
+</li>
+<li>
+<p>Add new users <code>% useradd -m -G wheel -s /usr/bin/bash <em>user</em></code></p>
+</li>
+<li>
+<p>Set the sudo access by uncommenting <code>%wheel ALL=(ALL) ALL</code> when
+running <code>visudo</code></p>
+</li>
+<li>
+<p>Changing the <em>user</em>'s password <code>% passwd <em>user</em></code></p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bootloader">Bootloader</h3>
+<div class="paragraph">
+<p>Small but important things swept out of the way, we have to configure
+one of the most important parts of this installation. Usually only arch
+and gentoo people have to work with manually setting up a bootloader.
+<a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">Bootloader</a>
+is a small program that boots your actual OS after motherboard&#8217;s BIOS
+gives you control over the system. In this installation, we are going
+with <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a>. It is the
+most compatible bootloader with Arch system in general. Also, my
+laptop&#8217;s hardware does not work with other bootloaders. Systemd is
+getting some bad fame because it is bloated, massive, and way too
+complicated. I agree with it but this is the best we have right now.
+Just like C++.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>, but
+please consult with Arch Wiki before trying to do that.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Assuming you have an intel chipset, run the following</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">% pacman -S intel-ucode
+% bootctl --path=/boot install</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Use <code>vi</code> or <code>nano</code> text editor to write down the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">/boot/loader/loader.conf
+------------------------
+default Arch(arch)
+timeout 4
+editor 0</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>And for the second file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">/boot/loader/entries/entry.conf
+-------------------------------
+title Arch Linux
+linux /vmlinuz-linux
+initrd /intel-ucode.img
+initrd /initramfs-linux.img
+options root=/dev/sda3 rw</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_finishing_up">Finishing up</h3>
+<div class="paragraph">
+<p>You are exactly two commands away from a complete Arch Linux
+installation!</p>
+</div>
+<div class="paragraph">
+<p>You need to exit <code>chroot</code> by runing <code>% exit</code> and reboot with <code>% reboot</code></p>
+</div>
+<div class="paragraph">
+<p>When you turn your machine back on, you should see some text popping out
+on the screen (that&#8217;s systemd) and finally, you should see the following
+prompt:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">Arch Linux (tty1)
+_myhostname_ login:</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you see this, then <em>Congratulations!</em> + You have completed the
+installation. Everything is terminal based, if you want to install X
+Window Server for GUI and other shiny stuff, please follow to teh
+Post-Installation chapter.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+If you did not see the login prompt, retrace your steps and
+make sure you followed everything in this guide. Best way to get out, is
+just search for the problem online or visit
+<a href="https://reddit.com/r/archlinux">r/archlinux</a> to get some real online
+help.
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_335_12020_h_e">335; 12020 H.E.</h2>
+<h2 id="_post_installation">Post-Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>"When you wake up in the morning, Pooh," said Piglet at last, "what&#8217;s
-the first thing you say to yourserf?"</p>
+<p>I hope you enjoyed this installation guide. After the last step, you
+should be able to have an actual working and stable system. I will not
+go into details how to set up your Desktop Environment or Window
+Manager. It should be unique and this is your adventure now. I will give
+you a list of useful commands just to get started. Also, further reading
+links will be included.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Run this to install a package <code>% sudo pacman -S <em>package_name</em></code></p>
+</li>
+<li>
+<p>Remove a package from your system <code>% sudo pacman -Rs <em>package_name</em></code></p>
+</li>
+<li>
+<p>Update the system&#8217;s packages <code>% sudo pacman -Syu</code></p>
+</li>
+<li>
+<p>Installing X Graphical Server <code>% sudo pacman -S xorg xorg-xinit</code></p>
+</li>
+<li>
+<p>Installing zshell <code>% sudo pacman -S zsh</code> and update your shell
+<code>% chsh</code></p>
+</li>
+<li>
+<p>Installing graphical terminal emulator
+<code>% sudo pacman -S rxvt-unicode rxvt-unicode-terminfo</code></p>
+</li>
+<li>
+<p>Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3 dmenu</code></p>
+</li>
+<li>
+<p>Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and
+<code>% chmod 700 ~/.xinitrc</code></p>
+</li>
+<li>
+<p>Start graphical X server with <code>% startx</code></p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+Never ever run <code>% sudo pacman --force</code>. The only exception is
+if you have a loaded gun pointed at your head (which is very unlikely,
+hopefully).
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>"What&#8217;s for breakfast?" said Pooh. "What do <em>you</em> say, Piglet?"</p>
+<p>I hope you enjoyed the installation process and I am sure you were able
+to learn something new about Linux and yourself.</p>
 </div>
 <div class="paragraph">
-<p>"I say, I wonder what&#8217;s going to happen exciting <em>today</em>?" said Piglet.</p>
-</div>
-<div class="paragraph">
-<p>Pooh nodded thoughtfully.</p>
-</div>
-<div class="paragraph">
-<p>"It&#8217;s the same thing," he said.</p>
+<p><em>See you next time.</em></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_331_12020_h_e">331; 12020 H.E.</h2>
+<h2 id="_further_reading">Further Reading</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Q: How many Harvard MBA&#8217;s does it take to screw in a light bulb?</p>
+<p><em>IT&#8217;S DANGEROUS TO GO ALONE! TAKE THIS.</em></p>
 </div>
-<div class="paragraph">
-<p>A: Just one. He grasps it firmly and the universe revolves around him.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://wiki.archlinux.org/index.php/Frequently_asked_questions">Arch
+Linux Frequently Asked Questions</a></p>
+</li>
+<li>
+<p><a href="https://wiki.archlinux.org/index.php/General_recommendations">Arch
+Linux General Recommendations</a></p>
+</li>
+<li>
+<p><a href="https://wiki.archlinux.org/index.php/List_of_applications">Arch Linux
+List of Applications</a></p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+Always try to consult with the List of Applications while searching
+for a program and when installing it.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions">Arch
+Linux compared to other distributions</a>]</p>
+</li>
+<li>
+<p><a href="https://www.archlinux.org/packages/">Arch Linux packages</a></p>
+</li>
+<li>
+<p><a href="https://aur.archlinux.org/">Arch Linux AUR Home</a></p>
+</li>
+</ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_322_12020_h_e">322; 12020 H.E.</h2>
+<h2 id="_pictures">Pictures</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Don’t go around saying the world owes you a living. The world owes you
-nothing. It was here first.</p>
+<div class="imageblock left">
+<div class="content">
+<a class="image" href="./pic1.png"><img src="pic1.png" alt="pic1.png" width="475"></a>
 </div>
-<div class="paragraph">
-<p>— Mark Twain</p>
+<div class="title">Figure 1. Writing my website in tmux</div>
 </div>
+<div class="imageblock right">
+<div class="content">
+<a class="image" href="./pic2.png"><img src="pic2.png" alt="pic2.png" width="475"></a>
 </div>
+<div class="title">Figure 2. My desktop</div>
 </div>
-<div class="sect1">
-<h2 id="_318_12020_h_e">318; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The only thing we have to fear is fear itself.</p>
+<div class="imageblock center">
+<div class="content">
+<a class="image" href="./pic3.png"><img src="pic3.png" alt="pic3.png"></a>
 </div>
-<div class="paragraph">
-<p>— Franklin Delano Roosevelt</p>
+<div class="title">Figure 3. i3 with cowsay, pipes.sh, htop, neofetch in counterclockwise order</div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_315_12020_h_e">315; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Judge each day not by the harvest you reap, but by the seeds you plant.</p>
-</div>
-<div class="paragraph">
-<p>— Robert Louis Stevenson (Found on the back of my red wine vinegar
-bottle)</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_314_12020_h_e">314; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The devil can cite Scripture for his purpose.</p>
-</div>
-<div class="paragraph">
-<p>— William Shakespeare, “The Merchant of Venice”</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_313_12020_h_e">313; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>University politics are vicious precisely because the stakes are so
-small.</p>
-</div>
-<div class="paragraph">
-<p>— C. P. Snow (see "Sayre&#8217;s law")</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_305_12020_h_e">305; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>It doesn&#8217;t interest me what you do for a living. I want to know what you
-ache for and if you dare to dream of meeting your heart&#8217;s longing.</p>
-</div>
-<div class="paragraph">
-<p>It doesn&#8217;t interest me how old you are. I want to know if you will risk
-looking like a fool for love, for your dream, for the adventure of being
-alive.</p>
-</div>
-<div class="paragraph">
-<p>— Oriah Mountain Dreamer</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_303_12020_h_e">303; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Liberty lies in the hearts of men and women; when it dies there, no
-constitution, no law, no court can save it; no constitution, no law, no
-court can even do much to help it.</p>
-</div>
-<div class="paragraph">
-<p>— Learned Hand, Spirit of Liberty</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_300_12020_h_e">300; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>For there are moments when one can neither think nor feel. And if one
-can neither think nor feel, she thought, where is one?</p>
-</div>
-<div class="paragraph">
-<p>— Virginia Woolf, "To the Lighthouse"</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_299_12020_h_e">299; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Are we THERE yet?</p>
-</div>
-<div class="paragraph">
-<p>Note: that is actually how I was taught Fundamental theorem of calculus</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_295_12020_h_e">295; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>When I reflect upon the number of disagreeable people who I know who
-have gone to a better world, I am moved to lead a different life.</p>
-</div>
-<div class="paragraph">
-<p>— Mark Twain, Pudd&#8217;nhead Wilson</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_292_12020_h_e">292; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Q: How many lawyers does it take to change a light bulb?</p>
-</div>
-<div class="paragraph">
-<p>A: Whereas the party of the first part, also known as "Lawyer", and the
-party of the second part, also known as "Light Bulb", do hereby and
-forthwith agree to a transaction wherein the party of the second part
-shall be removed from the current position as a result of failure to
-perform previously agreed upon duties, i.e., the lighting, elucidation,
-and otherwise illumination of the area ranging from the front (north)
-door, through the entryway, terminating at an area just inside the
-primary living area, demarcated by the beginning of the carpet, any
-spillover illumination being at the option of the party of the second
-part and not required by the aforementioned agreement between the
-parties.</p>
-</div>
-<div class="paragraph">
-<p>The aforementioned removal transaction shall include, but not be limited
-to, the following. The party of the first part shall, with or without
-elevation at his option, by means of a chair, stepstool, ladder or any
-other means of elevation, grasp the party of the second part and rotate
-the party of the second part in a counter-clockwise direction, this
-point being tendered non-negotiable. Upon reaching a point where the
-party of the second part becomes fully detached from the receptacle, the
-party of the first part shall have the option of disposing of the party
-of the second part in a manner consistent with all relevant and
-applicable local, state and federal statutes. Once separation and
-disposal have been achieved, the party of the first part shall have the
-option of beginning installation. Aforesaid installation shall occur in
-a manner consistent with the reverse of the procedures described in step
-one of this self-same document, being careful to note that the rotation
-should occur in a clockwise direction, this point also being
-non-negotiable. The above described steps may be performed, at the
-option of the party of the first part, by any or all agents authorized
-by him, the objective being to produce the most possible revenue for the
-Partnership.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_285_12020_h_e">285; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Zounds! I was never so bethumped with words since I first called my
-brother&#8217;s father dad.</p>
-</div>
-<div class="paragraph">
-<p>— William Shakespeare, "Kind John"</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_281_12020_h_e">281; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In a mad world, only the mad are sane.</p>
-</div>
-<div class="paragraph">
-<p>— Akira Kurosawa</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_280_12020_h_e">280; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Ours [i.e., the Christian religion] is assuredly the most ridiculous,
-the most absurd and the most bloody religion which has ever infected
-this world. Your Majesty will do the human race an eternal service by
-extirpating this infamous superstition, I do not say among the rabble,
-who are not worthy of being enlightened and who are apt for every yoke;
-I say among honest people, among men who think, among those who wish to
-think. … My one regret in dying is that I cannot aid you in this noble
-enterprise, the finest and most respectable which the human mind can
-point out.</p>
-</div>
-<div class="paragraph">
-<p>— Voltaire to Frederick II, 1767</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_278_12020_h_e">278; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Go to Heaven for the climate, Hell for the company.</p>
-</div>
-<div class="paragraph">
-<p>— Mark Twain</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_275_12020_h_e">275; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Fate goes ever as fate must.</p>
-</div>
-<div class="paragraph">
-<p>— Beowulf, 455</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_274_12020_h_e">274; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Those who would give up essential Liberty, to purchase a little
-temporary Safety, deserve neither Liberty nor Safety.</p>
-</div>
-<div class="paragraph">
-<p>— Benjamin Franklin</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_273_12020_h_e">273; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The meaning of life is that it ends</p>
-</div>
-<div class="paragraph">
-<p>— Franz Kafka</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_272_12020_h_e">272; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Thank goodness technology progressed to the point where we don&#8217;t have to
-deal with our issues privately</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_271_12020_h_e">271; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>All it takes for evil to succeed, is for good people to say - "It&#8217;s a
-business"</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_265_12020_h_e">265; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>There are no bad questions, only horrible answers</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_260_12020_h_e">260; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Men learn to love the woman they are attracted to. Women learn to become
-attracted to the man they fall in love with.</p>
-</div>
-<div class="paragraph">
-<p>— Woody Allen</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_259_12020_h_e">259; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Man plans, God laughs</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_257_12020_h_e">257; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>No good deed goes unpunished.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_256_12020_h_e">256; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>There are no sides in this world, only players</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_249_12020_h_e">249; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Nature abhors a vacuum.</p>
-</div>
-<div class="paragraph">
-<p>— Aristotle</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_248_12020_h_e">248; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>A wise man can learn more from a foolish question than a fool can learn
-from a wise answer.</p>
-</div>
-<div class="paragraph">
-<p>— Bruce Lee</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_247_12020_h_e">247; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Those who abjure violence can do so only because others are committing
-violence on their behalf.</p>
-</div>
-<div class="paragraph">
-<p>— George Orwell</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_241_12020_h_e">241; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Misery is wasted on the miserable.</p>
-</div>
-<div class="paragraph">
-<p>— <em>Louie</em></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_238_12020_h_e">238; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Almost nothing great has ever been done in the world except by the
-genius and firmness of a single man combating the prejudices of the
-multitude.</p>
-</div>
-<div class="paragraph">
-<p>— Voltaire, correspondence with Catherine the Great</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_237_12020_h_e">237; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Most people do not really want freedom, because freedom involves
-responsibility, and most people are frightened of responsibility.</p>
-</div>
-<div class="paragraph">
-<p>— Sigmund Freud, Civilization and Its Discontents</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_236_12020_h_e">236; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Вот как нам писать. Пушкин приступает прямо к делу. Другой бы начал
-описывать гостей, комнаты, а он вводит в действие сразу</p>
-</div>
-<div class="paragraph">
-<p>— Л. Н. Толстой (запись в дневнике С. А. Толстой от 19 марта 1873).</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_232_12020_h_e">232; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>"Internally, Emacs still belives it’s a text program, and we pretend Xt
-is a text terminal, and we pretend GTK is an Xt toolkit. It’s a fractal
-of delusion."</p>
-</div>
-<div class="paragraph">
-<p>— marai2 (Hackernews comments)</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_230_12020_h_e">230; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Against stupidity the very gods; Themselves contend in vain.</p>
-</div>
-<div class="paragraph">
-<p>— Friedrich Schiller</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_226_12020_h_e">226; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Life is too important to be taken seriously.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_223_12020_h_e">223; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>To live is the rarest thing in the world. Most people exist, that is
-all.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_222_12020_h_e">222; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Be yourself; everyone else is already taken.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_219_12020_h_e">219; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Let us cultivate our garden.</p>
-</div>
-<div class="paragraph">
-<p>— Candide</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_214_12020_h_e">214; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Religion is like a blind man looking in a black room for a black cat
-that isn&#8217;t there, and finding it.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_213_12020_h_e">213; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In all the known history of Mankind, advances have been made primarily
-in physical technology; in the capacity of handling the inanimate world
-about Man. Control of self and society has been left to to chance or to
-the vague gropings of intuitive ethical systems based on inspiration and
-emotion. As a result no culture of greater stability than about
-fifty-five percent has ever existed, and these only as the result of
-great human misery.</p>
-</div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_212_12020_h_e">212; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The true delight is in the finding out rather than in the knowing.</p>
-</div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_207_12020_h_e">207; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Excessive bureaucracy is the start of the fall of any civilization</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_206_12020_h_e">206; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Все счастливые семьи похожи друг на друга, каждая несчастливая семья
-несчастлива по-своему.</p>
-</div>
-<div class="paragraph">
-<p>— Leo Tolstoy</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_205_12020_h_e">205; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>It seems to me, Golan, that the advance of civilization is nothing but
-an exercise in the limiting of privacy.</p>
-</div>
-<div class="paragraph">
-<p>— Janov Pelorat, <em>Foundation’s Edge</em></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_204_12020_h_e">204; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Any sufficiently advanced technology is indistinguishable from magic.</p>
-</div>
-<div class="paragraph">
-<p>— Arthur C. Clarke</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_203_12020_h_e">203; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>If this is the solution, I want my problem back.</p>
-</div>
-<div class="paragraph">
-<p>— nosystemd.org</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_202_12020_h_e">202; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Most people are other people. Their thoughts are someone else&#8217;s
-opinions, their lives a mimicry, their passions a quotation.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_201_12020_h_e">201; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Never let your sense of morals prevent you from doing what is right</p>
-</div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_199_12020_h_e">199; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Those who can make you believe absurdities can make you commit
-atrocities.</p>
-</div>
-<div class="paragraph">
-<p>— Voltaire</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_197_12020_h_e">197; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Violence is the last refuge of the incompetent.</p>
-</div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_196_12020_h_e">196; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Committee, n.:</p>
-</div>
-<div class="paragraph">
-<p>A group of men who individually can do nothing but as a group decide
-that nothing can be done.</p>
-</div>
-<div class="paragraph">
-<p>– Fred Allen</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_monday_july_6th_2020">Monday, July 6th, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>"When I picture it in my head I think of the early web as more of a
-library. Over time it has transitioned into a shopping mall."</p>
-</div>
-<div class="paragraph">
-<p>– chris_f (Hacker News comments)</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_saturday_july_4th_2020">Saturday, July 4th, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In each of us sleeps a genius… and his sleep gets deeper everyday.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_tuesday_june_23_2020">Tuesday, June 23, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The galaxies hum the shape and form in their essence. That is their
-secret.</p>
-</div>
-<div class="paragraph">
-<p>The particles whisper of the nature of proper interactions. That is
-their game.</p>
-</div>
-<div class="paragraph">
-<p>And during a storm, in the forest, on the right night, it is no secret
-that the leaves all sing of God.</p>
-</div>
-<div class="paragraph">
-<p>– Exurb1a, <em>The Fifth Science</em></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_tuesday_june_9_2020">Tuesday, June 9, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>It is by the fortune of God that, in this country, we have three
-benefits: freedom of speech, freedom of thought, and the wisdom never to
-use either. – Mark Twain</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_wednesday_may_20_2020">Wednesday, May 20, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>C++ is history repeated as tragedy. Java is history repeated as farce. –
-Scott McKay</p>
-</div>
-</div>
-</div>
-</div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2020-12-09 13:06:50 UTC
 </div>
 </div>
 </body>

@@ -13,8 +13,8 @@
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 <script id="MathJax-script" async src="/scripts/mathjax/tex-chtml.js"></script>
 <script async src="/scripts/time.js"></script>
-<meta property="og:title" content="Sandy&#8217;s fortunes 🥠">
-<title>Sandy&#8217;s fortunes 🥠</title>
+<meta property="og:title" content="Faster, better, stronger neomutt 🐩">
+<title>Faster, better, stronger neomutt 🐩</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 /* Uncomment @import statement to use as custom stylesheet */
@@ -447,777 +447,123 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 </head>
 <link rel="stylesheet" type="text/css" href="/styles/web.min.css">
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>Sandy&#8217;s fortunes 🥠</h1>
+<h1>Faster, better, stronger neomutt 🐩</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="/about">About 🤔</a> | <a href="/books">Bookshelf 📖</a> | <a href="/fortunes">Fortunes 🥠</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="hetime" class="details"></div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Adventures ⛵</div>
+<ul class="sectlevel1">
+<li><a href="#_named_mailboxes">Named Mailboxes</a></li>
+<li><a href="#_threads">Threads</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_342_12020_h_e">342; 12020 H.E.</h2>
+<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>By studying the masters – not their pupils.</p>
+<p>November 27th, 2019</p>
 </div>
-<div class="paragraph">
-<p>— Niels Henrik Abel</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_341_12020_h_e">341; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>My name is Ozymandias, King of Kings;</p>
-</div>
-<div class="paragraph">
-<p>Look on my Works, ye Mighty, and despair!</p>
+<div class="quoteblock abstract">
+<div class="title">Abstract</div>
+<blockquote>
+Hello there! This is an article on advanced neomutt features that might
+have been missed in my <a href="../using_mutt">previous article</a> on
+(neo)mutt. This page has been inspired by
+<a href="https://github.com/neomutt/neomutt/issues/1958">some of the issues</a> I had
+with neomutt and the fantastic neomutt community.
+</blockquote>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_338_12020_h_e">338; 12020 H.E.</h2>
+<h2 id="_named_mailboxes">Named Mailboxes</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The unexamined life is not worth living</p>
+<p>With release <a href="https://github.com/neomutt/neomutt/tree/20191102">20191102</a>,
+neomutt team has introduced named-mailboxes features, which allows you
+to name your mailboxes (duh) in the sidebar. It can be used for some
+pretty creative things, like setting a mailbox different to what you
+have in your <code>.mail</code> directory, change the language, or make delimeters.
+For example, here is an excerpt from one of my neomutt accounts that is
+tied to my KU mail account</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">set folder="~/.mail/kumail"
+set spoolfile = +'INBOX'
+
+set trash = +'Deleted Items'
+set postponed = +'Drafts'
+set record = +'Sent Items'
+named-mailboxes "  ―――――― ♠ KU ――――――  " =Journal
+named-mailboxes "↓ Inbox" =INBOX
+named-mailboxes "↑ Sent" ='Sent Items'
+named-mailboxes "∇ Trash" ='Deleted Items'
+named-mailboxes "∗ Junk" ='Junk Email'
+named-mailboxes "∃ Drafts" ='Drafts'</code></pre>
+</div>
 </div>
 <div class="paragraph">
-<p>– Socrates</p>
+<p>After launching neomutt, it gives me nice custom sidebar with a dope
+delimeter</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">  ―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
+↓ Inbox [32]       3568│ 2 |   [11-27-19 09:07:01] Bill      All rights reserved.
+↑ Sent              797│ 3 |   [11-27-19 06:07:02] Lao Tse   Difficult Paths
+∇ Trash             359│ 4 |   [11-27-19 06:59:18] Mando     This is the way
+∗ Junk                4│ 5 |   [11-26-19 22:59:02] BlondiXXX How much does she love you?
+∃ Drafts               │ 6 |   ...</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>named-mailboxes</code> also work with multiple accounts. You can use some
+garbage mailboxes (looking at you, Journal) as delimeters.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_336_12020_h_e">336; 12020 H.E.</h2>
+<h2 id="_threads">Threads</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The longest part of the journey is said to be the passing of the gate.</p>
+<p>I have been looking around how to do threads and I finally found out
+how. Usually, mutt just gives you your mail all in one blob of a list.
+With threads, you can have beautiful trees of replies, threads,
+forwards, and more! To trigger that, just add this to your <code>.muttrc</code></p>
 </div>
-<div class="paragraph">
-<p>– Marcus Terentius Varro</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_335_12020_h_e">335; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>"When you wake up in the morning, Pooh," said Piglet at last, "what&#8217;s
-the first thing you say to yourserf?"</p>
-</div>
-<div class="paragraph">
-<p>"What&#8217;s for breakfast?" said Pooh. "What do <em>you</em> say, Piglet?"</p>
-</div>
-<div class="paragraph">
-<p>"I say, I wonder what&#8217;s going to happen exciting <em>today</em>?" said Piglet.</p>
-</div>
-<div class="paragraph">
-<p>Pooh nodded thoughtfully.</p>
-</div>
-<div class="paragraph">
-<p>"It&#8217;s the same thing," he said.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_331_12020_h_e">331; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Q: How many Harvard MBA&#8217;s does it take to screw in a light bulb?</p>
-</div>
-<div class="paragraph">
-<p>A: Just one. He grasps it firmly and the universe revolves around him.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_322_12020_h_e">322; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Don’t go around saying the world owes you a living. The world owes you
-nothing. It was here first.</p>
-</div>
-<div class="paragraph">
-<p>— Mark Twain</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_318_12020_h_e">318; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The only thing we have to fear is fear itself.</p>
-</div>
-<div class="paragraph">
-<p>— Franklin Delano Roosevelt</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_315_12020_h_e">315; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Judge each day not by the harvest you reap, but by the seeds you plant.</p>
-</div>
-<div class="paragraph">
-<p>— Robert Louis Stevenson (Found on the back of my red wine vinegar
-bottle)</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_314_12020_h_e">314; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The devil can cite Scripture for his purpose.</p>
-</div>
-<div class="paragraph">
-<p>— William Shakespeare, “The Merchant of Venice”</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_313_12020_h_e">313; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>University politics are vicious precisely because the stakes are so
-small.</p>
-</div>
-<div class="paragraph">
-<p>— C. P. Snow (see "Sayre&#8217;s law")</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_305_12020_h_e">305; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>It doesn&#8217;t interest me what you do for a living. I want to know what you
-ache for and if you dare to dream of meeting your heart&#8217;s longing.</p>
-</div>
-<div class="paragraph">
-<p>It doesn&#8217;t interest me how old you are. I want to know if you will risk
-looking like a fool for love, for your dream, for the adventure of being
-alive.</p>
-</div>
-<div class="paragraph">
-<p>— Oriah Mountain Dreamer</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_303_12020_h_e">303; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Liberty lies in the hearts of men and women; when it dies there, no
-constitution, no law, no court can save it; no constitution, no law, no
-court can even do much to help it.</p>
-</div>
-<div class="paragraph">
-<p>— Learned Hand, Spirit of Liberty</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_300_12020_h_e">300; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>For there are moments when one can neither think nor feel. And if one
-can neither think nor feel, she thought, where is one?</p>
-</div>
-<div class="paragraph">
-<p>— Virginia Woolf, "To the Lighthouse"</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_299_12020_h_e">299; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Are we THERE yet?</p>
-</div>
-<div class="paragraph">
-<p>Note: that is actually how I was taught Fundamental theorem of calculus</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_295_12020_h_e">295; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>When I reflect upon the number of disagreeable people who I know who
-have gone to a better world, I am moved to lead a different life.</p>
-</div>
-<div class="paragraph">
-<p>— Mark Twain, Pudd&#8217;nhead Wilson</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_292_12020_h_e">292; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Q: How many lawyers does it take to change a light bulb?</p>
-</div>
-<div class="paragraph">
-<p>A: Whereas the party of the first part, also known as "Lawyer", and the
-party of the second part, also known as "Light Bulb", do hereby and
-forthwith agree to a transaction wherein the party of the second part
-shall be removed from the current position as a result of failure to
-perform previously agreed upon duties, i.e., the lighting, elucidation,
-and otherwise illumination of the area ranging from the front (north)
-door, through the entryway, terminating at an area just inside the
-primary living area, demarcated by the beginning of the carpet, any
-spillover illumination being at the option of the party of the second
-part and not required by the aforementioned agreement between the
-parties.</p>
-</div>
-<div class="paragraph">
-<p>The aforementioned removal transaction shall include, but not be limited
-to, the following. The party of the first part shall, with or without
-elevation at his option, by means of a chair, stepstool, ladder or any
-other means of elevation, grasp the party of the second part and rotate
-the party of the second part in a counter-clockwise direction, this
-point being tendered non-negotiable. Upon reaching a point where the
-party of the second part becomes fully detached from the receptacle, the
-party of the first part shall have the option of disposing of the party
-of the second part in a manner consistent with all relevant and
-applicable local, state and federal statutes. Once separation and
-disposal have been achieved, the party of the first part shall have the
-option of beginning installation. Aforesaid installation shall occur in
-a manner consistent with the reverse of the procedures described in step
-one of this self-same document, being careful to note that the rotation
-should occur in a clockwise direction, this point also being
-non-negotiable. The above described steps may be performed, at the
-option of the party of the first part, by any or all agents authorized
-by him, the objective being to produce the most possible revenue for the
-Partnership.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_285_12020_h_e">285; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Zounds! I was never so bethumped with words since I first called my
-brother&#8217;s father dad.</p>
-</div>
-<div class="paragraph">
-<p>— William Shakespeare, "Kind John"</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_281_12020_h_e">281; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In a mad world, only the mad are sane.</p>
-</div>
-<div class="paragraph">
-<p>— Akira Kurosawa</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_280_12020_h_e">280; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Ours [i.e., the Christian religion] is assuredly the most ridiculous,
-the most absurd and the most bloody religion which has ever infected
-this world. Your Majesty will do the human race an eternal service by
-extirpating this infamous superstition, I do not say among the rabble,
-who are not worthy of being enlightened and who are apt for every yoke;
-I say among honest people, among men who think, among those who wish to
-think. … My one regret in dying is that I cannot aid you in this noble
-enterprise, the finest and most respectable which the human mind can
-point out.</p>
-</div>
-<div class="paragraph">
-<p>— Voltaire to Frederick II, 1767</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_278_12020_h_e">278; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Go to Heaven for the climate, Hell for the company.</p>
-</div>
-<div class="paragraph">
-<p>— Mark Twain</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_275_12020_h_e">275; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Fate goes ever as fate must.</p>
-</div>
-<div class="paragraph">
-<p>— Beowulf, 455</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_274_12020_h_e">274; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Those who would give up essential Liberty, to purchase a little
-temporary Safety, deserve neither Liberty nor Safety.</p>
-</div>
-<div class="paragraph">
-<p>— Benjamin Franklin</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_273_12020_h_e">273; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The meaning of life is that it ends</p>
-</div>
-<div class="paragraph">
-<p>— Franz Kafka</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_272_12020_h_e">272; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Thank goodness technology progressed to the point where we don&#8217;t have to
-deal with our issues privately</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_271_12020_h_e">271; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>All it takes for evil to succeed, is for good people to say - "It&#8217;s a
-business"</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_265_12020_h_e">265; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>There are no bad questions, only horrible answers</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_260_12020_h_e">260; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Men learn to love the woman they are attracted to. Women learn to become
-attracted to the man they fall in love with.</p>
-</div>
-<div class="paragraph">
-<p>— Woody Allen</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_259_12020_h_e">259; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Man plans, God laughs</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_257_12020_h_e">257; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>No good deed goes unpunished.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_256_12020_h_e">256; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>There are no sides in this world, only players</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_249_12020_h_e">249; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Nature abhors a vacuum.</p>
-</div>
-<div class="paragraph">
-<p>— Aristotle</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_248_12020_h_e">248; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>A wise man can learn more from a foolish question than a fool can learn
-from a wise answer.</p>
-</div>
-<div class="paragraph">
-<p>— Bruce Lee</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_247_12020_h_e">247; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Those who abjure violence can do so only because others are committing
-violence on their behalf.</p>
-</div>
-<div class="paragraph">
-<p>— George Orwell</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_241_12020_h_e">241; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Misery is wasted on the miserable.</p>
-</div>
-<div class="paragraph">
-<p>— <em>Louie</em></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_238_12020_h_e">238; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Almost nothing great has ever been done in the world except by the
-genius and firmness of a single man combating the prejudices of the
-multitude.</p>
-</div>
-<div class="paragraph">
-<p>— Voltaire, correspondence with Catherine the Great</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_237_12020_h_e">237; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Most people do not really want freedom, because freedom involves
-responsibility, and most people are frightened of responsibility.</p>
-</div>
-<div class="paragraph">
-<p>— Sigmund Freud, Civilization and Its Discontents</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_236_12020_h_e">236; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Вот как нам писать. Пушкин приступает прямо к делу. Другой бы начал
-описывать гостей, комнаты, а он вводит в действие сразу</p>
-</div>
-<div class="paragraph">
-<p>— Л. Н. Толстой (запись в дневнике С. А. Толстой от 19 марта 1873).</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_232_12020_h_e">232; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>"Internally, Emacs still belives it’s a text program, and we pretend Xt
-is a text terminal, and we pretend GTK is an Xt toolkit. It’s a fractal
-of delusion."</p>
-</div>
-<div class="paragraph">
-<p>— marai2 (Hackernews comments)</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_230_12020_h_e">230; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Against stupidity the very gods; Themselves contend in vain.</p>
-</div>
-<div class="paragraph">
-<p>— Friedrich Schiller</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_226_12020_h_e">226; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Life is too important to be taken seriously.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_223_12020_h_e">223; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>To live is the rarest thing in the world. Most people exist, that is
-all.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_222_12020_h_e">222; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Be yourself; everyone else is already taken.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_219_12020_h_e">219; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Let us cultivate our garden.</p>
-</div>
-<div class="paragraph">
-<p>— Candide</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_214_12020_h_e">214; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Religion is like a blind man looking in a black room for a black cat
-that isn&#8217;t there, and finding it.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_213_12020_h_e">213; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In all the known history of Mankind, advances have been made primarily
-in physical technology; in the capacity of handling the inanimate world
-about Man. Control of self and society has been left to to chance or to
-the vague gropings of intuitive ethical systems based on inspiration and
-emotion. As a result no culture of greater stability than about
-fifty-five percent has ever existed, and these only as the result of
-great human misery.</p>
-</div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_212_12020_h_e">212; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The true delight is in the finding out rather than in the knowing.</p>
-</div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_207_12020_h_e">207; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Excessive bureaucracy is the start of the fall of any civilization</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_206_12020_h_e">206; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Все счастливые семьи похожи друг на друга, каждая несчастливая семья
-несчастлива по-своему.</p>
-</div>
-<div class="paragraph">
-<p>— Leo Tolstoy</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_205_12020_h_e">205; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>It seems to me, Golan, that the advance of civilization is nothing but
-an exercise in the limiting of privacy.</p>
-</div>
-<div class="paragraph">
-<p>— Janov Pelorat, <em>Foundation’s Edge</em></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_204_12020_h_e">204; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Any sufficiently advanced technology is indistinguishable from magic.</p>
-</div>
-<div class="paragraph">
-<p>— Arthur C. Clarke</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_203_12020_h_e">203; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>If this is the solution, I want my problem back.</p>
-</div>
-<div class="paragraph">
-<p>— nosystemd.org</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_202_12020_h_e">202; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Most people are other people. Their thoughts are someone else&#8217;s
-opinions, their lives a mimicry, their passions a quotation.</p>
-</div>
-<div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_201_12020_h_e">201; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Never let your sense of morals prevent you from doing what is right</p>
-</div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_199_12020_h_e">199; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Those who can make you believe absurdities can make you commit
-atrocities.</p>
-</div>
-<div class="paragraph">
-<p>— Voltaire</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_197_12020_h_e">197; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Violence is the last refuge of the incompetent.</p>
-</div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_196_12020_h_e">196; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Committee, n.:</p>
-</div>
-<div class="paragraph">
-<p>A group of men who individually can do nothing but as a group decide
-that nothing can be done.</p>
-</div>
-<div class="paragraph">
-<p>– Fred Allen</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_monday_july_6th_2020">Monday, July 6th, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>"When I picture it in my head I think of the early web as more of a
-library. Over time it has transitioned into a shopping mall."</p>
-</div>
-<div class="paragraph">
-<p>– chris_f (Hacker News comments)</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_saturday_july_4th_2020">Saturday, July 4th, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In each of us sleeps a genius… and his sleep gets deeper everyday.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_tuesday_june_23_2020">Tuesday, June 23, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The galaxies hum the shape and form in their essence. That is their
-secret.</p>
-</div>
-<div class="paragraph">
-<p>The particles whisper of the nature of proper interactions. That is
-their game.</p>
-</div>
-<div class="paragraph">
-<p>And during a storm, in the forest, on the right night, it is no secret
-that the leaves all sing of God.</p>
-</div>
-<div class="paragraph">
-<p>– Exurb1a, <em>The Fifth Science</em></p>
-</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">set sort = 'reverse-threads'
+set sort_aux = 'last-date-received'</code></pre>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_tuesday_june_9_2020">Tuesday, June 9, 2020</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>It is by the fortune of God that, in this country, we have three
-benefits: freedom of speech, freedom of thought, and the wisdom never to
-use either. – Mark Twain</p>
+<p>This is how it looks with huge mail chains</p>
 </div>
+<div class="imageblock center">
+<div class="content">
+<a class="image" href="./threads.png"><img src="threads.png" alt="threads"></a>
 </div>
+<div class="title">Figure 1. Fortune mailchain with threads enabled</div>
 </div>
-<div class="sect1">
-<h2 id="_wednesday_may_20_2020">Wednesday, May 20, 2020</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>C++ is history repeated as tragedy. Java is history repeated as farce. –
-Scott McKay</p>
+<p>For ease of use, you can add the following line to bind your <code>c</code> key to
+collapse threads</p>
 </div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-example" data-lang="example">macro index c &lt;collapse-thread&gt; "collapse-thread"</code></pre>
 </div>
 </div>
 </div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2020-12-09 13:06:50 UTC
 </div>
 </div>
 </body>
