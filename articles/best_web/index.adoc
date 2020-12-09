@@ -1,0 +1,44 @@
+= My favorite stuff on the web 🌍
+Sagindyk Urazayev <ctu@ku.edu>
+About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
+:toc: left
+:toc-title: Table of Adventures ⛵
+:nofooter:
+:experimental:
+
+March 3rd, 2020
+
+This list has some of my favorite stuff on the internet, divided into
+categories with links! The list is completely biased
+
+== The prophecy is true
+
+PLAY_YOUTUBE uwmeH6Rnj2E
+
+== Why is the milk gone
+
+PLAY_YOUTUBE KjeKiIa7XEk
+
+== Scent Of A Woman - Tango scene
+
+PLAY_YOUTUBE 0V0bMhYWz48
+
+== 009 Sound System
+
+PLAY_YOUTUBE GsWFMgzdfoE
+
+== Scrabble story
+
+PLAY_YOUTUBE 9czoezm2vqw
+
+== Ferris Bueller's Parade
+
+PLAY_YOUTUBE tRcv4nokK50
+
+== Sharpest stand-up
+
+PLAY_YOUTUBE kyBH5oNQOS0
+
+== Best functional programming
+
+PLAY_YOUTUBE a9xAKttWgP4

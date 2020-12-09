@@ -13,8 +13,8 @@
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 <script id="MathJax-script" async src="/scripts/mathjax/tex-chtml.js"></script>
 <script async src="/scripts/time.js"></script>
-<meta property="og:title" content="Sandy&#8217;s fortunes 🥠">
-<title>Sandy&#8217;s fortunes 🥠</title>
+<meta property="og:title" content="Differential Equations Cookbook 🔥">
+<title>Differential Equations Cookbook 🔥</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 /* Uncomment @import statement to use as custom stylesheet */
@@ -447,777 +447,620 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 </head>
 <link rel="stylesheet" type="text/css" href="/styles/web.min.css">
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>Sandy&#8217;s fortunes 🥠</h1>
+<h1>Differential Equations Cookbook 🔥</h1>
 <div class="details">
 <span id="author" class="author">Sagindyk Urazayev</span><br>
 <span id="email" class="email"><a href="mailto:ctu@ku.edu">ctu@ku.edu</a></span><br>
 <span id="revdate"><a href="/about">About 🤔</a> | <a href="/books">Bookshelf 📖</a> | <a href="/fortunes">Fortunes 🥠</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="hetime" class="details"></div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Adventures ⛵</div>
+<ul class="sectlevel2">
+<li><a href="#_quick_notes">Quick notes</a></li>
+<li><a href="#_first_order_linear">First-order, linear</a></li>
+<li><a href="#_first_order_separable">First-order, separable</a></li>
+<li><a href="#_exact_equations">Exact equations</a></li>
+<li><a href="#_second_order_linear_constant_coefficient_equations">Second-order, linear, constant-coefficient equations</a></li>
+<li><a href="#_second_order_linear_variable_coefficient_equations">Second-order, linear, variable-coefficient equations</a></li>
+<li><a href="#_higher_order_linear_equations">Higher-order, linear equations</a></li>
+<li><a href="#_laplace_transform">Laplace transform</a></li>
+<li><a href="#_constant_coefficient_homogeneous_systems_of_ode">Constant-coefficient, homogeneous systems of ODE</a></li>
+<li><a href="#_linear_systems_of_ode">Linear systems of ODE</a></li>
+<li><a href="#_applications">Applications</a></li>
+<li><a href="#_conclusion">Conclusion</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_342_12020_h_e">342; 12020 H.E.</h2>
+<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>By studying the masters – not their pupils.</p>
+<p>May 12th, 2020</p>
 </div>
-<div class="paragraph">
-<p>— Niels Henrik Abel</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_341_12020_h_e">341; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>My name is Ozymandias, King of Kings;</p>
-</div>
-<div class="paragraph">
-<p>Look on my Works, ye Mighty, and despair!</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_338_12020_h_e">338; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The unexamined life is not worth living</p>
-</div>
-<div class="paragraph">
-<p>– Socrates</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_336_12020_h_e">336; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The longest part of the journey is said to be the passing of the gate.</p>
-</div>
-<div class="paragraph">
-<p>– Marcus Terentius Varro</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_335_12020_h_e">335; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>"When you wake up in the morning, Pooh," said Piglet at last, "what&#8217;s
-the first thing you say to yourserf?"</p>
-</div>
-<div class="paragraph">
-<p>"What&#8217;s for breakfast?" said Pooh. "What do <em>you</em> say, Piglet?"</p>
-</div>
-<div class="paragraph">
-<p>"I say, I wonder what&#8217;s going to happen exciting <em>today</em>?" said Piglet.</p>
-</div>
-<div class="paragraph">
-<p>Pooh nodded thoughtfully.</p>
-</div>
-<div class="paragraph">
-<p>"It&#8217;s the same thing," he said.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_331_12020_h_e">331; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Q: How many Harvard MBA&#8217;s does it take to screw in a light bulb?</p>
-</div>
-<div class="paragraph">
-<p>A: Just one. He grasps it firmly and the universe revolves around him.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_322_12020_h_e">322; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Don’t go around saying the world owes you a living. The world owes you
-nothing. It was here first.</p>
-</div>
-<div class="paragraph">
-<p>— Mark Twain</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_318_12020_h_e">318; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The only thing we have to fear is fear itself.</p>
-</div>
-<div class="paragraph">
-<p>— Franklin Delano Roosevelt</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_315_12020_h_e">315; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Judge each day not by the harvest you reap, but by the seeds you plant.</p>
-</div>
-<div class="paragraph">
-<p>— Robert Louis Stevenson (Found on the back of my red wine vinegar
-bottle)</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_314_12020_h_e">314; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The devil can cite Scripture for his purpose.</p>
-</div>
-<div class="paragraph">
-<p>— William Shakespeare, “The Merchant of Venice”</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_313_12020_h_e">313; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>University politics are vicious precisely because the stakes are so
-small.</p>
-</div>
-<div class="paragraph">
-<p>— C. P. Snow (see "Sayre&#8217;s law")</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_305_12020_h_e">305; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>It doesn&#8217;t interest me what you do for a living. I want to know what you
-ache for and if you dare to dream of meeting your heart&#8217;s longing.</p>
-</div>
-<div class="paragraph">
-<p>It doesn&#8217;t interest me how old you are. I want to know if you will risk
-looking like a fool for love, for your dream, for the adventure of being
-alive.</p>
-</div>
-<div class="paragraph">
-<p>— Oriah Mountain Dreamer</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_303_12020_h_e">303; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Liberty lies in the hearts of men and women; when it dies there, no
-constitution, no law, no court can save it; no constitution, no law, no
-court can even do much to help it.</p>
-</div>
-<div class="paragraph">
-<p>— Learned Hand, Spirit of Liberty</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_300_12020_h_e">300; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>For there are moments when one can neither think nor feel. And if one
-can neither think nor feel, she thought, where is one?</p>
-</div>
-<div class="paragraph">
-<p>— Virginia Woolf, "To the Lighthouse"</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_299_12020_h_e">299; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Are we THERE yet?</p>
-</div>
-<div class="paragraph">
-<p>Note: that is actually how I was taught Fundamental theorem of calculus</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_295_12020_h_e">295; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>When I reflect upon the number of disagreeable people who I know who
-have gone to a better world, I am moved to lead a different life.</p>
-</div>
-<div class="paragraph">
-<p>— Mark Twain, Pudd&#8217;nhead Wilson</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_292_12020_h_e">292; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Q: How many lawyers does it take to change a light bulb?</p>
-</div>
-<div class="paragraph">
-<p>A: Whereas the party of the first part, also known as "Lawyer", and the
-party of the second part, also known as "Light Bulb", do hereby and
-forthwith agree to a transaction wherein the party of the second part
-shall be removed from the current position as a result of failure to
-perform previously agreed upon duties, i.e., the lighting, elucidation,
-and otherwise illumination of the area ranging from the front (north)
-door, through the entryway, terminating at an area just inside the
-primary living area, demarcated by the beginning of the carpet, any
-spillover illumination being at the option of the party of the second
-part and not required by the aforementioned agreement between the
-parties.</p>
-</div>
-<div class="paragraph">
-<p>The aforementioned removal transaction shall include, but not be limited
-to, the following. The party of the first part shall, with or without
-elevation at his option, by means of a chair, stepstool, ladder or any
-other means of elevation, grasp the party of the second part and rotate
-the party of the second part in a counter-clockwise direction, this
-point being tendered non-negotiable. Upon reaching a point where the
-party of the second part becomes fully detached from the receptacle, the
-party of the first part shall have the option of disposing of the party
-of the second part in a manner consistent with all relevant and
-applicable local, state and federal statutes. Once separation and
-disposal have been achieved, the party of the first part shall have the
-option of beginning installation. Aforesaid installation shall occur in
-a manner consistent with the reverse of the procedures described in step
-one of this self-same document, being careful to note that the rotation
-should occur in a clockwise direction, this point also being
-non-negotiable. The above described steps may be performed, at the
-option of the party of the first part, by any or all agents authorized
-by him, the objective being to produce the most possible revenue for the
-Partnership.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_285_12020_h_e">285; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Zounds! I was never so bethumped with words since I first called my
-brother&#8217;s father dad.</p>
-</div>
-<div class="paragraph">
-<p>— William Shakespeare, "Kind John"</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_281_12020_h_e">281; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In a mad world, only the mad are sane.</p>
-</div>
-<div class="paragraph">
-<p>— Akira Kurosawa</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_280_12020_h_e">280; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Ours [i.e., the Christian religion] is assuredly the most ridiculous,
-the most absurd and the most bloody religion which has ever infected
-this world. Your Majesty will do the human race an eternal service by
-extirpating this infamous superstition, I do not say among the rabble,
-who are not worthy of being enlightened and who are apt for every yoke;
-I say among honest people, among men who think, among those who wish to
-think. … My one regret in dying is that I cannot aid you in this noble
-enterprise, the finest and most respectable which the human mind can
-point out.</p>
-</div>
-<div class="paragraph">
-<p>— Voltaire to Frederick II, 1767</p>
-</div>
-</div>
+<div class="quoteblock abstract">
+<div class="title">Abstract</div>
+<blockquote>
+When I got first introduced to differential equations, I had a love-hate
+relationship with it. Mainly due to some back-of-the-book problems we
+were given and never-ending projects we were assigned to. After some
+time, differential equations is a way to truly understand physics and
+the foundations of gravity, fields, and everything. This articles is
+merely an intro on manually solving common forms of differential
+equations. Hope you enjoy
+</blockquote>
 </div>
-<div class="sect1">
-<h2 id="_278_12020_h_e">278; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Go to Heaven for the climate, Hell for the company.</p>
-</div>
-<div class="paragraph">
-<p>— Mark Twain</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_quick_notes">Quick notes</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>\(f_x \iff \partial_x f\)</p>
+</li>
+<li>
+<p>\(A,B,C\) are usually a constants</p>
+</li>
+<li>
+<p>\(c_k\) is usually a solution constant that is resolved with
+initial conditions</p>
+</li>
+<li>
+<p>Most of the functions are \(\mathbb{R}^k \to \mathbb{R}\),
+\(k \in \mathbb{N}^+\)</p>
+</li>
+<li>
+<p>If you found a typo or want to comment, feel free to email me. Email
+on top of the page.</p>
+</li>
+</ul>
 </div>
-<div class="sect1">
-<h2 id="_275_12020_h_e">275; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Fate goes ever as fate must.</p>
 </div>
+<div class="sect2">
+<h3 id="_first_order_linear">First-order, linear</h3>
 <div class="paragraph">
-<p>— Beowulf, 455</p>
-</div>
-</div>
+<p>Those equations have the form: \(y' + p(t) y = q(t)\)</p>
 </div>
-<div class="sect1">
-<h2 id="_274_12020_h_e">274; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Those who would give up essential Liberty, to purchase a little
-temporary Safety, deserve neither Liberty nor Safety.</p>
+<p>Find \(\mu(t) = e^{\int p(t) dt}\)</p>
 </div>
 <div class="paragraph">
-<p>— Benjamin Franklin</p>
+<p>Then \(\frac{d}{dt}(\mu(t)y) = q(t) \mu(t)\)
+\(\implies y = \frac{\int q(t) \mu(t) dt}{\mu(t)}\)</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_273_12020_h_e">273; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The meaning of life is that it ends</p>
-</div>
+<div class="sect2">
+<h3 id="_first_order_separable">First-order, separable</h3>
 <div class="paragraph">
-<p>— Franz Kafka</p>
+<p>Those equations have the form: \(\frac{dy}{dx} = f(x)g(y)\)</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_272_12020_h_e">272; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Thank goodness technology progressed to the point where we don&#8217;t have to
-deal with our issues privately</p>
-</div>
-</div>
+<p>Find the solution by solving
+\(\int \frac{dy}{g(y)} = \int f(x) dx\)</p>
 </div>
-<div class="sect1">
-<h2 id="_271_12020_h_e">271; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>All it takes for evil to succeed, is for good people to say - "It&#8217;s a
-business"</p>
+<p>Solve for exact (explicit) values of \(y\)</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_265_12020_h_e">265; 12020 H.E.</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_exact_equations">Exact equations</h3>
 <div class="paragraph">
-<p>There are no bad questions, only horrible answers</p>
-</div>
-</div>
+<p>They have the form \(M(x,y) + N(x,y) \frac{dy}{dx} = 0\)</p>
 </div>
-<div class="sect1">
-<h2 id="_260_12020_h_e">260; 12020 H.E.</h2>
-<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>\((\xi)\) If \(M_y = N_y\)</p>
 <div class="paragraph">
-<p>Men learn to love the woman they are attracted to. Women learn to become
-attracted to the man they fall in love with.</p>
+<p>\(\implies\) Find such \(F(x,y)=C\), where
+\(F_x = M\), \(F_y = N\)</p>
 </div>
+</li>
+<li>
+<p>otherwise, make it exact, such that</p>
 <div class="paragraph">
-<p>— Woody Allen</p>
+<p>\(\frac{M_y-N_x}{N}\) only depends on \(x\) <strong>or</strong>
+\(\frac{N_x-M_y}{M}\) only depends on \(y\)</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_259_12020_h_e">259; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Man plans, God laughs</p>
+<p>Find \(\mu(x) = e^{\int \frac{M_y-N_x}{N} dx}\) <strong>or</strong>
+\(\mu(y) = e^{\int \frac{N_x-M_y}{M} dy}\), multiply both by
+\(M\) <strong>and</strong> \(N\), so the condition
+\(M_y = N_y\) is satisfied. Go to \((\xi)\) and
+proceed with finding \(F(x,y)\)</p>
 </div>
+</li>
+</ul>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_257_12020_h_e">257; 12020 H.E.</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_second_order_linear_constant_coefficient_equations">Second-order, linear, constant-coefficient equations</h3>
 <div class="paragraph">
-<p>No good deed goes unpunished.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_256_12020_h_e">256; 12020 H.E.</h2>
-<div class="sectionbody">
+<p>They have the form \(y'' + p y' + q y = f(t)\)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>First, solve for the homogeneous case, where
+\(y'' + p y' + q y = 0\)</p>
 <div class="paragraph">
-<p>There are no sides in this world, only players</p>
-</div>
+<p>Make a characteristic polynomial, let \(y = e^{rt}\):</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_249_12020_h_e">249; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Nature abhors a vacuum.</p>
+<p>\(r^2+pr+q=0\)</p>
 </div>
 <div class="paragraph">
-<p>— Aristotle</p>
-</div>
+<p>Find roots, solution (general) will be
+\(y = c_1 e^{r_1 t} + c_2 e^{r_2 t}\)</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_248_12020_h_e">248; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>A wise man can learn more from a foolish question than a fool can learn
-from a wise answer.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>if repeated root
+\(\implies y = c_1 e^{rt} + c_2 t e^{rt}\)</p>
+</li>
+<li>
+<p>if \(r = \alpha \pm i \beta\)
+\(\implies y=c_1 \cos(\beta t)e^{\alpha t} + c_2 \sin(\beta t) e^{\alpha t}\)</p>
+</li>
+</ul>
 </div>
+</li>
+<li>
+<p>Solving for particular solution \(y_p(t)\)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Undetermined coefficients (superpositioned) for \(f(t)\)</p>
 <div class="paragraph">
-<p>— Bruce Lee</p>
+<p>Whatever is in \(f(t)\), start adding up the corresponding
+coefficients into \(y_p(t)\)</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>\(e^{nt} \to Ae^{nt}\)</p>
+</li>
+<li>
+<p>\(t^m \to A_m t^m + \ldots + A_1 t + A_0\)</p>
+</li>
+<li>
+<p>\(\cos(\beta t)\) or
+\(\sin(\beta t) \to Acos(\beta t) + B\sin(\beta t)\)</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+should not be linearly dependent with the general solution. If it
+is, multiply by \(t\) until it is linearly independent.
+</td>
+</tr>
+</table>
 </div>
+</li>
+</ul>
 </div>
-<div class="sect1">
-<h2 id="_247_12020_h_e">247; 12020 H.E.</h2>
-<div class="sectionbody">
+</li>
+<li>
+<p>Variation of parameters</p>
 <div class="paragraph">
-<p>Those who abjure violence can do so only because others are committing
-violence on their behalf.</p>
+<p>Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where</p>
 </div>
 <div class="paragraph">
-<p>— George Orwell</p>
+<p>\(\begin{cases}v_1&#8217;y_1+v_2&#8217;y_2=0\\v_1&#8217;y_1'+v_2&#8217;y_2'=f(t)\end{cases}\)</p>
 </div>
+</li>
+</ul>
 </div>
+</li>
+</ul>
 </div>
-<div class="sect1">
-<h2 id="_241_12020_h_e">241; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Misery is wasted on the miserable.</p>
+<p>So the final solution is
+\(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)</p>
 </div>
-<div class="paragraph">
-<p>— <em>Louie</em></p>
-</div>
-</div>
 </div>
-<div class="sect1">
-<h2 id="_238_12020_h_e">238; 12020 H.E.</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_second_order_linear_variable_coefficient_equations">Second-order, linear, variable-coefficient equations</h3>
 <div class="paragraph">
-<p>Almost nothing great has ever been done in the world except by the
-genius and firmness of a single man combating the prejudices of the
-multitude.</p>
-</div>
-<div class="paragraph">
-<p>— Voltaire, correspondence with Catherine the Great</p>
-</div>
+<p>Equations have the form</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>\((1)\): \(a(t)y'' + b(t)y'+c(t)y = f(t)\)</p>
+</li>
+<li>
+<p>\((2)\): \(y'' + p(t)y'+q(t)y = g(t)\)</p>
+</li>
+</ul>
 </div>
-<div class="sect1">
-<h2 id="_237_12020_h_e">237; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Most people do not really want freedom, because freedom involves
-responsibility, and most people are frightened of responsibility.</p>
+<p>In general case, guess the first homogeneous solution (try
+\(y_1=e^t\)) and use reduction of order to find the second
+homogeneous solution, so that</p>
 </div>
 <div class="paragraph">
-<p>— Sigmund Freud, Civilization and Its Discontents</p>
+<p>\(y_2(t) = v(t)y_1(t)\)</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_236_12020_h_e">236; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Вот как нам писать. Пушкин приступает прямо к делу. Другой бы начал
-описывать гостей, комнаты, а он вводит в действие сразу</p>
+<p>\(\implies y_2'' + p(t)y_2' + q(t)y_2 = 0\)</p>
 </div>
 <div class="paragraph">
-<p>— Л. Н. Толстой (запись в дневнике С. А. Толстой от 19 марта 1873).</p>
-</div>
+<p>\(\implies (v(t)y_1(t))''+p(t)(v(t)y_1(t))'+q(t)(v(t)y_1(t))=0\)</p>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Also applicable with form \((1)\)
+</td>
+</tr>
+</table>
 </div>
-<div class="sect1">
-<h2 id="_232_12020_h_e">232; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>"Internally, Emacs still belives it’s a text program, and we pretend Xt
-is a text terminal, and we pretend GTK is an Xt toolkit. It’s a fractal
-of delusion."</p>
+<p>You will probably have another differential equation emerge from above.
+It should have lower order than our current equation, so just refer to
+one of the techniques above to find \(v(t)\) and then you can
+find \(y_2(t)=v(t)y_1(t)\)</p>
 </div>
 <div class="paragraph">
-<p>— marai2 (Hackernews comments)</p>
+<p>Use <strong>variation of parameters</strong> to find a particular solution. It&#8217;s that
+system with \(v\)s</p>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+What you if you have a <strong>Cauchy-Euler equation</strong>?
+</td>
+</tr>
+</table>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_230_12020_h_e">230; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Against stupidity the very gods; Themselves contend in vain.</p>
+<p>They have the form \(at^2y''+bty'+cy=0\)</p>
 </div>
 <div class="paragraph">
-<p>— Friedrich Schiller</p>
-</div>
+<p>then \(y=t^r \implies ar^2+(b-a)r+c=0\)</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_226_12020_h_e">226; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Life is too important to be taken seriously.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>if \(r\) is repeated, \(y_1=t^r\),
+\(y_2=ln|t|t^r\)</p>
+</li>
+<li>
+<p>if \(r=\alpha\pm i\beta\),
+\(y_1=t^{\alpha}\cos(\beta ln|t|)\) and
+\(y_2=t^{\alpha}\sin(\beta ln|t|)\)</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>— Oscar Wilde</p>
+<p>Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_223_12020_h_e">223; 12020 H.E.</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_higher_order_linear_equations">Higher-order, linear equations</h3>
 <div class="paragraph">
-<p>To live is the rarest thing in the world. Most people exist, that is
-all.</p>
+<p>\(a_n(t)y^{(n)}a_{n-1}(t)y^{(n-1)}\ldots+a_1(t)y'+a_0(t)y=g(t)\)</p>
 </div>
 <div class="paragraph">
-<p>— Oscar Wilde</p>
+<p>All second-order methods above extend to \(n^{th}\) order.</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_222_12020_h_e">222; 12020 H.E.</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_laplace_transform">Laplace transform</h3>
 <div class="paragraph">
-<p>Be yourself; everyone else is already taken.</p>
+<p>Laplace is a holy grail of solving differential equations with initial
+values defined. Laplace is the same kind of Bible to engineers like
+Taylor Series is.</p>
 </div>
 <div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
+<p>\(\mathcal{L}{f}(s) = \int_0^{\infty} e^{-st} f(t) dt\)</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_219_12020_h_e">219; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Let us cultivate our garden.</p>
+<p>assuming \(f\) is piecewise continuous and of exponential
+order.</p>
 </div>
 <div class="paragraph">
-<p>— Candide</p>
-</div>
-</div>
+<p>Table of common transformations:</p>
 </div>
-<div class="sect1">
-<h2 id="_214_12020_h_e">214; 12020 H.E.</h2>
-<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">\(f(t)\)</th>
+<th class="tableblock halign-left valign-top">\(\mathcal{L}{f}(s)\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(1\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{1}{s}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{at}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{1}{s-a}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\sin(bt)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{b}{s^2+b^2}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\cos(bt)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{s}{s^2+b^2}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(u(t-a)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\frac{e^{-as}}{s}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\delta(t-a)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(e^{-as}\)</p></td>
+</tr>
+</tbody>
+</table>
 <div class="paragraph">
-<p>Religion is like a blind man looking in a black room for a black cat
-that isn&#8217;t there, and finding it.</p>
+<p>Where \(u(t)\) is the
+<a href="https://en.wikipedia.org/wiki/Heaviside_step_function">Heaviside step
+function</a> and \(\delta(t)\) is the
+<a href="https://en.wikipedia.org/wiki/Dirac_delta_function">Dirac delta
+function</a>.</p>
 </div>
 <div class="paragraph">
-<p>— Oscar Wilde</p>
+<p>Some Laplace transform properties:</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>\(\mathcal{L}\{e^{at}f(t)\}(s) = \mathcal{L}\{f(t)\}(s-a)\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}\{t^nf(t)\}(s) = s^n\mathcal{L}{f}(s)-s^{n-1}f(0)-\ldots-sf^{(n-2)}(0)-f^{(n-1)}(0)\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}\{t^nf(t)\}(s) = (-1)^n \frac{d^n}{ds^n} \mathcal{L}\{f(t)\}(s)\)</p>
+</li>
+</ul>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_213_12020_h_e">213; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>In all the known history of Mankind, advances have been made primarily
-in physical technology; in the capacity of handling the inanimate world
-about Man. Control of self and society has been left to to chance or to
-the vague gropings of intuitive ethical systems based on inspiration and
-emotion. As a result no culture of greater stability than about
-fifty-five percent has ever existed, and these only as the result of
-great human misery.</p>
-</div>
 <div class="paragraph">
-<p>— Isaac Asimov</p>
+<p>If \(f\) is a T-periodic function,</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_212_12020_h_e">212; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>The true delight is in the finding out rather than in the knowing.</p>
+<p>\(\mathcal{L}\{f(t)\}(s) = \frac{\int_0^T e^{-sT} f(t) dt}{1-e^{-sT}}\)</p>
 </div>
 <div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
-</div>
+<p>where \(\int_0^T e^{-sT} f(t) dt = \mathcal{L}\{f_T(t)\}(s)\),
+the sum of integrals of different parts of the piecewise function.</p>
 </div>
-<div class="sect1">
-<h2 id="_207_12020_h_e">207; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Excessive bureaucracy is the start of the fall of any civilization</p>
+<p>Convolutions:</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>\((f*g)(t) = \int_0^t f(t-v)g(v)dv\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}\{(f*g)(t)\} = \mathcal{L}\{f(t)\}(s)\cdot \mathcal{L}\{g(t)\}(s)\)</p>
+</li>
+<li>
+<p>\((f*g)(t) = \mathcal{L}^{-1}\{F\cdot G\}(t)\), where
+\(F=\mathcal{L}{f}(s)\) and
+\(G=\mathcal{L}{g}(s)\)</p>
+</li>
+</ul>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_206_12020_h_e">206; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Все счастливые семьи похожи друг на друга, каждая несчастливая семья
-несчастлива по-своему.</p>
-</div>
 <div class="paragraph">
-<p>— Leo Tolstoy</p>
+<p>Heaviside/unit step function:</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>\(\mathcal{L}\{u(t-a)f(t)\}(s) = e^{-as}\mathcal{L}\{f(t+a)\}(s)\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}^{-1}\{e^{-as}F(s)\}(t)=u(t-a)\mathcal{L}^{-1}\{F(s)\}(t-a)\)</p>
+</li>
+</ul>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_205_12020_h_e">205; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>It seems to me, Golan, that the advance of civilization is nothing but
-an exercise in the limiting of privacy.</p>
+<p>If IVP is not at 0, define some new function like
+\(w(t)=y(t+\alpha)\), and solve for \(w\). Finally,
+you can offset to find \(y\)</p>
 </div>
 <div class="paragraph">
-<p>— Janov Pelorat, <em>Foundation’s Edge</em></p>
+<p>Step (block) function:</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>\(\Pi_{a,b}(t) = u(t-a)-u(t-b)\)</p>
+</li>
+<li>
+<p>\(\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s}\)</p>
+</li>
+</ul>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_204_12020_h_e">204; 12020 H.E.</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_constant_coefficient_homogeneous_systems_of_ode">Constant-coefficient, homogeneous systems of ODE</h3>
 <div class="paragraph">
-<p>Any sufficiently advanced technology is indistinguishable from magic.</p>
+<p>\(\vec{x}' = A \vec{x}\), where
+\(A\in\mathbb{R}^{n\times n}\), \(x\in\mathbb{R}^n\)</p>
 </div>
 <div class="paragraph">
-<p>— Arthur C. Clarke</p>
-</div>
-</div>
+<p>If \(A\) has n linearly independent eigenvectors
+\(\vec{u_i}\) associated to n eigenvalues
+\(\lambda_i\), then a general solution of the system is given
+by
+\(\vec{x}(t) = c_1 e^{\lambda_1 t}\vec{u_1}+c_2e^{\lambda_2t}\vec{u_2} + \ldots + c_ne^{\lambda_nt}\vec{u_n}\)</p>
 </div>
-<div class="sect1">
-<h2 id="_203_12020_h_e">203; 12020 H.E.</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>If this is the solution, I want my problem back.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If \(\lambda=\alpha \pm i \beta\), so
+\(\vec{u}=\vec{a}+i\vec{b}\), we have</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>— nosystemd.org</p>
+<p>\(\vec{x}=c_1e^{\alpha t}(\cos(\beta t)\vec{a}-\sin(\beta t)\vec{b}) + c_2e^{\alpha t}(\cos(\beta t)\vec{b}+\sin(\beta t)\vec{a})\)</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>Matrix exponential</p>
+</li>
+</ul>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_202_12020_h_e">202; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Most people are other people. Their thoughts are someone else&#8217;s
-opinions, their lives a mimicry, their passions a quotation.</p>
+<p>\(e^{At} = \sum_{k=0}^{\infty} \frac{A^k t^k}{k!}\), where
+\(A^0=I\), an identity matrix.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>Find solutions for any eigenvalues</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Compute the characteristic polynomial \(p(\lambda)\) of
+\(A\)</p>
 <div class="paragraph">
-<p>— Oscar Wilde</p>
-</div>
+<p>\(p(\lambda)=det(A-\lambda I)\)</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_201_12020_h_e">201; 12020 H.E.</h2>
-<div class="sectionbody">
+</li>
+<li>
+<p>Factor \(p(\lambda)\) into linear factors to yield</p>
 <div class="paragraph">
-<p>Never let your sense of morals prevent you from doing what is right</p>
+<p>\(p(\lambda) = c(\lambda-\lambda_1)^{m_1} \cdot \ldots \cdot (\lambda-\lambda_k)^{m_k}\),
+where \(c=\pm 1\)</p>
 </div>
+</li>
+<li>
+<p>For each \(\lambda_j\), find \(m_j\) linearly
+independent generalized eigenvectors
+\(\{\vec{u_j}^{m_1},\cdots,\vec{u_j}^{m_j}\}\) satisfying</p>
 <div class="paragraph">
-<p>— Isaac Asimov</p>
-</div>
+<p>\((A-\lambda_i I)^{m_j} \vec{u} = \vec{0}\)</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_199_12020_h_e">199; 12020 H.E.</h2>
-<div class="sectionbody">
+</li>
+<li>
+<p>For each \(\vec{u_j}^i\) computed in the previous step,
+compute \(e^{At}\vec{u_j}^i\) by</p>
 <div class="paragraph">
-<p>Those who can make you believe absurdities can make you commit
-atrocities.</p>
+<p>\(e^{At}\vec{u_j}^i\)</p>
 </div>
 <div class="paragraph">
-<p>— Voltaire</p>
-</div>
+<p>\(=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i\)</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_197_12020_h_e">197; 12020 H.E.</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Violence is the last refuge of the incompetent.</p>
+<p>\(=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)\)</p>
 </div>
-<div class="paragraph">
-<p>— Isaac Asimov</p>
+</li>
+</ol>
 </div>
+</li>
+</ul>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_196_12020_h_e">196; 12020 H.E.</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_linear_systems_of_ode">Linear systems of ODE</h3>
 <div class="paragraph">
-<p>Committee, n.:</p>
+<p>\(\vec{x}' = A(t)\vec{x} + \vec{f}(t)\), where
+\(A\in\mathbb{R}^{n\times n}\),
+\(x\in\mathbb{R}^n\), \(f\in\mathbb{R}^n\)</p>
 </div>
 <div class="paragraph">
-<p>A group of men who individually can do nothing but as a group decide
-that nothing can be done.</p>
+<p>If \(X(t)\) is a matrix whose columns are made up of n
+linearly independent homogeneous solutions (\(X(t)\) is the
+fundamental matrix), then a general solution may be written as
+\(\vec{x}(t_0)=\vec{x_0}\)</p>
 </div>
 <div class="paragraph">
-<p>– Fred Allen</p>
-</div>
+<p>\(\vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds\)</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_monday_july_6th_2020">Monday, July 6th, 2020</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>"When I picture it in my head I think of the early web as more of a
-library. Over time it has transitioned into a shopping mall."</p>
+<p>If \(A(t)\) is constant-coefficient, then we recover Duhamel&#8217;s
+formula:</p>
 </div>
 <div class="paragraph">
-<p>– chris_f (Hacker News comments)</p>
+<p>\(\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds\)</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_saturday_july_4th_2020">Saturday, July 4th, 2020</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_applications">Applications</h3>
 <div class="paragraph">
-<p>In each of us sleeps a genius… and his sleep gets deeper everyday.</p>
-</div>
+<p>There are many applications of differential equations in classical
+mechanics, fields, etc. Below you will find just a snippet of some very
+common Physics 1/2 scenarios</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_tuesday_june_23_2020">Tuesday, June 23, 2020</h2>
-<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Falling object</p>
 <div class="paragraph">
-<p>The galaxies hum the shape and form in their essence. That is their
-secret.</p>
+<p>\(m\frac{dv}{dt}=mg-bv\), where \(b\) is the air
+resistance</p>
 </div>
+</li>
+<li>
+<p>Fluid mix, define \(R_{in}\) and \(R_{out}\)</p>
 <div class="paragraph">
-<p>The particles whisper of the nature of proper interactions. That is
-their game.</p>
+<p>\(\frac{dx}{dt}=R_{in}-R_{out}\)</p>
 </div>
+</li>
+<li>
+<p>Mass-Spring System</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Vertical spring (direction of gravity)</p>
 <div class="paragraph">
-<p>And during a storm, in the forest, on the right night, it is no secret
-that the leaves all sing of God.</p>
+<p>\(my''=-by'-k(L+y)+mg+F_{ext}(t)\), assume
+\(KL=mg\), where \(b\) is dumping, and
+\(k\) is stiffness</p>
 </div>
+</li>
+<li>
+<p>Horizontal spring</p>
 <div class="paragraph">
-<p>– Exurb1a, <em>The Fifth Science</em></p>
-</div>
-</div>
+<p>\(my''=-by'-ky+F_{ext}(t)\), where \(b\) is dumping,
+and \(k\) is stiffness</p>
 </div>
-<div class="sect1">
-<h2 id="_tuesday_june_9_2020">Tuesday, June 9, 2020</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>It is by the fortune of God that, in this country, we have three
-benefits: freedom of speech, freedom of thought, and the wisdom never to
-use either. – Mark Twain</p>
+</li>
+</ol>
 </div>
+</li>
+</ol>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_wednesday_may_20_2020">Wednesday, May 20, 2020</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_conclusion">Conclusion</h3>
 <div class="paragraph">
-<p>C++ is history repeated as tragedy. Java is history repeated as farce. –
-Scott McKay</p>
-</div>
-</div>
-</div>
+<p>This is as much as I can recover from my initial experience with
+differential equations. This article is not as much to teach you how to
+solve them but provide a quick lookup cheatsheet if needed or glance at
+different forms that we can actually solve! There are infinitely many
+differential equations that we cannot find an exact solution for!</p>
 </div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2020-12-09 13:06:50 UTC
 </div>
 </div>
 </body>
