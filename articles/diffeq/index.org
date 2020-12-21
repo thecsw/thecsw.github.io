@@ -1,3 +1,59 @@
+#+latex_class: article
+#+latex_class_options: [12pt]
+#+latex_header_extra:\usepackage{amsmath}
+#+latex_header_extra:\usepackage{amssymb}
+#+latex_header_extra:\usepackage{setspace}
+#+latex_header_extra:\usepackage{subcaption}
+#+latex_header_extra:\usepackage{mathtools}
+#+latex_header_extra:\usepackage{xfrac}
+#+latex_header_extra:\usepackage[margin=1in]{geometry}
+#+latex_header_extra:\usepackage[utf8]{inputenc}
+#+latex_header_extra:\usepackage{color}
+#+latex_header_extra:\usepackage{epsf}
+#+latex_header_extra:\usepackage{tikz}
+#+latex_header_extra:\usepackage{graphicx}
+#+latex_header_extra:\usepackage{pslatex}
+#+latex_header_extra:\usepackage{hyperref}
+#+latex_header_extra:\usepackage[adobe-utopia]{mathdesign}
+#+latex_header_extra:\usepackage{helvet}
+#+latex_header_extra:\renewcommand{\familydefault}{\sfdefault}
+#+latex_header_extra:\textheight9in \oddsidemargin-.5in \textwidth7in \topmargin-.5in
+#+latex_header_extra:\usepackage{textgreek}
+#+latex_header_extra:\renewcommand*{\textgreekfontmap}{%
+#+latex_header_extra:  {phv/*/*}{LGR/neohellenic/*/*}%
+#+latex_header_extra:  {*/b/n}{LGR/artemisia/b/n}%
+#+latex_header_extra:  {*/bx/n}{LGR/artemisia/bx/n}%
+#+latex_header_extra:  {*/*/n}{LGR/artemisia/m/n}%
+#+latex_header_extra:  {*/b/it}{LGR/artemisia/b/it}%
+#+latex_header_extra:  {*/bx/it}{LGR/artemisia/bx/it}%
+#+latex_header_extra:  {*/*/it}{LGR/artemisia/m/it}%
+#+latex_header_extra:  {*/b/sl}{LGR/artemisia/b/sl}%
+#+latex_header_extra:  {*/bx/sl}{LGR/artemisia/bx/sl}%
+#+latex_header_extra:  {*/*/sl}{LGR/artemisia/m/sl}%
+#+latex_header_extra:  {*/*/sc}{LGR/artemisia/m/sc}%
+#+latex_header_extra:  {*/*/sco}{LGR/artemisia/m/sco}%
+#+latex_header_extra:}
+#+latex_header_extra:\makeatletter
+#+latex_header_extra:\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+#+latex_header_extra:\makeatother
+#+latex_header_extra:\DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+#+latex_header_extra:  #1\;\delimsize\|\;#2%
+#+latex_header_extra:}
+#+latex_header_extra:\newcommand{\infdiv}{D\infdivx}
+#+latex_header_extra:\DeclarePairedDelimiter{\norm}{\lVert}{\rVert}
+#+latex_header_extra:\def\Z{\mathbb Z}
+#+latex_header_extra:\def\R{\mathbb R}
+#+latex_header_extra:\def\C{\mathbb C}
+#+latex_header_extra:\def\N{\mathbb N}
+#+latex_header_extra:\def\Q{\mathbb Q}
+#+latex_header_extra:\def\noi{\noindent}
+#+latex_header_extra:\onehalfspace
+#+latex_compiler: xelatex
+#+language: en
+#+author: Sandy Urazayev
+#+title: Differential Equations Cookbook 🔥
+#+date: May 12th, 2020
+#+email: University of Kansas (ctu@ku.edu)
 * Differential Equations Cookbook 🔥
 
 May 12th, 2020
