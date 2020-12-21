@@ -1,4 +1,4 @@
-% Created 2020-12-22 Tue 02:23
+% Created 2020-12-22 Tue 02:49
 % Intended LaTeX compiler: xelatex
 \documentclass[12pt]{article}
 \usepackage{graphicx}
@@ -61,28 +61,27 @@
 \def\Q{\mathbb Q}
 \def\noi{\noindent}
 \onehalfspace
-\author{Sandy Urazayev}
-\date{May 12th, 2020}
-\title{Differential Equations Cookbook 🔥}
+\author{Sandy Urazayev\thanks{thecsw@Mania}}
+\date{\today}
+\title{}
 \hypersetup{
  pdfauthor={Sandy Urazayev},
- pdftitle={Differential Equations Cookbook 🔥},
+ pdftitle={},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 28.0.50 (Org mode 9.3)}, 
  pdflang={English}}
 \begin{document}
 
-\maketitle
-\tableofcontents
-
-\section{Differential Equations Cookbook 🔥}
-\label{sec:orgb9b8a7e}
+\section*{Differential Equations Cookbook 🔥}
+\label{sec:org5d8e5e4}
 
 May 12th, 2020
 
-\subsection{Abstract}
-\label{sec:orga09f4cd}
+\href{./index.pdf}{(PDF Version)}
+
+\subsection*{Abstract}
+\label{sec:org87adafe}
 
 When I got first introduced to differential equations, I had a love-hate
 relationship with it. Mainly due to some back-of-the-book problems we were given
@@ -91,8 +90,8 @@ equations is a way to truly understand physics and the foundations of gravity,
 fields, and everything. This articles is merely an intro on manually solving
 common forms of differential equations. Hope you enjoy
 
-\subsubsection{Quick notes}
-\label{sec:orgb3c0cc0}
+\subsubsection*{Quick notes}
+\label{sec:orgcc80e56}
 
 \begin{itemize}
 \item \(f_x \iff \partial_x f\)
@@ -104,8 +103,8 @@ top of the page.
 \end{itemize}
 
 
-\subsubsection{First-order, linear}
-\label{sec:orgfee8f6a}
+\subsubsection*{First-order, linear}
+\label{sec:orgd923f20}
 
 Those equations have the form: \(y' + p(t) y = q(t)\)
 
@@ -114,8 +113,8 @@ Find \(\mu(t) = e^{\int p(t) dt}\)
 Then \(\frac{d}{dt}(\mu(t)y) = q(t) \mu(t)\)
 \(\implies y = \frac{\int q(t) \mu(t) dt}{\mu(t)}\)
 
-\subsubsection{First-order, separable}
-\label{sec:org32bb224}
+\subsubsection*{First-order, separable}
+\label{sec:org0e79446}
 
 Those equations have the form: \(\frac{dy}{dx} = f(x)g(y)\)
 
@@ -123,8 +122,8 @@ Find the solution by solving \(\int \frac{dy}{g(y)} = \int f(x) dx\)
 
 Solve for exact (explicit) values of \(y\)
 
-\subsubsection{Exact equations}
-\label{sec:org1941470}
+\subsubsection*{Exact equations}
+\label{sec:org4dd8c91}
 
 They have the form \(M(x,y) + N(x,y) \frac{dy}{dx} = 0\)
 
@@ -144,8 +143,8 @@ so the condition \(M_y = N_y\) is satisfied. Go to \((\xi)\) and proceed with
 finding \(F(x,y)\)
 \end{itemize}
 
-\subsubsection{Second-order, linear, constant-coefficient equations}
-\label{sec:org2297ea0}
+\subsubsection*{Second-order, linear, constant-coefficient equations}
+\label{sec:org2e07837}
 
 They have the form \(y'' + p y' + q y = f(t)\)
 
@@ -188,8 +187,8 @@ Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where
 
 So the final solution is \(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)
 
-\subsubsection{Second-order, linear, variable-coefficient equations}
-\label{sec:org8c87662}
+\subsubsection*{Second-order, linear, variable-coefficient equations}
+\label{sec:orgd2c3645}
 
 Equations have the form 
 
@@ -231,15 +230,15 @@ then \(y=t^r \implies ar^2+(b-a)r+c=0\)
 
 Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)
 
-\subsubsection{Higher-order, linear equations}
-\label{sec:org5cb8095}
+\subsubsection*{Higher-order, linear equations}
+\label{sec:org4cc446e}
 
 \(a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y'+a_0(t)y=g(t)\)
 
 All second-order methods above extend to \(n^{th}\) order.
 
-\subsubsection{Laplace transform}
-\label{sec:org9361960}
+\subsubsection*{Laplace transform}
+\label{sec:org63492bd}
 
 Laplace is a holy grail of solving differential equations with initial
 values defined. Laplace is the same kind of Bible to engineers like Taylor
@@ -308,8 +307,8 @@ Step (block) function:
 \item \(\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s}\)
 \end{itemize}
 
-\subsubsection{Constant-coefficient, homogeneous systems of ODE}
-\label{sec:org35327b2}
+\subsubsection*{Constant-coefficient, homogeneous systems of ODE}
+\label{sec:org35061d5}
 
 \(\vec{x}' = A \vec{x}\), where \(A\in\mathbb{R}^{n\times n}\), \(x\in\mathbb{R}^n\)
 
@@ -333,34 +332,34 @@ identity matrix.
 \item Find solutions for any eigenvalues
 \end{itemize}
 
-\begin{enumerate}
+\begin{itemize}
 \item Compute the characteristic polynomial \(p(\lambda)\) of \(A\)
-\label{sec:org5a077fd}
+\label{sec:org5e5617a}
 
 \(p(\lambda)=det(A-\lambda I)\)
 
 \item Factor \(p(\lambda)\) into linear factors to yield
-\label{sec:orgfc8e202}
+\label{sec:orgfc52f40}
 
 \(p(\lambda) = c(\lambda-\lambda_1)^{m_1} \cdot \ldots \cdot (\lambda-\lambda_k)^{m_k}\), where \(c=\pm 1\)
 
 \item For each \(\lambda_j\), find \(m_j\) linearly independent generalized eigenvectors \(\{\vec{u_j}^{m_1},\cdots,\vec{u_j}^{m_j}\}\) satisfying
-\label{sec:orga9a7a5e}
+\label{sec:org186f135}
 
 \((A-\lambda_i I)^{m_j} \vec{u} = \vec{0}\)
 
 \item For each \(\vec{u_j}^i\) computed in the previous step, compute \(e^{At}\vec{u_j}^i\) by
-\label{sec:orgeb91eac}
+\label{sec:orgae6a492}
 
 \(e^{At}\vec{u_j}^i\)
 
 \(=e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i\)
 
 \(=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)\)
-\end{enumerate}
+\end{itemize}
 
-\subsubsection{Linear systems of ODE}
-\label{sec:org26881d9}
+\subsubsection*{Linear systems of ODE}
+\label{sec:org6b87851}
 
 \(\vec{x}' = A(t)\vec{x} + \vec{f}(t)\), where \(A\in\mathbb{R}^{n\times n}\),
 \(x\in\mathbb{R}^n\), \(f\in\mathbb{R}^n\)
@@ -375,43 +374,43 @@ If \(A(t)\) is constant-coefficient, then we recover Duhamel's formula:
 
 \(\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds\)
 
-\subsubsection{Applications}
-\label{sec:orgee141cc}
+\subsubsection*{Applications}
+\label{sec:org17b6e44}
 
 There are many applications of differential equations in classical
 mechanics, fields, etc. Below you will find just a snippet of some very
 common Physics 1/2 scenarios
 
 
-\begin{enumerate}
+\begin{itemize}
 \item Falling object
-\label{sec:org744c2ad}
+\label{sec:org62766d0}
 
 \(m\frac{dv}{dt}=mg-bv\), where \(b\) is the air resistance
 
 \item Fluid mix, define \(R_{in}\) and \(R_{out}\)
-\label{sec:org4ab19d2}
+\label{sec:org4e385d7}
 
 \(\frac{dx}{dt}=R_{in}-R_{out}\)
 
 \item Mass-Spring System
-\label{sec:org495c6b3}
+\label{sec:org3d4bf6c}
 
-\begin{enumerate}
+\begin{itemize}
 \item Vertical spring (direction of gravity)
-\label{sec:org0acc7f0}
+\label{sec:org71be8f9}
 
 \(my''=-by'-k(L+y)+mg+F_{ext}(t)\), assume \(KL=mg\), where \(b\) is dumping, and \(k\) is stiffness
 
 \item Horizontal spring
-\label{sec:orgae61849}
+\label{sec:org31449d4}
 
 \(my''=-by'-ky+F_{ext}(t)\), where \(b\) is dumping, and \(k\) is stiffness
-\end{enumerate}
-\end{enumerate}
+\end{itemize}
+\end{itemize}
 
-\subsubsection{Conclusion}
-\label{sec:org82e9d3f}
+\subsubsection*{Conclusion}
+\label{sec:org1576deb}
 
 This is as much as I can recover from my initial experience with differential
 equations. This article is not as much to teach you how to solve them but
