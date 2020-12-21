@@ -1,8 +1,10 @@
 ![preview](./preview.png)
-Differential Equations Cookbook 🔥 {#differential-equations-cookbook-1}
+Differential Equations Cookbook 🔥
 =================================
 
 May 12th, 2020
+
+[(PDF Version)](./index.pdf)
 
 Abstract
 --------

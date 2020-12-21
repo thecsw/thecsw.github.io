@@ -1,13 +1,14 @@
-[[differential-equations-cookbook-1]]
+= Differential Equations Cookbook 🔥
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
-= Differential Equations Cookbook 🔥
 
 May 12th, 2020
+
+link:./index.pdf[(PDF Version)]
 
 [abstract]
 .Abstract
