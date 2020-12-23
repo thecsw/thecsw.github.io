@@ -1,0 +1,108 @@
+% Created 2020-12-23 Wed 16:11
+% Intended LaTeX compiler: xelatex
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{xfrac}
+\usepackage[margin=1.25in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{epsf}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{pslatex}
+\usepackage{hyperref}
+\usepackage[adobe-utopia]{mathdesign}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{textgreek}
+\renewcommand*{\textgreekfontmap}{%
+{phv/*/*}{LGR/neohellenic/*/*}%
+{*/b/n}{LGR/artemisia/b/n}%
+{*/bx/n}{LGR/artemisia/bx/n}%
+{*/*/n}{LGR/artemisia/m/n}%
+{*/b/it}{LGR/artemisia/b/it}%
+{*/bx/it}{LGR/artemisia/bx/it}%
+{*/*/it}{LGR/artemisia/m/it}%
+{*/b/sl}{LGR/artemisia/b/sl}%
+{*/bx/sl}{LGR/artemisia/bx/sl}%
+{*/*/sl}{LGR/artemisia/m/sl}%
+{*/*/sc}{LGR/artemisia/m/sc}%
+{*/*/sco}{LGR/artemisia/m/sco}%
+}
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+\DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+#1\;\delimsize\|\;#2%
+}
+\newcommand{\infdiv}{D\infdivx}
+\DeclarePairedDelimiter{\norm}{\lVert}{\rVert}
+\def\Z{\mathbb Z}
+\def\R{\mathbb R}
+\def\C{\mathbb C}
+\def\N{\mathbb N}
+\def\Q{\mathbb Q}
+\def\x{\vec x }
+\def\a{\vec a }
+\def\b{\vec b }
+\def\y{\vec y }
+\def\A{\mathbf A }
+\def\B{\mathbf B }
+\def\C{\mathbf C }
+\def\bSigma{\mathbf \Sigma }
+\def\vmu{\vec \mu}
+\def\noi{\noindent}
+\onehalfspace
+\usemintedstyle{bw}
+\author{Sandy Urazayev\thanks{thecsw@Mania}}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Sandy Urazayev},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.0.50 (Org mode 9.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\section*{Unnormalized product of MVN}
+\label{sec:orgc9b88f5}
+
+358; 12020 H.E.
+
+\subsection*{Abstract}
+\label{sec:org2f32d9f}
+
+MVN or multivariate Gaussian distribution is a generalization of the
+univariate normal distribution that we all love and dread. While taking a
+computational data science class, we had to find the unnormalized product of
+two joint normal distributions (MVN). There doesn't seem to be much
+literature on that; I wanted to write down how we can approach the problem
+and test my mathjax to its limits.  
+
+\subsection*{Solution}
+\label{sec:orgc4f58ba}
+
+We know that MVN has the PDF form
+
+\begin{equation}
+\mathcal{N}(\x | \vmu, \Sigma) = (2\pi)^{-\frac{D}{2}} \norm{\Sigma}^{-\frac{1}{2}} \exp{(-\frac{1}{2}   (\x - \vmu)^{\top} \Sigma^{-1} (\x - \vmu))}
+\end{equation}
+\end{document}
