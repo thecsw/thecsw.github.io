@@ -19,4 +19,8 @@ Solution
 
 We know that MVN has the PDF form
 
-$\mathcal{N}(\x | \vmu, \Sigma) = (2\pi)^{-\frac{D}{2}} \norm{\Sigma}^{-\frac{1}{2}} \exp{(-\frac{1}{2}   (\x - \vmu)^{\top} \Sigma^{-1} (\x - \vmu))}$
+```{=latex}
+\begin{equation}
+           \mathcal{N}(\x | \vmu, \Sigma) = (2\pi)^{-\frac{D}{2}} \norm{\Sigma}^{-\frac{1}{2}} \exp{(-\frac{1}{2}   (\x - \vmu)^{\top} \Sigma^{-1} (\x - \vmu))}
+\end{equation}
+```
