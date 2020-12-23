@@ -131,7 +131,7 @@ one of the techniques above to find $v(t)$ and then you can find
 $y_2(t)=v(t)y_1(t)$
 
 Use **variation of parameters** to find a particular solution. It\'s
-that system with \$v\$s
+that system with $v$
 
 NOTE: What you if you have a **Cauchy-Euler equation**?
 

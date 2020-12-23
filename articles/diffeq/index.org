@@ -130,7 +130,7 @@ common forms of differential equations. Hope you enjoy
     $y_2(t)=v(t)y_1(t)$
 
     Use *variation of parameters* to find a particular solution. It's that
-    system with $v$s
+    system with $v$
 
     NOTE: What you if you have a *Cauchy-Euler equation*?
 
