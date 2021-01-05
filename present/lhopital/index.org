@@ -41,7 +41,7 @@
 
 * Definition
   Let $f$ and $g$ be both differentiable (derivatives $f'$ and $g'$ exist and
-  are defined), if $\lim_{x \to a} f(x) = \lim_{x \to a} = 0$ or $\pm \infty$
+  are defined), if $\lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0$ or $\pm \infty$
   for all $x$ in the domain with $x \neq a$, then
 
   \begin{equation*}

@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-01-05 Tue 15:57 -->
+<!-- 2021-01-05 Tue 18:58 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>L'Hôpital's rule</title>
@@ -18,73 +18,6 @@
 <link rel='stylesheet' href='/ui/slides.css' type='text/css' media='screen' id='slideProj' />
 <!-- S5 JS -->
 <script src='/ui/slides.js' type='text/javascript'></script>
-
-        <style>
-        /* From: https://endlessparentheses.com/public/css/endless.css */
-        /* See also: https://meta.superuser.com/questions/4788/css-for-the-new-kbd-style */
-        kbd
-        {
-          -moz-border-radius: 6px;
-          -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
-          -webkit-border-radius: 6px;
-          -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
-          background-color: #f7f7f7;
-          border: 1px solid #ccc;
-          border-radius: 6px;
-          box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
-          color: #333;
-          display: inline-block;
-          font-family: 'Droid Sans Mono', monospace;
-          font-size: 80%;
-          font-weight: normal;
-          line-height: inherit;
-          margin: 0 .1em;
-          padding: .08em .4em;
-          text-shadow: 0 1px 0 #fff;
-          word-spacing: -4px;
-        
-          box-shadow: 2px 2px 2px #222; /* MA: An extra I've added. */
-        }
-        </style>
-        <link rel="stylesheet" type="text/css" href="https://alhassy.github.io/org-special-block-extras/tooltipster/dist/css/tooltipster.bundle.min.css"/>
-        
-        <link rel="stylesheet" type="text/css" href="https://alhassy.github.io/org-special-block-extras/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
-        
-        <script type="text/javascript">
-            if (typeof jQuery == 'undefined') {
-                document.write(unescape('%3Cscript src="https://code.jquery.com/jquery-1.10.0.min.js"%3E%3C/script%3E'));
-            }
-        </script>
-        
-         <script type="text/javascript"            src="https://alhassy.github.io/org-special-block-extras/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
-        
-          <script>
-                 $(document).ready(function() {
-                     $('.tooltip').tooltipster({
-                         theme: 'tooltipster-punk',
-                         contentAsHTML: true,
-                         animation: 'grow',
-                         delay: [100,500],
-                         // trigger: 'click'
-                         trigger: 'custom',
-                         triggerOpen: {
-                             mouseenter: true
-                         },
-                         triggerClose: {
-                             originClick: true,
-                             scroll: true
-                         }
-         });
-                 });
-             </script>
-        
-        <style>
-           abbr {color: red;}
-        
-           .tooltip { border-bottom: 1px dotted #000;
-                      color:red;
-                      text-decoration: none;}
-        </style>
 
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -106,8 +39,7 @@
              }
 });
 </script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+<script id="MathJax-script" async src="/scripts/mathjax/tex-mml-svg.js"></script>
 
 </head>
 <body>
@@ -132,8 +64,8 @@
      <h4>5; 12021 H.E.</h4>
 </div>
 
-<div id="outline-container-org05bc09f" class="outline-2  slide">
-<h2 id="org05bc09f"><span class="section-number-2">1</span> Quick recap</h2>
+<div id="outline-container-org2c314ed" class="outline-2  slide">
+<h2 id="org2c314ed"><span class="section-number-2">1</span> Quick recap</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <b>Limit of a function</b> is a fundamental concept in calculus and analysis
@@ -152,8 +84,8 @@ Examples:
 </div>
 </div>
 
-<div id="outline-container-org6084362" class="outline-2  slide">
-<h2 id="org6084362"><span class="section-number-2">2</span> Fact</h2>
+<div id="outline-container-orgc54df59" class="outline-2  slide">
+<h2 id="orgc54df59"><span class="section-number-2">2</span> Fact</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Limit of a fraction of two functions equals to the fraction of limits of those
@@ -174,8 +106,8 @@ Examples:
 </div>
 </div>
 
-<div id="outline-container-org7cb3ea1" class="outline-2  slide">
-<h2 id="org7cb3ea1"><span class="section-number-2">3</span> Motivation</h2>
+<div id="outline-container-org49714ca" class="outline-2  slide">
+<h2 id="org49714ca"><span class="section-number-2">3</span> Motivation</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 What if our limit of functions is undefined? In essence, what if our final
@@ -193,12 +125,12 @@ Examples:
 </div>
 </div>
 
-<div id="outline-container-orgac854e6" class="outline-2  slide">
-<h2 id="orgac854e6"><span class="section-number-2">4</span> Definition</h2>
+<div id="outline-container-orgf95ea44" class="outline-2  slide">
+<h2 id="orgf95ea44"><span class="section-number-2">4</span> Definition</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 Let \(f\) and \(g\) be both differentiable (derivatives \(f'\) and \(g'\) exist and
-are defined), if \(\lim_{x \to a} f(x) = \lim_{x \to a} = 0\) or \(\pm \infty\)
+are defined), if \(\lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0\) or \(\pm \infty\)
 for all \(x\) in the domain with \(x \neq a\), then
 </p>
 
@@ -208,8 +140,8 @@ for all \(x\) in the domain with \(x \neq a\), then
 </div>
 </div>
 
-<div id="outline-container-orgfdb2c90" class="outline-2  slide">
-<h2 id="orgfdb2c90"><span class="section-number-2">5</span> Worked examples</h2>
+<div id="outline-container-orgacf064f" class="outline-2  slide">
+<h2 id="orgacf064f"><span class="section-number-2">5</span> Worked examples</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 Recall some examples from Motivation
@@ -229,8 +161,8 @@ the same value!
 </div>
 </div>
 
-<div id="outline-container-orge41e17b" class="outline-2  slide">
-<h2 id="orge41e17b"><span class="section-number-2">6</span> Extra example</h2>
+<div id="outline-container-orgbe7babb" class="outline-2  slide">
+<h2 id="orgbe7babb"><span class="section-number-2">6</span> Extra example</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 Our second example from motivation
