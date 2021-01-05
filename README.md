@@ -104,7 +104,13 @@ Kernighan:
 -   [The Unix Programming
     Environment](https://en.wikipedia.org/wiki/The_Unix_Programming_Environment)
 
-### Good stuff 💃💃💃
+### Presentations (Academia)
+
+Here are some presentations made for academia
+
+-   [L\'Hôpital\'s rule](./present/lhopital)
+
+### Good stuff
 
 I wish to share this [beautiful
 song](https://en.wikipedia.org/wiki/Por_una_Cabeza) with you
