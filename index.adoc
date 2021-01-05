@@ -48,6 +48,13 @@ transcendence 🐱]
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt 🐕]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
+=== Presentations (Academia)
+
+Here are some presentations made for academia (tutoring, fun topics,
+etc.)
+
+* link:./present/lhopital[L'Hôpital's rule]
+
 === My favorite movies 🎥
 
 I love movies and I think movies deserve a separate full section on my
@@ -102,12 +109,6 @@ Kernighan:
 Language, 2nd Edition]
 * https://en.wikipedia.org/wiki/The_Unix_Programming_Environment[The
 Unix Programming Environment]
-
-=== Presentations (Academia)
-
-Here are some presentations made for academia
-
-* link:./present/lhopital[L'Hôpital's rule]
 
 === Good stuff
 

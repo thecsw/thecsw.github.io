@@ -49,6 +49,13 @@ something new!
 -   [Bring joy back to e-mail with Mutt 🐕](./articles/using_mutt/)
 -   [Installing Glorious Arch Linux ☄️](./articles/installing_arch/)
 
+### Presentations (Academia)
+
+Here are some presentations made for academia (tutoring, fun topics,
+etc.)
+
+-   [L\'Hôpital\'s rule](./present/lhopital)
+
 ### My favorite movies 🎥
 
 I love movies and I think movies deserve a separate full section on my
@@ -103,12 +110,6 @@ Kernighan:
     Edition](https://en.wikipedia.org/wiki/The_C_Programming_Language)
 -   [The Unix Programming
     Environment](https://en.wikipedia.org/wiki/The_Unix_Programming_Environment)
-
-### Presentations (Academia)
-
-Here are some presentations made for academia
-
--   [L\'Hôpital\'s rule](./present/lhopital)
 
 ### Good stuff
 
