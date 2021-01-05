@@ -29,15 +29,17 @@ ORIGINAL_TYPE = org
 INPUT_TYPE = adoc
 OUTPUT_TYPE = html
 
+EXCLUDE_ORIGINAL = -not -path "./present/*"
+EXCLUDE_OUTPUT = -not -path "./articles/quick_dirty_js/*"
 INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
-OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" | sort | diff - $(sort exclude.txt) | grep '<' | sed -E "s/< (.+)/\1/"
+OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" $(EXCLUDE_OUTPUT)
 
 $(NAME):
 	$(Q) $(NOTIFY) "Sandy's Website" "building..."
 	$(E) "	CONVERTING ORG TO ADOC ..."
-	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
+	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | sed -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
 	$(E) "	MAKING README ..."
-	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' | sed -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
+	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | sed -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
 	$(Q) find . -type f -name "README.md" | xargs sed "1 i ![preview](./preview.png)" -i
 	$(E) "	ADJUSTING ADOC"
 	$(Q) $(INPUT_FILES) | xargs sed -E -f ./sed/adoc.sed -i
