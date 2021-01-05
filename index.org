@@ -84,7 +84,12 @@
   - [[https://en.wikipedia.org/wiki/The_C_Programming_Language][C Programming Language, 2nd Edition]] 
   - [[https://en.wikipedia.org/wiki/The_Unix_Programming_Environment][The Unix Programming Environment]]
 
-*** Good stuff 💃💃💃
+*** Presentations (Academia)
+    Here are some presentations made for academia
+
+    - [[./present/lhopital][L'Hôpital's rule]]
+  
+*** Good stuff
     I wish to share this [[https://en.wikipedia.org/wiki/Por_una_Cabeza][beautiful song]] with you
 
     PLAY_SONG porunacabeza.mp3
