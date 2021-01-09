@@ -71,13 +71,10 @@ here is the list:
 ### My favorite shows & soaps 📺🧼
 
 Shows can even have more of a profound effect than movies. Watching a
-good show and its experience can even be aphrodisiacal:
+good show and its experience can even be aphrodisiacal
 
 -   Pride and Prejudice (1995 by BBC1)
 -   Twin Peaks
--   New Girl
--   House
--   Louie
 -   Boston Legal
 
 ### My favorite books 📚
