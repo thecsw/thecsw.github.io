@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 17; 12021 H.E.
+
+A truly great man will neither trample on a worm nor sneak to an
+emperor.
+
+-- B. Franklin
+
 ### 356; 12020 H.E.
 
 TV is chewing gum for the eyes.
