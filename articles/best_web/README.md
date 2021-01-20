@@ -7,6 +7,10 @@ March 3rd, 2020
 This list has some of my favorite stuff on the internet, divided into
 categories with links! The list is completely biased
 
+### Gendo\'s paradise
+
+PLAY~YOUTUBE~ lP9DKGhUiaY
+
 ### The prophecy is true
 
 PLAY~YOUTUBE~ uwmeH6Rnj2E
