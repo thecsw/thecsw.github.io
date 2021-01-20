@@ -2,6 +2,30 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 20; 12021 H.E.
+
+Prince Wang\'s programmer was coding software. His fingers danced upon
+the keyboard. The program compiled without and error message, and the
+program ran like a gentle wind.
+
+\"Excellent!\" the Prince exclaimed. \"Your technique is faultless!\"
+
+\"Technique?\" said the programmer, turning from his terminal, \"What I
+follow is Tao -- beyond all techniques! When I first began to program, I
+would see before me the whole problem in one mass. After three years, I
+no longer saw this mass. Instead, I used subroutines. But now I see
+nothing. My whole being exists in a formless void. My senses are idle.
+My spirit, free to work without a plan, follows its own instinct. In
+short, my program writes itself. True, sometimes there are difficult
+problems. I see them coming, I slow down, I watch silently. Then I
+change a single line of code and the difficulties vanish like puffs of
+idle smoke. I then compile the program. I sit still and let the joy of
+the work fill my being. I close my eyes for a moment and then log off.\"
+
+Prince Wang said, \"Would that all of my programmers were as wise!\"
+
+-- Geoffrey James, \"The Tao of Programming\"
+
 ### 17; 12021 H.E.
 
 A truly great man will neither trample on a worm nor sneak to an
