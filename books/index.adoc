@@ -44,3 +44,26 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 ──────┴─────────────────────────┴───────
  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
 ....
+
+== Bonus
+
+I quite enjoy watching some good anime, here is my anime bookshelf as a
+bonus
+
+....
+┌──────────────────┬───────────────────┐
+│   Kill la Kill   │   Darling in the  │
+├──────────────────┤      FRANXX       │
+│ Brand New Animal ├───────────────────┤
+│      (BNA)       │   Neon Genesis    │
+├──────────────────┤     Evangelion    │
+│     The End      ├───────────────────┤
+│   of Evangelion  │  Evangelion 1.0   │
+├──────────────────┼───────────────────┤
+│   My Neighbor    │  Evangelion 2.0   │
+│     Totoro       ├───────────────────┤
+├──────────────────┤  Evangelion 3.0   │
+│      Kiki's      ├───────────────────┤
+│ Delivery Service │   Kyokou Suiri    │
+└──────────────────┴───────────────────┘
+....
