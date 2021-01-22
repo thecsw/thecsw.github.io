@@ -40,24 +40,31 @@
  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
 #+END_SRC
 
-*(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+psst...   *(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 
-I quite enjoy watching some good anime, here is my anime bookshelf as a bonus
+I enjoy watching some good anime, so here is my VHS-esque shelf full of anime as
+a bonus!
 
  #+BEGIN_SRC
- ┌──────────────────┬───────────────────┐
- │   Kill la Kill   │   Darling in the  │
- ├──────────────────┤      FRANXX       │
- │ Brand New Animal ├───────────────────┤
- │      (BNA)       │   Neon Genesis    │
- ├──────────────────┤     Evangelion    │
- │     The End      ├───────────────────┤
- │   of Evangelion  │  Evangelion 1.0   │
+ ┌──────────────────┐
+ │     Promare      ├───────────────────┐
+ ├──────────────────┤    Little Witch   │
+ │  Spirited Away   │      Academia     │
  ├──────────────────┼───────────────────┤
- │   My Neighbor    │  Evangelion 2.0   │
- │     Totoro       ├───────────────────┤
+ │      Kiki's      │   Kyokou Suiri    │
+ │ Delivery Service ├───────────────────┤
  ├──────────────────┤  Evangelion 3.0   │
- │      Kiki's      ├───────────────────┤
- │ Delivery Service │   Kyokou Suiri    │
- └──────────────────┴───────────────────┘
+ │   My Neighbor    ├───────────────────┤
+ │     Totoro       │  Evangelion 2.0   │
+ ├──────────────────┼───────────────────┤
+ │     The End      │  Evangelion 1.0   │
+ │   of Evangelion  ├───────────────────┤
+ ├──────────────────┤    Neon Genesis   │
+ │ Brand New Animal │     Evangelion    │
+ │      (BNA)       ├───────────────────┤
+ ├──────────────────┤   Darling in the  │
+ │   Kill la Kill   │      FranXX       │
+ ├──────────────────┴───────────────────┘
+ │                                      │
+/   ＼(^─^)／  ヾ｜￣ー￣｜ﾉ  ヽ(〃＾▽＾〃)ﾉ  \
  #+END_SRC
