@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 23; 12021 H.E.
+
+Believe in yourself. Not in the you who believes in me. Not the me who
+believes in you. Believe in the you who believes in yourself.
+
+-   Kamina
+
 ### 21; 12021 H.E.
 
 There once was a man who went to a computer trade show. Each day as he
