@@ -77,6 +77,7 @@ good show and its experience can even be aphrodisiacal
 -   Twin Peaks
 -   Boston Legal
 -   Neon Genesis Evangelion
+-   Tengen Toppa Gurren Lagann
 
 ### My favorite books 📚
 
