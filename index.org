@@ -15,6 +15,7 @@
     them interesting and you can learn something new! Always learn something
     new!
     
+  * Space Patrol Luluco Review 🔫👽
   * [[./blog/web-toolbox][Essential toolbox for the web 🧰]]
   * [[./blog/emacs.sh][Getting Sandy's .emacs.d 🤺]]
   * [[./articles/foundation-time][Using Foundation-style Time 💫]]
@@ -39,7 +40,7 @@
   * [[./articles/using_mutt/][Bring joy back to e-mail with Mutt 🐕]]
   * [[./articles/installing_arch/][Installing Glorious Arch Linux ☄️]]
 
-*** Presentations (Academia)
+*** Other cool stuff
     Here are some presentations made for academia (tutoring, fun topics, etc.)
 
     - [[./present/lhopital][L'Hôpital's rule]]
