@@ -22,6 +22,7 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
+* Space Patrol Luluco Review 🔫👽
 * link:./blog/web-toolbox[Essential toolbox for the web 🧰]
 * link:./blog/emacs.sh[Getting Sandy's .emacs.d 🤺]
 * link:./articles/foundation-time[Using Foundation-style Time 💫]
@@ -48,7 +49,7 @@ transcendence 🐱]
 * link:./articles/using_mutt/[Bring joy back to e-mail with Mutt 🐕]
 * link:./articles/installing_arch/[Installing Glorious Arch Linux ☄️]
 
-=== Presentations (Academia)
+=== Other cool stuff
 
 Here are some presentations made for academia (tutoring, fun topics,
 etc.)
