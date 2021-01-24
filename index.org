@@ -15,7 +15,7 @@
     them interesting and you can learn something new! Always learn something
     new!
     
-  * Space Patrol Luluco Review 🔫👽
+  # * Space Patrol Luluco Review 🔫👽
   * [[./blog/web-toolbox][Essential toolbox for the web 🧰]]
   * [[./blog/emacs.sh][Getting Sandy's .emacs.d 🤺]]
   * [[./articles/foundation-time][Using Foundation-style Time 💫]]
