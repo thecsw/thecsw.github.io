@@ -2,6 +2,14 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 24; 12021 H.E.
+
+The dreams of those who\'ve fallen! The hopes of those who\'ll follow!
+Those two sets of dreams weave together into a double helix! Drilling a
+path towards tomorrow! And that\'s Tengen Toppa! That\'s Gurren Lagann!
+
+-- Simon
+
 ### 23; 12021 H.E.
 
 Believe in yourself. Not in the you who believes in me. Not the me who
