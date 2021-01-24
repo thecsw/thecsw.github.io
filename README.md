@@ -24,7 +24,6 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
--   Space Patrol Luluco Review 🔫👽
 -   [Essential toolbox for the web 🧰](./blog/web-toolbox)
 -   [Getting Sandy\'s .emacs.d 🤺](./blog/emacs.sh)
 -   [Using Foundation-style Time 💫](./articles/foundation-time)
