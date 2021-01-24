@@ -45,9 +45,10 @@ psst... **(ﾉ◕ヮ◕)ﾉ**:･ﾟ✧
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
-
-                        ┌───────────────────┐
-     ┌──────────────────│   Gurren Lagann   │
+     ┌──────────────────┐
+     │   Space Patrol   │
+     │      Luluco      │───────────────────┐
+     └──────────────────┤   Gurren Lagann   │
      │     Promare      ├───────────────────┤
      ├──────────────────┤    Little Witch   │
      │  Spirited Away   │      Academia     │
