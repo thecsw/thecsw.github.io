@@ -45,9 +45,11 @@ psst... **(ﾉ◕ヮ◕)ﾉ**:･ﾟ✧
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
-     ┌──────────────────┐
-     │   Space Patrol   │
-     │      Luluco      │───────────────────┐
+
+
+     ┌──────────────────┌───────────────────┐
+     │   Space Patrol   │  A Silent Voice   │
+     │      Luluco      ├───────────────────┤
      └──────────────────┤   Gurren Lagann   │
      │     Promare      ├───────────────────┤
      ├──────────────────┤    Little Witch   │
