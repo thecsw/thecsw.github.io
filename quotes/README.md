@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 25; 12021 H.E.
+
+Who the hell do you think I am?!
+
+-- Kamina
+
 ### 24; 12021 H.E.
 
 The dreams of those who\'ve fallen! The hopes of those who\'ll follow!
