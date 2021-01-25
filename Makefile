@@ -40,6 +40,9 @@ EXCLUDE_OUTPUT = -not -path "./articles/quick_dirty_js/*" -and -not -path "./pre
 INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
 OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" $(EXCLUDE_OUTPUT)
 
+INPUT_SED = ./sed/adoc.sed
+OUTPUT_SED = ./sed/html.sed
+
 $(NAME):
 	$(Q) $(NOTIFY) "Sandy's Website" "building..."
 	$(E) "	CONVERTING ORG TO ADOC ..."
@@ -48,12 +51,12 @@ $(NAME):
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
 	$(Q) find . -type f -name "README.md" | xargs $(SED) "1 i ![preview](./preview.png)" -i
 	$(E) "	ADJUSTING ADOC"
-	$(Q) $(INPUT_FILES) | xargs $(SED) -E -f ./sed/adoc.sed -i
+	$(Q) $(INPUT_FILES) | xargs $(SED) -E -f $(INPUT_SED) -i
 	$(E) "	ADJUSTING THE HOMEPAGE ..."
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) 's/| Home_LINK//g;/^:/d' -i
 	$(Q) find ./fortunes/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:/d' -i
 	$(E) "	BUILDING ..."
 	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS) 2>/dev/null
 	$(E) "	ADJUSTING HTML"
-	$(Q) $(OUTPUT_FILES) | xargs $(SED) -E -f ./sed/html.sed -i
+	$(Q) $(OUTPUT_FILES) | xargs $(SED) -E -f $(OUTPUT_SED) -i
 	$(Q) $(NOTIFY) "Sandy's Website" "Build complete!"
