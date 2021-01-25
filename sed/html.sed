@@ -18,10 +18,6 @@ s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</ti
 # Make the MathJax script
 s=\$([^$]+)\$=\\(\1\\)=g
 s=<sup>=^=g
-s=</sup>=^=g
-
-# Remove the extra ^ when doing citations
-s=\]\^=\]=g
 
 # Add scripts, like snow effoct
 #s|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g
