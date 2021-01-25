@@ -21,7 +21,7 @@ s=<sup>=^=g
 s=</sup>=^=g
 
 # Remove the extra ^ when doing citations
-s=]^=]=g
+s=\]^=\]=g
 
 # Add scripts, like snow effoct
 #s|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g
