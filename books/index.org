@@ -47,11 +47,12 @@ anime as a bonus!
 
  #+BEGIN_SRC
 
-
- ┌──────────────────┌───────────────────┐
+ ┌──────────────────┐
+ │      Ponya       │
+ ├──────────────────┼───────────────────┐
  │   Space Patrol   │  A Silent Voice   │
  │      Luluco      ├───────────────────┤
- └──────────────────┤   Gurren Lagann   │
+ ├──────────────────┤   Gurren Lagann   │
  │     Promare      ├───────────────────┤
  ├──────────────────┤    Little Witch   │
  │  Spirited Away   │      Academia     │
