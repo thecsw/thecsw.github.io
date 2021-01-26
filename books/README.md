@@ -47,7 +47,7 @@ full of anime as a bonus!
 
                         ┌───────────────────┐
      ┌──────────────────│    The Garden     │
-     │      Ponya       │     of Words      │
+     │      Ponyo       │     of Words      │
      ├──────────────────┼───────────────────┤
      │   Space Patrol   │  A Silent Voice   │
      │      Luluco      ├───────────────────┤
