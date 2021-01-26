@@ -48,7 +48,7 @@ anime as a bonus!
  #+BEGIN_SRC
                     ┌───────────────────┐
  ┌──────────────────│    The Garden     │
- │      Ponya       │     of Words      │
+ │      Ponyo       │     of Words      │
  ├──────────────────┼───────────────────┤
  │   Space Patrol   │  A Silent Voice   │
  │      Luluco      ├───────────────────┤
