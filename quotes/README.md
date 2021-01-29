@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 29; 12021 H.E.
+
+Whether I live or die makes no great difference. In truth, death may be
+the only absolute freedom there is.
+
+-- Kaworu Nagisa
+
 ### 25; 12021 H.E.
 
 Who the hell do you think I am?!
