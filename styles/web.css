@@ -27,6 +27,25 @@ input {
 input:focus {
     border: 2px solid #3a1616;
 }
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #3a1616;
+    border-radius: 6px;
+}
+.button:hover {
+    background-color: #3a1616;
+    color: white;
+}
 a {
   cursor: pointer;
   color: #217ab7;
