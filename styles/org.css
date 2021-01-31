@@ -26,10 +26,10 @@ input:focus {
     border: 2px solid #3a1616;
 }
 .button {
-    background-color: white;
+    background-color: #fffff4;
     border: none;
     color: black;
-    padding: 10px 20px;
+    padding: 6px 14px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -43,6 +43,27 @@ input:focus {
 .button:hover {
     background-color: #3a1616;
     color: white;
+}
+.isa_info, .isa_success, .isa_warning, .isa_error {
+    width: 90%;
+    margin: 10px 0px;
+    padding:12px;
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
 }
 h1,
 h2,
