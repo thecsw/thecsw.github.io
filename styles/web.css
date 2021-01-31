@@ -11,6 +11,23 @@
 img {
   border-radius: 10px;
 }
+input {
+    width: 60%;
+    padding: 10px 16px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 2px solid #dabebe;
+    border-radius: 6px;
+    background: #fffff4;
+    color: #3a1616;
+    font-size: 16px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input:focus {
+    border: 2px solid #3a1616;
+}
 a {
   cursor: pointer;
   color: #217ab7;
