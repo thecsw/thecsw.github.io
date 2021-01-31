@@ -1,43 +1,58 @@
-/* Originally from http://bettermotherfuckingwebsite.com */
 @import url("https://fonts.googleapis.com/css?family=Inconsolata|Inter&display=swap");
 body {
-  margin: 40px auto;
-  max-width: 900px;
-  line-height: 1.6;
-  font-size: 16px;
-  background: #fffff4;
-  /* color: #222; */
-  color: #3a1616;
-  padding: 0 10px;
-  font-family: "Inter", sans-serif;
+    margin: 40px auto;
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 16px;
+    background: #fffff4;
+    color: #3a1616;
+    padding: 0 10px;
+    font-family: "Inter", sans-serif;
+}
+input {
+    width: 60%;
+    padding: 10px 16px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 2px solid #dabebe;
+    border-radius: 6px;
+    background: #fffff4;
+    color: #3a1616;
+    font-size: 16px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input:focus {
+    border: 2px solid #3a1616;
 }
 h1,
 h2,
 h3 {
-  line-height: 1.2;
-  font-family: "Inter", sans-serif;
+    line-height: 1.2;
+    font-family: "Inter", sans-serif;
 }
 img {
-  max-width: 750px;
-  border-radius: 10px;
+    max-width: 750px;
+    border-radius: 10px;
 }
 a {
-  cursor: pointer;
-  color: #217ab7;
-  line-height: inherit;
+    cursor: pointer;
+    color: #217ab7;
+    line-height: inherit;
 }
 a:hover {
-  color: white;
-  background-color: #3297d3;
+    color: white;
+    background-color: #3297d3;
 }
 a:visited {
-  color: #43458b;
-  border-color: #43458b;
+    color: #43458b;
+    border-color: #43458b;
 }
 pre {
-  font-family: "Inconsolata", monospace;
+    font-family: "Inconsolata", monospace;
 }
 ::selection {
-  color: white;
-  background: #ff4081;
+    color: white;
+    background: #ff4081;
 }
