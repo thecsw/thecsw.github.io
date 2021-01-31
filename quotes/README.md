@@ -2,6 +2,15 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 30; 12021 H.E.
+
+Anywhere can be paradise as long as you have the will to live. After
+all, you are alive, so you will always have the chance to be happy. As
+long as the Sun, the Moon, and the Earth exist, everything will be all
+right.
+
+-- Yui Ikari
+
 ### 29; 12021 H.E.
 
 Whether I live or die makes no great difference. In truth, death may be
