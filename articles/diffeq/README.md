@@ -20,8 +20,8 @@ equations. Hope you enjoy
 ### Quick notes
 
 -   $f_x \iff \partial_x f$
--   $A,B,C$ are usually a constants
--   $c_k$ is usually a solution constant that is resolved with initial
+-   $A,B,C$ are usually constants
+-   $c_k$ is usually solution\'s constant that is defined with initial
     conditions
 -   Most of the functions are $\mathbb{R}^k \to \mathbb{R}$,
     $k \in \mathbb{N}^+$
