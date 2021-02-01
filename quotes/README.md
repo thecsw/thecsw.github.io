@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 31; 12021 H.E.
+
+If you know pain and hardship, it's easier to be kind to others.
+
+-- Ryoji Kaji
+
 ### 30; 12021 H.E.
 
 Anywhere can be paradise as long as you have the will to live. After
