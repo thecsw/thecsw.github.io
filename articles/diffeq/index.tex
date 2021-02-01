@@ -1,4 +1,4 @@
-% Created 2021-01-31 Sun 14:22
+% Created 2021-02-01 Mon 17:30
 % Intended LaTeX compiler: xelatex
 \documentclass[12pt]{article}
 \usepackage{graphicx}
@@ -19,7 +19,7 @@
 \usepackage{subcaption}
 \usepackage{mathtools}
 \usepackage{xfrac}
-\usepackage[margin=1.25in]{geometry}
+\usepackage[margin=1in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{color}
 \usepackage{epsf}
@@ -74,14 +74,14 @@
 \begin{document}
 
 \section*{Differential Equations Cookbook 🔥}
-\label{sec:org12e65db}
+\label{sec:orgf7a221a}
 
 May 12th, 2020
 
 \href{./index.pdf}{(PDF Version)}
 
 \subsection*{Abstract}
-\label{sec:org635ba61}
+\label{sec:org5524267}
 
 When I got first introduced to differential equations, I had a love-hate
 relationship with it. Mainly due to some back-of-the-book problems we were given
@@ -91,7 +91,7 @@ fields, and everything. This articles is merely an intro on manually solving
 common forms of differential equations. Hope you enjoy
 
 \subsubsection*{Quick notes}
-\label{sec:org3771a40}
+\label{sec:org95268a9}
 
 \begin{itemize}
 \item \(f_x \iff \partial_x f\)
@@ -104,7 +104,7 @@ top of the page.
 
 
 \subsubsection*{First-order, linear}
-\label{sec:org26412da}
+\label{sec:org9616324}
 
 Those equations have the form: \(y' + p(t) y = q(t)\)
 
@@ -114,7 +114,7 @@ Then \(\frac{d}{dt}(\mu(t)y) = q(t) \mu(t)\)
 \(\implies y = \frac{\int q(t) \mu(t) dt}{\mu(t)}\)
 
 \subsubsection*{First-order, separable}
-\label{sec:org4b6e754}
+\label{sec:orge4e2ffe}
 
 Those equations have the form: \(\frac{dy}{dx} = f(x)g(y)\)
 
@@ -123,7 +123,7 @@ Find the solution by solving \(\int \frac{dy}{g(y)} = \int f(x) dx\)
 Solve for exact (explicit) values of \(y\)
 
 \subsubsection*{Exact equations}
-\label{sec:org633a839}
+\label{sec:orgeb48460}
 
 They have the form \(M(x,y) + N(x,y) \frac{dy}{dx} = 0\)
 
@@ -144,7 +144,7 @@ finding \(F(x,y)\)
 \end{itemize}
 
 \subsubsection*{Second-order, linear, constant-coefficient equations}
-\label{sec:orgd80364f}
+\label{sec:org5338552}
 
 They have the form \(y'' + p y' + q y = f(t)\)
 
@@ -188,7 +188,7 @@ Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where
 So the final solution is \(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)
 
 \subsubsection*{Second-order, linear, variable-coefficient equations}
-\label{sec:org476d7de}
+\label{sec:orgf4a775e}
 
 Equations have the form 
 
@@ -231,14 +231,14 @@ then \(y=t^r \implies ar^2+(b-a)r+c=0\)
 Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)
 
 \subsubsection*{Higher-order, linear equations}
-\label{sec:org08439a0}
+\label{sec:orga9b503b}
 
 \(a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y'+a_0(t)y=g(t)\)
 
 All second-order methods above extend to \(n^{th}\) order.
 
 \subsubsection*{Laplace transform}
-\label{sec:org89374eb}
+\label{sec:orgb93bae9}
 
 Laplace is a holy grail of solving differential equations with initial
 values defined. Laplace is the same kind of Bible to engineers like Taylor
@@ -308,7 +308,7 @@ Step (block) function:
 \end{itemize}
 
 \subsubsection*{Constant-coefficient, homogeneous systems of ODE}
-\label{sec:org55bcc36}
+\label{sec:org0bc0a86}
 
 \(\vec{x}' = A \vec{x}\), where \(A\in\mathbb{R}^{n\times n}\), \(x\in\mathbb{R}^n\)
 
@@ -334,22 +334,22 @@ identity matrix.
 
 \begin{itemize}
 \item Compute the characteristic polynomial \(p(\lambda)\) of \(A\)
-\label{sec:org5c831bb}
+\label{sec:orge8ee6eb}
 
 \(p(\lambda)=det(A-\lambda I)\)
 
 \item Factor \(p(\lambda)\) into linear factors to yield
-\label{sec:orgb6a001b}
+\label{sec:orgea13ba8}
 
 \(p(\lambda) = c(\lambda-\lambda_1)^{m_1} \cdot \ldots \cdot (\lambda-\lambda_k)^{m_k}\), where \(c=\pm 1\)
 
 \item For each \(\lambda_j\), find \(m_j\) linearly independent generalized eigenvectors \(\{\vec{u_j}^{m_1},\cdots,\vec{u_j}^{m_j}\}\) satisfying
-\label{sec:orga9a6752}
+\label{sec:org9e7306c}
 
 \((A-\lambda_i I)^{m_j} \vec{u} = \vec{0}\)
 
 \item For each \(\vec{u_j}^i\) computed in the previous step, compute \(e^{At}\vec{u_j}^i\) by
-\label{sec:org8100ca6}
+\label{sec:orgf32fe3d}
 
 \(e^{At}\vec{u_j}^i\)
 
@@ -359,7 +359,7 @@ identity matrix.
 \end{itemize}
 
 \subsubsection*{Linear systems of ODE}
-\label{sec:orgf59f6e6}
+\label{sec:orgc98eca8}
 
 \(\vec{x}' = A(t)\vec{x} + \vec{f}(t)\), where \(A\in\mathbb{R}^{n\times n}\),
 \(x\in\mathbb{R}^n\), \(f\in\mathbb{R}^n\)
@@ -375,7 +375,7 @@ If \(A(t)\) is constant-coefficient, then we recover Duhamel's formula:
 \(\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds\)
 
 \subsubsection*{Applications}
-\label{sec:org07f710b}
+\label{sec:org68d33e8}
 
 There are many applications of differential equations in classical
 mechanics, fields, etc. Below you will find just a snippet of some very
@@ -384,33 +384,33 @@ common Physics 1/2 scenarios
 
 \begin{itemize}
 \item Falling object
-\label{sec:orgeaca72a}
+\label{sec:orgc6f2510}
 
 \(m\frac{dv}{dt}=mg-bv\), where \(b\) is the air resistance
 
 \item Fluid mix, define \(R_{in}\) and \(R_{out}\)
-\label{sec:org0424561}
+\label{sec:org9d696d5}
 
 \(\frac{dx}{dt}=R_{in}-R_{out}\)
 
 \item Mass-Spring System
-\label{sec:org9ca6ff4}
+\label{sec:org8bb37ff}
 
 \begin{itemize}
 \item Vertical spring (direction of gravity)
-\label{sec:org8283292}
+\label{sec:orgbbf98eb}
 
 \(my''=-by'-k(L+y)+mg+F_{ext}(t)\), assume \(KL=mg\), where \(b\) is dumping, and \(k\) is stiffness
 
 \item Horizontal spring
-\label{sec:orgff3c38e}
+\label{sec:orgc6406bc}
 
 \(my''=-by'-ky+F_{ext}(t)\), where \(b\) is dumping, and \(k\) is stiffness
 \end{itemize}
 \end{itemize}
 
 \subsubsection*{Conclusion}
-\label{sec:orgd899c33}
+\label{sec:org6989097}
 
 This is as much as I can recover from my initial experience with differential
 equations. This article is not as much to teach you how to solve them but
