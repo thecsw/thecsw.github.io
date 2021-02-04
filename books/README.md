@@ -46,8 +46,10 @@ I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
 
-                        ┌───────────────────┐
-     ┌──────────────────│     Dr. Stone     │
+     ┌──────────────────┐
+     │  Panty Stocking  │
+     │ with Garterbelt  │───────────────────┐
+     ├──────────────────┤     Dr. Stone     │
      │       FLCL       ├───────────────────┤
      ├──────────────────┤    The Garden     │
      │      Ponyo       │     of Words      │

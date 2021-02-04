@@ -47,8 +47,10 @@ anime as a bonus!
 
  #+BEGIN_SRC
 
-                    ┌───────────────────┐
- ┌──────────────────│     Dr. Stone     │
+ ┌──────────────────┐
+ │  Panty Stocking  │
+ │ with Garterbelt  │───────────────────┐
+ ├──────────────────┤     Dr. Stone     │
  │       FLCL       ├───────────────────┤
  ├──────────────────┤    The Garden     │
  │      Ponyo       │     of Words      │
