@@ -47,9 +47,11 @@ anime as a bonus!
 
  #+BEGIN_SRC
 
- ┌──────────────────┐
- │  Panty Stocking  │
- │ with Garterbelt  │───────────────────┐
+
+                    ┌───────────────────┐
+ ┌──────────────────│      Kimi no      │
+ │  Panty Stocking  │       Na Wa       │
+ │ with Garterbelt  ├───────────────────┤
  ├──────────────────┤     Dr. Stone     │
  │       FLCL       ├───────────────────┤
  ├──────────────────┤    The Garden     │
