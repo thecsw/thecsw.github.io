@@ -2,6 +2,14 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 54; 12021 H.E.
+
+Don\'t be distracted by the what-if\'s, should-have\'s, and if-only\'s.
+The one thing you choose for yourself - that is the truth of your
+universe.
+
+-- Kamina
+
 ### 42; 12021 H.E.
 
 A true man never dies, even when he\'s killed.
