@@ -45,9 +45,12 @@ psst... **(ﾉ◕ヮ◕)ﾉ**:･ﾟ✧
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
-     ┌──────────────────┐
-     │    When Marnie   │
-     │     Was There    ├───────────────────┐
+
+
+                        ┌───────────────────┐
+     ┌──────────────────┤   Mary and the    │
+     │    When Marnie   │  Witch's Flower   │
+     │     Was There    ├───────────────────┤
      ├──────────────────┤      Kimi no      │
      │  Panty Stocking  │       Na Wa       │
      │ with Garterbelt  ├───────────────────┤
