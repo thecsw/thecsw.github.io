@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 67; 12021 H.E.
+
+Quality control, n.:
+
+Assuring that the quality of a product does not get out of hand and add
+to the cost of its manufacture or design.
+
 ### 54; 12021 H.E.
 
 Don\'t be distracted by the what-if\'s, should-have\'s, and if-only\'s.
