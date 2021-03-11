@@ -49,7 +49,7 @@ Solve for exact (explicit) values of $y$
 
 They have the form $M(x,y) + N(x,y) \frac{dy}{dx} = 0$
 
--   $(\xi)$ If $M_y = N_y$
+-   $(\xi)$ If $M_y = N_x$
 
     $\implies$ Find such $F(x,y)=C$, where $F_x = M$, $F_y = N$
 
