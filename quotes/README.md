@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 71; 12021 H.E.
+
+Nothing matters very much, and few things matter at all.
+
+-- Arthur Balfour
+
 ### 67; 12021 H.E.
 
 Quality control, n.:
