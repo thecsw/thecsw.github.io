@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 79; 12021 H.E.
+
+Q: How many psychiatrists does it take to change a light bulb?
+
+A: Only one, but it takes a long time, and the light bulb has to really
+want to change.
+
 ### 71; 12021 H.E.
 
 Nothing matters very much, and few things matter at all.
