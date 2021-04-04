@@ -81,12 +81,16 @@ a {
     line-height: inherit;
 }
 a:hover {
-    color: white;
-    background-color: #3297d3;
+  color: white;
+  background-color: #3297d3;
 }
 a:visited {
-    color: #43458b;
-    border-color: #43458b;
+  color: #43458b;
+  border-color: #43458b;
+}
+a:visited:hover {
+  color: white;
+  background-color: #9251ac;
 }
 pre {
     font-family: "Inconsolata", monospace;
