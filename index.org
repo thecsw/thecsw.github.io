@@ -15,7 +15,6 @@
     them interesting and you can learn something new! Always learn something
     new!
     
-  # * Space Patrol Luluco Review 🔫👽
   * [[./blog/web-toolbox][Essential toolbox for the web 🧰]]
   * [[./blog/emacs.sh][Getting Sandy's .emacs.d 🤺]]
   * [[./articles/foundation-time][Using Foundation-style Time 💫]]
@@ -43,6 +42,7 @@
 *** Other cool stuff
     Here are some presentations made for academia (tutoring, fun topics, etc.)
 
+    - [[https://sandyuraz.com/tutor_sp21/][Sandy's Tutor Notes for Spring 2021]]
     - [[https://sandyuraz.com/math220_sp21][MATH 220 Sp 21 Oracles]]
     - [[./present/lhopital][L'Hôpital's rule]]
   
