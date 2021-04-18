@@ -1,4 +1,18 @@
 * Sandy's fortunes 🥠
+*** 108; 12021 H.E.
+ 
+There are two ways of constructing a software design.  One way is to make
+it so simple that there are obviously no deficiencies and the other is to
+make it so complicated that there are no obvious deficiencies.
+  -- C.A.R. Hoare
+
+*** 108; 12021 H.E.
+ 
+There are two ways of constructing a software design.  One way is to make
+it so simple that there are obviously no deficiencies and the other is to
+make it so complicated that there are no obvious deficiencies.
+  -- C.A.R. Hoare
+
 *** 100; 12021 H.E.
  
 Ever get the feeling that the world's on tape and one of the reels is missing?
