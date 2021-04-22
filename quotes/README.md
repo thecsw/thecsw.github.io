@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 111; 12021 H.E.
+
+The sum of the intelligence of the world is constant. The population is,
+of course, growing.
+
 ### 110; 12021 H.E.
 
 f u cn rd ths, u cn gt a gd jb n cmptr prgrmmng
