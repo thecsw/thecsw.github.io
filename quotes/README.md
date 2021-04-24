@@ -4,6 +4,12 @@ Sandy\'s fortunes 🥠
 
 ### 114; 12021 H.E.
 
+Moderation in all things.
+
+-- Publius Terentius Afer \[Terence\]
+
+### 114; 12021 H.E.
+
 The man who runs may fight again.
 
 -- Menander
