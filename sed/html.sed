@@ -41,4 +41,4 @@ s|PLAY_YOUTUBE ([^<>]+)|<iframe width="420" height="256" src="https://www.youtub
 s|GIST ([^<>]+)|<script src="https://gist.github.com/\1.js"></script>|
 
 # Add the HE time
-450i<div id="hetime" class="details"></div>
+448i<div id="hetime" class="details"></div>
