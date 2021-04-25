@@ -26,7 +26,7 @@ jobs:
 
       - name: Ruby dependencies
         run: |
-          sudo gem install asciidoctor
+          sudo gem install asciidoctor -v 2.0.10
 
       - name: Make 🔧
         run: |
