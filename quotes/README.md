@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 116; 12021 H.E.
+
+Because we don\'t think about future generations, they will never forget
+us.
+
+-- Henrik Tikkanen
+
 ### 115; 12021 H.E.
 
 Let us read, and let us dance; these two amusements will never do any
