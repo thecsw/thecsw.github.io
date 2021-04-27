@@ -1,0 +1,14 @@
+= Other cool stuff
+Sagindyk Urazayev <ctu@ku.edu>
+About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
+:toc: left
+:toc-title: Table of Adventures ⛵
+:nofooter:
+:experimental:
+
+Here are some presentations made for academia (tutoring, fun topics,
+etc.)
+
+* https://sandyuraz.com/tutor_sp21/[Sandy's Tutor Notes for Spring 2021]
+* https://sandyuraz.com/math220_sp21[MATH 220 Sp 21 Oracles]
+* link:./present/lhopital[L'Hôpital's rule]

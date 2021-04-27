@@ -1,0 +1,35 @@
+= My cozy blog 💻
+Sagindyk Urazayev <ctu@ku.edu>
+About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
+:toc: left
+:toc-title: Table of Adventures ⛵
+:nofooter:
+:experimental:
+
+Here is a list of my articles I have online. I hope you will find some
+of them interesting and you can learn something new! Always learn
+something new!
+
+* link:./web-toolbox[Essential toolbox for the web 🧰]
+* link:./emacs.sh[Getting Sandy's .emacs.d 🤺]
+* link:./foundation-time[Using Foundation-style Time 💫]
+* link:./song_challenge[My 30-day song challenge 🎵🤘]
+* link:./githubio[Custom domains with Github Pages 🦉]
+* link:./diffeq[Differential Equations Cookbook 🔥]
+* link:./orgmode-css[Prettifying Org Mode with CSS 💅]
+* link:./emacsd[Setting up an emacs server 😈]
+* link:./go-emacs[Becoming an emacs gopher 🐗]
+* link:./twin-peaks[Twin Peaks as a Cult Film 🌲🌲]
+* link:./encrypting_usb[Encrypting your drive with LUKS 🗝]
+* link:./ryan_codes[Programmer Ryan Gosling: Legacy 👨‍💻]
+* link:./mira_reddit[Building Reddit apps in Go with mira ⛳]
+* link:./good_bad_movies[Watching good and bad movies 🎭]
+* link:./why_use_emojis[Why use emojis? 🎷🕺]
+* link:./quick_dirty_js/exercise3[Cat that reached transcendence 🐱]
+* link:./best_web[My favorite stuff on the web 🌍]
+* link:./sqrt2irrational[$\sqrt{2}$ is irrational ◻]
+* link:./better_mutt[Faster, better, stronger neomutt 🐩]
+* link:./year_12019[Welcome to year 12,019 📅]
+* link:./mini_jenni[Mini Jenni - my new best friend 🏮]
+* link:./using_mutt[Bring joy back to e-mail with Mutt 🐕]
+* link:./installing_arch[Installing Glorious Arch Linux ☄️]
