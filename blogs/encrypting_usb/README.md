@@ -2,7 +2,7 @@
 Encrypting your drive with LUKS 🗝
 =================================
 
-April 11th
+April 11th, 2020
 
 Abstract
 --------
