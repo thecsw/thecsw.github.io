@@ -1,0 +1,16 @@
+* This Website 🌐
+  I love typesetting tools. In my experience, I have used and written
+  articles and papers using the following list of tools: =LaTeX=, =groff=,
+  =markdown=, =Org-Mode=, =asciidoctor=, =HTML=, =plain text=. I had to
+  decompress Word files and wrestle with raw XML files there, what a trip
+  that was.
+  
+  This beautiful website typed in [[https://orgmode.org/][Org-Mode]] and built using [[http://asciidoctor.org][Asciidoctor]]. The
+  source code is [[https://github.com/thecsw/thecsw.github.io][here]].
+  
+  It is one of my dreams to typeset documents and books like Brian
+  Kernighan:
+    
+  - [[https://www.gopl.io/][The GO Programming Language]]
+  - [[https://en.wikipedia.org/wiki/The_C_Programming_Language][C Programming Language, 2nd Edition]] 
+  - [[https://en.wikipedia.org/wiki/The_Unix_Programming_Environment][The Unix Programming Environment]]
