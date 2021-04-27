@@ -18,18 +18,16 @@ website. There is something profound about Web 1.0, like
 have their own website that allows them to modify it in any conceivable
 way. Please enjoy!
 
-### Directory
+### 🀏 [My cozy blog 💻](./blogs/)
 
-1.  🀄︎ [My cozy blog 💻](./blogs/)
+### 🀀 [Other cool stuff](./stuff)
 
-2.  🀀 [Other cool stuff](./stuff)
+### 🀁 [My favorite shows & soaps 📺🧼](./shows)
 
-3.  🀁 [My favorite shows & soaps 📺🧼](./shows)
+### 🀂 [My favorite movies 🎥](./movies)
 
-4.  🀂 [My favorite movies 🎥](./movies)
+### 🀃 [My favorite books 📚](./reading)
 
-5.  🀃 [My favorite books 📚](./reading)
+### 🀅 [This Website 🌐](./web)
 
-6.  🀅 [This Website 🌐](./web)
-
-7.  🀇 [For your soul 💃](./soul)
+### 🀇 [For your soul 💃](./soul)
