@@ -46,17 +46,26 @@ OUTPUT_SED = ./sed/html.sed
 $(NAME):
 	$(Q) $(NOTIFY) "Sandy's Website" "building..."
 	$(E) "	CONVERTING ORG TO ADOC ..."
+	$(E) "Converting org files into asciidoctor files with pandoc"
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
 	$(E) "	MAKING README ..."
+	$(E) "Converting org files into markdown README.md files with pandoc"
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
+	$(E) "Inserting README.md markdown previews"
 	$(Q) find . -type f -name "README.md" | xargs $(SED) "1 i ![preview](./preview.png)" -i
 	$(E) "	ADJUSTING ADOC"
+	$(E) "Adding some asciidoctor elements and boilerplate"
 	$(Q) $(INPUT_FILES) | xargs $(SED) -E -f $(INPUT_SED) -i
 	$(E) "	ADJUSTING THE HOMEPAGE ..."
-	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) 's/| Home_LINK//g;/^:/d' -i
-	$(Q) find ./fortunes/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:/d' -i
+	$(E) "Removing the home link from the root page, because it's already home"
+	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) 's/| Home_LINK//g' -i
+	$(E) "Do not show the table of contents on the root page and on fortunes page"
+	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
+	$(Q) find ./fortunes/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
 	$(E) "	BUILDING ..."
+	$(E) "Invoking asciidoctor to build the html documents"
 	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS) 2>/dev/null
 	$(E) "	ADJUSTING HTML"
+	$(E) "Adding foundation time element and fixing html"
 	$(Q) $(OUTPUT_FILES) | xargs $(SED) -E -f $(OUTPUT_SED) -i
 	$(Q) $(NOTIFY) "Sandy's Website" "Build complete!"
