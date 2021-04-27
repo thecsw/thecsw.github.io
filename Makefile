@@ -43,29 +43,33 @@ OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" $(EXCLUDE_OUTPUT)
 INPUT_SED = ./sed/adoc.sed
 OUTPUT_SED = ./sed/html.sed
 
+SCRIPT_DESC = ./sh/og_desc.sh
+
 $(NAME):
 	$(Q) $(NOTIFY) "Sandy's Website" "building..."
-	$(E) "	CONVERTING ORG TO ADOC ..."
+	$(E) "\n->	CONVERTING ORG TO ADOC ..."
 	$(E) "Converting org files into asciidoctor files with pandoc"
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)\.$(ORIGINAL_TYPE)$$|pandoc -i \1.$(ORIGINAL_TYPE) -o \1.$(INPUT_TYPE)|g' | sh
-	$(E) "	MAKING README ..."
+	$(E) "\n->	MAKING README ..."
 	$(E) "Converting org files into markdown README.md files with pandoc"
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
 	$(E) "Inserting README.md markdown previews"
 	$(Q) find . -type f -name "README.md" | xargs $(SED) "1 i ![preview](./preview.png)" -i
-	$(E) "	ADJUSTING ADOC"
+	$(E) "\n->	ADJUSTING ADOC"
 	$(E) "Adding some asciidoctor elements and boilerplate"
 	$(Q) $(INPUT_FILES) | xargs $(SED) -E -f $(INPUT_SED) -i
-	$(E) "	ADJUSTING THE HOMEPAGE ..."
+	$(E) "\n->	ADJUSTING THE HOMEPAGE ..."
 	$(E) "Removing the home link from the root page, because it's already home"
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) 's/| Home_LINK//g' -i
 	$(E) "Do not show the table of contents on the root page and on fortunes page"
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
 	$(Q) find ./fortunes/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
-	$(E) "	BUILDING ..."
+	$(E) "\n->	BUILDING ..."
 	$(E) "Invoking asciidoctor to build the html documents"
 	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS) 2>/dev/null
-	$(E) "	ADJUSTING HTML"
+	$(E) "\n->	ADJUSTING HTML"
 	$(E) "Adding foundation time element and fixing html"
 	$(Q) $(OUTPUT_FILES) | xargs $(SED) -E -f $(OUTPUT_SED) -i
+	$(E) "Adding page-specific description to each html file"
+	$(OUTPUT_FILES) | xargs -n1 $(SCRIPT_DESC)
 	$(Q) $(NOTIFY) "Sandy's Website" "Build complete!"
