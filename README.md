@@ -20,7 +20,7 @@ way. Please enjoy!
 
 ### 🀏 [My cozy blog 💻](./blogs/)
 
-### 🀀 [Other cool stuff](./stuff)
+### 🀀 [Cool stuff 🦎](./stuff)
 
 ### 🀁 [My favorite shows & soaps 📺🧼](./shows)
 

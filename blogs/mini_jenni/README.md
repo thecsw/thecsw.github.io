@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Mini Jenni - my new best friend 🏮
-=================================
+Mini Jenni - my new best friend 👯‍♀️
+====================================
 
 May 16th, 2019
 
