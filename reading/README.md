@@ -1,5 +1,5 @@
 ![preview](./preview.png)
-My favorite books 📚
+My reading habits 📚
 ===================
 
 Reading makes me sleepy, but here are some that give me good dreams:
