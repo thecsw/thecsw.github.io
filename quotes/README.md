@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 117; 12021 H.E.
+
+Writing, to me, is simply thinking through my fingers.
+
+-- Isaac Asimov
+
 ### 116; 12021 H.E.
 
 Because we don\'t think about future generations, they will never forget
