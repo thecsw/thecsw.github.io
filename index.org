@@ -10,11 +10,10 @@
     [[http://fmboschetto.it][fmboschetto.it]]. Maybe more people will try to have their own website that
     allows them to modify it in any conceivable way. Please enjoy!
 
-*** Directory
-**** 🀄︎ [[./blogs/][My cozy blog 💻]]
-**** 🀀 [[./stuff][Other cool stuff]]  
-**** 🀁 [[./shows][My favorite shows & soaps 📺🧼]]
-**** 🀂 [[./movies][My favorite movies 🎥]]
-**** 🀃 [[./reading][My favorite books 📚]]
-**** 🀅 [[./web][This Website 🌐]]
-**** 🀇 [[./soul][For your soul 💃]]
+*** 🀏 [[./blogs/][My cozy blog 💻]]
+*** 🀀 [[./stuff][Other cool stuff]]  
+*** 🀁 [[./shows][My favorite shows & soaps 📺🧼]]
+*** 🀂 [[./movies][My favorite movies 🎥]]
+*** 🀃 [[./reading][My favorite books 📚]]
+*** 🀅 [[./web][This Website 🌐]]
+*** 🀇 [[./soul][For your soul 💃]]
