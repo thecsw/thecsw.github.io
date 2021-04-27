@@ -1,0 +1,23 @@
+* Getting Sandy's .emacs.d 🤺
+
+212; 12020 H.E.
+
+After years of carefully cultivating and taking care of my =.emacs.d= config
+files, I thought it may be time to try and share it, maybe someone will like it 
+
+I host my =.emacs.d= on [[https://github.com/thecsw/.emacs.d][github]], however, it depends on some LSP quirks and go
+tools that I decided writing a quick shell script to do the work. You can visit
+the config's webpage [[https://sandyuraz.com/.emacs.d][here]]. 
+
+All you have to run is the curl command below in your home directory (=~=)
+
+NOTE: existing installation will move to .bak append
+
+#+BEGIN_SRC sh
+curl -fsSL https://raw.githubusercontent.com/thecsw/thecsw.github.io/master/sh/emacs.sh | sh
+#+END_SRC
+
+It will clone =.emacs.d=, symlink =.emacs=, and optionally install golang X
+tools (considering you have Go installed)
+
+Read more on [[../emacsd][getting an emacs server running]] (better use emacs-lsp now)
