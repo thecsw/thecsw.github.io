@@ -23,6 +23,6 @@
   * [[./sqrt2irrational][$\sqrt{2}$ is irrational ◻]]
   * [[./better_mutt][Faster, better, stronger neomutt 🐩]]
   * [[./year_12019][Welcome to year 12,019 📅]]
-  * [[./mini_jenni][Mini Jenni - my new best friend 🏮]]
+  * [[./mini_jenni][Mini Jenni - my new best friend 👯‍♀️]]
   * [[./using_mutt][Bring joy back to e-mail with Mutt 🐕]]
   * [[./installing_arch][Installing Glorious Arch Linux ☄️]]
