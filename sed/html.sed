@@ -22,13 +22,12 @@ s|Time_LINK|<p id="time"></p>|
 # Some more Open Graph properties about what each webpage is
 /<title/i\<meta property="og:locale" content="en_GB">
 /<title/i\<meta property="og:type" content="website">
-/<title/i\<meta property="og:description" content="I don&#8217;t really use facebook™ or MySpace, so this webpage is kind of my">
 
 # Extract the value from title tag and put it into title meta property
 s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</title>|g
 
-# Site description
-/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome">
+# Site description is set in the makefile by sh/og_desc.sh
+#/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome">
 
 # Cut the mustard: https://fettblog.eu/cutting-the-mustard-2018/
 # Taken from: https://www.matuzo.at/blog/html-boilerplate/
