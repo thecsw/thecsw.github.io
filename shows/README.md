@@ -1,0 +1,12 @@
+![preview](./preview.png)
+My favorite shows & soaps 📺🧼
+============================
+
+Shows can even have more of a profound effect than movies. Watching a
+good show and its experience can even be aphrodisiacal
+
+-   Pride and Prejudice (1995 by BBC1)
+-   Twin Peaks
+-   Boston Legal
+-   Neon Genesis Evangelion
+-   Tengen Toppa Gurren Lagann

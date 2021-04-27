@@ -1,0 +1,16 @@
+= My favorite shows & soaps 📺🧼
+Sagindyk Urazayev <ctu@ku.edu>
+About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
+:toc: left
+:toc-title: Table of Adventures ⛵
+:nofooter:
+:experimental:
+
+Shows can even have more of a profound effect than movies. Watching a
+good show and its experience can even be aphrodisiacal
+
+* Pride and Prejudice (1995 by BBC1)
+* Twin Peaks
+* Boston Legal
+* Neon Genesis Evangelion
+* Tengen Toppa Gurren Lagann
