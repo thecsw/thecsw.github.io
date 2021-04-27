@@ -16,12 +16,16 @@ http://burger.com[burger.com] and http://fmboschetto.it[fmboschetto.it].
 Maybe more people will try to have their own website that allows them to
 modify it in any conceivable way. Please enjoy!
 
-=== Directory
+=== 🀏 link:./blogs/[My cozy blog 💻]
 
-. 🀄︎ link:./blogs/[My cozy blog 💻]
-. 🀀 link:./stuff[Other cool stuff]
-. 🀁 link:./shows[My favorite shows & soaps 📺🧼]
-. 🀂 link:./movies[My favorite movies 🎥]
-. 🀃 link:./reading[My favorite books 📚]
-. 🀅 link:./web[This Website 🌐]
-. 🀇 link:./soul[For your soul 💃]
+=== 🀀 link:./stuff[Other cool stuff]
+
+=== 🀁 link:./shows[My favorite shows & soaps 📺🧼]
+
+=== 🀂 link:./movies[My favorite movies 🎥]
+
+=== 🀃 link:./reading[My favorite books 📚]
+
+=== 🀅 link:./web[This Website 🌐]
+
+=== 🀇 link:./soul[For your soul 💃]
