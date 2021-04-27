@@ -71,5 +71,5 @@ $(NAME):
 	$(E) "Adding foundation time element and fixing html"
 	$(Q) $(OUTPUT_FILES) | xargs $(SED) -E -f $(OUTPUT_SED) -i
 	$(E) "Adding page-specific description to each html file"
-	$(OUTPUT_FILES) | xargs -n1 $(SCRIPT_DESC)
+	$(OUTPUT_FILES) | xargs -n1 sh $(SCRIPT_DESC)
 	$(Q) $(NOTIFY) "Sandy's Website" "Build complete!"
