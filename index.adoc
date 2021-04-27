@@ -18,7 +18,7 @@ modify it in any conceivable way. Please enjoy!
 
 === 🀏 link:./blogs/[My cozy blog 💻]
 
-=== 🀀 link:./stuff[Other cool stuff]
+=== 🀀 link:./stuff[Cool stuff 🦎]
 
 === 🀁 link:./shows[My favorite shows & soaps 📺🧼]
 

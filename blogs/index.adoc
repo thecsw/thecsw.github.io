@@ -30,6 +30,6 @@ something new!
 * link:./sqrt2irrational[$\sqrt{2}$ is irrational ◻]
 * link:./better_mutt[Faster, better, stronger neomutt 🐩]
 * link:./year_12019[Welcome to year 12,019 📅]
-* link:./mini_jenni[Mini Jenni - my new best friend 🏮]
+* link:./mini_jenni[Mini Jenni - my new best friend 👯‍♀️]
 * link:./using_mutt[Bring joy back to e-mail with Mutt 🐕]
 * link:./installing_arch[Installing Glorious Arch Linux ☄️]

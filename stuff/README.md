@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Other cool stuff
-================
+Cool stuff 🦎
+============
 
 Here are some presentations made for academia (tutoring, fun topics,
 etc.)
