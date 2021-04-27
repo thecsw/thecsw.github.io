@@ -22,11 +22,11 @@ way. Please enjoy!
 
 ### 🀀 [Cool stuff 🦎](./stuff)
 
-### 🀁 [My favorite shows & soaps 📺🧼](./shows)
+### 🀁 [Shows & soaps 📺🧼](./shows)
 
-### 🀂 [My favorite movies 🎥](./movies)
+### 🀂 [Movies I watch 🎥](./movies)
 
-### 🀃 [My favorite books 📚](./reading)
+### 🀃 [My reading habits 📚](./reading)
 
 ### 🀅 [This Website 🌐](./web)
 

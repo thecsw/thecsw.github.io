@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-My favorite shows & soaps 📺🧼
-============================
+Shows & soaps 📺🧼
+================
 
 Shows can even have more of a profound effect than movies. Watching a
 good show and its experience can even be aphrodisiacal

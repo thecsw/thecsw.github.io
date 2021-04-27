@@ -22,11 +22,11 @@ modify it in any conceivable way. Please enjoy!
 
 === 🀀 link:./stuff[Cool stuff 🦎]
 
-=== 🀁 link:./shows[My favorite shows & soaps 📺🧼]
+=== 🀁 link:./shows[Shows & soaps 📺🧼]
 
-=== 🀂 link:./movies[My favorite movies 🎥]
+=== 🀂 link:./movies[Movies I watch 🎥]
 
-=== 🀃 link:./reading[My favorite books 📚]
+=== 🀃 link:./reading[My reading habits 📚]
 
 === 🀅 link:./web[This Website 🌐]
 
