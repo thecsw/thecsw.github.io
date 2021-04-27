@@ -20,7 +20,7 @@ medium.
 
 Text is a terrible way to communicate. Don\'t get me wrong, I\'m a huge
 believer in texts and written communication. Look back at the times when
-Empires and Anna Karenina style of love was popular. [Tatiana\'s
+Empires and Anna Karenina style of love was popular. [Tatyana\'s
 Letter](http://www.pushkins-poems.com/Yev311.htm), probably the most
 romantic and heartbreaking piece of literature, ever. It was a norm to
 write heavy letters. Technology wasn\'t really developed with quick UDP
