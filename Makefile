@@ -61,7 +61,7 @@ $(NAME):
 	$(E) "\n->	ADJUSTING THE HOMEPAGE ..."
 	$(E) "Removing the home link from the root page, because it's already home"
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) 's/| Home_LINK//g' -i
-	$(E) "Do not show the table of contents on the root page and on fortunes page"
+	$(E) "Do not show the table of contents on the root page, fortunes page, and the cool stuff page"
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
 	$(Q) find ./fortunes/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
 	$(Q) find ./stuff/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
