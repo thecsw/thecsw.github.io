@@ -2,9 +2,6 @@
 Cool stuff 🦎
 ============
 
-Here are some presentations made for academia (tutoring, fun topics,
-etc.)
-
 Sandy\'s Tutor Notes for Spring 2021 📝
 --------------------------------------
 
@@ -22,8 +19,7 @@ can look at the notes as a bank of problems with detailed solutions. As
 a tutor or a grader or a teaching assistant, you would be able to find a
 good source of teaching material and the curriculum of those courses.
 
-\[\[<https://sandyuraz.com/tutor_sp21/>\]\[\[Go to the study session
-notes\]​\]\]
+-\> [Go to the study session notes](https://sandyuraz.com/tutor_sp21/)
 
 Oracles for Ordinary Differential Equations 🧎‍♀️
 ------------------------------------------------
@@ -42,8 +38,7 @@ type everything in LaTeX. Solutions are available both in the web form
 (rendered with [LaTeX](https://www.latex-project.org)). This might be a
 good source to catch up on your ODEs!
 
-\[\[<https://sandyuraz.com/math220_sp21>\]\[\[Go to the ODE Oracles
-page\]​\]\]
+-\> [Go to the ODE Oracles page](https://sandyuraz.com/math220_sp21)
 
 L\'Hôpital\'s Rule 🏥
 --------------------
@@ -52,4 +47,4 @@ Before I became a tutor at the School of Engineering, as one of the
 support materials I made for Calculus II was a quick web presentation on
 L\'Hôpital\'s Rule, its importance and the motivation behind it.
 
-\[\[./present/lhopital\]\[\[Go to the web presentation\]​\]\]
+-\> [Go to the web presentation](./present/lhopital)
