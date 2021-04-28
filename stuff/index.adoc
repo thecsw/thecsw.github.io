@@ -4,9 +4,6 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
-Here are some presentations made for academia (tutoring, fun topics,
-etc.)
-
 == Sandy's Tutor Notes for Spring 2021 📝
 
 During Spring 2021 semester, I worked as a tutor for the School of
@@ -23,8 +20,7 @@ can look at the notes as a bank of problems with detailed solutions. As
 a tutor or a grader or a teaching assistant, you would be able to find a
 good source of teaching material and the curriculum of those courses.
 
-{empty}[[https://sandyuraz.com/tutor_sp21/][[Go to the study session
-notes]​]]
+-> https://sandyuraz.com/tutor_sp21/[Go to the study session notes]
 
 == Oracles for Ordinary Differential Equations 🧎‍♀️
 
@@ -42,8 +38,7 @@ type everything in LaTeX. Solutions are available both in the web form
 with https://www.latex-project.org[LaTeX]). This might be a good source
 to catch up on your ODEs!
 
-{empty}[[https://sandyuraz.com/math220_sp21][[Go to the ODE Oracles
-page]​]]
+-> https://sandyuraz.com/math220_sp21[Go to the ODE Oracles page]
 
 == L'Hôpital's Rule 🏥
 
@@ -51,4 +46,4 @@ Before I became a tutor at the School of Engineering, as one of the
 support materials I made for Calculus II was a quick web presentation on
 L'Hôpital's Rule, its importance and the motivation behind it.
 
-{empty}[[./present/lhopital][[Go to the web presentation]​]]
+-> link:./present/lhopital[Go to the web presentation]
