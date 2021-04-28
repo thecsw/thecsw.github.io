@@ -8,7 +8,7 @@ Sandy\'s Tutor Notes for Spring 2021 📝
 During Spring 2021 semester, I worked as a tutor for the School of
 Engineering. As one of the tutors, we held multiple a series of study
 sessions every week, on subjects and classes ranging from Calculus
-I/II/II to Phyics I/II and Chemistry I/II.
+I/II/III to Phyics I/II and Chemistry I/II.
 
 I took digital notes on my tablet during every meeting and they have
 just been fully documented on a separate webpage. I taught Calculus II,
