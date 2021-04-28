@@ -9,6 +9,48 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 Here are some presentations made for academia (tutoring, fun topics,
 etc.)
 
-* https://sandyuraz.com/tutor_sp21/[Sandy's Tutor Notes for Spring 2021]
-* https://sandyuraz.com/math220_sp21[MATH 220 Sp 21 Oracles]
-* link:./present/lhopital[L'Hôpital's rule]
+== Sandy's Tutor Notes for Spring 2021 📝
+
+During Spring 2021 semester, I worked as a tutor for the School of
+Engineering. As one of the tutors, we held multiple a series of study
+sessions every week, on subjects and classes ranging from Calculus
+I/II/II to Phyics I/II and Chemistry I/II.
+
+I took digital notes on my tablet during every meeting and they have
+just been fully documented on a separate webpage. I taught Calculus II,
+Calculus III, and Physics I. It was a lot of fun!
+
+If you are a student and struggling with some of the courses above, you
+can look at the notes as a bank of problems with detailed solutions. As
+a tutor or a grader or a teaching assistant, you would be able to find a
+good source of teaching material and the curriculum of those courses.
+
+{empty}[[https://sandyuraz.com/tutor_sp21/][[Go to the study session
+notes]​]]
+
+== Oracles for Ordinary Differential Equations 🧎‍♀️
+
+I also worked as a grader for Ordinary Differential Equations course
+(MATH 220), taught by Professor Van Vleck from the department of
+Mathematics at University of Kansas. Interestingly enough, one of my
+responsibilities was also typing up all the weekly homework solutions so
+that they can be used as "oracles", i.e. "source of truth" when grading
+students' submissions.
+
+This was quite an experience, because it has been a while since my intro
+ODE class. In a way, it felt like taking another courseload, as I had to
+type everything in LaTeX. Solutions are available both in the web form
+(rendered by https://www.mathjax.org[MathJax]) and in PDF form (rendered
+with https://www.latex-project.org[LaTeX]). This might be a good source
+to catch up on your ODEs!
+
+{empty}[[https://sandyuraz.com/math220_sp21][[Go to the ODE Oracles
+page]​]]
+
+== L'Hôpital's Rule 🏥
+
+Before I became a tutor at the School of Engineering, as one of the
+support materials I made for Calculus II was a quick web presentation on
+L'Hôpital's Rule, its importance and the motivation behind it.
+
+{empty}[[./present/lhopital][[Go to the web presentation]​]]
