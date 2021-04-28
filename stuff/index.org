@@ -1,6 +1,4 @@
-* Cool stuff 🦎
-  Here are some presentations made for academia (tutoring, fun topics, etc.)
-  
+* Cool stuff 🦎  
 ** Sandy's Tutor Notes for Spring 2021 📝
    During Spring 2021 semester, I worked as a tutor for the School of
    Engineering. As one of the tutors, we held multiple a series of study
@@ -17,7 +15,7 @@
    assistant, you would be able to find a good source of teaching material and
    the curriculum of those courses.
   
-   [[https://sandyuraz.com/tutor_sp21/][[Go to the study session notes]​]]
+   -> [[https://sandyuraz.com/tutor_sp21/][Go to the study session notes]]
 
 ** Oracles for Ordinary Differential Equations 🧎‍♀️
    I also worked as a grader for Ordinary Differential Equations course (MATH
@@ -32,7 +30,7 @@
    by [[https://www.mathjax.org][MathJax]]) and in PDF form (rendered with [[https://www.latex-project.org][LaTeX]]). This might be a good
    source to catch up on your ODEs!
    
-   [[https://sandyuraz.com/math220_sp21][[Go to the ODE Oracles page]​]]
+   -> [[https://sandyuraz.com/math220_sp21][Go to the ODE Oracles page]]
 
    
 ** L'Hôpital's Rule 🏥
@@ -40,4 +38,4 @@
    materials I made for Calculus II was a quick web presentation on L'Hôpital's
    Rule, its importance and the motivation behind it.
    
-   [[./present/lhopital][[Go to the web presentation]​]]
+   -> [[./present/lhopital][Go to the web presentation]]
