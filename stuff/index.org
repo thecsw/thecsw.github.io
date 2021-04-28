@@ -38,4 +38,4 @@
    materials I made for Calculus II was a quick web presentation on L'Hôpital's
    Rule, its importance and the motivation behind it.
    
-   -> [[./present/lhopital][Go to the web presentation]]
+   -> [[/present/lhopital][Go to the web presentation]]
