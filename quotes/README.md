@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 122; 12021 H.E.
+
+An honest tale speeds best being plainly told.
+
+-- William Shakespeare, \"Henry VI\"
+
 ### 121; 12021 H.E.
 
 \"God is a comedian playing to an audience too afraid to laugh.\"
