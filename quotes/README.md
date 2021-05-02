@@ -6,7 +6,7 @@ Sandy\'s fortunes 🥠
 
 \"God is a comedian playing to an audience too afraid to laugh.\"
 
--   Voltaire
+--- Voltaire
 
 ### 119; 12021 H.E.
 
