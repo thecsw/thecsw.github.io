@@ -51,47 +51,47 @@
  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
 #+END_SRC
 
-psst...   *(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+# psst...   *(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 
-I also enjoy watching some good anime, so here is my VHS-esque shelf full of
-anime as a bonus!
+# I also enjoy watching some good anime, so here is my VHS-esque shelf full of
+# anime as a bonus!
 
- #+BEGIN_SRC
+#  #+BEGIN_SRC
 
- ┌──────────────────┐
- │  The Cat Returns ├───────────────────┐
- ├──────────────────┤   Mary and the    │
- │    When Marnie   │  Witch's Flower   │
- │     Was There    ├───────────────────┤
- ├──────────────────┤      Kimi no      │
- │  Panty Stocking  │       Na Wa       │
- │ with Garterbelt  ├───────────────────┤
- ├──────────────────┤     Dr. Stone     │
- │       FLCL       ├───────────────────┤
- ├──────────────────┤    The Garden     │
- │      Ponyo       │     of Words      │
- ├──────────────────┼───────────────────┤
- │   Space Patrol   │  A Silent Voice   │
- │      Luluco      ├───────────────────┤
- ├──────────────────┤   Gurren Lagann   │
- │     Promare      ├───────────────────┤
- ├──────────────────┤    Little Witch   │
- │  Spirited Away   │      Academia     │
- ├──────────────────┼───────────────────┤
- │      Kiki's      │   Kyokou Suiri    │
- │ Delivery Service ├───────────────────┤
- ├──────────────────┤  Evangelion 3.0   │
- │   My Neighbor    ├───────────────────┤
- │     Totoro       │  Evangelion 2.0   │
- ├──────────────────┼───────────────────┤
- │     The End      │  Evangelion 1.0   │
- │   of Evangelion  ├───────────────────┤
- ├──────────────────┤    Neon Genesis   │
- │ Brand New Animal │     Evangelion    │
- │      (BNA)       ├───────────────────┤
- ├──────────────────┤   Darling in the  │
- │   Kill la Kill   │      FranXX       │
- ├──────────────────┴───────────────────┘
- │                                      │
-/   ＼(^─^)／  ヾ｜￣ー￣｜ﾉ  ヽ(〃＾▽＾〃)ﾉ  \
- #+END_SRC
+#  ┌──────────────────┐
+#  │  The Cat Returns ├───────────────────┐
+#  ├──────────────────┤   Mary and the    │
+#  │    When Marnie   │  Witch's Flower   │
+#  │     Was There    ├───────────────────┤
+#  ├──────────────────┤      Kimi no      │
+#  │  Panty Stocking  │       Na Wa       │
+#  │ with Garterbelt  ├───────────────────┤
+#  ├──────────────────┤     Dr. Stone     │
+#  │       FLCL       ├───────────────────┤
+#  ├──────────────────┤    The Garden     │
+#  │      Ponyo       │     of Words      │
+#  ├──────────────────┼───────────────────┤
+#  │   Space Patrol   │  A Silent Voice   │
+#  │      Luluco      ├───────────────────┤
+#  ├──────────────────┤   Gurren Lagann   │
+#  │     Promare      ├───────────────────┤
+#  ├──────────────────┤    Little Witch   │
+#  │  Spirited Away   │      Academia     │
+#  ├──────────────────┼───────────────────┤
+#  │      Kiki's      │   Kyokou Suiri    │
+#  │ Delivery Service ├───────────────────┤
+#  ├──────────────────┤  Evangelion 3.0   │
+#  │   My Neighbor    ├───────────────────┤
+#  │     Totoro       │  Evangelion 2.0   │
+#  ├──────────────────┼───────────────────┤
+#  │     The End      │  Evangelion 1.0   │
+#  │   of Evangelion  ├───────────────────┤
+#  ├──────────────────┤    Neon Genesis   │
+#  │ Brand New Animal │     Evangelion    │
+#  │      (BNA)       ├───────────────────┤
+#  ├──────────────────┤   Darling in the  │
+#  │   Kill la Kill   │      FranXX       │
+#  ├──────────────────┴───────────────────┘
+#  │                                      │
+# /   ＼(^─^)／  ヾ｜￣ー￣｜ﾉ  ヽ(〃＾▽＾〃)ﾉ  \
+#  #+END_SRC
