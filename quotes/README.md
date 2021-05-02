@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 121; 12021 H.E.
+
+\"God is a comedian playing to an audience too afraid to laugh.\"
+
+-   Voltaire
+
 ### 119; 12021 H.E.
 
 There is nothing stranger in a strange land than the stranger who comes
