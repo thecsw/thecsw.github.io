@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 124; 12021 H.E.
+
+The universe seems neither benign nor hostile, merely indifferent.
+
+-- Sagan
+
 ### 123; 12021 H.E.
 
 The Hitchhiker\'s Guide to the Galaxy has a few things to say on the
