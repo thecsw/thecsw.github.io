@@ -1,4 +1,5 @@
 * My cozy blog 💻
+
   Here is a list of my articles I have online. I hope you will find some of
   them interesting and you can learn something new! Always learn something
   new!
@@ -26,3 +27,5 @@
   * [[./mini_jenni][Mini Jenni - my new best friend 👯‍♀️]]
   * [[./using_mutt][Bring joy back to e-mail with Mutt 🐕]]
   * [[./installing_arch][Installing Glorious Arch Linux ☄️]]
+
+  USEMATHJAX
