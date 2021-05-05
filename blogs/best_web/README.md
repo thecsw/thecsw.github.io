@@ -7,6 +7,10 @@ March 3rd, 2020
 This list has some of my favorite stuff on the internet, divided into
 categories with links! The list is completely biased
 
+### D City Rock - We are Angels \[Anarchy\]
+
+PLAY~YOUTUBE~ 5KN0~-HgWNo~
+
 ### Gendo\'s paradise
 
 PLAY~YOUTUBE~ lP9DKGhUiaY
