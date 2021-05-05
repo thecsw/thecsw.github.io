@@ -61,3 +61,5 @@ initial condition $(a,b)=1$.
 
 $\therefore$ By Law of Contradiction, $\sqrt{2}$
 is irrational
+
+USEMATHJAX

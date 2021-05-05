@@ -45,3 +45,5 @@ If $a$ and $b$ are both even, it contradicts the initial condition
 $(a,b)=1$.
 
 $\therefore$ By Law of Contradiction, $\sqrt{2}$ is irrational
+
+USEMATHJAX

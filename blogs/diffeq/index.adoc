@@ -321,3 +321,5 @@ differential equations. This article is not as much to teach you how to
 solve them but provide a quick lookup cheatsheet if needed or glance at
 different forms that we can actually solve! There are infinitely many
 differential equations that we cannot find an exact solution for!
+
+USEMATHJAX
