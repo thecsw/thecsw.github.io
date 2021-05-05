@@ -12,7 +12,6 @@ May 12th, 2020
 [[./index.pdf][(PDF Version)]]
 
 ** Abstract
-
 When I got first introduced to differential equations, I had a love-hate
 relationship with it. Mainly due to some back-of-the-book problems we were given
 and never-ending projects we were assigned to. After some time, differential
@@ -21,7 +20,6 @@ fields, and everything. This articles is merely an intro on manually solving
 common forms of differential equations. Hope you enjoy
 
 *** Quick notes
-    
     - $f_x \iff \partial_x f$
     - $A,B,C$ are usually constants
     - $c_k$ is usually solution's constant that is defined with initial conditions
@@ -29,9 +27,7 @@ common forms of differential equations. Hope you enjoy
     - If you found a typo or want to comment, feel free to email me. Email on
       top of the page.
 
-
 *** First-order, linear
-
     Those equations have the form: $y' + p(t) y = q(t)$
     
     Find $\mu(t) = e^{\int p(t) dt}$
@@ -40,7 +36,6 @@ common forms of differential equations. Hope you enjoy
     $\implies y = \frac{\int q(t) \mu(t) dt}{\mu(t)}$
 
 *** First-order, separable
-
     Those equations have the form: $\frac{dy}{dx} = f(x)g(y)$
     
     Find the solution by solving $\int \frac{dy}{g(y)} = \int f(x) dx$
@@ -48,7 +43,6 @@ common forms of differential equations. Hope you enjoy
     Solve for exact (explicit) values of $y$
 
 *** Exact equations
-
     They have the form $M(x,y) + N(x,y) \frac{dy}{dx} = 0$
 
     - $(\xi)$ If $M_y = N_x$
@@ -66,7 +60,6 @@ common forms of differential equations. Hope you enjoy
       finding $F(x,y)$
 
 *** Second-order, linear, constant-coefficient equations
-
     They have the form $y'' + p y' + q y = f(t)$
 
     - First, solve for the homogeneous case, where $y'' + p y' + q y = 0$
@@ -107,7 +100,6 @@ common forms of differential equations. Hope you enjoy
     So the final solution is $y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)$
 
 *** Second-order, linear, variable-coefficient equations
-
     Equations have the form 
     
     - $(1)$: $a(t)y'' + b(t)y'+c(t)y = f(t)$
@@ -145,13 +137,11 @@ common forms of differential equations. Hope you enjoy
     Generally, solution has the form $y=c_1t^{r_1}+c_2t^{r_2}$
 
 *** Higher-order, linear equations
-
     $a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y'+a_0(t)y=g(t)$
 
     All second-order methods above extend to $n^{th}$ order.
 
 *** Laplace transform
-
     Laplace is a holy grail of solving differential equations with initial
     values defined. Laplace is the same kind of Bible to engineers like Taylor
     Series is. 
@@ -208,7 +198,6 @@ common forms of differential equations. Hope you enjoy
     - $\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s}$
 
 *** Constant-coefficient, homogeneous systems of ODE
-
     $\vec{x}' = A \vec{x}$, where $A\in\mathbb{R}^{n\times n}$, $x\in\mathbb{R}^n$
 
     If $A$ has n linearly independent eigenvectors $\vec{u_i}$ associated to n
@@ -246,7 +235,6 @@ common forms of differential equations. Hope you enjoy
      $=e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)$
 
 *** Linear systems of ODE
-    
     $\vec{x}' = A(t)\vec{x} + \vec{f}(t)$, where $A\in\mathbb{R}^{n\times n}$,
     $x\in\mathbb{R}^n$, $f\in\mathbb{R}^n$
 
@@ -261,7 +249,6 @@ common forms of differential equations. Hope you enjoy
     $\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds$
 
 *** Applications
-
     There are many applications of differential equations in classical
     mechanics, fields, etc. Below you will find just a snippet of some very
     common Physics 1/2 scenarios
@@ -286,9 +273,10 @@ $my''=-by'-k(L+y)+mg+F_{ext}(t)$, assume $KL=mg$, where $b$ is dumping, and $k$ 
 $my''=-by'-ky+F_{ext}(t)$, where $b$ is dumping, and $k$ is stiffness
 
 *** Conclusion
+    This is as much as I can recover from my initial experience with differential
+    equations. This article is not as much to teach you how to solve them but
+    provide a quick lookup cheatsheet if needed or glance at different forms that we
+    can actually solve! There are infinitely many differential equations that we
+    cannot find an exact solution for!
 
-This is as much as I can recover from my initial experience with differential
-equations. This article is not as much to teach you how to solve them but
-provide a quick lookup cheatsheet if needed or glance at different forms that we
-can actually solve! There are infinitely many differential equations that we
-cannot find an exact solution for!
+    USEMATHJAX

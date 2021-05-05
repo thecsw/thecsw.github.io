@@ -34,7 +34,8 @@ s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</ti
 /<title/i\<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 
 # Add the mathjax script for loading math
-# /<title/i\<script id="MathJax-script" async src="/scripts/mathjax/tex-mml-svg.js"></script>
+s|USEMATHJAX|<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>|g
+
 # Make the MathJax script work, some edgecases while converting
 s=\$([^$]+)\$=\\(\1\\)=g
 s=<sup>=^=g
