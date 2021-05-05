@@ -29,3 +29,5 @@ something new!
 -   [Mini Jenni - my new best friend 👯‍♀️](./mini_jenni)
 -   [Bring joy back to e-mail with Mutt 🐕](./using_mutt)
 -   [Installing Glorious Arch Linux ☄️](./installing_arch)
+
+USEMATHJAX
