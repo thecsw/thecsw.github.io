@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 127; 12021 H.E.
+
+I can resist anything but temptation.
+
 ### 126; 12021 H.E.
 
 God is really only another artist. He invented the giraffe, the elephant
