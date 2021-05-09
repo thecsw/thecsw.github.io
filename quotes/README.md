@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 129; 12021 H.E.
+
+Eat drink and be merry, for tomorrow we diet.
+
 ### 127; 12021 H.E.
 
 I can resist anything but temptation.
