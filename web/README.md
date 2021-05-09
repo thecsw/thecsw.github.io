@@ -17,7 +17,7 @@ and another sed script to modify the generated files, like adding CSS
 and some custom meta tags.
 
 The [repository](https://github.com/thecsw/thecsw.github.io) is hosted
-on Github. Branch `source` is the one that contains all the source org
+on Github. `source` branch is the one that contains all the source org
 files, on every commit push, a github workflow is triggered that runs
 everything above and deploys the generated website to `master` branch,
 where it triggers Github Pages to build the branch and deploy it
@@ -25,58 +25,57 @@ where it triggers Github Pages to build the branch and deploy it
 
 Here is a good flow graph of files and operations:
 
-
-            ---------------
-        ---/               \---
+            ───────────────
+        ───/               \───
        /                       \
       (   Commit push triggers  )
        \     github workflow   /
-        ---\               /---
-            --------/------
+        ───\               /───
+            ────────/──────
                    /
          Makefile /
-                  |
+                  │
                  /
-    +-----------o----+     pandoc
-    |   org files    +----------------+
-    +-------+--------+                |
-            |                         |
-            |                         |
-            | pandoc                  |
-            |                         |
-    +-------+-----------+   +---------+-----------+
-    | asciidoctor files |   |   README.md files   |
-    +---------+---------+   +---------------------+
-              |
-              |
+    ┌───────────o────┐     pandoc
+    │   org files    ├────────────────┐
+    └───────┬────────┘                │
+            │                         │
+            │                         │
+            │ pandoc                  │
+            │                         │
+    ┌───────┴───────────┐   ┌─────────┴───────────┐
+    │ asciidoctor files │   │   README.md files   │
+    └─────────┬─────────┘   └─────────────────────┘
+              │
+              │
                \ sed script
-               |
-     +---------o---------+
-     | modified asciid.  |
-     +--------+----------+
-              |
-              |
+               │
+     ┌─────────o─────────┐
+     │ modified asciid.  │
+     └────────┬──────────┘
+              │
+              │
                \ asciidoctor
-               |
-     +---------o---------+
-     |  generated HTML   |
-     +--------+----------+
-              |
-              |
+               │
+     ┌─────────o─────────┐
+     │  generated HTML   │
+     └────────┬──────────┘
+              │
+              │
              /  sed scripts
-             |
-     +-------o-----------+
-     | pretty HTML files |
-     +--------+----------+
-           -/
-         -/
-       --      ---------------
-         o----/               \----
+             │
+     ┌───────o───────────┐
+     │ pretty HTML files │
+     └───────────────────┘
+           ─/
+         ─/
+       ──      ───────────────
+         o────/               \────
          /      Push files to      \
         ( master and deploy to Pages)
          \                         /
-          ----\               /----
-               ---------------
+          ────\               /────
+               ───────────────
 
 I would love to be able to typeset beautiful documents and books like
 the ones below
