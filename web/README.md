@@ -23,7 +23,10 @@ everything above and deploys the generated website to `master` branch,
 where it triggers Github Pages to build the branch and deploy it
 [here](https://sandyuraz.com).
 
-Here is a good flow graph of files and operations:
+Below is a good flow graph of files and operations. Just to solidify the
+structure of the website, here is the [source org
+file](https://github.com/thecsw/thecsw.github.io/blob/source/web/index.org)
+for **this** webpage.
 
             ───────────────
         ───/               \───
