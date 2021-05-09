@@ -4,13 +4,78 @@
   =markdown=, =Org-Mode=, =asciidoctor=, =HTML=, =plain text=. I had to
   decompress Word files and wrestle with raw XML files there, what a trip
   that was.
-  
-  This beautiful website typed in [[https://orgmode.org/][Org-Mode]] and built using [[http://asciidoctor.org][Asciidoctor]]. The
-  source code is [[https://github.com/thecsw/thecsw.github.io][here]].
-  
-  It is one of my dreams to typeset documents and books like Brian
-  Kernighan:
-    
+
+  You might be interested in how this website is built. Basically, the whole of
+  this website is a collection of Org Mode files, couple of sed scripts, some
+  shell, and a master makefile. Makefile converts my raw org mode files into
+  asciidoctor with pandoc, sed scripts modify the asciidoctor files, then
+  asciidoctor binary is called to generate HTML, and another sed script to
+  modify the generated files, like adding CSS and some custom meta tags.
+
+  The [[https://github.com/thecsw/thecsw.github.io][repository]] is hosted on Github. Branch =source= is the one that contains all
+  the source org files, on every commit push, a github workflow is triggered
+  that runs everything above and deploys the generated website to =master= branch,
+  where it triggers Github Pages to build the branch and deploy it [[https://sandyuraz.com][here]].
+
+  Here is a good flow graph of files and operations:
+
+  #+begin_src
+
+           ---------------
+       ---/               \---
+      /                       \
+     (   Commit push triggers  )
+      \     github workflow   /
+       ---\               /---
+           --------/------
+                  /
+        Makefile /
+                 |
+                /
+   +-----------o----+     pandoc
+   |   org files    +----------------+
+   +-------+--------+                |
+           |                         |
+           |                         |
+           | pandoc                  |
+           |                         |
+   +-------+-----------+   +---------+-----------+
+   | asciidoctor files |   |   README.md files   |
+   +---------+---------+   +---------------------+
+             |
+             |
+              \ sed script
+              |
+    +---------o---------+
+    | modified asciid.  |
+    +--------+----------+
+             |
+             |
+              \ asciidoctor
+              |
+    +---------o---------+
+    |  generated HTML   |
+    +--------+----------+
+             |
+             |
+            /  sed scripts
+            |
+    +-------o-----------+
+    | pretty HTML files |
+    +--------+----------+
+          -/
+        -/
+      --      ---------------
+        o----/               \----
+        /      Push files to      \
+       ( master and deploy to Pages)
+        \                         /
+         ----\               /----
+              ---------------
+  #+end_src
+
+  I would love to be able to typeset beautiful documents and books like the ones
+  below 
   - [[https://www.gopl.io/][The GO Programming Language]]
-  - [[https://en.wikipedia.org/wiki/The_C_Programming_Language][C Programming Language, 2nd Edition]] 
+  - [[https://en.wikipedia.org/wiki/The_C_Programming_Language][C Programming Language, 2nd Edition]]
   - [[https://en.wikipedia.org/wiki/The_Unix_Programming_Environment][The Unix Programming Environment]]
