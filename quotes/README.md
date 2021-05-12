@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 132; 12021 H.E.
+
+Testing can show the presense of bugs, but not their absence.
+
+-- Dijkstra
+
 ### 131; 12021 H.E.
 
 Young men want to be faithful and are not; old men want to be faithless
