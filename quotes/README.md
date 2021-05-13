@@ -2,6 +2,15 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 133; 12021 H.E.
+
+incentive program, n.:
+
+The system of long and short-term rewards that a corporation uses to
+motivate its people. Still, despite all the experimentation with profit
+sharing, stock options, and the like, the most effective incentive
+program to date seems to be \"Do a good job and you get to keep it.\"
+
 ### 132; 12021 H.E.
 
 Testing can show the presense of bugs, but not their absence.
