@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 135; 12021 H.E.
+
+One is not born a woman, one becomes one.
+
+-- Simone de Beauvoir
+
 ### 134; 12021 H.E.
 
 Nothing is finished until the paperwork is done.
