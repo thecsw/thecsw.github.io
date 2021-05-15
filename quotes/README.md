@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 134; 12021 H.E.
+
+Nothing is finished until the paperwork is done.
+
 ### 133; 12021 H.E.
 
 incentive program, n.:
