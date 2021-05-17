@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 136; 12021 H.E.
+
+The number of UNIX installations has grown to 10, with more expected.
+
+-- The Unix Programmer\'s Manual, 2nd Edition, June 1972
+
 ### 135; 12021 H.E.
 
 One is not born a woman, one becomes one.
