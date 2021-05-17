@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 137; 12021 H.E.
+
+You don\'t have to explain something you never said.
+
+-- Calvin Coolidge
+
 ### 136; 12021 H.E.
 
 The number of UNIX installations has grown to 10, with more expected.
