@@ -5,7 +5,7 @@ s|Fortunes_LINK|<a href="/fortunes">Fortunes 🥠</a>|
 s|Home_LINK|<a href="/">Home 🏠</a>|
 s|Time_LINK|<p id="time"></p>|
 
-s|<h1>|<h1><img src="/small.png">|
+s|<h1>|<h1><img src="/small.png" width="80">|
 
 # Each page should have a preview image
 /<title/i\<meta property="og:image" content="./preview.png">
