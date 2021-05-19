@@ -105,3 +105,8 @@ h3,
 .sidebarblock > .content > .title {
   font-size: 1.5em;
 }
+
+#myface {display:block;}
+@media all and (max-width: 499px) {
+    #myface {display: none;}
+}
