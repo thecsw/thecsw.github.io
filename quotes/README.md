@@ -2,6 +2,16 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 139; 12021 H.E.
+
+They said that of all the kings upon the earth
+
+He was the man most gracious and fair-minded,
+
+Kindest to his people and keenest to win fame.
+
+-- Beowulf, the last three lines in Seamus Heaney\'s translation
+
 ### 138; 12021 H.E.
 
 Of course it\'s possible to love a human being if you don\'t know them
