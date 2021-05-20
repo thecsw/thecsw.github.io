@@ -7,7 +7,7 @@ Sandy\'s fortunes 🥠
 The one charm of marriage is that it makes a life of deception a
 neccessity.
 
--   Oscar Wilde
+-- Oscar Wilde
 
 ### 139; 12021 H.E.
 
