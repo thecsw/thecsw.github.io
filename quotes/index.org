@@ -1,4 +1,11 @@
 * Sandy's fortunes 🥠
+*** 141; 12021 H.E.
+ 
+The difference between art and science is that science is what we
+understand well enough to explain to a computer.  Art is everything else.
+
+  -- Donald Knuth, "Discover"
+
 *** 140; 12021 H.E.
  
 The one charm of marriage is that it makes a life of deception a neccessity.
