@@ -6,7 +6,7 @@ Sandissa: A Simplified Smart Home Model 🏠
 -----------------------------------------
 
 In the Spring of 2021, I was taking [Professor
-Li\'s](http://www.ittc.ku.edu/~fli/) EECS 700: IoT Security, which was a
+Li](http://www.ittc.ku.edu/~fli/)\'s EECS 700: IoT Security, which was a
 fantastic course over some basic and more advanced aspects of Internet
 of Things and their security considerations. We had a semester-long
 final project for the class. My beautiful partner, Anissa Khan and I
@@ -21,9 +21,6 @@ is meant to serve as a testbed for a wide range of smart home systems.
 Once implemented we perform a security analysis of the whole system and
 put security controls in place. In doing so, we demonstrate ways in
 which the general IoT smart home system can be secured.
-
--\> [Go to the project\'s root
-repository](https://github.com/thecsw/sandissa-dev)
 
 -\> [Go to the project\'s final
 paper](https://github.com/thecsw/sandissa-dev/blob/master/sandissa.pdf)
