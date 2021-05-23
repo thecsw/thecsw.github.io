@@ -16,8 +16,6 @@
    place. In doing so, we demonstrate ways in which the general IoT smart home
    system can be secured.
 
-   -> [[https://github.com/thecsw/sandissa-dev][Go to the project's root repository]]
-
    -> [[https://github.com/thecsw/sandissa-dev/blob/master/sandissa.pdf][Go to the project's final paper]]
    
 ** Compiler Written in C++ from Scratch 🍺
