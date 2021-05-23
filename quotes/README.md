@@ -6,7 +6,7 @@ Sandy\'s fortunes 🥠
 
 Frankly, my dear, I don\'t give a damn!
 
--- Rhett Butler to Scarlett as he left her at the very end
+-- Rhett Butler
 
 ### 142; 12021 H.E.
 
