@@ -5,14 +5,14 @@ Cool stuff 🦎
 Compiler Written in C++ from Scratch 🍺
 --------------------------------------
 
-C-rona is a fantastic a general-purpose, procedural, imperative, and
+C-rona is a general-purpose, procedural, imperative, and
 statically-typed programming language written in C++. Our final project
 contains a fully working compiler for x86~64~ machines, which itself was
 a semester-long project for EECS 665: Compiler Construction, where we
 learned the art of building compilers from scratch and this is the
 result.
 
-EECS 665: Compiler Construction was taught by fantastic [Drew
+EECS 665: Compiler Construction was taught by the fantastic [Drew
 Davidson](https://ittc.ku.edu/~drew/), who made probably one of the
 classicaly toughest courses in undergraduate career into one of the most
 enjoyable classes I have ever taken in my Computer Science undergrad. I
@@ -63,6 +63,34 @@ type everything in LaTeX. Solutions are available both in the web form
 good source to catch up on your ODEs!
 
 -\> [Go to the ODE Oracles page](https://sandyuraz.com/math220_sp21)
+
+Selected Final Projects for Embedded Systems 🚗
+----------------------------------------------
+
+In the Fall of 2020 I was enrolled in EECS 388: Embedded Systems. It\'s
+an introduction course into lower level things, such as RISC-V, Computer
+Architecture, CPU scheduling, and other fun stuff. The course itself was
+accompanied by a lab section, where we wrote some C+Assembly to control
+UART signals, some lights, etc.
+
+The final project for the class was us building a self-driving car that
+uses a pre-trained neural network for recognizing tracks on the ground
+that it reads from its camera. The car itself uses Raspberry Pi as a
+main board computer, HiFive micro-controller for the wheels connected
+via UART to the Pi.
+
+We built up extensions to the final project, I worked with KayLee
+Mitchell on building a car that can be controlled from any
+browser-capable device via a webpage and some quick interfaces hooked up
+onto our little car. It was a fun farewell to this course. The link
+below has a webpage written by me by the request of our Instructor to
+document some selected final projects.
+
+-\> [Go to the selected finals
+webpage](https://sandyuraz.com/eecs388_projects/)
+
+(above is the backup, original should be [available
+here](https://eecs388.ku.edu/388Fa2020_selected_final))
 
 L\'Hôpital\'s Rule 🏥
 --------------------
