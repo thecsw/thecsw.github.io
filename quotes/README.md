@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 145; 12021 H.E.
+
+Si j\'avais encore la folie de croire au bonheur, je le chercherais dans
+l\'habitude.
+
+-- François-René de Chateaubriand
+
 ### 143; 12021 H.E.
 
 Frankly, my dear, I don\'t give a damn!
