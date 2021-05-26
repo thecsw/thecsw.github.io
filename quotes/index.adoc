@@ -4,6 +4,18 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 146; 12021 H.E.
+
+Does a good farmer neglect a crop he has planted?
+
+Does a good teacher overlook even the most humble student?
+
+Does a good father allow a single child to starve?
+
+Does a good programmer refuse to maintain his code?
+
+– Geoffrey James, "The Tao of Programming"
+
 == 145; 12021 H.E.
 
 Si j'avais encore la folie de croire au bonheur, je le chercherais dans
