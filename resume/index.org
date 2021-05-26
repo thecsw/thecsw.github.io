@@ -1,5 +1,2 @@
-* My resume
-<meta http-equiv="refresh" content="0"; url="./resume.pdf" />
-
-You shouldn't really see this. This page will take you to my resume
-automatically. If it doesn't load, [[./resume.pdf][click here]] to continue.
+* My resume 🧾
+  It's provided upon request.
