@@ -10,7 +10,7 @@
   
   I have some presence on the web, you can find me around here
   
-  - [[https://github.com/thecsw][Github 🐙]]
-  - [[https://t.me/thecsw][Telegram ✈️]]
-  - [[https://www.linkedin.com/in/thecsw][LinkedIn 🕴]]
-  - [[https://www.instagram.com/sandy_uraz][Instagram 📷]]
+  - [[https://github.com/thecsw][Github 🐙]] (it's ok for git stuff)
+  - [[https://t.me/thecsw][Telegram ✈️]] (it's just there)
+  - [[https://www.linkedin.com/in/thecsw][LinkedIn 🕴]] (I abhor this platform)
+  - [[https://www.instagram.com/sandy_uraz][Instagram 📷]] (haven't used it in months)
