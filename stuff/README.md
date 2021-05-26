@@ -47,14 +47,14 @@ final project for the class. My beautiful partner, Anissa Khan and I
 built and documented a securite model of a smart home. Below is the
 abstract from our paper and related links.
 
-Abstract -- The Internet of Things (IoT) has become more prevalent in
-our everyday lives through the use of smart home devices. As such, the
-security of smart home systems has become of paramount importance. In
-this study, we design and implement a simplified smart home model that
-is meant to serve as a testbed for a wide range of smart home systems.
-Once implemented we perform a security analysis of the whole system and
-put security controls in place. In doing so, we demonstrate ways in
-which the general IoT smart home system can be secured.
+**Abstract --** The Internet of Things (IoT) has become more prevalent
+in our everyday lives through the use of smart home devices. As such,
+the security of smart home systems has become of paramount importance.
+In this study, we design and implement a simplified smart home model
+that is meant to serve as a testbed for a wide range of smart home
+systems. Once implemented we perform a security analysis of the whole
+system and put security controls in place. In doing so, we demonstrate
+ways in which the general IoT smart home system can be secured.
 
 -\> [Go to the project\'s final
 paper](https://github.com/thecsw/sandissa-dev/blob/master/sandissa.pdf)
@@ -65,7 +65,7 @@ Compiler Written in C++ from Scratch 🍺
 C-rona is a general-purpose, procedural, imperative, and
 statically-typed programming language written in C++. Our final project
 contains a fully working compiler for x86~64~ machines, which itself was
-a semester-long project for EECS 665: Compiler Construction, where we
+a semester long project for EECS 665: Compiler Construction, where we
 learned the art of building compilers from scratch and this is the
 result.
 
@@ -149,6 +149,29 @@ webpage](https://sandyuraz.com/eecs388_projects/)
 (above is the backup, original should be [available
 here](https://eecs388.ku.edu/388Fa2020_selected_final))
 
+Image Compression using Principal Component Analysis 🎱
+------------------------------------------------------
+
+MATH 596: Computational Data Science by [Erik S. Van
+Vleck](https://erikvv.ku.edu) was quite a trip. The philosophy of the
+course was \"sink-or-swim\", which means that you either succeed in the
+class and what\'s expected or you just fail it completely. Never have I
+ever gone through a more brutal multivariate statistics crash course. I
+must admit that I met some wonderful people there that I never would
+have had a chance to make an acquaintance with, if it weren\'t for this
+class.
+
+Our first small project was applying [Principal Component Analysis
+(PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) to
+some old or new problems. I liked the theory and wanted to see how well
+I can compress images, therefore extracting the most important
+(principal, haha) components of a data set and present an approximation
+of it by only using a fraction of the original set. I did in in python,
+I recommend running `lenna.py` if you\'re curious to see how it works.
+
+-\> [Go to the PCA image compression code
+files](https://git.sr.ht/~thecsw/lenna/tree)
+
 L\'Hôpital\'s Rule 🏥
 --------------------
 
@@ -157,3 +180,42 @@ support materials I made for Calculus II was a quick web presentation on
 L\'Hôpital\'s Rule, its importance and the motivation behind it.
 
 -\> [Go to the web presentation](https://sandyuraz.com/present/lhopital)
+
+Cryptography Library for RSA, Lenstra, elliptic curves 🍾
+--------------------------------------------------------
+
+In Spring 2020, the COVID semester, I was taking MATH 601: Cryptography
+that was at the time taught by [Emily Witt](https://witt.ku.edu).
+Probably one of the hardest undergraduate courses I ever had to take!
+And definitely the one I enjoyed the most. We basically covered a big
+chunk of Group and Ring theory as background material during our first
+week. I just learned the material for my separate Group Theory class
+from Professor Witt in a week. Fun!
+
+Essential part of the course was us writing code to run some basic
+algorithms (greatest common divisor, extended euclidean algorithm,
+chinese remainder theorem) and not-so-basic (William\'s p+1 algorithm,
+Pollard\'s p-1 algorithm, Lenstra elliptic-curve factorization, etc.).
+After we were done with the course during the 2020 pandemic, I decided
+to release some code snippets I wrote during the course. The files are
+heavily commented but not properly documented (I should probably find
+some time for that)
+
+-\> [Go to MATH 601: Cryptography code
+files](https://git.sr.ht/~thecsw/crypto/tree)
+
+Sentocks or Sentimental Stocks 💇‍♀️
+-----------------------------------
+
+A group of my friends and I created a platform that continuously listens
+to tweets mentioning various publicly traded companies and we compare
+the general audience\'s sentiment to companies\' stock value! It was a
+fun project we did for EECS 448: Software Engineering. The project is
+well-documented with some pretty pictures and results that we got.
+Answer? Well, after applying some signal processing techniques,
+filtering out bad data, matching timesets, we found that there is a very
+loose correlation. Sometimes it\'s very good! Sometimes, it\'s the
+complete opposite.
+
+-\> [Go to Sentocks\' development
+repository](https://github.com/thecsw/sentock)
