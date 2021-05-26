@@ -16,8 +16,10 @@ fi
 # 5. Preppend the meta property
 # 6. Append the closing tags
 
-toinsert=`cat $1 | grep '<p>' | $sedcom '/H[.]E[.]/d;/20(19|20)\s*<[^<>]+>\s*$/d' | $sedcom -n 1p | $sedcom 's/<[^<>]+>//g' | $sedcom 's|^|/<title/i\\\\<meta property="og:description" content="|' | $sedcom 's|$|">|'`
+toinsert=`cat $1 | 
+                 grep '<p>' | 
+ $sedcom '/H[.]E[.]/d;/20(19|20)\s*<[^<>]+>\s*$/d' | $sedcom -n 1p | $sedcom 's/<[^<>]+>//g' | $sedcom 's|^|/<title/i\\\\<meta property="og:description" content="|' | $sedcom 's|$|...">|'`
 $sedcom "$toinsert" -i $1
 
-toinsert=`cat $1 | grep '<p>' | $sedcom '/H[.]E[.]/d;/20(19|20)\s*<[^<>]+>\s*$/d' | $sedcom -n 1p | $sedcom 's/<[^<>]+>//g' | $sedcom 's|^|/<title/i\\\\<meta property="description" content="|' | $sedcom 's|$|">|'`
+toinsert=`cat $1 | grep '<p>' | $sedcom '/H[.]E[.]/d;/20(19|20)\s*<[^<>]+>\s*$/d' | $sedcom -n 1p | $sedcom 's/<[^<>]+>//g' | $sedcom 's|^|/<title/i\\\\<meta property="description" content="|' | $sedcom 's|$|...">|'`
 $sedcom "$toinsert" -i $1
