@@ -9,11 +9,7 @@ Welcome 🌷
 
 ### 🀀 [Cool stuff 🦎](./stuff)
 
-### 🀁 [Shows & soaps 📺🧼](./shows)
-
-### 🀂 [Movies I watch 🎥](./movies)
-
-### 🀃 [My reading habits 📚](./reading)
+### 🀁 [Esthétique 🎨](./arts)
 
 ### 🀅 [This Website 🌐](./web)
 
