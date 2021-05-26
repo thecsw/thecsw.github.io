@@ -10,11 +10,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK
 
 === 🀀 link:./stuff[Cool stuff 🦎]
 
-=== 🀁 link:./shows[Shows & soaps 📺🧼]
-
-=== 🀂 link:./movies[Movies I watch 🎥]
-
-=== 🀃 link:./reading[My reading habits 📚]
+=== 🀁 link:./arts[Esthétique 🎨]
 
 === 🀅 link:./web[This Website 🌐]
 
