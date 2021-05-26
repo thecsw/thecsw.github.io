@@ -60,8 +60,8 @@ At least you get to see a moving picture of me! Haha
 
 -\> [Go to the recorded presentation](https://youtu.be/dtVUzEh7Ddo)
 
-Sandissa: A Simplified Smart Home Model 🏠
------------------------------------------
+A Simplified Smart Home Model 🏠
+-------------------------------
 
 In the Spring of 2021, I was taking [Professor
 Li](http://www.ittc.ku.edu/~fli/)\'s EECS 700: IoT Security, which was a
@@ -107,8 +107,8 @@ gotten anywhere. We were great partners throughout the whole semester.
 
 -\> [Go to the compiler\'s source code](https://github.com/thecsw/crona)
 
-Data Structures in C++ from EECS 560 🏛
---------------------------------------
+Data Structures from EECS 560 🏛
+-------------------------------
 
 EECS 560: Data Structures taught by [Dr. Suzanne M.
 Shontz](https://people.eecs.ku.edu/~s906s230/) has been a fun class! A
@@ -147,8 +147,8 @@ good source of teaching material and the curriculum of those courses.
 
 -\> [Go to the study session notes](https://sandyuraz.com/tutor_sp21/)
 
-Oracles for Ordinary Differential Equations 🧎‍♀️
-------------------------------------------------
+Ordinary Differential Equations Oracles 🧎‍♀️
+--------------------------------------------
 
 I also worked as a grader for Ordinary Differential Equations course
 (MATH 220), taught by Professor Van Vleck from the department of
