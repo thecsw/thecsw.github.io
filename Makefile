@@ -64,7 +64,7 @@ $(NAME):
 	$(E) "Do not show the table of contents on the root page, fortunes page, and the cool stuff page"
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
 	$(Q) find ./fortunes/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
-	$(Q) find ./stuff/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
+#	$(Q) find ./stuff/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
 	$(E) "\n->	BUILDING ..."
 	$(E) "Invoking asciidoctor to build the html documents"
 	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS) 2>/dev/null
