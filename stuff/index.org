@@ -1,4 +1,7 @@
 * Cool stuff 🦎
+  Some of the cool things I've done over the years, such as projects, websites,
+  papers, etc! Hope you find something interesting for yourself
+
 ** Literate Programming with a Sorting Visualizer 😎
    I must disclose that I have been infected by the dream that
    [[https://www-cs-faculty.stanford.edu/~knuth/][Donald E. Knuth]] wanted to give us with the [[http://www.literateprogramming.com][Literate Programming]]

@@ -2,8 +2,6 @@
 ** Welcome 🌷
 *** 🀏 [[./blogs][My cozy blog 💻]]
 *** 🀀 [[./stuff][Cool stuff 🦎]]  
-*** 🀁 [[./shows][Shows & soaps 📺🧼]]
-*** 🀂 [[./movies][Movies I watch 🎥]]
-*** 🀃 [[./reading][My reading habits 📚]]
+*** 🀁 [[./arts][Esthétique 🎨]]
 *** 🀅 [[./web][This Website 🌐]]
 *** 🀇 [[./soul][For your soul 💃]]
