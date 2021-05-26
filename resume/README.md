@@ -1,9 +1,5 @@
 ![preview](./preview.png)
-My resume
-=========
+My resume 🧾
+===========
 
-\<meta http-equiv=\"refresh\" content=\"0\"; url=\"./resume.pdf\" /\>
-
-You shouldn\'t really see this. This page will take you to my resume
-automatically. If it doesn\'t load, [click here](./resume.pdf) to
-continue.
+It\'s provided upon request.
