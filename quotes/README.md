@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 148; 12021 H.E.
+
+My opinions may have changed, but not the fact that I am right.
+
 ### 147; 12021 H.E.
 
 The knowledge that makes us cherish innocence makes innocence
