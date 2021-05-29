@@ -4,6 +4,14 @@ Sandy\'s fortunes 🥠
 
 ### 149; 12021 H.E.
 
+The perfect man is the true partner. Not a bed partner nor a fun
+partner, but a man who will shoulder burdens equally with \[you\] and
+possess that quality of joy.
+
+-- Erica Jong
+
+### 149; 12021 H.E.
+
 There\'s no heavier burden than a great potential.
 
 ### 148; 12021 H.E.
