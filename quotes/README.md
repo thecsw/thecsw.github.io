@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 149; 12021 H.E.
+
+There\'s no heavier burden than a great potential.
+
 ### 148; 12021 H.E.
 
 My opinions may have changed, but not the fact that I am right.
