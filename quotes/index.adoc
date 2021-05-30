@@ -4,6 +4,12 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 150; 12021 H.E.
+
+Against stupidity the very gods Themselves contend in vain.
+
+– Friedrich von Schiller, "The Maid of Orleans", III, 6
+
 == 149; 12021 H.E.
 
 The perfect man is the true partner. Not a bed partner nor a fun
