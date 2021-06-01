@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 152; 12021 H.E.
+
+While there\'s life, there\'s hope.
+
+-- Publius Terentius Afer (Terence)
+
 ### 151; 12021 H.E.
 
 A mother takes twenty years to make a man of her boy, and another woman
