@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 153; 12021 H.E.
+
+To stay young requires unceasing cultivation of the ability to unlearn
+old falsehoods.
+
+-- Lazarus Long, \"Time Enough For Love\"
+
 ### 152; 12021 H.E.
 
 While there\'s life, there\'s hope.
