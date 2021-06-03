@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 154; 12021 H.E.
+
+It\'s useless to try to hold some people to anything they say while
+they\'re madly in love, drunk, or running for office.
+
 ### 153; 12021 H.E.
 
 To stay young requires unceasing cultivation of the ability to unlearn
