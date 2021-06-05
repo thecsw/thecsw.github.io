@@ -4,6 +4,12 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 156; 12021 H.E.
+
+To do two things at once is to do neither.
+
+– Publilius Syrus
+
 == 155; 12021 H.E.
 
 And ever has it been known that love knows not its own depth until the
