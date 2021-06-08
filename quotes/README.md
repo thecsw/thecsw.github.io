@@ -2,6 +2,14 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 158; 12021 H.E.
+
+Do not be afraid; our fate
+
+Cannot be taken from us; it is a gift.
+
+-- Dante Alighieri
+
 ### 157; 12021 H.E.
 
 Democracy means simply the bludgeoning of the people by the people for
