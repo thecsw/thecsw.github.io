@@ -2,6 +2,15 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 159; 12021 H.E.
+
+APL is a mistake, carried through to perfection. It is the language of
+the future for the programming techniques of the past: it creates a new
+generation of coding bums.
+
+-- Edsger W. Dijkstra (May 1982), \"How do we tell truths that might
+hurt?\", SIGPLAN Notice 17 (5): pp. 13--15.
+
 ### 158; 12021 H.E.
 
 Do not be afraid; our fate
