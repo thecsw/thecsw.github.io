@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 160; 12021 H.E.
+
+life←{↑1 ⍵∨.∧3 4=+/,¯1 0 1∘.⊖¯1 0 1∘.⌽⊂⍵}
+
 ### 159; 12021 H.E.
 
 APL is a mistake, carried through to perfection. It is the language of
