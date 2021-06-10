@@ -9,12 +9,16 @@ decompress Word files and wrestle with raw XML files there, what a trip
 that was.
 
 You might be interested in how this website is built. Basically, the
-whole of this website is a collection of Org Mode files, couple of sed
-scripts, some shell, and a master makefile. Makefile converts my raw org
-mode files into asciidoctor with pandoc, sed scripts modify the
-asciidoctor files, then asciidoctor binary is called to generate HTML,
-and another sed script to modify the generated files, like adding CSS
-and some custom meta tags.
+whole of this website is a collection of [Org Mode](https://orgmode.org)
+files, couple of [sed](https://en.wikipedia.org/wiki/Sed) scripts, some
+shell, and a master
+[makefile](https://en.wikipedia.org/wiki/Make_(software)). Makefile
+converts my raw org mode files into
+[asciidoctor](https://asciidoctor.org) with
+[pandoc](https://pandoc.org), sed scripts modify the asciidoctor files,
+then asciidoctor binary is called to generate HTML, and another sed
+script to modify the generated files, like adding CSS and some custom
+meta tags.
 
 The [repository](https://github.com/thecsw/thecsw.github.io) is hosted
 on Github. `source` branch is the one that contains all the source org
