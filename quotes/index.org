@@ -1,4 +1,8 @@
 * Sandy's fortunes 🥠
+*** 161; 12021 H.E.
+ 
+When you're ready to give up the struggle, who can you surrender to?
+
 *** 160; 12021 H.E.
  
 =life←{↑1 ⍵∨.∧3 4=+/,¯1 0 1∘.⊖¯1 0 1∘.⌽⊂⍵}=
