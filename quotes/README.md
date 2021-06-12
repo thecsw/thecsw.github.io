@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 163; 12021 H.E.
+
+Two sure ways to tell a REALLY sexy man; the first is, he has a bad
+memory. I forget the second.
+
 ### 161; 12021 H.E.
 
 When you\'re ready to give up the struggle, who can you surrender to?
