@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 164; 12021 H.E.
+
+A real person has two reasons for doing anything ... a good reason and
+the real reason.
+
 ### 163; 12021 H.E.
 
 Two sure ways to tell a REALLY sexy man; the first is, he has a bad
