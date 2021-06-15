@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 166; 12021 H.E.
+
+Extreme fear can neither fight nor fly.
+
+-- William Shakespeare
+
 ### 165; 12021 H.E.
 
 Some people have a way about them that seems to say: \"If I have only
