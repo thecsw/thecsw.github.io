@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 167; 12021 H.E.
+
+Forests precede civilizations and deserts follow them.
+
+-- François-René de Chateaubriand
+
 ### 166; 12021 H.E.
 
 Extreme fear can neither fight nor fly.
