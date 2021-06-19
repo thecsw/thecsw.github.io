@@ -36,7 +36,7 @@ s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</ti
 /<title/i\<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 
 # Add the mathjax script for loading math
-s|USEMATHJAX|<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>|g
+s|USEMATHJAX|<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>|g
 
 # Make the MathJax script work, some edgecases while converting
 s=\$([^$]+)\$=\\(\1\\)=g
