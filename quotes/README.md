@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 171; 12021 H.E.
+
+I kissed my first girl and smoked my first cigarette on the same day. I
+haven\'t had time for tobacco since.
+
+-- Arturo Toscanini
+
 ### 169; 12021 H.E.
 
 We are all in the gutter, but some of us are looking at the stars.
