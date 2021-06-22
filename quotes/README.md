@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 173; 12021 H.E.
+
+Art is the tree of life. Science is the tree of death.
+
 ### 171; 12021 H.E.
 
 I kissed my first girl and smoked my first cigarette on the same day. I
