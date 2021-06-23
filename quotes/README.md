@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 174; 12021 H.E.
+
+The better part of valor is discretion.
+
+-- William Shakespeare, \"Henry IV\"
+
 ### 173; 12021 H.E.
 
 Art is the tree of life. Science is the tree of death.
