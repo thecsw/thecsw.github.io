@@ -12,8 +12,8 @@ You might be interested in how this website is built. Basically, the
 whole of this website is a collection of [Org Mode](https://orgmode.org)
 files, couple of [sed](https://en.wikipedia.org/wiki/Sed) scripts, some
 shell, and a master
-[makefile](https://en.wikipedia.org/wiki/Make_(software)). Makefile
-converts my raw org mode files into
+[makefile](https://github.com/thecsw/thecsw.github.io/blob/source/Makefile).
+Makefile converts my raw org mode files into
 [asciidoctor](https://asciidoctor.org) with
 [pandoc](https://pandoc.org), sed scripts modify the asciidoctor files,
 then asciidoctor binary is called to generate HTML, and another sed
