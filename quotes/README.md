@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 175; 12021 H.E.
+
+Knowledge without common sense is folly.
+
 ### 174; 12021 H.E.
 
 The better part of valor is discretion.
