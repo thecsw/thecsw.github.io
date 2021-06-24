@@ -16,12 +16,12 @@ You might be interested in how this website is built. Basically, the
 whole of this website is a collection of https://orgmode.org[Org Mode]
 files, couple of https://en.wikipedia.org/wiki/Sed[sed] scripts, some
 shell, and a master
-https://en.wikipedia.org/wiki/Make_(software)[makefile]. Makefile
-converts my raw org mode files into https://asciidoctor.org[asciidoctor]
-with https://pandoc.org[pandoc], sed scripts modify the asciidoctor
-files, then asciidoctor binary is called to generate HTML, and another
-sed script to modify the generated files, like adding CSS and some
-custom meta tags.
+https://github.com/thecsw/thecsw.github.io/blob/source/Makefile[makefile].
+Makefile converts my raw org mode files into
+https://asciidoctor.org[asciidoctor] with https://pandoc.org[pandoc],
+sed scripts modify the asciidoctor files, then asciidoctor binary is
+called to generate HTML, and another sed script to modify the generated
+files, like adding CSS and some custom meta tags.
 
 The https://github.com/thecsw/thecsw.github.io[repository] is hosted on
 Github. `source` branch is the one that contains all the source org
