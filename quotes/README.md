@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 182; 12021 H.E.
+
+Some people cause happiness wherever they go; others, whenever they go.
+
 ### 179; 12021 H.E.
 
 A master programmer passed a novice programmer one day. The master noted
