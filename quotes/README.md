@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 184; 12021 H.E.
+
+One good turn usually gets most of the blanket.
+
 ### 182; 12021 H.E.
 
 Some people cause happiness wherever they go; others, whenever they go.
