@@ -4,6 +4,16 @@ Sandy\'s fortunes 🥠
 
 ### 184; 12021 H.E.
 
+So many people are stuck living the same life because they think that is
+what they\'re supposed to do. But really, you\'re just completely free
+to do it. You are able to do it. And even if its a different and more
+difficult road to take, I believe you should do if it\'s going to make
+you happy.
+
+-- Marzia Kjellberg
+
+### 184; 12021 H.E.
+
 One good turn usually gets most of the blanket.
 
 ### 182; 12021 H.E.
