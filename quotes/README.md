@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 187; 12021 H.E.
+
+You can tell the ideals of a nation by its advertisements.
+
+-- Norman Douglas
+
 ### 186; 12021 H.E.
 
 Fare thee well, and if for ever,
