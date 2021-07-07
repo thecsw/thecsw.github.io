@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 188; 12021 H.E.
+
+The hatred of relatives is the most violent.
+
+-- Tacitus (c.55 - c.117)
+
 ### 187; 12021 H.E.
 
 You can tell the ideals of a nation by its advertisements.
