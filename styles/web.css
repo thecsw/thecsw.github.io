@@ -20,7 +20,7 @@
 /* Margins inspired by The New York Review */
 /* --------------------------------------- */
 #header {
-        width: 710px;
+        width: 760px;
         max-width: 100%;
 }
 #content {
@@ -135,6 +135,9 @@ body {
         background: #fffff4;
         color: #3a1616;
         font-family: "Inter", sans-serif;
+}
+p {
+        line-height: 28px;
 }
 
 /* ---------------------------------------------- */
