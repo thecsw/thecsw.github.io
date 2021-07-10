@@ -1,5 +1,7 @@
 * Copilot writes a text-based game in Python 🎱
 
+  190; 12021 H.E.
+  
   This morning while at work, I received an email from Github, letting me know
   that I got access to Copilot's technical preview. Of course, I immediately
   dropped everything to play with this shiny new toy I just got.
