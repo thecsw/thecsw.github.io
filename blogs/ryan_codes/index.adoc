@@ -22,19 +22,19 @@ our own amusements and yours, feel free to send it to *c t u AT k u DOT
 e d u*
 
 .Agile
-image::agile.jpg[Agile, width=310, role="left", link="agile.jpg"]
+image::agile.jpg[Agile, width=400, role="center", link="agile.jpg"]
 
 .OOM Killer
-image::oom.jpg[OOM Killer, width=310, role="left", link="oom.jpg"]
+image::oom.jpg[OOM Killer, width=610, role="center", link="oom.jpg"]
 
 .Master Branch
-image::mst.jpg[Master Branch, width=310, role="left", link="mst.jpg"]
+image::mst.jpg[Master Branch, width=610, role="center", link="mst.jpg"]
 
 .Stack
-image::stack.jpg[Stack, width=310, role="right", link="stack.jpg"]
+image::stack.jpg[Stack, width=610, role="center", link="stack.jpg"]
 
 .List
-image::list.jpg[List, width=310, role="right", link="list.jpg"]
+image::list.jpg[List, width=610, role="center", link="list.jpg"]
 
 .DFA
-image::dfa.jpg[DFA, width=310, role="right", link="dfa.jpg"]
+image::dfa.jpg[DFA, width=610, role="center", link="dfa.jpg"]
