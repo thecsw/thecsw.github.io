@@ -9,43 +9,43 @@ categories with links! The list is completely biased
 
 ### D City Rock - We are Angels \[Anarchy\]
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/5KN0_-HgWNo~" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/5KN0_-HgWNo~)
 
 ### Gendo\'s paradise
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/lP9DKGhUiaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/lP9DKGhUiaY)
 
 ### The prophecy is true
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/uwmeH6Rnj2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/uwmeH6Rnj2E)
 
 ### Why is the milk gone
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/KjeKiIa7XEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/KjeKiIa7XEk)
 
 ### Scent Of A Woman - Tango scene
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/0V0bMhYWz48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/0V0bMhYWz48)
 
 ### 009 Sound System
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/GsWFMgzdfoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/GsWFMgzdfoE)
 
 ### Scrabble story
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/9czoezm2vqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/9czoezm2vqw)
 
 ### Ferris Bueller\'s Parade
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/tRcv4nokK50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/tRcv4nokK50)
 
 ### Sharpest stand-up
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/kyBH5oNQOS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/kyBH5oNQOS0)
 
 ### Best functional programming
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/a9xAKttWgP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/a9xAKttWgP4)
 
 Here is an APL keyboard in unicode characters as a bonus:
 
