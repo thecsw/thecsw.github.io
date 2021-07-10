@@ -1,7 +1,7 @@
 /* --------------------------------- */
 /* The custom fonts we are importing */
 /* --------------------------------- */
-@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
 @font-face {
         font-family: "Fantasque Sans Mono";
         src: url("fonts/FantasqueSansMono-Regular.woff2") format("woff2"),
@@ -134,10 +134,13 @@ a:visited:hover {
 body {
         background: #fffff4;
         color: #3a1616;
-        font-family: "Inter", sans-serif;
+        font-family: "Lora";
 }
 p {
+        font-size: 18px;
         line-height: 28px;
+        font-family: "Lora";
+        font-weight: 500;
 }
 
 /* ---------------------------------------------- */
