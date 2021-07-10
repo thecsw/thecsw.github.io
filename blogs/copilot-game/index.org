@@ -4,23 +4,24 @@
   
   This morning while at work, I received an email from Github, letting me know
   that I got access to Copilot's technical preview. Of course, I immediately
-  dropped everything to play with this shiny new toy I just got.
+  dropped everything in order to play with this shiny new toy I just got.
 
   I played with it a little bit in different languages with my friends, trying
-  to create functions over some of our custom classes or structs we make on the
-  fly. Overall, I must say, it's pretty impressive how it can pick up some
+  to create functions over some of our custom classes or structs we made on the
+  fly. Overall, I must say, it's pretty impressive how it can pick up the
+  surrounding 
   context and write boilerplate code on it (maybe not always fully correct).
 
   Then sometime later in the afternoon, I pulled up an empty python file and
-  just wrote =def start(=, where copilot picked it up and immediately started
+  just wrote =def start(=, where copilot picked it from and immediately started
   writing down print statements, for what it seems to be a simple text-based
-  adventure game. I tab-completed the whole game and it actually worked!
+  adventure game. I tab-completed the whole game and it actually ran!
 
   This is just a small experiment seeing how it picked up this specific example
   from whatever is its (controversial) training set. I recorded the game
   writing, where all I do is give the original start signature (this was my
   second attempt, so I gave it =def start(self):= to nudge copilot into giving me
-  what I just had) and just pressing tabs.
+  what I had right before) and just pressing tabs.
 
   PLAY_YOUTUBE Im_13hXjIl0
 

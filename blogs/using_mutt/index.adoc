@@ -153,7 +153,7 @@ and write down the following:
 ~/.offlineimaprc
 ----------------
 [general]
-metadata = _/.offlineimap
+metadata = ~/.offlineimap
 # You can change mymail to something else
 accounts = mymail
 socktimeout = 60
@@ -164,7 +164,7 @@ remoterepository = remote-mymail
 
 [Repository local-mymail]
 type = Maildir
-localfolders = _/.mail/mymail
+localfolders = ~/.mail/mymail
 
 [Repository remote-mymail]
 type = IMAP
@@ -250,7 +250,7 @@ will be simple, I promise).
 +
 [source,example]
 ----
-# This should go to _/.muttrc
+# This should go to ~/.muttrc
 # Set up all the folders
 set folder="_/.mail/mymail"
 mailboxes = +INBOX
@@ -344,22 +344,22 @@ The following command will get you through everything
 % gpg --gen-key
 ----
 +
-Make a new directory in your home directory with `% mkdir _/.mutt`
+Make a new directory in your home directory with `% mkdir ~/.mutt`
 .. Creating password file
 +
 You have to create your password with
-`% echo set my_pass = '_mypassword_' > _/.mutt/mypass`
+`% echo set my_pass = '_mypassword_' > ~/.mutt/mypass`
 +
 IMPORTANT: Put a space before the command so your system will not save
 your plain text password in its shell history.
 +
-Encrypt the file with `% gpg -r _my_email_ -e _/.mutt/mypass`, where
+Encrypt the file with `% gpg -r _my_email_ -e ~/.mutt/mypass`, where
 `_my_email_` is the email address you used when you created your key.
 You will have a new file called `mypass.gpg` that is your actual
 encrypted password.
 +
 You can decrypt it and get the contents with
-`% gpg -d _/.mutt/mypass.gpg`
+`% gpg -d ~/.mutt/mypass.gpg`
 +
 Remove the old file with `% rm mypass`
 .. Add key to Mutt
@@ -399,7 +399,7 @@ Press `p` when composing email to see the available options.
 +
 Download link:./mailcap[this file], move the file to the `_/.mutt/`
 directory, add this line to your configuration file
-`set mailcap_path = _/.mutt/mailcap`
+`set mailcap_path = ~/.mutt/mailcap`
 . Make it corolful
 +
 Make your NeoMutt look really good. Same drill.
