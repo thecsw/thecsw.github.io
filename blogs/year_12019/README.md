@@ -9,7 +9,7 @@ Abstract
 
 This is a converted version of my speech I gave at my public speaking
 class in college. You can find the original document
-[here](../../documents/20190500-Year-2019.pdf). Thisspeech is meant to
+[here](../../documents/20190500-Year-2019.pdf). This speech is meant to
 persuade its audience. I truly believe that changing the current marking
 method of history can shift the way we thenx and perceive ourselves. The
 idea itself was greatly inspired by Kurzgesagt\'s [famous
