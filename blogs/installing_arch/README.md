@@ -378,12 +378,12 @@ Pictures
 
 .Writing my website in tmux
 
-PICTURE pic1.png:tmux:500:center
+PICTURE pic1.png:tmux:610:center
 
 .My desktop
 
-PICTURE pic2.png:screen:500:center
+PICTURE pic2.png:screen:610:center
 
 .i3 with cowsay, pipes.sh, htop, neofetch in counterclockwise order
 
-PICTURE pic3.png:programs:500:center
+PICTURE pic3.png:programs:610:center
