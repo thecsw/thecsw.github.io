@@ -27,4 +27,4 @@ s|PIC ([^<>]+):([^<>]+)|.\2\nimage::\1[\2, link="\1"]|
 
 # Fix the youtube links
 s|YOUTUBE~|YOUTUBE|g
-s|([^~])~([^~])|\1_\2|g
+s|([^~ ])~([^~ ])|\1_\2|g
