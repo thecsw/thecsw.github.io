@@ -378,14 +378,12 @@ Pictures
 
 .Writing my website in tmux
 
-image::pic1.png\[pic1.png, width=580, role=\"center\",
-link=\"./pic1.png\"\]
+PICTURE pic1.png:tmux:500:center
 
 .My desktop
 
-image::pic2.png\[pic2.png, width=580, role=\"center\",
-link=\"./pic2.png\"\]
+PICTURE pic2.png:screen:500:center
 
 .i3 with cowsay, pipes.sh, htop, neofetch in counterclockwise order
 
-image::pic3.png\[pic3.png, role=\"center\", link=\"./pic3.png\"\]
+PICTURE pic3.png:programs:500:center
