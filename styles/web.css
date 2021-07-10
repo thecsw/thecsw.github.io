@@ -32,6 +32,7 @@
 /* I like rounded pictures, maybe will get rid of them */
 /* --------------------------------------------------- */
 img {
+        max-width: 90%;
         border-radius: 10px;
 }
 
