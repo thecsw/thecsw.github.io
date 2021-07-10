@@ -694,7 +694,7 @@ and write down the following:</p>
 <pre class="highlight"><code class="language-example" data-lang="example">~/.offlineimaprc
 ----------------
 [general]
-metadata = _/.offlineimap
+metadata = ~/.offlineimap
 # You can change mymail to something else
 accounts = mymail
 socktimeout = 60
@@ -705,7 +705,7 @@ remoterepository = remote-mymail
 
 [Repository local-mymail]
 type = Maildir
-localfolders = _/.mail/mymail
+localfolders = ~/.mail/mymail
 
 [Repository remote-mymail]
 type = IMAP
@@ -809,7 +809,7 @@ will be simple, I promise).</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-example" data-lang="example"># This should go to _/.muttrc
+<pre class="highlight"><code class="language-example" data-lang="example"># This should go to ~/.muttrc
 # Set up all the folders
 set folder="_/.mail/mymail"
 mailboxes = +INBOX
@@ -919,7 +919,7 @@ The following command will get you through everything</p>
 </div>
 <div class="paragraph">
 <p>+
-Make a new directory in your home directory with <code>% mkdir _/.mutt</code></p>
+Make a new directory in your home directory with <code>% mkdir ~/.mutt</code></p>
 </div>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
@@ -927,7 +927,7 @@ Make a new directory in your home directory with <code>% mkdir _/.mutt</code></p
 <p>Creating password file</p>
 <div class="paragraph">
 <p>You have to create your password with
-<code>% echo set my_pass = '<em>mypassword</em>' &gt; _/.mutt/mypass</code></p>
+<code>% echo set my_pass = '<em>mypassword</em>' &gt; ~/.mutt/mypass</code></p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -943,14 +943,14 @@ your plain text password in its shell history.
 </table>
 </div>
 <div class="paragraph">
-<p>Encrypt the file with <code>% gpg -r <em>my_email</em> -e <em>/.mutt/mypass</code>, where
-<code>_my_email</em></code> is the email address you used when you created your key.
+<p>Encrypt the file with <code>% gpg -r <em>my_email</em> -e ~/.mutt/mypass</code>, where
+<code><em>my_email</em></code> is the email address you used when you created your key.
 You will have a new file called <code>mypass.gpg</code> that is your actual
 encrypted password.</p>
 </div>
 <div class="paragraph">
 <p>You can decrypt it and get the contents with
-<code>% gpg -d _/.mutt/mypass.gpg</code></p>
+<code>% gpg -d ~/.mutt/mypass.gpg</code></p>
 </div>
 <div class="paragraph">
 <p>Remove the old file with <code>% rm mypass</code></p>
@@ -1009,7 +1009,7 @@ to your <code></em>/.muttrc</code>: <code>source /.mutt/gpg.rc</code></p>
 <div class="paragraph">
 <p>Download <a href="./mailcap">this file</a>, move the file to the <code>_/.mutt/</code>
 directory, add this line to your configuration file
-<code>set mailcap_path = _/.mutt/mailcap</code></p>
+<code>set mailcap_path = ~/.mutt/mailcap</code></p>
 </div>
 </li>
 <li>
