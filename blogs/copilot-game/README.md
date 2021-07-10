@@ -1,0 +1,47 @@
+![preview](./preview.png)
+Copilot writes a text-based game in Python 🎱
+============================================
+
+190; 12021 H.E.
+
+This morning while at work, I received an email from Github, letting me
+know that I got access to Copilot\'s technical preview. Of course, I
+immediately dropped everything to play with this shiny new toy I just
+got.
+
+I played with it a little bit in different languages with my friends,
+trying to create functions over some of our custom classes or structs we
+make on the fly. Overall, I must say, it\'s pretty impressive how it can
+pick up some context and write boilerplate code on it (maybe not always
+fully correct).
+
+Then sometime later in the afternoon, I pulled up an empty python file
+and just wrote `def start(`, where copilot picked it up and immediately
+started writing down print statements, for what it seems to be a simple
+text-based adventure game. I tab-completed the whole game and it
+actually worked!
+
+This is just a small experiment seeing how it picked up this specific
+example from whatever is its (controversial) training set. I recorded
+the game writing, where all I do is give the original start signature
+(this was my second attempt, so I gave it `def start(self):` to nudge
+copilot into giving me what I just had) and just pressing tabs.
+
+PLAY~YOUTUBE~ Im~13hXjIl0~
+
+Some very quick searching showed that this is apparently an exercise
+from [Learn Python the Hard
+Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914)
+by Zed Shaw, more specifically, [exercise
+\#35](https://gist.github.com/blammothyst/9258449). It feels as many
+people posted their take on this exercise from the book or some specific
+implementation got a prime spot in the training set and is later
+suggested first when evaluating.
+
+This is my \~7th hour since I started playing with copilot, so I wanted
+to share some cool findings and observations when playing with it. Will
+it replace all software engineers? Probably not, as a good engineer is
+not simply a code writer of various algorithms, one has to understand
+the big picture and work top-to-bottom. Will I use copilot? I don\'t
+know. It works well for JS plotting and matplotlib plotting, because I
+could never care less to remember d3 methods to get me a 3d pie chart.
