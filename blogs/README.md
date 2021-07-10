@@ -6,6 +6,7 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
+-   [Copilot writes a text-based game in Python 🎱](./copilot-game)
 -   [Essential toolbox for the web 🧰](./web-toolbox)
 -   [Getting Sandy\'s .emacs.d 🤺](./emacs.sh)
 -   [Using Foundation-style Time 💫](./foundation-time)
