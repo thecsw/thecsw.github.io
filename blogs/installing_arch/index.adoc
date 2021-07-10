@@ -388,14 +388,14 @@ Linux compared to other distributions]]
 .Writing my website in tmux
 
 .tmux
-image::pic1.png[tmux, width=500, role="center", link="pic1.png"]
+image::pic1.png[tmux, width=610, role="center", link="pic1.png"]
 
 .My desktop
 
 .screen
-image::pic2.png[screen, width=500, role="center", link="pic2.png"]
+image::pic2.png[screen, width=610, role="center", link="pic2.png"]
 
 .i3 with cowsay, pipes.sh, htop, neofetch in counterclockwise order
 
 .programs
-image::pic3.png[programs, width=500, role="center", link="pic3.png"]
+image::pic3.png[programs, width=610, role="center", link="pic3.png"]
