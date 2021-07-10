@@ -21,7 +21,7 @@ smallest details and making it their own. Not like `ubuntu` with all the
 whistles and bangs included.
 
 This guide has an exact copy of steps I use when installing Arch Linux.
-Installed it over \~25 times. The beauty of arch is that no installation
+Installed it over \_25 times. The beauty of arch is that no installation
 is considered the best one. Every installation can be unique and
 bespoke. This guide only shows how to setup a complete arch environment
 with simple and straight-forward steps. If you want to know more about

@@ -27,7 +27,7 @@ the game writing, where all I do is give the original start signature
 (this was my second attempt, so I gave it `def start(self):` to nudge
 copilot into giving me what I had right before) and just pressing tabs.
 
-PLAY~YOUTUBE~ Im~13hXjIl0~
+<iframe width="420" height="256" src="https://www.youtube.com/embed/Im_13hXjIl0~" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can get the python file [here](./start.py).
 
@@ -40,7 +40,7 @@ people posted their take on this exercise from the book or some specific
 implementation got a prime spot in the training set and is later
 suggested first when evaluating.
 
-This is my \~7th hour since I started playing with copilot, so I wanted
+This is my \_7th hour since I started playing with copilot, so I wanted
 to share some cool findings and observations when playing with it. Will
 it replace all software engineers? Probably not, as a good engineer is
 not simply a code writer of various algorithms, one has to understand

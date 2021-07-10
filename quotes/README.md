@@ -1085,7 +1085,7 @@ that nothing can be done.
 \"When I picture it in my head I think of the early web as more of a
 library. Over time it has transitioned into a shopping mall.\"
 
--- chris~f~ (Hacker News comments)
+-- chris_f~ (Hacker News comments)
 
 ### Saturday, July 4th, 2020
 
