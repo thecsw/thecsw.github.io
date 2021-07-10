@@ -6,7 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
-*Hey, everyone! This is Sandy. Welcome to my website* - _circa 2007_
+*Hey, everyone! This is Sandy. Welcome to my website*
 
 I don't really use facebook™ or MySpace, so this webpage is kind of my
 home on the internet now. I do my online articles here, weekly quotes,
