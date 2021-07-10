@@ -1,112 +1,178 @@
+/* --------------------------------- */
+/* The custom fonts we are importing */
+/* --------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
 @font-face {
-  font-family: 'Fantasque Sans Mono';
-  src: url('fonts/FantasqueSansMono-Regular.woff2') format('woff2'),
-       url('fonts/FantasqueSansMono-Regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-       url('fonts/FantasqueSansMono-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/FantasqueSansMono-Regular.svg#FantasqueSansMono-Regular') format('svg'); /* Chrome < 4, Legacy iOS */
-  font-weight: 400;
-  font-style: normal;
+        font-family: "Fantasque Sans Mono";
+        src: url("fonts/FantasqueSansMono-Regular.woff2") format("woff2"),
+                url("fonts/FantasqueSansMono-Regular.woff") format("woff"),
+                /* Firefox >= 3.6, any other modern browser */
+                        url("fonts/FantasqueSansMono-Regular.ttf")
+                        format("truetype"),
+                /* Safari, Android, iOS */
+                        url("fonts/FantasqueSansMono-Regular.svg#FantasqueSansMono-Regular")
+                        format("svg"); /* Chrome < 4, Legacy iOS */
+        font-weight: 400;
+        font-style: normal;
 }
+
+/* --------------------------------------- */
+/* Margins inspired by The New York Review */
+/* --------------------------------------- */
+#header {
+        width: 710px;
+        max-width: 100%;
+}
+#content {
+        width: 610px;
+        max-width: 100%;
+}
+
+/* --------------------------------------------------- */
+/* I like rounded pictures, maybe will get rid of them */
+/* --------------------------------------------------- */
 img {
-  border-radius: 10px;
+        border-radius: 1px;
 }
+
+/* --------------------------------------------------- */
+/* Make a nice input form with rounded corners and hover
+ animations*/
+/* --------------------------------------------------- */
 input {
-    padding: 10px 16px;
-    margin: 2px 0;
-    box-sizing: border-box;
-    border: 2px solid #dabebe;
-    border-radius: 6px;
-    background: #fffff4;
-    color: #3a1616;
-    font-size: 16px;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
+        padding: 10px 16px;
+        margin: 2px 0;
+        box-sizing: border-box;
+        border: 2px solid #dabebe;
+        border-radius: 6px;
+        background: #fffff4;
+        color: #3a1616;
+        font-size: 16px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
 }
 input:focus {
-    border: 2px solid #3a1616;
+        border: 2px solid #3a1616;
 }
+
+/* --------------------------------------- */
+/* The button is very similar to the input */
+/* --------------------------------------- */
 .button {
-    background-color: #fffff4;
-    border: none;
-    color: black;
-    padding: 6px 14px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border: 2px solid #3a1616;
-    border-radius: 6px;
+        background-color: #fffff4;
+        border: none;
+        color: black;
+        padding: 6px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border: 2px solid #3a1616;
+        border-radius: 6px;
 }
 .button:hover {
-    background-color: #3a1616;
-    color: white;
+        background-color: #3a1616;
+        color: white;
 }
-.isa_info, .isa_success, .isa_warning, .isa_error {
-    width: 90%;
-    margin: 10px 0px;
-    padding:12px;
+
+/* ----------------------------------------------- */
+/* Various classes for messages of different kinds */
+/* ----------------------------------------------- */
+.isa_info,
+.isa_success,
+.isa_warning,
+.isa_error {
+        width: 90%;
+        margin: 10px 0px;
+        padding: 12px;
 }
 .isa_info {
-    color: #00529B;
-    background-color: #BDE5F8;
+        color: #00529b;
+        background-color: #bde5f8;
 }
 .isa_success {
-    color: #4F8A10;
-    background-color: #DFF2BF;
+        color: #4f8a10;
+        background-color: #dff2bf;
 }
 .isa_warning {
-    color: #9F6000;
-    background-color: #FEEFB3;
+        color: #9f6000;
+        background-color: #feefb3;
 }
 .isa_error {
-    color: #D8000C;
-    background-color: #FFD2D2;
+        color: #d8000c;
+        background-color: #ffd2d2;
 }
+
+/* --------------------------------------------- */
+/* Bold hover animations on links and clickables */
+/* --------------------------------------------- */
 a {
-  cursor: pointer;
-  color: #217ab7;
-  line-height: inherit;
+        cursor: pointer;
+        color: #217ab7;
+        line-height: inherit;
 }
 a:hover {
-  color: white;
-  background-color: #3297d3;
+        color: white;
+        background-color: #3297d3;
 }
 a:visited {
-  color: #43458b;
-  border-color: #43458b;
+        color: #43458b;
+        border-color: #43458b;
 }
 a:visited:hover {
-  color: white;
-  background-color: #9251ac;
+        color: white;
+        background-color: #9251ac;
 }
+
+/* -------------------------------- */
+/* The actual body and fonts we use */
+/* -------------------------------- */
 body {
-  background: #fffff4;
-  color: #3a1616;
-  font-family: "Inter", sans-serif;
+        background: #fffff4;
+        color: #3a1616;
+        font-family: "Inter", sans-serif;
 }
+
+/* ---------------------------------------------- */
+/* Format monospace code with Fantasque sans mono */
+/* ---------------------------------------------- */
 code,
 pre {
-  font-family: 'Fantasque Sans Mono', monospace;
+        font-family: "Fantasque Sans Mono", monospace;
 }
+
+/* ----------------------------- */
+/* Pretty pink content selection */
+/* ----------------------------- */
 ::selection {
-  color: white;
-  background: #ff4081;
+        color: white;
+        background: #ff4081;
 }
+
+/* --------------------- */
+/* Modified header sizes */
+/* --------------------- */
 h2 {
-  font-size: 2em;
+        font-size: 2em;
 }
 h3,
 #toctitle,
 .sidebarblock > .content > .title {
-  font-size: 1.5em;
+        font-size: 1.5em;
 }
 
-#myface {display:block;}
+/* ------------------------------------------ */
+/* Show my face picture when on wider screens */
+/* ------------------------------------------ */
+#myface {
+        display: block;
+}
 @media all and (max-width: 499px) {
-    #myface {display: none;}
+        #myface {
+                display: none;
+        }
 }
