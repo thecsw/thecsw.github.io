@@ -27,7 +27,7 @@ the game writing, where all I do is give the original start signature
 (this was my second attempt, so I gave it `def start(self):` to nudge
 copilot into giving me what I had right before) and just pressing tabs.
 
-<iframe width="420" height="256" src="https://www.youtube.com/embed/Im_13hXjIl0~" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the youtube video here](https://youtu.be/Im_13hXjIl0~)
 
 You can get the python file [here](./start.py).
 
