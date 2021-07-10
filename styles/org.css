@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata|Lora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
 body {
         margin: 40px auto;
@@ -96,7 +97,7 @@ h3 {
 
 img {
         width: 500px;
-        max-width: 90%;
+        max-width: 100%;
         border-radius: 10px;
         text-align: center;
 }
