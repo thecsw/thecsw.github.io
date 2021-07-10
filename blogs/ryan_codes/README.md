@@ -17,14 +17,14 @@ tried to make few of them and post here. If you wish to submit some for
 our own amusements and yours, feel free to send it to **c t u AT k u DOT
 e d u**
 
-PICTURE agile.jpg:Agile:310:left
+PICTURE agile.jpg:Agile:400:center
 
-PICTURE oom.jpg:OOM Killer:310:left
+PICTURE oom.jpg:OOM Killer:610:center
 
-PICTURE mst.jpg:Master Branch:310:left
+PICTURE mst.jpg:Master Branch:610:center
 
-PICTURE stack.jpg:Stack:310:right
+PICTURE stack.jpg:Stack:610:center
 
-PICTURE list.jpg:List:310:right
+PICTURE list.jpg:List:610:center
 
-PICTURE dfa.jpg:DFA:310:right
+PICTURE dfa.jpg:DFA:610:center
