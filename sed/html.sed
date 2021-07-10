@@ -63,7 +63,7 @@ s|Droid Sans Mono|DejaVu Sans Mono|g
 # Run media macros
 s|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|
 s|PLAY_SPOTIFY ([^<>]+)|<iframe src="https://open.spotify.com/embed/track/\1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
-s|PLAY_YOUTUBE ([^<>]+)|<iframe width="420" height="256" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
+s|PLAY_YOUTUBE ([^<>]+)|<iframe width="600" height="360" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
 s|GIST ([^<>]+)|<script src="https://gist.github.com/\1.js"></script>|
 
 # Add the HE time div section to print out the Foundation-style time
