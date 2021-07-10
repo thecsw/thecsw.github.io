@@ -97,7 +97,7 @@ all the magic!
 On a quick note, you were probably curious about the
 https://sandyuraz.com/fortunes[fortunes page]. The simplicity of website
 updates allows some room for automation. Please meet
-https://git.sr.ht/_thecsw/astrie[astrie]! My personal assistant for my
+https://git.sr.ht/~thecsw/astrie[astrie]! My personal assistant for my
 website.
 
 Astrie talks to me through Telegram, where I send her various commands,
