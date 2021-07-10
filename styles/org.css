@@ -1,14 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata|Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata|Lora:wght@500&display=swap");
+
 body {
         margin: 40px auto;
-        max-width: 900px;
+        width: 610px;
+        max-width: 100%;
         line-height: 1.6;
         font-size: 16px;
         background: #fffff4;
         color: #3a1616;
         padding: 0 10px;
-        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-family: "Lora";
+        font-weight: 500;
 }
+
+/* --------------------------------------------------- */
+/* Make a nice input form with rounded corners and hover
+ animations*/
+/* --------------------------------------------------- */
 input {
         padding: 10px 16px;
         margin: 2px 0;
@@ -25,6 +35,10 @@ input {
 input:focus {
         border: 2px solid #3a1616;
 }
+
+/* --------------------------------------- */
+/* The button is very similar to the input */
+/* --------------------------------------- */
 .button {
         background-color: #fffff4;
         border: none;
@@ -44,6 +58,10 @@ input:focus {
         background-color: #3a1616;
         color: white;
 }
+
+/* ----------------------------------------------- */
+/* Various classes for messages of different kinds */
+/* ----------------------------------------------- */
 .isa_info,
 .isa_success,
 .isa_warning,
@@ -68,16 +86,24 @@ input:focus {
         color: #d8000c;
         background-color: #ffd2d2;
 }
+
 h1,
 h2,
 h3 {
         line-height: 1.2;
-        font-family: "Inter", sans-serif;
+        font-family: "Lora";
 }
+
 img {
-        max-width: 750px;
+        width: 500px;
+        max-width: 100%;
         border-radius: 10px;
+        text-align: center;
 }
+
+/* --------------------------------------------- */
+/* Bold hover animations on links and clickables */
+/* --------------------------------------------- */
 a {
         cursor: pointer;
         color: #217ab7;
@@ -95,9 +121,11 @@ a:visited:hover {
         color: white;
         background-color: #9251ac;
 }
+
 pre {
         font-family: "Inconsolata", monospace;
 }
+
 ::selection {
         color: white;
         background: #ff4081;
