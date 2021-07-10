@@ -60,10 +60,10 @@ calendar in the Nature journal article \"Calendar Reform\".
 footnote:\[Cesare Emiliani, "Calendar Reform," [Nature]{.underline},
 University of Miami (1993).\] In his article, Professor Emiliani
 proposes that the beginning of calendrical time could be set at the
-beginning of the current Julian Cycle, 4713 BC, established by Joseph
+beginning of the current Julian Cycle, 4,713 BC, established by Joseph
 Scalinger and still used by astronomers. To simplify the arithmetic,
-round 10000 years could be added to the current AD year), ultimately
-converting 2019 AD to 12019 HE. Setting the birth of Christ at 25
+round 10,000 years could be added to the current AD year), ultimately
+converting 2019 AD to 12,019 HE. Setting the birth of Christ at 25
 December of the year 10,000 from the beginning of Human Era. Adding a
 round number to the current date conserves all established holidays,
 months, and days. However it adds a whole another level of understanding
