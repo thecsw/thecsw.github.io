@@ -136,6 +136,9 @@ body {
         color: #3a1616;
         font-family: "Inter", sans-serif;
 }
+p {
+        line-height: 28px;
+}
 
 /* ---------------------------------------------- */
 /* Format monospace code with Fantasque sans mono */
