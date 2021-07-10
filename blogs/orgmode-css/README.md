@@ -22,6 +22,10 @@ Even a really little makeup can make a big difference! There is a good
 discussion about this article on
 [hackernews](https://news.ycombinator.com/item?id=23130104)!
 
+NOTE: Please do not rely solely on the link above, this post is merely a
+demo of how you can control your org html output. I update that org.css
+quite frequently.
+
 **Before** and **after**
 
 PIC example.png:Before and After
