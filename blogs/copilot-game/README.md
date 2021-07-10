@@ -29,6 +29,8 @@ copilot into giving me what I just had) and just pressing tabs.
 
 PLAY~YOUTUBE~ Im~13hXjIl0~
 
+You can get the python file [here](./start.py).
+
 Some very quick searching showed that this is apparently an exercise
 from [Learn Python the Hard
 Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914)
