@@ -48,13 +48,13 @@ s=<sup>=^=g
 # Add scripts, like snow effect
 #s|</title>|</title>\n</style><script src="snowstorm-min.js"></script>|g
 
-# Use the google fonts to get Inter
+# Use the google fonts to get Lora
 /<link rel="stylesheet" href="https:\/\/fonts.googleapis.com/d
 
 # Modify default fonts
-s|Noto Serif|Inter|g
-s|Open|Inter|g
-s|DejaVu|Inter|g
+s|Noto Serif|Lora|g
+s|Open|Lora|g
+s|DejaVu|Lora|g
 s|Droid Sans Mono|DejaVu Sans Mono|g
 
 # Import some CSS adjustments
