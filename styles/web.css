@@ -32,7 +32,10 @@
 /* I like rounded pictures, maybe will get rid of them */
 /* --------------------------------------------------- */
 img {
-        border-radius: 1px;
+        width: 500px;
+        max-width: 90%;
+        border-radius: 10px;
+        text-align: center;
 }
 
 /* --------------------------------------------------- */
