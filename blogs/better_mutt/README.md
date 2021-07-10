@@ -70,9 +70,7 @@ set sort_aux = 'last-date-received'
 
 This is how it looks with huge mail chains
 
-.Fortune mailchain with threads enabled
-
-image::threads.png\[link=\"./threads.png\", role=\"center\"\]
+PIC threads.jpg:Fortune mailchain with threads enabled
 
 For ease of use, you can add the following line to bind your \`c\` key
 to collapse threads

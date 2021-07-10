@@ -341,14 +341,8 @@ you are and thus just lets you be yourself.
 
 ** Pictures
 
-.Writing my website in tmux
+PIC pic1.png:Writing my website in tmux
 
-PICTURE pic1.png:tmux:610:center
+PIC pic2.png:My desktop
 
-.My desktop
-
-PICTURE pic2.png:screen:610:center
-
-.i3 with cowsay, pipes.sh, htop, neofetch in counterclockwise order
-
-PICTURE pic3.png:programs:610:center
+PIC pic3.png:i3 with cowsay, pipes.sh, htop, neofetch in counterclockwise order

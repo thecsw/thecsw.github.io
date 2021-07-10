@@ -208,13 +208,13 @@ figures below show how over the years, David Lynch embraced gore,
 violence, and mysticism into his work.
 
 .Experiment
-image::exper.png[Experiment, width=610, role="center", link="exper.png"]
+image::exper.png[Experiment, link="exper.png"]
 
 .The Arm
-image::tree.png[The Arm, width=610, role="center", link="tree.png"]
+image::tree.png[The Arm, link="tree.png"]
 
 .Darya
-image::darya.png[Darya, width=610, role="center", link="darya.png"]
+image::darya.png[Darya, link="darya.png"]
 
 == The consumption of Twin Peaks
 
