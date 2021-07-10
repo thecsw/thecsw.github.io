@@ -694,7 +694,7 @@ and write down the following:</p>
 <pre class="highlight"><code class="language-example" data-lang="example">~/.offlineimaprc
 ----------------
 [general]
-metadata = ~/.offlineimap
+metadata = _/.offlineimap
 # You can change mymail to something else
 accounts = mymail
 socktimeout = 60
@@ -705,7 +705,7 @@ remoterepository = remote-mymail
 
 [Repository local-mymail]
 type = Maildir
-localfolders = ~/.mail/mymail
+localfolders = _/.mail/mymail
 
 [Repository remote-mymail]
 type = IMAP
@@ -802,16 +802,16 @@ and other cool stuff.</p>
 <p>Basic config</p>
 <div class="paragraph">
 <p>Just to get you started, the drill is the same as the last time, but now
-it would be called <code>~/.muttrc</code> The config file has a lot of different
+it would be called <code>_/.muttrc</code> The config file has a lot of different
 entries, so to keep it short, I will include the config file and it will
 be an exercise for the reader to get the meaning of the entries (this
 will be simple, I promise).</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-example" data-lang="example"># This should go to ~/.muttrc
+<pre class="highlight"><code class="language-example" data-lang="example"># This should go to _/.muttrc
 # Set up all the folders
-set folder="~/.mail/mymail"
+set folder="_/.mail/mymail"
 mailboxes = +INBOX
 mailboxes = +'Sent Items'
 mailboxes = +'Deleted Items'
@@ -893,7 +893,7 @@ number (usually 587). After that, your email should be operational!</p>
 <p>Secure password</p>
 <div class="paragraph">
 <p>You might not like that we store your password in plain text in your
-<code>~/.muttrc</code>. I do not like it either. In this section, we will encrypt
+<code>_/.muttrc</code>. I do not like it either. In this section, we will encrypt
 your email password and only you should be able te unlock it. We will
 encrypt your password with GPG. To do so, you have to have a pair of
 keys: public and private. To read more about public and private key
@@ -919,7 +919,7 @@ The following command will get you through everything</p>
 </div>
 <div class="paragraph">
 <p>+
-Make a new directory in your home directory with <code>% mkdir ~/.mutt</code></p>
+Make a new directory in your home directory with <code>% mkdir _/.mutt</code></p>
 </div>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
@@ -927,7 +927,7 @@ Make a new directory in your home directory with <code>% mkdir ~/.mutt</code></p
 <p>Creating password file</p>
 <div class="paragraph">
 <p>You have to create your password with
-<code>% echo set my_pass = '<em>mypassword</em>' &gt; ~/.mutt/mypass</code></p>
+<code>% echo set my_pass = '<em>mypassword</em>' &gt; _/.mutt/mypass</code></p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -943,14 +943,14 @@ your plain text password in its shell history.
 </table>
 </div>
 <div class="paragraph">
-<p>Encrypt the file with <code>% gpg -r <em>my_email</em> -e ~/.mutt/mypass</code>, where
-<code><em>my_email</em></code> is the email address you used when you created your key.
+<p>Encrypt the file with <code>% gpg -r <em>my_email</em> -e <em>/.mutt/mypass</code>, where
+<code>_my_email</em></code> is the email address you used when you created your key.
 You will have a new file called <code>mypass.gpg</code> that is your actual
 encrypted password.</p>
 </div>
 <div class="paragraph">
 <p>You can decrypt it and get the contents with
-<code>% gpg -d ~/.mutt/mypass.gpg</code></p>
+<code>% gpg -d _/.mutt/mypass.gpg</code></p>
 </div>
 <div class="paragraph">
 <p>Remove the old file with <code>% rm mypass</code></p>
@@ -959,11 +959,11 @@ encrypted password.</p>
 <li>
 <p>Add key to Mutt</p>
 <div class="paragraph">
-<p>Add the following line to the top of your <code>~/.muttrc</code>:
+<p>Add the following line to the top of your <code>_/.muttrc</code>:
 <code>source "gpg -dq $HOME/.mutt/mypass.gpg |"</code></p>
 </div>
 <div class="paragraph">
-<p>Now, you can get rid of the plain text password from your <code>~/.muttrc</code>
+<p>Now, you can get rid of the plain text password from your <code>_/.muttrc</code>
 and you are done! Try opening NeoMutt, it should ask you for your gpg
 password if you set up one.</p>
 </div>
@@ -974,7 +974,7 @@ password if you set up one.</p>
 <li>
 <p>Add your signature</p>
 <div class="paragraph">
-<p>Make your signature in the <code>~/.mutt/mysig.sig</code>, for example</p>
+<p>Make your signature in the <code>_/.mutt/mysig.sig</code>, for example</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -996,9 +996,9 @@ Don't call me</code></pre>
 <div class="paragraph">
 <p>If you are feeling dangerous, you can start signing your emails,
 encrypting them, armored signatures, and other cool stuff. To do that,
-download <a href="./gpg.rc">this file</a>, add that to your <code>~/.mutt/</code>
+download <a href="./gpg.rc">this file</a>, add that to your <code><em>/.mutt/</code>
 directory, create one if you don&#8217;t have it, and add the following line
-to your <code>_/.muttrc</code>: <code>source /.mutt/gpg.rc</code></p>
+to your <code></em>/.muttrc</code>: <code>source /.mutt/gpg.rc</code></p>
 </div>
 <div class="paragraph">
 <p>Press <code>p</code> when composing email to see the available options.</p>
@@ -1007,9 +1007,9 @@ to your <code>_/.muttrc</code>: <code>source /.mutt/gpg.rc</code></p>
 <li>
 <p>Read web pages in your email</p>
 <div class="paragraph">
-<p>Download <a href="./mailcap">this file</a>, move the file to the <code>~/.mutt/</code>
+<p>Download <a href="./mailcap">this file</a>, move the file to the <code>_/.mutt/</code>
 directory, add this line to your configuration file
-<code>set mailcap_path = ~/.mutt/mailcap</code></p>
+<code>set mailcap_path = _/.mutt/mailcap</code></p>
 </div>
 </li>
 <li>
@@ -1018,7 +1018,7 @@ directory, add this line to your configuration file
 <p>Make your NeoMutt look really good. Same drill.</p>
 </div>
 <div class="paragraph">
-<p>Download <a href="./color.mutt">this file</a>, move the file to the <code>~/.mutt/</code>
+<p>Download <a href="./color.mutt">this file</a>, move the file to the <code>_/.mutt/</code>
 directory, add this line to your configuration file
 <code>source $HOME/.mutt/color.mutt</code></p>
 </div>

@@ -31,7 +31,9 @@ the game writing, where all I do is give the original start signature
 (this was my second attempt, so I gave it `def start(self):` to nudge
 copilot into giving me what I just had) and just pressing tabs.
 
-PLAY_YOUTUBE~ Im~13hXjIl0
+PLAY_YOUTUBE Im_13hXjIl0
+
+You can get the python file link:./start.py[here].
 
 Some very quick searching showed that this is apparently an exercise
 from
@@ -42,7 +44,7 @@ many people posted their take on this exercise from the book or some
 specific implementation got a prime spot in the training set and is
 later suggested first when evaluating.
 
-This is my ~7th hour since I started playing with copilot, so I wanted
+This is my _7th hour since I started playing with copilot, so I wanted
 to share some cool findings and observations when playing with it. Will
 it replace all software engineers? Probably not, as a good engineer is
 not simply a code writer of various algorithms, one has to understand

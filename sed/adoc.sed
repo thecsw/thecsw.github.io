@@ -24,3 +24,7 @@ s=[$$]]=$=g
 # Covert the picture macros into asciidoctor
 s|PICTURE ([^<>]+):([^<>]+):([0-9]+):([a-z]+)|.\2\nimage::\1[\2, width=\3, role="\4", link="\1"]|
 s|PIC ([^<>]+):([^<>]+)|.\2\nimage::\1[\2, link="\1"]|
+
+# Fix the youtube links
+s|YOUTUBE~|YOUTUBE|g
+s|([^~])~([^~])|\1_\2|g
