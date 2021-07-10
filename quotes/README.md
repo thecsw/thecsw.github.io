@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 190; 12021 H.E.
+
+Someday somebody has got to decide whether the typewriter is the
+machine, or the person who operates it.
+
 ### 188; 12021 H.E.
 
 The hatred of relatives is the most violent.
