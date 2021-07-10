@@ -5,7 +5,7 @@ Building Reddit apps in Go with mira ⛳
 March 26th, 2020
 
 I like Go and I think it\'s a great language. I built
-[memeinvestor~bot~](https://github.com/thecsw/memeinvestor_bot), which
+[memeinvestor_bot_](https://github.com/thecsw/memeinvestor_bot), which
 was one of the interactive reddit bots on the platform at the time. So
 you can imagine we used quite a bit of
 [praw](https://github.com/praw-dev/praw). About year and a half later,
@@ -98,7 +98,7 @@ The names are very Java like and I hope they are intuitive
 Extending mira
 --------------
 
-The library only supports \~15 endpoints. Reddit has well over 50-60.
+The library only supports \_15 endpoints. Reddit has well over 50-60.
 Mira exposes its caller
 `Reddit.MiraRequest(httpMethod, endpoint, payload)` and http request
 handler, so you can build your own mira callers and work with them!

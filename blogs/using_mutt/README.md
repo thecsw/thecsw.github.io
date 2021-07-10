@@ -240,7 +240,7 @@ and other cool stuff.
 1.  Basic config
 
     Just to get you started, the drill is the same as the last time, but
-    now it would be called `~/.muttrc` The config file has a lot of
+    now it would be called `_/.muttrc` The config file has a lot of
     different entries, so to keep it short, I will include the config
     file and it will be an exercise for the reader to get the meaning of
     the entries (this will be simple, I promise).
@@ -248,7 +248,7 @@ and other cool stuff.
     ``` {.example}
     # This should go to ~/.muttrc
     # Set up all the folders
-    set folder="~/.mail/mymail"
+    set folder="_/.mail/mymail"
     mailboxes = +INBOX
     mailboxes = +'Sent Items'
     mailboxes = +'Deleted Items'
@@ -323,7 +323,7 @@ and other cool stuff.
 1.  Secure password
 
     You might not like that we store your password in plain text in your
-    `~/.muttrc`. I do not like it either. In this section, we will
+    `_/.muttrc`. I do not like it either. In this section, we will
     encrypt your email password and only you should be able te unlock
     it. We will encrypt your password with GPG. To do so, you have to
     have a pair of keys: public and private. To read more about public
@@ -364,16 +364,16 @@ and other cool stuff.
 
     3.  Add key to Mutt
 
-        Add the following line to the top of your `~/.muttrc`:
+        Add the following line to the top of your `_/.muttrc`:
         `source "gpg -dq $HOME/.mutt/mypass.gpg |"`
 
         Now, you can get rid of the plain text password from your
-        `~/.muttrc` and you are done! Try opening NeoMutt, it should ask
+        `_/.muttrc` and you are done! Try opening NeoMutt, it should ask
         you for your gpg password if you set up one.
 
 2.  Add your signature
 
-    Make your signature in the `~/.mutt/mysig.sig`, for example
+    Make your signature in the `_/.mutt/mysig.sig`, for example
 
     ``` {.example}
     ~/.mutt/mysig.sig
@@ -392,15 +392,15 @@ and other cool stuff.
     If you are feeling dangerous, you can start signing your emails,
     encrypting them, armored signatures, and other cool stuff. To do
     that, download link:./gpg.rc\[this file\], add that to your
-    `~/.mutt/` directory, create one if you don\'t have it, and add the
-    following line to your `~/.muttrc`: `source ~/.mutt/gpg.rc`
+    `_/.mutt/` directory, create one if you don\'t have it, and add the
+    following line to your `_/.muttrc`: `source ~/.mutt/gpg.rc`
 
     Press `p` when composing email to see the available options.
 
 4.  Read web pages in your email
 
     Download link:./mailcap\[this file\], move the file to the
-    `~/.mutt/` directory, add this line to your configuration file
+    `_/.mutt/` directory, add this line to your configuration file
     `set mailcap_path = ~/.mutt/mailcap`
 
 5.  Make it corolful
@@ -408,7 +408,7 @@ and other cool stuff.
     Make your NeoMutt look really good. Same drill.
 
     Download link:./color.mutt\[this file\], move the file to the
-    `~/.mutt/` directory, add this line to your configuration file
+    `_/.mutt/` directory, add this line to your configuration file
     `source $HOME/.mutt/color.mutt`
 
 Conclusion

@@ -14,7 +14,7 @@ writing a quick shell script to do the work. You can visit the config\'s
 webpage [here](https://sandyuraz.com/.emacs.d).
 
 All you have to run is the curl command below in your home directory
-(`~`)
+(`_`)
 
 NOTE: existing installation will move to .bak append
 

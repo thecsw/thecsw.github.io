@@ -41,6 +41,7 @@ INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
 OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" $(EXCLUDE_OUTPUT)
 
 INPUT_SED = ./sed/adoc.sed
+README_SED = ./sed/md.sed
 OUTPUT_SED = ./sed/html.sed
 
 SCRIPT_DESC = ./sh/og_desc.sh
@@ -55,6 +56,7 @@ $(NAME):
 	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
 	$(E) "Inserting README.md markdown previews"
 	$(Q) find . -type f -name "README.md" | xargs $(SED) "1 i ![preview](./preview.png)" -i
+	$(Q) find . -type f -name "README.md" | xargs $(SED) -E -f $(README_SED) -i
 	$(E) "\n->	ADJUSTING ADOC"
 	$(E) "Adding some asciidoctor elements and boilerplate"
 	$(Q) $(INPUT_FILES) | xargs $(SED) -E -f $(INPUT_SED) -i

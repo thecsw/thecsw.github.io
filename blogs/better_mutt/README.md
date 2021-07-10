@@ -26,7 +26,7 @@ example, here is an excerpt from one of my neomutt accounts that is tied
 to my KU mail account
 
 ``` {.example}
-set folder="~/.mail/kumail"
+set folder="_/.mail/kumail"
 set spoolfile = +'INBOX'
 
 set trash = +'Deleted Items'

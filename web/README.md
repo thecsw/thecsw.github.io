@@ -92,14 +92,14 @@ That\'s all the magic!
 On a quick note, you were probably curious about the [fortunes
 page](https://sandyuraz.com/fortunes). The simplicity of website updates
 allows some room for automation. Please meet
-[astrie](https://git.sr.ht/~thecsw/astrie)! My personal assistant for my
+[astrie](https://git.sr.ht/_thecsw/astrie)! My personal assistant for my
 website.
 
 Astrie talks to me through Telegram, where I send her various commands,
 such as adding quotes and she [patiently
 abides](https://github.com/thecsw/thecsw.github.io/commit/4f39fb7479112e1d116475dad8ed7415c5ba10e6).
 I\'m quite proud of her, as all we need for all that complexity is a
-\~100 loc Go package with a very small shell script that runs continuous
+\_100 loc Go package with a very small shell script that runs continuous
 git submodule updates and pushes.
 
 In a bigger picture, I must say that I would love to be able to typeset

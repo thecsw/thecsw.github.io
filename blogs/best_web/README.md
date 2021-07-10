@@ -9,43 +9,43 @@ categories with links! The list is completely biased
 
 ### D City Rock - We are Angels \[Anarchy\]
 
-PLAY~YOUTUBE~ 5KN0~-HgWNo~
+<iframe width="420" height="256" src="https://www.youtube.com/embed/5KN0_-HgWNo~" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Gendo\'s paradise
 
-PLAY~YOUTUBE~ lP9DKGhUiaY
+<iframe width="420" height="256" src="https://www.youtube.com/embed/lP9DKGhUiaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### The prophecy is true
 
-PLAY~YOUTUBE~ uwmeH6Rnj2E
+<iframe width="420" height="256" src="https://www.youtube.com/embed/uwmeH6Rnj2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Why is the milk gone
 
-PLAY~YOUTUBE~ KjeKiIa7XEk
+<iframe width="420" height="256" src="https://www.youtube.com/embed/KjeKiIa7XEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Scent Of A Woman - Tango scene
 
-PLAY~YOUTUBE~ 0V0bMhYWz48
+<iframe width="420" height="256" src="https://www.youtube.com/embed/0V0bMhYWz48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 009 Sound System
 
-PLAY~YOUTUBE~ GsWFMgzdfoE
+<iframe width="420" height="256" src="https://www.youtube.com/embed/GsWFMgzdfoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Scrabble story
 
-PLAY~YOUTUBE~ 9czoezm2vqw
+<iframe width="420" height="256" src="https://www.youtube.com/embed/9czoezm2vqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Ferris Bueller\'s Parade
 
-PLAY~YOUTUBE~ tRcv4nokK50
+<iframe width="420" height="256" src="https://www.youtube.com/embed/tRcv4nokK50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Sharpest stand-up
 
-PLAY~YOUTUBE~ kyBH5oNQOS0
+<iframe width="420" height="256" src="https://www.youtube.com/embed/kyBH5oNQOS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Best functional programming
 
-PLAY~YOUTUBE~ a9xAKttWgP4
+<iframe width="420" height="256" src="https://www.youtube.com/embed/a9xAKttWgP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here is an APL keyboard in unicode characters as a bonus:
 

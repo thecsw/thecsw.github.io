@@ -9,10 +9,10 @@ Literate Programming with a Sorting Visualizer 😎
 ------------------------------------------------
 
 I must disclose that I have been infected by the dream that [Donald E.
-Knuth](https://www-cs-faculty.stanford.edu/~knuth/) wanted to give us
+Knuth](https://www-cs-faculty.stanford.edu/_knuth/) wanted to give us
 with the [Literate Programming](http://www.literateprogramming.com)
 paradigm. Many decades have passed since his original papers and the
-[book](https://www-cs-faculty.stanford.edu/~knuth/lp.html) that archives
+[book](https://www-cs-faculty.stanford.edu/_knuth/lp.html) that archives
 all of those papers into a nice piece of literature.
 
 I would say that for me, Literate Programming is the way that we should
@@ -29,7 +29,7 @@ quite outrageous. Those are the foundations of our field and what we
 are.
 
 Below is a link to a simple terminal-based sorting algorithm visualizer
-I wrote in [CWEB](https://www-cs-faculty.stanford.edu/~knuth/cweb.html).
+I wrote in [CWEB](https://www-cs-faculty.stanford.edu/_knuth/cweb.html).
 Writing programs and explaining algorithms to people rather than to
 computers is actually fun! One can say, it\'s very much enlightening.
 
@@ -64,7 +64,7 @@ A Simplified Smart Home Model 🏠
 -------------------------------
 
 In the Spring of 2021, I was taking [Professor
-Li](http://www.ittc.ku.edu/~fli/)\'s EECS 700: IoT Security, which was a
+Li](http://www.ittc.ku.edu/_fli/)\'s EECS 700: IoT Security, which was a
 fantastic course over some basic and more advanced aspects of Internet
 of Things and their security considerations. We had a semester-long
 final project for the class. My beautiful partner, Anissa Khan and I
@@ -88,13 +88,13 @@ Compiler Written in C++ from Scratch 🍺
 
 C-rona is a general-purpose, procedural, imperative, and
 statically-typed programming language written in C++. Our final project
-contains a fully working compiler for x86~64~ machines, which itself was
+contains a fully working compiler for x86_64~ machines, which itself was
 a semester long project for EECS 665: Compiler Construction, where we
 learned the art of building compilers from scratch and this is the
 result.
 
 EECS 665: Compiler Construction was taught by the fantastic [Drew
-Davidson](https://ittc.ku.edu/~drew/), who made probably one of the
+Davidson](https://ittc.ku.edu/_drew/), who made probably one of the
 classicaly toughest courses in undergraduate career into one of the most
 enjoyable classes I have ever taken in my Computer Science undergrad. I
 must boast a little bit here and confess that this might objectively be
@@ -111,7 +111,7 @@ Data Structures from EECS 560 🏛
 -------------------------------
 
 EECS 560: Data Structures taught by [Dr. Suzanne M.
-Shontz](https://people.eecs.ku.edu/~s906s230/) has been a fun class! A
+Shontz](https://people.eecs.ku.edu/_s906s230/) has been a fun class! A
 lot of reading and on-paper-algorithm-analysis and dry running. The
 course itself was also accompanied by a series of labs, where we would
 implement various data structures that we learned in class. Such a list
@@ -215,7 +215,7 @@ of it by only using a fraction of the original set. I did in in python,
 I recommend running `lenna.py` if you\'re curious to see how it works.
 
 -\> [Go to the PCA image compression code
-files](https://git.sr.ht/~thecsw/lenna/tree)
+files](https://git.sr.ht/_thecsw/lenna/tree)
 
 L\'Hôpital\'s Rule 🏥
 --------------------
@@ -247,7 +247,7 @@ heavily commented but not properly documented (I should probably find
 some time for that)
 
 -\> [Go to MATH 601: Cryptography code
-files](https://git.sr.ht/~thecsw/crypto/tree)
+files](https://git.sr.ht/_thecsw/crypto/tree)
 
 Sentocks or Sentimental Stocks 💇‍♀️
 -----------------------------------
