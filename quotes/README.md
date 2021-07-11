@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 191; 12021 H.E.
+
+Documentation:
+
+Instructions translated from Swedish by Japanese for English speaking
+persons.
+
 ### 190; 12021 H.E.
 
 Someday somebody has got to decide whether the typewriter is the

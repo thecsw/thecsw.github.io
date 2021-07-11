@@ -4,6 +4,13 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 191; 12021 H.E.
+
+Documentation:
+
+Instructions translated from Swedish by Japanese for English speaking
+persons.
+
 == 190; 12021 H.E.
 
 Someday somebody has got to decide whether the typewriter is the
