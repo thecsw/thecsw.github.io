@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 192; 12021 H.E.
+
+He who knows, does not speak. He who speaks, does not know.
+
+-- Lao Tsu
+
 ### 191; 12021 H.E.
 
 Documentation:
