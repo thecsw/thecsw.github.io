@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 197; 12021 H.E.
+
+Bizarreness is the essence of the exotic.
+
 ### 196; 12021 H.E.
 
 Most of the fear that spoils our life comes from attacking difficulties
