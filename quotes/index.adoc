@@ -4,6 +4,13 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 198; 12021 H.E.
+
+Жизнь, по сути, очень простая штука и человеку нужно приложить много
+усилий, чтобы её испортить.
+
+– Чехов
+
 == 197; 12021 H.E.
 
 Bizarreness is the essence of the exotic.
