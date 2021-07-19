@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 200; 12021 H.E.
+
+Govern a great nation as you would cook a small fish. Don\'t overdo it.
+
+-- Lao Tzu
+
 ### 199; 12021 H.E.
 
 A good name lost is seldom regained. When character is gone, all is
