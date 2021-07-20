@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 201; 12021 H.E.
+
+I love you and you are loved
+
+-- Sandy
+
 ### 200; 12021 H.E.
 
 Govern a great nation as you would cook a small fish. Don\'t overdo it.
