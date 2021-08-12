@@ -68,3 +68,5 @@ s|GIST ([^<>]+)|<script src="https://gist.github.com/\1.js"></script>|
 
 # Add the HE time div section to print out the Foundation-style time
 448i<div id="hetime" class="details"></div>
+
+s|TOMB|<b style="color:#ba3925">◼︎</b>|g
