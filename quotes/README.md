@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 235; 12021 H.E.
+
+Virtue does not always demand a heavy sacrifice -- only the willingness
+to make it when necessary.
+
+-- Frederick Dunn
+
 ### 233; 12021 H.E.
 
 The ability to play chess is the sign of a gentleman. The ability to
