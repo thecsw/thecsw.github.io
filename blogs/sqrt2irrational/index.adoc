@@ -63,3 +63,4 @@ $\therefore$ By Law of Contradiction, $\sqrt{2}$
 is irrational
 
 USEMATHJAX
+TOMB

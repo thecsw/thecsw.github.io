@@ -90,3 +90,4 @@ environment installed!
 .Gopher in emacs
 
 image::demo.svg[demo.svg, role="center", link="./demo.svg"]
+TOMB

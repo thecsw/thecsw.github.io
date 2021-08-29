@@ -32,3 +32,4 @@ golang X tools (considering you have Go installed)
 
 Read more on link:../emacsd[getting an emacs server running] (better use
 emacs-lsp now)
+TOMB
