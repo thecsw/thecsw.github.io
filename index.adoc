@@ -15,3 +15,4 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK
 === 🀅 link:./web[This Website 🌐]
 
 === 🀇 link:./soul[For your soul 💃]
+TOMB

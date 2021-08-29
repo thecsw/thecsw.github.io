@@ -85,3 +85,4 @@ collapse threads
 ----
 macro index c <collapse-thread> "collapse-thread"
 ----
+TOMB

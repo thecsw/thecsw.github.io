@@ -28,3 +28,4 @@ inspires me. So much for me being a sci-fi romantic 🤷🏻‍♀️
 Also, if you use XFCE, here is a clock format you can use:
 `%j; 1%Y H.E. %H%M` or `%j; 1%Y H.E. %H%M.%S` to also show dot-separated
 seconds counter
+TOMB

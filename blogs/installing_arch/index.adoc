@@ -394,3 +394,4 @@ image::pic2.png[My desktop, link="pic2.png"]
 .i3 with cowsay, pipes.sh, htop, neofetch in
 image::pic3.png[i3 with cowsay, pipes.sh, htop, neofetch in, link="pic3.png"]
 counterclockwise order
+TOMB

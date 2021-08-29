@@ -63,3 +63,4 @@ for faster opening
 You can also set emacs daemon to start automatically by adding systemctl
 symlinks. More information on
 https://www.emacswiki.org/emacs/EmacsAsDaemon[emacswiki].
+TOMB
