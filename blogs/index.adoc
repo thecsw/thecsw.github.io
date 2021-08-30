@@ -36,4 +36,3 @@ something new!
 * link:./installing_arch[Installing Glorious Arch Linux ☄️]
 
 USEMATHJAX
-TOMB

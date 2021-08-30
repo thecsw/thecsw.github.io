@@ -60,6 +60,8 @@ $(NAME):
 	$(E) "\n->	ADJUSTING ADOC"
 	$(E) "Adding some asciidoctor elements and boilerplate"
 	$(Q) $(INPUT_FILES) | xargs $(SED) -E -f $(INPUT_SED) -i
+	$(E) "Adding tombstone to article posts"
+	$(Q) find ./blogs/*/ ./arts/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) "$$ a TOMB" -E -i
 	$(E) "\n->	ADJUSTING THE HOMEPAGE ..."
 	$(E) "Removing the home link from the root page, because it's already home"
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) 's/| Home_LINK//g' -i
