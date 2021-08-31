@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 242; 12021 H.E.
+
+It is contrary to reasoning to say that there is a vacuum or space in
+which there is absolutely nothing.
+
+-- Descartes
+
 ### 241; 12021 H.E.
 
 Clothes make the man. Naked people have little or no influence on
