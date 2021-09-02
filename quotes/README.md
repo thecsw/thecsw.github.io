@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 245; 12021 H.E.
+
+While any text editor can save your files, only Emacs can save your soul
+
 ### 243; 12021 H.E.
 
 If you are afraid of loneliness, don\'t marry.
