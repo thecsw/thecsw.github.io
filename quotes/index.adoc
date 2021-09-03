@@ -4,6 +4,14 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 246; 12021 H.E.
+
+The master programmer moves from program to program without fear. No
+change in management can harm him. He will not be fired, even if the
+project is canceled. Why is this? He is filled with the Tao.
+
+– Geoffrey James, "The Tao of Programming"
+
 == 245; 12021 H.E.
 
 While any text editor can save your files, only Emacs can save your soul
