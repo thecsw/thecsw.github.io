@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 248; 12021 H.E.
+
+A well-known friend is a treasure.
+
 ### 246; 12021 H.E.
 
 The master programmer moves from program to program without fear. No
