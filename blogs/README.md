@@ -28,7 +28,7 @@ something new!
 -   [Faster, better, stronger neomutt 🐩](./better_mutt)
 -   [Welcome to year 12,019 📅](./year_12019)
 -   [Mini Jenni - my new best friend 👯‍♀️](./mini_jenni)
--   [Bring joy back to e-mail with Mutt 🐕](./using_mutt)
+-   [Bring joy back to email with Mutt 🐕](./using_mutt)
 -   [Installing Glorious Arch Linux ☄️](./installing_arch)
 
 USEMATHJAX

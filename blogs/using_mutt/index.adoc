@@ -1,4 +1,4 @@
-= Bring joy back to e-mail with Mutt 🐕
+= Bring joy back to email with Mutt 🐕
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left
