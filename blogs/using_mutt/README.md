@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Bring joy back to e-mail with Mutt 🐕
-====================================
+Bring joy back to email with Mutt 🐕
+===================================
 
 May 13th, 2019
 
