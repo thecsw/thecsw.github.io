@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 250; 12021 H.E.
+
+It isn\'t easy being a Friday kind of person in a Monday kind of world.
+
 ### 249; 12021 H.E.
 
 Your happiness is intertwined with your outlook on life.
