@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 251; 12021 H.E.
+
+He who wonders discovers that this in itself is wonder. -- M.C. Escher
+
 ### 250; 12021 H.E.
 
 It isn\'t easy being a Friday kind of person in a Monday kind of world.
