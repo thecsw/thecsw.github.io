@@ -2,6 +2,7 @@
 *** 251; 12021 H.E.
  
 He who wonders discovers that this in itself is wonder.
+
 -- M.C. Escher
 
 *** 250; 12021 H.E.
@@ -18,7 +19,7 @@ A well-known friend is a treasure.
 
 *** 246; 12021 H.E.
  
- The master programmer moves from program to program without fear.  No
+The master programmer moves from program to program without fear.  No
 change in management can harm him.  He will not be fired, even if the project
 is canceled. Why is this?  He is filled with the Tao.
 
