@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 253; 12021 H.E.
+
+Ambition is a poor excuse for not having sense enough to be lazy.
+
+-- Charlie McCarthy
+
 ### 251; 12021 H.E.
 
 He who wonders discovers that this in itself is wonder.
