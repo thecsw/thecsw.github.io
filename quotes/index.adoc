@@ -4,6 +4,13 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 254; 12021 H.E.
+
+Of all men's miseries, the bitterest is this: to know so much and have
+control over nothing.
+
+– Herodotus
+
 == 253; 12021 H.E.
 
 Ambition is a poor excuse for not having sense enough to be lazy.
