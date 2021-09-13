@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 256; 12021 H.E.
+
+Consider well the proportions of things. It is better to be a young
+June-bug than an old bird of paradise.
+
+-- Mark Twain, \"Pudd\'nhead Wilson\'s Calendar\"
+
 ### 255; 12021 H.E.
 
 Я видел пьяниц с мудрыми глазами
