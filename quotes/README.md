@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 257; 12021 H.E.
+
+Science and religion are in full accord but science and faith are in
+complete discord.
+
 ### 256; 12021 H.E.
 
 Consider well the proportions of things. It is better to be a young
