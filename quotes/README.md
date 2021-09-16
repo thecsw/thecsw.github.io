@@ -2,6 +2,15 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 258; 12021 H.E.
+
+skldfjkljklsR%\^&(IXDRTYju187pkasdjbasdfbuil h;asvgy8p 23r1vyui135 2
+kmxsij90TYDFS\$\$b jkzxdjkl bjnk ;j nk;\<\[\]\[;-==-\<\<\<\<\<\';\[,
+\[hjioasdvbnuio;buip\^&(FTSD\$%\*VYUI:buio;sdf}\[asdf\'\]
+sdoihjfh(_YU_\*G&F^\*^CTY98y
+
+Now look what you\'ve gone and done! You\'ve broken it!
+
 ### 257; 12021 H.E.
 
 Science and religion are in full accord but science and faith are in
