@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 259; 12021 H.E.
+
+Nonsense and beauty have close connections.
+
+-- E.M. Forster
+
 ### 258; 12021 H.E.
 
 skldfjkljklsR%\^&(IXDRTYju187pkasdjbasdfbuil h;asvgy8p 23r1vyui135 2
