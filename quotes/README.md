@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 263; 12021 H.E.
+
+Rune\'s Rule:
+
+If you don\'t care where you are, you ain\'t lost.
+
 ### 260; 12021 H.E.
 
 I allow myself to be decadent

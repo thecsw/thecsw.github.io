@@ -4,6 +4,12 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 263; 12021 H.E.
+
+Rune's Rule:
+
+If you don't care where you are, you ain't lost.
+
 == 260; 12021 H.E.
 
 I allow myself to be decadent
