@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 267; 12021 H.E.
+
+A lost ounce of gold may be found, a lost moment of time never.
+
 ### 266; 12021 H.E.
 
 He who is known as an early riser need not get up until noon.
