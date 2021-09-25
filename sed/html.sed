@@ -15,9 +15,6 @@ s|<h1>|<h1><img id="myface" src="/small.png" width="100">|
 /<title/i\<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 /<title/i\<link rel="icon" href="/favicon.ico">
 
-# Define the website's main color scheme for some browsers
-/<title/i\<meta name="theme-color" content="#FFFFF4">
-
 # This is website's name
 /<title/i\<meta property="og:site_name" content="Sandy&apos;s Website">
 
