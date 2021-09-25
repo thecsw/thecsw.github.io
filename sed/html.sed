@@ -26,8 +26,7 @@ s|<h1>|<h1><img id="myface" src="/small.png" width="100">|
 /<title/i\<meta property="og:type" content="website">
 
 # Add fancy looking tab colors like on Safari 15
-/<title/i\<meta name="theme-color" content="#fffff4" media="(prefers-color-scheme: light)">
-/<title/i\<meta name="theme-color" content="#3a1616" media="(prefers-color-scheme: dark)">
+/<title/i\<meta name="theme-color" content="#fffff4">
 
 # Extract the value from title tag and put it into title meta property
 s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</title>|g
