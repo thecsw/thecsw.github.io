@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 271; 12021 H.E.
+
+Just to have it is enough.
+
 ### 267; 12021 H.E.
 
 A lost ounce of gold may be found, a lost moment of time never.
