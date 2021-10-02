@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 275; 12021 H.E.
+
+The chief danger in life is that you may take too many precautions.
+
+-- Alfred Adler
+
 ### 274; 12021 H.E.
 
 Not far from here, by a white sun, behind a green star, lived the
