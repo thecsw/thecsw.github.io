@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 277; 12021 H.E.
+
+Millions long for immortality who do not know what to do with themselves
+on a rainy Sunday afternoon.
+
+-- Susan Ertz
+
 ### 275; 12021 H.E.
 
 The chief danger in life is that you may take too many precautions.
