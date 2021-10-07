@@ -4,6 +4,13 @@ Sandy\'s fortunes 🥠
 
 ### 280; 12021 H.E.
 
+Education is an admirable thing, but it is well to remember from time to
+time that nothing that is worth knowing can be taught.
+
+-- Oscar Wilde, \"The Critic as Artist\"
+
+### 280; 12021 H.E.
+
 Don\'t despair; your ideal lover is waiting for you around the corner.
 
 ### 277; 12021 H.E.
