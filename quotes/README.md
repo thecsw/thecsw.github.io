@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 281; 12021 H.E.
+
+The older I grow, the less important the comma becomes. Let the reader
+catch his own breath.
+
+-- Elizabeth Clarkson Zwart
+
 ### 280; 12021 H.E.
 
 Education is an admirable thing, but it is well to remember from time to
