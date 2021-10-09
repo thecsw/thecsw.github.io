@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 282; 12021 H.E.
+
+When your work speaks for itself, don\'t interrupt.
+
+-- Henry J. Kaiser
+
 ### 281; 12021 H.E.
 
 The older I grow, the less important the comma becomes. Let the reader
