@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 284; 12021 H.E.
+
+We're in no rush
+
+-- Kate
+
 ### 283; 12021 H.E.
 
 If you don\'t know what game you\'re playing, don\'t ask what the score
