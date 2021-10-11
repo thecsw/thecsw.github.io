@@ -2,6 +2,11 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 283; 12021 H.E.
+
+If you don\'t know what game you\'re playing, don\'t ask what the score
+is.
+
 ### 282; 12021 H.E.
 
 When your work speaks for itself, don\'t interrupt.
