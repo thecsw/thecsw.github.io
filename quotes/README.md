@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 287; 12021 H.E.
+
+Congratulations are in order for Tom Reid.
+
+He says he just found out he is the winner of the 2024 Psychic of the
+Year award.
+
 ### 286; 12021 H.E.
 
 He was so narrow-minded he could see through a keyhole with both eyes.
