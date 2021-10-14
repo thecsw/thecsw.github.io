@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 286; 12021 H.E.
+
+He was so narrow-minded he could see through a keyhole with both eyes.
+
 ### 284; 12021 H.E.
 
 We're in no rush
