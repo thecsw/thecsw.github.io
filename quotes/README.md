@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 289; 12021 H.E.
+
+Better by far you should forget and smile than that you should remember
+and be sad.
+
+-- Christina Rossetti
+
 ### 287; 12021 H.E.
 
 Congratulations are in order for Tom Reid.
