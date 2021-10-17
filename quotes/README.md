@@ -4,6 +4,13 @@ Sandy\'s fortunes 🥠
 
 ### 290; 12021 H.E.
 
+We all know him to be a proud, unpleasant sort of man; but this would be
+nothing if you really liked him.
+
+-- Mr. Darcy
+
+### 290; 12021 H.E.
+
 You are too generous to trifle with me. If your feelings are still what
 they were last April, tell me so at once. My affections and wishes are
 unchanged; but one word from you will silence me on this subject for
