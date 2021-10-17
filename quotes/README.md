@@ -4,6 +4,15 @@ Sandy\'s fortunes 🥠
 
 ### 290; 12021 H.E.
 
+You are too generous to trifle with me. If your feelings are still what
+they were last April, tell me so at once. My affections and wishes are
+unchanged; but one word from you will silence me on this subject for
+ever.
+
+-- Mr. Darcy
+
+### 290; 12021 H.E.
+
 I have faults enough, but they are not, I hope, of understanding. My
 temper I dare not vouch for. It is, I believe, too little yielding---
 certainly too little for the convenience of the world. I cannot forget
