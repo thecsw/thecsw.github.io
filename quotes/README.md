@@ -2,6 +2,14 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 296; 12021 H.E.
+
+We sometimes encounter people, even perfect strangers, who begin to
+interest us at first sight, somehow suddenly, all at once, before a word
+has been spoken.
+
+-- Dostoevsky, *Crime and Punishment*
+
 ### 290; 12021 H.E.
 
 In vain I have struggled. It will not do. My feelings will not be
