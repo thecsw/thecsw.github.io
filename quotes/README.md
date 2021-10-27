@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 300; 12021 H.E.
+
+Nature never hurries. Atom by atom, little by little she achieves her
+work.
+
+-- Ralph Waldo Emerson
+
 ### 296; 12021 H.E.
 
 We sometimes encounter people, even perfect strangers, who begin to
