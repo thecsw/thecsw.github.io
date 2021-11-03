@@ -8,9 +8,9 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK
 
 === 🀏 link:./blogs[My cozy blog 💻]
 
-=== 🀀 link:./stuff[Cool stuff 🦎]
+=== 🀀 link:./projects[Cool projects ☕]
 
-=== 🀁 link:./arts[Esthétique 🎨]
+=== 🀁 link:./arts[L'Esthétique 🎨]
 
 === 🀅 link:./web[This Website 🌐]
 

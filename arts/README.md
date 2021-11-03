@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Esthétique 🎨
-============
+L\'Esthétique 🎨
+===============
 
 I wish to talk here with you about aesthetics and fine art. Some things
 we might enjoy alone or together! Historically, my website had different

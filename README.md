@@ -7,9 +7,9 @@ Welcome 🌷
 
 ### 🀏 [My cozy blog 💻](./blogs)
 
-### 🀀 [Cool stuff 🦎](./stuff)
+### 🀀 [Cool projects ☕](./projects)
 
-### 🀁 [Esthétique 🎨](./arts)
+### 🀁 [L\'Esthétique 🎨](./arts)
 
 ### 🀅 [This Website 🌐](./web)
 
