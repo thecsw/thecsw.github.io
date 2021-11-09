@@ -11,8 +11,6 @@ This is a quick post on how to use emacs on newer macs with arm chips and weird
 errors that you might encounter, which wouldn't be so intuitive on what is
 actually going wrong.
 
-** Path I
-
 First path is in my mind the best way, just download an emacs binary from
 [[https://emacsformacosx.com][emacsformacosx.com]], move it to =/Applications=, and you're set! It's a universal
 binary, which would make it work wherever. One small caveat is that this emacs
@@ -21,10 +19,8 @@ might have a *really* bad time navigating your hard drive, even if you give it
 ruby, so you would need to grant the full disk access to =/usr/bin/ruby=. Works
 like a charm. I'm using this version of emacs right now 🤔
 
-** Path II
-
-Build it yourself. This is what I've been doing for about a year since I got my
-M1 Pro. Undeniably, the jankiest way to use emacs, resulting in 500MB+
+*OR!* Build it yourself. This is what I've been doing for about a year since I got
+my M1 Pro. Undeniably, the jankiest way to use emacs, resulting in 500MB+
 application packages and a long time of loading, because Rosetta 2 gotta
 translate all that sweet sweet x86_64 to your native arm. I really like this
 [[https://github.com/jimeh/build-emacs-for-macos][project]] with a nice build script for both x86 and arm (this one is a wildcard to
