@@ -450,7 +450,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/styles/web.min.css">
-<body class="article toc2 toc-left">
+<body class="article">
 <div id="header">
 <h1><img id="myface" src="/small.png" width="100">Using emacs on macOS (M1) 🍎</h1>
 <div class="details">
@@ -459,17 +459,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <span id="revdate"><a href="/about">About 🤔</a> | <a href="/books">Bookshelf 📖</a> | <a href="/fortunes">Fortunes 🥠</a> | <a href="/">Home 🏠</a></span>
 </div>
 <div id="hetime" class="details"></div>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Adventures ⛵</div>
-<ul class="sectlevel1">
-<li><a href="#_path_i">Path I</a></li>
-<li><a href="#_path_ii">Path II</a></li>
-</ul>
-</div>
 </div>
 <div id="content">
-<div id="preamble">
-<div class="sectionbody">
 <div class="paragraph">
 <p>312; 12021 H.E.</p>
 </div>
@@ -485,11 +476,6 @@ M1&#8217;s. Too late for me.</p>
 and weird errors that you might encounter, which wouldn&#8217;t be so
 intuitive on what is actually going wrong.</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_path_i">Path I</h2>
-<div class="sectionbody">
 <div class="paragraph">
 <p>First path is in my mind the best way, just download an emacs binary
 from <a href="https://emacsformacosx.com">emacsformacosx.com</a>, move it to
@@ -501,22 +487,16 @@ through ruby, so you would need to grant the full disk access to
 <code>/usr/bin/ruby</code>. Works like a charm. I&#8217;m using this version of emacs
 right now 🤔</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_path_ii">Path II</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Build it yourself. This is what I&#8217;ve been doing for about a year since I
-got my M1 Pro. Undeniably, the jankiest way to use emacs, resulting in
-500MB+ application packages and a long time of loading, because Rosetta
-2 gotta translate all that sweet sweet x86_64 to your native arm. I
-really like this <a href="https://github.com/jimeh/build-emacs-for-macos">project</a>
-with a nice build script for both x86 and arm (this one is a wildcard to
-get working because of gcc&#8217;s JIT and signatures don&#8217;t work, so it dies).
+<p><strong>OR!</strong> Build it yourself. This is what I&#8217;ve been doing for about a year
+since I got my M1 Pro. Undeniably, the jankiest way to use emacs,
+resulting in 500MB+ application packages and a long time of loading,
+because Rosetta 2 gotta translate all that sweet sweet x86_64 to your
+native arm. I really like this
+<a href="https://github.com/jimeh/build-emacs-for-macos">project</a> with a nice
+build script for both x86 and arm (this one is a wildcard to get working
+because of gcc&#8217;s JIT and signatures don&#8217;t work, so it dies).
 <b style="color:#ba3925">◼︎</b></p>
-</div>
-</div>
 </div>
 </div>
 </body>
