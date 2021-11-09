@@ -14,8 +14,8 @@ This is a quick post on how to use emacs on newer macs with arm chips
 and weird errors that you might encounter, which wouldn\'t be so
 intuitive on what is actually going wrong.
 
-First path is in my mind the best way, just download an emacs binary
-from [emacsformacosx.com](https://emacsformacosx.com), move it to
+In my mind, the first path is the best way: just download an emacs
+binary from [emacsformacosx.com](https://emacsformacosx.com), move it to
 `/Applications`, and you\'re set! It\'s a universal binary, which would
 make it work wherever. One small caveat is that this emacs might have a
 **really** bad time navigating your hard drive, even if you give it
