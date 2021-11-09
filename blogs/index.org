@@ -4,6 +4,7 @@
   them interesting and you can learn something new! Always learn something
   new!
 
+  * [[./emacs-macos][Using emacs on macOS (M1) 🍎]]
   * [[./copilot-game][Copilot writes a text-based game in Python 🎱]]
   * [[./web-toolbox][Essential toolbox for the web 🧰]]
   * [[./emacs.sh][Getting Sandy's .emacs.d 🤺]]
