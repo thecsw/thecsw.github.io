@@ -31,4 +31,6 @@ because Rosetta 2 gotta translate all that sweet sweet x86_64~ to your
 native arm. I really like this
 [project](https://github.com/jimeh/build-emacs-for-macos) with a nice
 build script for both x86 and arm (this one is a wildcard to get working
-because of gcc\'s JIT and signatures don\'t work, so it dies).
+because of gcc\'s JIT and signatures don\'t work, so it dies). I have a
+[personal repo](https://github.com/thecsw/emacs-builds) where I upload
+good emacs builds. Good luck!

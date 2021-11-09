@@ -24,4 +24,5 @@ my M1 Pro. Undeniably, the jankiest way to use emacs, resulting in 500MB+
 application packages and a long time of loading, because Rosetta 2 gotta
 translate all that sweet sweet x86_64 to your native arm. I really like this
 [[https://github.com/jimeh/build-emacs-for-macos][project]] with a nice build script for both x86 and arm (this one is a wildcard to
-get working because of gcc's JIT and signatures don't work, so it dies).
+get working because of gcc's JIT and signatures don't work, so it dies). I have
+a [[https://github.com/thecsw/emacs-builds][personal repo]] where I upload good emacs builds. Good luck! 
