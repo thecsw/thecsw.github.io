@@ -1,5 +1,5 @@
 ![preview](./preview.png)
-Differential Equations Cookbook 🔥
+Differential equations cookbook 🔥
 =================================
 
 May 12th, 2020

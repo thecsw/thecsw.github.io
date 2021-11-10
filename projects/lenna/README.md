@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Image Compression using Principal Component Analysis 🎱
-======================================================
+Compress images with PCA 🎱
+==========================
 
 MATH 596: Computational Data Science by [Erik S. Van
 Vleck](https://erikvv.ku.edu) was quite a trip. The philosophy of the

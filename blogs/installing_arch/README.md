@@ -1,5 +1,5 @@
 ![preview](./preview.png)
-Installing Glorious Arch Linux ☄️
+Installing glorious arch linux ☄️
 =================================
 
 May 2nd, 2019

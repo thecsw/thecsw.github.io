@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Literate Programming with a Sorting Visualizer 😎
-================================================
+Literate sorting visualizer 😎
+=============================
 
 I must disclose that I have been infected by the dream that [Donald E.
 Knuth](https://www-cs-faculty.stanford.edu/_knuth/) wanted to give us

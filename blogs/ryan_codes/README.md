@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Programmer Ryan Gosling: Legacy 👨‍💻
-===================================
+Programmer Ryan Gosling 👨‍💻
+===========================
 
 April 2nd, 2020
 

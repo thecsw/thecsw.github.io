@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Building Reddit apps in Go with mira ⛳
-======================================
+Talk to Reddit with Go ⛳
+========================
 
 March 26th, 2020
 

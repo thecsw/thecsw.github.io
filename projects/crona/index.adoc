@@ -1,4 +1,4 @@
-= Compiler Written in C++ from Scratch 🍺
+= Write a compiler in C++ from 0 🍺
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left

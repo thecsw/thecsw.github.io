@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-A Simplified Smart Home Model 🏠
-===============================
+Secure and cheap smart homes 🏠
+==============================
 
 In the Spring of 2021, I was taking [Professor
 Li](http://www.ittc.ku.edu/_fli/)\'s EECS 700: IoT Security, which was a

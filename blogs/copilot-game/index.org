@@ -1,4 +1,4 @@
-* Copilot writes a text-based game in Python 🎱
+* Write a whole game with Copilot 🎱
   190; 12021 H.E.
   
   This morning while at work, I received an email from Github, letting me know
