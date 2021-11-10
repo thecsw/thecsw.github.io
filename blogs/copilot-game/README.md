@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Copilot writes a text-based game in Python 🎱
-============================================
+Write a whole game with Copilot 🎱
+=================================
 
 190; 12021 H.E.
 

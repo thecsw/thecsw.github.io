@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Cryptography Library for RSA, Lenstra, elliptic curves 🍾
-========================================================
+I write crypto in python 🍾
+==========================
 
 In Spring 2020, the COVID semester, I was taking MATH 601: Cryptography
 that was at the time taught by [Emily Witt](https://witt.ku.edu).

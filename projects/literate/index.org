@@ -1,4 +1,4 @@
-* Literate Programming with a Sorting Visualizer 😎
+* Literate sorting visualizer 😎
 I must disclose that I have been infected by the dream that
 [[https://www-cs-faculty.stanford.edu/~knuth/][Donald E. Knuth]] wanted to give us with the [[http://www.literateprogramming.com][Literate Programming]]
 paradigm. Many decades have passed since his original papers and the [[https://www-cs-faculty.stanford.edu/~knuth/lp.html][book]]

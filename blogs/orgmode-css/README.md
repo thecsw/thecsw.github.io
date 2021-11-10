@@ -1,5 +1,5 @@
 ![preview](./preview.png)
-Prettifying Org Mode with CSS 💅
+Prettifying org-mode with CSS 💅
 ===============================
 
 May 9th, 2020

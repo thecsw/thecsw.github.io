@@ -9,16 +9,15 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 Some of the cool things I've done over the years, such as projects,
 websites, papers, etc! Hope you find something interesting for yourself
 
-* link:./literate[Literate Programming with a Sorting Visualizer 😎]
+* link:./literate[Literate sorting visualizer 😎]
 * link:./chelovek[Счастье маленького человека 🧥]
-* link:./sandissa[A Simplified Smart Home Model 🏠]
-* link:./crona[Compiler Written in C++ from Scratch 🍺]
-* link:./algo560[Data Structures from EECS 560 🏛]
-* link:./tutor_sp21[Sandy's Tutor Notes for Spring 2021 📝]
-* link:./diffeq[Ordinary Differential Equations Oracles 🧎‍♀️]
-* link:./kaylee[Selected Final Projects for Embedded Systems 🚗]
-* link:./lenna[Image Compression using Principal Component Analysis 🎱]
+* link:./sandissa[Secure and cheap smart homes 🏠]
+* link:./crona[Write a compiler in C++ from 0 🍺]
+* link:./algo560[Cool C++ data structures 🏛]
+* link:./tutor_sp21[Sandy's tutor notes 📝]
+* link:./diffeq[Differential equations oracles 🧎‍♀️]
+* link:./kaylee[Embedded systems final 🚗]
+* link:./lenna[Compress images with PCA 🎱]
 * link:./lhopital[L'Hôpital's Rule 🏥]
-* link:./crypto[Cryptography Library for RSA, Lenstra, elliptic curves
-🍾]
-* link:./sentocks[Sentocks or Sentimental Stocks 💇‍♀️]
+* link:./crypto[I write crypto in python 🍾]
+* link:./sentocks[Sentimental stocks 💇‍♀️]

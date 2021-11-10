@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Sandy\'s Tutor Notes for Spring 2021 📝
-======================================
+Sandy\'s tutor notes 📝
+======================
 
 During Spring 2021 semester, I worked as a tutor for the School of
 Engineering. As one of the tutors, we held multiple a series of study

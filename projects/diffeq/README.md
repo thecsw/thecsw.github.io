@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Ordinary Differential Equations Oracles 🧎‍♀️
-============================================
+Differential equations oracles 🧎‍♀️
+===================================
 
 I also worked as a grader for Ordinary Differential Equations course
 (MATH 220), taught by Professor Van Vleck from the department of

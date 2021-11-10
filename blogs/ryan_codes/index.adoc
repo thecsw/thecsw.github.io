@@ -1,4 +1,4 @@
-= Programmer Ryan Gosling: Legacy 👨‍💻
+= Programmer Ryan Gosling 👨‍💻
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left

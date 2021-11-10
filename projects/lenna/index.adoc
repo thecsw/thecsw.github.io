@@ -1,4 +1,4 @@
-= Image Compression using Principal Component Analysis 🎱
+= Compress images with PCA 🎱
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left
