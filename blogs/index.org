@@ -5,20 +5,20 @@
   new!
 
   * [[./emacs-macos][Using emacs on macOS (M1) 🍎]]
-  * [[./copilot-game][Copilot writes a text-based game in Python 🎱]]
+  * [[./copilot-game][Write a whole game with Copilot 🎱]]
   * [[./web-toolbox][Essential toolbox for the web 🧰]]
   * [[./emacs.sh][Getting Sandy's .emacs.d 🤺]]
   * [[./foundation-time][Using Foundation-style Time 💫]]
   * [[./song_challenge][My 30-day song challenge 🎵🤘]]
   * [[./githubio][Custom domains with Github Pages 🦉]]
-  * [[./diffeq][Differential Equations Cookbook 🔥]]
-  * [[./orgmode-css][Prettifying Org Mode with CSS 💅]]
+  * [[./diffeq][Differential equations cookbook 🔥]]
+  * [[./orgmode-css][Prettifying org-mode with CSS 💅]]
   * [[./emacsd][Setting up an emacs server 😈]]
   * [[./go-emacs][Becoming an emacs gopher 🐗]]
   * [[./twin-peaks][Twin Peaks as a Cult Film 🌲🌲]]
   * [[./encrypting_usb][Encrypting your drive with LUKS 🗝]]
-  * [[./ryan_codes][Programmer Ryan Gosling: Legacy 👨‍💻]]
-  * [[./mira_reddit][Building Reddit apps in Go with mira ⛳]]
+  * [[./ryan_codes][Programmer Ryan Gosling 👨‍💻]]
+  * [[./mira_reddit][Talk to Reddit with Go ⛳]]
   * [[./good_bad_movies][Watching good and bad movies 🎭]]
   * [[./why_use_emojis][Why use emojis? 🎷🕺]]
   * [[./quick_dirty_js/exercise3][Cat that reached transcendence 🐱]]
@@ -28,6 +28,6 @@
   * [[./year_12019][Welcome to year 12,019 📅]]
   * [[./mini_jenni][Mini Jenni - my new best friend 👯‍♀️]]
   * [[./using_mutt][Bring joy back to email with Mutt 🐕]]
-  * [[./installing_arch][Installing Glorious Arch Linux ☄️]]
+  * [[./installing_arch][Installing glorious arch linux ☄️]]
 
   USEMATHJAX
