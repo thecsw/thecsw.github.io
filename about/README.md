@@ -19,5 +19,5 @@ I have some presence on the web, you can find me around here
 -   [Telegram ✈️](https://t.me/thecsw) (it\'s just there)
 -   [LinkedIn 🕴](https://www.linkedin.com/in/thecsw) (I abhor this
     platform)
--   [Instagram 📷](https://www.instagram.com/sandy_uraz) (haven\'t used
-    it in months)
+-   [Instagram 📷](https://www.instagram.com/sandyuraz) (sometimes I
+    post)
