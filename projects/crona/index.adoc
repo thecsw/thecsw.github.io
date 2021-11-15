@@ -1,4 +1,4 @@
-= Write a compiler in C++ from 0 🍺
+= Write a compiler in C++ from nil 🍺
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left

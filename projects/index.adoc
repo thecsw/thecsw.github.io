@@ -12,7 +12,7 @@ websites, papers, etc! Hope you find something interesting for yourself
 * link:./literate[Literate sorting visualizer 😎]
 * link:./chelovek[Счастье маленького человека 🧥]
 * link:./sandissa[Secure and cheap smart homes 🏠]
-* link:./crona[Write a compiler in C++ from 0 🍺]
+* link:./crona[Write a compiler in C++ from nil 🍺]
 * link:./algo560[Cool C++ data structures 🏛]
 * link:./tutor_sp21[Sandy's tutor notes 📝]
 * link:./diffeq[Differential equations oracles 🧎‍♀️]
