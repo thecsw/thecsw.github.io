@@ -8,7 +8,7 @@ websites, papers, etc! Hope you find something interesting for yourself
 -   [Literate sorting visualizer 😎](./literate)
 -   [Счастье маленького человека 🧥](./chelovek)
 -   [Secure and cheap smart homes 🏠](./sandissa)
--   [Write a compiler in C++ from 0 🍺](./crona)
+-   [Write a compiler in C++ from nil 🍺](./crona)
 -   [Cool C++ data structures 🏛](./algo560)
 -   [Sandy\'s tutor notes 📝](./tutor_sp21)
 -   [Differential equations oracles 🧎‍♀️](./diffeq)

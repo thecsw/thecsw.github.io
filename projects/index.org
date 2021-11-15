@@ -5,7 +5,7 @@ papers, etc! Hope you find something interesting for yourself
  * [[./literate][Literate sorting visualizer 😎]]
  * [[./chelovek][Счастье маленького человека 🧥]]
  * [[./sandissa][Secure and cheap smart homes 🏠]]
- * [[./crona][Write a compiler in C++ from 0 🍺]]
+ * [[./crona][Write a compiler in C++ from nil 🍺]]
  * [[./algo560][Cool C++ data structures 🏛]]
  * [[./tutor_sp21][Sandy's tutor notes 📝]]
  * [[./diffeq][Differential equations oracles 🧎‍♀️]]

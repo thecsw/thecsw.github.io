@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Write a compiler in C++ from 0 🍺
-================================
+Write a compiler in C++ from nil 🍺
+==================================
 
 C-rona is a general-purpose, procedural, imperative, and
 statically-typed programming language written in C++. Our final project
