@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 320; 12021 H.E.
+
+A journey of a thousand miles must begin with a single step.
+
+-- Lao Tzu
+
 ### 300; 12021 H.E.
 
 Nature never hurries. Atom by atom, little by little she achieves her

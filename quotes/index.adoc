@@ -4,6 +4,12 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+== 320; 12021 H.E.
+
+A journey of a thousand miles must begin with a single step.
+
+– Lao Tzu
+
 == 300; 12021 H.E.
 
 Nature never hurries. Atom by atom, little by little she achieves her
