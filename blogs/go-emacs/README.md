@@ -4,6 +4,10 @@ Becoming an emacs gopher 🐗
 
 May 7th, 2020
 
+**UPDATE:** [Emacs LSP](https://emacs-lsp.github.io/lsp-mode/) is the
+way to go now. Please do not follow the way above and use the more
+powerful lsp. It\'s **so good**.
+
 I have been a full-time emacs user for the past 4 years and I have been
 working in Golang professionally for about 2 years now. Combining those
 two beauties is quite a task with so many different modules and addons
