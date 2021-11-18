@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 322; 12021 H.E.
+
+**YOLO**
+
 ### 320; 12021 H.E.
 
 A journey of a thousand miles must begin with a single step.
