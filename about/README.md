@@ -17,7 +17,7 @@ I have some presence on the web, you can find me around here
 
 -   [Github 🐙](https://github.com/thecsw) (it\'s ok for git stuff)
 -   [Telegram ✈️](https://t.me/thecsw) (it\'s just there)
--   [LinkedIn 🕴](https://www.linkedin.com/in/thecsw) (I abhor this
-    platform)
+-   [LinkedIn 🕴](https://www.linkedin.com/in/thecsw) (purely
+    professional)
 -   [Instagram 📷](https://www.instagram.com/sandyuraz) (sometimes I
     post)
