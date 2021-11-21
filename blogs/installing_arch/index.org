@@ -1,7 +1,13 @@
 * Installing glorious arch linux ☄️
 
 May 2nd, 2019
-  
+
+NOTE: This blog is a /little/ bit outdated. I just went through a new arch
+installation in about 2-3 years. Many things were changed, like no more
+=wifi-menu=, =rankmirrors=, and else. In general, instructions below would give you
+the correct installation, you would just have to fill out some of the gaps
+yourself. Good luck 😘
+
 Welcome to my guide on installing Glorious Arch
 Linux! For some background, I have been using arch for the last and it
 is still my only machine that I use as a daily driver. Arch Linux is a
@@ -213,7 +219,8 @@ you are and thus just lets you be yourself.
    - Set the hostname of your choice =% echo _myhostname_ > /etc/hostname=
    - Configure the hosts on your machine
 
-   =% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 _myhostname_.localdomain _myhostname_=
+   =% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 _myhostname_.localdomain=
+   =_myhostname_ > /etc/hosts= 
 
    - Configuring your network drivers with
      =% pacman -S iw dialog wpa_actiond wpa_supplicant sudo=
