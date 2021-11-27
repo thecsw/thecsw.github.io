@@ -78,12 +78,14 @@ I also enjoy watching some good anime, so here is my VHS-esque shelf full of
 anime as a bonus!
 
  #+BEGIN_SRC
-                    ┌───────────────────┐
-                    │   Demon Slayer    │
- ┌──────────────────┼───────────────────┘
+
+ ┌──────────────────┐
+ │   Demon Slayer   │───────────────────┐
+ │    Mugen Train   │   Demon Slayer    │
+ ├──────────────────┼───────────────────┤
  │    Banana Fish   │    Evangelion     │
- └──────────────────┤     3.0+1.0       │
- │  The Cat Returns ├───────────────────┘
+ ├──────────────────┤     3.0+1.0       │
+ │  The Cat Returns ├───────────────────┤
  ├──────────────────┤   Mary and the    │
  │    When Marnie   │  Witch's Flower   │
  │     Was There    ├───────────────────┤
