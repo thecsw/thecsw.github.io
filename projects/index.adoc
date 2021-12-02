@@ -9,6 +9,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 Some of the cool things I've done over the years, such as projects,
 websites, papers, etc! Hope you find something interesting for yourself
 
+* link:./art[The Art of Computer Science ❤️]
 * link:./literate[Literate sorting visualizer 😎]
 * link:./chelovek[Счастье маленького человека 🧥]
 * link:./sandissa[Secure and cheap smart homes 🏠]

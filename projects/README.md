@@ -5,6 +5,7 @@ Cool projects ☕
 Some of the cool things I\'ve done over the years, such as projects,
 websites, papers, etc! Hope you find something interesting for yourself
 
+-   [The Art of Computer Science ❤️](./art)
 -   [Literate sorting visualizer 😎](./literate)
 -   [Счастье маленького человека 🧥](./chelovek)
 -   [Secure and cheap smart homes 🏠](./sandissa)
