@@ -77,9 +77,11 @@ psst... **(ﾉ◕ヮ◕)ﾉ**:･ﾟ✧
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
-
-     ┌──────────────────┐
-     │   Demon Slayer   │───────────────────┐
+     ┌──────────────────┬───────────────────┐
+     │     Your Lie     │    Kakegurui ××   │
+     │     in April     ├───────────────────┤
+     ├──────────────────┤     Kakegurui     │
+     │   Demon Slayer   ├───────────────────┤
      │    Mugen Train   │   Demon Slayer    │
      ├──────────────────┼───────────────────┤
      │    Banana Fish   │    Evangelion     │
