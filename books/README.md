@@ -77,7 +77,11 @@ psst... **(ﾉ◕ヮ◕)ﾉ**:･ﾟ✧
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
-     ┌──────────────────┬───────────────────┐
+
+                        ┌───────────────────┐
+                        │ Heaven Official's │
+                        │     Blessing      │
+     ┌──────────────────┼───────────────────┤
      │     Your Lie     │    Kakegurui ××   │
      │     in April     ├───────────────────┤
      ├──────────────────┤     Kakegurui     │
