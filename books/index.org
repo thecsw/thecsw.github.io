@@ -79,10 +79,11 @@ anime as a bonus!
 
  #+BEGIN_SRC
 
-                    ┌───────────────────┐
-                    │ Heaven Official's │
-                    │     Blessing      │
- ┌──────────────────┼───────────────────┤
+
+ ┌──────────────────┐───────────────────┐
+ │  I Want to Eat   │ Heaven Official's │
+ │  Your Pancreas   │     Blessing      │
+ ├──────────────────┼───────────────────┤
  │     Your Lie     │    Kakegurui ××   │
  │     in April     ├───────────────────┤
  ├──────────────────┤     Kakegurui     │

@@ -78,10 +78,11 @@ I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
 
-                        ┌───────────────────┐
-                        │ Heaven Official's │
-                        │     Blessing      │
-     ┌──────────────────┼───────────────────┤
+
+     ┌──────────────────┐───────────────────┐
+     │  I Want to Eat   │ Heaven Official's │
+     │  Your Pancreas   │     Blessing      │
+     ├──────────────────┼───────────────────┤
      │     Your Lie     │    Kakegurui ××   │
      │     in April     ├───────────────────┤
      ├──────────────────┤     Kakegurui     │
