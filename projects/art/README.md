@@ -13,3 +13,5 @@ Let us talk and ponder on something that no one else does. We will come
 to revelations of our own and the future that awaits.
 
 [See the youtube video here](https://youtu.be/JjN-eE4kti8)
+
+The presentation deck is [available here](./deck.pdf).
