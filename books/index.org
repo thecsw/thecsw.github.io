@@ -78,9 +78,11 @@ I also enjoy watching some good anime, so here is my VHS-esque shelf full of
 anime as a bonus!
 
  #+BEGIN_SRC
-
-
- ┌──────────────────┐───────────────────┐
+                    ┌───────────────────┐
+                    │  Rascal Does Not  │
+                    │  Dream of Bunny   │
+                    │    Girl Senpai    │
+ ┌──────────────────┼───────────────────┤
  │  I Want to Eat   │ Heaven Official's │
  │  Your Pancreas   │     Blessing      │
  ├──────────────────┼───────────────────┤
