@@ -4,7 +4,7 @@ Sandy\'s bookshelf 📖
 
 Here is a stack of books I liked and recommend for reading if you are
 into this kind of stuff. You can find a couple of selected book and
-anime ◕‿↼ reviews here
+anime (◕‿↼) reviews
 
           ┌────────────────────────────┐
           │         Year Zero          │
