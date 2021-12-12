@@ -6,6 +6,10 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+Here is a stack of books I liked and recommend for reading if you are
+into this kind of stuff. You can find a couple of selected book and
+anime ◕‿↼ reviews here
+
 ....
       ┌────────────────────────────┐
       │         Year Zero          │
@@ -95,8 +99,15 @@ full of anime as a bonus!
  │     Your Lie     │    Kakegurui ××   │
  │     in April     ├───────────────────┤
  ├──────────────────┤     Kakegurui     │
- │   Demon Slayer   ├───────────────────┤
- │    Mugen Train   │   Demon Slayer    │
+ │  Demon Slayer –  ├───────────────────┤
+ │    The Movie:    │   Demon Slayer    │
+ │   Mugen Train    ├───────────────────┤
+ ├──────────────────┤ Sword Art Online  │
+ │ Sword Art Online │   Alicization –   │
+ │   Alicization    │ War of Underworld │
+ ├──────────────────┼───────────────────┤
+ │    Sword Art     │     Sword Art     │
+ │     Online       │     Online II     │
  ├──────────────────┼───────────────────┤
  │    Banana Fish   │    Evangelion     │
  ├──────────────────┤     3.0+1.0       │
