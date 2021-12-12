@@ -29,7 +29,7 @@ kind of stuff. You can find a couple of selected book and anime ◕‿↼ review
    ┌────┴─────────────────────────┴──────┐
    │  Дама с собачкой by Anton Chekhov   │
   ┌┴───────────────────────────────┬─────┘
-  │     Сон смешного человека       │
+  │     Сон смешного человека      │
   │       by Fyodor Dostoevsky     │
   └──┬─────────────────────────────┴───┐
      │   Живые Мощи by Ivan Turgenev   │
