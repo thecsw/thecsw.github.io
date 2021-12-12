@@ -11,7 +11,7 @@ kind of stuff. You can find a couple of selected book and anime ◕‿↼ review
 │                                        │
 │                                        │
 │                                        │
-│            Братья Карамазовы            │
+│            Братья Карамазовы           │
 │          (Brothers Karamazov)          │
 │                                        │
 │                                        │
@@ -23,16 +23,16 @@ kind of stuff. You can find a couple of selected book and anime ◕‿↼ review
     │         (Dead Souls)          │
     │                               │
     └┬───────────────────────┬──────┘
-     │     Евгений Онегин     │
+     │     Евгений Онегин    │
      └──┬────────────────────┴────┐
         │         Bēowulf         │
    ┌────┴─────────────────────────┴──────┐
-   │  Дама с собачкой by Anton Chekhov    │
+   │  Дама с собачкой by Anton Chekhov   │
   ┌┴───────────────────────────────┬─────┘
-  │     Сон смешного человека        │
+  │     Сон смешного человека       │
   │       by Fyodor Dostoevsky     │
   └──┬─────────────────────────────┴───┐
-     │   Живые Мощи by Ivan Turgenev  │
+     │   Живые Мощи by Ivan Turgenev   │
      └──┬──────────────────────────────┴┐
         │     Метель by Leo Tolstoy     │
        ┌┴──────────────────────────┬────┘
