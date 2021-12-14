@@ -82,11 +82,12 @@ psst... **(ﾉ◕ヮ◕)ﾉ**:･ﾟ✧
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
-                        ┌───────────────────┐
-                        │  Rascal Does Not  │
-                        │  Dream of Bunny   │
-                        │    Girl Senpai    │
-     ┌──────────────────┼───────────────────┤
+
+     ┌──────────────────┬───────────────────┐
+     │ Sword Art Online │  Rascal Does Not  │
+     │   Alternative:   │  Dream of Bunny   │
+     │  Gun Gale Online │    Girl Senpai    │
+     ├──────────────────┼───────────────────┤
      │  I Want to Eat   │ Heaven Official's │
      │  Your Pancreas   │     Blessing      │
      ├──────────────────┼───────────────────┤
