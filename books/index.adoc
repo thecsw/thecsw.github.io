@@ -89,7 +89,12 @@ I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
 ....
- ┌──────────────────┬───────────────────┐
+ ┌──────────────────┐
+ │   Is It Wrong    │
+ │  to Try to Pick  │
+ │   Up Girls in    │
+ │    a Dungeon?    │
+ ├──────────────────┼───────────────────┐
  │ Sword Art Online │  Rascal Does Not  │
  │   Alternative:   │  Dream of Bunny   │
  │  Gun Gale Online │    Girl Senpai    │
