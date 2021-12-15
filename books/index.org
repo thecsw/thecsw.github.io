@@ -84,7 +84,12 @@ anime as a bonus!
 
  #+BEGIN_SRC
 
- ┌──────────────────┬───────────────────┐
+ ┌──────────────────┐
+ │   Is It Wrong    │
+ │  to Try to Pick  │
+ │   Up Girls in    │
+ │    a Dungeon?    │
+ ├──────────────────┼───────────────────┐
  │ Sword Art Online │  Rascal Does Not  │
  │   Alternative:   │  Dream of Bunny   │
  │  Gun Gale Online │    Girl Senpai    │
