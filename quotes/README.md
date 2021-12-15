@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 349; 12021 H.E.
+
+In 2021 I laughed 😂😂 I cried 😢😖 turned up 👆💃🏻💁‍♀️ turned down 👇🙅‍♀️ I
+loved 👩‍❤️‍👨👫👨‍🦰👩‍🦰👧 I lost trust 💔😩 I was betrayed 😒🔪 but most
+importantly I learned 😌
+
 ### 322; 12021 H.E.
 
 **YOLO**
