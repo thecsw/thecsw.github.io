@@ -40,6 +40,8 @@ EXCLUDE_OUTPUT = -not -path "./articles/quick_dirty_js/*" -and -not -path "./pre
 INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
 OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" $(EXCLUDE_OUTPUT)
 
+EXCLUDE_TOC = . ./fortunes/ ./blogs/
+
 INPUT_SED = ./sed/adoc.sed
 README_SED = ./sed/md.sed
 OUTPUT_SED = ./sed/html.sed
@@ -66,9 +68,7 @@ $(NAME):
 	$(E) "Removing the home link from the root page, because it's already home"
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) 's/| Home_LINK//g' -i
 	$(E) "Do not show the table of contents on the root page, fortunes page, and the cool stuff page"
-	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
-	$(Q) find ./fortunes/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
-#	$(Q) find ./stuff/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
+	$(Q) find $(EXCLUDE_TOC) -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) '/^:toc/d' -i
 	$(E) "\n->	BUILDING ..."
 	$(E) "Invoking asciidoctor to build the html documents"
 	$(Q) $(INPUT_FILES) | xargs $(COMPILER) $(FLAGS) 2>/dev/null
