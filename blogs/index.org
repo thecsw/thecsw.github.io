@@ -4,7 +4,7 @@
   them interesting and you can learn something new! Always learn something
   new!
 
-** Software
+*** Software
   * [[./emacs-macos][Using emacs on macOS (M1) 🍎]]
   * [[./copilot-game][Write a whole game with Copilot 🎱]]
   * [[./web-toolbox][Essential toolbox for the web 🧰]]
@@ -20,12 +20,12 @@
   * [[./using_mutt][Bring joy back to email with Mutt 🐕]]
   * [[./installing_arch][Installing glorious arch linux ☄️]]
 
-** Thoughts
+*** Thoughts
   * [[./good_bad_movies][Watching good and bad movies 🎭]]
   * [[./why_use_emojis][Why use emojis? 🎷🕺]]
   * [[./year_12019][Welcome to year 12,019 📅]]
 
-** Random
+*** Random
   * [[./foundation-time][Using Foundation-style Time 💫]]
   * [[./song_challenge][My 30-day song challenge 🎵🤘]]
   * [[./diffeq][Differential equations cookbook 🔥]]
