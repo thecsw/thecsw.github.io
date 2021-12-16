@@ -84,11 +84,11 @@ full of anime as a bonus!
 
 
      ┌──────────────────┐
-     │   Is It Wrong    │
-     │  to Try to Pick  │
-     │   Up Girls in    │
-     │    a Dungeon?    │
-     ├──────────────────┼───────────────────┐
+     │   Is It Wrong    ├───────────────────┐
+     │  to Try to Pick  │  Sword Art Online │
+     │   Up Girls in    │   Movie: Ordinal  │
+     │    a Dungeon?    │       Scale       │
+     ├──────────────────┼───────────────────┤
      │ Sword Art Online │  Rascal Does Not  │
      │   Alternative:   │  Dream of Bunny   │
      │  Gun Gale Online │    Girl Senpai    │
