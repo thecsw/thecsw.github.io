@@ -6,8 +6,7 @@ Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
-Software
---------
+### Software
 
 -   [Using emacs on macOS (M1) 🍎](./emacs-macos)
 -   [Write a whole game with Copilot 🎱](./copilot-game)
@@ -24,15 +23,13 @@ Software
 -   [Bring joy back to email with Mutt 🐕](./using_mutt)
 -   [Installing glorious arch linux ☄️](./installing_arch)
 
-Thoughts
---------
+### Thoughts
 
 -   [Watching good and bad movies 🎭](./good_bad_movies)
 -   [Why use emojis? 🎷🕺](./why_use_emojis)
 -   [Welcome to year 12,019 📅](./year_12019)
 
-Random
-------
+### Random
 
 -   [Using Foundation-style Time 💫](./foundation-time)
 -   [My 30-day song challenge 🎵🤘](./song_challenge)
