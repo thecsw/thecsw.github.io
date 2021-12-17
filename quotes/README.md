@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 351; 12021 H.E.
+
+We seldom repent talking too little, but very often talking too much.
+
+-- Jean de la Bruyere
+
 ### 349; 12021 H.E.
 
 In 2021 I laughed 😂😂 I cried 😢😖 turned up 👆💃🏻💁‍♀️ turned down 👇🙅‍♀️ I
