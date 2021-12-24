@@ -19,4 +19,5 @@ papers, etc! Hope you find something interesting for yourself
  * [[./crypto][I write crypto in python  🍾]]
  * [[./sentocks][Sentocks or Sentimental stocks 💇‍♀️]]
  * [[./mira][Reddit API wrapper for gophers 🎩]]
+ * [[./memeinvestor_bot][Become a True Meme Investor 💸]]
  * [[./prequelmemes_bot][Find Movie Quotes from a Picture 🗡]]
