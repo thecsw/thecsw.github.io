@@ -5,7 +5,9 @@ Cool projects ☕
 Some of the cool things I\'ve done over the years, such as projects,
 websites, papers, etc! Hope you find something interesting for yourself
 
+-   [Katya or The Liberated Corpus 🙈](./katya)
 -   [The Art of Computer Science ❤️](./art)
+-   [Writing a shell in Go 🐚](./quash)
 -   [Literate sorting visualizer 😎](./literate)
 -   [Счастье маленького человека 🧥](./chelovek)
 -   [Secure and cheap smart homes 🏠](./sandissa)

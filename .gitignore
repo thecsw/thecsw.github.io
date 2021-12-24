@@ -5,3 +5,6 @@ astrie
 temp.sed
 .DS_Store
 ltximg
+
+# ignore folder
+git-ignore
