@@ -58,7 +58,7 @@ s|DejaVu|Lora|g
 s|Droid Sans Mono|DejaVu Sans Mono|g
 
 # Import some CSS adjustments
-/<body/i\<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/styles/web.min.css">
+/<body/i\<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/styles/web.css">
 
 # Run media macros
 s|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|
