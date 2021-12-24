@@ -90,8 +90,8 @@ anime as a bonus!
  │   Is it Wrong    ├───────────────────┤
  │  to Try to Pick  │   Is it Wrong     │
  │   Up Girls in    │  to Try to Pick   │
- │  a Dungeon? II   │   Up Girls in     │
- ├──────────────────┤  a Dungeon? III   │
+ │  a Dungeon? III  │   Up Girls in     │
+ ├──────────────────┤   a Dungeon? II   │
  │   Is It Wrong    ├───────────────────┤
  │  to Try to Pick  │ Sword Art Online  │
  │   Up Girls in    │  Movie: Ordinal   │
