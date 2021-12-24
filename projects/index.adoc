@@ -28,3 +28,4 @@ websites, papers, etc! Hope you find something interesting for yourself
 * link:./mira[Reddit API wrapper for gophers 🎩]
 * link:./memeinvestor_bot[Become a True Meme Investor 💸]
 * link:./prequelmemes_bot[Find Movie Quotes from a Picture 🗡]
+* link:./memepolice_bot[Spot and prosecute bad memes 👮‍♀️]
