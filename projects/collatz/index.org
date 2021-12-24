@@ -1,4 +1,4 @@
-* Generate Collatz Conjecture Graphs 📉
+* Make Collatz Conjecture Graphs 📉
 
 In high school I became interested in [[https://en.wikipedia.org/wiki/Collatz_conjecture][Collatz conjecture]] and thought the
 stopping time graphs are quite pretty, like the one below shows the steps =27= has
