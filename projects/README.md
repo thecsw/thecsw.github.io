@@ -8,6 +8,7 @@ websites, papers, etc! Hope you find something interesting for yourself
 -   [Katya or The Liberated Corpus 🙈](./katya)
 -   [The Art of Computer Science ❤️](./art)
 -   [Writing a Unix shell in Go 🐚](./quash)
+-   [Finding Meaning in the Void ✨](./super)
 -   [Literate sorting visualizer 😎](./literate)
 -   [Счастье маленького человека 🧥](./chelovek)
 -   [Secure and cheap smart homes 🏠](./sandissa)
