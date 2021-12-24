@@ -15,7 +15,7 @@ You can just add this line here or just use the bare CSS as a starting
 point to make your own (everyone has their own style):
 
 ``` {.org}
-#+HTML_HEAD: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
+#+HTML_HEAD: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.css">
 ```
 
 Even a really little makeup can make a big difference! There is a good
