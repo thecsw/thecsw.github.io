@@ -82,11 +82,18 @@ psst... **(ﾉ◕ヮ◕)ﾉ**:･ﾟ✧
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
-
-     ┌──────────────────┐
-     │   Is It Wrong    ├───────────────────┐
-     │  to Try to Pick  │  Sword Art Online │
-     │   Up Girls in    │   Movie: Ordinal  │
+                        ┌───────────────────┐
+                        │ Sword Art Online: │
+                        │ Progressive ─ Aria│
+     ┌──────────────────┤of a Starless Night│
+     │   Is it Wrong    ├───────────────────┤
+     │  to Try to Pick  │   Is it Wrong     │
+     │   Up Girls in    │  to Try to Pick   │
+     │  a Dungeon? II   │   Up Girls in     │
+     ├──────────────────┤  a Dungeon? III   │
+     │   Is It Wrong    ├───────────────────┤
+     │  to Try to Pick  │ Sword Art Online  │
+     │   Up Girls in    │  Movie: Ordinal   │
      │    a Dungeon?    │       Scale       │
      ├──────────────────┼───────────────────┤
      │ Sword Art Online │  Rascal Does Not  │
