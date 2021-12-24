@@ -117,5 +117,7 @@ I wish EnterMeme, which is now officially
 [meme.market](https://meme.market) commercial and social success it\'s
 looking for and actively working towards.
 
+Thank you and Goodbye, MemeInvestor_bot_.
+
 -\> [Go to the original `memeinvestor_bot`
 repository](https://github.com/thecsw/memeinvestor_bot)
