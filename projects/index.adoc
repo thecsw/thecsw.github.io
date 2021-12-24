@@ -33,3 +33,4 @@ websites, papers, etc! Hope you find something interesting for yourself
 * link:./memepolice_bot[Spot and Prosecute Bad Memes 👮‍♀️]
 * link:./collatz[Make Collatz Conjecture Graphs 📉]
 * link:./rjokes[Get Me the Best Reddit Jokes 🃏]
+* link:./doge[Farm Clicks with Doge Clicker 🐶]

@@ -1,0 +1,15 @@
+* Farm Clicks with Doge Clicker 🐶
+
+This is by far the oldest, yet most complete project I could find. I think I was
+a freshman in high school and made this doge farm clicker for some kind of a
+in-school programming competition (got the second place lol). This is yet
+another proof that I was into Doge before it was cool. Way back in 2013-2014?
+
+Another funny thing is that the source code is lost. So the only files I have is
+the actual =.exe= file that was made using [[https://en.wikipedia.org/wiki/Delphi_(software)][Delphi]]. Dark times, but this is how I
+was introduced to programming. Through Pascal and Delphi, the latter being an
+object-oriented version of the former.
+
+/I made Doge Clicker in Delphi 7, [[https://delphi.embarcadero.com/project/delphi-7/][which is from 2002]]/
+
+-> [[https://github.com/thecsw/Doge-Clicker][Go to the game files]]
