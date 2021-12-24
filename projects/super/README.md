@@ -1,0 +1,24 @@
+![preview](./preview.png)
+Finding Meaning in the Void ✨
+=============================
+
+I was a part of the Summer Undergraduate Program for Engineering
+Research (SUPER) research internship program during the Summer of 2021.
+Absolutely loved working for NCAR at Earth Observing Laboratory.
+
+The MicroPulse DIAL or MPD is a low transmit power lidar system capable
+of retrieving profiles of water vapor (absolute humidity), aerosol and
+cloud scattering properties (backscatter coefficient) and temperature.
+MPD collects backscattered photons across a wavelength range. Due to the
+system characteristics, the received signal can be very noisy. Our goal
+is to analyze the MPD receiver to minimize the effect of noise on system
+characterization.
+
+This work has been gratefully funded by the Summer Undergraduate Program
+for Engineering Research (SUPER) at the National Center for Atmospheric
+Research's (NCAR) Earth Observing Laboratory (EOL).
+
+-\> [Go to my final research poster](./2021_Sandy_Urazayev.pdf)
+
+-\> [Go to the SUPER
+website](https://www.eol.ucar.edu/content/summer-undergraduate-program-engineering-research-super)

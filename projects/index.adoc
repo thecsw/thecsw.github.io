@@ -12,6 +12,7 @@ websites, papers, etc! Hope you find something interesting for yourself
 * link:./katya[Katya or The Liberated Corpus 🙈]
 * link:./art[The Art of Computer Science ❤️]
 * link:./quash[Writing a Unix shell in Go 🐚]
+* link:./super[Finding Meaning in the Void ✨]
 * link:./literate[Literate sorting visualizer 😎]
 * link:./chelovek[Счастье маленького человека 🧥]
 * link:./sandissa[Secure and cheap smart homes 🏠]
