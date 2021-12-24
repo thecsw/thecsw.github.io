@@ -9,7 +9,7 @@
   * [[./copilot-game][Write a whole game with Copilot 🎱]]
   * [[./web-toolbox][Essential toolbox for the web 🧰]]
   * [[./emacs.sh][Getting Sandy's .emacs.d 🤺]]
-  * [[./githubio][Custom domains with Github Pages 🦉]]
+  * [[./githubio][Custom Domains and Github Pages 🦉]]
   * [[./orgmode-css][Prettifying org-mode with CSS 💅]]
   * [[./emacsd][Setting up an emacs server 😈]]
   * [[./go-emacs][Becoming an emacs gopher 🐗]]
