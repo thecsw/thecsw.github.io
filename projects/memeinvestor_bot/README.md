@@ -2,7 +2,7 @@
 Become a True Meme Investor 💸
 =============================
 
-*Spring 2018*
+*Take yourself back to Spring 2018*
 
 I am finally done with my IB exams. These two years were just brutal. I
 was longing for a break and now I got it. So... what do I do now? Well,
@@ -33,7 +33,7 @@ about!! Oh crap. The measely text file corrupted with number of writes
 and it of course
 [crashed](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzetc6b)
 
-PIC create.png:MemeInvestor_bot~ went down
+[MemeInvestor_bot~ went down](create.png)
 
 Hey mom, dad, I need to go upstairs real quick. Be right back. Okay. I
 remember like a week ago I\'ve heard about this thing called
@@ -50,36 +50,36 @@ I\'m hungry, let me go downstairs and have faith in my coding
 investors](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeefkl)
 saw very good returns
 
-PIC 300.png:My man, I have invested 300 in this meme, don't let me down
+[My man, I have invested 300 in this meme, don't let me down](300.png)
 
 [Some
 people](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzecssj)
 even liked the new feature!
 
-PIC invest.png:I finally understand this subreddit
+[I finally understand this subreddit](invest.png)
 
 [Some](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeeev4)
 even bet their everything
 
-PIC full_invest_.png:ballsy move, will it pay?
+[ballsy move, will it pay?](full_invest_.png)
 
 You might wonder, how did the bot work back then? Here is the [help
 message](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzet1ec)
 and available commands at the time
 
-PIC help.png:!help
+[!help](help.png)
 
 And here are the
 [messages](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzed7e6)
 with investment updates
 
-PIC update.png:!invest
+[!invest](update.png)
 
 And 15 thousand more messages that are just `!create`, `!invest`, and
 `!balance`. Dinner was good and I\'m happy with how this little meme
 investor turned out. I wonder how I can work on it more?
 
-*Today*
+*So what about today?*
 
 Well, this whole project turned out to be more than I thought it would
 be.

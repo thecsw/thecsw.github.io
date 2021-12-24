@@ -383,9 +383,9 @@ for a program and when installing it.
 Pictures
 --------
 
-PIC pic1.png:Writing my website in tmux
+[Writing my website in tmux](pic1.png)
 
-PIC pic2.png:My desktop
+[My desktop](pic2.png)
 
-PIC pic3.png:i3 with cowsay, pipes.sh, htop, neofetch in
+[i3 with cowsay, pipes.sh, htop, neofetch in](pic3.png)
 counterclockwise order
