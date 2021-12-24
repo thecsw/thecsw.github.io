@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Embedded systems final 🚗
-========================
+Build a cheap self-driving car 🚗
+================================
 
 In the Fall of 2020 I was enrolled in EECS 388: Embedded Systems. It\'s
 an introduction course into lower level things, such as RISC-V, Computer

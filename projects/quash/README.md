@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Writing a shell in Go 🐚
-=======================
+Writing a Unix shell in Go 🐚
+============================
 
 For my EECS 678: Operating Systems course, one of the projects we have
 to do is build our own Unix shell, which would be able to interpret

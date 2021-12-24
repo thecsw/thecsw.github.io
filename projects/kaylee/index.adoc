@@ -1,4 +1,4 @@
-= Embedded systems final 🚗
+= Build a cheap self-driving car 🚗
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left
