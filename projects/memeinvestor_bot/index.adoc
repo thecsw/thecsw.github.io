@@ -6,7 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
-== Spring 2018
+_Spring 2018_
 
 I am finally done with my IB exams. These two years were just brutal. I
 was longing for a break and now I got it. So… what do I do now? Well, I
@@ -37,7 +37,8 @@ it's about!! Oh crap. The measely text file corrupted with number of
 writes and it of course
 https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzetc6b[crashed]
 
-link:./create.png[MemeInvestor_bot went down]
+.MemeInvestor_bot went down
+image::create.png[MemeInvestor_bot went down, link="create.png"]
 
 Hey mom, dad, I need to go upstairs real quick. Be right back. Okay. I
 remember like a week ago I've heard about this thing called
@@ -53,36 +54,40 @@ I'm hungry, let me go downstairs and have faith in my coding
 https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeefkl[Early
 investors] saw very good returns
 
-link:./300.png[My man, I have invested 300 in this meme, don’t let me
-down]
+.My man, I have invested 300 in this meme, don’t let me down
+image::300.png[My man, I have invested 300 in this meme, don’t let me down, link="300.png"]
 
 https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzecssj[Some
 people] even liked the new feature!
 
-link:./invest.png[!invest 100 -> I finally understand this subreddit]
+.I finally understand this subreddit
+image::invest.png[I finally understand this subreddit, link="invest.png"]
 
 https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeeev4[Some]
 even bet their everything
 
-link:./full_invest.png[!invest 1000 -> ballsy move, will it pay?]
+.ballsy move, will it pay?
+image::full_invest.png[ballsy move, will it pay?, link="full_invest.png"]
 
 You might wonder, how did the bot work back then? Here is the
 https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzet1ec[help
 message] and available commands at the time
 
-link:./help.png[!help]
+.!help
+image::help.png[!help, link="help.png"]
 
 And here are the
 https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzed7e6[messages]
 with investment updates
 
-link:./update.png[!invest]
+.!invest
+image::update.png[!invest, link="update.png"]
 
 And 15 thousand more messages that are just `!create`, `!invest`, and
 `!balance`. Dinner was good and I'm happy with how this little meme
 investor turned out. I wonder how I can work on it more?
 
-== Today
+_Today_
 
 Well, this whole project turned out to be more than I thought it would
 be.
