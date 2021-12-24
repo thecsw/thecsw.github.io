@@ -61,7 +61,7 @@ even liked the new feature!
 [Some](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeeev4)
 even bet their everything
 
-![ballsy move, will it pay?](full_invest_.png)
+![ballsy move, will it pay?](fullinvest.png)
 
 You might wonder, how did the bot work back then? Here is the [help
 message](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzet1ec)
@@ -82,4 +82,40 @@ investor turned out. I wonder how I can work on it more?
 *So what about today?*
 
 Well, this whole project turned out to be more than I thought it would
-be.
+be. It was... **fantastic**! I had over 25 people joining me on
+development. Even developers from the real world contributed to the
+project, taught me many invaluable skills, and an understanding of what
+it means to manage a project. This story has been retold many times and
+I will shorten it because it\'s very late right now and I\'m watching
+Death Note.
+
+I have been maintaining and working on the project for a little bit more
+than three years. We had dozens of developers from across the world
+contributing code, advice, and technical support to MemeInvestor. We
+amassed more than 100,000 registered users, with an all-time peak of
+10,000 active daily users. An r/MemeEconomy creator and my partner
+[Noerdy](https://reddit.com/u/Noerdy) incorporated our little venture
+into an LLC. Sometime later, our humble project got acquired by
+EnterMeme.
+
+Wait, why acquired? For how much? How was it? Let me answer one by one.
+Frankly, maintaining an active project while grinding in college did
+wear me out in some places, so I\'ve found myself burnt on the project.
+Development (as a sole engineer at that time) took way longer than
+expected. Not a lot of passion left for it. At one point, I was starting
+to look to find a new maintainer, just to offload MIB (the new version
+of MemeInvestor) onto someone, who can actually do something about it.
+
+I can\'t say how much specifically, but do not think it was an \"exit\".
+Think of the acquisition as just switching maintainers at that point. I
+was just happy that I could focus on other things, as I did not have the
+heart in me to just shut it down and shelve it. That is still how I
+feel. I am glad to finally have been able to move on to greener pastures
+and spend more time on projects that drive more passion within me.
+
+I wish EnterMeme, which is now officially
+[meme.market](https://meme.market) commercial and social success it\'s
+looking for and actively working towards.
+
+-\> [Go to the original `memeinvestor_bot`
+repository](https://github.com/thecsw/memeinvestor_bot)
