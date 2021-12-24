@@ -12,7 +12,7 @@ something new!
 -   [Write a whole game with Copilot 🎱](./copilot-game)
 -   [Essential toolbox for the web 🧰](./web-toolbox)
 -   [Getting Sandy\'s .emacs.d 🤺](./emacs.sh)
--   [Custom Domains and Github Pages 🦉](./githubio)
+-   [Your Domains and Github Pages 🦉](./githubio)
 -   [Prettifying org-mode with CSS 💅](./orgmode-css)
 -   [Setting up an emacs server 😈](./emacsd)
 -   [Becoming an emacs gopher 🐗](./go-emacs)
