@@ -36,7 +36,7 @@ INPUT_TYPE = adoc
 OUTPUT_TYPE = html
 
 EXCLUDE_ORIGINAL = -not -path "./present/*"
-EXCLUDE_OUTPUT = -not -path "./articles/quick_dirty_js/*" -and -not -path "./present/*"
+EXCLUDE_OUTPUT = -not -path "./present/*" -and -not -path "./present/*"
 INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
 OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" $(EXCLUDE_OUTPUT)
 
