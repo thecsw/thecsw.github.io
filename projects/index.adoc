@@ -15,6 +15,7 @@ websites, papers, etc! Hope you find something interesting for yourself
 * link:./literate[Literate sorting visualizer 😎]
 * link:./chelovek[Счастье маленького человека 🧥]
 * link:./sandissa[Secure and cheap smart homes 🏠]
+* link:./mips[Design a MIPS CPU in VHDL 💼]
 * link:./crona[Write a compiler in C++ from nil 🍺]
 * link:./algo560[Cool pure C++ data structures 🏛]
 * link:./tutor_sp21[Sandy's tutoring notes 📝]
