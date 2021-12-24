@@ -33,7 +33,7 @@ about!! Oh crap. The measely text file corrupted with number of writes
 and it of course
 [crashed](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzetc6b)
 
-[MemeInvestor_bot~ went down](create.png)
+![MemeInvestor_bot~ went down](create.png)
 
 Hey mom, dad, I need to go upstairs real quick. Be right back. Okay. I
 remember like a week ago I\'ve heard about this thing called
@@ -50,30 +50,30 @@ I\'m hungry, let me go downstairs and have faith in my coding
 investors](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeefkl)
 saw very good returns
 
-[My man, I have invested 300 in this meme, don't let me down](300.png)
+![My man, I have invested 300 in this meme, don't let me down](300.png)
 
 [Some
 people](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzecssj)
 even liked the new feature!
 
-[I finally understand this subreddit](invest.png)
+![I finally understand this subreddit](invest.png)
 
 [Some](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeeev4)
 even bet their everything
 
-[ballsy move, will it pay?](full_invest_.png)
+![ballsy move, will it pay?](full_invest_.png)
 
 You might wonder, how did the bot work back then? Here is the [help
 message](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzet1ec)
 and available commands at the time
 
-[!help](help.png)
+![!help](help.png)
 
 And here are the
 [messages](https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzed7e6)
 with investment updates
 
-[!invest](update.png)
+![!invest](update.png)
 
 And 15 thousand more messages that are just `!create`, `!invest`, and
 `!balance`. Dinner was good and I\'m happy with how this little meme
