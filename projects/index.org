@@ -17,3 +17,4 @@ papers, etc! Hope you find something interesting for yourself
  * [[./lhopital][L'Hôpital's Rule 🏥]]
  * [[./crypto][I write crypto in python  🍾]]
  * [[./sentocks][Sentimental stocks 💇‍♀️]]
+ * [[./mira][Reddit API wrapper for gophers 🎩]]
