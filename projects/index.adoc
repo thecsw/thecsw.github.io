@@ -25,6 +25,8 @@ websites, papers, etc! Hope you find something interesting for yourself
 * link:./lhopital[L'Hôpital's Rule cheatsheet 🏥]
 * link:./crypto[I write crypto in python 🍾]
 * link:./sentocks[Sentocks or Sentimental stocks 💇‍♀️]
+* https://github.com/thecsw/morse_thinklight[Thinkpad Speaks in Morse
+Code 🆘]
 * link:./mira[Reddit API wrapper for gophers 🎩]
 * link:./memeinvestor_bot[Become a True Meme Investor 💸]
 * link:./prequelmemes_bot[Find Movie Quotes from a Picture 🗡]

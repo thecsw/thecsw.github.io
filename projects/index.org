@@ -18,6 +18,7 @@ papers, etc! Hope you find something interesting for yourself
  * [[./lhopital][L'Hôpital's Rule cheatsheet 🏥]]
  * [[./crypto][I write crypto in python  🍾]]
  * [[./sentocks][Sentocks or Sentimental stocks 💇‍♀️]]
+ * [[https://github.com/thecsw/morse_thinklight][Thinkpad Speaks in Morse Code 🆘]]
  * [[./mira][Reddit API wrapper for gophers 🎩]]
  * [[./memeinvestor_bot][Become a True Meme Investor 💸]]
  * [[./prequelmemes_bot][Find Movie Quotes from a Picture 🗡]]
