@@ -96,4 +96,6 @@ drive more passion within me.
 I wish EnterMeme, which is now officially [[https://meme.market][meme.market]] commercial and social
 success it's looking for and actively working towards.
 
+Thank you and Goodbye, MemeInvestor_bot.
+
 -> [[https://github.com/thecsw/memeinvestor_bot][Go to the original =memeinvestor_bot= repository]]
