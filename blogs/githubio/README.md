@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Custom Domains and Github Pages 🦉
-=================================
+Your Domains and Github Pages 🦉
+===============================
 
 May 23rd, 2020
 
