@@ -1,0 +1,18 @@
+= Spot and prosecute bad memes 👮‍♀️
+Sagindyk Urazayev <ctu@ku.edu>
+About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
+:toc: left
+:toc-title: Table of Adventures ⛵
+:nofooter:
+:experimental:
+
+I remember the days when
+https://www.reddit.com/r/PewdiepieSubmissions[r/PewdiepieSubmissions]
+had fewer than 10 thousand members. I was among one of the first posters
+there and I thought the quality of some submissions was *really bad*. So
+what can a 17 year old high school computer scientist do? Make a bot
+that scans a reddit submission for stale memes. Call it the
+`MemePolice_bot`. More details in the link below
+
+-> https://github.com/thecsw/MemePolice_bot[Go to `memepolice_bot`
+repository]
