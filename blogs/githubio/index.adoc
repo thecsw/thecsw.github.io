@@ -1,4 +1,4 @@
-= Custom domains with Github Pages 🦉
+= Custom Domains and Github Pages 🦉
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left

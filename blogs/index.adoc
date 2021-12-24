@@ -14,7 +14,7 @@ something new!
 * link:./copilot-game[Write a whole game with Copilot 🎱]
 * link:./web-toolbox[Essential toolbox for the web 🧰]
 * link:./emacs.sh[Getting Sandy's .emacs.d 🤺]
-* link:./githubio[Custom domains with Github Pages 🦉]
+* link:./githubio[Custom Domains and Github Pages 🦉]
 * link:./orgmode-css[Prettifying org-mode with CSS 💅]
 * link:./emacsd[Setting up an emacs server 😈]
 * link:./go-emacs[Becoming an emacs gopher 🐗]
