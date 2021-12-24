@@ -8,7 +8,7 @@ papers, etc! Hope you find something interesting for yourself
  * [[./literate][Literate sorting visualizer 😎]]
  * [[./chelovek][Счастье маленького человека 🧥]]
  * [[./sandissa][Secure and cheap smart homes 🏠]]
- * [[./mips][Design a MIPS CPU in VHDL 💼]]
+ * [[./mips][Build a MIPS CPU with VHDL 💼]]
  * [[./crona][Write a compiler in C++ from nil 🍺]]
  * [[./algo560][Cool pure C++ data structures 🏛]]
  * [[./tutor_sp21][Sandy's tutoring notes 📝]]
