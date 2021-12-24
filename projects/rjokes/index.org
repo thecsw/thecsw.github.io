@@ -1,0 +1,6 @@
+* Get Me the Best Reddit Jokes 🃏
+
+Telegram bot that queries subreddit [[https://reddit.com/r/jokes][r/jokes]] for the best jokes of the day (can
+be modified) and then sends these jokes via telegram chat with a user.
+
+-> [[https://github.com/thecsw/rjokes][Go to the telegram bot's repository]]

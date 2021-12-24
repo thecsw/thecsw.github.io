@@ -26,3 +26,4 @@ websites, papers, etc! Hope you find something interesting for yourself
 -   [Find Movie Quotes from a Picture 🗡](./prequelmemes_bot)
 -   [Spot and Prosecute Bad Memes 👮‍♀️](./memepolice_bot)
 -   [Generate Collatz Conjecture Graphs 📉](./collatz)
+-   [Get Me the Best Reddit Jokes 🃏](https://github.com/thecsw/rjokes)
