@@ -29,3 +29,4 @@ websites, papers, etc! Hope you find something interesting for yourself
 -   [Spot and Prosecute Bad Memes 👮‍♀️](./memepolice_bot)
 -   [Make Collatz Conjecture Graphs 📉](./collatz)
 -   [Get Me the Best Reddit Jokes 🃏](./rjokes)
+-   [Farm Clicks with Doge Clicker 🐶](./doge)

@@ -26,3 +26,4 @@ papers, etc! Hope you find something interesting for yourself
  * [[./memepolice_bot][Spot and Prosecute Bad Memes 👮‍♀️]]
  * [[./collatz][Make Collatz Conjecture Graphs 📉]]
  * [[./rjokes][Get Me the Best Reddit Jokes 🃏]]
+ * [[./doge][Farm Clicks with Doge Clicker 🐶]]
