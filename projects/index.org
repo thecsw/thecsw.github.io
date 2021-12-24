@@ -19,3 +19,4 @@ papers, etc! Hope you find something interesting for yourself
  * [[./crypto][I write crypto in python  🍾]]
  * [[./sentocks][Sentocks or Sentimental stocks 💇‍♀️]]
  * [[./mira][Reddit API wrapper for gophers 🎩]]
+ * [[./prequelmemes_bot][Find Movie Quotes from a Picture 🗡]]
