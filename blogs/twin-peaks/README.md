@@ -206,11 +206,11 @@ tree that whispers in backward riddles. Finally, Figure
 by Dale Cooper\'s doppelganger. The figures below show how over the
 years, David Lynch embraced gore, violence, and mysticism into his work.
 
-[Experiment](exper.png)
+![Experiment](exper.png)
 
-[The Arm](tree.png)
+![The Arm](tree.png)
 
-[Darya](darya.png)
+![Darya](darya.png)
 
 The consumption of Twin Peaks
 -----------------------------

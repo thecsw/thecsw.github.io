@@ -70,7 +70,7 @@ set sort_aux = 'last-date-received'
 
 This is how it looks with huge mail chains
 
-[Fortune mailchain with threads enabled](threads.png)
+![Fortune mailchain with threads enabled](threads.png)
 
 For ease of use, you can add the following line to bind your \`c\` key
 to collapse threads

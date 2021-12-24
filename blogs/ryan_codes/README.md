@@ -17,14 +17,14 @@ tried to make few of them and post here. If you wish to submit some for
 our own amusements and yours, feel free to send it to **c t u AT k u DOT
 e d u**
 
-[Agile](agile.jpg)
+![Agile](agile.jpg)
 
-[OOM Killer](oom.jpg)
+![OOM Killer](oom.jpg)
 
-[Master Branch](mst.jpg)
+![Master Branch](mst.jpg)
 
-[Stack](stack.jpg)
+![Stack](stack.jpg)
 
-[List](list.jpg)
+![List](list.jpg)
 
-[DFA](dfa.jpg)
+![DFA](dfa.jpg)
