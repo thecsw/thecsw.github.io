@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Design a MIPS CPU in VHDL 💼
-===========================
+Build a MIPS CPU with VHDL 💼
+============================
 
 For my EECS 645: Computer Architecture, the final project of the course
 involved us designining our very own CPU microarchitecture that accepts

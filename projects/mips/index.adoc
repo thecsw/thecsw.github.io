@@ -1,4 +1,4 @@
-= Design a MIPS CPU in VHDL 💼
+= Build a MIPS CPU with VHDL 💼
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left
