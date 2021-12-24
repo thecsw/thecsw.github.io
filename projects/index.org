@@ -2,7 +2,9 @@
 Some of the cool things I've done over the years, such as projects, websites,
 papers, etc! Hope you find something interesting for yourself
 
+ * [[./katya][Katya or The Liberated Corpus 🙈]]
  * [[./art][The Art of Computer Science ❤️]]
+ * [[./quash][Writing a shell in Go 🐚]]
  * [[./literate][Literate sorting visualizer 😎]]
  * [[./chelovek][Счастье маленького человека 🧥]]
  * [[./sandissa][Secure and cheap smart homes 🏠]]
