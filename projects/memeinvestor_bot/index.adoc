@@ -6,7 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
-_Spring 2018_
+_Take yourself back to Spring 2018_
 
 I am finally done with my IB exams. These two years were just brutal. I
 was longing for a break and now I got it. So… what do I do now? Well, I
@@ -87,7 +87,7 @@ And 15 thousand more messages that are just `!create`, `!invest`, and
 `!balance`. Dinner was good and I'm happy with how this little meme
 investor turned out. I wonder how I can work on it more?
 
-_Today_
+_So what about today?_
 
 Well, this whole project turned out to be more than I thought it would
 be.

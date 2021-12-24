@@ -2,3 +2,4 @@
 s|YOUTUBE~|YOUTUBE|g
 s|([^~ ])~([^~ ])|\1_\2|g
 s|PLAY_YOUTUBE ([^<>]+)|[See the youtube video here](https://youtu.be/\1)|
+s|PIC ([^<>]+):([^<>]+)|[\2](\1)|

@@ -17,14 +17,14 @@ tried to make few of them and post here. If you wish to submit some for
 our own amusements and yours, feel free to send it to **c t u AT k u DOT
 e d u**
 
-PIC agile.jpg:Agile
+[Agile](agile.jpg)
 
-PIC oom.jpg:OOM Killer
+[OOM Killer](oom.jpg)
 
-PIC mst.jpg:Master Branch
+[Master Branch](mst.jpg)
 
-PIC stack.jpg:Stack
+[Stack](stack.jpg)
 
-PIC list.jpg:List
+[List](list.jpg)
 
-PIC dfa.jpg:DFA
+[DFA](dfa.jpg)

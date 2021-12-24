@@ -28,4 +28,4 @@ quite frequently.
 
 **Before** and **after**
 
-PIC example.png:Before and After
+[Before and After](example.png)
