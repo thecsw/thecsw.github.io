@@ -22,4 +22,5 @@ websites, papers, etc! Hope you find something interesting for yourself
 -   [I write crypto in python 🍾](./crypto)
 -   [Sentocks or Sentimental stocks 💇‍♀️](./sentocks)
 -   [Reddit API wrapper for gophers 🎩](./mira)
+-   [Become a True Meme Investor 💸](./memeinvestor_bot)
 -   [Find Movie Quotes from a Picture 🗡](./prequelmemes_bot)
