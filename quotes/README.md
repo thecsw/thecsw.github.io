@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 357; 12021 H.E.
+
+Easy times breed weak men.
+
+-- Wesley Sportsman
+
 ### 351; 12021 H.E.
 
 We seldom repent talking too little, but very often talking too much.
