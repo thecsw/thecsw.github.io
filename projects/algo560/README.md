@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Cool C++ data structures 🏛
-==========================
+Cool pure C++ data structures 🏛
+===============================
 
 EECS 560: Data Structures taught by [Dr. Suzanne M.
 Shontz](https://people.eecs.ku.edu/_s906s230/) has been a fun class! A

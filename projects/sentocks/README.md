@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Sentimental stocks 💇‍♀️
-=======================
+Sentocks or Sentimental stocks 💇‍♀️
+===================================
 
 A group of my friends and I created a platform that continuously listens
 to tweets mentioning various publicly traded companies and we compare

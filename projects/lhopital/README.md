@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-L\'Hôpital\'s Rule 🏥
-====================
+L\'Hôpital\'s Rule cheatsheet 🏥
+===============================
 
 Before I became a tutor at the School of Engineering, as one of the
 support materials I made for Calculus II was a quick web presentation on

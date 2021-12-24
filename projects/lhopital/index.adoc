@@ -1,4 +1,4 @@
-= L'Hôpital's Rule 🏥
+= L'Hôpital's Rule cheatsheet 🏥
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left

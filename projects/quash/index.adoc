@@ -1,4 +1,4 @@
-= Writing a shell in Go 🐚
+= Writing a Unix shell in Go 🐚
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: left
