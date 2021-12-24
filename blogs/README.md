@@ -35,7 +35,8 @@ something new!
 -   [My 30-day song challenge 🎵🤘](./song_challenge)
 -   [Differential equations cookbook 🔥](./diffeq)
 -   [Twin Peaks as a Cult Film 🌲🌲](./twin-peaks)
--   [Cat that reached transcendence 🐱](../quick_dirty_js/exercise3)
+-   [Cat that reached transcendence
+    🐱](https://sandyuraz.com/cat_that_reached_transcendence/)
 -   [My favorite stuff on the web 🌍](./best_web)
 -   [$\sqrt{2}$ is irrational ◻](./sqrt2irrational)
 -   [Mini Jenni - my new best friend 👯‍♀️](./mini_jenni)

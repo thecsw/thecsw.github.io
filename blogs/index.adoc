@@ -37,7 +37,8 @@ something new!
 * link:./song_challenge[My 30-day song challenge 🎵🤘]
 * link:./diffeq[Differential equations cookbook 🔥]
 * link:./twin-peaks[Twin Peaks as a Cult Film 🌲🌲]
-* link:../quick_dirty_js/exercise3[Cat that reached transcendence 🐱]
+* https://sandyuraz.com/cat_that_reached_transcendence/[Cat that reached
+transcendence 🐱]
 * link:./best_web[My favorite stuff on the web 🌍]
 * link:./sqrt2irrational[$\sqrt{2}$ is irrational ◻]
 * link:./mini_jenni[Mini Jenni - my new best friend 👯‍♀️]
