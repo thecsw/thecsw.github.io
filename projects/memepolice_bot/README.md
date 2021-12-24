@@ -1,5 +1,5 @@
 ![preview](./preview.png)
-Spot and prosecute bad memes 👮‍♀️
+Spot and Prosecute Bad Memes 👮‍♀️
 =================================
 
 I remember the days when
