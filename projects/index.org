@@ -21,4 +21,5 @@ papers, etc! Hope you find something interesting for yourself
  * [[./mira][Reddit API wrapper for gophers 🎩]]
  * [[./memeinvestor_bot][Become a True Meme Investor 💸]]
  * [[./prequelmemes_bot][Find Movie Quotes from a Picture 🗡]]
- * [[./memepolice_bot][Spot and prosecute bad memes 👮‍♀️]]
+ * [[./memepolice_bot][Spot and Prosecute Bad Memes 👮‍♀️]]
+ * [[./collatz][Generate Collatz Conjecture Graphs 📉]]
