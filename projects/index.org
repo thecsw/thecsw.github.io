@@ -22,6 +22,9 @@ papers, etc! Hope you find something interesting for yourself
  * [[./morse][Thinkpad Speaks in Morse Code 🆘]]
  * [[./mira][Reddit API wrapper for gophers 🎩]]
  * [[./memeinvestor_bot][Become a True Meme Investor 💸]]
+
+* Ancient projects
+   
  * [[./prequelmemes_bot][Find Movie Quotes from a Picture 🗡]]
  * [[./memepolice_bot][Spot and Prosecute Bad Memes 👮‍♀️]]
  * [[./collatz][Make Collatz Conjecture Graphs 📉]]

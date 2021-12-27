@@ -25,6 +25,10 @@ websites, papers, etc! Hope you find something interesting for yourself
 -   [Thinkpad Speaks in Morse Code 🆘](./morse)
 -   [Reddit API wrapper for gophers 🎩](./mira)
 -   [Become a True Meme Investor 💸](./memeinvestor_bot)
+
+Ancient projects
+================
+
 -   [Find Movie Quotes from a Picture 🗡](./prequelmemes_bot)
 -   [Spot and Prosecute Bad Memes 👮‍♀️](./memepolice_bot)
 -   [Make Collatz Conjecture Graphs 📉](./collatz)
