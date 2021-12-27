@@ -83,9 +83,9 @@ I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus!
 
                         ┌───────────────────┐
-                        │ Sword Art Online: │
-                        │ Progressive ─ Aria│
-     ┌──────────────────┤of a Starless Night│
+     ┌──────────────────┤ Sword Art Online: │
+     │    Death Note    │ Progressive ─ Aria│
+     ├──────────────────┤of a Starless Night│
      │   Is it Wrong    ├───────────────────┤
      │  to Try to Pick  │   Is it Wrong     │
      │   Up Girls in    │  to Try to Pick   │
