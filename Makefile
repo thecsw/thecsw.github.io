@@ -40,7 +40,7 @@ EXCLUDE_OUTPUT = -not -path "./present/*" -and -not -path "./present/*"
 INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
 OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" $(EXCLUDE_OUTPUT)
 
-EXCLUDE_TOC = . ./fortunes/ ./blogs/
+EXCLUDE_TOC = . ./fortunes/ ./blogs/ ./projects/
 
 INPUT_SED = ./sed/adoc.sed
 README_SED = ./sed/md.sed
