@@ -7,6 +7,18 @@ March 3rd, 2020
 This list has some of my favorite stuff on the internet, divided into
 categories with links! The list is completely biased
 
+### Duality
+
+[See the youtube video here](https://youtu.be/11eMV_yJXZw~)
+
+### Damn, boy
+
+[See the youtube video here](https://youtu.be/j5gDiXNjhEc)
+
+### Me and the boys
+
+[See the youtube video here](https://youtu.be/Kk6pw-PHiK0)
+
 ### D City Rock - We are Angels \[Anarchy\]
 
 [See the youtube video here](https://youtu.be/5KN0_-HgWNo~)
