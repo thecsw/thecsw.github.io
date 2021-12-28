@@ -5,7 +5,7 @@ Sandy\'s Website 🚀
 Welcome 🌷
 ---------
 
-### 🀏 [My cozy blog 💻](./blogs)
+### 🀏 [My cozy blog 🏮](./blogs)
 
 ### 🀀 [Cool projects ☕](./projects)
 
