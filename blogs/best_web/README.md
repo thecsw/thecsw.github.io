@@ -7,6 +7,26 @@ March 3rd, 2020
 This list has some of my favorite stuff on the internet, divided into
 categories with links! The list is completely biased
 
+### Oh these?
+
+[See the youtube video here](https://youtu.be/DczHdNwooY4)
+
+### let down your hair, girl
+
+[See the youtube video here](https://youtu.be/9r-rAW0gm0s)
+
+### Hot enough to fry an egg
+
+[See the youtube video here](https://youtu.be/5fmRXFbFRr4)
+
+### Sour
+
+[See the youtube video here](https://youtu.be/x19HCw64J7s)
+
+### The gift of creation
+
+[See the youtube video here](https://youtu.be/hFztL7tnk-s)
+
 ### Duality
 
 [See the youtube video here](https://youtu.be/11eMV_yJXZw~)
@@ -14,6 +34,10 @@ categories with links! The list is completely biased
 ### Damn, boy
 
 [See the youtube video here](https://youtu.be/j5gDiXNjhEc)
+
+### Improvisational Comedy
+
+[See the youtube video here](https://youtu.be/huJ81Mq2y34)
 
 ### Me and the boys
 
