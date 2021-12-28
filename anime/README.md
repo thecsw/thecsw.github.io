@@ -1,0 +1,78 @@
+![preview](./preview.png)
+Sandy\'s anime ✂️
+=================
+
+I also enjoy watching some good anime, so here is my VHS-esque shelf
+full of anime as a bonus! See some selected reviews at the bottom
+
+                        ┌───────────────────┐
+     ┌──────────────────┤ Sword Art Online: │
+     │    Death Note    │ Progressive ─ Aria│
+     ├──────────────────┤of a Starless Night│
+     │   Is it Wrong    ├───────────────────┤
+     │  to Try to Pick  │   Is it Wrong     │
+     │   Up Girls in    │  to Try to Pick   │
+     │  a Dungeon? III  │   Up Girls in     │
+     ├──────────────────┤   a Dungeon? II   │
+     │   Is It Wrong    ├───────────────────┤
+     │  to Try to Pick  │ Sword Art Online  │
+     │   Up Girls in    │  Movie: Ordinal   │
+     │    a Dungeon?    │       Scale       │
+     ├──────────────────┼───────────────────┤
+     │ Sword Art Online │  Rascal Does Not  │
+     │   Alternative:   │  Dream of Bunny   │
+     │  Gun Gale Online │    Girl Senpai    │
+     ├──────────────────┼───────────────────┤
+     │  I Want to Eat   │ Heaven Official's │
+     │  Your Pancreas   │     Blessing      │
+     ├──────────────────┼───────────────────┤
+     │     Your Lie     │    Kakegurui ××   │
+     │     in April     ├───────────────────┤
+     ├──────────────────┤     Kakegurui     │
+     │  Demon Slayer –  ├───────────────────┤
+     │    The Movie:    │   Demon Slayer    │
+     │   Mugen Train    ├───────────────────┤
+     ├──────────────────┤ Sword Art Online  │
+     │ Sword Art Online │   Alicization –   │
+     │   Alicization    │ War of Underworld │
+     ├──────────────────┼───────────────────┤
+     │    Sword Art     │     Sword Art     │
+     │     Online       │     Online II     │
+     ├──────────────────┼───────────────────┤
+     │    Banana Fish   │    Evangelion     │
+     ├──────────────────┤     3.0+1.0       │
+     │  The Cat Returns ├───────────────────┤
+     ├──────────────────┤   Mary and the    │
+     │    When Marnie   │  Witch's Flower   │
+     │     Was There    ├───────────────────┤
+     ├──────────────────┤      Kimi no      │
+     │  Panty Stocking  │       Na Wa       │
+     │ with Garterbelt  ├───────────────────┤
+     ├──────────────────┤     Dr. Stone     │
+     │       FLCL       ├───────────────────┤
+     ├──────────────────┤    The Garden     │
+     │      Ponyo       │     of Words      │
+     ├──────────────────┼───────────────────┤
+     │   Space Patrol   │  A Silent Voice   │
+     │      Luluco      ├───────────────────┤
+     ├──────────────────┤   Gurren Lagann   │
+     │     Promare      ├───────────────────┤
+     ├──────────────────┤    Little Witch   │
+     │  Spirited Away   │      Academia     │
+     ├──────────────────┼───────────────────┤
+     │      Kiki's      │   Kyokou Suiri    │
+     │ Delivery Service ├───────────────────┤
+     ├──────────────────┤  Evangelion 3.0   │
+     │   My Neighbor    ├───────────────────┤
+     │     Totoro       │  Evangelion 2.0   │
+     ├──────────────────┼───────────────────┤
+     │     The End      │  Evangelion 1.0   │
+     │   of Evangelion  ├───────────────────┤
+     ├──────────────────┤    Neon Genesis   │
+     │ Brand New Animal │     Evangelion    │
+     │      (BNA)       ├───────────────────┤
+     ├──────────────────┤   Darling in the  │
+     │   Kill la Kill   │      FranXX       │
+     ├──────────────────┴───────────────────┘
+     │                                      │
+    /   ＼(^─^)／  ヾ｜￣ー￣｜ﾉ  ヽ(〃＾▽＾〃)ﾉ  \
