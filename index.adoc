@@ -6,7 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK
 
 == Welcome 🌷
 
-=== 🀏 link:./blogs[My cozy blog 💻]
+=== 🀏 link:./blogs[My cozy blog 🏮]
 
 === 🀀 link:./projects[Cool projects ☕]
 

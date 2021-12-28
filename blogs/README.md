@@ -1,5 +1,5 @@
 ![preview](./preview.png)
-My cozy blog 💻
+My cozy blog 🏮
 ==============
 
 Here is a list of my articles I have online. I hope you will find some
