@@ -1,6 +1,6 @@
 * Sandy's Website 🚀
 ** Welcome 🌷
-*** 🀏 [[./blogs][My cozy blog 💻]]
+*** 🀏 [[./blogs][My cozy blog 🏮]]
 *** 🀀 [[./projects][Cool projects ☕]]  
 *** 🀁 [[./arts][L'Esthétique 🎨]]
 *** 🀅 [[./web][This Website 🌐]]
