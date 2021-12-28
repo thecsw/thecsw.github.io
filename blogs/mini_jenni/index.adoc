@@ -19,40 +19,31 @@ I just liked it.
 == Building
 
 .Step 1
+image::pic1.jpg[Step 1, link="pic1.jpg"]
 
-image::pic1.jpg[width=300, role="left", link="./pic1.jpg"]
-
-.Step 1.5
-
-image::pic15.jpg[width=300, role="left", link="./pic15.jpg"]
+.Step 1½
+image::pic15.jpg[Step 1½, link="pic15.jpg"]
 
 .Step 2
-
-image::pic2.jpg[width=300, role="left", link="./pic2.jpg"]
+image::pic2.jpg[Step 2, link="pic2.jpg"]
 
 .Step 3
-
-image::pic3.jpg[width=300, role="left", link="./pic3.jpg"]
+image::pic3.jpg[Step 3, link="pic3.jpg"]
 
 .Step 4
-
-image::pic4.jpg[width=300, role="left", link="./pic4.jpg"]
+image::pic4.jpg[Step 4, link="pic4.jpg"]
 
 .Step 5
-
-image::pic5.jpg[width=300, role="left", link="./pic5.jpg"]
+image::pic5.jpg[Step 5, link="pic5.jpg"]
 
 == Final result
 
-.Final 1
+.Final I
+image::pic6.jpg[Final I, link="pic6.jpg"]
 
-image::pic6new.jpg[width=300, role="left", link="./pic6.jpg"]
+.Final II
+image::pic7.jpg[Final II, link="pic7.jpg"]
 
-.Final 2
-
-image::pic7new.jpg[width=300, role="left", link="./pic7.jpg"]
-
-.Final 3
-
-image::pic8new.jpg[width=300, role="left", link="./pic8.jpg"]
+.Final III
+image::pic8.jpg[Final III, link="pic8.jpg"]
 TOMB
