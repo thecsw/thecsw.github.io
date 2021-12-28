@@ -15,41 +15,23 @@ I just liked it.
 Building
 --------
 
-.Step 1
+![Step 1](pic1.jpg)
 
-image::pic1.jpg\[width=300, role=\"left\", link=\"./pic1.jpg\"\]
+![Step 1½](pic15.jpg)
 
-.Step 1.5
+![Step 2](pic2.jpg)
 
-image::pic15.jpg\[width=300, role=\"left\", link=\"./pic15.jpg\"\]
+![Step 3](pic3.jpg)
 
-.Step 2
+![Step 4](pic4.jpg)
 
-image::pic2.jpg\[width=300, role=\"left\", link=\"./pic2.jpg\"\]
-
-.Step 3
-
-image::pic3.jpg\[width=300, role=\"left\", link=\"./pic3.jpg\"\]
-
-.Step 4
-
-image::pic4.jpg\[width=300, role=\"left\", link=\"./pic4.jpg\"\]
-
-.Step 5
-
-image::pic5.jpg\[width=300, role=\"left\", link=\"./pic5.jpg\"\]
+![Step 5](pic5.jpg)
 
 Final result
 ------------
 
-.Final 1
+![Final I](pic6.jpg)
 
-image::pic6new.jpg\[width=300, role=\"left\", link=\"./pic6.jpg\"\]
+![Final II](pic7.jpg)
 
-.Final 2
-
-image::pic7new.jpg\[width=300, role=\"left\", link=\"./pic7.jpg\"\]
-
-.Final 3
-
-image::pic8new.jpg\[width=300, role=\"left\", link=\"./pic8.jpg\"\]
+![Final III](pic8.jpg)
