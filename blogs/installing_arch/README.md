@@ -387,5 +387,4 @@ Pictures
 
 ![My desktop](pic2.png)
 
-![i3 with cowsay, pipes.sh, htop, neofetch in](pic3.png)
-counterclockwise order
+![i3 with `cowsay`, `pipes.sh`, `htop`, `neofetch`](pic3.png)
