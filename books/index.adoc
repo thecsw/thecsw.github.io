@@ -82,4 +82,4 @@ into this kind of stuff. You can find a couple of selected reviews
  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
 ....
 
-psst… click for some magic file:///anime[*(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧]
+psst… click for some magic link:../anime[*(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧]
