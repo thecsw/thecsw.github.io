@@ -5,8 +5,11 @@ Sandy\'s anime ✂️
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus! See some selected reviews at the bottom
 
-                        ┌───────────────────┐
-     ┌──────────────────┤ Sword Art Online: │
+
+     ┌──────────────────┐
+     │     Takt Op.     │
+     │     Destiny      ├───────────────────┐
+     ├──────────────────┤ Sword Art Online: │
      │    Death Note    │ Progressive ─ Aria│
      ├──────────────────┤of a Starless Night│
      │   Is it Wrong    ├───────────────────┤
