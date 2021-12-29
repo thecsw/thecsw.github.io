@@ -12,7 +12,7 @@ websites, papers, etc! Hope you find something interesting for yourself
 -   [Literate sorting visualizer 😎](./literate)
 -   [Счастье маленького человека 🧥](./chelovek)
 -   [Secure and cheap smart homes 🏠](./sandissa)
--   [Build a MIPS CPU with VHDL 💼](./mips)
+-   [Build a MIPS Emulator in VHDL 💼](./mips)
 -   [Write a compiler in C++ from nil 🍺](./crona)
 -   [Cool pure C++ data structures 🏛](./algo560)
 -   [Sandy\'s tutoring notes 📝](./tutor_sp21)
@@ -27,7 +27,7 @@ websites, papers, etc! Hope you find something interesting for yourself
 -   [Become a True Meme Investor 💸](./memeinvestor_bot)
 
 Ancient projects
-================
+----------------
 
 -   [Find Movie Quotes from a Picture 🗡](./prequelmemes_bot)
 -   [Spot and Prosecute Bad Memes 👮‍♀️](./memepolice_bot)

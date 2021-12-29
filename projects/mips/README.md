@@ -1,6 +1,6 @@
 ![preview](./preview.png)
-Build a MIPS CPU with VHDL 💼
-============================
+Build a MIPS Emulator in VHDL 💼
+===============================
 
 For my EECS 645: Computer Architecture, the final project of the course
 involved us designining our very own CPU microarchitecture that accepts
