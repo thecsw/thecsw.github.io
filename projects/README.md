@@ -5,6 +5,7 @@ Cool projects ☕
 Some of the cool things I\'ve done over the years, such as projects,
 websites, papers, etc! Hope you find something interesting for yourself
 
+-   [Write an Emulator in 24 hours 🥃](./vmagi)
 -   [Katya or The Liberated Corpus 🙈](./katya)
 -   [The Art of Computer Science ❤️](./art)
 -   [Writing a Unix shell in Go 🐚](./quash)
