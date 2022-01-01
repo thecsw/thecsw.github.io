@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 1; 12022 H.E.
+
+The moment of truth.
+
 ### 357; 12021 H.E.
 
 Easy times breed weak men.
