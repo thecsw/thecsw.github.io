@@ -69,14 +69,14 @@ full of anime as a bonus! See some selected reviews at the bottom
      ├──────────────────┼───────────────────┤
      │      Kiki's      │   Kyokou Suiri    │
      │ Delivery Service ├───────────────────┤
-     ├──────────────────┤  Evangelion 3.0   │
+     ├──────────────────┤   Evangelion 3.0  │
      │   My Neighbor    ├───────────────────┤
-     │     Totoro       │  Evangelion 2.0   │
+     │     Totoro       │   Evangelion 2.0  │
      ├──────────────────┼───────────────────┤
-     │     The End      │  Evangelion 1.0   │
+     │  One Punch Man 2 │   Evangelion 1.0  │
+     ├──────────────────├───────────────────┤
+     │     The End      │   One Punch Man   │
      │   of Evangelion  ├───────────────────┤
-     ├──────────────────┤   One Punch Man   │
-     │ One Punch Man 2  ├───────────────────┤
      ├──────────────────┤    Neon Genesis   │
      │ Brand New Animal │     Evangelion    │
      │      (BNA)       ├───────────────────┤
