@@ -69,7 +69,7 @@ PLAY_SPOTIFY_PLAYLIST 37i9dQZF1EUMDoJuT8yJsl
 Let's do a vibe check on my music taste. What kind of an aura do I have? It's
 *dramatic* and *considerate*. Well said, I like the colors
 
-PIC aura.jpg:My Audio Aura
+PIC aura.png:My Audio Aura
 
 What about genres? The stats say I listened to 32 different genres this year and
 my top genres are
