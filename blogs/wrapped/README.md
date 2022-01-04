@@ -16,13 +16,13 @@ jump in!
 
 Let\'s start with some bare stats. According to the wrap, in total, I
 spent 11,183 minutes (≈186 hours) listening, which is more than 60% of
-other listener in United States. Pretty cool stat, I feel this is the
-right number. I feel I also spent an absurd amount of time looping songs
-on youtube, but that\'s not tracked.
+other listeners in United States. Pretty cool stat, I feel this is the
+right number. I also spent an absurd amount of time looping songs on
+youtube, but that\'s not tracked.
 
 Going next to my top song! It\'s **NIGHT RUNNING** by *Shin Sakiura* and
 *AAAMYYY*. They say it looped 79 times, which seems to be a rather low
-number, but that\'s okay! It\'s a banger. I watched
+number, but that\'s okay. It has a kick. I watched
 [BNA](https://en.wikipedia.org/wiki/BNA%3A_Brand_New_Animal) with my
 sister and absolutely loved it. So the ending song became my go-to
 programming jam. I\'ll have spotify embeds sprinkled around this page.
