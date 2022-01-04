@@ -91,7 +91,7 @@ Let\'s do a vibe check on my music taste. What kind of an aura do I
 have? It\'s **dramatic** and **considerate**. Well said, I like the
 colors
 
-![My Audio Aura](aura.jpg)
+![My Audio Aura](aura.png)
 
 What about genres? The stats say I listened to 32 different genres this
 year and my top genres are
