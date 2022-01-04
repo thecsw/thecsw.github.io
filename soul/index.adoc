@@ -9,4 +9,4 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 I wish to share this
 https://en.wikipedia.org/wiki/Por_una_Cabeza[beautiful song] with you
 
-PLAY_SONG porunacabeza.mp3
+SONG porunacabeza.mp3

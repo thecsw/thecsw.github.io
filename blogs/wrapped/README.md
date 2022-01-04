@@ -27,7 +27,7 @@ number, but that\'s okay! It\'s a banger. I watched
 sister and absolutely loved it. So the ending song became my go-to
 programming jam. I\'ll have spotify embeds sprinkled around this page.
 
-PLAY_SPOTIFY~ 54BW4qpq5ms4bnzBgiWVOo
+SPOTIFY 54BW4qpq5ms4bnzBgiWVOo
 
 Besides the very top one, what other songs have I had on repeat that
 crawled themselves to my top songs list?
@@ -41,7 +41,7 @@ character design. The game is actually free! It was so good, I bought
 the pancake recipe to support
 [vanripper](https://twitter.com/vanripperart) for the game he made.
 
-PLAY_SPOTIFY~ 4i0oGvIIrkoTLNCYJWnMvh
+SPOTIFY 4i0oGvIIrkoTLNCYJWnMvh
 
 Moving in and out is always a bit of a stressful experience and
 **lonely**. I remember I had to move into a new apartment and I was just
@@ -50,7 +50,7 @@ Evangelion and everything associated with it, I would play **Misato**
 theme by *Shiro Sagisu*. It made me feel less lonely and more upbeat,
 instantly cozying up the atmosphere. I was at home.
 
-PLAY_SPOTIFY~ 0E9W4ZDAl2ceQSJI8TOgOS
+SPOTIFY 0E9W4ZDAl2ceQSJI8TOgOS
 
 Well, what can I say about playing **Fly Me To the Moon**, the
 Evangelion version? I actually prefer it to Frank Sinatra\'s version,
@@ -58,7 +58,7 @@ simply because, like man, anime music just hits **different**. This one
 has such a calming and a warm hug kind of a feeling. It\'s something
 that\'s just history now.
 
-PLAY_SPOTIFY~ 6o97UuQmaxccF95fdt9PPR
+SPOTIFY 6o97UuQmaxccF95fdt9PPR
 
 Last but not least. **What A Life** by *Scarlet Pleasure*. If you
 haven\'t seen [Another
@@ -71,7 +71,7 @@ subtlety to their soul and it feels. Carefully treading the themes of
 alcoholism and being alive. The song is an **absolute banger** and I
 rarely say that about anything.
 
-PLAY_SPOTIFY~ 2zWivfUQjnXyUozQOrSCVc
+SPOTIFY 2zWivfUQjnXyUozQOrSCVc
 
 Other honorable mentions that go right after the top 5 are: [Sorairo
 Days](https://open.spotify.com/track/4EkbGJChszyxhEP0bIwBSZ) by *Shoko
@@ -85,7 +85,7 @@ Away](https://open.spotify.com/track/7olMFQZhjN2EHf7ra2PjE7) by
 *TeddyLoid* (Panty & Stocking with Garterbelt), and more! You can see
 the whole top playlist below
 
-PLAY_SPOTIFYPLAYLIST~ 37i9dQZF1EUMDoJuT8yJsl
+SPOTIFYPLAYLIST 37i9dQZF1EUMDoJuT8yJsl
 
 Let\'s do a vibe check on my music taste. What kind of an aura do I
 have? It\'s **dramatic** and **considerate**. Well said, I like the
