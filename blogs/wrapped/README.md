@@ -43,8 +43,8 @@ the pancake recipe to support
 
 SPOTIFY 4i0oGvIIrkoTLNCYJWnMvh
 
-Moving in and out is always a bit of a stressful experience and
-**lonely**. I remember I had to move into a new apartment and I was just
+Moving in and out is always a bit of a stressful and **lonely**
+experience. I remember I had to move into a new apartment and I was just
 by myself after spending some quality time with my family. Loving
 Evangelion and everything associated with it, I would play **Misato**
 theme by *Shiro Sagisu*. It made me feel less lonely and more upbeat,
