@@ -36,6 +36,12 @@ img {
         border-radius: 10px;
 }
 
+.imageblock {
+        margin-left: auto;
+        margin-right: auto;
+        width: 79%;
+}
+
 /* --------------------------------------------------- */
 /* Make a nice input form with rounded corners and hover
  animations*/

@@ -33,6 +33,7 @@ something new!
 
 == Random
 
+* link:./wrapped[My Spotify Wrapped for 2021 🎧]
 * link:./foundation-time[Using Foundation-style Time 💫]
 * link:./song_challenge[My 30-day song challenge 🎵🤘]
 * link:./diffeq[Differential equations cookbook 🔥]
