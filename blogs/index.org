@@ -26,6 +26,7 @@
   * [[./year_12019][Welcome to year 12,019 📅]]
 
 *** Random
+  * [[./wrapped][My Spotify Wrapped for 2021 🎧]]
   * [[./foundation-time][Using Foundation-style Time 💫]]
   * [[./song_challenge][My 30-day song challenge 🎵🤘]]
   * [[./diffeq][Differential equations cookbook 🔥]]
