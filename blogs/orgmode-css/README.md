@@ -26,6 +26,6 @@ NOTE: Please do not rely solely on the link above, this post is merely a
 demo of how you can control your org html output. I update that org.css
 quite frequently.
 
-**Before** and **after**
+**Before** and **after** (click to enlarge)
 
 ![Before and After](example.png)
