@@ -63,7 +63,7 @@ s|Droid Sans Mono|DejaVu Sans Mono|g
 # Run media macros
 s|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|
 
-s|PLAY_SPOTIFY ([^<>]+)|<iframe src="https://open.spotify.com/embed/track/\1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
+s|PLAY_SPOTIFY ([^<>]+)|<iframe src="https://open.spotify.com/embed/track/\1" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
 
 s|PLAY_SPOTIFY_PLAYLIST ([^<>]+)|<iframe src="https://open.spotify.com/embed/playlist/\1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
 
