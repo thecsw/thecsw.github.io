@@ -15,7 +15,7 @@ sums up everything you did on the platform for the entire year. Let\'s
 jump in!
 
 Let\'s start with some bare stats. According to the wrap, in total, I
-spent 11,183 minutes (\_186 hours) listening, which is more than 60% of
+spent 11,183 minutes (≈186 hours) listening, which is more than 60% of
 other listener in United States. Pretty cool stat, I feel this is the
 right number. I feel I also spent an absurd amount of time looping songs
 on youtube, but that\'s not tracked.
