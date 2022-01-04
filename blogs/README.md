@@ -31,6 +31,7 @@ something new!
 
 ### Random
 
+-   [My Spotify Wrapped for 2021 🎧](./wrapped)
 -   [Using Foundation-style Time 💫](./foundation-time)
 -   [My 30-day song challenge 🎵🤘](./song_challenge)
 -   [Differential equations cookbook 🔥](./diffeq)
