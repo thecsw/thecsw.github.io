@@ -85,7 +85,7 @@ Away](https://open.spotify.com/track/7olMFQZhjN2EHf7ra2PjE7) by
 *TeddyLoid* (Panty & Stocking with Garterbelt), and more! You can see
 the whole top playlist below
 
-SPOTIFYPLAYLIST 37i9dQZF1EUMDoJuT8yJsl
+SPOTIFYPLAYLIST 59bal0ZSNOlRC6jwhu0ocw
 
 Let\'s do a vibe check on my music taste. What kind of an aura do I
 have? It\'s **dramatic** and **considerate**. Well said, I like the
