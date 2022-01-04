@@ -61,13 +61,13 @@ s|Droid Sans Mono|DejaVu Sans Mono|g
 /<body/i\<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/styles/web.css">
 
 # Run media macros
-s|PLAY_SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|
+s|SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|
 
-s|PLAY_SPOTIFY ([^<>]+)|<iframe src="https://open.spotify.com/embed/track/\1" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
+s|SPOTIFY ([^<>]+)|<iframe src="https://open.spotify.com/embed/track/\1" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
 
-s|PLAY_SPOTIFYPLAYLIST ([^<>]+)|<iframe src="https://open.spotify.com/embed/playlist/\1" width="79%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
+s|SPOTIFYPLAYLIST ([^<>]+)|<iframe src="https://open.spotify.com/embed/playlist/\1" width="79%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
 
-s|PLAY_YOUTUBE ([^<>]+)|<iframe width="100%" height="330px" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
+s|YOUTUBE ([^<>]+)|<iframe width="100%" height="330px" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
 
 s|GIST ([^<>]+)|<script src="https://gist.github.com/\1.js"></script>|
 
