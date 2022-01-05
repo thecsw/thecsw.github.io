@@ -1,8 +1,6 @@
 = Sandy's bookshelf 📖
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
-:toc: left
-:toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
 
@@ -83,3 +81,4 @@ into this kind of stuff. You can find a couple of selected reviews
 ....
 
 psst… click for some magic link:../anime[*(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧]
+TOMB

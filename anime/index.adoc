@@ -1,8 +1,6 @@
 = Sandy's anime ✂️
 Sagindyk Urazayev <ctu@ku.edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
-:toc: left
-:toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
 
@@ -97,3 +95,4 @@ Please see some selected reviews below! It's just me talking about the
 show and going in my own thought process of what I make of it
 
 * link:./banished[Banished from the Hero's Party 🪴]
+TOMB
