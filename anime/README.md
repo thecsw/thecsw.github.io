@@ -85,3 +85,11 @@ full of anime as a bonus! See some selected reviews at the bottom
      ├──────────────────┴───────────────────┘
      │                                      │
     /   ＼(^─^)／  ヾ｜￣ー￣｜ﾉ  ヽ(〃＾▽＾〃)ﾉ  \
+
+Selected Reviews
+----------------
+
+Please see some selected reviews below! It\'s just me talking about the
+show and going in my own thought process of what I make of it
+
+-   [Banished from the Hero\'s Party 🪴](./banished)
