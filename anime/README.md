@@ -93,3 +93,5 @@ Please see some selected reviews below! It\'s just me talking about the
 show and going in my own thought process of what I make of it
 
 -   [Banished from the Hero\'s Party 🪴](./banished)
+
+Don\'t lose your way!
