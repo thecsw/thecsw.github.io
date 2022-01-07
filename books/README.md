@@ -77,3 +77,5 @@ into this kind of stuff. You can find a couple of selected reviews
      \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
 
 psst... click for some magic [**(ﾉ◕ヮ◕)ﾉ**:･ﾟ✧](../anime)
+
+The moment of truth.
