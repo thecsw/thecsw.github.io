@@ -5,10 +5,10 @@ anime as a bonus! See some selected reviews at the bottom
 
  #+BEGIN_SRC
 
-
-                    ┌───────────────────┐
-                    │   Banished from   │
- ┌──────────────────┤ the Hero's Party, │
+ ┌──────────────────┐
+ │  Attack on Titan ├───────────────────┐
+ │     Season 2     │   Banished from   │
+ ├──────────────────┤ the Hero's Party, │
  │  Attack on Titan │   I Decided to    │
  ├──────────────────┤ Live a Quiet Life │
  │     Takt Op.     │ in the Countryside│
