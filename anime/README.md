@@ -6,11 +6,12 @@ I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus! See some selected reviews at the bottom
 
 
+
                         ┌───────────────────┐
                         │   Banished from   │
-                        │ the Hero's Party, │
-                        │   I Decided to    │
-     ┌──────────────────┤ Live a Quiet Life │
+     ┌──────────────────┤ the Hero's Party, │
+     │  Attack on Titan │   I Decided to    │
+     ├──────────────────┤ Live a Quiet Life │
      │     Takt Op.     │ in the Countryside│
      │     Destiny      ├───────────────────┤
      ├──────────────────┤ Sword Art Online: │
