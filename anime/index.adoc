@@ -12,8 +12,12 @@ also keep my https://kitsu.io/users/1257674[kitsu] library up-to-date
 with my progress
 
 ....
- ┌──────────────────┐
- │  Attack on Titan ├───────────────────┐
+
+
+                    ┌───────────────────┐
+                    │  Attack on Titan  │
+ ┌──────────────────┤  Season 3 Part 1  │
+ │  Attack on Titan ├───────────────────┤
  │     Season 2     │   Banished from   │
  ├──────────────────┤ the Hero's Party, │
  │  Attack on Titan │   I Decided to    │
