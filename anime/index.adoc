@@ -5,7 +5,9 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :experimental:
 
 I also enjoy watching some good anime, so here is my VHS-esque shelf
-full of anime as a bonus! See some selected reviews at the bottom
+full of anime as a bonus! See some selected reviews at the bottom. I
+also keep my https://kitsu.io/users/1257674[kitsu] library up-to-date
+with my progress
 
 ....
  ┌──────────────────┐

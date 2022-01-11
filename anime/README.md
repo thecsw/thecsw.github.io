@@ -3,7 +3,9 @@ Sandy\'s anime ✂️
 =================
 
 I also enjoy watching some good anime, so here is my VHS-esque shelf
-full of anime as a bonus! See some selected reviews at the bottom
+full of anime as a bonus! See some selected reviews at the bottom. I
+also keep my [kitsu](https://kitsu.io/users/1257674) library up-to-date
+with my progress
 
 
      ┌──────────────────┐
