@@ -8,12 +8,14 @@ library up-to-date with my progress
 
  #+BEGIN_SRC
 
-
-
-                    ┌───────────────────┐
-                    │  Attack on Titan  │
- ┌──────────────────┤  Season 3 Part 1  │
- │  Attack on Titan ├───────────────────┤
+ ┌──────────────────┐
+ │  Attack on Titan │
+ │  Season 3 Part 2 │
+ ├──────────────────┤
+ │  Attack on Titan │
+ │  Season 3 Part 1 │
+ ├──────────────────┤
+ │  Attack on Titan ├───────────────────┐
  │     Season 2     │   Banished from   │
  ├──────────────────┤ the Hero's Party, │
  │  Attack on Titan │   I Decided to    │
@@ -93,7 +95,7 @@ library up-to-date with my progress
  │                                      │
 /   ＼(^─^)／  ヾ｜￣ー￣｜ﾉ  ヽ(〃＾▽＾〃)ﾉ  \
  #+END_SRC
- 
+
 ** Selected Reviews
 
 Please see some selected reviews below! It's just me talking about the show and
