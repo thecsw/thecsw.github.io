@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 10; 12022 H.E.
+
+I\'m a gambling man
+
 ### 1; 12022 H.E.
 
 The moment of truth.
