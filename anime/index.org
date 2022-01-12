@@ -10,13 +10,13 @@ library up-to-date with my progress
 
  ┌──────────────────┐
  │  Attack on Titan │
- │  Final Season I  │
+ │   Final Season   │
  ├──────────────────┤
  │  Attack on Titan │
  │  Season 3 Part 2 │
  ├──────────────────┤
  │  Attack on Titan │
- │  Season 3 Part 1 │
+ │     Season 3     │
  ├──────────────────┤
  │  Attack on Titan ├───────────────────┐
  │     Season 2     │   Banished from   │
