@@ -27,6 +27,7 @@ something new!
 
 == Thoughts
 
+* link:./anime[I love watching anime 🎻]
 * link:./good_bad_movies[Watching good and bad movies 🎭]
 * link:./why_use_emojis[Why use emojis? 🎷🕺]
 * link:./year_12019[Welcome to year 12,019 📅]
