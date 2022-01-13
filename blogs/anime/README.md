@@ -110,3 +110,10 @@ situations in life and freshen up a bit, to dream. Anime is on the crazy
 side of the spectrum, hard literature is on the opposite site of
 crushing realism, we don\'t need anything in between. Our day-to-day
 lives and routine already suffice for that.
+
+Anime music is also **incredible**. Here is my playlist with the ones I
+like a lot
+
+SPOTIFYPLAYLIST 6P7ksZ5uGpVp4qq9gDhFlj
+
+Thank you for reading! Take care
