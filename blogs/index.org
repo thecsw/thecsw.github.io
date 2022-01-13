@@ -21,6 +21,7 @@
   * [[./installing_arch][Installing glorious arch linux ☄️]]
 
 *** Thoughts
+  * [[./anime][I love watching anime 🎻]]
   * [[./good_bad_movies][Watching good and bad movies 🎭]]
   * [[./why_use_emojis][Why use emojis? 🎷🕺]]
   * [[./year_12019][Welcome to year 12,019 📅]]
