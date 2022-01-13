@@ -89,7 +89,7 @@ that I decided to major in it. I adore realism and works that just crush
 your heart and shatter your soul. There is some painful blood-ridden
 personal and emotional growth in there. However, no matter how much I
 love it, it would be impossible and dangerous to the psyche to
-constantly read the greatest and hardest books ever written.
+constantly immerse yourself in greatest and hardest books ever written.
 
 With this little background, I want to assure you that my point of view
 and love for Japanese animation is not driven just because I know
