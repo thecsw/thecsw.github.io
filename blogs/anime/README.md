@@ -14,10 +14,10 @@ animated pokemons. I was waiting patiently for every \"new\" episode
 after coming back home from school. Then there was a long break.
 
 I briefly came back to watching anime when my best friend in high school
-recommended me watching Steins;Gate. I liked the genre a lot. It was of
-course the time when I was super young and many concepts might have
-flown right past me. Right after, my second serious watch was Mirai
-Nikki. You are probably more familiar with it through this picture of a
+recommended me watching *Steins;Gate*. I liked the genre a lot. It was
+of course the time when I was super young and many concepts might have
+flown right past me. Right after, my second serious watch was *Mirai
+Nikki*. You are probably more familiar with it through this picture of a
 girl seductively looking at you.
 
 ![Yuno Gasai\'s yandere expression](yuno.png)
@@ -28,19 +28,19 @@ movies or books. It was brash, suggestive, violent, and uncompromising.
 My friend from before scolded me a little bit, saying it\'s a low-tier
 show that is just about a yandere girl running around and basically
 killing everyone. Finally, I finished that small high school era of
-anime with Kill la Kill. I was just **obsessed** with it, especially
+anime with *Kill la Kill*. I was just **obsessed** with it, especially
 with Ryūko Matoi. I bored my other friend so much that she drew me Ryūko
 dressed in her transformed Kamui. Thank you, Meruel.
 
 Now we\'re here. Almost five years later, I re-sparked my love for the
 genre once again and oh boy, it came in blazing **big time**. Right
-around the last days of 2020, I started watching Darling in the Franxx.
-Flew back home and finished it there by staying up till 3am and grinding
-the episodes. It was something about the timing when the show came into
-my life and my personal state. It clicked so perfectly, I got hooked
-like an addict. Absolutely fell in love with Zero Two ❤️. Since then,
-watched the hits of Gainax, all of Trigger, and more. Now we are done
-with this exhaustive history. Let\'s talk about anime.
+around the last days of 2020, I started watching *Darling in the
+Franxx*. Flew back home and finished it there by staying up till 3am and
+grinding the episodes. It was something about the timing when the show
+came into my life and my personal state. It clicked so perfectly, I got
+hooked like an addict. Absolutely fell in love with Zero Two ❤️. Since
+then, watched the hits of Gainax, all of Trigger, and more. Now we are
+done with this exhaustive history. Let\'s talk about anime.
 
 There is so much that anime can do, which almost every single other
 genre is practically incapable of doing. A simple example, would be the
@@ -69,15 +69,16 @@ also employing a large array of over-the-top action and scenes.
 
 Okay, okay, so what\'s the actual appeal of anime to me? That is it. The
 absolute freedom in plots and characters. Want to see a half-naked girl
-fighting clothes with half a scissor? Kill la Kill. Want to see robots
-as big as the Observable Universe smash each other? Tengen Toppa Gurren
-Lagann. A man able to kill anyone with a single punch, even cosmos
-overlords? One Punch Man. Conductors using their batons to fight aliens
-with the power of Classical Music? Takt Op. Destiny. This list is pretty
-tame, just the first ones that came to my mind. In many ways, it\'s so
-unrealistic and many times so much far and beyond from our reality that
-it can make some viewers dizzy or brush off the entire genre as too
-phantasmagorical. I want to make a case that we need this too.
+fighting clothes with half a scissor? *Kill la Kill*. Want to see robots
+as big as the Observable Universe smash each other? *Tengen Toppa Gurren
+Lagann*. A man able to kill anyone with a single punch, even cosmos
+overlords? *One Punch Man*. Conductors using their batons to fight
+aliens with the power of Classical Music? *Takt* *Op. Destiny*. This
+list is pretty tame, just the first ones that came to my mind. In many
+ways, it\'s so unrealistic and many times so much far and beyond from
+our reality that it can make some viewers dizzy or brush off the entire
+genre as too phantasmagorical. I want to make a case that we need this
+too.
 
 Let me give a little background into my experience with fine arts and
 media. I major in Classic Literature. The number of greatest and most
