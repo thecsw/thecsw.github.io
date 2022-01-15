@@ -2,6 +2,12 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 14; 12022 H.E.
+
+SHINZO WO SASAGEYO
+
+-- Erwin Smith
+
 ### 13; 12022 H.E.
 
 Courage is not the absence of fear, it is acting in spite of it.
