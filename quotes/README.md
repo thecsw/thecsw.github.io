@@ -2,6 +2,16 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 15; 12022 H.E.
+
+My soldiers, rage!
+
+My soldiers, scream!
+
+My soldiers, fight!
+
+-- Erwin Smith, best commander
+
 ### 14; 12022 H.E.
 
 SHINZO WO SASAGEYO
