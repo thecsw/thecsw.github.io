@@ -49,7 +49,7 @@ Coming from that drifted-over discussion back to *Banished*. There is no
 secret to enjoying what it has to offer. Take it in for what it\'s
 supposed to be. It can be even very cheesy in some spots and that\'s
 what we\'re here for. To enjoy the little magic that *Banished* holds
-close it its heart. I felt really good after watching the show, which is
+close to its heart. I felt really good after watching the show, which is
 a very good sign. The atmosphere is not the only thing it has to offer,
 there is a big question that was being pondered, let\'s talk!
 
