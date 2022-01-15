@@ -2,4 +2,190 @@
 
 14; 12022 H.E.
 
+Being a senior in college is weird. I have to confess that I contracted
+senioritis big time. So much has changed since my first time coming to the
+University of Kansas. The change was very well expected, actually desired. But
+what I failed to predict was the number of things that not only will change but
+completely go away. Don't forget about this whole pandemic situation that
+happened right in the middle, kind of pushing me off the grid.  
 
+With everything that happened and in my current state, I wanted to document my
+undergraduate career, while I still remember it and have the energy and passion
+to write about. This post is a retrospection into every single semester and
+every single course I have taken. I remember everything. To keep it focused,
+this essay will only concentrate on academic life, which is a smaller part of
+all my time, yet an important one as well. *CHARGE!*  
+
+** Fall 2018 
+
+Welcome, everyone! My first semester at KU and university life in general. I was
+a starry-eyed young incoming computer science freshman. All I recall from the
+very beginning are emotions of excitement and curiosity. As the first time
+living away from my parents and family, I'm surprised how well I did. I haven't
+gotten homesick for the first two years in college. Making your bed? Going to
+the laundry? Figuring out food? Spending however much time you want with your
+friends? My friend, I loved it! The freedom of acting on my own and living
+through their consequences is something I have desired for so long.  
+
+As an incoming freshman, we all had to talk to our advisors and get our first
+semester courses all scheduled up. I was very fortunate to be admitted into the
+Honors department at KU, which had the best advisory board in the entire
+institution. I got my classic freshman-level humanities classes, first
+programming class (even though I wasn't new to coding, I had to take it), and a
+movie class! Thanks to Ed Healy for changing some random art history class on
+the other side of the campus for what turned out to be one of my favorite
+classes.  
+
+*** Programming I, Honors 
+
+The first programming course in our department is denoted as EECS 168. There is
+an Honors version that I took, which is just EECS 169. Have to say, there is not
+much difference between the two. Same lectures, same labs, and same exams. The
+only thing that sets it apart is an additional problem Honors students have to
+do with every homework/lab. Ironically enough, this doesn't sound bad at all,
+but that single additional problem tended to be more difficult than all of the
+other problems combined.  
+
+The course was primarily taught in C++. This was the God-chosen language in our
+department. We all start by learning how to turn on a computer (this is a
+jape). This course is more oriented for people that have never done any computer
+programming before. You would learn the fundamentals, such as for-loops,
+if-statements, functions, switches, pointers, dynamic memory, and classes. I
+have done [[https://sandyuraz.com/projects/memeinvestor_bot/][some]] [[https://sandyuraz.com/projects/collatz/][projects]] [[https://sandyuraz.com/projects/prequelmemes_bot/][before]], so all of the material taught wasn't new.  
+
+There is no way you can test out of this course. The department is pretty
+adamant about you taking this course, even if you had plenty of exposure to
+higher-level programming. I remember this was the first time I would skip
+classes, forget when midterms are, and just show up late. The hubris was
+building up. I met most of my closest friends now in that class, as we would
+work together on labs and just hang out. All in all, an amazing class taught by
+[[https://eecs.ku.edu/john-gibbons][John Gibbons]]. He was the best choice for intro CS courses.  
+
+*** Honors Introduction to English 
+
+Everyone has to do what's called the KU Core. Long story short, it's a set of
+courses that every single student at KU has to take. Just the general education
+everyone has to go through. I think it is a really good way to promote your
+student to be more well-rounded individuals. As a part of the KU Core, every
+student has to take ENGL 102, which is your basic old English class. Somehow, I
+haven't been able to test out of it with my IB score, so I got enrolled in it.  
+
+On the first day of classes, I show up and we start doing introductions. Dude, I
+didn't like the professor and the vibe of the class the literal moment I walked
+into that sad basement classroom under the Classics department. The professor
+started swearing like a sailor, which I found pretty funny, but not for an
+instructor that is about to teach you some English. Right after, I went to my
+mentor and told him about the class. He introduced me to [[https://english.ku.edu/people/mary-klayder][Mary Klayder]], who is
+called by many the "Queen of KU". That holds.  
+
+She allowed me to switch from the regular English course into the Honors version
+that she teaches. My man, it was great! She is one of those rare professors that
+does care about you becoming more comfortable with the language, to be able to
+freely express whatever you need or want through it. We read great books, wrote
+papers, and went to her house for a pizza and fudge party. What more could I
+possibly ask for?  
+
+*** American Popular Culture of: Shlocks! Thrills!: Trash Cinema 
+
+Now, this was one of the highlights of my semester. My first film class. It
+wasn't some FILM 101 or intro to film composition, it was a sophomore-junior
+level topics course in the film department that focused on trash movies. It was
+one of my favorite classes and I still remember it very fondly. We only met once
+a week, every Monday from 6 pm to 9 pm or even 10-ish. The first hour of the
+time would be spent on lectures and quizzes and the last two-three on watching
+trash movies plus discussion.  
+
+My parents asked me, "What's the point of watching bad movies? Why not just
+watch the good ones?". I can tell you now. By seeing and knowing where the
+absolute trash and garbage is, really sets your frame of reference straight. So
+many people would say "Oh my god dude, Twilight is the worst movie ever
+made!". I would disagree. Have you ever seen "Pink Flamingos" by John Waters? It
+made me appreciate regular movies for what they are. I have a [[https://sandyuraz.com/blogs/good_bad_movies/][small blog post]]
+written on this exact question of watching good and bad movies.
+
+The other immense advantage of taking this course is to learn the art of
+enjoying art from all possible angles. For example, have you ever heard of a
+movie being so bad that it's good? Just because of how bad it is? Yes, that is
+what we focused on. Definitions like [[https://en.wikipedia.org/wiki/Kitsch][Kitsch]] and [[https://en.wikipedia.org/wiki/Camp_(style)][Camp]] can be applied to the
+movies we watched: [[https://en.wikipedia.org/wiki/The_Room][The Room]], [[https://en.wikipedia.org/wiki/The_Rocky_Horror_Picture_Show][The Rocky Horror Picture Show]], [[https://en.wikipedia.org/wiki/Barbarella_(film)][Barbarella]], [[https://youtu.be/pQxtZlQlTDA][Rose
+Hobart]], [[https://en.wikipedia.org/wiki/Pink_Flamingos][Pink Flamingos]], [[https://en.wikipedia.org/wiki/Sharknado][Sharknado]], [[https://youtu.be/r4JmeXXRmZg][The Heart of the World]], [[https://en.wikipedia.org/wiki/The_Toxic_Avenger_(1984_film)][The Toxic Avenger]],
+and [[https://en.wikipedia.org/wiki/Crash_(1996_film)][Crash]]. Loved it. Big thanks to [[https://film.ku.edu/people/ron-wilson][Ron Wilson]] for putting together such an
+amazing class. I wondered about declaring a film minor for a while.  
+
+*** First-Year Honors Seminar: Mathematics and Climate 
+
+Now, this was a hoot. Every new Honors student has to take the mandatory
+seminar, where each version of it revolves around topics of its Professor's
+interests. Those seminars are small, with a maximum capacity of about 10-12
+students. The appeal of the seminar is to introduce students to professors,
+bridge that gap of authority, and let students feel more confident when talking
+to faculty or even asking them for jobs and research positions.  
+
+This is how I found my first research experience. My seminar was taught by the
+amazing [[https://mathematics.ku.edu/people/erik-van-vleck][Erik Van Vleck]] on the topic of Mathematics and Climate. Basically, how
+can we build a mathematical model of weather and climate? It would allow us to
+better understand its highly chaotic behavior and predict future severe weather
+conditions. I believe out of 20-ish seminars that run every year, our seminar
+was the most intense one. We had to write essays, analysis, some MATLAB code,
+and write a big final project on a topic of our own choice.  
+
+My final project was titled "The Use of Neural Networks for Computing
+Observation Operator in Data Assimilation Applications". That's a mouthful. It
+was that time of my life when I was super interested in neural networks and tech
+alike. I asked myself, can we apply this pattern recognition technique onto
+chaotic equations of Data Assimilation? Take it a year more or so, this would
+turn out into a research proposal that won the annual [[https://news.ku.edu/math-majors-receive-first-math-undergraduate-research-awards][math research grant]]. I
+also assisted Professor Van Vleck with this same seminar for the next two years.  
+
+*** Calculus II 
+
+Speaking of classes that I could not test out of, I tested out of Calculus I! It
+was a big relief that I don't have to relive the horrors of learning derivatives
+and integrals for the first time. I can't say much about this course, as it
+mostly consisted of mastering series, sequences, calculus theorems, integration
+by parts, calculus+trigonometry, vectors, and such. It was that class, where you
+do a lot of homework and attendance is mandatory. The fun part of the class was
+the fact that it was taught by Professor Van Vleck!  
+
+One lecture he jumped on the table and almost fell badly. The other day he came
+to class wearing his shirt inside-out and people in class took the liberty to
+point that out to him, we all laughed together afterward. He showed us some
+[[https://youtu.be/uMSV4OteqBE][Spinal Tap memes]], fig man memes, and other stuff that I was too young to
+understand. From that class, I do remember I peer of mine. For his privacy, call
+him Roberto. Roberto was an interesting man, as almost every lecture, without a
+fail, he would ask the professor if he could go to the bathroom mid-lecture.  
+
+People have to understand that you don't have to ask that, especially in
+college. You would just stand up and leave for some time. Roberto was set on
+asking the professor, not even as a joke. One time, Professor Van Vleck told him
+"You know, you don't have to ask me, you can just go.". About a week or two
+later, during one of our lectures, I saw Roberto just rise up and quietly
+leave. The moment the door shut after him, the whole class started
+applauding. It was pretty funny, as the professor noted "You're all funny."  
+
+There was one more incident with Roberto that in hindsight, was a little
+sad. During lectures, we used a thing called [[https://www.iclicker.com][iClicker]]. An instructor would start
+a poll and students would press their remotes to cast their vote/answer. Just
+for giggles, our professor wanted to get a 100% in one of the questions and
+started polling over a very simple question, with the intention that everyone
+will get it right no matter what. That almost happened.  
+
+Poll closed, votes cast, aaaaaand... everyone got it right! Except just for one
+vote. I could hear Roberto raising his hand and asking in front of the whole
+lecture audience why was that answer the correct one. Professor looked at him,
+went to the blackboard, and uttered "So you have an equation here, and here is
+the answer you think that is right". This is how it looked  
+
+#+begin_src
+  SOME EQUATION = (      ...      )
+                  (      ...      )  = YOUR ANSWER
+#+end_src
+
+So a miracle occurs and you get your answer!
+
+#+begin_src
+  SOME EQUATION = (   A MIRACLE   )
+                  (     OCCURS    )  = YOUR ANSWER
+#+end_src
+
+The burn was real. Let's end it here. It was fun
