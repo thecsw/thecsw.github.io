@@ -75,6 +75,10 @@ $(NAME):
 	$(E) "\n->	ADJUSTING HTML"
 	$(E) "Adding foundation time element and fixing html"
 	$(Q) $(OUTPUT_FILES) | xargs $(SED) -E -f $(OUTPUT_SED) -i
+	$(E) "Fixing the preview paths for OpenGraph and Twitter previews"
+	$(Q) $(OUTPUT_FILES) | grep "index.html" | $(SED) -E "s|(.+)|$(SED) 's=PREVIEWPATH=\1=' -i \1|g;s|index\.html=|preview.png=|g;s|=./|=https://sandyuraz.com/|g" | sh
+	$(E) "Fixing the URLPATHs from html sed"
+	$(Q) $(OUTPUT_FILES) | grep "index.html" | $(SED) -E "s|(.+)|$(SED) 's=URLPATH=\1=' -i \1|g;s|index\.html=|=|g;s|=./|=https://sandyuraz.com/|g" | sh
 	$(E) "Adding page-specific description to each html file"
 	$(Q) $(OUTPUT_FILES) | xargs -n1 sh $(SCRIPT_DESC)
 	$(Q) $(NOTIFY) "Sandy's Website" "Build complete!"
