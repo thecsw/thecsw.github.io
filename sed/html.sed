@@ -8,7 +8,7 @@ s|Time_LINK|<p id="time"></p>|
 s|<h1>|<h1><img id="myface" src="/small.png" width="100">|
 
 # Each page should have a preview image
-/<title/i\<meta property="og:image" content="./preview.png">
+/<title/i\<meta property="og:image" content="preview.png">
 /<title/i\<meta property="og:image:alt" content="Preview">
 /<title/i\<meta property="og:image:type" content="image/png">
 /<title/i\<meta property="og:image:width" content="1280">
@@ -36,7 +36,7 @@ s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</ti
 /<title/i\<meta name="twitter:card" content="summary">
 /<title/i\<meta property="twitter:site" content="Sandy&apos;s Website">
 /<title/i\<meta property="twitter:creator" content="@sandyuraz">
-/<title/i\<meta property="twitter:image:src" content="./preview.png">
+/<title/i\<meta property="twitter:image:src" content="preview.png">
 s|<title>([^<>]+)</title>|<meta property="twitter:title" content="\1">\n<title>\1</title>|g
 
 
