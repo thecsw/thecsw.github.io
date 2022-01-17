@@ -33,7 +33,7 @@ s|<h1>|<h1><img id="myface" src="/small.png" width="100">|
 s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</title>|g
 
 # Add Twitter OpenGraph
-/<title/i\<meta name="twitter:card" content="summary">
+/<title/i\<meta name="twitter:card" content="summary_large_image">
 /<title/i\<meta property="twitter:site" content="Sandy&apos;s Website">
 /<title/i\<meta property="twitter:creator" content="@sandyuraz">
 /<title/i\<meta property="twitter:image:src" content="https://sandyuraz.com/preview.png">
