@@ -10,6 +10,10 @@ s|<h1>|<h1><img id="myface" src="/small.png" width="100">|
 # Each page should have a preview image
 /<title/i\<meta property="og:image" content="./preview.png">
 /<title/i\<meta property="og:image:alt" content="Preview">
+/<title/i\<meta property="og:image:type" content="image/png">
+/<title/i\<meta property="og:image:width" content="1280">
+/<title/i\<meta property="og:image:height" content="640">
+
 
 # Add the website's favicon
 /<title/i\<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
@@ -27,6 +31,14 @@ s|<h1>|<h1><img id="myface" src="/small.png" width="100">|
 
 # Extract the value from title tag and put it into title meta property
 s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</title>|g
+
+# Add Twitter OpenGraph
+/<title/i\<meta name="twitter:card" content="summary">
+/<title/i\<meta property="twitter:site" content="Sandy&apos;s Website">
+/<title/i\<meta property="twitter:creator" content="@sandyuraz">
+/<title/i\<meta property="twitter:image:src" content="./preview.png">
+s|<title>([^<>]+)</title>|<meta property="twitter:title" content="\1">\n<title>\1</title>|g
+
 
 # Site description is set in the makefile by sh/og_desc.sh
 #/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome">
