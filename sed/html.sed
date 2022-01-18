@@ -7,8 +7,10 @@ s|Time_LINK|<p id="time"></p>|
 
 s|<h1>|<h1><img id="myface" src="/small.png" width="100">|
 
+/<title/i\<link rel="canonical" href="URLPATH">
+
 # Each page should have a preview image
-/<title/i\<meta property="og:image" content="https://sandyuraz.com/preview.png">
+/<title/i\<meta property="og:image" content="PREVIEWPATH">
 /<title/i\<meta property="og:image:alt" content="Preview">
 /<title/i\<meta property="og:image:type" content="image/png">
 /<title/i\<meta property="og:image:width" content="1280">
@@ -21,6 +23,7 @@ s|<h1>|<h1><img id="myface" src="/small.png" width="100">|
 
 # This is website's name
 /<title/i\<meta property="og:site_name" content="Sandy&apos;s Website">
+/<title/i\<meta property="og:url" content="URLPATH">
 
 # Some more Open Graph properties about what each webpage is
 /<title/i\<meta property="og:locale" content="en_GB">
@@ -36,9 +39,9 @@ s|<title>([^<>]+)</title>|<meta property="og:title" content="\1">\n<title>\1</ti
 /<title/i\<meta name="twitter:card" content="summary_large_image">
 /<title/i\<meta property="twitter:site" content="Sandy&apos;s Website">
 /<title/i\<meta property="twitter:creator" content="@sandyuraz">
-/<title/i\<meta property="twitter:image:src" content="https://sandyuraz.com/preview.png">
+/<title/i\<meta property="twitter:image:src" content="PREVIEWPATH">
 s|<title>([^<>]+)</title>|<meta property="twitter:title" content="\1">\n<title>\1</title>|g
-
+/<title/i\<meta property="twitter:url" content="URLPATH">
 
 # Site description is set in the makefile by sh/og_desc.sh
 #/<title/i\<meta property="og:description" content="Hey, everyone! This is Sandy. Welcome">
