@@ -181,7 +181,7 @@ the answer you think that is right". This is how it looked
                   (      ...      )  = YOUR ANSWER
 #+end_src
 
-So a miracle occurs and you get your answer!
+"So a miracle occurs and you get your answer!"
 
 #+begin_src
   SOME EQUATION = (   A MIRACLE   )
@@ -189,3 +189,177 @@ So a miracle occurs and you get your answer!
 #+end_src
 
 The burn was real. Let's end it here. It was fun
+
+** Spring 2019
+
+The first semester is done! And to say the least, it was a blast. What freedom, what
+fun, and here is to the new friends with the new semester on the horizon. Let's
+see what I remember from this semester. This is the time when I took an *amazing*
+math class that convinced me to declare and pursue a whole math major. In some
+parts, it was a little bit of a tough semester, compared to the first one. Let's
+dive in!
+
+*** Speaker-Audience Communication, Honors
+
+Not a lot can be said here because this is simply an awesome course taught by
+one and only, Ryan Stangler. As he said, "not Strangler". I can't find his
+website or anything about him on the internet, so I'll link his 207 pages long
+thesis on [[https://kuscholarworks.ku.edu/handle/1808/19555][The Agrarian Rhetoric of Richard M. Weaver]]. This class left a big
+imprint in my memory, all thanks to Ryan Stangler's incredible charisma and life
+within him. I always like to quote Oscar Wilde, once he said
+
+/To live is the rarest thing in the world. Most people exist, that is all./
+-- Oscar Wilde
+
+Out of all the people I have met during my lifetime and all across the world, I
+can confidently say that Ryan Stangler is one of those very few that truly
+lived, and still living! The class was about public speaking, so we would write
+speeches with various goals, such as an introductory speech, an informative one, and
+a persuasive one, where you try to persuade the audience on whatever topic you
+are doing. My persuasive speech on why we should use the Holocene calendar is
+[[https://sandyuraz.com/blogs/year_12019/][published on my website]].
+
+One day, he had a bet with his fellow professor. That professor told him that if
+he gives us the extremely controversial [[https://claremontreviewofbooks.com/digital/the-flight-93-election/][Flight 93 Election]], then he would get
+fired. We had to write a paper analyzing the article and expressing our critical
+views on it. The courage on that man. On some days, he would just ditch any
+plans and give us some [[./language packet that is good for your soul.pdf][readings for our soul]] and read it out loud with fiery
+passion during the class. Love that man.
+
+*** Programming II
+
+EECS 268 is a direct continuation of EECS 168, which was the first programming
+course, also taught by John Gibbons. This class has a bit of a reputation for
+being the "beast class" of our computer science curriculum. The pass-rate of
+this class, meaning any students graduating (getting at least C-) is about
+40%. Many people fear this class, yet every single EECS student has to go
+through it. I don't think it's that bad, let me explain.
+
+This class is of course harder than EECS 168, you start doing some interesting
+data structures and algorithms, like linked lists, binary trees, hash tables,
+recursion, backtracking, permutations, etc. This is the first real taste of what
+programming entails and that's long hours sitting in front of the computer
+screen, reading stack traces and compiler errors, wasting yourself away
+debugging your code, and hunting down every possible memory leak in your
+orthodox C++ code.
+
+This is an important material that every CS student has to know and master,
+however, many people that are pursuing computer science realize that this major
+and field might not be in their best interests. Simply put, they have talents
+and aspirations in something different. Going into the tech industry is driven
+mainly by chasing the bag or chasing the bag. Think of Programming II as a trial
+by fire for the ones that are not meant for this kind of life. They should
+realize that and have the courage to properly act on it. 
+
+I should also note that if someone passes the course, it does not mean the rest
+of the curriculum will be easy or they are great computer scientists. It just
+means you did well enough on foundational data structures, wrapped your head
+around recursion, or maybe allegedly cheated your way through by collaborating
+on individual projects. I enjoyed the class. My friends and I were in a frenzy,
+where we would try to write "smartest" and "smallest" code possible for our
+exercises. Just for fun, of course.
+
+*** Freshman-Sophomore Honors Proses: Ways of Seeing, Honors
+
+ENGL 205 is a direct sequel to ENGL 105, which I took last semester. The big
+difference is that this one is completely optional. I enrolled in Mary Klayder's
+English course just because I wanted to. We read books and wrote papers. The
+part of the class I remember the most is that time we all went to her house
+again to have some pizzas and fudge. She has a small cinema theater in her
+basement, where we would sit down and give small presentations about ourselves.
+
+I feel this is the time where I fell in love with interacting with professors
+and my fellow classmates outside of class, even more so than when we were in the
+classroom. It helps you to get over the fear and shyness of talking to faculty
+just because you enjoy talking to them. In her house, I did a small standup-like
+bit while sitting a small wooden stool. Shamelessly ripped it off from my public
+speaking course's intro speech. 
+
+*** Calculus III, Honors
+
+[[https://mathematics.ku.edu/people/estela-gavosto][Estela Gavosto]], one of my favorite math professors. I enrolled in her Honors
+version of Calculus III, there were only nine of us there. Instead of sitting
+in a boring 200+ person lecture halls, we had more of a classroom environment,
+where we all became good friends. Professor Gavosto would run fun lectures,
+bring candies to exams, treat everyone with some pumpkin bread to teach triple
+integrals, and have some cookies with milk for our final. She was called the mom
+of the class.
+
+Do not let that fool you though. MATH 147 is a hard class, one of the hardest
+classes on that level, I daresay. In the Honors version, we cover about double
+amount of material of what the main course does and we also did projects
+throughout the semester. For example, for the first project, Professor gave each
+one of us a noodle, like the ones you like to eat, all in different shapes and
+we had to come up with mathematical equations and sets to plot it.
+
+*** General Physics I for Engineers
+
+*** General Physics I Laboratory
+
+** Fall 2019
+
+*** Intro to Digital Logic, Honors
+
+*** Honors Freshman Seminar Assistantship
+
+*** Applied Differential Equations, Honors
+
+*** Elementary Linear Algebra, Honors
+
+*** General Physics II, Honors
+
+*** American Society, Honors
+
+** Spring 2020
+
+*** Discrete Structures
+
+*** Programming Language Paradigms
+
+*** Software Engineering I
+
+*** Introductory Modern Algebra
+
+*** Algebraic Topics in Computing: Cryptography
+
+** Fall 2020
+
+*** Embedded Systems
+
+*** Intermediate Analysis
+
+*** Introduction to Theory of Computing
+
+*** Linear Algebra
+
+*** Special Topics: Computational Data Science
+
+** Spring 2021
+
+*** Data Structures
+
+*** Computer Architecture
+
+*** Compiler Construction
+
+*** IoT Security (Graduate course)
+
+*** Introduction to Russian Literature (Graduate course)
+
+** Summer 2021
+
+*** Language and Mind
+
+*** Intensive Instruction in Slavic Languages
+
+** Fall 2021
+
+*** Fundamentals of Computer Algorithms
+
+*** Programming Languages
+
+*** Introduction to Operating Systems
+
+*** Computer Science Design Capstone - I
+
+*** Working Data & Corpora in SLAV 
