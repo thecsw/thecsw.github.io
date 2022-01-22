@@ -121,6 +121,7 @@ a {
         cursor: pointer;
         color: #217ab7;
         line-height: inherit;
+        transition: .14s;
 }
 a:hover {
         color: white;
