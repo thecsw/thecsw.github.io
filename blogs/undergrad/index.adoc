@@ -24,6 +24,9 @@ everything. To keep it focused, this essay will only concentrate on
 academic life, which is a smaller part of all my time, yet an important
 one as well. *CHARGE!*
 
+.My beautiful campus
+image::campanile.png[My beautiful campus, link="campanile.png"]
+
 == Fall 2018
 
 Welcome, everyone! My first semester at KU and university life in
@@ -103,6 +106,9 @@ it. We read great books, wrote papers, and went to her house for a pizza
 and fudge party. What more could I possibly ask for?
 
 === American Popular Culture of: Shlocks! Thrills!: Trash Cinema
+
+.Barbarella! This was the poster of our class
+image::barbarella.png[Barbarella! This was the poster of our class, link="barbarella.png"]
 
 Now, this was one of the highlights of my semester. My first film class.
 It wasn't some FILM 101 or intro to film composition, it was a
@@ -241,6 +247,17 @@ the time when I took an *amazing* math class that convinced me to
 declare and pursue a whole math major. In some parts, it was a little
 bit of a tough semester, compared to the first one. Let's dive in!
 
+Before that real quick, I went to a
+https://en.wikipedia.org/wiki/Statistical_and_Applied_Mathematical_Sciences_Institute[SAMSI]
+workshop in 2019, where I met incredible people and statisticians from
+all over the nation. And there was me, a single KU student from Midwest.
+
+.Us taking a bus to the research triangle campus
+image::samsi1.png[Us taking a bus to the research triangle campus, link="samsi1.png"]
+
+.Four folks on Duke campus
+image::samsi2.png[Four folks on Duke campus, link="samsi2.png"]
+
 === Speaker-Audience Communication, Honors
 
 Not a lot can be said here because this is simply an awesome course
@@ -363,9 +380,40 @@ image::noodle_plotted.png[My faithful representation of it, link="noodle_plotted
 Assume that the surface $S$ of this pasta is parametrized by
 the equations
 
+$\vec{r}(t,a)=\begin{cases}x(t,a)=0.9 t \cos (a)\\y(t,a) = t \sin (a)\\z(t,a) = 0.06\sqrt{t} (1.21\, -t) \sin (22.5 t \cos (a))\\\qquad\qquad-0.08 t^2 \sin (2 a)+\frac{1}{2} t^6-t^4-0.1 t^2+1\end{cases}$
+
+for $0\leq t \leq 1.21, 0 \leq a \leq 2\pi$
+
+Then we started working all together in teams of four. My pasta was
+chosen as the team's pasta, so we went on to running analysis on my
+small noodle, like finding the vector field of it, and more! Finally,
+Professor Gavosto gave us a set of equations to plot a ravioli, with a
+separate set for the top, bottom of the ravioli, and its filling as
+well. I link:./math147_project3.pdf[uploaded] the PDF of the third
+project.
+
 === General Physics I for Engineers
 
+I never liked physics and this class was no exception. PHSX 210 at KU is
+mostly an extremely mediocre experience, where you are simply required
+to cram the material and spit it back out during weirdly formatted
+quizzes and exams. The single thing I remember from this course is that
+I didn't have the best homework and work ethic there, simply because I
+couldn't care less.
+
+Our homeworks were due every wednesday 9am. A responsible student would
+do the homework the night before or even sooner. I would wake up every
+wednesday at around 5am and give myself 3-4 hours at max to do it.
+Everyone is sleeping, meaning there is no help available. What happens
+if I can't do a problem? Too bad. I got A in that class by being 0.1%
+over the A cutoffs. One sneeze in the wrong direction, straight to the B
+land.
+
 === General Physics I Laboratory
+
+I don't want to talk about this. This was just an excel class, where you
+would make what's called a "master" excel file, punch in numbers you
+collect during experiments, and crunch out that data.
 
 == Fall 2019
 
