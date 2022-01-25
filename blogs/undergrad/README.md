@@ -355,7 +355,7 @@ first project, Professor gave each one of us a noodle, like the ones you
 like to eat, all in different shapes and we had to come up with
 mathematical equations and sets to plot it.
 
-![The original noodle I got](noodle_original_.png)
+![The original noodle I got](noodle_original.png)
 
 I got an [Orecchiette](https://en.wikipedia.org/wiki/Orecchiette) pasta,
 which you can see above. I thought of some ways I can plot it. Maybe a
@@ -363,7 +363,7 @@ half of a sphere with lifted wings? Not Cartesian. I settled on making
 it work with Cylindrical coordinates because it is more doable to add
 those ridges on the pasta\'s surface. The result is as follows
 
-![My faithful representation of it](noodle_plotted_.png)
+![My faithful representation of it](noodle_plotted.png)
 
 Assume that the surface $S$ of this pasta is parametrized by the
 equations
