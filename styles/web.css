@@ -143,6 +143,9 @@ body {
         background: #fffff4;
         color: #3a1616;
         font-family: "Lora";
+        /* Smooth the font a little bit, it's a
+         bit too bold on retina screens */        
+        -webkit-font-smoothing: antialiased;
 }
 p {
         font-size: 18px;
