@@ -273,6 +273,9 @@ exercises. Just for fun, of course.
 
 *** Freshman-Sophomore Honors Proses: Ways of Seeing, Honors
 
+undergrad article
+
+
 ENGL 205 is a direct sequel to ENGL 105, which I took last semester. The big
 difference is that this one is completely optional. I enrolled in Mary Klayder's
 English course just because I wanted to. We read books and wrote papers. The
@@ -280,8 +283,8 @@ part of the class I remember the most is that time we all went to her house
 again to have some pizzas and fudge. She has a small cinema theater in her
 basement, where we would sit down and give small presentations about ourselves.
 
-I feel this is the time where I fell in love with interacting with professors
-and my fellow classmates outside of class, even more so than when we were in the
+I feel this is the time when I fell in love with interacting with professors
+and my classmates outside of class, even more so than when we were in the
 classroom. It helps you to get over the fear and shyness of talking to faculty
 just because you enjoy talking to them. In her house, I did a small standup-like
 bit while sitting a small wooden stool. Shamelessly ripped it off from my public
@@ -291,7 +294,7 @@ speaking course's intro speech.
 
 [[https://mathematics.ku.edu/people/estela-gavosto][Estela Gavosto]], one of my favorite math professors. I enrolled in her Honors
 version of Calculus III, there were only nine of us there. Instead of sitting
-in a boring 200+ person lecture halls, we had more of a classroom environment,
+in boring 200+ person lecture halls, we had more of a classroom environment,
 where we all became good friends. Professor Gavosto would run fun lectures,
 bring candies to exams, treat everyone with some pumpkin bread to teach triple
 integrals, and have some cookies with milk for our final. She was called the mom
@@ -299,7 +302,7 @@ of the class.
 
 Do not let that fool you though. MATH 147 is a hard class, one of the hardest
 classes on that level, I daresay. In the Honors version, we cover about double
-amount of material of what the main course does and we also did projects
+the amount of material of what the main course does and we also did projects
 throughout the semester. For example, for the first project, Professor gave each
 one of us a noodle, like the ones you like to eat, all in different shapes and
 we had to come up with mathematical equations and sets to plot it.
@@ -307,8 +310,8 @@ we had to come up with mathematical equations and sets to plot it.
 PIC noodle_original.png:The original noodle I got
 
 I got an [[https://en.wikipedia.org/wiki/Orecchiette][Orecchiette]] pasta, which you can see above. I thought of some ways I
-can plot it. Maybe a half of a sphere with lifted wings? Definitely not
-Cartesian. I settled on making it work with Cylindrical coordinates, because it
+can plot it. Maybe a half of a sphere with lifted wings? Not
+Cartesian. I settled on making it work with Cylindrical coordinates because it
 is more doable to add those ridges on the pasta's surface. The result is as
 follows 
 
@@ -320,10 +323,10 @@ $\vec{r}(t,a)=\begin{cases}x(t,a)=0.9 t \cos (a)\\y(t,a) = t \sin (a)\\z(t,a) = 
 
 for $0\leq t \leq 1.21, 0 \leq a \leq 2\pi$
 
-Then we started working all together in teams of four. My pasta was chosen as
+Then we started working altogether in teams of four. My pasta was chosen as
 the team's pasta, so we went on to running analysis on my small noodle, like
 finding the vector field of it, and more! Finally, Professor Gavosto gave us a
-set of equations to plot a ravioli, with a separate set for the top, bottom of
+set of equations to plot a ravioli, with a separate set for the top, the bottom of
 the ravioli, and its filling as well. I [[./math147_project3.pdf][uploaded]] the PDF of the third project.
 
 *** General Physics I for Engineers
@@ -334,11 +337,11 @@ material and spit it back out during weirdly formatted quizzes and exams. The
 single thing I remember from this course is that I didn't have the best homework
 and work ethic there, simply because I couldn't care less.
 
-Our homeworks were due every wednesday 9am. A responsible student would do the
-homework the night before or even sooner. I would wake up every wednesday at
-around 5am and give myself 3-4 hours at max to do it. Everyone is sleeping,
+Our homework was due every Wednesday at 9 am. A responsible student would do the
+homework the night before or even sooner. I would wake up every Wednesday at
+around 5 am and give myself 3-4 hours at max to do it. Everyone is sleeping,
 meaning there is no help available. What happens if I can't do a problem? Too
-bad. I got A in that class by being 0.1% over the A cutoffs. One sneeze in the
+bad. I got an A in that class by being 0.1% over the A cutoffs. One sneeze in the
 wrong direction, straight to the B land.
 
 *** General Physics I Laboratory
