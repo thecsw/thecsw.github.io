@@ -342,6 +342,32 @@ project, Professor gave each one of us a noodle, like the ones you like
 to eat, all in different shapes and we had to come up with mathematical
 equations and sets to plot it.
 
+![The original noodle I got](noodle_original_.png)
+
+I got an [Orecchiette](https://en.wikipedia.org/wiki/Orecchiette) pasta,
+which you can see above. I thought of some ways I can plot it. Maybe a
+half of a sphere with lifted wings? Definitely not Cartesian. I settled
+on making it work with Cylindrical coordinates, because it is more
+doable to add those ridges on the pasta\'s surface. The result is as
+follows
+
+![My faithful representation of it](noodle_plotted_.png)
+
+Assume that the surface $S$ of this pasta is parametrized by the
+equations
+
+```{=latex}
+\begin{equation*}
+    \vec{r} =
+    \Bigg\{
+    \begin{array}{ll}
+        \textbf{\emph{X}}(t,a) = 0.9 t \cos (a) \\
+        \textbf{\emph{Y}}(t,a) = t \sin (a)     \\
+        \textbf{\emph{Z}}(t,a) = 0.06 \sqrt{t} (1.21\, -t) \sin (22.5 t \cos (a))-0.08 t^2 \sin (2 a)+\frac{1}{2} t^6-t^4-0.1 t^2+1
+    \end{array}
+    0\leq t \leq 1.21, 0 \leq a \leq 2\pi
+\end{equation*}
+```
 ### General Physics I for Engineers
 
 ### General Physics I Laboratory
@@ -419,3 +445,5 @@ Fall 2021
 ### Computer Science Design Capstone - I
 
 ### Working Data & Corpora in SLAV
+
+USEMATHJAX
