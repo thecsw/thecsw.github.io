@@ -373,11 +373,12 @@ $\vec{r}(t,a)=\begin{cases}x(t,a)=0.9 t \cos (a)\\y(t,a) = t \sin (a)\\z(t,a) = 
 for $0\leq t \leq 1.21, 0 \leq a \leq 2\pi$
 
 Then we started working altogether in teams of four. My pasta was chosen
-as the team\'s pasta, so we went on to running analysis on my small
-noodle, like finding the vector field of it, and more! Finally,
-Professor Gavosto gave us a set of equations to plot a ravioli, with a
-separate set for the top, the bottom of the ravioli, and its filling as
-well. I [uploaded](./math147_project3.pdf) the PDF of the third project.
+as the team\'s pasta, so we went on to running
+[analysis](./math147_project2.pdf) on my small noodle, like finding the
+vector field of it, and more! Finally, Professor Gavosto gave us a set
+of equations to plot a ravioli, with a separate set for the top, the
+bottom of the ravioli, and its filling as well. I
+[uploaded](./math147_project3.pdf) the PDF of the third project.
 
 ### General Physics I for Engineers
 
@@ -404,6 +405,11 @@ you collect during experiments, and crunch out that data.
 
 Fall 2019
 ---------
+
+This was by far the darkest semester I have had up until then. I was
+called *suicidal* and *crazy* for taking a semester of 6 courses (18
+credit hours), where each course was an Honors class. Recall that Honors
+classes can be twice as hard as their regular versions.
 
 ### Intro to Digital Logic, Honors
 
