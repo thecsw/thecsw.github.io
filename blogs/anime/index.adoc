@@ -6,7 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
-12; 12020 H.E.
+12; 12022 H.E.
 
 I love watching anime. It hasn't always been like this. I think the
 first time I got introduced to it was when I was around six or seven. I
