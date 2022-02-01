@@ -8,9 +8,9 @@ library up-to-date with my progress
 
  #+BEGIN_SRC
 
- ┌──────────────────┐
- │  Attack on Titan │
- │   Final Season   ├───────────────────┐
+ ┌──────────────────┬───────────────────┐
+ │  Attack on Titan │    Mirai Nikki    │
+ │   Final Season   ├───────────────────┤
  ├──────────────────┤Weathering with You│
  │  Attack on Titan ├───────────────────┤
  │  Season 3 Part 2 │   The Rising of   │
