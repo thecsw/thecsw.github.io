@@ -12,7 +12,10 @@ also keep my https://kitsu.io/users/1257674[kitsu] library up-to-date
 with my progress
 
 ....
- ┌──────────────────┬───────────────────┐
+ ┌──────────────────┐
+ │   Komi─san wa,   │
+ │  Komyushou desu  │
+ ├──────────────────┼───────────────────┐
  │  Attack on Titan │    Mirai Nikki    │
  │   Final Season   ├───────────────────┤
  ├──────────────────┤Weathering with You│

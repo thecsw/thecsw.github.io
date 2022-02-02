@@ -8,7 +8,10 @@ library up-to-date with my progress
 
  #+BEGIN_SRC
 
- ┌──────────────────┬───────────────────┐
+ ┌──────────────────┐
+ │   Komi─san wa,   │
+ │  Komyushou desu  │
+ ├──────────────────┼───────────────────┐
  │  Attack on Titan │    Mirai Nikki    │
  │   Final Season   ├───────────────────┤
  ├──────────────────┤Weathering with You│
