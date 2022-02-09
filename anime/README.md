@@ -9,11 +9,14 @@ full of anime as a bonus! See some selected reviews at the bottom. I
 also keep my [kitsu](https://kitsu.io/users/1257674) library up-to-date
 with my progress
 
-
      ┌──────────────────┐
-     │   Komi─san wa,   │
-     │  Komyushou desu  │
-     ├──────────────────┼───────────────────┐
+     │   Re:Zero kara   │
+     │  Hajimeru Isekai ├───────────────────┐
+     │     Seikatsu     │Wonder Egg Priority│
+     ├──────────────────┤      Special      │
+     │   Komi─san wa,   ├───────────────────┤
+     │  Komyushou desu  │Wonder Egg Priority│
+     ├──────────────────┼───────────────────┤
      │  Attack on Titan │    Mirai Nikki    │
      │   Final Season   ├───────────────────┤
      ├──────────────────┤Weathering with You│
