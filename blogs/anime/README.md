@@ -116,6 +116,6 @@ lives and routine already suffice for that.
 Anime music is also **incredible**. Here is my playlist with the ones I
 like a lot
 
-SPOTIFYPLAYLIST 6P7ksZ5uGpVp4qq9gDhFlj
+<iframe src="https://open.spotify.com/embed/playlist/6P7ksZ5uGpVp4qq9gDhFlj" width="79%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Thank you for reading! Take care

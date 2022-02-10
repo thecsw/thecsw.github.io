@@ -54,7 +54,7 @@ also grab N number of submissions from any subreddit, paginate through
 them, and other exciting stuff! Below is some basic functionality
 example.
 
-GIST thecsw/c8bd97b96c892734eca1f945a049b834
+<script src="https://gist.github.com/thecsw/c8bd97b96c892734eca1f945a049b834.js"></script>
 
 Streaming
 ---------
@@ -71,7 +71,7 @@ code is originally from the graw guide, the only diffence is that it\'s
 written to use mira instead of graw. Example done to show how those two
 libraries differ.
 
-GIST thecsw/e2e3d2b558f943fb3f5047ed4979282d
+<script src="https://gist.github.com/thecsw/e2e3d2b558f943fb3f5047ed4979282d.js"></script>
 
 NOTE: mira is not ****completely**** concurrency safe! When you run
 `r.Comment(...)` or `r.Redditor(...)`, it adds those values to its
@@ -108,4 +108,4 @@ implemented:
 
 NOTE: you can lookup `checkType(...)` in mira\'s readme
 
-GIST thecsw/25ff8b8e247b33b3cf023740ee5083bf
+<script src="https://gist.github.com/thecsw/25ff8b8e247b33b3cf023740ee5083bf.js"></script>

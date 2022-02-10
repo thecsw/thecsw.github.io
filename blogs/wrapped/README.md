@@ -27,7 +27,7 @@ number, but that\'s okay. It has a kick. I watched
 sister and absolutely loved it. So the ending song became my go-to
 programming jam. I\'ll have spotify embeds sprinkled around this page.
 
-SPOTIFY 54BW4qpq5ms4bnzBgiWVOo
+<iframe src="https://open.spotify.com/embed/track/54BW4qpq5ms4bnzBgiWVOo" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Besides the very top one, what other songs have I had on repeat that
 crawled themselves to my top songs list?
@@ -41,7 +41,7 @@ character design. The game is actually free! It was so good, I bought
 the pancake recipe to support
 [vanripper](https://twitter.com/vanripperart) for the game he made.
 
-SPOTIFY 4i0oGvIIrkoTLNCYJWnMvh
+<iframe src="https://open.spotify.com/embed/track/4i0oGvIIrkoTLNCYJWnMvh" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Moving in and out is always a bit of a stressful and **lonely**
 experience. I remember I had to move into a new apartment and I was just
@@ -50,7 +50,7 @@ Evangelion and everything associated with it, I would play **Misato**
 theme by *Shiro Sagisu*. It made me feel less lonely and more upbeat,
 instantly cozying up the atmosphere. I was at home.
 
-SPOTIFY 0E9W4ZDAl2ceQSJI8TOgOS
+<iframe src="https://open.spotify.com/embed/track/0E9W4ZDAl2ceQSJI8TOgOS" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Well, what can I say about playing **Fly Me To the Moon**, the
 Evangelion version? I actually prefer it to Frank Sinatra\'s version,
@@ -58,7 +58,7 @@ simply because, like man, anime music just hits **different**. This one
 has such a calming and a warm hug kind of a feeling. It\'s something
 that\'s just history now.
 
-SPOTIFY 6o97UuQmaxccF95fdt9PPR
+<iframe src="https://open.spotify.com/embed/track/6o97UuQmaxccF95fdt9PPR" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Last but not least. **What A Life** by *Scarlet Pleasure*. If you
 haven\'t seen [Another
@@ -71,7 +71,7 @@ subtlety to their soul and it feels. Carefully treading the themes of
 alcoholism and being alive. The song is an **absolute banger** and I
 rarely say that about anything.
 
-SPOTIFY 2zWivfUQjnXyUozQOrSCVc
+<iframe src="https://open.spotify.com/embed/track/2zWivfUQjnXyUozQOrSCVc" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Other honorable mentions that go right after the top 5 are: [Sorairo
 Days](https://open.spotify.com/track/4EkbGJChszyxhEP0bIwBSZ) by *Shoko
@@ -85,7 +85,7 @@ Away](https://open.spotify.com/track/7olMFQZhjN2EHf7ra2PjE7) by
 *TeddyLoid* (Panty & Stocking with Garterbelt), and more! You can see
 the whole top playlist below
 
-SPOTIFYPLAYLIST 59bal0ZSNOlRC6jwhu0ocw
+<iframe src="https://open.spotify.com/embed/playlist/59bal0ZSNOlRC6jwhu0ocw" width="79%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Let\'s do a vibe check on my music taste. What kind of an aura do I
 have? It\'s **dramatic** and **considerate**. Well said, I like the
