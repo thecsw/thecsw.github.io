@@ -9,79 +9,79 @@ categories with links! The list is completely biased
 
 ### Oh these?
 
-[See the youtube video here](https://youtu.be/DczHdNwooY4)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/DczHdNwooY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### let down your hair, girl
 
-[See the youtube video here](https://youtu.be/9r-rAW0gm0s)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/9r-rAW0gm0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Hot enough to fry an egg
 
-[See the youtube video here](https://youtu.be/5fmRXFbFRr4)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/5fmRXFbFRr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Sour
 
-[See the youtube video here](https://youtu.be/x19HCw64J7s)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/x19HCw64J7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### The gift of creation
 
-[See the youtube video here](https://youtu.be/hFztL7tnk-s)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/hFztL7tnk-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Duality
 
-[See the youtube video here](https://youtu.be/11eMV_yJXZw~)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/11eMV_yJXZw~" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Damn, boy
 
-[See the youtube video here](https://youtu.be/j5gDiXNjhEc)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/j5gDiXNjhEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Improvisational Comedy
 
-[See the youtube video here](https://youtu.be/huJ81Mq2y34)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/huJ81Mq2y34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Me and the boys
 
-[See the youtube video here](https://youtu.be/Kk6pw-PHiK0)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/Kk6pw-PHiK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### D City Rock - We are Angels \[Anarchy\]
 
-[See the youtube video here](https://youtu.be/5KN0_-HgWNo~)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/5KN0_-HgWNo~" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Gendo\'s paradise
 
-[See the youtube video here](https://youtu.be/lP9DKGhUiaY)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/lP9DKGhUiaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### The prophecy is true
 
-[See the youtube video here](https://youtu.be/uwmeH6Rnj2E)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/uwmeH6Rnj2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Why is the milk gone
 
-[See the youtube video here](https://youtu.be/KjeKiIa7XEk)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/KjeKiIa7XEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Scent Of A Woman - Tango scene
 
-[See the youtube video here](https://youtu.be/0V0bMhYWz48)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/0V0bMhYWz48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 009 Sound System
 
-[See the youtube video here](https://youtu.be/GsWFMgzdfoE)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/GsWFMgzdfoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Scrabble story
 
-[See the youtube video here](https://youtu.be/9czoezm2vqw)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/9czoezm2vqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Ferris Bueller\'s Parade
 
-[See the youtube video here](https://youtu.be/tRcv4nokK50)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/tRcv4nokK50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Sharpest stand-up
 
-[See the youtube video here](https://youtu.be/kyBH5oNQOS0)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/kyBH5oNQOS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Best functional programming
 
-[See the youtube video here](https://youtu.be/a9xAKttWgP4)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/a9xAKttWgP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here is an APL keyboard in unicode characters as a bonus:
 

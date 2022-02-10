@@ -14,4 +14,4 @@ to revelations of our own and the future that awaits.
 
 The presentation deck is [available here](./deck.pdf).
 
-[See the youtube video here](https://youtu.be/JjN-eE4kti8)
+<iframe width="100%" height="330px" src="https://www.youtube.com/embed/JjN-eE4kti8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
