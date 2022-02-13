@@ -1,7 +1,8 @@
 = Finding Meaning in the Void ✨
 Sagindyk Urazayev <ctu ku edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
-:toc: left
+:toc: preamble
+:toclevels: 4
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
