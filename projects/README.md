@@ -1,37 +1,35 @@
 ![preview](./preview.png)
-Cool projects ☕
-===============
+== Cool projects ☕
 
-Some of the cool things I\'ve done over the years, such as projects,
+Some of the cool things I've done over the years, such as projects,
 websites, papers, etc! Hope you find something interesting for yourself
 
--   [Write an Emulator in 24 hours 🥃](./vmagi)
--   [Katya or The Liberated Corpus 🙈](./katya)
--   [The Art of Computer Science ❤️](./art)
--   [Writing a Unix shell in Go 🐚](./quash)
--   [Finding Meaning in the Void ✨](./super)
--   [Literate sorting visualizer 😎](./literate)
--   [Счастье маленького человека 🧥](./chelovek)
--   [Secure and cheap smart homes 🏠](./sandissa)
--   [Build a MIPS Emulator in VHDL 💼](./mips)
--   [Write a compiler in C++ from nil 🍺](./crona)
--   [Cool pure C++ data structures 🏛](./algo560)
--   [Sandy\'s tutoring notes 📝](./tutor_sp21)
--   [Differential equations oracles 🧎‍♀️](./diffeq)
--   [Build a cheap self-driving car 🚗](./kaylee)
--   [Compress images with PCA 🎱](./lenna)
--   [L\'Hôpital\'s Rule cheatsheet 🏥](./lhopital)
--   [I write crypto in python 🍾](./crypto)
--   [Sentocks or Sentimental stocks 💇‍♀️](./sentocks)
--   [Thinkpad Speaks in Morse Code 🆘](./morse)
--   [Reddit API wrapper for gophers 🎩](./mira)
--   [Become a True Meme Investor 💸](./memeinvestor_bot)
+* link:./vmagi[Write an Emulator in 24 hours 🥃]
+* link:./katya[Katya or The Liberated Corpus 🙈]
+* link:./art[The Art of Computer Science ❤️]
+* link:./quash[Writing a Unix shell in Go 🐚]
+* link:./super[Finding Meaning in the Void ✨]
+* link:./literate[Literate sorting visualizer 😎]
+* link:./chelovek[Счастье маленького человека 🧥]
+* link:./sandissa[Secure and cheap smart homes 🏠]
+* link:./mips[Build a MIPS Emulator in VHDL 💼]
+* link:./crona[Write a compiler in C++ from nil 🍺]
+* link:./algo560[Cool pure C++ data structures 🏛]
+* link:./tutor_sp21[Sandy's tutoring notes 📝]
+* link:./diffeq[Differential equations oracles 🧎‍♀️]
+* link:./kaylee[Build a cheap self-driving car 🚗]
+* link:./lenna[Compress images with PCA 🎱]
+* link:./lhopital[L'Hôpital's Rule cheatsheet 🏥]
+* link:./crypto[I write crypto in python 🍾]
+* link:./sentocks[Sentocks or Sentimental stocks 💇‍♀️]
+* link:./morse[Thinkpad Speaks in Morse Code 🆘]
+* link:./mira[Reddit API wrapper for gophers 🎩]
+* link:./memeinvestor_bot[Become a True Meme Investor 💸]
 
-Ancient projects
-----------------
+=== Ancient projects
 
--   [Find Movie Quotes from a Picture 🗡](./prequelmemes_bot)
--   [Spot and Prosecute Bad Memes 👮‍♀️](./memepolice_bot)
--   [Make Collatz Conjecture Graphs 📉](./collatz)
--   [Get Me the Best Reddit Jokes 🃏](./rjokes)
--   [Farm Clicks with Doge Clicker 🐶](./doge)
+* link:./prequelmemes_bot[Find Movie Quotes from a Picture 🗡]
+* link:./memepolice_bot[Spot and Prosecute Bad Memes 👮‍♀️]
+* link:./collatz[Make Collatz Conjecture Graphs 📉]
+* link:./rjokes[Get Me the Best Reddit Jokes 🃏]
+* link:./doge[Farm Clicks with Doge Clicker 🐶]

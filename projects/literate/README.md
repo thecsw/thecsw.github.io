@@ -1,19 +1,18 @@
 ![preview](./preview.png)
-Literate sorting visualizer 😎
-=============================
+== Literate sorting visualizer 😎
 
-I must disclose that I have been infected by the dream that [Donald E.
-Knuth](https://www-cs-faculty.stanford.edu/_knuth/) wanted to give us
-with the [Literate Programming](http://www.literateprogramming.com)
-paradigm. Many decades have passed since his original papers and the
-[book](https://www-cs-faculty.stanford.edu/_knuth/lp.html) that archives
-all of those papers into a nice piece of literature.
+I must disclose that I have been infected by the dream that
+https://www-cs-faculty.stanford.edu/_knuth/[Donald E. Knuth] wanted to
+give us with the http://www.literateprogramming.com[Literate
+Programming] paradigm. Many decades have passed since his original
+papers and the https://www-cs-faculty.stanford.edu/_knuth/lp.html[book]
+that archives all of those papers into a nice piece of literature.
 
 I would say that for me, Literate Programming is the way that we should
 think about writing software and code. Such that we ought to address our
 programs to people and not to machines. Programming itself should be
 regarded as a process of writing essays, therefore considered as a
-process of creating *works of literature*, which are meant to be read.
+process of creating _works of literature_, which are meant to be read.
 (the book above says is better)
 
 Many aspiring computer scientists and programmers have the audacity to
@@ -23,9 +22,9 @@ quite outrageous. Those are the foundations of our field and what we
 are.
 
 Below is a link to a simple terminal-based sorting algorithm visualizer
-I wrote in [CWEB](https://www-cs-faculty.stanford.edu/_knuth/cweb.html).
+I wrote in https://www-cs-faculty.stanford.edu/_knuth/cweb.html[CWEB].
 Writing programs and explaining algorithms to people rather than to
-computers is actually fun! One can say, it\'s very much enlightening.
+computers is actually fun! One can say, it's very much enlightening.
 
--\> [Go to the literate sorting
-repository](https://github.com/thecsw/literate-bubble-sort)
+-> https://github.com/thecsw/literate-bubble-sort[Go to the literate
+sorting repository]

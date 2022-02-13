@@ -1,19 +1,17 @@
 ![preview](./preview.png)
-Mini Jenni - my new best friend 👯‍♀️
-====================================
+== Mini Jenni - my new best friend 👯‍♀️
 
 May 16th, 2019
 
 This is just a showcase of my building process of my new best friend -
-[Mini Jenni](https://myminijenni.weebly.com/), made by Jenny Cox. Before
+https://myminijenni.weebly.com/[Mini Jenni], made by Jenny Cox. Before
 the pictures start pouring in, I want to say that this is not an
 advertisement, I do not personally know Jenny Cox, and I am not being
 paid in any way for endorsing the figure.
 
 I just liked it.
 
-Building
---------
+=== Building
 
 ![Step 1](pic1.jpg)
 
@@ -27,8 +25,7 @@ Building
 
 ![Step 5](pic5.jpg)
 
-Final result
-------------
+=== Final result
 
 ![Final I](pic6.jpg)
 

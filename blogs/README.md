@@ -1,46 +1,45 @@
 ![preview](./preview.png)
-My cozy blog 🏮
-==============
+== My cozy blog 🏮
 
 Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
 
-### Software
+=== Software
 
--   [Using emacs on macOS (M1) 🍎](./emacs-macos)
--   [Write a whole game with Copilot 🎱](./copilot-game)
--   [Essential toolbox for the web 🧰](./web-toolbox)
--   [Getting Sandy\'s .emacs.d 🤺](./emacs.sh)
--   [Your Domains and Github Pages 🦉](./githubio)
--   [Prettifying org-mode with CSS 💅](./orgmode-css)
--   [Setting up an emacs server 😈](./emacsd)
--   [Becoming an emacs gopher 🐗](./go-emacs)
--   [Encrypting your drive with LUKS 🗝](./encrypting_usb)
--   [Programmer Ryan Gosling 👨‍💻](./ryan_codes)
--   [Talk to Reddit with Go ⛳](./mira_reddit)
--   [Faster, better, stronger neomutt 🐩](./better_mutt)
--   [Bring joy back to email with Mutt 🐕](./using_mutt)
--   [Installing glorious arch linux ☄️](./installing_arch)
+* link:./emacs-macos[Using emacs on macOS (M1) 🍎]
+* link:./copilot-game[Write a whole game with Copilot 🎱]
+* link:./web-toolbox[Essential toolbox for the web 🧰]
+* link:./emacs.sh[Getting Sandy's .emacs.d 🤺]
+* link:./githubio[Your Domains and Github Pages 🦉]
+* link:./orgmode-css[Prettifying org-mode with CSS 💅]
+* link:./emacsd[Setting up an emacs server 😈]
+* link:./go-emacs[Becoming an emacs gopher 🐗]
+* link:./encrypting_usb[Encrypting your drive with LUKS 🗝]
+* link:./ryan_codes[Programmer Ryan Gosling 👨‍💻]
+* link:./mira_reddit[Talk to Reddit with Go ⛳]
+* link:./better_mutt[Faster, better, stronger neomutt 🐩]
+* link:./using_mutt[Bring joy back to email with Mutt 🐕]
+* link:./installing_arch[Installing glorious arch linux ☄️]
 
-### Thoughts
+=== Thoughts
 
--   [I love watching anime 🎻](./anime)
--   [Watching good and bad movies 🎭](./good_bad_movies)
--   [Why use emojis? 🎷🕺](./why_use_emojis)
--   [Welcome to year 12,019 📅](./year_12019)
+* link:./anime[I love watching anime 🎻]
+* link:./good_bad_movies[Watching good and bad movies 🎭]
+* link:./why_use_emojis[Why use emojis? 🎷🕺]
+* link:./year_12019[Welcome to year 12,019 📅]
 
-### Random
+=== Random
 
--   [My Spotify Wrapped for 2021 🎧](./wrapped)
--   [Using Foundation-style Time 💫](./foundation-time)
--   [My 30-day song challenge 🎵🤘](./song_challenge)
--   [Differential equations cookbook 🔥](./diffeq)
--   [Twin Peaks as a Cult Film 🌲🌲](./twin-peaks)
--   [Cat that reached transcendence
-    🐱](https://sandyuraz.com/cat_that_reached_transcendence/)
--   [My favorite stuff on the web 🌍](./best_web)
--   [$\sqrt{2}$ is irrational ◻](./sqrt2irrational)
--   [Mini Jenni - my new best friend 👯‍♀️](./mini_jenni)
+* link:./wrapped[My Spotify Wrapped for 2021 🎧]
+* link:./foundation-time[Using Foundation-style Time 💫]
+* link:./song_challenge[My 30-day song challenge 🎵🤘]
+* link:./diffeq[Differential equations cookbook 🔥]
+* link:./twin-peaks[Twin Peaks as a Cult Film 🌲🌲]
+* https://sandyuraz.com/cat_that_reached_transcendence/[Cat that reached
+transcendence 🐱]
+* link:./best_web[My favorite stuff on the web 🌍]
+* link:./sqrt2irrational[latexmath:[$\sqrt{2}$] is irrational ◻]
+* link:./mini_jenni[Mini Jenni - my new best friend 👯‍♀️]
 
 USEMATHJAX

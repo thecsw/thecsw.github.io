@@ -1,22 +1,21 @@
 ![preview](./preview.png)
-Using Foundation-style Time 💫
-=============================
+== Using Foundation-style Time 💫
 
 197; 12020 H.E.
 
-Just recently, I\'ve finally finished the original Foundation trilogy by
-Isaac Asimov. I\'ve probably read the first book about three times in
-the last four years but I could never get my hands on the remaining two
-(*Foundation and Empire*, *Second Foundation*). Not going too deep into
+Just recently, I've finally finished the original Foundation trilogy by
+Isaac Asimov. I've probably read the first book about three times in the
+last four years but I could never get my hands on the remaining two
+(_Foundation and Empire_, _Second Foundation_). Not going too deep into
 the series, I just want to say they are life-changing, in a good way.
 
 During my read, I saw an interesting date format used by Galactic Empire
 and Foundation in the form of `DAY OF THE YEAR; YEAR ERA TIME`.
 Something about it gave me an idea of switching my timestamps from
-traditional **Wednesday, July 15th 2020 09:09 PM** to **197; 12020 H.E
-2109**. I wrote a quick webpage that shows [your current local
-time](https://sandyuraz.com/time) in this format. Why year 12020? I have
-[a post](../year_12019) on that.
+traditional *Wednesday, July 15th 2020 09:09 PM* to *197; 12020 H.E
+2109*. I wrote a quick webpage that shows
+https://sandyuraz.com/time[your current local time] in this format. Why
+year 12020? I have link:../year_12019[a post] on that.
 
 This is it. Something about this way of stamping time motivates me and
 inspires me. So much for me being a sci-fi romantic 🤷🏻‍♀️

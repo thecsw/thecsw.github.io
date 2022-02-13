@@ -1,36 +1,35 @@
 ![preview](./preview.png)
-Using emacs on macOS (M1) 🍎
-===========================
+== Using emacs on macOS (M1) 🍎
 
 312; 12021 H.E.
 
 Emacs is like a drug. You get on it once, feel the bliss, and never look
-back. This already happened to me many years ago. I don\'t even
-recommend it for new users anymore, it is a **huge** commitment. I
-wouldn\'t want anyone go through weird machinations to make it work on
-arm machines and M1\'s. Too late for me.
+back. This already happened to me many years ago. I don't even recommend
+it for new users anymore, it is a *huge* commitment. I wouldn't want
+anyone go through weird machinations to make it work on arm machines and
+M1's. Too late for me.
 
 This is a quick post on how to use emacs on newer macs with arm chips
-and weird errors that you might encounter, which wouldn\'t be so
+and weird errors that you might encounter, which wouldn't be so
 intuitive on what is actually going wrong.
 
 In my mind, the first path is the best way: just download an emacs
-binary from [emacsformacosx.com](https://emacsformacosx.com), move it to
-`/Applications`, and you\'re set! It\'s a universal binary, which would
+binary from https://emacsformacosx.com[emacsformacosx.com], move it to
+`/Applications`, and you're set! It's a universal binary, which would
 make it work wherever. One small caveat is that this emacs might have a
-**really** bad time navigating your hard drive, even if you give it
-`Full Disk Access` in settings. This is apparently because it\'s
-launched through ruby, so you would need to grant the full disk access
-to `/usr/bin/ruby`. Works like a charm. I\'m using this version of emacs
+*really* bad time navigating your hard drive, even if you give it
+`Full Disk Access` in settings. This is apparently because it's launched
+through ruby, so you would need to grant the full disk access to
+`/usr/bin/ruby`. Works like a charm. I'm using this version of emacs
 right now 🤔
 
-**OR!** Build it yourself. This is what I\'ve been doing for about a
-year since I got my M1 Pro. Undeniably, the jankiest way to use emacs,
+*OR!* Build it yourself. This is what I've been doing for about a year
+since I got my M1 Pro. Undeniably, the jankiest way to use emacs,
 resulting in 500MB+ application packages and a long time of loading,
 because Rosetta 2 gotta translate all that sweet sweet x86_64~ to your
 native arm. I really like this
-[project](https://github.com/jimeh/build-emacs-for-macos) with a nice
+https://github.com/jimeh/build-emacs-for-macos[project] with a nice
 build script for both x86 and arm (this one is a wildcard to get working
-because of gcc\'s JIT and signatures don\'t work, so it dies). I have a
-[personal repo](https://github.com/thecsw/emacs-builds) where I upload
+because of gcc's JIT and signatures don't work, so it dies). I have a
+https://github.com/thecsw/emacs-builds[personal repo] where I upload
 good emacs builds. Good luck!

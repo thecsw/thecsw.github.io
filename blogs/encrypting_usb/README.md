@@ -1,11 +1,9 @@
 ![preview](./preview.png)
-Encrypting your drive with LUKS 🗝
-=================================
+== Encrypting your drive with LUKS 🗝
 
 April 11th, 2020
 
-Abstract
---------
+=== Abstract
 
 The Linux Unified Key Setup (LUKS) is a disk encryption specification
 created by Clemens Fruhwirth in 2004 and was originally intended for
@@ -20,7 +18,7 @@ encrypt every file and move it that way, fair enough. Can get a bit
 cumbersome really quick.
 
 Best way to keep your data safe is on a piece of paper with some ink
-splattered on it. That\'s not very feasible for our needs. This is a
+splattered on it. That's not very feasible for our needs. This is a
 quick and dirty cheatsheet on how to use LUKS to full encrypt your flash
 drive and keep it close to your heart. This is the same thing Ubunt does
 when you tell it to encrypt your disk.
@@ -29,74 +27,80 @@ This is not an exhaustive guide or a full walkthrough of what LUKS is
 and how it works. Just something to get youstarted. Possible cloud
 solutions at the end
 
-### Preparation
+==== Preparation
 
 Backup all your data on your thumb drive, because we will need to erase
 everything from it and rewrite the filesystem tables.
 
 NOTE: `%` symbolizes the shell prompt.
 
-### Setting it up
+==== Setting it up
 
-Let `/dev/sdb` be your USB drive. Be careful, we don\'t want to
+Let `/dev/sdb` be your USB drive. Be careful, we don't want to
 accidentally wipe everything out on your hard drive. Follow the
 instructions
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb
-```
+----
 
-Now, let\'s open the drive with LUKS and write a filesystem to it. Enter
+Now, let's open the drive with LUKS and write a filesystem to it. Enter
 your new passphrase and name where to map it, `sdb` is just an example.
 It maps to `/dev/mapper/sdb`
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % cryptsetup open /dev/sdb sdb
-```
+----
 
-Now we got access to the drive, let\'s write your favorite filesystem,
-I\'ll go with `ext4`
+Now we got access to the drive, let's write your favorite filesystem,
+I'll go with `ext4`
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % mkfs.ext4 /dev/mapper/sdb
-```
+----
 
-### Mounting the drive
+==== Mounting the drive
 
-Let\'s write something to the drive. `/mnt/flash` is some mounting
-target
+Let's write something to the drive. `/mnt/flash` is some mounting target
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % mount /dev/mapper/sdb /mnt/flash
-```
+----
 
-That\'s it, you have access now
+That's it, you have access now
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % cd /mnt/flash
 % touch man
 % echo cat > fish
-```
+----
 
-After we\'re done, do the usual thing by unmounting it
+After we're done, do the usual thing by unmounting it
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % umount /mnt/flash
-```
+----
 
-### closeLUKS
+==== closeLUKS
 
-Don\'t forget we have to close the LUKS drive and dump the encryption
+Don't forget we have to close the LUKS drive and dump the encryption
 details
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % cryptsetup close sdb
-```
+----
 
-### Closing thoughts
+==== Closing thoughts
 
 Voilà! You now have fully encrypted and secure drive. Next time, just
-don\'t forget the sequence of cryptopen, mount, ???, unmount, and
+don't forget the sequence of cryptopen, mount, ???, unmount, and
 cryptclose. If you are looking for trusty cloud solutions, try out
-[Keybase](https://keybase.io/). It\'s a great e2e service for all your
+https://keybase.io/[Keybase]. It's a great e2e service for all your
 needs
