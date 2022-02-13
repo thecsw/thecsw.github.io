@@ -1,8 +1,0 @@
-![preview](./preview.png)
-== L'Hôpital's Rule cheatsheet 🏥
-
-Before I became a tutor at the School of Engineering, as one of the
-support materials I made for Calculus II was a quick web presentation on
-L'Hôpital's Rule, its importance and the motivation behind it.
-
--> https://sandyuraz.com/present/lhopital[Go to the web presentation]
