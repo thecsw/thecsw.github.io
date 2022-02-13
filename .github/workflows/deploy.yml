@@ -16,7 +16,7 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Getting pandoc
+      - name: Getting pandoc 🐼
         run: |
           wget https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb
           sudo dpkg -i pandoc-${PANDOC_VERSION}-1-amd64.deb
@@ -24,11 +24,11 @@ jobs:
         env:
           PANDOC_VERSION: 2.9.1.1
 
-      - name: Ruby dependencies
+      - name: Ruby dependencies 🍓
         run: |
           sudo gem install asciidoctor -v 2.0.10
 
-      - name: Make 🔧
+      - name: Make 💪
         run: |
           make
 
