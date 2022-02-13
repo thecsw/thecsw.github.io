@@ -1,6 +1,5 @@
 ![preview](./preview.png)
-Writing a Unix shell in Go 🐚
-============================
+== Writing a Unix shell in Go 🐚
 
 For my EECS 678: Operating Systems course, one of the projects we have
 to do is build our own Unix shell, which would be able to interpret
@@ -11,4 +10,4 @@ experience with arrow keys with history.
 
 Made with ❤️ by Sandy Urazayev and Jacob McNamee.
 
--\> [Go to Quash\'s repository](https://github.com/thecsw/quash)
+-> https://github.com/thecsw/quash[Go to Quash's repository]

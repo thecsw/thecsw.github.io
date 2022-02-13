@@ -1,6 +1,5 @@
 ![preview](./preview.png)
-Your Domains and Github Pages 🦉
-===============================
+== Your Domains and Github Pages 🦉
 
 May 23rd, 2020
 
@@ -11,22 +10,24 @@ access by just going to `https://myname.github.io`! I used it for about
 2-3 years now. A man has to grow up and finally have his own domain.
 This is a quick post about how to make it happen.
 
-Let\'s say you bought your domain `myname.com`. First thing to do, go to
-your domain dashboard and set the following in your domain\'s custom
+Let's say you bought your domain `myname.com`. First thing to do, go to
+your domain dashboard and set the following in your domain's custom
 records:
 
-  Name    Type      TTL    Data
-  ------- --------- ------ ---------------------
-  `@`     `A`       `1h`   `185.199.108.153`
-                           `185.199.109.153`
-                           `185.199.110.153`
-                           `185.199.111.153`
-  `www`   `CNAME`   `1h`   `myname.github.io.`
+[cols=",,,",options="header",]
+|===
+|Name |Type |TTL |Data
+|`@` |`A` |`1h` |`185.199.108.153`
+| | | |`185.199.109.153`
+| | | |`185.199.110.153`
+| | | |`185.199.111.153`
+|`www` |`CNAME` |`1h` |`myname.github.io.`
+|===
 
-After that, go to your `myname.github.io` repo\'s settings and in the
-section **Github Pages**, fill in your custom domain and tick the
-**Enforce HTTPS** option. Now, just wait. You might get bad redirects,
-bad certificates, etc. Give it couple of minutes up to an hour to start
+After that, go to your `myname.github.io` repo's settings and in the
+section *Github Pages*, fill in your custom domain and tick the *Enforce
+HTTPS* option. Now, just wait. You might get bad redirects, bad
+certificates, etc. Give it couple of minutes up to an hour to start
 working properly.
 
-Voila, you\'re done!
+Voila, you're done!

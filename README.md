@@ -1,16 +1,14 @@
 ![preview](./preview.png)
-Sandy\'s Website 🚀
-==================
+== Sandy's Website 🚀
 
-Welcome 🌷
----------
+=== Welcome 🌷
 
-### 🀏 [My cozy blog 🏮](./blogs)
+==== 🀏 link:./blogs[My cozy blog 🏮]
 
-### 🀀 [Cool projects ☕](./projects)
+==== 🀀 link:./projects[Cool projects ☕]
 
-### 🀁 [L\'Esthétique 🎨](./arts)
+==== 🀁 link:./arts[L'Esthétique 🎨]
 
-### 🀅 [This Website 🌐](./web)
+==== 🀅 link:./web[This Website 🌐]
 
-### 🀇 [For your soul 💃](./soul)
+==== 🀇 link:./soul[For your soul 💃]

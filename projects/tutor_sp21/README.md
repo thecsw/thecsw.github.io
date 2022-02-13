@@ -1,6 +1,5 @@
 ![preview](./preview.png)
-Sandy\'s tutoring notes 📝
-=========================
+== Sandy's tutoring notes 📝
 
 During Spring 2021 semester, I worked as a tutor for the School of
 Engineering. As one of the tutors, we held multiple a series of study
@@ -16,4 +15,4 @@ can look at the notes as a bank of problems with detailed solutions. As
 a tutor or a grader or a teaching assistant, you would be able to find a
 good source of teaching material and the curriculum of those courses.
 
--\> [Go to the study session notes](https://sandyuraz.com/tutor_sp21/)
+-> https://sandyuraz.com/tutor_sp21/[Go to the study session notes]

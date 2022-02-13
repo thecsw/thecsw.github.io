@@ -1,8 +1,7 @@
 ![preview](./preview.png)
-Build a cheap self-driving car 🚗
-================================
+== Build a cheap self-driving car 🚗
 
-In the Fall of 2020 I was enrolled in EECS 388: Embedded Systems. It\'s
+In the Fall of 2020 I was enrolled in EECS 388: Embedded Systems. It's
 an introduction course into lower level things, such as RISC-V, Computer
 Architecture, CPU scheduling, and other fun stuff. The course itself was
 accompanied by a lab section, where we wrote some C+Assembly to control
@@ -21,8 +20,8 @@ onto our little car. It was a fun farewell to this course. The link
 below has a webpage written by me by the request of our Instructor to
 document some selected final projects.
 
--\> [Go to the selected finals
-webpage](https://sandyuraz.com/eecs388_projects/)
+-> https://sandyuraz.com/eecs388_projects/[Go to the selected finals
+webpage]
 
-(above is the backup, original should be [available
-here](https://eecs388.ku.edu/388Fa2020_selected_final))
+(above is the backup, original should be
+https://eecs388.ku.edu/388Fa2020_selected_final[available here])

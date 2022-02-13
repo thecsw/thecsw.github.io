@@ -1,51 +1,49 @@
 ![preview](./preview.png)
-Why use emojis? 🎷🕺
-==================
+== Why use emojis? 🎷🕺
 
 March 15th, 2020
 
 If you visited my website, you probably have noticed some number of
 emojis I have put up almost everywhere. I like to send emojis via tex
-messages and post statuses with them. Many ask me, ****why?****
+messages and post statuses with them. Many ask me, **why?**
 
 My first argument would be is that they are fun. Surely, most of my
 friends and current adolescents might see them as cringey and overused.
 They have a valid point too. I use emojis thanks to light-hearted
-feeling they have and a bit of goofiness sprinkled on top of it. It\'s
+feeling they have and a bit of goofiness sprinkled on top of it. It's
 just fun to send someone three dancing ladies 💃💃💃 in good faith and just
-let it go. No explanation needed, that\'s the whole point of those
+let it go. No explanation needed, that's the whole point of those
 colorfully encoded unicode characters. However, my biggest reason for
-using them would be the emotional impact I\'m trying make in a text
+using them would be the emotional impact I'm trying make in a text
 medium.
 
-Text is a terrible way to communicate. Don\'t get me wrong, I\'m a huge
+Text is a terrible way to communicate. Don't get me wrong, I'm a huge
 believer in texts and written communication. Look back at the times when
-Empires and Anna Karenina style of love was popular. [Tatyana\'s
-Letter](http://www.pushkins-poems.com/Yev311.htm), probably the most
-romantic and heartbreaking piece of literature, ever. It was a norm to
-write heavy letters. Technology wasn\'t really developed with quick UDP
-and TCP packets flying across the world that reassemble at the host. It
-would take weeks, maybe months for a letter to reach its destination, or
-not. People\'s emotions would bottle up during while waiting and when
+Empires and Anna Karenina style of love was popular.
+http://www.pushkins-poems.com/Yev311.htm[Tatyana's Letter], probably the
+most romantic and heartbreaking piece of literature, ever. It was a norm
+to write heavy letters. Technology wasn't really developed with quick
+UDP and TCP packets flying across the world that reassemble at the host.
+It would take weeks, maybe months for a letter to reach its destination,
+or not. People's emotions would bottle up during while waiting and when
 the time comes, they can be splashed onto a piece of paper. The
 receiving party would feel the content, simply due to its length and the
 seriousness of emotions of that time.
 
 Our text communication is pretty quick now. It takes a couple of
 milliseconds for a piece of data to fly across the world and reach the
-recipient. We got rid of the wait time and now I can send so many [Tao
-of Programming](https://en.wikipedia.org/wiki/The_Tao_of_Programming)
+recipient. We got rid of the wait time and now I can send so many
+https://en.wikipedia.org/wiki/The_Tao_of_Programming[Tao of Programming]
 quotes that you better watch out. Because of the text bandwidth we have
 now, I sometimes feel that texts lost that value per word. To make
-clear, I\'m in no way complaining about the techonological marvels we
+clear, I'm in no way complaining about the techonological marvels we
 achieved. Talking to each other over a distance became so mundane and
-routine that we don\'t really think about it as much. We read a text
-notification and swipe up. How many times you\'ve sent something and
-felt that you and your companion ended up with a horrible
-misunderstanding.
+routine that we don't really think about it as much. We read a text
+notification and swipe up. How many times you've sent something and felt
+that you and your companion ended up with a horrible misunderstanding.
 
 Not much brainpower goes into analyzing the purpose and emotions of
 texts you get. We all know how this medium sometimes bottlenecks true
-meanings. Emojis are just tone setters. That is exactly what they\'re
+meanings. Emojis are just tone setters. That is exactly what they're
 meant to be. Let the cringe go away and embrace the goofiness. Live a
 little

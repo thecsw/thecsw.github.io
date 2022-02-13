@@ -1,49 +1,50 @@
 ![preview](./preview.png)
-$\sqrt{2}$ is irrational ◻
-==========================
+== latexmath:[$\sqrt{2}$] is irrational ◻
 
 February 11th, 2020
 
-Abstract
---------
+=== Abstract
 
-It\'s been a while since I wanted to install some math packages on my
+It's been a while since I wanted to install some math packages on my
 website. Finally, I managed to do it by getting `asciidoctor-latex` and
-running some quick `Makefile` magic. It looks like it\'s working fine!
-Here is a simple proof that I\'ve come to like over the years.
+running some quick `Makefile` magic. It looks like it's working fine!
+Here is a simple proof that I've come to like over the years.
 
 THEOREM
 
-$\sqrt{2}$ is irrational.
+latexmath:[$\sqrt{2}$] is irrational.
 
 PROOF
 
 Let
-$a,b \in \mathbb{Z} \quad, \frac{a}{b}=\sqrt{2},\quad b \neq 0, \quad (a,b)=1$
+latexmath:[$a,b \in \mathbb{Z} \quad, \frac{a}{b}=\sqrt{2},\quad b \neq 0, \quad (a,b)=1$]
 
-Then $a=\sqrt{2}b$
+Then latexmath:[$a=\sqrt{2}b$]
 
-$\implies a^2=2 \times b^2 \quad (\Xi)$
+latexmath:[$\implies a^2=2 \times b^2 \quad (\Xi)$]
 
-$\implies 2|a^2$
+latexmath:[$\implies 2|a^2$]
 
-$\implies 2|a$
+latexmath:[$\implies 2|a$]
 
-Then if $a$ is even, $\exists k \in \mathbb{Z} \ni a = 2k$
+Then if latexmath:[$a$] is even,
+latexmath:[$\exists k \in \mathbb{Z} \ni a = 2k$]
 
-Then substitute into $(\Xi)$, we get $(2 \times k)^2=2\times b^2$
+Then substitute into latexmath:[$(\Xi)$], we get
+latexmath:[$(2 \times k)^2=2\times b^2$]
 
-$\implies 4 \times k^2 = 2 \times b^2$
+latexmath:[$\implies 4 \times k^2 = 2 \times b^2$]
 
-$\implies 2 \times k^2 = b^2$
+latexmath:[$\implies 2 \times k^2 = b^2$]
 
-$\implies 2|b^2$
+latexmath:[$\implies 2|b^2$]
 
-$\implies 2|b$
+latexmath:[$\implies 2|b$]
 
-If $a$ and $b$ are both even, it contradicts the initial condition
-$(a,b)=1$.
+If latexmath:[$a$] and latexmath:[$b$] are both even, it contradicts the
+initial condition latexmath:[$(a,b)=1$].
 
-$\therefore$ By Law of Contradiction, $\sqrt{2}$ is irrational
+latexmath:[$\therefore$] By Law of Contradiction, latexmath:[$\sqrt{2}$]
+is irrational
 
 USEMATHJAX

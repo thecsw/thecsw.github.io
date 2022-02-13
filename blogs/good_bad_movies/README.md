@@ -1,33 +1,31 @@
 ![preview](./preview.png)
-Watching good and bad movies 🎭
-==============================
+== Watching good and bad movies 🎭
 
 March 16th, 2020
 
 My Spring break got extended, all classes are going to transcend into
 the cloud for the foreseeable future, and I have a lot of time to spare
 on my hands. I love watching movies, it is actually my favorite medium
-of entertainment. Looking at the screen and seeing someone else\'s
+of entertainment. Looking at the screen and seeing someone else's
 imagination form the scenes, charaters, and the plot. I wish to consider
 myself having a film version of melomania. However, every time I talk to
-my mother about movies, I just shock her into silence. I\'m probably
-nowhere near her on the movie tastes scale and she would tell me I\'m
+my mother about movies, I just shock her into silence. I'm probably
+nowhere near her on the movie tastes scale and she would tell me I'm
 watching the wrong kind of movies. I thought for a quick while, what
 does it mean to watch good and bad movies?
 
-Just for the sake of credit, I\'m not a film major, nor do I possess an
+Just for the sake of credit, I'm not a film major, nor do I possess an
 extensive academia-level of expertise in films analysis. I took a film
-class my college freshman year, FMS 380, which was titled ****Shocks!
-Thrills!: Trash Cinema****. Easily, one of my favorite classes I have
-ever taken. We talked trash. By that I mean the absolute trash, someone
-might even say garbage. The lowest, filthiest, and probably unknown
-movies ranging in themes from government enforced sexual hygiene to
-[vampires invading other
-planets](https://en.wikipedia.org/wiki/Plan_9_from_Outer_Space) or
-[sharks falling from the sky.](https://en.wikipedia.org/wiki/Sharknado)
-Watching bad stuff kinda shapes the way you look and perceive everything
-else. I am not implying that you have to watch a bad movie with every
-good movie or anything that is even close to that.
+class my college freshman year, FMS 380, which was titled **Shocks!
+Thrills!: Trash Cinema**. Easily, one of my favorite classes I have ever
+taken. We talked trash. By that I mean the absolute trash, someone might
+even say garbage. The lowest, filthiest, and probably unknown movies
+ranging in themes from government enforced sexual hygiene to
+https://en.wikipedia.org/wiki/Plan_9_from_Outer_Space[vampires invading
+other planets] or https://en.wikipedia.org/wiki/Sharknado[sharks falling
+from the sky.] Watching bad stuff kinda shapes the way you look and
+perceive everything else. I am not implying that you have to watch a bad
+movie with every good movie or anything that is even close to that.
 
 Watching and just knowing what bad movies are helped me to start
 recognizing and valuing some of the small stuff that I may have taken
@@ -46,26 +44,26 @@ Diversifying the movies you watch can help to set your frame of
 reference straight and recognize the whole spectrum of distinct movies.
 I believe this can be applied to anything. But I also see some people
 that try to surrender themselves to pure trash and garbash, talking bad
-about mainstream media. I don\'t think this is a good idea. It\'s never
+about mainstream media. I don't think this is a good idea. It's never
 too good for being a fanatic of anything. You lose that connection with
-other people by becoming too \"niche\" and \"elite\". People like that
-may feel like a stranger to the society (guess why) and then those
-people can (or will) get angry with everyone else around them, which
-never leads to a anything good. Just enjoy watching what you enjoy
-watching. Recognize the amount of work it takes to make something like
-that and just have a good time. Don\'t be a fanatic.
+other people by becoming too "niche" and "elite". People like that may
+feel like a stranger to the society (guess why) and then those people
+can (or will) get angry with everyone else around them, which never
+leads to a anything good. Just enjoy watching what you enjoy watching.
+Recognize the amount of work it takes to make something like that and
+just have a good time. Don't be a fanatic.
 
 List of some of my favorite bad/trash/garbage movies:
 
--   The Room
--   Sharknado
--   Barbarella
--   Rocky Horror Picture Show
--   Rose Hobart
+* The Room
+* Sharknado
+* Barbarella
+* Rocky Horror Picture Show
+* Rose Hobart
 
-I would like to mention [Pink
-Flamingos](https://en.wikipedia.org/wiki/Pink_Flamingos), but this is
-the ****absolute**** lowest and filthiest cinema can get. If you find
-it, let me know what you think
+I would like to mention
+https://en.wikipedia.org/wiki/Pink_Flamingos[Pink Flamingos], but this
+is the **absolute** lowest and filthiest cinema can get. If you find it,
+let me know what you think
 
-NOTE: Don\'t watch it if you are easily impressed or susceptible
+NOTE: Don't watch it if you are easily impressed or susceptible

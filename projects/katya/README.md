@@ -1,6 +1,5 @@
 ![preview](./preview.png)
-Katya or The Liberated Corpus 🙈
-===============================
+== Katya or The Liberated Corpus 🙈
 
 The need for linguistic analysis has been increasing steadily over the
 past couple of decades. As the interest and the number of research
@@ -26,14 +25,13 @@ above. The big difference of Katya is that it allows users to provide
 their own web link, which will serve as a source of data that can be
 queried later. Katya accomplishes this by web scraping user link. More
 on that in the next section. Katya is capable of exporting complete
-search results. Another advantage is that Katya\'s code and
+search results. Another advantage is that Katya's code and
 infrastructure is public, such that anyone could learn how it works for
 educational purposes and other developers could contribute to the
 platform.
 
--\> [Go to Katya](https://katya.sandyuraz.com)
+-> https://katya.sandyuraz.com[Go to Katya]
 
--\> [Go to Katya\'s backend
-repository](https://github.com/thecsw/katya-dev)
+-> https://github.com/thecsw/katya-dev[Go to Katya's backend repository]
 
--\> [Go to Katya\'s website repository](https://github.com/thecsw/katya)
+-> https://github.com/thecsw/katya[Go to Katya's website repository]

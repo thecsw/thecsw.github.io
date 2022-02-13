@@ -1,6 +1,5 @@
 ![preview](./preview.png)
-Setting up an emacs server 😈
-============================
+== Setting up an emacs server 😈
 
 May 8th, 2020
 
@@ -8,56 +7,54 @@ Booting up emacs can be a challenging task for your terminal emulator
 and the rock that you tricked into thinking. This is a quick guide with
 some pointers on speeding up your emacs interactions 100x. No joke.
 
-Emacs daemon
-------------
+=== Emacs daemon
 
 Starting the emacs daeman cannot be even simpler, just type this in your
 favorite shell
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % emacs --daemon
-```
+----
 
 It should build all your .el config scripts and boot up your own emacs
 server.
 
-Emacsclient
------------
+=== Emacsclient
 
 Now to access and open your emacs daemon, just type in
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % emacsclient -nw
-```
+----
 
-*I really prefer terminal client* and you\'re done! Notice that the load
+_I really prefer terminal client_ and you're done! Notice that the load
 was almost instantaneous. Instead of loading your whole emacs config, it
 just redraws the screen.
 
-Killing daemon
---------------
+=== Killing daemon
 
-Who doesn\'t want to slaughter a daemon in cold blood? That\'s a
+Who doesn't want to slaughter a daemon in cold blood? That's a
 rhetorical question. `emaclient` can execute a kill command for the
 daemon
 
-``` {.bash org-language="sh"}
+[source,bash]
+----
 % emacsclient -e "(kill-emacs)"
-```
+----
 
-Shell aliases
--------------
+=== Shell aliases
 
 `emacsclient` can get old real quick. I like adding super simple aliases
 for faster opening
 
--   ****bash**** - put `alias em = "emacsclient -nw"` in `_/.bashrc`
--   ****fish**** - put `alias em = "emacsclient -nw"` in
-    `_/.config/fish/config.fish`
+* **bash** - put `alias em = "emacsclient -nw"` in `_/.bashrc`
+* **fish** - put `alias em = "emacsclient -nw"` in
+`_/.config/fish/config.fish`
 
-Systemd daemon
---------------
+=== Systemd daemon
 
 You can also set emacs daemon to start automatically by adding systemctl
 symlinks. More information on
-[emacswiki](https://www.emacswiki.org/emacs/EmacsAsDaemon).
+https://www.emacswiki.org/emacs/EmacsAsDaemon[emacswiki].

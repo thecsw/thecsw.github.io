@@ -1,64 +1,63 @@
 ![preview](./preview.png)
-I love watching anime 🎻
-=======================
+== I love watching anime 🎻
 
 12; 12022 H.E.
 
-I love watching anime. It hasn\'t always been like this. I think the
+I love watching anime. It hasn't always been like this. I think the
 first time I got introduced to it was when I was around six or seven. I
-was living in Bulgaria at that time, I don\'t think we even had Cartoon
-Network. A small TV somewhere on our backyard porch would run [Pokémon:
-Indigo League](https://en.wikipedia.org/wiki/Pokémon:_Indigo_League) on
-some unnamed channel, which I think is as far as you can go in terms of
-animated pokemon. I was waiting patiently for every \"new\" episode
-after coming back home from school. Then there was a long break.
+was living in Bulgaria at that time, I don't think we even had Cartoon
+Network. A small TV somewhere on our backyard porch would run
+https://en.wikipedia.org/wiki/Pokémon:_Indigo_League[Pokémon: Indigo
+League] on some unnamed channel, which I think is as far as you can go
+in terms of animated pokemon. I was waiting patiently for every "new"
+episode after coming back home from school. Then there was a long break.
 
 I briefly came back to watching anime when my best friend in high school
-recommended I watch *Steins;Gate*. I liked the genre a lot. It was of
+recommended I watch _Steins;Gate_. I liked the genre a lot. It was of
 course the time when I was super young and many concepts might have
-flown right past me. Right after, my second serious watch was *Mirai
-Nikki*. You are probably more familiar with it through this picture of a
+flown right past me. Right after, my second serious watch was _Mirai
+Nikki_. You are probably more familiar with it through this picture of a
 girl seductively looking at you.
 
-![Yuno Gasai\'s yandere expression](yuno.png)
+![Yuno Gasai's yandere expression](yuno.png)
 
 As a 15-year-old high school boy, I loved the show. The things that
-happened in the show and scenes presented, I\'ve never seen anything
-like it in movies or books. It was brash, suggestive, violent, and
+happened in the show and scenes presented, I've never seen anything like
+it in movies or books. It was brash, suggestive, violent, and
 uncompromising. My friend from before scolded me a little bit, saying
-it\'s a low-tier show that is just about a yandere girl running around
+it's a low-tier show that is just about a yandere girl running around
 and killing everyone. Finally, I finished that small high school era of
-anime with *Kill la Kill*. I was just **obsessed** with it, especially
+anime with _Kill la Kill_. I was just *obsessed* with it, especially
 with Ryūko Matoi. I bored my other friend so much that she drew me Ryūko
 dressed in her transformed Kamui. Thank you, Meruel.
 
-Now we\'re here. Almost five years later, I re-sparked my love for the
-genre once again and oh boy, it came in blazing **big time**. Right
-around the last days of 2020, I started watching *Darling in the
-Franxx*. Flew back home and finished it thereby staying up till 3 am and
-grinding the episodes. It was something about the timing when the show
-came into my life and my state. It clicked so perfectly, I got hooked
-like an addict. Fell in love with Zero Two ❤️. Since then, watched the
-hits of Gainax, all of the Trigger, and more. Now we are done with this
-exhaustive history. Let\'s talk about anime.
+Now we're here. Almost five years later, I re-sparked my love for the
+genre once again and oh boy, it came in blazing *big time*. Right around
+the last days of 2020, I started watching _Darling in the Franxx_. Flew
+back home and finished it thereby staying up till 3 am and grinding the
+episodes. It was something about the timing when the show came into my
+life and my state. It clicked so perfectly, I got hooked like an addict.
+Fell in love with Zero Two ❤️. Since then, watched the hits of Gainax,
+all of the Trigger, and more. Now we are done with this exhaustive
+history. Let's talk about anime.
 
 There is so much that anime can do, which almost every single other
 genre is practically incapable of doing. A simple example would be the
 fight scenes and their dynamics. Think of books as media. The heat and
-action of it are almost entirely dependent on the author\'s way of words
+action of it are almost entirely dependent on the author's way of words
 and your imagination. Live-action films with real actors and no matter
 what amount of CGI you throw at it can never reach the heat an anime
 can, simply because they are still bound by how real-life looks. You
-can\'t enlarge someone 10x and make it as intimidating as Ira Gamagōri
-looking down on students. It would just [look goofy and
-unnatural](https://en.wikipedia.org/wiki/Uncanny_valley).
+can't enlarge someone 10x and make it as intimidating as Ira Gamagōri
+looking down on students. It would just
+https://en.wikipedia.org/wiki/Uncanny_valley[look goofy and unnatural].
 
 ![This is the 40th second of the first episode](gamagori.png)
 
 Continuing comparing the genres, you might ask, but what about cartoons?
-Isn\'t anime just a cartoon genre? Well, in a very very trivial sense,
-yes. However, \"cartoons\" usually refer to the Western animation style,
-while \"anime\" refers to hand-drawn and computer animation originating
+Isn't anime just a cartoon genre? Well, in a very very trivial sense,
+yes. However, "cartoons" usually refer to the Western animation style,
+while "anime" refers to hand-drawn and computer animation originating
 from Japan. Anime excels because it is cinematically shot as if by a
 camera, including panning, zooming, and more complex angle shots, which
 are hard in practice. Western cartoons are very much standardized in
@@ -67,31 +66,30 @@ can overcome that by tackling topics and themes no regular cartoon would
 even come close to, while also employing a large array of over-the-top
 action and scenes.
 
-Okay, okay, so what\'s the actual appeal of anime to me? That is it. The
+Okay, okay, so what's the actual appeal of anime to me? That is it. The
 absolute freedom in plots and characters. Want to see a half-naked girl
-fighting clothes with half a scissors? *Kill la Kill*. Want to see
-robots as big as the Observable Universe smash each other? *Tengen Toppa
-Gurren Lagann*. Is a man able to kill anyone with a single punch, even
-cosmos overlords? *One Punch Man*. Conductors using their batons to
-fight aliens with the power of Classical Music? *Takt* *Op. Destiny*.
+fighting clothes with half a scissors? _Kill la Kill_. Want to see
+robots as big as the Observable Universe smash each other? _Tengen Toppa
+Gurren Lagann_. Is a man able to kill anyone with a single punch, even
+cosmos overlords? _One Punch Man_. Conductors using their batons to
+fight aliens with the power of Classical Music? _Takt_ _Op. Destiny_.
 This list is pretty tame, just the first ones that came to my mind. In
-many ways, it\'s so unrealistic and many times so much far and beyond
-our reality that it can make some viewers dizzy or brush off the entire
+many ways, it's so unrealistic and many times so much far and beyond our
+reality that it can make some viewers dizzy or brush off the entire
 genre as too phantasmagorical. I want to make a case that we need this
 too.
 
 Let me give a little background into my experience with fine arts and
 media. I major in Classic Literature. The number of greatest and most
-\"realist\" works I\'ve read and the amount of pages and analysis I
-wrote on them is something I\'m still recovering from. It doesn\'t get
-more real than Russian Literature from the 17-18th centuries, with the
-greats like Gogol, Dostoevsky, and Tolstoy. I loved the books so much
-that I decided to major in them. I adore realism and works that just
-crush your heart and shatter your soul. There is some painful
-blood-ridden personal and emotional growth in there. However, no matter
-how much I love it, it would be impossible and dangerous to the psyche
-to constantly immerse yourself in the greatest and hardest books ever
-written.
+"realist" works I've read and the amount of pages and analysis I wrote
+on them is something I'm still recovering from. It doesn't get more real
+than Russian Literature from the 17-18th centuries, with the greats like
+Gogol, Dostoevsky, and Tolstoy. I loved the books so much that I decided
+to major in them. I adore realism and works that just crush your heart
+and shatter your soul. There is some painful blood-ridden personal and
+emotional growth in there. However, no matter how much I love it, it
+would be impossible and dangerous to the psyche to constantly immerse
+yourself in the greatest and hardest books ever written.
 
 With this little background, I want to assure you that my point of view
 and love for Japanese animation is not driven just because I know
@@ -110,10 +108,10 @@ ways. To the fullest sense, it inspires me. I drive out the energy and
 stimulation from those shows to find a new perspective to many
 situations in life and freshen up a bit, to dream. Anime is on the crazy
 side of the spectrum, hard literature is on the opposite side of
-crushing realism, we don\'t need anything in between. Our day-to-day
+crushing realism, we don't need anything in between. Our day-to-day
 lives and routine already suffice for that.
 
-Anime music is also **incredible**. Here is my playlist with the ones I
+Anime music is also *incredible*. Here is my playlist with the ones I
 like a lot
 
 <iframe src="https://open.spotify.com/embed/playlist/6P7ksZ5uGpVp4qq9gDhFlj" width="79%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
