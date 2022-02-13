@@ -56,7 +56,7 @@ $(NAME):
 	$(E) "\n->	MAKING README ..."
 	$(E) "Converting org files into markdown README.md files with pandoc"
 	#$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|pandoc -i \1/index.$(ORIGINAL_TYPE) -o \1/README.md|g' | sh
-	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|cp \1/index.$(INPUT_TYPE) -o \1/README.md|g' | sh
+	$(Q) find . -type f -name '*$(ORIGINAL_TYPE)' $(EXCLUDE_ORIGINAL) | $(SED) -E 's|(.+)/[^/]+\.$(ORIGINAL_TYPE)$$|cp \1/index.$(INPUT_TYPE) \1/README.md|g' | sh
 	$(E) "Inserting README.md markdown previews"
 	$(Q) find . -type f -name "README.md" | xargs $(SED) "1 i ![preview](./preview.png)" -i
 	$(Q) find . -type f -name "README.md" | xargs $(SED) -E -f $(README_SED) -i
