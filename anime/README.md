@@ -9,9 +9,14 @@ full of anime as a bonus! See some selected reviews at the bottom. I
 also keep my [kitsu](https://kitsu.io/users/1257674) library up-to-date
 with my progress
 
+
+
      ┌──────────────────┐
-     │   Re:Zero kara   │
-     │  Hajimeru Isekai ├───────────────────┐
+     │ Kimetsu no Yaiba:├───────────────────┐
+     │    Yuukaku─hen   │    Re:Zero kara   │
+     ├──────────────────┤  Hajimeru Isekai  │
+     │   Re:Zero kara   │    Seikatsu 2     │
+     │  Hajimeru Isekai ├───────────────────┤
      │     Seikatsu     │Wonder Egg Priority│
      ├──────────────────┤      Special      │
      │   Komi─san wa,   ├───────────────────┤
