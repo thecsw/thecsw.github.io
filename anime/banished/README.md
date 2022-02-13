@@ -1,0 +1,127 @@
+![preview](./preview.png)
+Banished from the Hero\'s Party 🪴
+=================================
+
+4; 12022 H.E.
+
+Hello! Hope you\'re doing well today. This is my very first anime
+review, I don\'t know the best format to follow. I think I\'m the only
+person who will read this, so I\'ll write it for myself. If you\'re not
+me, Godspeed. Shall we?
+
+The first thing to get out of the way is the title of this show. The
+full title is *Banished from the Hero\'s Party, I Decided to Live a
+Quiet Life in the Countryside*, which is rather long. For the sake of
+not writing it all out, I\'ll refer to the show simply by *Banished*.
+
+I knew nothing of the show, found it randomly somewhere on MyAnimeList.
+I didn\'t even know what isekai meant and what the whole genre entails.
+I walked into the show with a very open mindset about a day or two
+before New Year\'s Eve. Let me tell you something from the beginning, I
+absolutely **loved** this show.
+
+I guess I do have a weak spot for a slice-of-life style of shows.
+Something slower in plot progression, fewer amazing battles or heroic
+encounters, but more of an introspective into our daily routine that
+life is made out of. It is extremely calming and simply... welcoming! I
+would even dare to say wholesome.
+
+Reading some reviews that people left, they criticize people for liking
+this genre for being too \"naïve\" and \"simple-minded\" to enjoy this
+isekai genre. In many ways, I can see their argument. It\'s no Death
+Note or Neon Genesis Evangelion or any other
+on-the-surface-deep-thought-provoking plot with endless schemes and
+betrayals. Does it need to be that?
+
+This is worth its own \"opinion\" post, but modern audiences are spoiled
+with the thought of feeling themselves to be smart and deep by watching
+dark/tragic shows, as in thinking the depth of meaning is equivalent to
+its respective \"darkness\". The first example that comes to mind is
+Joker. What a horrible movie.
+
+This fallacy leads people onto the path of pseudo-intelligence and
+trivialization of important questions and topics down to bad-taste jokes
+and taking things too far. This needless exercise in tragedy is what
+prevents people from enjoying even simple shows for what they are trying
+to be. It sucks the fun out of anything if you are a cynical person.
+
+Coming from that drifted-over discussion back to *Banished*. There is no
+secret to enjoying what it has to offer. Take it in for what it\'s
+supposed to be. It can be even very cheesy in some spots and that\'s
+what we\'re here for. To enjoy the little magic that *Banished* holds
+close to its heart. I felt really good after watching the show, which is
+a very good sign. The atmosphere is not the only thing it has to offer,
+there is a big question that was being pondered, let\'s talk!
+
+*Banished* looks at the old question of \"What is life?\" and \"What
+does it mean to be successful in life?\" As Gideon was in the Hero\'s
+Party with Ruti, battling hordes of demons, onto bringing the fight to
+the Demon Lord. Sounds pretty exciting, doesn\'t it? It sounds very
+heroic and noble. What if he were instead to open an apothecary in a
+small village and just live a simple life?
+
+Many would find the second route to be less exciting, less
+protagonistic, less heroic. Are they right? In their own right, they
+are. However, what is life but a series of events that can be looked at
+and understood from an infinite number of different angles and
+worldviews? What is a failure for one is a fulfilled and happy life for
+another. Then you might ask me, \"Sandy, where is the truth then?\"
+
+I will say that is a good question. How do we live the perfect life?
+What is a perfect life? Again, is life about your career? Maybe stature?
+Your role in society? Love? Fulfilling your path/destiny? MONEY? It is
+indeed a great question. All I can give now in this short anime review
+is that it is life. What you do, how you live, just live. Instead of
+overthinking every step we take, let us live and put the dot right
+there.
+
+This is quite a departure from any good review. We\'ll keep ongoing.
+Let\'s talk about the characters and the show more specifically then!
+Mostly, about Gideon, Rit, and Ruti.
+
+Gideon had an amazing caliber of humbleness and empathy towards around
+him, which makes a notable difference for the best in your immediate
+surroundings. He had the skill that very few people in the world are
+fortunate to possess and that\'s to know who you are and be friends with
+yourself. Be content with life\'s givings and takings, by simply moving
+further. What\'s done is done, let\'s think about what we do next!
+
+We tend to expect a lot from everything we do, it can range from
+financial gains to love to anything else. It\'s only in human nature to
+expect some sort of an equal return for our troubles and efforts. I like
+to entertain the possibility, a realm where we try to approach life more
+philosophically. Instead of expecting, we just do what we do at the
+moment and have what comes at us. I feel it takes an incredible
+discipline to be this much at peace with yourself.
+
+Rit was in a similar situation to Gideon (Red), as they miraculously met
+once again after departing in their previous adventures together. She
+also does have expectations from her royal family, subordinates, and her
+people. Are we then just prisoners of our destinies? By God giving
+everyone a path in life and a destiny with no way out, why are we given
+free will for?
+
+Maybe we are given some path, some pre-determined set of events,
+emotions, feelings, people, places, etc. that we are meant to experience
+and live through in the time we have in this world. Free will is given
+to make it more fun. One will still follow the general \"flow\" of their
+destiny, but the way they can approach it entirely depends on them.
+
+This is something I liked the way they approach Ruti\'s character. The
+literal Hero of the land. Destined and Blessed by The Almighty to serve
+as a protector and fighter, devoid of anything that can impede such a
+crucial mission. Should one follow and fulfill their path or try to
+pursue their own life if they feel it goes against what they\'re
+required to do?
+
+It is only my feeling that we have to live our own lives the way we
+would want to live it, of course within the degree of freedom of your
+current situation. Life might be too short to care too much and spend
+too much time on something that goes against your will. *Banished*
+teaches you living **your** life and no one else\'s.
+
+Also, the opening song never fails to brighten up the mood for me
+
+<iframe src="https://open.spotify.com/embed/track/4IuiAmZd248MLAntebZFKo" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+That\'s all! Thank you for reading

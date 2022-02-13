@@ -1,0 +1,19 @@
+![preview](./preview.png)
+Sandy\'s tutoring notes 📝
+=========================
+
+During Spring 2021 semester, I worked as a tutor for the School of
+Engineering. As one of the tutors, we held multiple a series of study
+sessions every week, on subjects and classes ranging from Calculus
+I/II/III to Phyics I/II and Chemistry I/II.
+
+I took digital notes on my tablet during every meeting and they have
+just been fully documented on a separate webpage. I taught Calculus II,
+Calculus III, and Physics I. It was a lot of fun!
+
+If you are a student and struggling with some of the courses above, you
+can look at the notes as a bank of problems with detailed solutions. As
+a tutor or a grader or a teaching assistant, you would be able to find a
+good source of teaching material and the curriculum of those courses.
+
+-\> [Go to the study session notes](https://sandyuraz.com/tutor_sp21/)
