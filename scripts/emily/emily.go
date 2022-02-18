@@ -89,7 +89,7 @@ func main() {
 			// Add the title to the paragraph
 			toWrite = strings.ReplaceAll(toWrite,
 				`>`+HEtime,
-				`title="`+tt.Format(RFC_EMILY)+`">`+HEtime,
+				` title="`+tt.Format(RFC_EMILY)+`">`+HEtime,
 			)
 		}
 		if err := ioutil.WriteFile(file, []byte(toWrite), 0644); err != nil {
