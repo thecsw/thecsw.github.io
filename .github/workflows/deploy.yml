@@ -32,6 +32,10 @@ jobs:
         run: |
           make
 
+      - name: Emily 🤵🏻‍♀️
+        run: |
+          ./scripts/emily/emily
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
