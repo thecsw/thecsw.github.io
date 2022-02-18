@@ -7,6 +7,8 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 
+48; 12022 H.E.
+
 I had the pleasure to watch the anime adaptation of _Komi Can't
 Communicate_. First of all, I have to say that I absolutely loved it.
 It's on https://www.netflix.com/title/81228573[Netflix], so go check it

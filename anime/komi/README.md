@@ -2,6 +2,8 @@
 Komi-san wa, Komyushō Desu 🥑
 ============================
 
+48; 12022 H.E.
+
 I had the pleasure to watch the anime adaptation of *Komi Can\'t
 Communicate*. First of all, I have to say that I absolutely loved it.
 It\'s on [Netflix](https://www.netflix.com/title/81228573), so go check
