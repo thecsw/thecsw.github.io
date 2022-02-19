@@ -11,8 +11,11 @@ with my progress
 
 
 
-     ┌──────────────────┐
-     │ Kimetsu no Yaiba:├───────────────────┐
+                        ┌───────────────────┐
+                        │    Re:Zero kara   │
+                        │  Hajimeru Isekai  │
+     ┌──────────────────┤ Seikatsu 2 Part 2 │
+     │ Kimetsu no Yaiba:├───────────────────┤
      │    Yuukaku─hen   │    Re:Zero kara   │
      ├──────────────────┤  Hajimeru Isekai  │
      │   Re:Zero kara   │    Seikatsu 2     │
