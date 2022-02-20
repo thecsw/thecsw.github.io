@@ -22,6 +22,7 @@
 
 *** Thoughts
 #  * [[./undergrad][My undergraduate career 🧺]]
+  * [[./dvorak][Switching to dvorak layout 🎹]]
   * [[./anime][I love watching anime 🎻]]
   * [[./good_bad_movies][Watching good and bad movies 🎭]]
   * [[./why_use_emojis][Why use emojis? 🎷🕺]]

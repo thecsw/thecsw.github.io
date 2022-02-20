@@ -25,6 +25,7 @@ something new!
 
 ### Thoughts
 
+-   [Switching to dvorak layout 🎹](./dvorak)
 -   [I love watching anime 🎻](./anime)
 -   [Watching good and bad movies 🎭](./good_bad_movies)
 -   [Why use emojis? 🎷🕺](./why_use_emojis)
