@@ -52,6 +52,8 @@ to reach the desired key. On QWERTY however, they are spread out all
 over the keymap, which makes you run like a wild rabbit, chasing those
 keystrokes.
 
+![The modern Dvorak layout (US layout)](dvorak.png)
+
 This difference of ergonomic key placement is very important. On QWERTY,
 you only spend about 30% of your time on the home row, whereas Dvorak
 keeps you 70% close to it. We can observe that Dvorak could be at least

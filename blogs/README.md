@@ -25,7 +25,6 @@ something new!
 
 ### Thoughts
 
--   [Switching to dvorak layout 🎹](./dvorak)
 -   [I love watching anime 🎻](./anime)
 -   [Watching good and bad movies 🎭](./good_bad_movies)
 -   [Why use emojis? 🎷🕺](./why_use_emojis)
@@ -33,6 +32,7 @@ something new!
 
 ### Random
 
+-   [Switching to dvorak layout 🎹](./dvorak)
 -   [My Spotify Wrapped for 2021 🎧](./wrapped)
 -   [Using Foundation-style Time 💫](./foundation-time)
 -   [My 30-day song challenge 🎵🤘](./song_challenge)
