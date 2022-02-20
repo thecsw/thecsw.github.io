@@ -2,6 +2,14 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 51; 12022 H.E.
+
+What I think, Sakuta-kun, is that life is here for us to become kinder.
+I live life every day hoping I was a slightly kinder person than I was
+the day before.
+
+-- Shoko Makinohara
+
 ### 45; 12022 H.E.
 
 Rumbling by SiM goes so hard
