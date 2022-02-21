@@ -53,7 +53,7 @@ its belief, while keeping you energetically warm and excited for what
 comes next. This is the best I can put when typing this late at night,
 just because I felt I had to write about it.
 
-![Haruhara Rahura](haruhara.png)
+![Haruko Haruhara](haruhara.png)
 
 Fooly Cooly is a coming-of-age story. Accepting yourself, your life,
 taking responsibility for your actions, stopping whining about life, and
