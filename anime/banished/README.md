@@ -26,6 +26,8 @@ encounters, but more of an introspective into our daily routine that
 life is made out of. It is extremely calming and simply... welcoming! I
 would even dare to say wholesome.
 
+![Rit welcomes you](rit.png)
+
 Reading some reviews that people left, they criticize people for liking
 this genre for being too \"naïve\" and \"simple-minded\" to enjoy this
 isekai genre. In many ways, I can see their argument. It\'s no Death
@@ -53,6 +55,8 @@ close to its heart. I felt really good after watching the show, which is
 a very good sign. The atmosphere is not the only thing it has to offer,
 there is a big question that was being pondered, let\'s talk!
 
+![We\'re on the same page here](wink.png)
+
 *Banished* looks at the old question of \"What is life?\" and \"What
 does it mean to be successful in life?\" As Gideon was in the Hero\'s
 Party with Ruti, battling hordes of demons, onto bringing the fight to
@@ -79,6 +83,8 @@ This is quite a departure from any good review. We\'ll keep ongoing.
 Let\'s talk about the characters and the show more specifically then!
 Mostly, about Gideon, Rit, and Ruti.
 
+![It\'s all about the human touch](bench.png)
+
 Gideon had an amazing caliber of humbleness and empathy towards around
 him, which makes a notable difference for the best in your immediate
 surroundings. He had the skill that very few people in the world are
@@ -93,6 +99,8 @@ to entertain the possibility, a realm where we try to approach life more
 philosophically. Instead of expecting, we just do what we do at the
 moment and have what comes at us. I feel it takes an incredible
 discipline to be this much at peace with yourself.
+
+![I bid your welcome](welcome.png)
 
 Rit was in a similar situation to Gideon (Red), as they miraculously met
 once again after departing in their previous adventures together. She
@@ -119,6 +127,8 @@ would want to live it, of course within the degree of freedom of your
 current situation. Life might be too short to care too much and spend
 too much time on something that goes against your will. *Banished*
 teaches you living **your** life and no one else\'s.
+
+![Be true to yourself, dare to say... happy](ruti.png)
 
 Also, the opening song never fails to brighten up the mood for me
 
