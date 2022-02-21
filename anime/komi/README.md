@@ -24,6 +24,8 @@ reality](https://youtu.be/Vk2g-2tC5qM), which is just so (not)
 wholesome. Komi definitely struck that beautiful note of having a
 lightweight and simply endearing atmosphere.
 
+![How to make friends](board.png)
+
 Shouko has one single purpose and that is to make 100 friends. Hitohito
 is her classmate that sincerely wants to help her. Interestingly, all
 done without an inherited romantic ploy to get to her. I can go on
@@ -42,6 +44,8 @@ her/him.
 Most importantly...
 
 **I live for Osana Najimi.**
+
+![This is Najimi](osana.png)
 
 I am obsessed with good YT edits, so please enjoy some of them below.
 
