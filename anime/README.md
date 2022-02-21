@@ -120,6 +120,7 @@ Selected Reviews 🧝‍♀️
 Please see some selected reviews below! It\'s just me talking about the
 show and going in my own thought process of what I make of it
 
+-   [FLCL 🎸](./flcl)
 -   [Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
     🐇❤️](./bunny)
 -   [Komi-san wa, Komyushō Desu 🥑](./komi)
