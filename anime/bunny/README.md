@@ -47,7 +47,7 @@ viewer. It feels comfy, it feels warm, it builds this amazing
 atmosphere, where you simply don\'t want to leave anyone behind. A show
 would rarely make such an effect on me.
 
-![Panda Kaede](kaede.png)
+![Mai is the best girl](eat.png)
 
 It warms my heart to see the relationship they built between Mai and
 Sakuta. Most movies and shows have a problem portraying a real
@@ -66,6 +66,8 @@ songs to date, which is the top 3 of my anime music collection
 <iframe src="https://open.spotify.com/embed/track/7jEwBMtA7gM43NxiuvfF3h" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Most of all, **protect Kaede at all costs.**
+
+![Panda Kaede](kaede.png)
 
 *What I think, Sakuta-kun, is that life is here for us to become kinder.
 I live* *life every day hoping I was a slightly kinder person than I was
