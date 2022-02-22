@@ -15,9 +15,7 @@ way. Please enjoy!
 
 I have some presence on the web, you can find me around here
 
--   [Github 🐙](https://github.com/thecsw) (it\'s ok for git stuff)
--   [Telegram ✈️](https://t.me/thecsw) (it\'s just there)
--   [LinkedIn 🕴](https://www.linkedin.com/in/thecsw) (purely
-    professional)
--   [Instagram 📷](https://www.instagram.com/sandyuraz) (sometimes I
-    post)
+-   [Github 🐙](https://github.com/thecsw)
+-   [Spotify
+    🥒](https://open.spotify.com/user/v1s3wc3z6pco2qfz0pzi3vq02?si=c0ab0369717e4824)
+-   [LinkedIn 🕴](https://www.linkedin.com/in/thecsw)
