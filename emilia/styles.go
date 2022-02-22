@@ -27,6 +27,7 @@ func removeStyleSection(file, data string) string {
 		return data
 	}
 	// Asciidoctor styling is somewhat around 400+ lines of styling
+	fmt.Println("Asciidoctor styling size:", end-start)
 	if end-start != 426 {
 		fmt.Printf("[STYLES] %s: asciidoctor style not found\n", file)
 		return data
