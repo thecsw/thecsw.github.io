@@ -73,7 +73,8 @@ s|DejaVu|Lora|g
 s|Droid Sans Mono|DejaVu Sans Mono|g
 
 # Import some CSS adjustments
-/<body/i\<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/styles/web.css">
+/<body/i\<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/asciidoctor.css">
+/<body/i\<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
 
 # Run media macros
 s|SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|
