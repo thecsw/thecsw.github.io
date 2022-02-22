@@ -39,6 +39,8 @@ func main() {
 
 		// Add the holoscene title
 		toWrite = addHolosceneTitles(file, toWrite)
+		// Remove the style section
+		toWrite = removeStyleSection(file, toWrite)
 
 		// flush the file
 		if err := ioutil.WriteFile(file, []byte(toWrite), 0644); err != nil {

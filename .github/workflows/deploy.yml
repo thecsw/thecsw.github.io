@@ -32,9 +32,9 @@ jobs:
         run: |
           make
 
-      - name: Emily 🤵🏻‍♀️
+      - name: Emilia 🧝‍♀️🐱
         run: |
-          ./scripts/emily/emily
+          ./bin/emilia
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
