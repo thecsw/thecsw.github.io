@@ -66,7 +66,7 @@ func addHolosceneTitles(file, data string) string {
 			` title="`+tt.Format(RFC_EMILY)+`">`+HEtime,
 		)
 	}
-	fmt.Printf("%s: replaced %d \n", file, len(matches))
+	fmt.Printf("[HETIME] %s: replaced %d \n", file, len(matches))
 	return data
 
 }
