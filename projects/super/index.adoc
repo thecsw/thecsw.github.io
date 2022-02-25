@@ -1,5 +1,5 @@
 = Finding Meaning in the Void ✨
-Sagindyk Urazayev <ctu ku edu>
+email <ctu [at] ku [dot] edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: preamble
 :toclevels: 4
