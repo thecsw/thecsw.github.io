@@ -5,8 +5,9 @@ Sandy\'s fortunes 🥠
 ### 58; 12022 H.E.
 
 Happy is the man who has broken the chains which hurt the mind, and has
-given up worrying once and for all. Be patient and tough; one day this
-pain will be useful to you.
+given up worrying once and for all.
+
+Be patient and tough; one day this pain will be useful to you.
 
 -- Ovid, *Metamorphoses*
 
