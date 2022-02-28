@@ -119,21 +119,21 @@ input:focus {
 /* --------------------------------------------- */
 a {
         cursor: pointer;
-        color: #217ab7;
+        color: #c6aed2;
         line-height: inherit;
         transition: .14s;
 }
 a:hover {
         color: white;
-        background-color: #3297d3;
+        background-color: #c6aed2;
 }
 a:visited {
-        color: #43458b;
-        border-color: #43458b;
+        color: #5e416d;
+        border-color: #5e416d;
 }
 a:visited:hover {
         color: white;
-        background-color: #9251ac;
+        background-color: #5e416d;
 }
 
 /* -------------------------------- */
