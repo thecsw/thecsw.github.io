@@ -119,13 +119,13 @@ input:focus {
 /* --------------------------------------------- */
 a {
         cursor: pointer;
-        color: #c6aed2;
+        color: #c33fbc;
         line-height: inherit;
         transition: .14s;
 }
 a:hover {
         color: white;
-        background-color: #c6aed2;
+        background-color: #c33fbc;
 }
 a:visited {
         color: #5e416d;
