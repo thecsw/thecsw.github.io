@@ -7,6 +7,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 :figure-caption:
+:figure-number:
 
 Telegram bot that queries subreddit https://reddit.com/r/jokes[r/jokes]
 for the best jokes of the day (can be modified) and then sends these
