@@ -7,6 +7,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 :figure-caption:
+:figure-number:
 
 For my EECS 678: Operating Systems course, one of the projects we have
 to do is build our own Unix shell, which would be able to interpret

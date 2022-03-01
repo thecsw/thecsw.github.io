@@ -7,6 +7,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 :figure-caption:
+:figure-number:
 
 This is by far the oldest, yet most complete project I could find. I
 think I was a freshman in high school and made this doge farm clicker

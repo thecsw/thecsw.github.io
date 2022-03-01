@@ -7,6 +7,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 :figure-caption:
+:figure-number:
 
 February 11th, 2020
 

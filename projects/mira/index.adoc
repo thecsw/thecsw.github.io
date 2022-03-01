@@ -7,6 +7,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 :figure-caption:
+:figure-number:
 
 I like Go and I think it's a great language. I built
 https://github.com/thecsw/memeinvestor_bot[memeinvestor_bot], which was

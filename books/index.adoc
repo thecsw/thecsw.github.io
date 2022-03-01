@@ -4,6 +4,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
 :figure-caption:
+:figure-number:
 
 Here is a stack of books I liked and recommend for reading if you are
 into this kind of stuff. You can find a couple of selected reviews
