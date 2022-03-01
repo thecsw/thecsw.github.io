@@ -2,6 +2,10 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 59; 12022 H.E.
+
+I\'m useless and a masochist inside
+
 ### 58; 12022 H.E.
 
 Happy is the man who has broken the chains which hurt the mind, and has
