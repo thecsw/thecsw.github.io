@@ -39,7 +39,14 @@ img {
 .imageblock {
         margin-left: auto;
         margin-right: auto;
-        width: 79%;
+        width: 690px;
+        right: 50px;
+        position: relative;
+}
+
+.imageblock > .title {
+        text-align: center;
+        margin-top: 16px;
 }
 
 /* --------------------------------------------------- */
@@ -121,7 +128,7 @@ a {
         cursor: pointer;
         color: #bc2abb;
         line-height: inherit;
-        transition: .14s;
+        transition: 0.14s;
 }
 a:hover {
         color: white;
@@ -144,7 +151,7 @@ body {
         color: #3a1616;
         font-family: "Lora";
         /* Smooth the font a little bit, it's a
-         bit too bold on retina screens */        
+         bit too bold on retina screens */
         -webkit-font-smoothing: antialiased;
 }
 p {
@@ -196,5 +203,8 @@ h3,
 @media all and (max-width: 499px) {
         #myface {
                 display: none;
+        }
+        .imageblock {
+                max-width: 100%;
         }
 }
