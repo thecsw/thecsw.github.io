@@ -6,8 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
-:figure-caption:
-:figure-number:
+:!figure-caption:
 
 This is by far the oldest, yet most complete project I could find. I
 think I was a freshman in high school and made this doge farm clicker

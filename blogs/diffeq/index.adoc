@@ -6,8 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
-:figure-caption:
-:figure-number:
+:!figure-caption:
 
 May 12th, 2020
 

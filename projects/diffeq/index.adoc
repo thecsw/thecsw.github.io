@@ -6,8 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
-:figure-caption:
-:figure-number:
+:!figure-caption:
 
 I also worked as a grader for Ordinary Differential Equations course
 (MATH 220), taught by Professor Van Vleck from the department of

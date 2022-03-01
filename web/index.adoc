@@ -6,8 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
-:figure-caption:
-:figure-number:
+:!figure-caption:
 
 I love typesetting tools. In my experience, I have used and written
 articles and papers using the following list of tools: `LaTeX`, `groff`,
