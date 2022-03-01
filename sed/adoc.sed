@@ -3,7 +3,7 @@
 s/^=//
 
 # Add the top card with some links and my email
-1 a email <ctu [at] ku [dot] edu>\nAbout_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK\n:toc: preamble\n:toclevels: 4\n:toc-title: Table of Adventures ⛵\n:nofooter:\n:experimental:
+1 a email <ctu [at] ku [dot] edu>\nAbout_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK\n:toc: preamble\n:toclevels: 4\n:toc-title: Table of Adventures ⛵\n:nofooter:\n:experimental:\n:figure-caption:
 
 # Fix some weird org->adoc stuff when underscore becomes a tilda
 s/~(.+)~/_\1/

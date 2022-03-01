@@ -6,6 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
+:figure-caption:
 
 I wish to talk here with you about aesthetics and fine art. Some things
 we might enjoy alone or together! Historically, my website had different

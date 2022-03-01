@@ -6,6 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
+:figure-caption:
 
 *Hey, everyone! This is Sandy. Welcome to my website*
 
