@@ -6,8 +6,7 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc-title: Table of Adventures ⛵
 :nofooter:
 :experimental:
-:figure-caption:
-:figure-number:
+:!figure-caption:
 
 In the Spring of 2021, I was taking
 http://www.ittc.ku.edu/~fli/[Professor Li]'s EECS 700: IoT Security,
