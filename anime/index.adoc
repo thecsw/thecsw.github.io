@@ -3,6 +3,7 @@ email <ctu [at] ku [dot] edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :nofooter:
 :experimental:
+:figure-caption:
 
 Sandy is (not) a weeb.
 
