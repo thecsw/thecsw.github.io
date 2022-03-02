@@ -33,9 +33,6 @@ s|PASS_HORIZ|++++\n<hr>\n++++|g
 # Add an audio file
 s|SONG ([^<>]+)|++++\n<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>\n++++|g
 
-# Add a tombstone to end the page
-s|TOMB|++++\n<b style="color:#ba3925">◼︎</b>\n++++|g
-
 # Add a spotify player
 s|SPOTIFY ([^<>]+)|++++\n<iframe src="https://open.spotify.com/embed/track/\1" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>\n++++|g
 
