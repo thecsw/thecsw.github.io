@@ -23,7 +23,8 @@ s=[$$]]=$=g
 
 # Covert the picture macros into asciidoctor
 s|PICTURE ([^<>]+):([^<>:]+):([0-9]+):([a-z]+)|.\2\nimage::\1[\2, width=\3, role="\4", link="\1"]|
-s|PIC ([^<>]+):([^<>]+)|.\2\nimage::\1[\2, link="\1"]|
+s|PIC ([^<>]+):([^<>]+)|PASS_HORIZ\n.\2\nimage::\1[\2, link="\1"]\nPASS_HORIZ|
+s|PASS_HORIZ|++++\n<hr>\n++++|g
 
 # Fix the youtube links
 s|YOUTUBE~|YOUTUBE|g
