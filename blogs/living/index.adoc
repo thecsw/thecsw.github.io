@@ -8,6 +8,8 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :experimental:
 :!figure-caption:
 
+60; 12022 H.E.
+
 Many go and ask themselves, _what is the meaning of life?_ Some spend
 their entire lifetimes to come up with an answer that they would feel
 good or smart about. Many spirals themselves into self-imposed
