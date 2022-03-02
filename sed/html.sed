@@ -75,3 +75,6 @@ s|Droid Sans Mono|DejaVu Sans Mono|g
 
 # Add the HE time div section to print out the Foundation-style time
 448i<div id="hetime" class="details"></div>
+
+# Add a tombstone to end the page
+s|TOMB|<b style="color:#ba3925">◼︎</b>|g
