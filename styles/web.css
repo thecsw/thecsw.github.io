@@ -42,6 +42,7 @@ img {
         width: 690px;
         right: 50px;
         position: relative;
+        text-align: center;
 }
 
 .imageblock > .title {
