@@ -21,7 +21,11 @@
   * [[./installing_arch][Installing glorious arch linux ☄️]]
 
 *** Thoughts
-#  * [[./undergrad][My undergraduate career 🧺]]
+  # * [[./undergrad][My undergraduate career II 🕊]]
+  # * [[./undergrad][My undergraduate career I 🧺]]
+  # * [[./friends][Friends come and go 🍤]]
+  # * [[./tired][I'm a little tired 🍙]]
+  # * [[./living][Living consciously 🍜]]
   * [[./anime][I love watching anime 🎻]]
   * [[./good_bad_movies][Watching good and bad movies 🎭]]
   * [[./why_use_emojis][Why use emojis? 🎷🕺]]

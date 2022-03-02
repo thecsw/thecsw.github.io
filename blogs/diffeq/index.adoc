@@ -324,5 +324,7 @@ solve them but provide a quick lookup cheatsheet if needed or glance at
 different forms that we can actually solve! There are infinitely many
 differential equations that we cannot find an exact solution for!
 
-USEMATHJAX
+++++
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+++++
 TOMB

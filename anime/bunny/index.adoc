@@ -16,8 +16,14 @@ many places alike. You can say it is a gag between us that drove us
 closer over months, bridging the gap. One fateful day, he sent me the
 gif (_g_ is pronounced as graphical, not like a giraffe) below
 
+++++
+<hr>
+++++
 .That one picture
 image::kaede.gif[That one picture, link="kaede.gif"]
+++++
+<hr>
+++++
 
 He told me it's from "Rascal Does Not Dream of Bunny Girl Senpai". What
 a goofy title I thought. *I have to see it.* I started it promptly in a
@@ -34,8 +40,14 @@ second-year high school student, Azusagawa Sakuta (梓川 咲太), who meets
 several girls that are experiencing "puberty syndrome", which is caused
 by sensitivity and instability during adolescence.
 
+++++
+<hr>
+++++
 .Sakurajima Mai and Azusagawa Sakuta
 image::library.png[Sakurajima Mai and Azusagawa Sakuta, link="library.png"]
+++++
+<hr>
+++++
 
 Puberty syndrome is an abnormal experience, which is mainly triggered by
 one's mental state and torn feelings regarding something. I would say it
@@ -55,8 +67,14 @@ viewer. It feels comfy, it feels warm, it builds this amazing
 atmosphere, where you simply don't want to leave anyone behind. A show
 would rarely make such an effect on me.
 
+++++
+<hr>
+++++
 .Mai is the best girl
 image::eat.png[Mai is the best girl, link="eat.png"]
+++++
+<hr>
+++++
 
 It warms my heart to see the relationship they built between Mai and
 Sakuta. Most movies and shows have a problem portraying a real
@@ -72,12 +90,20 @@ The art is unique. I'm amazed how they found the most perfect soundtrack
 for the show. I cannot ignore one of the coolest opening songs to date,
 which is the top 3 of my anime music collection
 
-SPOTIFY 7jEwBMtA7gM43NxiuvfF3h
+++++
+<iframe src="https://open.spotify.com/embed/track/7jEwBMtA7gM43NxiuvfF3h" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+++++
 
 Most of all, *protect Kaede at all costs.*
 
+++++
+<hr>
+++++
 .Panda Kaede
 image::kaede.png[Panda Kaede, link="kaede.png"]
+++++
+<hr>
+++++
 
 _What I think, Sakuta-kun, is that life is here for us to become kinder.
 I live_ _life every day hoping I was a slightly kinder person than I was

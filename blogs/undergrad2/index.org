@@ -1,0 +1,45 @@
+* My undergraduate career II 🧺
+
+??; 12022 H.E.
+
+** Fall 2020
+
+*** Embedded Systems
+
+*** Intermediate Analysis
+
+*** Introduction to Theory of Computing
+
+*** Linear Algebra
+
+*** Special Topics: Computational Data Science
+
+** Spring 2021
+
+*** Data Structures
+
+*** Computer Architecture
+
+*** Compiler Construction
+
+*** IoT Security (Graduate course)
+
+*** Introduction to Russian Literature (Graduate course)
+
+** Summer 2021
+
+*** Language and Mind
+
+*** Intensive Instruction in Slavic Languages
+
+** Fall 2021
+
+*** Fundamentals of Computer Algorithms
+
+*** Programming Languages
+
+*** Introduction to Operating Systems
+
+*** Computer Science Design Capstone - I
+
+*** Working Data & Corpora in SLAV 

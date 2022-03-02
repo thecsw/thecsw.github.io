@@ -11,4 +11,6 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 I wish to share this
 https://en.wikipedia.org/wiki/Por_una_Cabeza[beautiful song] with you
 
-SONG porunacabeza.mp3
+++++
+<audio controls><source src="porunacabeza.mp3" type="audio/mpeg">bruh moment</audio>
+++++

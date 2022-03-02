@@ -41,6 +41,7 @@ INPUT_FILES = find . -type f -name '*$(INPUT_TYPE)'
 OUTPUT_FILES = find . -type f -name "*$(OUTPUT_TYPE)" $(EXCLUDE_OUTPUT)
 
 EXCLUDE_TOC = . ./fortunes/ ./blogs/ ./projects/ ./anime/ ./books/
+ADD_TOMB = ./blogs/*/ ./arts/ ./anime/ ./books/
 
 INPUT_SED = ./sed/adoc.sed
 README_SED = ./sed/md.sed
@@ -63,7 +64,7 @@ $(NAME):
 	$(E) "Adding some asciidoctor elements and boilerplate"
 	$(Q) $(INPUT_FILES) | xargs $(SED) -E -f $(INPUT_SED) -i
 	$(E) "Adding tombstone to article posts"
-	$(Q) find ./blogs/*/ ./arts/ ./anime/ ./books/ -type f -name '*$(INPUT_TYPE)' | xargs $(SED) "$$ a TOMB" -E -i
+	$(Q) find $(ADD_TOMB) -type f -name '*$(INPUT_TYPE)' | xargs $(SED) "$$ a TOMB" -E -i
 	$(E) "\n->	ADJUSTING THE HOMEPAGE ..."
 	$(E) "Removing the home link from the root page, because it's already home"
 	$(Q) find . -maxdepth 1 -type f -name '*$(INPUT_TYPE)' | xargs $(SED) 's/| Home_LINK//g' -i

@@ -209,14 +209,32 @@ brutal execution that was carried out by Dale Cooper's doppelganger. The
 figures below show how over the years, David Lynch embraced gore,
 violence, and mysticism into his work.
 
+++++
+<hr>
+++++
 .Experiment
 image::exper.png[Experiment, link="exper.png"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .The Arm
 image::tree.png[The Arm, link="tree.png"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Darya
 image::darya.png[Darya, link="darya.png"]
+++++
+<hr>
+++++
 
 == The consumption of Twin Peaks
 

@@ -35,6 +35,12 @@ quite frequently.
 
 *Before* and *after* (click to enlarge)
 
+++++
+<hr>
+++++
 .Before and After
 image::example.png[Before and After, link="example.png"]
+++++
+<hr>
+++++
 TOMB
