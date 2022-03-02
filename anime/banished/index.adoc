@@ -32,8 +32,14 @@ encounters, but more of an introspective into our daily routine that
 life is made out of. It is extremely calming and simply… welcoming! I
 would even dare to say wholesome.
 
+++++
+<hr>
+++++
 .Rit welcomes you
 image::rit.png[Rit welcomes you, link="rit.png"]
+++++
+<hr>
+++++
 
 Reading some reviews that people left, they criticize people for liking
 this genre for being too "naïve" and "simple-minded" to enjoy this
@@ -62,8 +68,14 @@ its heart. I felt really good after watching the show, which is a very
 good sign. The atmosphere is not the only thing it has to offer, there
 is a big question that was being pondered, let's talk!
 
+++++
+<hr>
+++++
 .We're on the same page here
 image::wink.png[We're on the same page here, link="wink.png"]
+++++
+<hr>
+++++
 
 _Banished_ looks at the old question of "What is life?" and "What does
 it mean to be successful in life?" As Gideon was in the Hero's Party
@@ -91,8 +103,14 @@ This is quite a departure from any good review. We'll keep ongoing.
 Let's talk about the characters and the show more specifically then!
 Mostly, about Gideon, Rit, and Ruti.
 
+++++
+<hr>
+++++
 .It's all about the human touch
 image::bench.png[It's all about the human touch, link="bench.png"]
+++++
+<hr>
+++++
 
 Gideon had an amazing caliber of humbleness and empathy towards around
 him, which makes a notable difference for the best in your immediate
@@ -109,8 +127,14 @@ philosophically. Instead of expecting, we just do what we do at the
 moment and have what comes at us. I feel it takes an incredible
 discipline to be this much at peace with yourself.
 
+++++
+<hr>
+++++
 .I bid your welcome
 image::welcome.png[I bid your welcome, link="welcome.png"]
+++++
+<hr>
+++++
 
 Rit was in a similar situation to Gideon (Red), as they miraculously met
 once again after departing in their previous adventures together. She
@@ -138,12 +162,20 @@ current situation. Life might be too short to care too much and spend
 too much time on something that goes against your will. _Banished_
 teaches you living *your* life and no one else's.
 
+++++
+<hr>
+++++
 .Be true to yourself, dare to say… happy
 image::ruti.png[Be true to yourself, dare to say… happy, link="ruti.png"]
+++++
+<hr>
+++++
 
 Also, the opening song never fails to brighten up the mood for me
 
-SPOTIFY 4IuiAmZd248MLAntebZFKo
+++++
+<iframe src="https://open.spotify.com/embed/track/4IuiAmZd248MLAntebZFKo" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+++++
 
 That's all! Thank you for reading
 TOMB

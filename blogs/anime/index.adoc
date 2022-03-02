@@ -26,8 +26,14 @@ flown right past me. Right after, my second serious watch was _Mirai
 Nikki_. You are probably more familiar with it through this picture of a
 girl seductively looking at you.
 
+++++
+<hr>
+++++
 .Yuno Gasai's yandere expression
 image::yuno.png[Yuno Gasai's yandere expression, link="yuno.png"]
+++++
+<hr>
+++++
 
 As a 15-year-old high school boy, I loved the show. The things that
 happened in the show and scenes presented, I've never seen anything like
@@ -60,8 +66,14 @@ can't enlarge someone 10x and make it as intimidating as Ira Gamagōri
 looking down on students. It would just
 https://en.wikipedia.org/wiki/Uncanny_valley[look goofy and unnatural].
 
+++++
+<hr>
+++++
 .This is the 40th second of the first episode
 image::gamagori.png[This is the 40th second of the first episode, link="gamagori.png"]
+++++
+<hr>
+++++
 
 Continuing comparing the genres, you might ask, but what about cartoons?
 Isn't anime just a cartoon genre? Well, in a very very trivial sense,
@@ -123,7 +135,9 @@ lives and routine already suffice for that.
 Anime music is also *incredible*. Here is my playlist with the ones I
 like a lot
 
-SPOTIFYPLAYLIST 6P7ksZ5uGpVp4qq9gDhFlj
+++++
+<iframe src="https://open.spotify.com/embed/playlist/6P7ksZ5uGpVp4qq9gDhFlj" width="79%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+++++
 
 Thank you for reading! Take care
 TOMB

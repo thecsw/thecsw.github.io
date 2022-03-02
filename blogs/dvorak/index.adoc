@@ -58,8 +58,14 @@ to reach the desired key. On QWERTY, however, they are spread out all
 over the keymap, which makes you run like a wild rabbit, chasing those
 keystrokes.
 
+++++
+<hr>
+++++
 .The modern Dvorak layout (US layout)
 image::dvorak.png[The modern Dvorak layout (US layout), link="dvorak.png"]
+++++
+<hr>
+++++
 
 This difference in ergonomic key placement is very important. On QWERTY,
 you only spend about 30% of your time on the home row, whereas Dvorak

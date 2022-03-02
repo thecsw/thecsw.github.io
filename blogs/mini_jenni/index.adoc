@@ -20,32 +20,86 @@ I just liked it.
 
 == Building
 
+++++
+<hr>
+++++
 .Step 1
 image::pic1.jpg[Step 1, link="pic1.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Step 1½
 image::pic15.jpg[Step 1½, link="pic15.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Step 2
 image::pic2.jpg[Step 2, link="pic2.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Step 3
 image::pic3.jpg[Step 3, link="pic3.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Step 4
 image::pic4.jpg[Step 4, link="pic4.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Step 5
 image::pic5.jpg[Step 5, link="pic5.jpg"]
+++++
+<hr>
+++++
 
 == Final result
 
+++++
+<hr>
+++++
 .Final I
 image::pic6.jpg[Final I, link="pic6.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Final II
 image::pic7.jpg[Final II, link="pic7.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Final III
 image::pic8.jpg[Final III, link="pic8.jpg"]
+++++
+<hr>
+++++
 TOMB

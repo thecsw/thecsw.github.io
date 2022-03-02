@@ -23,21 +23,57 @@ tried to make few of them and post here. If you wish to submit some for
 our own amusements and yours, feel free to send it to *c t u AT k u DOT
 e d u*
 
+++++
+<hr>
+++++
 .Agile
 image::agile.jpg[Agile, link="agile.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .OOM Killer
 image::oom.jpg[OOM Killer, link="oom.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Master Branch
 image::mst.jpg[Master Branch, link="mst.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Stack
 image::stack.jpg[Stack, link="stack.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .List
 image::list.jpg[List, link="list.jpg"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .DFA
 image::dfa.jpg[DFA, link="dfa.jpg"]
+++++
+<hr>
+++++
 TOMB

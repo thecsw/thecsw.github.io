@@ -1,4 +1,4 @@
-= My undergraduate career 🧺
+= My undergraduate career I 🧺
 email <ctu [at] ku [dot] edu>
 About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :toc: preamble
@@ -26,8 +26,14 @@ everything. To keep it focused, this essay will only concentrate on
 academic life, which is a smaller part of all my time, yet an important
 one as well. *CHARGE!*
 
+++++
+<hr>
+++++
 .My beautiful campus
 image::campanile.png[My beautiful campus, link="campanile.png"]
+++++
+<hr>
+++++
 
 == Fall 2018
 
@@ -109,8 +115,14 @@ and fudge party. What more could I possibly ask for?
 
 === American Popular Culture of: Shlocks! Thrills!: Trash Cinema
 
+++++
+<hr>
+++++
 .Barbarella! This was the poster of our class
 image::barbarella.png[Barbarella! This was the poster of our class, link="barbarella.png"]
+++++
+<hr>
+++++
 
 Now, this was one of the highlights of my semester. My first film class.
 It wasn't some FILM 101 or intro to film composition, it was a
@@ -254,11 +266,23 @@ https://en.wikipedia.org/wiki/Statistical_and_Applied_Mathematical_Sciences_Inst
 workshop in 2019, where I met incredible people and statisticians from
 all over the nation. And there was me, a single KU student from Midwest.
 
+++++
+<hr>
+++++
 .Us taking a bus to the research triangle campus
 image::samsi1.png[Us taking a bus to the research triangle campus, link="samsi1.png"]
+++++
+<hr>
+++++
 
+++++
+<hr>
+++++
 .Four folks on Duke campus
 image::samsi2.png[Four folks on Duke campus, link="samsi2.png"]
+++++
+<hr>
+++++
 
 === Speaker-Audience Communication, Honors
 
@@ -365,8 +389,14 @@ first project, Professor gave each one of us a noodle, like the ones you
 like to eat, all in different shapes and we had to come up with
 mathematical equations and sets to plot it.
 
+++++
+<hr>
+++++
 .The original noodle I got
 image::noodle_original.png[The original noodle I got, link="noodle_original.png"]
+++++
+<hr>
+++++
 
 I got an https://en.wikipedia.org/wiki/Orecchiette[Orecchiette] pasta,
 which you can see above. I thought of some ways I can plot it. Maybe a
@@ -374,8 +404,14 @@ half of a sphere with lifted wings? Not Cartesian. I settled on making
 it work with Cylindrical coordinates because it is more doable to add
 those ridges on the pasta's surface. The result is as follows
 
+++++
+<hr>
+++++
 .My faithful representation of it
 image::noodle_plotted.png[My faithful representation of it, link="noodle_plotted.png"]
+++++
+<hr>
+++++
 
 Assume that the surface $S$ of this pasta is parametrized by
 the equations
@@ -446,47 +482,7 @@ classes can be twice as hard as their regular versions.
 
 === Algebraic Topics in Computing: Cryptography
 
-== Fall 2020
-
-=== Embedded Systems
-
-=== Intermediate Analysis
-
-=== Introduction to Theory of Computing
-
-=== Linear Algebra
-
-=== Special Topics: Computational Data Science
-
-== Spring 2021
-
-=== Data Structures
-
-=== Computer Architecture
-
-=== Compiler Construction
-
-=== IoT Security (Graduate course)
-
-=== Introduction to Russian Literature (Graduate course)
-
-== Summer 2021
-
-=== Language and Mind
-
-=== Intensive Instruction in Slavic Languages
-
-== Fall 2021
-
-=== Fundamentals of Computer Algorithms
-
-=== Programming Languages
-
-=== Introduction to Operating Systems
-
-=== Computer Science Design Capstone - I
-
-=== Working Data & Corpora in SLAV
-
-USEMATHJAX
+++++
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+++++
 TOMB
