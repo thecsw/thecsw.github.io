@@ -50,9 +50,6 @@ s|<title>([^<>]+)</title>|<meta property="twitter:title" content="\1">\n<title>\
 # Taken from: https://www.matuzo.at/blog/html-boilerplate/
 /<title/i\<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 
-# Add the mathjax script for loading math
-s|USEMATHJAX|<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>|g
-
 # Make the MathJax script work, some edgecases while converting
 s=\$([^$]+)\$=\\(\1\\)=g
 s=<sup>=^=g
@@ -76,18 +73,5 @@ s|Droid Sans Mono|DejaVu Sans Mono|g
 /<body/i\<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/asciidoctor.css">
 /<body/i\<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
 
-# Run media macros
-s|SONG ([^<>]+)|<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>|
-
-s|SPOTIFY ([^<>]+)|<iframe src="https://open.spotify.com/embed/track/\1" width="79%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
-
-s|SPOTIFYPLAYLIST ([^<>]+)|<iframe src="https://open.spotify.com/embed/playlist/\1" width="79%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>|
-
-s|YOUTUBE ([^<>]+)|<iframe width="100%" height="330px" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
-
-s|GIST ([^<>]+)|<script src="https://gist.github.com/\1.js"></script>|
-
 # Add the HE time div section to print out the Foundation-style time
 448i<div id="hetime" class="details"></div>
-
-s|TOMB|<b style="color:#ba3925">◼︎</b>|g
