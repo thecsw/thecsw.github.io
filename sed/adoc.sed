@@ -40,7 +40,7 @@ s|SPOTIFY ([^<>]+)|++++\n<iframe src="https://open.spotify.com/embed/track/\1" w
 s|SPOTIFYPLAYLIST ([^<>]+)|++++\n<iframe src="https://open.spotify.com/embed/playlist/\1" width="79%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>\n++++|g
 
 # Add a youtube embed
-s|YOUTUBE ([^<>]+)|++++\n<div class="youtube-video-container"><iframe width="100%" height="330px" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>\n++++|g
+s|YOUTUBE ([^<>]+)|++++\n<iframe width="100%" height="330px" src="https://www.youtube.com/embed/\1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\n++++|g
 
 # Add a github gist 
 s|GIST ([^<>]+)|++++\n<script src="https://gist.github.com/\1.js"></script>\n++++|g
