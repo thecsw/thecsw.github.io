@@ -2,14 +2,14 @@
 Write an Emulator in 24 hours 🥃
 ===============================
 
-![VMAGI: You can (not) interpret](preview.png)
-
 Welcome! **VMAGI** is a small emulator/interpreter my friend
 [Matthew](https://github.com/matthewsanetra) and I challenged each other
 to build in 24 hours. This includes both the implementation of the
 interpreter and creating your own ISA/3ac/IR for it that it will run on
 top of. If you want to see Matthew\'s implementation, go to [his
 repository](https://github.com/matthewsanetra/sandy_isa).
+
+![VMAGI: You can (not) interpret](preview.png)
 
 My friend [Ethan](https://github.com/Username-ejg-not-available) also
 joined us on this competition and completed [his
