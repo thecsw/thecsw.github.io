@@ -5,8 +5,6 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :experimental:
 :!figure-caption:
 
-1; 10000 H.E.
-
 Here is a list of my articles I have online. I hope you will find some
 of them interesting and you can learn something new! Always learn
 something new!
