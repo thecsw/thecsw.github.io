@@ -9,6 +9,8 @@ Welcome 🌷
 
 ### 🀀 [Cool projects ☕](./projects)
 
+### 🀃 [Short stories 🍲](./stories)
+
 ### 🀁 [L\'Esthétique 🎨](./arts)
 
 ### 🀅 [This Website 🌐](./web)
