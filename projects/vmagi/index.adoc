@@ -11,8 +11,8 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 ++++
 <hr>
 ++++
-. You can (not) interpret
-image::preview.png:VMAGI[ You can (not) interpret, link="preview.png:VMAGI"]
+.VMAGI: You can (not) interpret
+image::preview.png[VMAGI: You can (not) interpret, link="preview.png"]
 ++++
 <hr>
 ++++

@@ -2,7 +2,7 @@
 Write an Emulator in 24 hours 🥃
 ===============================
 
-![ You can (not) interpret](preview.png:VMAGI)
+![VMAGI: You can (not) interpret](preview.png)
 
 Welcome! **VMAGI** is a small emulator/interpreter my friend
 [Matthew](https://github.com/matthewsanetra) and I challenged each other
