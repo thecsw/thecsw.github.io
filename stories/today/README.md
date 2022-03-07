@@ -91,7 +91,7 @@ to finally act. All I need to pull that trigge....
 
 HORLINE
 
-This story was written as *Individual Report VI* for my Computer Science
-thesis.
+This story was written as [Individual Report VI](./report6.pdf) for my
+Computer Science thesis.
 
 HORLINE

@@ -60,7 +60,7 @@ died down yet, why should it have? Now, where is that Taco Bell...
 
 HORLINE
 
-This story was written as *Individual Report IV* for my Computer Science
-thesis.
+This story was written as [Individual Report IV](./report4.pdf) for my
+Computer Science thesis.
 
 HORLINE
