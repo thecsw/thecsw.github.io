@@ -8,6 +8,15 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :experimental:
 :!figure-caption:
 
+++++
+<hr>
+++++
+. You can (not) interpret
+image::preview.png:VMAGI[ You can (not) interpret, link="preview.png:VMAGI"]
+++++
+<hr>
+++++
+
 Welcome! *VMAGI* is a small emulator/interpreter my friend
 https://github.com/matthewsanetra[Matthew] and I challenged each other
 to build in 24 hours. This includes both the implementation of the
