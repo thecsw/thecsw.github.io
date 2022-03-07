@@ -26,9 +26,9 @@ s|YOUTUBE~|YOUTUBE|g
 s|([^~/ ])~([^~ ])|\1_\2|g
 
 # Covert the picture macros into asciidoctor and wrap it in horizontal lines
-s|PICTURE ([^<>]+):([^<>:]+):([0-9]+):([a-z]+)|PASS_HORIZ\n.\2\nimage::\1[\2, width=\3, role="\4", link="\1"]\nPASS_HORIZ|g
-s|PIC ([^<>]+):([^<>]+)|PASS_HORIZ\n.\2\nimage::\1[\2, link="\1"]\nPASS_HORIZ|g
-s|PASS_HORIZ|++++\n<hr>\n++++|g
+s|PICTURE ([^<>]+):([^<>:]+):([0-9]+):([a-z]+)|HORLINE\n.\2\nimage::\1[\2, width=\3, role="\4", link="\1"]\nHORLINE|g
+s|PIC ([^<>]+):([^<>]+)|HORLINE\n.\2\nimage::\1[\2, link="\1"]\nHORLINE|g
+s|HORLINE|++++\n<hr>\n++++|g
 
 # Add an audio file
 s|SONG ([^<>]+)|++++\n<audio controls><source src="\1" type="audio/mpeg">bruh moment</audio>\n++++|g
