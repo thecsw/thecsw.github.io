@@ -11,14 +11,14 @@ good friend, Malena and I tried to make few of them and post here. If you wish
 to submit some for our own amusements and yours, feel free to send it to 
 *c t u AT k u DOT e d u*
 
-PIC agile.jpg:Agile
+PIC agile.jpg::Agile
 
-PIC oom.jpg:OOM Killer
+PIC oom.jpg::OOM Killer
 
-PIC mst.jpg:Master Branch
+PIC mst.jpg::Master Branch
 
-PIC stack.jpg:Stack
+PIC stack.jpg::Stack
 
-PIC list.jpg:List
+PIC list.jpg::List
 
-PIC dfa.jpg:DFA
+PIC dfa.jpg::DFA

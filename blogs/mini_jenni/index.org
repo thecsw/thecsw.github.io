@@ -12,22 +12,22 @@ I just liked it.
 
 ** Building
 
-PIC pic1.jpg:Step 1
+PIC pic1.jpg::Step 1
 
-PIC pic15.jpg:Step 1½
+PIC pic15.jpg::Step 1½
 
-PIC pic2.jpg:Step 2
+PIC pic2.jpg::Step 2
 
-PIC pic3.jpg:Step 3
+PIC pic3.jpg::Step 3
 
-PIC pic4.jpg:Step 4
+PIC pic4.jpg::Step 4
 
-PIC pic5.jpg:Step 5
+PIC pic5.jpg::Step 5
 
 ** Final result
 
-PIC pic6.jpg:Final I
+PIC pic6.jpg::Final I
 
-PIC pic7.jpg:Final II
+PIC pic7.jpg::Final II
 
-PIC pic8.jpg:Final III
+PIC pic8.jpg::Final III

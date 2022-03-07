@@ -22,4 +22,4 @@ how you can control your org html output. I update that org.css quite frequently
 
 *Before* and *after* (click to enlarge)
 
-PIC example.png:Before and After
+PIC example.png::Before and After

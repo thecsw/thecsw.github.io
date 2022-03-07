@@ -16,7 +16,7 @@ time when I was super young and many concepts might have flown right past
 me. Right after, my second serious watch was /Mirai Nikki/. You are probably more
 familiar with it through this picture of a girl seductively looking at you.  
 
-PIC yuno.png:Yuno Gasai's yandere expression 
+PIC yuno.png::Yuno Gasai's yandere expression 
 
 As a 15-year-old high school boy, I loved the show. The things that happened in
 the show and scenes presented, I've never seen anything like it in movies or
@@ -46,7 +46,7 @@ still bound by how real-life looks. You can't enlarge someone 10x and make it as
 intimidating as Ira Gamagōri looking down on students. It would just [[https://en.wikipedia.org/wiki/Uncanny_valley][look goofy
 and unnatural]].  
 
-PIC gamagori.png:This is the 40th second of the first episode 
+PIC gamagori.png::This is the 40th second of the first episode 
 
 Continuing comparing the genres, you might ask, but what about cartoons? Isn't
 anime just a cartoon genre? Well, in a very very trivial sense, yes. However,
