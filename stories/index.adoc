@@ -1,0 +1,15 @@
+= Short stories 🍲
+email <ctu [at] ku [dot] edu>
+About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
+:toc: preamble
+:toclevels: 4
+:toc-title: Table of Adventures ⛵
+:nofooter:
+:experimental:
+:!figure-caption:
+
+This is an (incomplete) collection of short stories that I wrote here
+and there. Some of them were for fun. Some of them for a gag. Some of
+them for assignments that didn't ask for it. Please enjoy!
+
+== link:./aristotle[That time I spoke with Aristotle about his virtue ethics and Sufism]

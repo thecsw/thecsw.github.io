@@ -1,8 +1,8 @@
 * My cozy blog 🏮
 
-  Here is a list of my articles I have online. I hope you will find some of
-  them interesting and you can learn something new! Always learn something
-  new!
+Here is a list of my articles I have online. I hope you will find some of
+them interesting and you can learn something new! Always learn something
+new!
 
 *** Software
   * [[./emacs-macos][Using emacs on macOS (M1) 🍎]]

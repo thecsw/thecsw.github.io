@@ -2,6 +2,7 @@
 ** Welcome 🌷
 *** 🀏 [[./blogs][My cozy blog 🏮]]
 *** 🀀 [[./projects][Cool projects ☕]]  
+*** 🀃 [[./stories][Short stories 🍲]]
 *** 🀁 [[./arts][L'Esthétique 🎨]]
 *** 🀅 [[./web][This Website 🌐]]
 *** 🀇 [[./soul][For your soul 💃]]
