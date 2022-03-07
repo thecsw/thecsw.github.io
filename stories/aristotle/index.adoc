@@ -8,6 +8,15 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :experimental:
 :!figure-caption:
 
+++++
+<hr>
+++++
+.The story cover
+image::preview.png[The story cover, link="preview.png"]
+++++
+<hr>
+++++
+
 I went to a pub that recently opened in our town. Beautiful wooden
 floors, old-style lanterns hanging on the walls, and a rich atmosphere
 with interesting folk. A nice table caught my eye and while sitting, I
