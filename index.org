@@ -3,7 +3,7 @@
 *** 🀏 [[./blogs][My cozy blog 🏮]]
 *** 🀀 [[./projects][Cool projects ☕]]  
 *** 🀃 [[./stories][Short stories 🍲]]
-*** 🀎 [[./anime][サンディのアニメ 🍶]]
 *** 🀁 [[./arts][L'Esthétique 🎨]]
 *** 🀅 [[./web][This Website 🌐]]
 *** 🀇 [[./soul][For your soul 💃]]
+*** 🀎 [[./anime][サンディのアニメ 🍶]]

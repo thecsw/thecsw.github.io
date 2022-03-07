@@ -11,10 +11,10 @@ Welcome 🌷
 
 ### 🀃 [Short stories 🍲](./stories)
 
-### 🀎 [サンディのアニメ 🍶](./anime)
-
 ### 🀁 [L\'Esthétique 🎨](./arts)
 
 ### 🀅 [This Website 🌐](./web)
 
 ### 🀇 [For your soul 💃](./soul)
+
+### 🀎 [サンディのアニメ 🍶](./anime)
