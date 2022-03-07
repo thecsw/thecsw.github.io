@@ -255,3 +255,7 @@ an anime night'
 consciously with virtue', he said as he left the pub.
 
 I looked around. No one else is here. Am I all alone?
+
+HORLINE
+
+Original PDF is [available here](./aristotle.pdf)
