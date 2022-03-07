@@ -99,8 +99,8 @@ to finally act. All I need to pull that trigge….
 <hr>
 ++++
 
-This story was written as _Individual Report VI_ for my Computer Science
-thesis.
+This story was written as link:./report6.pdf[Individual Report VI] for
+my Computer Science thesis.
 
 ++++
 <hr>
