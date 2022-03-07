@@ -1,7 +1,7 @@
 # Fix the youtube links
 s|YOUTUBE~|YOUTUBE|g
 s|([^~ ])~([^~ ])|\1_\2|g
-s|PIC ([^<>]+):([^<>]+)|![\2](\1)|
+s|PIC ([^<>]+)::([^<>]+)|![\2](\1)|
 
 # Fix some of the image links
 s|_\.png|.png|g

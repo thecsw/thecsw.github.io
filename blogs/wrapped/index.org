@@ -68,7 +68,7 @@ SPOTIFYPLAYLIST 59bal0ZSNOlRC6jwhu0ocw
 Let's do a vibe check on my music taste. What kind of an aura do I have? It's
 *dramatic* and *considerate*. Well said, I like the colors
 
-PIC aura.png:My Audio Aura
+PIC aura.png::My Audio Aura
 
 What about genres? The stats say I listened to 32 different genres this year and
 my top genres are
@@ -87,6 +87,6 @@ was /Shiro Sagisu/. I'm in his top 3% of listeners this year ¯\\_(ツ)_/¯
 
 Finally, here is a quick breakdown of my spotify wrapped
 
-PIC wrapped.png:Wrapped Overview
+PIC wrapped.png::Wrapped Overview
 
 Thanks for reading! See you next time

@@ -348,8 +348,8 @@ you are and thus just lets you be yourself.
 
 ** Pictures
 
-PIC pic1.png:Writing my website in tmux
+PIC pic1.png::Writing my website in tmux
 
-PIC pic2.png:My desktop
+PIC pic2.png::My desktop
 
-PIC pic3.png:i3 with =cowsay=, =pipes.sh=, =htop=, =neofetch=
+PIC pic3.png::i3 with =cowsay=, =pipes.sh=, =htop=, =neofetch=
