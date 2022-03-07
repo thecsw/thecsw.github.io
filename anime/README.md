@@ -1,8 +1,8 @@
 ![preview](./preview.png)
-Sandy\'s anime ✂️
-=================
+Sandy\'s anime 🍶
+================
 
-Sandy is (not) a weeb.
+**Sandy is (not) a weeb.**
 
 I also enjoy watching some good anime, so here is my VHS-esque shelf
 full of anime as a bonus! See some selected reviews at the bottom. I

@@ -260,4 +260,13 @@ I looked around. No one else is here. Am I all alone?
 
 HORLINE
 
-Original PDF is [available here](./aristotle.pdf)
+This story was written as [paper](./aristotle.pdf) for my Islam Ethics
+course. Inspired by Plato\'s
+[Republic](https://en.wikipedia.org/wiki/Republic_(Plato)). Aristotle
+was based on his [Nicomachean
+Ethics](https://en.wikipedia.org/wiki/Nicomachean_Ethics). The title is
+something I wanted to base on Fujino Ōmori\'s [Is It Wrong to Try to
+Pick Up Girls in a
+Dungeon?](https://en.wikipedia.org/wiki/Is_It_Wrong_to_Try_to_Pick_Up_Girls_in_a_Dungeon%3F)
+
+HORLINE

@@ -13,6 +13,8 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK
 
 === 🀃 link:./stories[Short stories 🍲]
 
+=== 🀎 link:./anime[サンディのアニメ 🍶]
+
 === 🀁 link:./arts[L'Esthétique 🎨]
 
 === 🀅 link:./web[This Website 🌐]
