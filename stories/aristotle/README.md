@@ -2,6 +2,8 @@
 That time I spoke with Aristotle about his virtue ethics and Sufism
 ===================================================================
 
+![The story cover](preview.png)
+
 I went to a pub that recently opened in our town. Beautiful wooden
 floors, old-style lanterns hanging on the walls, and a rich atmosphere
 with interesting folk. A nice table caught my eye and while sitting, I
