@@ -10,3 +10,5 @@ of them for assignments that never asked for it. Please enjoy!
 
 -   [That time I spoke with Aristotle about his virtue ethics and
     Sufism](./aristotle)
+-   [Today must be the day when I get the courage](./today)
+-   [Write a report? But I want to go to Taco Bell](./tacobell)

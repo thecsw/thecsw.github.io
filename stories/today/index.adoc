@@ -1,0 +1,107 @@
+= Today must be the day when I get the courage
+email <ctu [at] ku [dot] edu>
+About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
+:toc: preamble
+:toclevels: 4
+:toc-title: Table of Adventures ⛵
+:nofooter:
+:experimental:
+:!figure-caption:
+
+Today must be the day. How could it not? Tonight's the night. Look at
+the stars, marvel at their beauty. The breeze is so fresh as if it came
+flying straight from the Mediterranean lands. On a quiet night such as
+this, it is no secret that the leaves of nearby trees are all singing of
+God. The Universe itself is singing a lullaby, preparing its
+subordinates to fall asleep before the new tomorrow. Must be a shame
+that it will all end for me today. It must be today.
+
+On my quick walk back home, I saw a girl running across the street. I
+couldn't tell why she was running, it was pretty late, she has to go to
+bed soon. Little bush noises I heard right before make me believe she
+was playing with a ball that flew in there, whilst of all, she was
+searching for it. Some people do have good genes, what a beautiful
+child. I'm sure her parents love her dearly. This must be my corner to
+get back home.
+
+"Mister, mister!", I heard suddenly from behind. It was that same girl
+but tainted with a weird and scared look in her eyes. Am I really that
+detestable at first sight? "Mister, mister! Have you seen my mom?".
+Thank God. It wasn't me, she's just lost. How will I look for her
+mother? Where should I start? Is it all right for a man to hold hands
+with a girl? I am looking for her mother and trying to help her. I had
+to do none of that, as her mother appeared right around the corner, all
+worried, but at the sight of her daughter, I could feel the air of
+relief soothing her.
+
+"Thank you, mister!". That girl probably thinks it was all thanks to me.
+That I simply willed her mom into existence, or I should say to appear
+right in front of us. I wonder if she will remember this short encounter
+between us. No matter, she probably won't. I hope she has a good and
+long life in front of her. But what I do know is that I will.
+Eventually, this is my last day on Earth. This little, short, yet
+precious memory this girl gave me is what I will take with me. I should
+be thankful.
+
+I'm home. It feels good to be home. The weather today was definitely
+something that I could never ask better of. I sat down at my desk,
+crawled my hand under a little napkin on the table. "It's still here,
+good", I said out loud. Why would it not be? The loaded revolver I've
+been keeping under this napkin for good two months now. Every day I try
+to finally push myself to do it. Finally, get enough courage in me to
+exclaim profoundly - "This is it! This is how I must go". But I never
+do. Last moment, before I pull the trigger, something holds me back. I
+question whether it is my cowardice or something that doesn't want to
+see me go.
+
+I thought of this long and hard. Sometimes, I try not to think of it too
+much and take it more naturally. What is life? Why am I here? Does it
+matter what I do, what I feel? And what, if I'm learning how to use
+Flutter to create cross-platform GUI applications, who is going to need
+that? The designs I created for the application, with how all those
+pretty little tabs align and give the user the power to choose different
+configurations plus settings for different devices. Do they amount for
+anything? Is this really all there is to life? Doing one thing this week
+and planning me showing the designs to the team, and also getting a
+working dummy Flutter MVP working? The naive me hoped there is more.
+
+Is today really the day? Thinking back, I see that girl in front of me.
+Wait, she smiled. Yes, yes! After she saw her mother, she looked at me
+with the most lively and hope-filled eyes I have ever seen, and she
+smiled. She smiled as I used to when I was a boy. This is life and the
+Universe telling me it is okay. There are better people in this world
+than me. Why should I be a hindrance to them, for that little girl? She
+will live life, there is no rational nor emotional need for anyone like
+me around people like her. They deserve to live because they yet possess
+that joy for life.
+
+Thank you. I can finally go in peace now. If that little girl can hear
+me, I wish you live a happy life. Doing what you feel doing, loving
+sincerely, supporting your mother, and being friends with yourself. Your
+little smile proved to me that it will be okay. I thought the Universe
+and reality would go when I go. But today I saw, it must go on, but
+without me. I can leave them to a better-off world with hope. They will
+never read GTK documentation pages, learn the C++ boost library, or
+learn how to convert cartesian coordinates for IMU data interpretation.
+It is going to be a life of hope for them that I could never afford, me,
+who already lost the taste before ever feeling it.
+
+I made up my mind. The resolve is what matters. Thank you for your
+smile. You gave me life and courage. The life of what comes after me and
+the courage to make that life happen for all of you. I slowly get the
+napkin out of the table's way. I see the beautiful metalwork of the
+revolver. The soft candlelight is reflecting beautifully. What a sight
+to behold. Shakespeare said - "Courage isn't the absence of fear, but
+acting in spite of it". I'm scared, but her smile gives me enough will
+to finally act. All I need to pull that trigge….
+
+++++
+<hr>
+++++
+
+This story was written as _Individual Report VI_ for my Computer Science
+thesis.
+
+++++
+<hr>
+++++
