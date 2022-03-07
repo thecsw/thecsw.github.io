@@ -16,3 +16,5 @@ of them for assignments that never asked for it. Please enjoy!
 
 * link:./aristotle[That time I spoke with Aristotle about his virtue
 ethics and Sufism]
+* link:./today[Today must be the day when I get the courage]
+* link:./tacobell[Write a report? But I want to go to Taco Bell]

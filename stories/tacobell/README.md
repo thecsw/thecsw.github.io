@@ -1,0 +1,66 @@
+![preview](./preview.png)
+Write a report? But I want to go to Taco Bell
+=============================================
+
+Nothing felt the same as it used to. I looked around the room,
+everything seems to be in place, but... this feeling. This feeling of
+uneasiness and doubts is sinking deeper and deeper into me. Stuff like
+this always happens for the wrong reasons, at the wrong times. I think
+to myself, why do I allow it to get to me?
+
+I need to go and get a breath of fresh air, see friends, and live a
+little bit. There I go again, *living*. Am I not *living* right now? No
+matter, the more I go into it in this state of mind, the more I will get
+lost in this never ending stream of verbal bazaar. I haven\'t been to
+Taco Bell in a while, I wonder what it\'s like.
+
+Weird, I don\'t like Mexican food, it overwhelms my tastebuds and my
+digestive system is just not friends with it. But I\'m craving for it
+big time. Last time I was there, life was different, people around me
+were different. Not in a good or a bad way. Just different.
+
+I walk down the street. I should probably call someone over in that
+phone booth. Who should I call? I don\'t know, all I do know is that I
+want to talk to someone. I walk into the booth, look right, and I freeze
+in terror. I see a dark figure approaching the booth. Not just walking
+in the same direction, but coming here.
+
+The menacing figure grows larger, footsteps get louder, and finally, I
+hear it say \"Yo Sandy, what are you doing here?\". Ah, it\'s my friend
+Rodrigo. \"I\'m alright, what are you doing here?\", I asked. There was
+no reply. \"Listen, Sandy, don\'t forget to submit the individual report
+tonight\", he told me after an awkward second pause, which he didn\'t
+seem to mind.
+
+\"Ah yes, thank you, I\'ll do that!\", I replied hastily, not knowing
+where it came from or where it\'s gonna go. \"Good, chao\" is what I
+heard from Rodrigo as he quickly parted our impromptu rendezvous spot.
+My mind started writing the individual report, what did I do this week?
+
+Well, I do keep everyone in the group on pace with our deadlines and
+sprints. Conducting code reviews is a big part of the job that I enjoy,
+so I reviewed the new features developed by the team this week and
+tested them out on different machines. Finally, I worked with Grant on
+forming our documentation foundation, where we would log tech details as
+a database.
+
+\"That should be enough\", I said to myself quitely. Speaking of quiet,
+the phone hasn\'t been so quiet for a hot second. It\'s been ringing for
+a little while, I was deep in my thoughts. Shouldn\'t I have callen
+someone? Why is someone calling this random booth? I pick up the phone.
+
+\"Don\'t imply your plan for next week..\", the phone uttered and hung
+up immediately. Ah, I see. Next week I am planning to start designing
+the final consolidator for all of our armband/eyetracker features, and
+working with the team with accommodating all the functionality and
+libraries\' APIs.
+
+I left the phone booth, the mission was complete now. My hunger hasn\'t
+died down yet, why should it have? Now, where is that Taco Bell...
+
+HORLINE
+
+This story was written as *Individual Report IV* for my Computer Science
+thesis.
+
+HORLINE
