@@ -8,6 +8,13 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :experimental:
 :!figure-caption:
 
+Welcome! *VMAGI* is a small emulator/interpreter my friend
+https://github.com/matthewsanetra[Matthew] and I challenged each other
+to build in 24 hours. This includes both the implementation of the
+interpreter and creating your own ISA/3ac/IR for it that it will run on
+top of. If you want to see Matthew's implementation, go to
+https://github.com/matthewsanetra/sandy_isa[his repository].
+
 ++++
 <hr>
 ++++
@@ -16,13 +23,6 @@ image::preview.png[VMAGI: You can (not) interpret, link="preview.png"]
 ++++
 <hr>
 ++++
-
-Welcome! *VMAGI* is a small emulator/interpreter my friend
-https://github.com/matthewsanetra[Matthew] and I challenged each other
-to build in 24 hours. This includes both the implementation of the
-interpreter and creating your own ISA/3ac/IR for it that it will run on
-top of. If you want to see Matthew's implementation, go to
-https://github.com/matthewsanetra/sandy_isa[his repository].
 
 My friend https://github.com/Username-ejg-not-available[Ethan] also
 joined us on this competition and completed
