@@ -5,6 +5,10 @@ About_LINK | Bookshelf_LINK | Fortunes_LINK | Home_LINK
 :experimental:
 :!figure-caption:
 
+== 69; 12022 H.E.
+
+*nice*
+
 == 59; 12022 H.E.
 
 I'm useless and a masochist inside
