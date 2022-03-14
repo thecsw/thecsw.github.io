@@ -181,11 +181,11 @@ April 22nd, 2020
  doppelganger. The figures below show how over the years, David Lynch embraced
  gore, violence, and mysticism into his work.
 
-PIC exper.png::Experiment
+[[exper.png][Experiment]]
 
-PIC tree.png::The Arm
+[[tree.png][The Arm]]
 
-PIC darya.png::Darya
+[[darya.png][Darya]]
 
 ** The consumption of Twin Peaks
 

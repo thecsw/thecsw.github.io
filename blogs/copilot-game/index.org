@@ -22,7 +22,7 @@
   second attempt, so I gave it =def start(self):= to nudge copilot into giving me
   what I had right before) and just pressing tabs.
 
-  YOUTUBE Im_13hXjIl0
+  [[https://youtu.be/Im_13hXjIl0][Im_13hXjIl0]]
 
   You can get the python file [[./start.py][here]].
   
