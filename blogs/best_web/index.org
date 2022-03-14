@@ -7,46 +7,64 @@ with links! The list is completely biased
 
 *** Oh these?
 [[https://youtu.be/DczHdNwooY4][DczHdNwooY4]]
+
 *** let down your hair, girl
 [[https://youtu.be/9r-rAW0gm0s][9r-rAW0gm0s]]
+
 *** Hot enough to fry an egg
 [[https://youtu.be/5fmRXFbFRr4][5fmRXFbFRr4]]
+
 *** Sour
 [[https://youtu.be/x19HCw64J7s][x19HCw64J7s]]
+
 *** The gift of creation
 [[https://youtu.be/hFztL7tnk-s][hFztL7tnk-s]]
+
 *** Duality
 [[https://youtu.be/11eMV_yJXZw][11eMV_yJXZw]]
+
 *** Damn, boy
 [[https://youtu.be/j5gDiXNjhEc][j5gDiXNjhEc]]
+
 *** Improvisational Comedy
 [[https://youtu.be/huJ81Mq2y34][huJ81Mq2y34]]
+
 *** Me and the boys
 [[https://youtu.be/Kk6pw-PHiK0][Kk6pw-PHiK0]]
+
 *** D City Rock - We are Angels [Anarchy]
 [[https://youtu.be/5KN0_-HgWNo][5KN0_-HgWNo]]
+
 *** Gendo's paradise
 [[https://youtu.be/lP9DKGhUiaY][lP9DKGhUiaY]]
+
 *** The prophecy is true
 [[https://youtu.be/uwmeH6Rnj2E][uwmeH6Rnj2E]]
+
 *** Why is the milk gone
 [[https://youtu.be/KjeKiIa7XEk][KjeKiIa7XEk]]
+
 *** Scent Of A Woman - Tango scene
 [[https://youtu.be/0V0bMhYWz48][0V0bMhYWz48]]
+
 *** 009 Sound System
 [[https://youtu.be/GsWFMgzdfoE][GsWFMgzdfoE]]
+
 *** Scrabble story
-    [[https://youtu.be/9czoezm2vqw][9czoezm2vqw]]
+[[https://youtu.be/9czoezm2vqw][9czoezm2vqw]]
+
 *** Ferris Bueller's Parade
-    [[https://youtu.be/tRcv4nokK50][tRcv4nokK50]]
+[[https://youtu.be/tRcv4nokK50][tRcv4nokK50]]
+
 *** Sharpest stand-up
-    [[https://youtu.be/kyBH5oNQOS0][kyBH5oNQOS0]]
+[[https://youtu.be/kyBH5oNQOS0][kyBH5oNQOS0]]
+
 *** Best functional programming 
-    [[https://youtu.be/a9xAKttWgP4][a9xAKttWgP4]]
+[[https://youtu.be/a9xAKttWgP4][a9xAKttWgP4]]
 
-    Here is an APL keyboard in unicode characters as a bonus:
+Here is an APL keyboard in unicode characters as a bonus:
 
-    #+begin_src
+#+begin_src
 ╔════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦═════════╗
 ║ ~  ║ !⌶ ║ @⍫ ║ #⍒ ║ $⍋ ║ %⌽ ║ ^⍉ ║ &⊖ ║ *⍟ ║ (⍱ ║ )⍲ ║ _! ║ +⌹ ║         ║
 ║ `◊ ║ 1¨ ║ 2¯ ║ 3< ║ 4≤ ║ 5= ║ 6≥ ║ 7> ║ 8≠ ║ 9∨ ║ 0∧ ║ -× ║ =÷ ║ BACKSP  ║
@@ -60,4 +78,4 @@ with links! The list is completely biased
 ║             ║ Z  ║ Xχ ║ C¢ ║ V  ║ B£ ║ N  ║ M  ║ <⍪ ║ >⍙ ║ ?⍠ ║          ║
 ║  SHIFT      ║ z⊂ ║ x⊃ ║ c∩ ║ v∪ ║ b⊥ ║ n⊤ ║ m| ║ ,⍝ ║ .⍀ ║ /⌿ ║  SHIFT   ║
 ╚═════════════╩════╩════╩════╩════╩════╩════╩════╩════╩════╩════╩══════════╝
-    #+end_src
+#+end_src

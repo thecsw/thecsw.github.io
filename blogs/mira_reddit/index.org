@@ -21,15 +21,13 @@ praw. Golang's great features as goroutines are used to implement the streaming
 functionality. Let's dive straight into it!
 
 ** Installing
-
 mira can be installed like any other go package, just run 
 
- #+BEGIN_SRC sh
-   go get -u github.com/thecsw/mira
- #+END_SRC
+#+BEGIN_SRC sh
+go get -u github.com/thecsw/mira
+#+END_SRC
 
 ** Introduction
-
 mira requires you to authenticate via reddit by supplying reddit tokens. Other
 methods of authing should be implemented. Maybe you are the chosen one?
 
@@ -37,7 +35,6 @@ For authentication, take a look at mira's readme, we will get to the cream of
 the crops and actual features.
 
 ** Basic reddit
-
 You can post submissions and submit/reply/edit/delete comments. You can also
 grab N number of submissions from any subreddit, paginate through them, and
 other exciting stuff! Below is some basic functionality example.
@@ -47,7 +44,6 @@ other exciting stuff! Below is some basic functionality example.
 #+end_export
 
 ** Streaming
-
 Streaming Reddit data is probably the most exciting part of using mira and
 usually the top reason of using any Reddit API wrappers. When you want to run a
 stream of submissions/comments/replies, mira will give you a channel where it
@@ -73,17 +69,16 @@ works. If you have more suggestions, I'm happy to wait for your PR!
 Similar API is available for other Reddit entities and objects. For example,
 mira currently supports:
 
-  - =r.Me().StreamCommentReplies()=
-  - =r.Me().StreamMentions()=
-  - =r.Redditor(...).StreamComments()=
-  - =r.Submission(...).StreamComments()=
-  - =r.Redditor(...).StreamSubmissions()=
-  - =r.Submission(...).StreamSubmissions()=
+- =r.Me().StreamCommentReplies()=
+- =r.Me().StreamMentions()=
+- =r.Redditor(...).StreamComments()=
+- =r.Submission(...).StreamComments()=
+- =r.Redditor(...).StreamSubmissions()=
+- =r.Submission(...).StreamSubmissions()=
 
 The names are very Java like and I hope they are intuitive
 
 ** Extending mira
-
 The library only supports ~15 endpoints. Reddit has well over 50-60. Mira
 exposes its caller =Reddit.MiraRequest(httpMethod, endpoint, payload)= and http
 request handler, so you can build your own mira callers and work with them!

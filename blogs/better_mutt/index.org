@@ -3,9 +3,9 @@
 November 27th, 2019
 
 ** Abstract
-   Hello there! This is an article on advanced neomutt features that might have
-   been missed in my [[../using_mutt][previous article]] on (neo)mutt. This page has been inspired by
-   [[https://github.com/neomutt/neomutt/issues/1958][some of the issues]] I had with neomutt and the fantastic neomutt community. 
+Hello there! This is an article on advanced neomutt features that might have
+been missed in my [[../using_mutt][previous article]] on (neo)mutt. This page has been inspired by
+[[https://github.com/neomutt/neomutt/issues/1958][some of the issues]] I had with neomutt and the fantastic neomutt community. 
 
 ** Named Mailboxes
 With release [[https://github.com/neomutt/neomutt/tree/20191102][20191102]], neomutt team has introduced named-mailboxes features,
@@ -33,7 +33,7 @@ named-mailboxes "∃ Drafts" ='Drafts'
 After launching neomutt, it gives me nice custom sidebar with a dope delimeter
 
 #+BEGIN_EXAMPLE
-  ―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
+ ―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
 ↓ Inbox [32]       3568│ 2 |   [11-27-19 09:07:01] Bill      All rights reserved.
 ↑ Sent              797│ 3 |   [11-27-19 06:07:02] Lao Tse   Difficult Paths
 ∇ Trash             359│ 4 |   [11-27-19 06:59:18] Mando     This is the way
@@ -45,7 +45,6 @@ After launching neomutt, it gives me nice custom sidebar with a dope delimeter
 mailboxes (looking at you, Journal) as delimeters. 
 
 ** Threads
-
 I have been looking around how to do threads and I finally found out
 how. Usually, mutt just gives you your mail all in one blob of a list. With
 threads, you can have beautiful trees of replies, threads, forwards, and more!

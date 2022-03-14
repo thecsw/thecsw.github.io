@@ -24,14 +24,12 @@ This is not an exhaustive guide or a full walkthrough of what LUKS is and how it
 works. Just something to get youstarted. Possible cloud solutions at the end
 
 *** Preparation
-
- Backup all your data on your thumb drive, because we will need to erase
- everything from it and rewrite the filesystem tables.
+Backup all your data on your thumb drive, because we will need to erase
+everything from it and rewrite the filesystem tables.
 
 NOTE: =%= symbolizes the shell prompt. 
 
 *** Setting it up
-
 Let =/dev/sdb= be your USB drive. Be careful, we don't want to accidentally wipe
 everything out on your hard drive. Follow the instructions 
 
@@ -55,7 +53,6 @@ with =ext4=
 #+END_SRC
 
 *** Mounting the drive
-
 Let's write something to the drive. =/mnt/flash= is some mounting target
 
 #+BEGIN_SRC sh
@@ -77,7 +74,6 @@ After we're done, do the usual thing by unmounting it
 #+END_SRC
 
 *** closeLUKS
-
 Don't forget we have to close the LUKS drive and dump the encryption details
 
 #+BEGIN_SRC sh
@@ -85,7 +81,6 @@ Don't forget we have to close the LUKS drive and dump the encryption details
 #+END_SRC
 
 *** Closing thoughts
-
 Voilà! You now have fully encrypted and secure drive. Next time, just don't
 forget the sequence of cryptopen, mount, ???, unmount, and cryptclose. If you
 are looking for trusty cloud solutions, try out [[https://keybase.io/][Keybase]]. It's a great e2e
