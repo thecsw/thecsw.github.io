@@ -34,8 +34,6 @@
 
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <title>Bring joy back to email with Mutt 🐕</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/asciidoctor.css">
@@ -219,18 +217,38 @@ and so <a href="http://www.mutt.org/">much more!</a>
 <div class="paragraph">
 <p><code>offlineimap</code> as a UNIX application, uses a configuration file, conveniently called <code>.offlineimaprc</code>. To make things easier, touch the file in your home directory or open your favorite tex editor, <em>emacs</em>, and write down the following: </p>
 </div>
-<div class="paragraph">
-<p>~/.offlineimaprc ---------------- [general] metadata = ~/.offlineimap accounts = mymail socktimeout = 60 </p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight">
+<code class="language-" data-lang="">~/.offlineimaprc
+----------------
+[general]
+metadata = ~/.offlineimap
+# You can change mymail to something else
+accounts = mymail
+socktimeout = 60
+
+[Account mymail]
+localrepository = local-mymail
+remoterepository = remote-mymail
+
+[Repository local-mymail]
+type = Maildir
+localfolders = ~/.mail/mymail
+
+[Repository remote-mymail]
+type = IMAP
+remotehost = imap.site.com # edit this
+remoteuser = myusername # edit this
+remotepass = mypassword # edit this
+ssl = yes
+realdelete = no
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+</code>
+</pre>
 </div>
-<div class="paragraph">
-<p>[Account mymail] localrepository = local-mymail remoterepository = remote-mymail </p>
 </div>
-<div class="paragraph">
-<p>[Repository local-mymail] type = Maildir localfolders = ~/.mail/mymail </p>
-</div>
-<div class="paragraph">
-<p>[Repository remote-mymail] type = IMAP remotehost = imap.site.com # edit this remoteuser = myusername # edit this remotepass = mypassword # edit this ssl = yes realdelete = no sslcacertfile = /etc/ssl/certs/ca-certificates.crt </p>
-</div>
+
 <div class="paragraph">
 <p>This config file just gives us some details about how to contact the IMAP server and how to save it. <code>_mymail_</code> is any name of your choice. For my university mail, I have it named <code>kumail</code>, feel free to name it whatever name is convenient for you. </p>
 </div>
@@ -297,45 +315,78 @@ and so <a href="http://www.mutt.org/">much more!</a>
 <div class="paragraph">
 <p>Just to get you started, the drill is the same as the last time, but now it would be called <code>~/.muttrc</code> The config file has a lot of different entries, so to keep it short, I will include the config file and it will be an exercise for the reader to get the meaning of the entries (this will be simple, I promise). </p>
 </div>
-<div class="paragraph">
-<p>set folder=&#34;~/.mail/mymail&#34; mailboxes = +INBOX mailboxes = +&#39;Sent Items&#39; mailboxes = +&#39;Deleted Items&#39; set spoolfile = +INBOX set trash = +&#39;Deleted Items&#39; set postponed = +&#39;Drafts&#39; set record = +&#39;Sent Items&#39; </p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight">
+<code class="language-" data-lang=""># This should go to ~/.muttrc
+# Set up all the folders
+set folder="~/.mail/mymail"
+mailboxes = +INBOX
+mailboxes = +'Sent Items'
+mailboxes = +'Deleted Items'
+set spoolfile = +INBOX
+set trash = +'Deleted Items'
+set postponed = +'Drafts'
+set record = +'Sent Items'
+
+# Sort by reverse date
+set sleep_time = 0
+set sort = 'reverse-date'
+
+# Default sending charset
+set send_charset="utf-8"
+
+# SMTP FOR SENDING EMAIL
+set realname="Big Lebowski" # edit this
+set my_user=myusername # edit this
+set my_pass=mypassword # edit this
+set from = myaddress@example.com # edit this
+set smtp_url=smtp://$my_user:$my_pass@authsmtp.site.com:587 # edit this
+
+# Sending mail options
+set edit_headers=yes
+set use_from = yes
+set fast_reply=yes
+set include=no
+
+# SSL options
+set ssl_force_tls = yes
+set ssl_starttls = yes
+
+# Default text editor
+set editor = $EDITOR
+
+# Ways to open the mail messages
+auto_view text/html
+alternative_order text/plain text/html
+
+# Headers
+my_hdr X-Info: Keep It Simple, Stupid.
+my_hdr X-Operating-System: `uname -s`, kernel `uname -r`
+my_hdr User-Agent: Every email client sucks, this one just sucks less.
+
+set markers = no
+set mark_old = no
+
+set forward_format = "Fwd: %s"       # format of subject when forwarding
+set forward_decode                   # decode when forwarding
+set forward_quote                    # include message in forwards
+set reverse_name                     # reply as whomever it was to
+#set include                          # include message in replies
+
+auto_view text/html
+auto_view application/pgp-encrypted
+alternative_order text/plain text/enriched text/html
+set rfc2047_parameters = yes
+
+# Date and index formatting styles
+set date_format="%m-%d-%y %T"
+set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
+</code>
+</pre>
 </div>
-<div class="paragraph">
-<p>set sleep_time = 0 set sort = &#39;reverse-date&#39; </p>
 </div>
-<div class="paragraph">
-<p>set send_charset=&#34;utf-8&#34; </p>
-</div>
-<div class="paragraph">
-<p>set realname=&#34;Big Lebowski&#34; # edit this set my_user=myusername # edit this set my_pass=mypassword # edit this set from = myaddress@example.com # edit this set smtp_url=smtp://\(my_user:\)my_pass@authsmtp.site.com:587 # edit this </p>
-</div>
-<div class="paragraph">
-<p>set edit_headers=yes set use_from = yes set fast_reply=yes set include=no </p>
-</div>
-<div class="paragraph">
-<p>set ssl_force_tls = yes set ssl_starttls = yes </p>
-</div>
-<div class="paragraph">
-<p>set editor = $EDITOR </p>
-</div>
-<div class="paragraph">
-<p>auto_view text/html alternative_order text/plain text/html </p>
-</div>
-<div class="paragraph">
-<p>my_hdr X-Info: Keep It Simple, Stupid. my_hdr X-Operating-System: `uname -s`, kernel `uname -r` my_hdr User-Agent: Every email client sucks, this one just sucks less. </p>
-</div>
-<div class="paragraph">
-<p>set markers = no set mark_old = no </p>
-</div>
-<div class="paragraph">
-<p>set forward_format = &#34;Fwd: %s&#34;       # format of subject when forwarding set forward_decode                   # decode when forwarding set forward_quote                    # include message in forwards set reverse_name                     # reply as whomever it was to #set include                          # include message in replies </p>
-</div>
-<div class="paragraph">
-<p>auto_view text/html auto_view application/pgp-encrypted alternative_order text/plain text/enriched text/html set rfc2047_parameters = yes </p>
-</div>
-<div class="paragraph">
-<p>set date_format=&#34;%m-%d-%y %T&#34; set index_format=&#34;%2C | %Z [%d] %-30.30F (%-4.4c) %s&#34;# -*-muttrc-*- </p>
-</div>
+
 <div class="paragraph">
 <p>You can easily leave everything as it is, just edit all the lines with <code># edit this</code>. Please pay a close attention to the line <code>set smtp_url...</code>. You have to find your SMTP server address and port number (usually 587). After that, your email should be operational! </p>
 </div></div>
@@ -406,12 +457,20 @@ and so <a href="http://www.mutt.org/">much more!</a>
 <div class="paragraph">
 <p>Make your signature in the <code>~/.mutt/mysig.sig</code>, for example </p>
 </div>
-<div class="paragraph">
-<p>~/.mutt/mysig.sig ----------------- Jack Bauer </p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight">
+<code class="language-" data-lang="">~/.mutt/mysig.sig
+-----------------
+Jack Bauer
+
+Director of C.T.U.
+Don't call me
+</code>
+</pre>
 </div>
-<div class="paragraph">
-<p>Director of C.T.U. Don&#39;t call me </p>
 </div>
+
 <div class="paragraph">
 <p>Add the line below to include your signature in every new email message. <code>set signature = &#34;$HOME/.mutt/mysig.sig&#34;</code> </p>
 </div></div>

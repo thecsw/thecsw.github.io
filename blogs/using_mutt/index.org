@@ -134,7 +134,7 @@ conveniently called =.offlineimaprc=. To make things easier, touch the
 file in your home directory or open your favorite tex editor, /emacs/,
 and write down the following:
 
-#+BEGIN_EXAMPLE
+#+BEGIN_src
 ~/.offlineimaprc
 ----------------
 [general]
@@ -159,7 +159,7 @@ remotepass = mypassword # edit this
 ssl = yes
 realdelete = no
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
-#+END_EXAMPLE
+#+END_src
 
 This config file just gives us some details about how to contact the
 IMAP server and how to save it. =_mymail_= is any name of your choice.
@@ -230,7 +230,7 @@ entries, so to keep it short, I will include the config file and it will
 be an exercise for the reader to get the meaning of the entries (this
 will be simple, I promise).
 
-#+BEGIN_EXAMPLE
+#+BEGIN_src
 # This should go to ~/.muttrc
 # Set up all the folders
 set folder="~/.mail/mymail"
@@ -295,7 +295,7 @@ set rfc2047_parameters = yes
 # Date and index formatting styles
 set date_format="%m-%d-%y %T"
 set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
-#+END_EXAMPLE
+#+END_src
 
 You can easily leave everything as it is, just edit all the lines with
 =# edit this=. Please pay a close attention to the line
@@ -357,14 +357,14 @@ password if you set up one.
 
 Make your signature in the =~/.mutt/mysig.sig=, for example
 
-#+BEGIN_EXAMPLE
+#+BEGIN_src
 ~/.mutt/mysig.sig
 -----------------
 Jack Bauer
 
 Director of C.T.U.
 Don't call me
-#+END_EXAMPLE
+#+END_src
 
 Add the line below to include your signature in every new email message.
 =set signature = "$HOME/.mutt/mysig.sig"=
