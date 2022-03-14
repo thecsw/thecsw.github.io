@@ -5,6 +5,7 @@ them interesting and you can learn something new! Always learn something
 new!
 
 *** Software
+- [[./web-legacy][Building this website (Legacy) 🌐]]
 - [[./emacs-macos][Using emacs on macOS (M1) 🍎]]
 - [[./copilot-game][Write a whole game with Copilot 🎱]]
 - [[./web-toolbox][Essential toolbox for the web 🧰]]
