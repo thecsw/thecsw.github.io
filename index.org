@@ -1,7 +1,8 @@
 * Sandy's Website 🚀
 ** Welcome 🌷
-*** 🀏 [[./blogs][My cozy blog 🏮]]
-*** 🀀 [[./projects][Cool projects ☕]]  
-*** 🀃 [[./stories][Short stories 🍲]]
-*** 🀁 [[./arts][L'Esthétique 🎨]]
-*** 🀎 [[./anime][サンディのアニメ 🍶]]
+*** 🀢 [[./blogs][My cozy blog 🏮]]
+*** 🀣 [[./projects][Cool projects ☕]]  
+*** 🀤 [[./stories][Short stories 🍲]]
+*** 🀥 [[./arts][L'Esthétique 🎨]]
+# *** 🀦 [[./darkness][I love Darkness 🥬]]
+*** 🀧 [[./anime][サンディのアニメ 🍶]]
