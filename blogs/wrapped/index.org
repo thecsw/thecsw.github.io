@@ -20,7 +20,7 @@ It has a kick. I watched [[https://en.wikipedia.org/wiki/BNA%3A_Brand_New_Animal
 ending song became my go-to programming jam. I'll have spotify embeds sprinkled
 around this page.
 
-SPOTIFY 54BW4qpq5ms4bnzBgiWVOo
+[[https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo][spotify track]]
 
 Besides the very top one, what other songs have I had on repeat that crawled
 themselves to my top songs list?
@@ -31,7 +31,7 @@ home. There is just something about sharply-dressed demon girls and a top-down
 2D puzzle game with amazing character design. The game is actually free! It was
 so good, I bought the pancake recipe to support [[https://twitter.com/vanripperart][vanripper]] for the game he made.
 
-SPOTIFY 4i0oGvIIrkoTLNCYJWnMvh
+[[https://open.spotify.com/track/4i0oGvIIrkoTLNCYJWnMvh][spotify track]]
 
 Moving in and out is always a bit of a stressful and *lonely* experience. I
 remember I had to move into a new apartment and I was just by myself after
@@ -39,14 +39,14 @@ spending some quality time with my family. Loving Evangelion and everything
 associated with it, I would play *Misato* theme by /Shiro Sagisu/. It made me feel
 less lonely and more upbeat, instantly cozying up the atmosphere. I was at home.
 
-SPOTIFY 0E9W4ZDAl2ceQSJI8TOgOS
+[[https://open.spotify.com/track/0E9W4ZDAl2ceQSJI8TOgOS][spotify track]]
 
 Well, what can I say about playing *Fly Me To the Moon*, the Evangelion version? I
 actually prefer it to Frank Sinatra's version, simply because, like man, anime
 music just hits *different*. This one has such a calming and a warm hug kind of a
 feeling. It's something that's just history now.
 
-SPOTIFY 6o97UuQmaxccF95fdt9PPR
+[[https://open.spotify.com/track/6o97UuQmaxccF95fdt9PPR][spotify track]]
 
 Last but not least. *What A Life* by /Scarlet Pleasure/. If you haven't seen [[https://en.wikipedia.org/wiki/Another_Round_(film)][Another
 Round]] with /Mads Mikkelsen/, well, highly highly recommend it. I've always had a
@@ -56,37 +56,37 @@ shouldn't feel like that. Largely, European cinematography has more subtlety to
 their soul and it feels. Carefully treading the themes of alcoholism and being
 alive. The song is an *absolute banger* and I rarely say that about anything.
 
-SPOTIFY 2zWivfUQjnXyUozQOrSCVc
+[[https://open.spotify.com/track/2zWivfUQjnXyUozQOrSCVc][spotify track]]
 
 Other honorable mentions that go right after the top 5 are: [[https://open.spotify.com/track/4EkbGJChszyxhEP0bIwBSZ][Sorairo Days]] by
 /Shoko Nagawa/ (Gurren Lagann), [[https://open.spotify.com/track/0DI3WNmIyfi2GZLQwhYDQC][Komm, süsser Tod]] (Evangelion), [[https://open.spotify.com/track/0oCP1Vu9LGVP88atKzOswC][ambiguous]] (Kill la
 Kill), [[https://open.spotify.com/track/3eltl3hwhMakKmc2K7flgY][Ready To]] (BNA), [[https://open.spotify.com/track/7olMFQZhjN2EHf7ra2PjE7][Fly Away]] by /TeddyLoid/ (Panty & Stocking with Garterbelt),
 and more! You can see the whole top playlist below
 
-SPOTIFYPLAYLIST 59bal0ZSNOlRC6jwhu0ocw
+[[https://open.spotify.com/playlist/59bal0ZSNOlRC6jwhu0ocw][spotify track]]
 
 Let's do a vibe check on my music taste. What kind of an aura do I have? It's
 *dramatic* and *considerate*. Well said, I like the colors
 
-PIC aura.png::My Audio Aura
+[[aura.png][My Audio Aura]]
 
 What about genres? The stats say I listened to 32 different genres this year and
 my top genres are
 
-1. Anime
-2. Classical piano
-3. Cool jazz
-4. Bossa nova
-5. Icelandic indie
+- Anime
+- Classical piano
+- Cool jazz
+- Bossa nova
+- Icelandic indie
 
 *nice*
 
 In addition, I listened to 404 (insert a =NOT FOUND= jape here) different
 artists. Due to my sheer obsession with =Neon Genesis Evangelion=, my top artist
-was /Shiro Sagisu/. I'm in his top 3% of listeners this year ¯\\_(ツ)_/¯
+was /Shiro Sagisu/. I'm in his top 3% of listeners this year ¯\_(ツ)_/¯
 
 Finally, here is a quick breakdown of my spotify wrapped
 
-PIC wrapped.png::Wrapped Overview
+[[wrapped.png][Wrapped Overview]]
 
 Thanks for reading! See you next time
