@@ -201,7 +201,8 @@ h3,
 #myface {
         display: block;
 }
-@media all and (max-width: 499px) {
+/* You can change 1px to 499px to hide on mobile screens */
+@media all and (max-width: 1px) {
         #myface {
                 display: none;
         }
