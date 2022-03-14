@@ -1,12 +1,12 @@
 title = "Sandy's Website 🚀"
-url = "https://sandyuraz.com"
-#url = "/Users/thecsw/gits/sandyuraz"
+#url = "https://sandyuraz.com"
+url = "/Users/thecsw/gits/sandyuraz"
 
 [website]
 locale = "en_GB"
 color = "#fffff4"
 twitter = "@sandyuraz"
-styles = ["css/asciidoctor.css", "css/web.css"]
+styles = ["css/web.css"]
 tombs = ["blogs", "anime", "arts"]
 exclude = ["present"]
 
