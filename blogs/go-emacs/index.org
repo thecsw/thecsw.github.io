@@ -11,7 +11,6 @@ quite a task with so many different modules and addons available. This is a
 comfortable setup I found for myself and I wish to share it. /Demo below!/
 
 ** Getting dependencies
-
 One of many great things about Go is its tooling environment. You can write any
 tools and implement your ideas with ease. 
 
@@ -30,11 +29,12 @@ your local repo of packages by running kbd:[M-x package-refresh-contents].
 You can install packages by running kbd:[M-x package-install PACKAGE-NAME]
 
 Here is the list:
- - [[https://github.com/auto-complete/auto-complete][auto-complete]] - An Intelligent auto-completion extension for Emacs
- - [[https://github.com/dominikh/go-mode.el][go-mode]] - Emacs mode for the Go programming language 
- - [[https://github.com/vibhavp/go-complete][go-complete]] - Native Go completion for Emacs 
- - [[https://melpa.org/#/go-autocomplete][go-autocomplete]] - auto-complete-mode backend for go-mode
- - [[https://github.com/capitaomorte/autopair][autopair]] - Automagically pair braces and quotes in emacs like TextMate 
+
+- [[https://github.com/auto-complete/auto-complete][auto-complete]] - An Intelligent auto-completion extension for Emacs
+- [[https://github.com/dominikh/go-mode.el][go-mode]] - Emacs mode for the Go programming language 
+- [[https://github.com/vibhavp/go-complete][go-complete]] - Native Go completion for Emacs 
+- [[https://melpa.org/#/go-autocomplete][go-autocomplete]] - auto-complete-mode backend for go-mode
+- [[https://github.com/capitaomorte/autopair][autopair]] - Automagically pair braces and quotes in emacs like TextMate 
 
 ** Config
 
@@ -44,36 +44,33 @@ formatting, code completion, parenthesis matching, dot completion (!), and jump
 to definition.
 
 #+BEGIN_SRC emacs-lisp
-  ;; Init the auto complete modules
-  (ac-config-default)
-  (global-auto-complete-mode t)
-  (require 'go-autocomplete)
+;; Init the auto complete modules
+(ac-config-default)
+(global-auto-complete-mode t)
+(require 'go-autocomplete)
 
-  ;; Enable auto-complete
-  (auto-complete-mode 1)
+;; Enable auto-complete
+(auto-complete-mode 1)
 
-  ;; Define keymaps
-  (define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
-  (global-set-key (kbd"C-c C-c") 'godef-jump)
+;; Define keymaps
+(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
+(global-set-key (kbd"C-c C-c") 'godef-jump)
 
-  ;; Set some quick config vals
-  (setq ac-auto-start 1)
-  (setq ac-auto-show-menu 0.8)
+;; Set some quick config vals
+(setq ac-auto-start 1)
+(setq ac-auto-show-menu 0.8)
 
-  ;; Just to make sure go tools are enabled
-  (add-to-list 'exec-path "~/go/bin")
+;; Just to make sure go tools are enabled
+(add-to-list 'exec-path "~/go/bin")
 
-  ;; Automatically format code on save
-  (setq gofmt-command "goimports")
-  (add-hook 'before-save-hook 'gofmt-before-save)
-  (add-hook 'go-mode-hook 'auto-complete-for-go)
+;; Automatically format code on save
+(setq gofmt-command "goimports")
+(add-hook 'before-save-hook 'gofmt-before-save)
+(add-hook 'go-mode-hook 'auto-complete-for-go)
 #+END_SRC
 
 After that, just reload your emacs and you should have full go environment
 installed! 
 
 ** Demo
-
-.Gopher in emacs
-
-image::demo.svg[demo.svg, role="center", link="./demo.svg"]
+[[demo.svg][Gopher in emacs]]

@@ -73,11 +73,11 @@ Let's do a vibe check on my music taste. What kind of an aura do I have? It's
 What about genres? The stats say I listened to 32 different genres this year and
 my top genres are
 
-1. Anime
-2. Classical piano
-3. Cool jazz
-4. Bossa nova
-5. Icelandic indie
+- Anime
+- Classical piano
+- Cool jazz
+- Bossa nova
+- Icelandic indie
 
 *nice*
 
