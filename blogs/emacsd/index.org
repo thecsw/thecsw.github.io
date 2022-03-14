@@ -40,8 +40,8 @@ question. =emaclient= can execute a kill command for the daemon
 =emacsclient= can get old real quick. I like adding super simple aliases for
 faster opening
 
- - **bash** - put =alias em = "emacsclient -nw"= in =~/.bashrc=
- - **fish** - put =alias em = "emacsclient -nw"= in =~/.config/fish/config.fish=
+ - *bash* - put =alias em = "emacsclient -nw"= in =~/.bashrc=
+ - *fish* - put =alias em = "emacsclient -nw"= in =~/.config/fish/config.fish=
 
 ** Systemd daemon
 

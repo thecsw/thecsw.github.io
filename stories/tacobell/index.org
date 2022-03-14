@@ -52,8 +52,8 @@ team with accommodating all the functionality and libraries' APIs.
 I left the phone booth, the mission was complete now. My hunger hasn't died down
 yet, why should it have? Now, where is that Taco Bell...
 
-HORLINE
+---
 
 This story was written as [[./report4.pdf][Individual Report IV]] for my Computer Science thesis.
 
-HORLINE
+---
