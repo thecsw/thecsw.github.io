@@ -1,74 +1,69 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="canonical" href="https://sandyuraz.com/projects/lenna" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="https://sandyuraz.com/favicon.ico" type=""/>
+
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="email">
-<link rel="canonical" href="https://sandyuraz.com/projects/lenna/">
-<meta property="og:image" content="https://sandyuraz.com/projects/lenna/preview.png">
-<meta property="og:image:alt" content="Preview">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1280">
-<meta property="og:image:height" content="640">
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-<link rel="icon" href="/favicon.ico">
-<meta property="og:site_name" content="Sandy&apos;s Website">
-<meta property="og:url" content="https://sandyuraz.com/projects/lenna/">
-<meta property="og:locale" content="en_GB">
-<meta property="og:type" content="website">
-<meta name="theme-color" content="#fffff4">
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:site" content="Sandy&apos;s Website">
-<meta property="twitter:creator" content="@sandyuraz">
-<meta property="twitter:image:src" content="https://sandyuraz.com/projects/lenna/preview.png">
-<meta property="twitter:url" content="https://sandyuraz.com/projects/lenna/">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="email">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="MATH 596: Computational Data Science by [[https://erikvv.ku.edu][Erik S. Van Vleck]] was quite a tri...">
+<meta name="og:title" property="og:title" content="Compress images with PCA  🎱">
+<meta name="og:site_name" property="og:site_name" content="Sandy&amp;#39;s Website 🚀">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/projects/lenna">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https://sandyuraz.com/preview.png">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/png">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="MATH 596: Computational Data Science by [[https://erikvv.ku.edu][Erik S. Van Vleck]] was quite a tri...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy&amp;#39;s Website 🚀">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/preview.png">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/projects/lenna">
+<meta name="twitter:title" property="twitter:title" content="Compress images with PCA  🎱">
+<meta name="twitter:description" property="twitter:description" content="MATH 596: Computational Data Science by [[https://erikvv.ku.edu][Erik S. Van Vleck]] was quite a tri...">
+
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
-<script async src="/scripts/time.js"></script>
-<meta property="og:title" content="Compress images with PCA 🎱">
-<meta property="twitter:title" content="Compress images with PCA 🎱">
-<meta property="description" content="MATH 596: Computational Data Science by Erik S....">
-<meta property="og:description" content="MATH 596: Computational Data Science by Erik S....">
-<meta property="twitter:description" content="MATH 596: Computational Data Science by Erik S....">
-<title>Compress images with PCA 🎱</title>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>Compress images with PCA  🎱</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/asciidoctor.css">
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
 <body class="article">
+
 <div id="header">
-<h1><img id="myface" src="/small.png" width="100">Compress images with PCA 🎱</h1>
+<h1><img id="myface" src="https://sandyuraz.com/najimi.png" width="112" height="112">Compress images with PCA  🎱</h1>
 <div class="details">
 <span id="author" class="author">email</span><br>
 <span id="email" class="email">ctu [at] ku [dot] edu</span><br>
-<span id="revdate"><a href="/about">About 🤔</a> | <a href="/books">Bookshelf 📖</a> | <a href="/fortunes">Fortunes 🥠</a> | <a href="/">Home 🏠</a></span>
+<span id="revdate">
+<a href="https://sandyuraz.com/about">About 🤔</a> | <a href="https://sandyuraz.com/books">Bookshelf 📖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🥠</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
 </div>
 <div id="hetime" class="details"></div>
 </div>
 <div id="content">
+
 <div class="paragraph">
-<p>MATH 596: Computational Data Science by <a href="https://erikvv.ku.edu">Erik S.
-Van Vleck</a> was quite a trip. The philosophy of the course was
-"sink-or-swim", which means that you either succeed in the class and
-what&#8217;s expected or you just fail it completely. Never have I ever gone
-through a more brutal multivariate statistics crash course. I must admit
-that I met some wonderful people there that I never would have had a
-chance to make an acquaintance with, if it weren&#8217;t for this class.</p>
+<p>MATH 596: Computational Data Science by <a href="https://erikvv.ku.edu">Erik S. Van Vleck</a> was quite a trip. The philosophy of the course was &#34;sink-or-swim&#34;, which means that you either succeed in the class and what&#39;s expected or you just fail it completely. Never have I ever gone through a more brutal multivariate statistics crash course. I must admit that I met some wonderful people there that I never would have had a chance to make an acquaintance with, if it weren&#39;t for this class. </p>
 </div>
 <div class="paragraph">
-<p>Our first small project was applying
-<a href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal
-Component Analysis (PCA)</a> to some old or new problems. I liked the
-theory and wanted to see how well I can compress images, therefore
-extracting the most important (principal, haha) components of a data set
-and present an approximation of it by only using a fraction of the
-original set. I did in in python, I recommend running <code>lenna.py</code> if
-you&#8217;re curious to see how it works.</p>
+<p>Our first small project was applying <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal Component Analysis (PCA)</a> to some old or new problems. I liked the theory and wanted to see how well I can compress images, therefore extracting the most important (principal, haha) components of a data set and present an approximation of it by only using a fraction of the original set. I did in in python, I recommend running <code>lenna.py</code> if you&#39;re curious to see how it works. </p>
 </div>
 <div class="paragraph">
-<p>&#8594; <a href="https://git.sr.ht/~thecsw/lenna/tree">Go to the PCA image compression
-code files</a></p>
+<p>-&gt; <a href="https://git.sr.ht/~thecsw/lenna/tree">Go to the PCA image compression code files</a>  <b style="color:#ba3925">◼︎</b></p>
 </div>
 </div>
+</div>
+
 </body>
 </html>
