@@ -77,8 +77,8 @@ reflecting beautifully. What a sight to behold. Shakespeare said - "Courage
 isn't the absence of fear, but acting in spite of it". I'm scared, but her smile
 gives me enough will to finally act. All I need to pull that trigge....
 
-HORLINE
+---
 
 This story was written as [[./report6.pdf][Individual Report VI]] for my Computer Science thesis.
 
-HORLINE
+---
