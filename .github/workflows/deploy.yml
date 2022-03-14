@@ -18,7 +18,7 @@ jobs:
 
       - name: Darkness 😳
         run: |
-          ./darkness build 
+          ./darkness.com build 
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
