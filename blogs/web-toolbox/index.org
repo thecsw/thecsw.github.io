@@ -3,7 +3,6 @@
 218; 12020 H.E.
 
 ** Abstract
-
    Internet is a great place for content and cat videos, but also really bad
    stuff, like traumatizing advertisements, endless user data collection, and
    straight-up spying. This page is a soft introduction into some tools,
@@ -13,7 +12,6 @@
    /Call it an internet usage etiquette./ -- Matthew, my friend
 
 ** Adblockers
-
    Allowing people use the Internet without an adblocker is a violation of
    Geneva Conventions. What an adblocker does is block ads and those noisy
    webpage elements that jump at you or show unholy pictures. More on that
@@ -25,7 +23,6 @@
    block specific elements manually.
 
 ** Trackers
-
    [[https://edu.gcfglobal.org/en/internetsafety/understanding-browser-tracking/1/][Browser tracking]] is one of those evil things that came into web couple of
    years ago. Essentially, every time you visit a website, it saves a small
    piece of data in your browser (cookie), where later it will allow any other
@@ -38,7 +35,6 @@
    and where you're heading off next.
 
 ** Browser scripts
-
    [[https://en.wikipedia.org/wiki/JavaScript][JavaScript]] is one of the saddest technological developments that we
    wholeheartedly embraced. JS is code that runs in your browser. Almost all of
    the  buttons you clicked, forms filled, animations played, and even pages
@@ -56,7 +52,6 @@
    I allowed some specific JS sources and it never bothered me again.
 
 ** IP Tracking
-
    By the definition of how we do networking, every web resource is able to see
    the origin's (user's) IP address, thus the unique web identifier of the
    Internet. It takes no effort to [[https://en.wikipedia.org/wiki/IP_traceback][trace IP back]] to ISPs, precise locations, and

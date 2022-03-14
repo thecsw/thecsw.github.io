@@ -18,7 +18,7 @@ little different, because the show is *so short*, yet *so incredibly dense*, I'l
 making quick comments on my favorite parts and linking other essays that will do
 a better job explaining the core of Fooly Cooly.  
 
-PIC best.png::NEVER KNOWS BEST 
+[[best.png][NEVER KNOWS BEST ]]
 
 FLCL is furiously fast-paced, unapologetic in what it is trying to do, and most
 of all, it is also *highly* experimental. Everything ranging from the art style,
@@ -27,7 +27,7 @@ something you would not witness anywhere else, not even close. Oh my god, FLCL
 is accompanied by fabulous [[http://pillows.jp][the pillows]], whose songs go so hard that it almost
 feels as if it came from outer space. Please give the one below a good listen.  
 
-YOUTUBE acrLRi7juX8 
+[[https://youtu.be/acrLRi7juX8 ][acrLRi7juX8 ]]
 
 Have you ever seen a [[https://youtu.be/qmYt-zAW2aY?list=PLWyV9Ojt6_BlwTmnDtvHTCtq1cpUTz5Hr&t=656][whole scene]] animated as if it were a manga? I'm not talking
 about /Yakuza Turned Housewife/, which is a PowerPoint with voices over. I'm
@@ -44,7 +44,7 @@ into its world, into its commitment to its belief, while keeping you
 energetically warm and excited for what comes next. This is the best I can put
 when typing this late at night, just because I felt I had to write about it.   
 
-PIC haruhara.png::Haruko Haruhara
+[[haruhara.png][Haruko Haruhara]]
 
 Fooly Cooly is a coming-of-age story. Accepting yourself, your life, taking
 responsibility for your actions, stopping whining about life, and instead,
