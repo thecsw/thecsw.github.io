@@ -16,7 +16,7 @@ that is there across the room. It must be him. That is Aristotle himself.
 ‘Mr. Aristotle?’, I said almost shaking. Imagine how embarrassing it would be
 to mistake a total stranger for a Greek philosopher that apparently lived on for
 2400 years.
-footnote:[Düring, I. (1957). Aristotle in the ancient biographical
+[fn:: Düring, I. (1957). Aristotle in the ancient biographical
 tradition. page 249.]
 
 Aristotle, who was deeper in his thoughts than I initially thought, quickly
@@ -40,7 +40,7 @@ compares to your virtue ethics’
 
 ‘You do have a curious mind. Sufism, remind me, was it a branch of a first
 philosophy?
-footnote:[This is what A. calls a combination of theology and metaphysics]’
+[fn:: This is what A. calls a combination of theology and metaphysics]’
 
 ‘It is more of a branch of an existing religion, of Islam’
 
@@ -85,7 +85,7 @@ who wrote about it
 nature of our actions themselves. Our virtues are exercised in the same kinds of
 action as gave rise to them. Virtues are created as a result of an action and
 activities that flow from them will also consist in the same sort of actions.’
-footnote:[(1955). The ethics of aristotle. translated by jak thomson. Penguin
+[fn:: (1955). The ethics of aristotle. translated by jak thomson. Penguin
 Books, pages 94—95.] 
 
 ‘So it's like training a physical body? With plenty of nourishment, the more I
@@ -108,7 +108,7 @@ called Courage.’
 ‘Pythagoras used to say that failure is possible in many ways, but success is only
 one. This is why the former is easy, yet the latter is difficult. Easy to
 miss, yet hard to hit right’
-footnote:[Burkert, W. et al. (1972). /Lore and science in ancient Pythagoreanism/,
+[fn:: Burkert, W. et al. (1972). /Lore and science in ancient Pythagoreanism/,
 page 363. Harvard University Press.] 
 
 ‘And this is why excess and deficiency fall under evil, and the Mean is Good’
@@ -123,7 +123,7 @@ religions operate, but a personal relationship that you develop through
 devotion, through love for God. In this sense, it is similar to our virtue
 ethics, through a continuous string of events, challenges, and practices, can we
 reach the state of /becoming one/, of /annihilation of self/.’
-footnote:[Gülen, F. and Gülen, M. F. (2004). /Key concepts in the practice of
+[fn:: Gülen, F. and Gülen, M. F. (2004). /Key concepts in the practice of
 Sufism: emerald hills of the heart/, volume 3, page 108. Tughra Books.] 
 
 ‘What does /annihilation of self/ here refer to?’, Aristotle asked me with
@@ -133,7 +133,7 @@ intrigue in his voice.
 shield from God, thus recognizing your fundamental unity with God and all
 Creation. People who experience this talk about the intrinsic connection between
 Allah and all that exists, breaking down the barriers of an individual's mind.’
-footnote:[fana in
+[fn:: fana in
 britannica. https://www.britannica.com/topic/fana-Sufism. Accessed on March 
 4th, 2022.]
 
@@ -176,7 +176,7 @@ life if you will, is about patience and the constant strive of personal
 integrity and generosity of spirit. By your standards and by the standards of
 Sufists, we have to live by actions, by virtuous actions, which themselves later
 flow into their own virtuous activities.’
-footnote:[Durkee, N. (1991). The school of the shadhdhuliyyah: I orisons.]
+[fn:: Durkee, N. (1991). The school of the shadhdhuliyyah: I orisons.]
 
 ‘I like you are going, continue!’, Aristotle exclaimed while having a taste of
 the tangy Swiss Gruyere, to truly open up all the flavors from combining red
@@ -202,7 +202,7 @@ is so deep within their consciousness, located at the root of Islamic identity
 politics that it has been the point of debates regarding the governance of
 democratically set-up nation-states. Muslims believe any legal system that is
 not Sharia must be anti-Islam’
-footnote:[Stewart, D. J. (2013). /The Princeton Encyclopedia of Islamic Political
+[fn:: Stewart, D. J. (2013). /The Princeton Encyclopedia of Islamic Political
 Thought. Gerhard Böwering, Patricia Crone (ed.)/, page 500. Princeton University
 Press.]  
 
