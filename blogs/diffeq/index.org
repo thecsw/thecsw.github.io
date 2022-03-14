@@ -152,6 +152,7 @@ assuming $f$ is piecewise continuous and of exponential order.
 
 Table of common transformations:
 
+#+begin_src
 | $f(t)$        | $\mathcal{L}\{f\}(s)$ |
 |---------------+-----------------------|
 | $1$           | $\frac{1}{s}$         |
@@ -160,6 +161,7 @@ Table of common transformations:
 | $\cos(bt)$    | $\frac{s}{s^2+b^2}$   |
 | $u(t-a)$      | $\frac{e^{-as}}{s}$   |
 | $\delta(t-a)$ | $e^{-as}$             |
+#+end_src
 
 Where $u(t)$ is the [[https://en.wikipedia.org/wiki/Heaviside_step_function][Heaviside step function]] and $\delta(t)$ is the [[https://en.wikipedia.org/wiki/Dirac_delta_function][Dirac
 delta function]].
