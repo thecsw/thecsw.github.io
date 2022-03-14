@@ -21,7 +21,7 @@ slower in plot progression, fewer amazing battles or heroic encounters, but more
 of an introspective into our daily routine that life is made out of. It is
 extremely calming and simply... welcoming! I would even dare to say wholesome.  
 
-PIC rit.png::Rit welcomes you
+[[rit.png][Rit welcomes you]]
 
 Reading some reviews that people left, they criticize people for liking this
 genre for being too "naïve" and "simple-minded" to enjoy this isekai genre. In
@@ -49,7 +49,7 @@ watching the show, which is a very good sign. The atmosphere is not the only
 thing it has to offer, there is a big question that was being pondered, let's
 talk!   
 
-PIC wink.png::We're on the same page here
+[[wink.png][We're on the same page here]]
 
 /Banished/ looks at the old question of "What is life?" and "What does it mean to
 be successful in life?" As Gideon was in the Hero's Party with Ruti, battling
@@ -74,7 +74,7 @@ This is quite a departure from any good review. We'll keep ongoing. Let's talk
 about the characters and the show more specifically then! Mostly, about Gideon,
 Rit, and Ruti.   
 
-PIC bench.png::It's all about the human touch
+[[bench.png][It's all about the human touch]]
 
 Gideon had an amazing caliber of humbleness and empathy towards around him,
 which makes a notable difference for the best in your immediate surroundings. He
@@ -90,7 +90,7 @@ a realm where we try to approach life more philosophically. Instead of
 expecting, we just do what we do at the moment and have what comes at us. I feel
 it takes an incredible discipline to be this much at peace with yourself.  
 
-PIC welcome.png::I bid your welcome
+[[welcome.png][I bid your welcome]]
 
 Rit was in a similar situation to Gideon (Red), as they miraculously met once
 again after departing in their previous adventures together. She also does have
@@ -116,10 +116,10 @@ situation. Life might be too short to care too much and spend too much time on
 something that goes against your will. /Banished/ teaches you living *your* life and
 no one else's.
 
-PIC ruti.png::Be true to yourself, dare to say... happy
+[[ruti.png][Be true to yourself, dare to say... happy]]
 
 Also, the opening song never fails to brighten up the mood for me  
 
-SPOTIFY 4IuiAmZd248MLAntebZFKo 
+[[https://open.spotify.com/track/4IuiAmZd248MLAntebZFKo ][spotify track]]
 
 That's all! Thank you for reading 

@@ -25,7 +25,7 @@ reddit bot that recognizes commands to invest in memes? Let's all create and
 account and see what's it's about!! Oh crap. The measely text file corrupted
 with number of writes and it of course [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzetc6b][crashed]]
 
-PIC create.png::MemeInvestor_bot went down
+[[create.png][MemeInvestor_bot went down]]
 
 Hey mom, dad, I need to go upstairs real quick. Be right back. Okay. I remember
 like a week ago I've heard about this thing called /S-Q-L-Lite?/ I don't know how
@@ -39,24 +39,24 @@ hungry, let me go downstairs and have faith in my coding
 
 [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeefkl][Early investors]] saw very good returns
 
-PIC 300.png::My man, I have invested 300 in this meme, don’t let me down
+[[300.png][My man, I have invested 300 in this meme, don’t let me down]]
 
 [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzecssj][Some people]] even liked the new feature!
 
-PIC invest.png::I finally understand this subreddit
+[[invest.png][I finally understand this subreddit]]
 
 [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeeev4][Some]] even bet their everything
 
-PIC fullinvest.png::ballsy move, will it pay?
+[[fullinvest.png][ballsy move, will it pay?]]
 
 You might wonder, how did the bot work back then? Here is the [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzet1ec][help message]] and
 available commands at the time
 
-PIC help.png::!help
+[[help.png][!help]]
 
 And here are the [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzed7e6][messages]] with investment updates
 
-PIC update.png::!invest
+[[update.png][!invest]]
 
 And 15 thousand more messages that are just =!create=, =!invest=, and
 =!balance=. Dinner was good and I'm happy with how this little meme investor

@@ -7,12 +7,16 @@ anime as a bonus! See some selected reviews at the bottom. I also keep my [[http
 library up-to-date with my progress
 
  #+BEGIN_SRC
-
-
-                    ┌───────────────────┐
-                    │    Re:Zero kara   │
-                    │  Hajimeru Isekai  │
- ┌──────────────────┤ Seikatsu 2 Part 2 │
+ ┌──────────────────┐
+ │  Kono Subarashii │
+ │     Sekai ni     ├───────────────────┐
+ │  Shukufuku wo!:  │  Kono Subarashii  │
+ │ Kurenai Densetsu │     Sekai ni      │
+ ├──────────────────┤  Shukufuku wo! 2  │
+ │  Kono Subarashii ├───────────────────┤
+ │     Sekai ni     │    Re:Zero kara   │
+ │   Shukufuku wo!  │  Hajimeru Isekai  │
+ ├──────────────────┤ Seikatsu 2 Part 2 │
  │ Kimetsu no Yaiba:├───────────────────┤
  │    Yuukaku─hen   │    Re:Zero kara   │
  ├──────────────────┤  Hajimeru Isekai  │
@@ -118,9 +122,9 @@ library up-to-date with my progress
 Please see some selected reviews below! It's just me talking about the show and
 going in my own thought process of what I make of it
 
- * [[./flcl][FLCL 🎸]]
- * [[./bunny][Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai 🐇❤️]]
- * [[./komi][Komi-san wa, Komyushō Desu 🥑]]
- * [[./banished][Banished from the Hero's Party 🪴]]
+- [[./flcl][FLCL 🎸]]
+- [[./bunny][Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai 🐇❤️]]
+- [[./komi][Komi-san wa, Komyushō Desu 🥑]]
+- [[./banished][Banished from the Hero's Party 🪴]]
 
 Don't lose your way!

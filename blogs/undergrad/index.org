@@ -16,7 +16,7 @@ every single course I have taken. I remember everything. To keep it focused,
 this essay will only concentrate on academic life, which is a smaller part of
 all my time, yet an important one as well. *CHARGE!*
 
-PIC campanile.png::My beautiful campus
+[[campanile.png][My beautiful campus]]
 
 ** Fall 2018 
 
@@ -89,7 +89,7 @@ possibly ask for?
 
 *** American Popular Culture of: Shlocks! Thrills!: Trash Cinema 
 
-PIC barbarella.png::Barbarella! This was the poster of our class
+[[barbarella.png][Barbarella! This was the poster of our class]]
 
 Now, this was one of the highlights of my semester. My first film class. It
 wasn't some FILM 101 or intro to film composition, it was a sophomore-junior
@@ -207,9 +207,9 @@ Before that real quick, I went to a [[https://en.wikipedia.org/wiki/Statistical_
 incredible people and statisticians from all over the nation. And there was me,
 a single KU student from Midwest.
 
-PIC samsi1.png::Us taking a bus to the research triangle campus
+[[samsi1.png][Us taking a bus to the research triangle campus]]
 
-PIC samsi2.png::Four folks on Duke campus
+[[samsi2.png][Four folks on Duke campus]]
 
 *** Speaker-Audience Communication, Honors
 
@@ -304,7 +304,7 @@ throughout the semester. For example, for the first project, Professor gave each
 one of us a noodle, like the ones you like to eat, all in different shapes and
 we had to come up with mathematical equations and sets to plot it.
 
-PIC noodle_original.png::The original noodle I got
+[[noodle_original.png][The original noodle I got]]
 
 I got an [[https://en.wikipedia.org/wiki/Orecchiette][Orecchiette]] pasta, which you can see above. I thought of some ways I
 can plot it. Maybe a half of a sphere with lifted wings? Not
@@ -312,7 +312,7 @@ Cartesian. I settled on making it work with Cylindrical coordinates because it
 is more doable to add those ridges on the pasta's surface. The result is as
 follows 
 
-PIC noodle_plotted.png::My faithful representation of it
+[[noodle_plotted.png][My faithful representation of it]]
 
 Assume that the surface $S$ of this pasta is parametrized by the equations
 

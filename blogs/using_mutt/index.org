@@ -3,18 +3,17 @@
 May 13th, 2019
 
 ** Abstract
- "Electronic mail (email or e-mail) is a method of
- exchanging messages ("mail") between people using electronic devices.
- Invented by Ray Tomlinson, email first entered limited use in the 1960s
- and by the mid-1970s had taken the form now recognized as email."
- [fn::Taken directly from [[https://en.wikipedia.org/wiki/Email][Wikipedia]]] Email has been around for more
- than 50 years now. As we go further on our timeline, folks from new
- generations are starting to forget the beauty of email. This article
- will discuss the problems with the current state of emails and the ways
- to bring back joy into it.
+"Electronic mail (email or e-mail) is a method of
+exchanging messages ("mail") between people using electronic devices.
+Invented by Ray Tomlinson, email first entered limited use in the 1960s
+and by the mid-1970s had taken the form now recognized as email."
+[fn::Taken directly from [[https://en.wikipedia.org/wiki/Email][Wikipedia]]] Email has been around for more
+than 50 years now. As we go further on our timeline, folks from new
+generations are starting to forget the beauty of email. This article
+will discuss the problems with the current state of emails and the ways
+to bring back joy into it.
 
 ** Problems with modern email
-
 When you ask someone to check their email, I am sure they would rather
 use their phone if they do not have one open already on their computer.
 The reason for this is the discomfort people have opening their email
@@ -52,7 +51,6 @@ email client that brings back joy and happiness into emailing each
 other.
 
 ** What is Mutt?
-   
 [[http://www.mutt.org/][Mutt]] is a text-based email client developed by
 Michael Elkins in 1995 for UNIX-like systems. I want to say that this is
 truly the way emails were meant to be used. Before I start getting angry
@@ -85,7 +83,6 @@ talk about the actual setup and what you have to do to be happy with
 your email experience.
 
 ** IMAP and SMTP protocols 
-
 As you might know, email service in itself is relaying on several layers
 of protocols to retrieve and send mail. There is also POP3 protocol
 similar to IMAP. I will not discuss the differences between them, but I
@@ -125,7 +122,7 @@ If you do not have it installed, you can run
 package manager [[https://pypi.org/project/pip/][pip]] to install it.
 
 #+BEGIN_SRC sh
-  % pip install --user offlineimap
+% pip install --user offlineimap
 #+END_SRC
 
 That should get you a fresh copy of =offlineimap=.
@@ -138,30 +135,30 @@ file in your home directory or open your favorite tex editor, /emacs/,
 and write down the following:
 
 #+BEGIN_EXAMPLE
-  ~/.offlineimaprc
-  ----------------
-  [general]
-  metadata = ~/.offlineimap
-  # You can change mymail to something else
-  accounts = mymail
-  socktimeout = 60
+~/.offlineimaprc
+----------------
+[general]
+metadata = ~/.offlineimap
+# You can change mymail to something else
+accounts = mymail
+socktimeout = 60
 
-  [Account mymail]
-  localrepository = local-mymail
-  remoterepository = remote-mymail
+[Account mymail]
+localrepository = local-mymail
+remoterepository = remote-mymail
 
-  [Repository local-mymail]
-  type = Maildir
-  localfolders = ~/.mail/mymail
+[Repository local-mymail]
+type = Maildir
+localfolders = ~/.mail/mymail
 
-  [Repository remote-mymail]
-  type = IMAP
-  remotehost = imap.site.com # edit this
-  remoteuser = myusername # edit this
-  remotepass = mypassword # edit this
-  ssl = yes
-  realdelete = no
-  sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+[Repository remote-mymail]
+type = IMAP
+remotehost = imap.site.com # edit this
+remoteuser = myusername # edit this
+remotepass = mypassword # edit this
+ssl = yes
+realdelete = no
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 #+END_EXAMPLE
 
 This config file just gives us some details about how to contact the
@@ -183,7 +180,7 @@ Just run the command below to synchronize your email server and your
 local mailbox.
 
 #+BEGIN_SRC sh
-  % offlineimap
+% offlineimap
 #+END_SRC
 
 It will take a while to run this command for the first time because it
@@ -211,14 +208,14 @@ favorite flavor of Linux and install a package called =neomutt=. For
 Arch Linux, it just would be
 
 #+BEGIN_SRC sh
-  % sudo pacman -S neomutt
+% sudo pacman -S neomutt
 #+END_SRC
 
 Consult with the [[https://neomutt.org/distro.html][official downloads page]] for a list of the biggest distributions
 and how to install package on them.
 
 *** Configuration
-    
+
 For the sake of brevity, I will brake down the configuration into
 multiple chunks. Firstly, I will talk about basic installation just to
 get a barebone version working, securing your password, and best of them
@@ -234,70 +231,70 @@ be an exercise for the reader to get the meaning of the entries (this
 will be simple, I promise).
 
 #+BEGIN_EXAMPLE
-  # This should go to ~/.muttrc
-  # Set up all the folders
-  set folder="~/.mail/mymail"
-  mailboxes = +INBOX
-  mailboxes = +'Sent Items'
-  mailboxes = +'Deleted Items'
-  set spoolfile = +INBOX
-  set trash = +'Deleted Items'
-  set postponed = +'Drafts'
-  set record = +'Sent Items'
+# This should go to ~/.muttrc
+# Set up all the folders
+set folder="~/.mail/mymail"
+mailboxes = +INBOX
+mailboxes = +'Sent Items'
+mailboxes = +'Deleted Items'
+set spoolfile = +INBOX
+set trash = +'Deleted Items'
+set postponed = +'Drafts'
+set record = +'Sent Items'
 
-  # Sort by reverse date
-  set sleep_time = 0
-  set sort = 'reverse-date'
+# Sort by reverse date
+set sleep_time = 0
+set sort = 'reverse-date'
 
-  # Default sending charset
-  set send_charset="utf-8"
+# Default sending charset
+set send_charset="utf-8"
 
-  # SMTP FOR SENDING EMAIL
-  set realname="Big Lebowski" # edit this
-  set my_user=myusername # edit this
-  set my_pass=mypassword # edit this
-  set from = myaddress@example.com # edit this
-  set smtp_url=smtp://$my_user:$my_pass@authsmtp.site.com:587 # edit this
+# SMTP FOR SENDING EMAIL
+set realname="Big Lebowski" # edit this
+set my_user=myusername # edit this
+set my_pass=mypassword # edit this
+set from = myaddress@example.com # edit this
+set smtp_url=smtp://$my_user:$my_pass@authsmtp.site.com:587 # edit this
 
-  # Sending mail options
-  set edit_headers=yes
-  set use_from = yes
-  set fast_reply=yes
-  set include=no
+# Sending mail options
+set edit_headers=yes
+set use_from = yes
+set fast_reply=yes
+set include=no
 
-  # SSL options
-  set ssl_force_tls = yes
-  set ssl_starttls = yes
+# SSL options
+set ssl_force_tls = yes
+set ssl_starttls = yes
 
-  # Default text editor
-  set editor = $EDITOR
+# Default text editor
+set editor = $EDITOR
 
-  # Ways to open the mail messages
-  auto_view text/html
-  alternative_order text/plain text/html
+# Ways to open the mail messages
+auto_view text/html
+alternative_order text/plain text/html
 
-  # Headers
-  my_hdr X-Info: Keep It Simple, Stupid.
-  my_hdr X-Operating-System: `uname -s`, kernel `uname -r`
-  my_hdr User-Agent: Every email client sucks, this one just sucks less.
+# Headers
+my_hdr X-Info: Keep It Simple, Stupid.
+my_hdr X-Operating-System: `uname -s`, kernel `uname -r`
+my_hdr User-Agent: Every email client sucks, this one just sucks less.
 
-  set markers = no
-  set mark_old = no
+set markers = no
+set mark_old = no
 
-  set forward_format = "Fwd: %s"       # format of subject when forwarding
-  set forward_decode                   # decode when forwarding
-  set forward_quote                    # include message in forwards
-  set reverse_name                     # reply as whomever it was to
-  #set include                          # include message in replies
+set forward_format = "Fwd: %s"       # format of subject when forwarding
+set forward_decode                   # decode when forwarding
+set forward_quote                    # include message in forwards
+set reverse_name                     # reply as whomever it was to
+#set include                          # include message in replies
 
-  auto_view text/html
-  auto_view application/pgp-encrypted
-  alternative_order text/plain text/enriched text/html
-  set rfc2047_parameters = yes
+auto_view text/html
+auto_view application/pgp-encrypted
+alternative_order text/plain text/enriched text/html
+set rfc2047_parameters = yes
 
-  # Date and index formatting styles
-  set date_format="%m-%d-%y %T"
-  set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
+# Date and index formatting styles
+set date_format="%m-%d-%y %T"
+set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
 #+END_EXAMPLE
 
 You can easily leave everything as it is, just edit all the lines with
@@ -324,7 +321,7 @@ password in a very very secure way.
 The following command will get you through everything
 
 #+BEGIN_SRC sh
-  % gpg --gen-key
+% gpg --gen-key
 #+END_SRC
 
 Make a new directory in your home directory with =% mkdir ~/.mutt=
@@ -361,12 +358,12 @@ password if you set up one.
 Make your signature in the =~/.mutt/mysig.sig=, for example
 
 #+BEGIN_EXAMPLE
-  ~/.mutt/mysig.sig
-  -----------------
-  Jack Bauer
+~/.mutt/mysig.sig
+-----------------
+Jack Bauer
 
-  Director of C.T.U.
-  Don't call me
+Director of C.T.U.
+Don't call me
 #+END_EXAMPLE
 
 Add the line below to include your signature in every new email message.

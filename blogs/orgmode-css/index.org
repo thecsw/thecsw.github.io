@@ -11,7 +11,7 @@ You can just add this line here or just use the bare CSS as a starting point to
 make your own (everyone has their own style):
 
 #+BEGIN_SRC org
-#+HTML_HEAD: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.css">
+  ,#+html_head: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.css">
 #+END_SRC
 
 Even a really little makeup can make a big difference! There is a good
@@ -22,4 +22,6 @@ how you can control your org html output. I update that org.css quite frequently
 
 *Before* and *after* (click to enlarge)
 
-PIC example.png::Before and After
+[[example.png][Before and After]]
+
+Thank you
