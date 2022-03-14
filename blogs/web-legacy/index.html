@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="canonical" href="https://sandyuraz.com/web" type=""/>
+<link rel="canonical" href="https://sandyuraz.com/blogs/web-legacy" type=""/>
 <link rel="shortcut icon" href="https://sandyuraz.com/favicon.ico" type="image/x-icon"/>
 <link rel="icon" href="https://sandyuraz.com/favicon.ico" type=""/>
 
@@ -13,9 +13,9 @@
 <meta name="author" property="author" content="email">
 <meta name="theme-color" property="theme-color" content="#fffff4">
 <meta name="description" property="description" content="I love typesetting tools. In my experience, I have used and written articles and papers using the fo...">
-<meta name="og:title" property="og:title" content="This Website 🌐">
+<meta name="og:title" property="og:title" content="Building this website (Legacy) 🌐">
 <meta name="og:site_name" property="og:site_name" content="Sandy&amp;#39;s Website 🚀">
-<meta name="og:url" property="og:url" content="https://sandyuraz.com/web">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/web-legacy">
 <meta name="og:locale" property="og:locale" content="en_GB">
 <meta name="og:type" property="og:type" content="website">
 <meta name="og:image" property="og:image" content="https://sandyuraz.com/preview.png">
@@ -28,13 +28,13 @@
 <meta name="twitter:site" property="twitter:site" content="Sandy&amp;#39;s Website 🚀">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/preview.png">
-<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/web">
-<meta name="twitter:title" property="twitter:title" content="This Website 🌐">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/web-legacy">
+<meta name="twitter:title" property="twitter:title" content="Building this website (Legacy) 🌐">
 <meta name="twitter:description" property="twitter:description" content="I love typesetting tools. In my experience, I have used and written articles and papers using the fo...">
 
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
-<title>This Website 🌐</title>
+<title>Building this website (Legacy) 🌐</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/asciidoctor.css">
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
@@ -42,7 +42,7 @@
 <body class="article">
 
 <div id="header">
-<h1><img id="myface" src="https://sandyuraz.com/najimi.png" width="112" height="112">This Website 🌐</h1>
+<h1><img id="myface" src="https://sandyuraz.com/najimi.png" width="112" height="112">Building this website (Legacy) 🌐</h1>
 <div class="details">
 <span id="author" class="author">email</span><br>
 <span id="email" class="email">ctu [at] ku [dot] edu</span><br>
@@ -53,6 +53,18 @@
 </div>
 <div id="content">
 
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">NOTE</div>
+</td>
+<td class="content">
+Everything below is the legacy version of the website that has been building up for good two to three years. On the night of March 13th, <a href="https://github.com/thecsw/darkness">darkness</a> took over the building, reducing average build time from 7-8s to &lt;100ms. There will be a link to <code>darkness</code> on the home page. The legacy version can be accessed on a <a href="https://github.com/thecsw/thecsw.github.io/tree/legacy-source">separate branch</a> 
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: <code>LaTeX</code>, <code>groff</code>, <code>markdown</code>, <code>Org-Mode</code>, <code>asciidoctor</code>, <code>HTML</code>, <code>plain text</code>. I had to decompress Word files and wrestle with raw XML files there, what a trip that was. </p>
 </div>
@@ -68,57 +80,57 @@
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-" data-lang="">           ───────────────
-       ───/               \───
-      /                       \
-     (   Commit push triggers  )
-      \     github workflow   /
-       ───\               /───
-           ────────/──────
-                  /
-        Makefile /
-                 │
-                /
-   ┌───────────o────┐     pandoc
-   │   org files    ├────────────────┐
-   └───────┬────────┘                │
-           │                         │
-           │                         │
-           │ pandoc                  │
-           │                         │
-   ┌───────┴───────────┐   ┌─────────┴───────────┐
-   │ asciidoctor files │   │   README.md files   │
-   └─────────┬─────────┘   └─────────────────────┘
-             │
-             │
-              \ sed script
-              │
-    ┌─────────o─────────┐
-    │ modified asciid.  │
-    └────────┬──────────┘
-             │
-             │
-              \ asciidoctor
-              │
-    ┌─────────o─────────┐
-    │  generated HTML   │
-    └────────┬──────────┘
-             │
-             │
-            /  sed scripts
+<code class="language-" data-lang="">          ───────────────
+      ───/               \───
+     /                       \
+    (   Commit push triggers  )
+     \     github workflow   /
+      ───\               /───
+          ────────/──────
+                 /
+       Makefile /
+                │
+               /
+  ┌───────────o────┐     pandoc
+  │   org files    ├────────────────┐
+  └───────┬────────┘                │
+          │                         │
+          │                         │
+          │ pandoc                  │
+          │                         │
+  ┌───────┴───────────┐   ┌─────────┴───────────┐
+  │ asciidoctor files │   │   README.md files   │
+  └─────────┬─────────┘   └─────────────────────┘
             │
-    ┌───────o───────────┐
-    │ pretty HTML files │
-    └───────────────────┘
-          ─/
-        ─/
-      ──      ───────────────
-        o────/               \────
-        /      Push files to      \
-       ( master and deploy to Pages)
-        \                         /
-         ────\               /────
-              ───────────────
+            │
+             \ sed script
+             │
+   ┌─────────o─────────┐
+   │ modified asciid.  │
+   └────────┬──────────┘
+            │
+            │
+             \ asciidoctor
+             │
+   ┌─────────o─────────┐
+   │  generated HTML   │
+   └────────┬──────────┘
+            │
+            │
+           /  sed scripts
+           │
+   ┌───────o───────────┐
+   │ pretty HTML files │
+   └───────────────────┘
+         ─/
+       ─/
+     ──      ───────────────
+       o────/               \────
+       /      Push files to      \
+      ( master and deploy to Pages)
+       \                         /
+        ────\               /────
+             ───────────────
 </code>
 </pre>
 </div>
@@ -132,6 +144,9 @@
 </div>
 <div class="paragraph">
 <p>Astrie talks to me through Telegram, where I send her various commands, such as adding quotes and she <a href="https://github.com/thecsw/thecsw.github.io/commit/4f39fb7479112e1d116475dad8ed7415c5ba10e6">patiently abides</a>. I&#39;m quite proud of her, as all we need for all that complexity is a ~100 loc Go package with a very small shell script that runs continuous git submodule updates and pushes. </p>
+</div>
+<div class="paragraph">
+<p>In a bigger picture, I must say that I would love to be able to typeset beautiful documents and books like the ones below </p>
 </div>
 <div class="ulist">
 <ul>
