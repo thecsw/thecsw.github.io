@@ -18,8 +18,7 @@ jobs:
 
       - name: Darkness 😳
         run: |
-          go install -v github.com/thecsw/darkness@latest
-          darkness build 
+          ./darkness build 
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
