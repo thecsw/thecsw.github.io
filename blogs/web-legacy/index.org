@@ -1,5 +1,7 @@
 * Building this website (Legacy) 🌐
 
+73; 12022 H.E.
+
 NOTE: Everything below is the legacy version of the website that has been
 building up for good two to three years. On the night of March 13th, [[https://github.com/thecsw/darkness][darkness]]
 took over [[https://sandyuraz.com][sandyuraz.com]], reducing average build time from 7-8s to <100ms. There
