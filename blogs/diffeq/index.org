@@ -20,12 +20,12 @@ fields, and everything. This articles is merely an intro on manually solving
 common forms of differential equations. Hope you enjoy
 
 *** Quick notes
+
 - $f_x \iff \partial_x f$
 - $A,B,C$ are usually constants
 - $c_k$ is usually solution's constant that is defined with initial conditions
 - Most of the functions are $\mathbb{R}^k \to \mathbb{R}$, $k \in \mathbb{N}^+$
-- If you found a typo or want to comment, feel free to email me. Email on
-top of the page.
+- If you found a typo or want to comment, feel free to email me. Email on top of the page.
 
 *** First-order, linear
 Those equations have the form: $y' + p(t) y = q(t)$
