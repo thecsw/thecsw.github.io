@@ -2,6 +2,13 @@
 Sandy\'s fortunes 🥠
 ===================
 
+### 72; 12022 H.E.
+
+Wahahahahaha! My name is Megumin, the number one mage of Axel! Come, you
+shall all become my experience points today!
+
+-- Megumin, best girl
+
 ### 69; 12022 H.E.
 
 **nice**
