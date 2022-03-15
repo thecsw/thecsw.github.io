@@ -8,7 +8,7 @@ had to work on. For some inexplicable reason, the default latex template gives
 me uneasy feelings. Maybe I've seen it too many times for a lifetime.
 
 I would like to urge you to have your own template (unless whatever place you're
-submitting gives you their own template, like IEEE conferences) for whatever you
+submitting gives you their own template, like [[https://www.ieee.org/conferences/publishing/templates.html][IEEE conferences]]) for whatever you
 type in latex. It gives you an incredible freedom and also makes you stand out
 in a good way.
 

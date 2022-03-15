@@ -5,15 +5,12 @@
 <link rel="canonical" href="https://sandyuraz.com/blogs/latex" type=""/>
 <link rel="shortcut icon" href="https://sandyuraz.com/favicon.ico" type="image/x-icon"/>
 <link rel="icon" href="https://sandyuraz.com/favicon.ico" type=""/>
-
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" property="generator" content="Darkness">
 <meta name="author" property="author" content="sandy">
 <meta name="theme-color" property="theme-color" content="#fffff4">
-<meta name="description" property="description" content="There hasn&amp;#39;t been a single instance that I haven&amp;#39;t typed latex code for any assignments, proposals, ...">
-<meta name="og:title" property="og:title" content="My favorite latex template 🦆">
+<meta name="description" property="description" content="There hasn&amp;#39;t been a single instance that I haven&amp;#39;t typed latex code for any assignments, proposals, ..."><meta name="og:title" property="og:title" content="My favorite latex template 🦆">
 <meta name="og:site_name" property="og:site_name" content="Sandy&amp;#39;s Website 🚀">
 <meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/latex">
 <meta name="og:locale" property="og:locale" content="en_GB">
@@ -23,15 +20,13 @@
 <meta name="og:image:type" property="og:image:type" content="image/png">
 <meta name="og:image:width" property="og:image:width" content="1280">
 <meta name="og:image:height" property="og:image:height" content="640">
-<meta name="og:description" property="og:description" content="There hasn&amp;#39;t been a single instance that I haven&amp;#39;t typed latex code for any assignments, proposals, ...">
-<meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="og:description" property="og:description" content="There hasn&amp;#39;t been a single instance that I haven&amp;#39;t typed latex code for any assignments, proposals, ..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy&amp;#39;s Website 🚀">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/latex/preview.png">
 <meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/latex">
 <meta name="twitter:title" property="twitter:title" content="My favorite latex template 🦆">
 <meta name="twitter:description" property="twitter:description" content="There hasn&amp;#39;t been a single instance that I haven&amp;#39;t typed latex code for any assignments, proposals, ...">
-
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
 <title>My favorite latex template 🦆</title>
@@ -59,7 +54,7 @@
 <p>There hasn’t been a single instance that I haven’t typed latex code for any assignments, proposals, documents, receipts, invoices, resumes, (more?) that I had to work on. For some inexplicable reason, the default latex template gives me uneasy feelings. Maybe I’ve seen it too many times for a lifetime. </p>
 </div>
 <div class="paragraph">
-<p>I would like to urge you to have your own template (unless whatever place you’re submitting gives you their own template, like IEEE conferences) for whatever you type in latex. It gives you an incredible freedom and also makes you stand out in a good way. </p>
+<p>I would like to urge you to have your own template (unless whatever place you’re submitting gives you their own template, like <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE conferences</a>) for whatever you type in latex. It gives you an incredible freedom and also makes you stand out in a good way. </p>
 </div>
 <div class="paragraph">
 <p>Some good typography and good taste in visual aspects of a document can turn your 50% homework into a straight A. Below is the template I have been improving over the past 2-3 years that has my favorite dimensions, fonts, margins, macros. Should be pretty self-explanatory. As one of my close friends looked at one of my files and simply said - <em><strong>sex</strong></em> </p>
@@ -82,72 +77,71 @@ You will have to run tex files with this template with the <code>-shell-escape</
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-latex" data-lang="latex">  \documentclass[12pt]{article}
-  \usepackage{graphicx}
-  \usepackage{grffile}
-  \usepackage{longtable}
-  \usepackage{wrapfig}
-  \usepackage{rotating}
-  \usepackage[normalem]{ulem}
-  \usepackage{amsmath}
-  \usepackage{textcomp}
-  \usepackage{amssymb}
-  \usepackage{capt-of}
-  \usepackage{hyperref}
-  \usepackage{minted}
-  \usepackage{amsmath}
-  \usepackage{amssymb}
-  \usepackage{setspace}
-  \usepackage{subcaption}
-  \usepackage{mathtools}
-  \usepackage{xfrac}
-  \usepackage[left=1.4in, right=1.4in, bottom=1in]{geometry}
-  \usepackage{marginnote}
-  \usepackage[utf8]{inputenc}
-  \usepackage{color}
-  \usepackage{epsf}
-  \usepackage{tikz}
-  \usepackage{graphicx}
-  \usepackage{pslatex}
-  \usepackage{hyperref}
-  \usepackage[p]{scholax}
-  \usepackage[scaled=1.075,ncf,vvarbb]{newtxmath}
-  % this fixes wack monospace fonts and issues
-  \usepackage[nomath,variablett]{lmodern}
-  \usepackage{textgreek}
-  \renewcommand*{\textgreekfontmap}{%
-          {phv/*/*}{LGR/neohellenic/*/*}%
-                  {*/b/n}{LGR/artemisia/b/n}%
-                  {*/bx/n}{LGR/artemisia/bx/n}%
-                  {*/*/n}{LGR/artemisia/m/n}%
-                  {*/b/it}{LGR/artemisia/b/it}%
-                  {*/bx/it}{LGR/artemisia/bx/it}%
-                  {*/*/it}{LGR/artemisia/m/it}%
-                  {*/b/sl}{LGR/artemisia/b/sl}%
-                  {*/bx/sl}{LGR/artemisia/bx/sl}%
-                  {*/*/sl}{LGR/artemisia/m/sl}%
-                  {*/*/sc}{LGR/artemisia/m/sc}%
-                  {*/*/sco}{LGR/artemisia/m/sco}%
-  }
-  \makeatletter
-  \newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
-  \makeatother
-  \DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
-          #1\;\delimsize\|\;#2%
-  }
-  \newcommand{\infdiv}{D\infdivx}
-  \DeclarePairedDelimiter{\norm}{\left\lVert}{\right\rVert}
-  \DeclarePairedDelimiter{\ceil}{\left\lceil}{\right\rceil}
-  \DeclarePairedDelimiter{\floor}{\left\lfloor}{\right\rfloor}
-  \def\Z{\mathbb Z}
-  \def\R{\mathbb R}
-  \def\C{\mathbb C}
-  \def\N{\mathbb N}
-  \def\Q{\mathbb Q}
-  \def\noi{\noindent}
-  \onehalfspace
-  \usemintedstyle{bw}
-</code>
+<code class="language-latex" data-lang="latex">\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{xfrac}
+\usepackage[left=1.4in, right=1.4in, bottom=1in]{geometry}
+\usepackage{marginnote}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{epsf}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{pslatex}
+\usepackage{hyperref}
+\usepackage[p]{scholax}
+\usepackage[scaled=1.075,ncf,vvarbb]{newtxmath}
+% this fixes wack monospace fonts and issues
+\usepackage[nomath,variablett]{lmodern}
+\usepackage{textgreek}
+\renewcommand*{\textgreekfontmap}{%
+        {phv/*/*}{LGR/neohellenic/*/*}%
+                {*/b/n}{LGR/artemisia/b/n}%
+                {*/bx/n}{LGR/artemisia/bx/n}%
+                {*/*/n}{LGR/artemisia/m/n}%
+                {*/b/it}{LGR/artemisia/b/it}%
+                {*/bx/it}{LGR/artemisia/bx/it}%
+                {*/*/it}{LGR/artemisia/m/it}%
+                {*/b/sl}{LGR/artemisia/b/sl}%
+                {*/bx/sl}{LGR/artemisia/bx/sl}%
+                {*/*/sl}{LGR/artemisia/m/sl}%
+                {*/*/sc}{LGR/artemisia/m/sc}%
+                {*/*/sco}{LGR/artemisia/m/sco}%
+}
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+\DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+        #1\;\delimsize\|\;#2%
+}
+\newcommand{\infdiv}{D\infdivx}
+\DeclarePairedDelimiter{\norm}{\left\lVert}{\right\rVert}
+\DeclarePairedDelimiter{\ceil}{\left\lceil}{\right\rceil}
+\DeclarePairedDelimiter{\floor}{\left\lfloor}{\right\rfloor}
+\def\Z{\mathbb Z}
+\def\R{\mathbb R}
+\def\C{\mathbb C}
+\def\N{\mathbb N}
+\def\Q{\mathbb Q}
+\def\noi{\noindent}
+\onehalfspace
+\usemintedstyle{bw}</code>
 </pre>
 </div>
 </div>

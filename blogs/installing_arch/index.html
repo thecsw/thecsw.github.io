@@ -5,15 +5,12 @@
 <link rel="canonical" href="https://sandyuraz.com/blogs/installing_arch" type=""/>
 <link rel="shortcut icon" href="https://sandyuraz.com/favicon.ico" type="image/x-icon"/>
 <link rel="icon" href="https://sandyuraz.com/favicon.ico" type=""/>
-
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" property="generator" content="Darkness">
 <meta name="author" property="author" content="sandy">
 <meta name="theme-color" property="theme-color" content="#fffff4">
-<meta name="description" property="description" content="May 2nd, 2019...">
-<meta name="og:title" property="og:title" content="Installing glorious arch linux ☄️">
+<meta name="description" property="description" content="May 2nd, 2019..."><meta name="og:title" property="og:title" content="Installing glorious arch linux ☄️">
 <meta name="og:site_name" property="og:site_name" content="Sandy&amp;#39;s Website 🚀">
 <meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/installing_arch">
 <meta name="og:locale" property="og:locale" content="en_GB">
@@ -23,15 +20,13 @@
 <meta name="og:image:type" property="og:image:type" content="image/png">
 <meta name="og:image:width" property="og:image:width" content="1280">
 <meta name="og:image:height" property="og:image:height" content="640">
-<meta name="og:description" property="og:description" content="May 2nd, 2019...">
-<meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="og:description" property="og:description" content="May 2nd, 2019..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy&amp;#39;s Website 🚀">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/installing_arch/preview.png">
 <meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/installing_arch">
 <meta name="twitter:title" property="twitter:title" content="Installing glorious arch linux ☄️">
 <meta name="twitter:description" property="twitter:description" content="May 2nd, 2019...">
-
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
 <title>Installing glorious arch linux ☄️</title>
@@ -85,8 +80,7 @@ This blog is a <em>little</em> bit outdated. I just went through a new arch inst
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% sudo dd if=/path/to/image.iso of=/dev/your_drive
-</code>
+<code class="language-sh" data-lang="sh">% sudo dd if=/path/to/image.iso of=/dev/your_drive</code>
 </pre>
 </div>
 </div>
@@ -138,8 +132,7 @@ This guide does not include installing Arch Linux as dual boot.
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% root@archios
-</code>
+<code class="language-sh" data-lang="sh">% root@archios</code>
 </pre>
 </div>
 </div>
@@ -159,8 +152,7 @@ If you see a bunch of files when running the command below, then everything is [
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% ls /sys/firmware/efi/efivars
-</code>
+<code class="language-sh" data-lang="sh">% ls /sys/firmware/efi/efivars</code>
 </pre>
 </div>
 </div>
@@ -187,8 +179,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% fdisk -l
-</code>
+<code class="language-sh" data-lang="sh">% fdisk -l</code>
 </pre>
 </div>
 </div>
@@ -199,8 +190,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% cfdisk -z /dev/sda
-</code>
+<code class="language-sh" data-lang="sh">% cfdisk -z /dev/sda</code>
 </pre>
 </div>
 </div>
@@ -221,8 +211,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% mkfs.fat -F32 /dev/sda1
-</code>
+<code class="language-sh" data-lang="sh">% mkfs.fat -F32 /dev/sda1</code>
 </pre>
 </div>
 </div>
@@ -234,8 +223,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="content">
 <pre class="highlight">
 <code class="language-sh" data-lang="sh">% mkswap /dev/sda2
-% swapon /dev/sda2
-</code>
+% swapon /dev/sda2</code>
 </pre>
 </div>
 </div>
@@ -246,8 +234,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% mkfs.ext4 /dev/sda3
-</code>
+<code class="language-sh" data-lang="sh">% mkfs.ext4 /dev/sda3</code>
 </pre>
 </div>
 </div>
@@ -265,8 +252,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% mount /dev/sda3 /mnt
-</code>
+<code class="language-sh" data-lang="sh">% mount /dev/sda3 /mnt</code>
 </pre>
 </div>
 </div>
@@ -278,8 +264,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="content">
 <pre class="highlight">
 <code class="language-sh" data-lang="sh">% mkdir /mnt/boot
-% mount /dev/sda1 /mnt/boot
-</code>
+% mount /dev/sda1 /mnt/boot</code>
 </pre>
 </div>
 </div>
@@ -299,8 +284,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <pre class="highlight">
 <code class="language-sh" data-lang="sh">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 % sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
-% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
-</code>
+% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist</code>
 </pre>
 </div>
 </div>
@@ -318,8 +302,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% pacstrap /mnt base base-devel
-</code>
+<code class="language-sh" data-lang="sh">% pacstrap /mnt base base-devel</code>
 </pre>
 </div>
 </div>
@@ -334,8 +317,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% genfstab -U /mnt >> /mnt/etc/fstab
-</code>
+<code class="language-sh" data-lang="sh">% genfstab -U /mnt >> /mnt/etc/fstab</code>
 </pre>
 </div>
 </div>
@@ -356,8 +338,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% arch-chroot /mnt
-</code>
+<code class="language-sh" data-lang="sh">% arch-chroot /mnt</code>
 </pre>
 </div>
 </div>
@@ -384,8 +365,7 @@ If it does not let you in or some error occurs, please make sure you followed al
 <div class="content">
 <pre class="highlight">
 <code class="language-sh" data-lang="sh">% ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
-% hwclock --systohc
-</code>
+% hwclock --systohc</code>
 </pre>
 </div>
 </div>
@@ -420,7 +400,6 @@ Set the <code>LANG</code> variable equal to locale <code>% echo ’LANG=en_US.UT
 Set the keyboard layout to standard QWERTY <code>% echo ’KEYMAP=us’ &gt; /etc/vconsole.conf</code>
 </p>
 </li>
-
 </ul>
 </div>
 
@@ -450,7 +429,6 @@ Set the hostname of your choice <code>% echo _myhostname_ &gt; /etc/hostname</co
 Configure the hosts on your machine
 </p>
 </li>
-
 </ul>
 </div>
 
@@ -495,7 +473,6 @@ Set the sudo access by uncommenting <code>%wheel ALL = (ALL) ALL</code> when run
 Changing the /user/’s password <code>% passwd _user_</code>
 </p>
 </li>
-
 </ul>
 </div>
 </div>
@@ -525,8 +502,7 @@ You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>, but pleas
 <div class="content">
 <pre class="highlight">
 <code class="language-sh" data-lang="sh">% pacman -S intel-ucode
-% bootctl --path=/boot install
-</code>
+% bootctl --path=/boot install</code>
 </pre>
 </div>
 </div>
@@ -541,8 +517,7 @@ You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>, but pleas
 ------------------------
 default Arch(arch)
 timeout 4
-editor 0
-</code>
+editor 0</code>
 </pre>
 </div>
 </div>
@@ -559,8 +534,7 @@ title Arch Linux
 linux /vmlinuz-linux
 initrd /intel-ucode.img
 initrd /initramfs-linux.img
-options root=/dev/sda3 rw
-</code>
+options root=/dev/sda3 rw</code>
 </pre>
 </div>
 </div>
@@ -582,8 +556,7 @@ options root=/dev/sda3 rw
 <div class="content">
 <pre class="highlight">
 <code class="language-sh" data-lang="sh">Arch Linux (tty1)
-_myhostname_ login:
-</code>
+_myhostname_ login:</code>
 </pre>
 </div>
 </div>
@@ -666,7 +639,6 @@ Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</
 Start graphical X server with <code>% startx</code>
 </p>
 </li>
-
 </ul>
 </div>
 
@@ -715,7 +687,6 @@ Never ever run <code>% sudo pacman --force</code>. The only exception is if you 
 <a href="https://wiki.archlinux.org/index.php/List_of_applications">Arch Linux List of Applications</a>
 </p>
 </li>
-
 </ul>
 </div>
 
@@ -751,7 +722,6 @@ Always try to consult with the List of Applications while searching for a progra
 <a href="https://aur.archlinux.org/">Arch Linux AUR Home</a>
 </p>
 </li>
-
 </ul>
 </div>
 </div>
