@@ -1,0 +1,34 @@
+* Sophomore
+
+** Fall 2019
+
+This was by far the darkest semester I have had up until then. I was called
+/suicidal/ and /crazy/ for taking a semester of 6 courses (18 credit hours), where
+each course was an Honors class. Recall that Honors classes can be twice as hard
+as their regular versions. 
+
+*** Intro to Digital Logic, Honors
+
+*** Honors Freshman Seminar Assistantship
+
+*** Applied Differential Equations, Honors
+
+*** Elementary Linear Algebra, Honors
+
+*** General Physics II, Honors
+
+*** American Society, Honors
+
+** Spring 2020
+
+*** Discrete Structures
+
+*** Programming Language Paradigms
+
+*** Software Engineering I
+
+*** Introductory Modern Algebra
+
+*** Algebraic Topics in Computing: Cryptography
+
+USEMATHJAX
