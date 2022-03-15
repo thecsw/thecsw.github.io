@@ -1,6 +1,5 @@
 title = "Sandy's Website 🚀"
 url = "https://sandyuraz.com"
-#url = "/Users/thecsw/gits/sandyuraz"
 
 [website]
 locale = "en_GB"
@@ -11,7 +10,7 @@ tombs = ["blogs", "anime", "arts"]
 exclude = ["present"]
 
 [author]
-header = "najimi.png"
+header = "najimi.webp"
 name = "sandy"
 email = "[at] sandyuraz [dot] com"
 
