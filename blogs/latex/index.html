@@ -71,7 +71,7 @@
 <div class="title">NOTE</div>
 </td>
 <td class="content">
-You will have to run tex files with this template with a <code>-shell-escape</code> flag, because it’s using <a href="http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf">minted</a> for source code blocks and nice syntax highlighting. 
+You will have to run tex files with this template with the <code>-shell-escape</code> flag, because it’s using <a href="http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf">minted</a> for source code blocks and nice syntax highlighting. 
 </td>
 </tr>
 </table>
@@ -79,74 +79,71 @@ You will have to run tex files with this template with a <code>-shell-escape</co
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-latex" data-lang="latex">  \documentclass[12pt]{article}
-  \usepackage{graphicx}
-  \usepackage{grffile}
-  \usepackage{longtable}
-  \usepackage{wrapfig}
-  \usepackage{rotating}
-  \usepackage[normalem]{ulem}
-  \usepackage{amsmath}
-  \usepackage{textcomp}
-  \usepackage{amssymb}
-  \usepackage{capt-of}
-  \usepackage{hyperref}
-  \usepackage{minted}
-  \usepackage{amsmath}
-  \usepackage{amssymb}
-  \usepackage{setspace}
-  \usepackage{subcaption}
-  \usepackage{mathtools}
-  \usepackage{xfrac}
-  \usepackage[left=1.4in, right=1.4in, bottom=1in]{geometry}
-  \usepackage{marginnote}
-  \usepackage[utf8]{inputenc}
-  \usepackage{color}
-  \usepackage{epsf}
-  \usepackage{tikz}
-  \usepackage{graphicx}
-  \usepackage{pslatex}
-  \usepackage{hyperref}
-
-  \usepackage[p]{scholax}
-  \usepackage[scaled=1.075,ncf,vvarbb]{newtxmath}
-
-  % this fixes wack monospace fonts and issues
-  \usepackage[nomath,variablett]{lmodern}
-
-  \usepackage{textgreek}
-  \renewcommand*{\textgreekfontmap}{%
-          {phv/*/*}{LGR/neohellenic/*/*}%
-                  {*/b/n}{LGR/artemisia/b/n}%
-                  {*/bx/n}{LGR/artemisia/bx/n}%
-                  {*/*/n}{LGR/artemisia/m/n}%
-                  {*/b/it}{LGR/artemisia/b/it}%
-                  {*/bx/it}{LGR/artemisia/bx/it}%
-                  {*/*/it}{LGR/artemisia/m/it}%
-                  {*/b/sl}{LGR/artemisia/b/sl}%
-                  {*/bx/sl}{LGR/artemisia/bx/sl}%
-                  {*/*/sl}{LGR/artemisia/m/sl}%
-                  {*/*/sc}{LGR/artemisia/m/sc}%
-                  {*/*/sco}{LGR/artemisia/m/sco}%
-  }
-  \makeatletter
-  \newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
-  \makeatother
-  \DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
-          #1\;\delimsize\|\;#2%
-  }
-  \newcommand{\infdiv}{D\infdivx}
-  \DeclarePairedDelimiter{\norm}{\left\lVert}{\right\rVert}
-  \DeclarePairedDelimiter{\ceil}{\left\lceil}{\right\rceil}
-  \DeclarePairedDelimiter{\floor}{\left\lfloor}{\right\rfloor}
-  \def\Z{\mathbb Z}
-  \def\R{\mathbb R}
-  \def\C{\mathbb C}
-  \def\N{\mathbb N}
-  \def\Q{\mathbb Q}
-  \def\noi{\noindent}
-  \onehalfspace
-  \usemintedstyle{bw}
+<code class="language-latex" data-lang="latex">\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{xfrac}
+\usepackage[left=1.4in, right=1.4in, bottom=1in]{geometry}
+\usepackage{marginnote}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{epsf}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{pslatex}
+\usepackage{hyperref}
+ \usepackage[p]{scholax}
+\usepackage[scaled=1.075,ncf,vvarbb]{newtxmath}
+ % this fixes wack monospace fonts and issues
+\usepackage[nomath,variablett]{lmodern}
+ \usepackage{textgreek}
+\renewcommand*{\textgreekfontmap}{%
+        {phv/*/*}{LGR/neohellenic/*/*}%
+                {*/b/n}{LGR/artemisia/b/n}%
+                {*/bx/n}{LGR/artemisia/bx/n}%
+                {*/*/n}{LGR/artemisia/m/n}%
+                {*/b/it}{LGR/artemisia/b/it}%
+                {*/bx/it}{LGR/artemisia/bx/it}%
+                {*/*/it}{LGR/artemisia/m/it}%
+                {*/b/sl}{LGR/artemisia/b/sl}%
+                {*/bx/sl}{LGR/artemisia/bx/sl}%
+                {*/*/sl}{LGR/artemisia/m/sl}%
+                {*/*/sc}{LGR/artemisia/m/sc}%
+                {*/*/sco}{LGR/artemisia/m/sco}%
+}
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+\DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+        #1\;\delimsize\|\;#2%
+}
+\newcommand{\infdiv}{D\infdivx}
+\DeclarePairedDelimiter{\norm}{\left\lVert}{\right\rVert}
+\DeclarePairedDelimiter{\ceil}{\left\lceil}{\right\rceil}
+\DeclarePairedDelimiter{\floor}{\left\lfloor}{\right\rfloor}
+\def\Z{\mathbb Z}
+\def\R{\mathbb R}
+\def\C{\mathbb C}
+\def\N{\mathbb N}
+\def\Q{\mathbb Q}
+\def\noi{\noindent}
+\onehalfspace
+\usemintedstyle{bw}
 </code>
 </pre>
 </div>
