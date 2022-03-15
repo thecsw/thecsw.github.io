@@ -56,14 +56,14 @@
 <p>May 13th, 2019 </p>
 </div>
 <div class="sect1">
-<h2 id="Abstract">Abstract</h2>
+<h2 id="_abstract">Abstract</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>&#34;Electronic mail (email or e-mail) is a method of exchanging messages (&#34;mail&#34;) between people using electronic devices. Invented by Ray Tomlinson, email first entered limited use in the 1960s and by the mid-1970s had taken the form now recognized as email.&#34; [fn:: Taken directly from <a href="https://en.wikipedia.org/wiki/Email">Wikipedia</a>] Email has been around for more than 50 years now. As we go further on our timeline, folks from new generations are starting to forget the beauty of email. This article will discuss the problems with the current state of emails and the ways to bring back joy into it. </p>
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="Problems with modern email">Problems with modern email</h2>
+<h2 id="_problems_with_modern_email">Problems with modern email</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>When you ask someone to check their email, I am sure they would rather use their phone if they do not have one open already on their computer. The reason for this is the discomfort people have opening their email services in their browsers. The key for this discomfort is time. When I open my email on my laptop, it takes about 5-6 seconds to just open my browser, 2-3 more seconds to enter the email address, and God knows how much longer until my inbox actually opens. Looking at you, Gmail. </p>
@@ -82,7 +82,7 @@
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="What is Mutt?">What is Mutt?</h2>
+<h2 id="_what_is_mutt_">What is Mutt?</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><a href="http://www.mutt.org/">Mutt</a> is a text-based email client developed by Michael Elkins in 1995 for UNIX-like systems. I want to say that this is truly the way emails were meant to be used. Before I start getting angry emails, I am aware of other fantastic <code>TUI</code> and <code>ncurses</code> email clients, such as: <a href="http://www.gnus.org/">Gnus</a>, <a href="http://www.instinct.org/elm/">Elm</a>, and <a href="http://alpine.x10host.com/alpine/">Alpine</a> (Used by Brian Kernighan!). However, it is safe to say that <code>Mutt</code> is the most extensive, feature-rich, actively developed, and well-supported by its community. Just to list some of its features, please take a look at the excerpt from Mutt&#39;s website below: </p>
@@ -164,7 +164,7 @@ and so <a href="http://www.mutt.org/">much more!</a>
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="IMAP and SMTP protocols">IMAP and SMTP protocols</h2>
+<h2 id="_imap_and_smtp_protocols">IMAP and SMTP protocols</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>As you might know, email service in itself is relaying on several layers of protocols to retrieve and send mail. There is also POP3 protocol similar to IMAP. I will not discuss the differences between them, but I can assure you that IMAP is always a better choice as it is more organized in its nature. Internet Message Access Protocol or IMAP is used to retrieve all email messages from a mail server over a TCP/IP connection. This is the protocol we will use to download all our messages and store them locally. Simple Mail Transfer Protocol or SMTP is used for sending messages and handling remote mail server message transferring. </p>
@@ -174,10 +174,10 @@ and so <a href="http://www.mutt.org/">much more!</a>
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="offlineimap">offlineimap</h2>
+<h2 id="_offlineimap">offlineimap</h2>
 <div class="sectionbody"></div>
 <div class="sect2">
-<h3 id="Installation">Installation</h3>
+<h3 id="_installation">Installation</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>If you are using one of the bigger Linux distributions (Ubuntu, Fedora, Debian, and etc), it should already be installed. Try runnig <code>% offlineimap</code> to see if you have an active executable. </p>
@@ -211,7 +211,7 @@ and so <a href="http://www.mutt.org/">much more!</a>
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Configuration">Configuration</h3>
+<h3 id="_configuration">Configuration</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p><code>offlineimap</code> as a UNIX application, uses a configuration file, conveniently called <code>.offlineimaprc</code>. To make things easier, touch the file in your home directory or open your favorite tex editor, <em>emacs</em>, and write down the following: </p>
@@ -256,7 +256,7 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Syncing your mailbox">Syncing your mailbox</h3>
+<h3 id="_syncing_your_mailbox">Syncing your mailbox</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Just run the command below to synchronize your email server and your local mailbox. </p>
@@ -278,13 +278,13 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="Mutt and NeoMutt">Mutt and NeoMutt</h2>
+<h2 id="_mutt_and_neomutt">Mutt and NeoMutt</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>So far, we talked about <code>Mutt</code>, but there is also a fork of it (same software with more features), called <code>NeoMutt</code>. We will be using it instead of <code>Mutt</code> as it is more extensible, faster, and backward-compatible with <code>Mutt</code>. You have same configuration files for both of them. </p>
 </div></div>
 <div class="sect2">
-<h3 id="Installation">Installation</h3>
+<h3 id="_installation">Installation</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Installation of <code>NeoMutt</code> is super straight forward. Just pick your favorite flavor of Linux and install a package called <code>neomutt</code>. For Arch Linux, it just would be </p>
@@ -303,13 +303,13 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Configuration">Configuration</h3>
+<h3 id="_configuration">Configuration</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>For the sake of brevity, I will brake down the configuration into multiple chunks. Firstly, I will talk about basic installation just to get a barebone version working, securing your password, and best of them all, making it super colorful, with signatures, ANSI escape sequences, and other cool stuff. </p>
 </div></div>
 <div class="sect3">
-<h4 id="Basic config">Basic config</h4>
+<h4 id="_basic_config">Basic config</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Just to get you started, the drill is the same as the last time, but now it would be called <code>~/.muttrc</code> The config file has a lot of different entries, so to keep it short, I will include the config file and it will be an exercise for the reader to get the meaning of the entries (this will be simple, I promise). </p>
@@ -391,10 +391,10 @@ set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Make it cool">Make it cool</h3>
+<h3 id="_make_it_cool">Make it cool</h3>
 <div class="sectionbody"></div>
 <div class="sect3">
-<h4 id="Secure password">Secure password</h4>
+<h4 id="_secure_password">Secure password</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>You might not like that we store your password in plain text in your <code>~/.muttrc</code>. I do not like it either. In this section, we will encrypt your email password and only you should be able te unlock it. We will encrypt your password with GPG. To do so, you have to have a pair of keys: public and private. To read more about public and private key encryption, visit its <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">Wikipedia page.</a> </p>
@@ -403,7 +403,7 @@ set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
 <p>We will make you a pair of your own encryption keys to store your password in a very very secure way. </p>
 </div></div>
 <div class="sect4">
-<h5 id="Generating pair of keys">Generating pair of keys</h5>
+<h5 id="_generating_pair_of_keys">Generating pair of keys</h5>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The following command will get you through everything </p>
@@ -422,7 +422,7 @@ set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-
 </div></div>
 </div>
 <div class="sect4">
-<h5 id="Creating password file">Creating password file</h5>
+<h5 id="_creating_password_file">Creating password file</h5>
 <div class="sectionbody">
 <div class="paragraph">
 <p>You have to create your password with <code>% echo set my_pass = &#39;_mypassword_&#39; &gt; ~/.mutt/mypass</code> </p>
@@ -450,7 +450,7 @@ Put a space before the command so your system will not save your plain text pass
 </div></div>
 </div>
 <div class="sect4">
-<h5 id="Add key to Mutt">Add key to Mutt</h5>
+<h5 id="_add_key_to_mutt">Add key to Mutt</h5>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Add the following line to the top of your <code>~/.muttrc=: =source &#34;gpg -dq $HOME/.mutt/mypass.gpg |&#34;</code> </p>
@@ -460,7 +460,7 @@ Put a space before the command so your system will not save your plain text pass
 </div></div>
 </div>
 <div class="sect3">
-<h4 id="Add your signature">Add your signature</h4>
+<h4 id="_add_your_signature">Add your signature</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Make your signature in the <code>~/.mutt/mysig.sig</code>, for example </p>
@@ -484,7 +484,7 @@ Don't call me
 </div></div>
 </div>
 <div class="sect3">
-<h4 id="Encrypting your emails">Encrypting your emails</h4>
+<h4 id="_encrypting_your_emails">Encrypting your emails</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>If you are feeling dangerous, you can start signing your emails, encrypting them, armored signatures, and other cool stuff. To do that, download link:./gpg.rc[this file], add that to your <code>~/.mutt/</code> directory, create one if you don&#39;t have it, and add the following line to your <code>~/.muttrc=: =source ~/.mutt/gpg.rc</code> </p>
@@ -494,14 +494,14 @@ Don't call me
 </div></div>
 </div>
 <div class="sect3">
-<h4 id="Read web pages in your email">Read web pages in your email</h4>
+<h4 id="_read_web_pages_in_your_email">Read web pages in your email</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Download link:./mailcap[this file], move the file to the <code>~/.mutt/</code> directory, add this line to your configuration file <code>set mailcap_path = ~/.mutt/mailcap</code> </p>
 </div></div>
 </div>
 <div class="sect3">
-<h4 id="Make it corolful">Make it corolful</h4>
+<h4 id="_make_it_corolful">Make it corolful</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Make your NeoMutt look really good. Same drill. </p>
@@ -511,7 +511,7 @@ Don't call me
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="Conclusion">Conclusion</h2>
+<h2 id="_conclusion">Conclusion</h2>
 <div class="sectionbody">
 </div>
 <div class="paragraph">

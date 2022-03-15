@@ -71,7 +71,7 @@ This blog is a <em>little</em> bit outdated. I just went through a new arch inst
 <p>Welcome to my guide on installing Glorious Arch Linux! For some background, I have been using arch for the last and it is still my only machine that I use as a daily driver. Arch Linux is a lightweight DIY type of distro that does not assume what kind of person you are and thus just lets you be yourself. </p>
 </div>
 <div class="sect1">
-<h2 id="Pre-Installation">Pre-Installation</h2>
+<h2 id="_pre_installation">Pre-Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The whole system comes with a pre-compiled kernel (<code>Linux</code>), package manager (<code>pacman</code>), and some basic coreutils (<code>GNU</code>). That does not seem a lot, but this is just enough to make some great things. It installs a barebone system which allows the user to customize their system to smallest details and making it their own. Not like <code>ubuntu</code> with all the whistles and bangs included. </p>
@@ -117,20 +117,20 @@ This guide does not include installing Arch Linux as dual boot.
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="Installation">Installation</h2>
+<h2 id="_installation">Installation</h2>
 <div class="sectionbody"></div>
 <div class="sect2">
-<h3 id="BIOS and Flash Drive">BIOS and Flash Drive</h3>
+<h3 id="_bios_and_flash_drive">BIOS and Flash Drive</h3>
 <div class="sectionbody"></div>
 <div class="sect3">
-<h4 id="BIOS Configuration">BIOS Configuration</h4>
+<h4 id="_bios_configuration">BIOS Configuration</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This part is quite easy. The only thing that you should do is to tell your BIOS to boot from Flash Drives instead of bootloader and other drives. This process is different for every BIOS Version and motherboard, however, this is really easy as all the entries in the BIOS menu are self-explanatory. </p>
 </div></div>
 </div>
 <div class="sect3">
-<h4 id="Flash Drive">Flash Drive</h4>
+<h4 id="_flash_drive">Flash Drive</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Just plug in your flash drive and power on/reboot your device. + Now, you will see a systemd prompt asking to boot. Choose the boot option that includes Arch Linux in it. + You should see a prompt of this form: </p>
@@ -179,7 +179,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Disk Partitioning">Disk Partitioning</h3>
+<h3 id="_disk_partitioning">Disk Partitioning</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Okay, now we need to partition our hard/state drive. How do we do that? Actually, there are many ways to to it, however I prefer to use <code>cfdisk</code>. It has pseudo-GUI, which is easier to work and operate with. Before partitioning, we should find the name of your drive. For that, in your command line type. </p>
@@ -213,7 +213,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Formatting partitions">Formatting partitions</h3>
+<h3 id="_formatting_partitions">Formatting partitions</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>We need to format partitions appropriately and accordignly. Your EFI System should be FAT32 formatted, because we use systemd-boot. To do that, type </p>
@@ -257,7 +257,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Mounting">Mounting</h3>
+<h3 id="_mounting">Mounting</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Now, we should mount our partitions. Firstly, we should mount our root partition </p>
@@ -289,7 +289,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Finding closest mirrors">Finding closest mirrors</h3>
+<h3 id="_finding_closest_mirrors">Finding closest mirrors</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This part is quite easy. However, when I was installing my system, I had a problem with downloading speed, it was something like 20-50KB/s. Awful. To fix that and get the maximum download speed, do the following: </p>
@@ -310,7 +310,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Pacstrap">Pacstrap</h3>
+<h3 id="_pacstrap">Pacstrap</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Now we will install the base system. Here, we will intall base and base-devel packages, because it will get us enough packages to start using Arch Linux. It may take a while. Sit back, take a cup of coffee and relax. </p>
@@ -326,7 +326,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 </div>
 <div class="sect2">
-<h3 id="Genfstab">Genfstab</h3>
+<h3 id="_genfstab">Genfstab</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Now, the system is installed on the device and we need to tell our OS and Bootloader about the partitions of our disk. To do so, perform: </p>
@@ -345,7 +345,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div></div>
 </div>
 <div class="sect2">
-<h3 id="Configuring the system">Configuring the system</h3>
+<h3 id="_configuring_the_system">Configuring the system</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>If you have come this far, congratulations! You have installed the raw version of arch and essential tools. We have to perform some number of necessary configurations to make it usable as a daily driver. </p>
@@ -375,7 +375,7 @@ If it does not let you in or some error occurs, please make sure you followed al
 </table>
 </div></div>
 <div class="sect3">
-<h4 id="Setting the time">Setting the time</h4>
+<h4 id="_setting_the_time">Setting the time</h4>
 <div class="sectionbody">
 <div class="paragraph">
 <p>We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code> and use it instead of <code>_Region_</code> and <code>_City_</code> </p>
@@ -392,7 +392,7 @@ If it does not let you in or some error occurs, please make sure you followed al
 </div>
 </div>
 <div class="sect3">
-<h4 id="Configuring essential files">Configuring essential files</h4>
+<h4 id="_configuring_essential_files">Configuring essential files</h4>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -501,7 +501,7 @@ Changing the <em>user</em>&#39;s password <code>% passwd _user_</code>
 </div>
 </div>
 <div class="sect2">
-<h3 id="Bootloader">Bootloader</h3>
+<h3 id="_bootloader">Bootloader</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Small but important things swept out of the way, we have to configure one of the most important parts of this installation. Usually only arch and gentoo people have to work with manually setting up a bootloader. <a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">Bootloader</a> is a small program that boots your actual OS after motherboard&#39;s BIOS gives you control over the system. In this installation, we are going with <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a>. It is the most compatible bootloader with Arch system in general. Also, my laptop&#39;s hardware does not work with other bootloaders. Systemd is getting some bad fame because it is bloated, massive, and way too complicated. I agree with it but this is the best we have right now. Just like C++. </p>
@@ -567,7 +567,7 @@ options root=/dev/sda3 rw
 </div>
 </div>
 <div class="sect2">
-<h3 id="Finishing up">Finishing up</h3>
+<h3 id="_finishing_up">Finishing up</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p>You are exactly two commands away from a complete Arch Linux installation! </p>
@@ -605,7 +605,7 @@ If you did not see the login prompt, retrace your steps and make sure you follow
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="Post-Installation">Post-Installation</h2>
+<h2 id="_post_installation">Post-Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>I hope you enjoyed this installation guide. After the last step, you should be able to have an actual working and stable system. I will not go into details how to set up your Desktop Environment or Window Manager. It should be unique and this is your adventure now. I will give you a list of useful commands just to get started. Also, further reading links will be included. </p>
@@ -690,7 +690,7 @@ Never ever run <code>% sudo pacman --force</code>. The only exception is if you 
 </div></div>
 </div>
 <div class="sect1">
-<h2 id="Further Reading">Further Reading</h2>
+<h2 id="_further_reading">Further Reading</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em>IT&#39;S DANGEROUS TO GO ALONE! TAKE THIS.</em> </p>
@@ -757,7 +757,7 @@ Always try to consult with the List of Applications while searching for a progra
 </div>
 </div>
 <div class="sect1">
-<h2 id="Pictures">Pictures</h2>
+<h2 id="_pictures">Pictures</h2>
 <div class="sectionbody">
 </div>
 <hr>
