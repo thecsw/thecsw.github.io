@@ -65,7 +65,7 @@
 <p>Sometimes you want to store some information securily and on a tight leash. It may be your tax return or some high school love letters you used to write. Where would you put it? Upload it somewhere and hope no one gets it? Not exactly, the moment you upload it to some server, uncle Bob or Sam have your piece of data on their machines. Surely, you can encrypt every file and move it that way, fair enough. Can get a bit cumbersome really quick. </p>
 </div>
 <div class="paragraph">
-<p>Best way to keep your data safe is on a piece of paper with some ink splattered on it. That&#39;s not very feasible for our needs. This is a quick and dirty cheatsheet on how to use LUKS to full encrypt your flash drive and keep it close to your heart. This is the same thing Ubunt does when you tell it to encrypt your disk. </p>
+<p>Best way to keep your data safe is on a piece of paper with some ink splattered on it. That’s not very feasible for our needs. This is a quick and dirty cheatsheet on how to use LUKS to full encrypt your flash drive and keep it close to your heart. This is the same thing Ubunt does when you tell it to encrypt your disk. </p>
 </div>
 <div class="paragraph">
 <p>This is not an exhaustive guide or a full walkthrough of what LUKS is and how it works. Just something to get youstarted. Possible cloud solutions at the end </p>
@@ -93,7 +93,7 @@
 <h3 id="_setting_it_up">Setting it up</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Let <code>/dev/sdb</code> be your USB drive. Be careful, we don&#39;t want to accidentally wipe everything out on your hard drive. Follow the instructions </p>
+<p>Let <code>/dev/sdb</code> be your USB drive. Be careful, we don’t want to accidentally wipe everything out on your hard drive. Follow the instructions </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -105,7 +105,7 @@
 </div>
 
 <div class="paragraph">
-<p>Now, let&#39;s open the drive with LUKS and write a filesystem to it. Enter your new passphrase and name where to map it, <code>sdb</code> is just an example. It maps to <code>/dev/mapper/sdb</code> </p>
+<p>Now, let’s open the drive with LUKS and write a filesystem to it. Enter your new passphrase and name where to map it, <code>sdb</code> is just an example. It maps to <code>/dev/mapper/sdb</code> </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -117,7 +117,7 @@
 </div>
 
 <div class="paragraph">
-<p>Now we got access to the drive, let&#39;s write your favorite filesystem, I&#39;ll go with <code>ext4</code> </p>
+<p>Now we got access to the drive, let’s write your favorite filesystem, I’ll go with <code>ext4</code> </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -133,7 +133,7 @@
 <h3 id="_mounting_the_drive">Mounting the drive</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Let&#39;s write something to the drive. <code>/mnt/flash</code> is some mounting target </p>
+<p>Let’s write something to the drive. <code>/mnt/flash</code> is some mounting target </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -145,7 +145,7 @@
 </div>
 
 <div class="paragraph">
-<p>That&#39;s it, you have access now </p>
+<p>That’s it, you have access now </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -159,7 +159,7 @@
 </div>
 
 <div class="paragraph">
-<p>After we&#39;re done, do the usual thing by unmounting it </p>
+<p>After we’re done, do the usual thing by unmounting it </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -175,7 +175,7 @@
 <h3 id="_closeluks">closeLUKS</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Don&#39;t forget we have to close the LUKS drive and dump the encryption details </p>
+<p>Don’t forget we have to close the LUKS drive and dump the encryption details </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -192,7 +192,7 @@
 <div class="sectionbody">
 </div>
 <div class="paragraph">
-<p>Voilà! You now have fully encrypted and secure drive. Next time, just don&#39;t forget the sequence of cryptopen, mount, ???, unmount, and cryptclose. If you are looking for trusty cloud solutions, try out <a href="https://keybase.io/">Keybase</a>. It&#39;s a great e2e service for all your needs  <b style="color:#ba3925">◼︎</b></p>
+<p>Voilà! You now have fully encrypted and secure drive. Next time, just don’t forget the sequence of cryptopen, mount, ???, unmount, and cryptclose. If you are looking for trusty cloud solutions, try out <a href="https://keybase.io/">Keybase</a>. It’s a great e2e service for all your needs  <b style="color:#ba3925">◼︎</b></p>
 </div>
 </div>
 </div>
