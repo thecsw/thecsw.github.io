@@ -1,0 +1,96 @@
+* My favorite latex template 🦆
+
+74; 12022 H.E.
+
+There hasn't been a single instance that I haven't typed latex code for any
+assignments, proposals, documents, receipts, invoices, resumes, (more?) that I
+had to work on. For some inexplicable reason, the default latex template gives
+me uneasy feelings. Maybe I've seen it too many times for a lifetime.
+
+I would like to urge you to have your own template (unless whatever place you're
+submitting gives you their own template, like IEEE conferences) for whatever you
+type in latex. It gives you an incredible freedom and also makes you stand out
+in a good way.
+
+Some good typography and good taste in visual aspects of a document can turn
+your 50% homework into a straight A. Below is the template I have been improving
+over the past 2-3 years that has my favorite dimensions, fonts, margins,
+macros. Should be pretty self-explanatory. As one of my close friends looked at
+one of my files and simply said - *sex*
+
+NOTE: You will have to run tex files with this template with a =-shell-escape=
+flag, because it's using [[http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf][minted]] for source code blocks and nice syntax
+highlighting. 
+
+#+begin_src latex
+  \documentclass[12pt]{article}
+  \usepackage{graphicx}
+  \usepackage{grffile}
+  \usepackage{longtable}
+  \usepackage{wrapfig}
+  \usepackage{rotating}
+  \usepackage[normalem]{ulem}
+  \usepackage{amsmath}
+  \usepackage{textcomp}
+  \usepackage{amssymb}
+  \usepackage{capt-of}
+  \usepackage{hyperref}
+  \usepackage{minted}
+  \usepackage{amsmath}
+  \usepackage{amssymb}
+  \usepackage{setspace}
+  \usepackage{subcaption}
+  \usepackage{mathtools}
+  \usepackage{xfrac}
+  \usepackage[left=1.4in, right=1.4in, bottom=1in]{geometry}
+  \usepackage{marginnote}
+  \usepackage[utf8]{inputenc}
+  \usepackage{color}
+  \usepackage{epsf}
+  \usepackage{tikz}
+  \usepackage{graphicx}
+  \usepackage{pslatex}
+  \usepackage{hyperref}
+
+  \usepackage[p]{scholax}
+  \usepackage[scaled=1.075,ncf,vvarbb]{newtxmath}
+
+  % this fixes wack monospace fonts and issues
+  \usepackage[nomath,variablett]{lmodern}
+
+  \usepackage{textgreek}
+  \renewcommand*{\textgreekfontmap}{%
+          {phv/*/*}{LGR/neohellenic/*/*}%
+                  {*/b/n}{LGR/artemisia/b/n}%
+                  {*/bx/n}{LGR/artemisia/bx/n}%
+                  {*/*/n}{LGR/artemisia/m/n}%
+                  {*/b/it}{LGR/artemisia/b/it}%
+                  {*/bx/it}{LGR/artemisia/bx/it}%
+                  {*/*/it}{LGR/artemisia/m/it}%
+                  {*/b/sl}{LGR/artemisia/b/sl}%
+                  {*/bx/sl}{LGR/artemisia/bx/sl}%
+                  {*/*/sl}{LGR/artemisia/m/sl}%
+                  {*/*/sc}{LGR/artemisia/m/sc}%
+                  {*/*/sco}{LGR/artemisia/m/sco}%
+  }
+  \makeatletter
+  \newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+  \makeatother
+  \DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+          #1\;\delimsize\|\;#2%
+  }
+  \newcommand{\infdiv}{D\infdivx}
+  \DeclarePairedDelimiter{\norm}{\left\lVert}{\right\rVert}
+  \DeclarePairedDelimiter{\ceil}{\left\lceil}{\right\rceil}
+  \DeclarePairedDelimiter{\floor}{\left\lfloor}{\right\rfloor}
+  \def\Z{\mathbb Z}
+  \def\R{\mathbb R}
+  \def\C{\mathbb C}
+  \def\N{\mathbb N}
+  \def\Q{\mathbb Q}
+  \def\noi{\noindent}
+  \onehalfspace
+  \usemintedstyle{bw}
+#+end_src
+
+This should be it! Let me know if you have any questions.
