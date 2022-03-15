@@ -16,7 +16,7 @@ Some good typography and good taste in visual aspects of a document can turn
 your 50% homework into a straight A. Below is the template I have been improving
 over the past 2-3 years that has my favorite dimensions, fonts, margins,
 macros. Should be pretty self-explanatory. As one of my close friends looked at
-one of my files and simply said - *sex*
+one of my files and simply said - */sex/*
 
 Here is an example [[./math.pdf][document with math]] and [[./aristotle.pdf][another with text and references]].
 
