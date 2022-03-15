@@ -445,7 +445,7 @@ h6 strong {
 }
 
 :not(pre):not([class^="L"]) > code {
-        font-size: 0.9375em;
+        font-size: 0.9em;
         font-style: normal !important;
         letter-spacing: 0;
         padding: 0.1em 0.5ex;
@@ -468,7 +468,7 @@ pre {
 pre code,
 pre pre {
         color: inherit;
-        font-size: inherit;
+        font-size: 15px;
         line-height: inherit;
 }
 
