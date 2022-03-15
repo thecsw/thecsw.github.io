@@ -194,7 +194,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>You will see a list of available storages. Ignore everything that ends with: boot, root, include, etc. What you are interested in is the biggest available drive. For example, my laptop has integrated SD Card 27GB and it is called <code>/dev/mmcblk0</code>. For the sake of simplicity, let&#39;s use notation <code>/dev/sda</code> for the name of the drive. Okay, good. Now, launch <code>cfdisk</code> by typing </p>
+<p>You will see a list of available storages. Ignore everything that ends with: boot, root, include, etc. What you are interested in is the biggest available drive. For example, my laptop has integrated SD Card 27GB and it is called <code>/dev/mmcblk0</code>. For the sake of simplicity, let’s use notation <code>/dev/sda</code> for the name of the drive. Okay, good. Now, launch <code>cfdisk</code> by typing </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -206,7 +206,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>You will enter pseudo-GUI interface. Select <strong>gpt</strong> and now you will see your drive&#39;s partitions. Next, we need to create 3 partitions: <code>EFI System(/dev/sda1)</code>, <code>Swap memory(/dev/sda2)</code> and <code>Root Directory (x86\_64)(/dev/sda3)</code>. I don&#39;t create home partitions, as I just don&#39;t like it. </p>
+<p>You will enter pseudo-GUI interface. Select <strong>gpt</strong> and now you will see your drive’s partitions. Next, we need to create 3 partitions: <code>EFI System(/dev/sda1)</code>, <code>Swap memory(/dev/sda2)</code> and <code>Root Directory (x86\_64)(/dev/sda3)</code>. I don’t create home partitions, as I just don’t like it. </p>
 </div>
 <div class="paragraph">
 <p>By the rules, your swap should be 2xRAM and EFI System 512MB. Everything else can be given to Root Directory. Now, exit cfdisk by choosing QUIT. </p>
@@ -411,13 +411,13 @@ Generate locales by running <code>% locale-gen</code>
 
 <li>
 <p>
-Set the <code>LANG</code> variable equal to locale <code>% echo &#39;LANG=en_US.UTF-8&#39; &gt; /etc/locale.conf</code>
+Set the <code>LANG</code> variable equal to locale <code>% echo ’LANG=en_US.UTF-8’ &gt; /etc/locale.conf</code>
 </p>
 </li>
 
 <li>
 <p>
-Set the keyboard layout to standard QWERTY <code>% echo &#39;KEYMAP=us&#39; &gt; /etc/vconsole.conf</code>
+Set the keyboard layout to standard QWERTY <code>% echo ’KEYMAP=us’ &gt; /etc/vconsole.conf</code>
 </p>
 </li>
 
@@ -431,7 +431,7 @@ Set the keyboard layout to standard QWERTY <code>% echo &#39;KEYMAP=us&#39; &gt;
 <div class="title">NOTE</div>
 </td>
 <td class="content">
-If you are a power user with <em>dvorak</em>, run <code>% echo &#39;KEYMAP=dvorak&#39; &gt; /etc/vconsole.conf</code> 
+If you are a power user with <em>dvorak</em>, run <code>% echo ’KEYMAP=dvorak’ &gt; /etc/vconsole.conf</code> 
 </td>
 </tr>
 </table>
@@ -492,7 +492,7 @@ Set the sudo access by uncommenting <code>%wheel ALL = (ALL) ALL</code> when run
 
 <li>
 <p>
-Changing the <em>user</em>&#39;s password <code>% passwd _user_</code>
+Changing the /user/’s password <code>% passwd _user_</code>
 </p>
 </li>
 
@@ -504,7 +504,7 @@ Changing the <em>user</em>&#39;s password <code>% passwd _user_</code>
 <h3 id="_bootloader">Bootloader</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Small but important things swept out of the way, we have to configure one of the most important parts of this installation. Usually only arch and gentoo people have to work with manually setting up a bootloader. <a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">Bootloader</a> is a small program that boots your actual OS after motherboard&#39;s BIOS gives you control over the system. In this installation, we are going with <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a>. It is the most compatible bootloader with Arch system in general. Also, my laptop&#39;s hardware does not work with other bootloaders. Systemd is getting some bad fame because it is bloated, massive, and way too complicated. I agree with it but this is the best we have right now. Just like C++. </p>
+<p>Small but important things swept out of the way, we have to configure one of the most important parts of this installation. Usually only arch and gentoo people have to work with manually setting up a bootloader. <a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">Bootloader</a> is a small program that boots your actual OS after motherboard’s BIOS gives you control over the system. In this installation, we are going with <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a>. It is the most compatible bootloader with Arch system in general. Also, my laptop’s hardware does not work with other bootloaders. Systemd is getting some bad fame because it is bloated, massive, and way too complicated. I agree with it but this is the best we have right now. Just like C++. </p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -576,7 +576,7 @@ options root=/dev/sda3 rw
 <p>You need to exit <code>chroot</code> by runing <code>% exit</code> and reboot with <code>% reboot</code> </p>
 </div>
 <div class="paragraph">
-<p>When you turn your machine back on, you should see some text popping out on the screen (that&#39;s systemd) and finally, you should see the following prompt: </p>
+<p>When you turn your machine back on, you should see some text popping out on the screen (that’s systemd) and finally, you should see the following prompt: </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -627,7 +627,7 @@ Remove a package from your system <code>% sudo pacman -Rs _package_name_</code>
 
 <li>
 <p>
-Update the system&#39;s packages <code>% sudo pacman -Syu</code>
+Update the system’s packages <code>% sudo pacman -Syu</code>
 </p>
 </li>
 
@@ -693,7 +693,7 @@ Never ever run <code>% sudo pacman --force</code>. The only exception is if you 
 <h2 id="_further_reading">Further Reading</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><em>IT&#39;S DANGEROUS TO GO ALONE! TAKE THIS.</em> </p>
+<p><em>IT’S DANGEROUS TO GO ALONE! TAKE THIS.</em> </p>
 </div>
 <div class="ulist">
 <ul>
