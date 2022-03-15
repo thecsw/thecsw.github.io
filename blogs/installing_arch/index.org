@@ -350,7 +350,7 @@ for a program and when installing it.
 - [[https://www.archlinux.org/packages/][Arch Linux packages]]
 - [[https://aur.archlinux.org/][Arch Linux AUR Home]]
 
-** Pictures
+** COMMENT Pictures
 
 [[pic1.png][Writing my website in tmux]]
 
