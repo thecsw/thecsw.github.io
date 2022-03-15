@@ -12,8 +12,8 @@ exclude = ["present"]
 
 [author]
 header = "najimi.png"
-name = "sandy [at]"
-email = "sandyuraz [dot] com"
+name = "sandy"
+email = "[at] sandyuraz [dot] com"
 
 [navigation]
 
