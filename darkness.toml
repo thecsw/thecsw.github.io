@@ -10,7 +10,7 @@ tombs = ["blogs", "anime", "arts"]
 exclude = ["present"]
 
 [author]
-header = "najimi.webp"
+image = "najimi.webp"
 name = "sandy"
 email = "[at] sandyuraz [dot] com"
 
