@@ -25,8 +25,8 @@ new!
 *** Thoughts
 # - [[./friends][Friends come and go 🍤]]
 # - [[./tired][I'm a little tired 🍙]]
-- [[./freshman][When I was a baby freshman 🐣]]
 - [[./living][Living consciously 🍜]]
+- [[./freshman][When I was a baby freshman 🐣]]
 - [[./anime][I love watching anime 🎻]]
 - [[./arts][L'Esthétique 🎨]]
 - [[./good_bad_movies][Watching good and bad movies 🎭]]
