@@ -74,7 +74,7 @@
 <span id="author" class="author">sandy</span><br>
 <span id="email" class="email">[at] sandyuraz [dot] com</span><br>
 <span id="revdate">
-<a href="https://sandyuraz.com/about">About 🤔</a> | <a href="https://sandyuraz.com/books">Bookshelf 📖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🥠</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 📖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🥠</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
 </div>
 <div id="hetime" class="details"></div>
 </div>
@@ -132,22 +132,7 @@ If you found a typo or want to comment, feel free to email me. Email on top of t
 <h3 id="_first_order__linear">First-order, linear</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Those equations have the form </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} y’ + p(t) y = q(t) \end{align*} </p>
-</div>
-<div class="paragraph">
-<p>Find </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} \mu(t) = e^{\int p(t) dt} \end{align*} </p>
-</div>
-<div class="paragraph">
-<p>Then </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} \frac{d}{dt}(\mu(t)y) &amp; = q(t) \mu(t)                        \\ \implies y            &amp; = \frac{\int q(t) \mu(t) dt}{\mu(t)} \end{align*} </p>
+<p>Those equations have the form \begin{align*} y’ + p(t) y = q(t) \end{align*} Find \begin{align*} \mu(t) = e^{\int p(t) dt} \end{align*} Then \begin{align*} \frac{d}{dt}(\mu(t)y) &amp; = q(t) \mu(t)                        \\ \implies y            &amp; = \frac{\int q(t) \mu(t) dt}{\mu(t)} \end{align*} </p>
 </div></div>
 </div>
 <div class="sect2">
@@ -190,7 +175,7 @@ $(\xi)$ If $M_y = N_x$
 </div>
 
 <div class="paragraph">
-<p>$\implies$ Find such $F(x,y)=C$, where $ </p>
+<p>$\implies$ Find such $F(x,y)=C$, where </p>
 </div>
 <div class="paragraph">
 <p>\begin{align*} F_x = M, \quad F_y = N \end{align*} </p>
@@ -360,10 +345,7 @@ $(2)$: $y’’ + p(t)y’+q(t)y = g(t)$
 </div>
 
 <div class="paragraph">
-<p>In general case, guess the first homogeneous solution (try $y_1=e^t$) and use reduction of order to find the second homogeneous solution, so that </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} &amp; y_2(t)                                                      = v(t)y_1(t) \\ &amp; \implies y_2’’ + p(t)y_2’ + q(t)y_2                         = 0          \\ &amp; \implies (v(t)y_1(t))’’+p(t)(v(t)y_1(t))’+q(t)(v(t)y_1(t))  = 0          \\ \end{align*} </p>
+<p>In general case, guess the first homogeneous solution (try $y_1=e^t$) and use reduction of order to find the second homogeneous solution, so that \begin{align*} &amp; y_2(t)                                                      = v(t)y_1(t) \\ &amp; \implies y_2’’ + p(t)y_2’ + q(t)y_2                         = 0          \\ &amp; \implies (v(t)y_1(t))’’+p(t)(v(t)y_1(t))’+q(t)(v(t)y_1(t))  = 0          \\ \end{align*} </p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -426,23 +408,14 @@ if $r=\alpha\pm i\beta$, $y_1=t^{\alpha}\cos(\beta ln|t|)$ and $y_2=t^{\alpha}\s
 <h3 id="_higher_order__linear_equations">Higher-order, linear equations</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>\begin{align*} a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y’+a_0(t)y=g(t) \end{align*} </p>
-</div>
-<div class="paragraph">
-<p>All second-order methods above extend to $n^{th}$ order. </p>
+<p>\begin{align*} a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y’+a_0(t)y=g(t) \end{align*} All second-order methods above extend to $n^{th}$ order. </p>
 </div></div>
 </div>
 <div class="sect2">
 <h3 id="_laplace_transform">Laplace transform</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Laplace is a holy grail of solving differential equations with initial values defined. Laplace is the same kind of Bible to engineers like Taylor Series is. </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} \mathcal{L}\{f\}(s) = \int_0^{\infty} e^{-st} f(t) dt \end{align*} </p>
-</div>
-<div class="paragraph">
-<p>assuming $f$ is piecewise continuous and of exponential order. </p>
+<p>Laplace is a holy grail of solving differential equations with initial values defined. Laplace is the same kind of Bible to engineers like Taylor Series is. \begin{align*} \mathcal{L}\{f\}(s) = \int_0^{\infty} e^{-st} f(t) dt \end{align*} assuming $f$ is piecewise continuous and of exponential order. </p>
 </div>
 <div class="paragraph">
 <p>Table of common transformations: </p>
@@ -492,13 +465,7 @@ $\mathcal{L}\{t^nf(t)\}(s) = (-1)^n \frac{d^n}{ds^n} \mathcal{L}\{f(t)\}(s)$
 </div>
 
 <div class="paragraph">
-<p>If $f$ is a T-periodic function, </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} \mathcal{L}\{f(t)\}(s) = \frac{\int_0^T e^{-sT} f(t) dt}{1-e^{-sT}} \end{align*} </p>
-</div>
-<div class="paragraph">
-<p>where $\int_0^T e^{-sT} f(t) dt = \mathcal{L}\{f_T(t)\}(s)$, the sum of integrals of different parts of the piecewise function. </p>
+<p>If $f$ is a T-periodic function, \begin{align*} \mathcal{L}\{f(t)\}(s) = \frac{\int_0^T e^{-sT} f(t) dt}{1-e^{-sT}} \end{align*} where $\int_0^T e^{-sT} f(t) dt = \mathcal{L}\{f_T(t)\}(s)$, the sum of integrals of different parts of the piecewise function. </p>
 </div>
 <div class="paragraph">
 <p>Convolutions: </p>
@@ -550,16 +517,7 @@ $\mathcal{L}^{-1}\{e^{-as}F(s)\}(t)=u(t-a)\mathcal{L}^{-1}\{F(s)\}(t-a)$
 <p>If IVP is not at 0, define some new function like $w(t)=y(t+\alpha)$, and solve for $w$. Finally, you can offset to find $y$ </p>
 </div>
 <div class="paragraph">
-<p>Step (block) function: </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} \Pi_{a,b}(t) = u(t-a)-u(t-b) \end{align*} </p>
-</div>
-<div class="paragraph">
-<p>so </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} \mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s} \end{align*} </p>
+<p>Step (block) function: \begin{align*} \Pi_{a,b}(t) = u(t-a)-u(t-b) \end{align*} so \begin{align*} \mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s} \end{align*} </p>
 </div></div>
 </div>
 <div class="sect2">
@@ -671,16 +629,7 @@ For each $\vec{u_j}^i$ computed in the previous step, compute $e^{At}\vec{u_j}^i
 <p>\begin{align*} \vec{x}’ = A(t)\vec{x} + \vec{f}(t), \quad \text{where } A\in\mathbb{R}^{n\times n}, x\in\mathbb{R}^n, \quad f\in\mathbb{R}^n \end{align*} </p>
 </div>
 <div class="paragraph">
-<p>If $X(t)$ is a matrix whose columns are made up of n linearly independent homogeneous solutions ($X(t)$ is the fundamental matrix), then a general solution may be written as $\vec{x}(t_0)=\vec{x_0}$ </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} \vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds \end{align*} </p>
-</div>
-<div class="paragraph">
-<p>If $A(t)$ is constant-coefficient, then we recover Duhamel’s formula: </p>
-</div>
-<div class="paragraph">
-<p>\begin{align*} \vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds \end{align*} </p>
+<p>If $X(t)$ is a matrix whose columns are made up of n linearly independent homogeneous solutions ($X(t)$ is the fundamental matrix), then a general solution may be written as $\vec{x}(t_0)=\vec{x_0}$ \begin{align*} \vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds \end{align*} If $A(t)$ is constant-coefficient, then we recover Duhamel’s formula: \begin{align*} \vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds \end{align*} </p>
 </div></div>
 </div>
 <div class="sect2">
@@ -714,35 +663,23 @@ For each $\vec{u_j}^i$ computed in the previous step, compute $e^{At}\vec{u_j}^i
 
 <li>
 <p>
-Vertical spring (direction of gravity) 
+Vertical spring (direction of gravity) \begin{align*} my’’=-by’-k(L+y)+mg+F_{ext}(t) \end{align*} assume $KL=mg$, where $b$ is dumping, and $k$ is stiffness 
 </p>
 </li>
 </ul>
 </div>
 
-<div class="paragraph">
-<p>\begin{align*} my’’=-by’-k(L+y)+mg+F_{ext}(t) \end{align*} </p>
-</div>
-<div class="paragraph">
-<p>assume $KL=mg$, where $b$ is dumping, and $k$ is stiffness </p>
-</div>
 <div class="ulist">
 <ul>
 
 <li>
 <p>
-Horizontal spring 
+Horizontal spring \begin{align*} my’’=-by’-ky+F_{ext}(t) \end{align*} where $b$ is dumping, and $k$ is stiffness 
 </p>
 </li>
 </ul>
 </div>
-
-<div class="paragraph">
-<p>\begin{align*} my’’=-by’-ky+F_{ext}(t) \end{align*} </p>
 </div>
-<div class="paragraph">
-<p>where $b$ is dumping, and $k$ is stiffness </p>
-</div></div>
 </div>
 <div class="sect2">
 <h3 id="_conclusion">Conclusion</h3>
