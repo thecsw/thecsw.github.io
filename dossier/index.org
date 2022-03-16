@@ -1,4 +1,4 @@
-* About 🤔
+* Dossier 🖋
 
 Call me Sandy. Some moons ago - no clue how or when exactly - having no
 last-minute assignments left to do, and projects, in particular, to obsess with,
@@ -9,6 +9,16 @@ March in my soul; whenever I find myself trying out new tech; and especially
 whenever my curiosity overshadows the other me, that it requires an Aristotelian
 virtue to prevent me from sinking all my time, and methodically ignoring every
 other commitment in life - then, I consider it to be the moment of truth.
+
+---
+
+/You can’t get very far in this world without your dossier being there first./
+-- Arthur Miller
+
+---
+
+I don't actively use social media, most if not everything I write and talk about
+online is collected here. Links below are the only public services I have
 
 - [[https://github.com/thecsw][Github 🐙]]
 - [[https://open.spotify.com/user/v1s3wc3z6pco2qfz0pzi3vq02?si=c0ab0369717e4824][Spotify 🥒]]
