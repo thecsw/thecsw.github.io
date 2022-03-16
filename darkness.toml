@@ -17,8 +17,8 @@ email = "[at] sandyuraz [dot] com"
 [navigation]
 
 [navigation.1]
-link = "about"
-title = "About 🤔"
+link = "dossier"
+title = "Dossier 🖋"
 
 [navigation.2]
 link = "books"
