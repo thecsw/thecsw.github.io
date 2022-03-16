@@ -17,24 +17,23 @@ $\mathbf{Proof}$
 Let $a,b \in \mathbb{Z} \quad, \frac{a}{b}=\sqrt{2},\quad b \neq 0, \quad (a,b)=1$
 
 Then $a=\sqrt{2}b$
-   
-$\implies a^2=2 \times b^2 \quad (\Xi)$
-   
-$\implies 2|a^2$
-   
-$\implies 2|a$
-   
+
+\begin{align*}
+	\implies & a^2=2 \times b^2 \quad (\Xi) \\
+	\implies & 2|a^2                        \\
+	\implies & 2|a                          \\
+\end{align*}
+
 Then if $a$ is even, $\exists k \in \mathbb{Z} \ni a = 2k$
    
 Then substitute into $(\Xi)$, we get $(2 \times k)^2=2\times b^2$
-   
-$\implies 4 \times k^2 = 2 \times b^2$
-   
-$\implies 2 \times k^2 = b^2$
-   
-$\implies 2|b^2$
-   
-$\implies 2|b$
+
+\begin{align*}
+	\implies & 4 \times k^2 = 2 \times b^2 \\
+	\implies & 2 \times k^2 = b^2          \\
+	\implies & 2|b^2                       \\
+	\implies & 2|b
+\end{align*}
 
 If $a$ and $b$ are both even, it contradicts the initial condition $(a,b)=1$.
    
