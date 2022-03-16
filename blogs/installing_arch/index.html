@@ -379,25 +379,25 @@ If it does not let you in or some error occurs, please make sure you followed al
 
 <li>
 <p>
-Uncomment <code>en_US.UTF-8 UTF-8</code> and other if needed in <code>/etc/locale.gen</code>
+Uncomment <code>en_US.UTF-8 UTF-8</code> and other if needed in <code>/etc/locale.gen</code> 
 </p>
 </li>
 
 <li>
 <p>
-Generate locales by running <code>% locale-gen</code>
+Generate locales by running <code>% locale-gen</code> 
 </p>
 </li>
 
 <li>
 <p>
-Set the <code>LANG</code> variable equal to locale <code>% echo ’LANG=en_US.UTF-8’ &gt; /etc/locale.conf</code>
+Set the <code>LANG</code> variable equal to locale <code>% echo ’LANG=en_US.UTF-8’ &gt; /etc/locale.conf</code> 
 </p>
 </li>
 
 <li>
 <p>
-Set the keyboard layout to standard QWERTY <code>% echo ’KEYMAP=us’ &gt; /etc/vconsole.conf</code>
+Set the keyboard layout to standard QWERTY <code>% echo ’KEYMAP=us’ &gt; /etc/vconsole.conf</code> 
 </p>
 </li>
 </ul>
@@ -420,13 +420,13 @@ If you are a power user with <em>dvorak</em>, run <code>% echo ’KEYMAP=dvorak�
 
 <li>
 <p>
-Set the hostname of your choice <code>% echo _myhostname_ &gt; /etc/hostname</code>
+Set the hostname of your choice <code>% echo _myhostname_ &gt; /etc/hostname</code> 
 </p>
 </li>
 
 <li>
 <p>
-Configure the hosts on your machine
+Configure the hosts on your machine 
 </p>
 </li>
 </ul>
@@ -440,37 +440,37 @@ Configure the hosts on your machine
 
 <li>
 <p>
-Configuring your network drivers with <code>% pacman -S iw dialog wpa_actiond wpa_supplicant sudo</code>
+Configuring your network drivers with <code>% pacman -S iw dialog wpa_actiond wpa_supplicant sudo</code> 
 </p>
 </li>
 
 <li>
 <p>
-Generate your kernel image (initramfs) <code>% mkinitcpio -p linux</code>
+Generate your kernel image (initramfs) <code>% mkinitcpio -p linux</code> 
 </p>
 </li>
 
 <li>
 <p>
-Change your default root password <code>% passwd</code>
+Change your default root password <code>% passwd</code> 
 </p>
 </li>
 
 <li>
 <p>
-Add new users <code>% useradd -m -G wheel -s /usr/bin/bash _user_</code>
+Add new users <code>% useradd -m -G wheel -s /usr/bin/bash _user_</code> 
 </p>
 </li>
 
 <li>
 <p>
-Set the sudo access by uncommenting <code>%wheel ALL = (ALL) ALL</code> when running <code>visudo</code>
+Set the sudo access by uncommenting <code>%wheel ALL = (ALL) ALL</code> when running <code>visudo</code> 
 </p>
 </li>
 
 <li>
 <p>
-Changing the /user/’s password <code>% passwd _user_</code>
+Changing the /user/’s password <code>% passwd _user_</code> 
 </p>
 </li>
 </ul>
@@ -588,55 +588,55 @@ If you did not see the login prompt, retrace your steps and make sure you follow
 
 <li>
 <p>
-Run this to install a package <code>% sudo pacman -S _package_name_</code>
+Run this to install a package <code>% sudo pacman -S _package_name_</code> 
 </p>
 </li>
 
 <li>
 <p>
-Remove a package from your system <code>% sudo pacman -Rs _package_name_</code>
+Remove a package from your system <code>% sudo pacman -Rs _package_name_</code> 
 </p>
 </li>
 
 <li>
 <p>
-Update the system’s packages <code>% sudo pacman -Syu</code>
+Update the system’s packages <code>% sudo pacman -Syu</code> 
 </p>
 </li>
 
 <li>
 <p>
-Installing X Graphical Server <code>% sudo pacman -S xorg xorg-xinit</code>
+Installing X Graphical Server <code>% sudo pacman -S xorg xorg-xinit</code> 
 </p>
 </li>
 
 <li>
 <p>
-Installing zshell <code>% sudo pacman -S zsh</code> and update your shell <code>% chsh</code>
+Installing zshell <code>% sudo pacman -S zsh</code> and update your shell <code>% chsh</code> 
 </p>
 </li>
 
 <li>
 <p>
-Installing graphical terminal emulator <code>% sudo pacman -S rxvt-unicode rxvt-unicode-terminfo</code>
+Installing graphical terminal emulator <code>% sudo pacman -S rxvt-unicode rxvt-unicode-terminfo</code> 
 </p>
 </li>
 
 <li>
 <p>
-Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3 dmenu</code>
+Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3 dmenu</code> 
 </p>
 </li>
 
 <li>
 <p>
-Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and <code>% chmod 700 ~/.xinitrc</code>
+Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and <code>% chmod 700 ~/.xinitrc</code> 
 </p>
 </li>
 
 <li>
 <p>
-Start graphical X server with <code>% startx</code>
+Start graphical X server with <code>% startx</code> 
 </p>
 </li>
 </ul>
@@ -672,19 +672,19 @@ Never ever run <code>% sudo pacman --force</code>. The only exception is if you 
 
 <li>
 <p>
-<a href="https://wiki.archlinux.org/index.php/Frequently_asked_questions">Arch Linux Frequently Asked Questions</a>
+<a href="https://wiki.archlinux.org/index.php/Frequently_asked_questions">Arch Linux Frequently Asked Questions</a> 
 </p>
 </li>
 
 <li>
 <p>
-<a href="https://wiki.archlinux.org/index.php/General_recommendations">Arch Linux General Recommendations</a>
+<a href="https://wiki.archlinux.org/index.php/General_recommendations">Arch Linux General Recommendations</a> 
 </p>
 </li>
 
 <li>
 <p>
-<a href="https://wiki.archlinux.org/index.php/List_of_applications">Arch Linux List of Applications</a>
+<a href="https://wiki.archlinux.org/index.php/List_of_applications">Arch Linux List of Applications</a> 
 </p>
 </li>
 </ul>
@@ -707,19 +707,19 @@ Always try to consult with the List of Applications while searching for a progra
 
 <li>
 <p>
-<a href="https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions">Arch Linux compared to other distributions</a>]
+<a href="https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions">Arch Linux compared to other distributions</a>] 
 </p>
 </li>
 
 <li>
 <p>
-<a href="https://www.archlinux.org/packages/">Arch Linux packages</a>
+<a href="https://www.archlinux.org/packages/">Arch Linux packages</a> 
 </p>
 </li>
 
 <li>
 <p>
-<a href="https://aur.archlinux.org/">Arch Linux AUR Home</a>
+<a href="https://aur.archlinux.org/">Arch Linux AUR Home</a> 
 </p>
 </li>
 </ul>
