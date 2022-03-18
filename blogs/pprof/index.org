@@ -32,7 +32,10 @@ first line. Build it, run it.
   import "github.com/pkg/profile"
 
   func main() {
-          defer profile.Start(profile.CPUProfile, profile.ProfilePath(".")).Stop()
+          defer profile.Start(
+                  profile.CPUProfile,
+                  profile.ProfilePath("."))
+          .Stop()
           // all of your good stuff
   }
 #+end_src
@@ -67,7 +70,9 @@ example above, just replace it with the following, which will create a
   import "github.com/pkg/profile"
 
   func main() {
-          defer profile.Start(profile.MemProfile, profile.MemProfileRate(1),
+          defer profile.Start(
+                  profile.MemProfile,
+                  profile.MemProfileRate(1),
                   profile.ProfilePath(".")).Stop()
           // be mindful of memory and IO, it adds up
   }
