@@ -107,7 +107,7 @@
 <p>You can see that darkness spends most of its time in <code>ExportPage</code>, as it runs several buffered string operations, which still add up. Profiling will only show you the CPU time, so for parallelized darkness, the elapsed real time is around ~80ms, while the CPU time would counter at approximately 150ms. </p>
 </div>
 <div class="paragraph">
-<p>You can also profile memory allocations and spot places where it might be beneficial for you to pre-allocate some space and use it continuously, instead of constantly pinging the OS and demanding more pages. It’s the same as the CPU example above, just replace it with the following, which will create a <code>mem.pprof</code>, where you can use the same <code>go tool =pprof</code> on it </p>
+<p>You can also profile memory allocations and spot places where it might be beneficial for you to pre-allocate some space and use it continuously, instead of constantly pinging the OS and demanding more pages. It’s the same as the CPU example above, just replace it with the following, which will create a <code>mem.pprof</code>, where you can use the same <code>go tool pprof</code> on it </p>
 </div>
 <div class="listingblock">
 <div class="content">
