@@ -64,7 +64,7 @@ You can also profile memory allocations and spot places where it might be
 beneficial for you to pre-allocate some space and use it continuously, instead
 of constantly pinging the OS and demanding more pages. It's the same as the CPU
 example above, just replace it with the following, which will create a
-=mem.pprof=, where you can use the same =go tool =pprof= on it
+=mem.pprof=, where you can use the same =go tool pprof= on it
 
 #+begin_src go
   import "github.com/pkg/profile"
