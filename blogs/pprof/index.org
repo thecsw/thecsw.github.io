@@ -1,0 +1,80 @@
+* Profiling should be friend ⛹️‍♀️
+
+77; 12022 H.E.
+
+If you write a program with everything you've got, you will never be able to
+debug or maintain it, as the latter takes 10x amount of time and effort to put
+yourself through. One of the big parts of maintaining any application is
+optimizing its resource usage and how fast it can go to a reasonable extent.
+
+I'm not the believer in rewriting everything and anything in Rust, while also
+measuring runtimes and who's got it the fastest. Many applications simply don't
+care if your print something to a user in 20ms or God forbid, in 100ms. Put your
+effort into something that has meaning and can be felt. However, you can't have
+it being too slow either.
+
+Profiling is an amazing tool you can use to inspect your application's
+performance during its runtime, down to how much time is spent in each function
+or on each line of code. This would allow you to optimize your program in all
+the right places, while also seeing what the actual execution stack looks like
+(frequently we think that we spend a lot of time in a spot, which is so
+insignificant, it might not even show up in timing measurements).
+
+You can profile in any language with nice flames and stuff. There are [[https://pyroscope.io][some]] that
+support many languages as well. In this post, I'll focus on profiling in Go, as
+I've been doing it quite a lot lately. [[https://github.com/pkg/profile][profile]] package is the best one I've used
+so far, as it also directly works with [[https://github.com/google/pprof][pprof]] for visualization.
+
+How do you use it? Just paste in the line below into your =main= function on its
+first line. Build it, run it.
+
+#+begin_src go
+  import "github.com/pkg/profile"
+
+  func main() {
+          defer profile.Start(profile.CPUProfile, profile.ProfilePath(".")).Stop()
+          // all of your good stuff
+  }
+#+end_src
+
+You'll have a new file in your current directory named =cpu.pprof=. Use go's
+toolchain to get a pretty visualization of everything your program did during
+its lifetime with the command below
+
+#+begin_src sh
+  go tool pprof -http=:8080 cpu.pprof
+#+end_src
+
+And you're done! Enjoy all the nice investigative work that will follow. As an
+example, here is the profiling graph for darkness, the static website generator
+that I wrote for my website. It builds a hundred files in about 100ms. All
+thanks to optimizing bottlenecks found by profiling the whole thing many times
+
+[[./darkness.png][Profiling =darkness build=]]
+
+You can see that darkness spends most of its time in =ExportPage=, as it runs
+several buffered string operations, which still add up. Profiling will only 
+show you the CPU time, so for parallelized darkness, the elapsed real time is
+around ~80ms, while the CPU time would counter at approximately 150ms.
+
+You can also profile memory allocations and spot places where it might be
+beneficial for you to pre-allocate some space and use it continuously, instead
+of constantly pinging the OS and demanding more pages. It's the same as the CPU
+example above, just replace it with the following, which will create a
+=mem.pprof=, where you can use the same =go tool =pprof= on it
+
+#+begin_src go
+  import "github.com/pkg/profile"
+
+  func main() {
+          defer profile.Start(profile.MemProfile, profile.MemProfileRate(1),
+                  profile.ProfilePath(".")).Stop()
+          // be mindful of memory and IO, it adds up
+  }
+#+end_src
+
+NOTE: change that =profile.MemProfileRate(1)= to something bigger if you want to
+get a rougher sample of memory allocations or the profiling simply takes too
+much time to run (it needs to take memory snapshots at every =n= allocations)
+
+I hope this would be of use to you as it is to me! 
