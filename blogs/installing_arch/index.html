@@ -283,8 +283,8 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="content">
 <pre class="highlight">
 <code class="language-sh" data-lang="sh">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-% sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
-% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist</code>
+% sed -i &#39;s/^#Server/Server/&#39; /etc/pacman.d/mirrorlist.backup
+% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code>
 </pre>
 </div>
 </div>
@@ -317,13 +317,22 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">% genfstab -U /mnt >> /mnt/etc/fstab</code>
+<code class="language-sh" data-lang="sh">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code>
 </pre>
 </div>
 </div>
 
-<div class="paragraph">
-<p>CAUTION: Check <code>/mnt/etc/fstab</code> for any errors. If it looks right to you, it probably is. </p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">CAUTION</div>
+</td>
+<td class="content">
+Check <code>/mnt/etc/fstab</code> for any errors. If it looks right to you, it probably is. 
+</td>
+</tr>
+</table>
 </div></div>
 </div>
 <div class="sect2">

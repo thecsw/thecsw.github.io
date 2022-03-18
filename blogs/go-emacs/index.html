@@ -129,26 +129,26 @@
 <code class="language-emacs-lisp" data-lang="emacs-lisp">;; Init the auto complete modules
 (ac-config-default)
 (global-auto-complete-mode t)
-(require 'go-autocomplete)
+(require &#39;go-autocomplete)
 
 ;; Enable auto-complete
 (auto-complete-mode 1)
 
 ;; Define keymaps
-(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
-(global-set-key (kbd"C-c C-c") 'godef-jump)
+(define-key ac-mode-map (kbd &#34;M-TAB&#34;) &#39;auto-complete)
+(global-set-key (kbd&#34;C-c C-c&#34;) &#39;godef-jump)
 
 ;; Set some quick config vals
 (setq ac-auto-start 1)
 (setq ac-auto-show-menu 0.8)
 
 ;; Just to make sure go tools are enabled
-(add-to-list 'exec-path "~/go/bin")
+(add-to-list &#39;exec-path &#34;~/go/bin&#34;)
 
 ;; Automatically format code on save
-(setq gofmt-command "goimports")
-(add-hook 'before-save-hook 'gofmt-before-save)
-(add-hook 'go-mode-hook 'auto-complete-for-go)</code>
+(setq gofmt-command &#34;goimports&#34;)
+(add-hook &#39;before-save-hook &#39;gofmt-before-save)
+(add-hook &#39;go-mode-hook &#39;auto-complete-for-go)</code>
 </pre>
 </div>
 </div>
