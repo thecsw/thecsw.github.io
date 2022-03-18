@@ -33,9 +33,9 @@ Rumbling by SiM goes so hard
 
 *** 15; 12022 H.E.
  
-My soldiers, rage!\\
-My soldiers, scream!\\
-My soldiers, fight!\\
+My soldiers, rage!\
+My soldiers, scream!\
+My soldiers, fight!\
 
 -- Erwin Smith, best commander
 
@@ -281,26 +281,26 @@ than an old bird of paradise.
 
 *** 255; 12021 H.E.
 
-Я видел пьяниц с мудрыми глазами\\
-И падших женщин с ликом чистоты.\\
-Я знаю сильных, что взахлёб рыдали\\
-И слабых, что несут кресты.\\
+Я видел пьяниц с мудрыми глазами\
+И падших женщин с ликом чистоты.\
+Я знаю сильных, что взахлёб рыдали\
+И слабых, что несут кресты.\
 
-Не бойся вора в нищенском обличьи,\\
-И проклинать за мелочь, не спеши-\\
-Ты бойся тех, кто выглядит прилично,\\
-Вор с праведным лицом уносит часть души.\\
+Не бойся вора в нищенском обличьи,\
+И проклинать за мелочь, не спеши-\
+Ты бойся тех, кто выглядит прилично,\
+Вор с праведным лицом уносит часть души.\
 
-Не обвиняй во всех грехах соседа,\\
-Интриг не строй и сплетен не плети!\\
-Воздастся добротой тебе за это,\\
-Когда споткнёшься на своём пути.\\
+Не обвиняй во всех грехах соседа,\
+Интриг не строй и сплетен не плети!\
+Воздастся добротой тебе за это,\
+Когда споткнёшься на своём пути.\
 
 
-Не осуждай за то, в чём не уверен;\\
-Не обещай, если решил солгать.\\
-Не проверяй, когда уже доверил!\\
-И не дари, планируя отнять.\\
+Не осуждай за то, в чём не уверен;\
+Не обещай, если решил солгать.\
+Не проверяй, когда уже доверил!\
+И не дари, планируя отнять.\
 
 -- Серге́й Алекса́ндрович Есе́нин
 
@@ -519,18 +519,18 @@ And suddenly the novice was enlightened.
 
 *** 176; 12021 H.E.
  
-Your love is like a tidal wave, spinning over my head\\
-Drownin' me in your promises, better left unsaid\\
-You're the right kind of sinner to release my inner fantasy\\
-The invincible winner and you know that you were born to be\\
-You're a heartbreaker, dream maker, love taker\\
-Don't you mess around with me\\
-You're a heartbreaker, dream maker, love taker\\
-Don't you mess around, no, no, no\\
-Your love has set my soul on fire, burnin' out of control\\
-You taught me the ways of desire, now it's takin' its toll\\
-You're the right kind of sinner to release my inner fantasy\\
-The invincible winner and you know that you were born to be\\
+Your love is like a tidal wave, spinning over my head\
+Drownin' me in your promises, better left unsaid\
+You're the right kind of sinner to release my inner fantasy\
+The invincible winner and you know that you were born to be\
+You're a heartbreaker, dream maker, love taker\
+Don't you mess around with me\
+You're a heartbreaker, dream maker, love taker\
+Don't you mess around, no, no, no\
+Your love has set my soul on fire, burnin' out of control\
+You taught me the ways of desire, now it's takin' its toll\
+You're the right kind of sinner to release my inner fantasy\
+The invincible winner and you know that you were born to be\
 
 -- Для Лилюшы (Pat Benatar's "Heartbreaker")
 
@@ -723,9 +723,9 @@ The one charm of marriage is that it makes a life of deception a neccessity.
 
 *** 139; 12021 H.E.
  
-They said that of all the kings upon the earth\\
-He was the man most gracious and fair-minded,\\
-Kindest to his people and keenest to win fame.\\
+They said that of all the kings upon the earth\
+He was the man most gracious and fair-minded,\
+Kindest to his people and keenest to win fame.\
 
 -- Beowulf, the last three lines in Seamus Heaney's translation
 
