@@ -68,15 +68,15 @@
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-go" data-lang="go">  import "github.com/pkg/profile"
+<code class="language-go" data-lang="go">import &#34;github.com/pkg/profile&#34;
 
-  func main() {
-          defer profile.Start(
-                  profile.CPUProfile,
-                  profile.ProfilePath("."))
-          .Stop()
-          // all of your good stuff
-  }</code>
+func main() {
+        defer profile.Start(
+                profile.CPUProfile,
+                profile.ProfilePath(&#34;.&#34;))
+        .Stop()
+        // all of your good stuff
+}</code>
 </pre>
 </div>
 </div>
@@ -87,7 +87,7 @@
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-sh" data-lang="sh">  go tool pprof -http=:8080 cpu.pprof</code>
+<code class="language-sh" data-lang="sh">go tool pprof -http=:8080 cpu.pprof</code>
 </pre>
 </div>
 </div>
@@ -112,15 +112,15 @@
 <div class="listingblock">
 <div class="content">
 <pre class="highlight">
-<code class="language-go" data-lang="go">  import "github.com/pkg/profile"
+<code class="language-go" data-lang="go">import &#34;github.com/pkg/profile&#34;
 
-  func main() {
-          defer profile.Start(
-                  profile.MemProfile,
-                  profile.MemProfileRate(1),
-                  profile.ProfilePath(".")).Stop()
-          // be mindful of memory and IO, it adds up
-  }</code>
+func main() {
+        defer profile.Start(
+                profile.MemProfile,
+                profile.MemProfileRate(1),
+                profile.ProfilePath(&#34;.&#34;)).Stop()
+        // be mindful of memory and IO, it adds up
+}</code>
 </pre>
 </div>
 </div>

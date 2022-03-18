@@ -309,24 +309,24 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt</code>
 <pre class="highlight">
 <code class="language-" data-lang=""># This should go to ~/.muttrc
 # Set up all the folders
-set folder="~/.mail/mymail"
+set folder=&#34;~/.mail/mymail&#34;
 mailboxes = +INBOX
-mailboxes = +'Sent Items'
-mailboxes = +'Deleted Items'
+mailboxes = +&#39;Sent Items&#39;
+mailboxes = +&#39;Deleted Items&#39;
 set spoolfile = +INBOX
-set trash = +'Deleted Items'
-set postponed = +'Drafts'
-set record = +'Sent Items'
+set trash = +&#39;Deleted Items&#39;
+set postponed = +&#39;Drafts&#39;
+set record = +&#39;Sent Items&#39;
 
 # Sort by reverse date
 set sleep_time = 0
-set sort = 'reverse-date'
+set sort = &#39;reverse-date&#39;
 
 # Default sending charset
-set send_charset="utf-8"
+set send_charset=&#34;utf-8&#34;
 
 # SMTP FOR SENDING EMAIL
-set realname="Big Lebowski" # edit this
+set realname=&#34;Big Lebowski&#34; # edit this
 set my_user=myusername # edit this
 set my_pass=mypassword # edit this
 set from = myaddress@example.com # edit this
@@ -357,7 +357,7 @@ my_hdr User-Agent: Every email client sucks, this one just sucks less.
 set markers = no
 set mark_old = no
 
-set forward_format = "Fwd: %s"       # format of subject when forwarding
+set forward_format = &#34;Fwd: %s&#34;       # format of subject when forwarding
 set forward_decode                   # decode when forwarding
 set forward_quote                    # include message in forwards
 set reverse_name                     # reply as whomever it was to
@@ -369,8 +369,8 @@ alternative_order text/plain text/enriched text/html
 set rfc2047_parameters = yes
 
 # Date and index formatting styles
-set date_format="%m-%d-%y %T"
-set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"# -*-muttrc-*-</code>
+set date_format=&#34;%m-%d-%y %T&#34;
+set index_format=&#34;%2C | %Z [%d] %-30.30F (%-4.4c) %s&#34;# -*-muttrc-*-</code>
 </pre>
 </div>
 </div>
@@ -461,7 +461,7 @@ Put a space before the command so your system will not save your plain text pass
 Jack Bauer
 
 Director of C.T.U.
-Don't call me</code>
+Don&#39;t call me</code>
 </pre>
 </div>
 </div>
