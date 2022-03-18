@@ -63,7 +63,7 @@ pre {
 }
 
 pre {
-        white-space: nowrap;
+        white-space: pre;
 }
 
 #header,
