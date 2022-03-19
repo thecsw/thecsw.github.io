@@ -3,5 +3,5 @@
 *** 🀢 [[./blogs][My cozy blog 🍣]]
 *** 🀣 [[./projects][Cool projects 🍥]]  
 *** 🀤 [[./stories][Short stories 🍯]]
-# *** 🀦 [[./darkness][I love Darkness 🥬]]
+*** 🀦 [[./darkness][I love Darkness 🥬]]
 *** 🀧 [[./anime][サンディのアニメ 🍶]]
