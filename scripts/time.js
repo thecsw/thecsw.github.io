@@ -1,6 +1,10 @@
 window.onload = () => {
   let time = document.querySelector("#hetime");
   const day = 24 * 60 * 60 * 1000;
+  cityDuringDayEmojis = ["🌃", "🌃", "🌌", "🌌", "🌉", "🌉",
+                         "🌄", "🌄", "🌅", "🌅", "🏙", "🏙", 
+                         "🏙", "🌁", "🌁", "🌁", "🏞", "🏞",
+                         "🏞", "🌇", "🌇", "🌆", "🌃", "🌃"];
 
   setTime = () => {
     let now = new Date();
@@ -11,7 +15,7 @@ window.onload = () => {
       (start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000;
 
     time.innerText =
-      (now.getHours() > 0 && now.getHours() < 12 ? "🌑" : "🌕") +
+      cityDuringDayEmojis[now.getHours()] +
       " " +
       Math.floor(diff / day) +
       "; " +
