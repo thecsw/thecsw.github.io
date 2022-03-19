@@ -228,6 +228,7 @@ select {
 
 .admonitionblock td.content > .title,
 .imageblock > .title,
+.videoblock > .title,
 .listingblock > .title,
 .paragraph > .title,
 .ulist > .title {
@@ -771,6 +772,30 @@ a.image {
         display: inline-block;
 }
 
+.videoblock.right {
+        margin: 0.25em 0 1.25em 0.625em;
+}
+
+.videoblock > .title {
+        margin-bottom: 0;
+}
+
+.video.right {
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+        display: inline-block;
+        line-height: 0;
+}
+
+.video.right {
+        margin-left: 0.625em;
+}
+
+a.video {
+        text-decoration: none;
+        display: inline-block;
+}
+
 .small {
         font-size: smaller;
 }
@@ -932,6 +957,20 @@ img {
 }
 
 .imageblock > .title {
+        text-align: center;
+        margin-top: 16px;
+}
+
+.videoblock {
+        margin-left: auto;
+        margin-right: auto;
+        width: 690px;
+        right: 50px;
+        position: relative;
+        text-align: center;
+}
+
+.videoblock > .title {
         text-align: center;
         margin-top: 16px;
 }
