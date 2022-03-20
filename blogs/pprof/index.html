@@ -74,8 +74,7 @@
 func main() {
         defer profile.Start(
                 profile.CPUProfile,
-                profile.ProfilePath(&#34;.&#34;))
-        .Stop()
+                profile.ProfilePath(&#34;.&#34;)).Stop()
         // all of your good stuff
 }</code></pre>
 </div>
