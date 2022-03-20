@@ -81,9 +81,7 @@ This blog is a <em>little</em> bit outdated. I just went through a new arch inst
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% sudo dd if=/path/to/image.iso of=/dev/your_drive</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% sudo dd if=/path/to/image.iso of=/dev/your_drive</code></pre>
 </div>
 </div>
 
@@ -133,9 +131,7 @@ This guide does not include installing Arch Linux as dual boot.
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% root@archios</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% root@archios</code></pre>
 </div>
 </div>
 
@@ -153,9 +149,7 @@ If you see a bunch of files when running the command below, then everything is [
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% ls /sys/firmware/efi/efivars</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% ls /sys/firmware/efi/efivars</code></pre>
 </div>
 </div>
 
@@ -180,9 +174,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% fdisk -l</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% fdisk -l</code></pre>
 </div>
 </div>
 
@@ -191,9 +183,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% cfdisk -z /dev/sda</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% cfdisk -z /dev/sda</code></pre>
 </div>
 </div>
 
@@ -212,9 +202,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% mkfs.fat -F32 /dev/sda1</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% mkfs.fat -F32 /dev/sda1</code></pre>
 </div>
 </div>
 
@@ -223,10 +211,8 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% mkswap /dev/sda2
-% swapon /dev/sda2</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% mkswap /dev/sda2
+% swapon /dev/sda2</code></pre>
 </div>
 </div>
 
@@ -235,9 +221,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% mkfs.ext4 /dev/sda3</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% mkfs.ext4 /dev/sda3</code></pre>
 </div>
 </div>
 
@@ -253,9 +237,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% mount /dev/sda3 /mnt</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% mount /dev/sda3 /mnt</code></pre>
 </div>
 </div>
 
@@ -264,10 +246,8 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% mkdir /mnt/boot
-% mount /dev/sda1 /mnt/boot</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% mkdir /mnt/boot
+% mount /dev/sda1 /mnt/boot</code></pre>
 </div>
 </div>
 
@@ -283,11 +263,9 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+<pre class="highlight"><code class="language-sh" data-lang="sh">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 % sed -i &#39;s/^#Server/Server/&#39; /etc/pacman.d/mirrorlist.backup
-% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code>
-</pre>
+% rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code></pre>
 </div>
 </div>
 
@@ -303,9 +281,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% pacstrap /mnt base base-devel</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% pacstrap /mnt base base-devel</code></pre>
 </div>
 </div>
 </div>
@@ -318,9 +294,7 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
 </div>
 </div>
 
@@ -348,9 +322,7 @@ Check <code>/mnt/etc/fstab</code> for any errors. If it looks right to you, it p
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% arch-chroot /mnt</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% arch-chroot /mnt</code></pre>
 </div>
 </div>
 
@@ -374,10 +346,8 @@ If it does not let you in or some error occurs, please make sure you followed al
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
-% hwclock --systohc</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+% hwclock --systohc</code></pre>
 </div>
 </div>
 </div>
@@ -511,10 +481,8 @@ You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>, but pleas
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% pacman -S intel-ucode
-% bootctl --path=/boot install</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% pacman -S intel-ucode
+% bootctl --path=/boot install</code></pre>
 </div>
 </div>
 
@@ -523,13 +491,11 @@ You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>, but pleas
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">/boot/loader/loader.conf
+<pre class="highlight"><code class="language-sh" data-lang="sh">/boot/loader/loader.conf
 ------------------------
 default Arch(arch)
 timeout 4
-editor 0</code>
-</pre>
+editor 0</code></pre>
 </div>
 </div>
 
@@ -538,15 +504,13 @@ editor 0</code>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">/boot/loader/entries/entry.conf
+<pre class="highlight"><code class="language-sh" data-lang="sh">/boot/loader/entries/entry.conf
 -------------------------------
 title Arch Linux
 linux /vmlinuz-linux
 initrd /intel-ucode.img
 initrd /initramfs-linux.img
-options root=/dev/sda3 rw</code>
-</pre>
+options root=/dev/sda3 rw</code></pre>
 </div>
 </div>
 </div>
@@ -565,10 +529,8 @@ options root=/dev/sda3 rw</code>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">Arch Linux (tty1)
-_myhostname_ login:</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">Arch Linux (tty1)
+_myhostname_ login:</code></pre>
 </div>
 </div>
 

@@ -94,9 +94,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code></pre>
 </div>
 </div>
 
@@ -105,9 +103,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% cryptsetup open /dev/sdb sdb</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% cryptsetup open /dev/sdb sdb</code></pre>
 </div>
 </div>
 
@@ -116,9 +112,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% mkfs.ext4 /dev/mapper/sdb</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% mkfs.ext4 /dev/mapper/sdb</code></pre>
 </div>
 </div>
 </div>
@@ -131,9 +125,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% mount /dev/mapper/sdb /mnt/flash</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% mount /dev/mapper/sdb /mnt/flash</code></pre>
 </div>
 </div>
 
@@ -142,11 +134,9 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% cd /mnt/flash
+<pre class="highlight"><code class="language-sh" data-lang="sh">% cd /mnt/flash
 % touch man
-% echo cat &gt; fish</code>
-</pre>
+% echo cat &gt; fish</code></pre>
 </div>
 </div>
 
@@ -155,9 +145,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% umount /mnt/flash</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% umount /mnt/flash</code></pre>
 </div>
 </div>
 </div>
@@ -170,9 +158,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight">
-<code class="language-sh" data-lang="sh">% cryptsetup close sdb</code>
-</pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">% cryptsetup close sdb</code></pre>
 </div>
 </div>
 </div>
