@@ -8,8 +8,10 @@ library up-to-date with my progress
 
  #+BEGIN_SRC
  ┌──────────────────┐
- │  Kono Subarashii │
- │     Sekai ni     ├───────────────────┐
+ │     Horimiya     │
+ ├──────────────────┼───────────────────┐
+ │  Kono Subarashii │  Jujutsu Kaisen 0 │
+ │     Sekai ni     ├───────────────────┤
  │  Shukufuku wo!:  │  Kono Subarashii  │
  │ Kurenai Densetsu │     Sekai ni      │
  ├──────────────────┤  Shukufuku wo! 2  │
