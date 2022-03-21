@@ -35,6 +35,7 @@ new!
 - [[./year_12019][Welcome to year 12,019 📅]]
 
 *** Random
+- [[./design][How I worked on my design 🥐]]
 - [[./soul][For your soul 💃]]
 - [[./dvorak][Switching to dvorak layout 🎹]]
 - [[./wrapped][My Spotify Wrapped for 2021 🎧]]

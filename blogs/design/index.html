@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/blogs/design" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/favicon.ico" type=""/>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="This website has gone through many different iterations, looks, tools, and contents. I thought it wo..."><meta name="og:title" property="og:title" content="How I worked on my design 🥐">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/design">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https://sandyuraz.com/blogs/design/preview.png">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/png">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="This website has gone through many different iterations, looks, tools, and contents. I thought it wo..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/design/preview.png">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/design">
+<meta name="twitter:title" property="twitter:title" content="How I worked on my design 🥐">
+<meta name="twitter:description" property="twitter:description" content="This website has gone through many different iterations, looks, tools, and contents. I thought it wo...">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>How I worked on my design 🥐</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
+<body class="article">
+
+<div id="header">
+<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" height="112">How I worked on my design 🥐</h1>
+<div class="details">
+<span id="author" class="author">sandy</span><br>
+<span id="email" class="email">[at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="details"></div>
+</div>
+<div id="content">
+
+<div class="paragraph">
+<p title="Mon, 21 Mar 2022">80; 12022 H.E. </p>
+</div>
+<div class="paragraph">
+<p>This website has gone through many different iterations, looks, tools, and contents. I thought it would be a nice exercise to quickly, yet cleanly outline some of the inspirations I took from other blogs/websites and where does the current style comes from. </p>
+</div>
+<div class="sect1">
+<h2 id="_the_beginning">The beginning</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I looked up sandyuraz.com on the <a href="https://web.archive.org/web/*/sandyuraz.com">Wayback Machine</a> and there are a couple of snapshots saved up! I picked the ones that clearly show some changes and updates that were made over time. This is the <a href="https://web.archive.org/web/20200509100353/http://sandyuraz.com/">oldest snapshot</a> found in the archive. It’s a plain website built with <a href="https://asciidoctor.org">asciidoctor</a>. It was very nice in the beginning! I wrote a couple of markdown documents, and boom, I have a website. </p>
+</div>
+<div class="paragraph">
+<p>Later on, I wanted to write my website files in org-mode instead of markdown-like asciidoc text files. That’s <a href="https://sandyuraz.com/blogs/web-legacy/">when</a> I came up with this wicked structure of having a <a href="https://github.com/thecsw/thecsw.github.io/blob/legacy-source/Makefile">huge makefile</a> that will call <a href="https://pandoc.org">pandoc</a> on each file, converting org to asciidoc, and finally piping it to asciidoctor for a final build. It was fun until it wasn’t. </p>
+</div>
+<div class="paragraph">
+<p>The pipeline of <code>org-&gt;asciidoc-&gt;HTML</code> had a flaw of losing information, simply because some features were not supported or translated poorly. I had to write many additional sed/awk scripts to patch them up. Yet, there was no superb control of the output. I was okay with that. It worked, duh </p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">NOTE</div>
+</td>
+<td class="content">
+You can notice that I still used keybase in that first snapshot 
+</td>
+</tr>
+</table>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_bookshelf">Bookshelf</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Adding the bookshelf page to my website was a grand addition I came up with sometime in the summer of 2020? I remember I was reading some blog from hacker news. Unfortunately, couldn’t find the link to the source. She had a nice navigation button that just read <strong>Books</strong>. &#34;Interesting,&#34; I thought. </p>
+</div>
+<div class="paragraph">
+<p>They had a list of books they’ve read that link to their respective reviews. Another list on top had the &#34;currently reading&#34; books. I thought it was such a nice section for a website. I like to read. Though, I wanted to add a little bit of a spice to it. Around that time I also discovered <a href="https://www.emacswiki.org/emacs/ArtistMode">Artist Mode</a> for emacs. </p>
+</div>
+<div class="paragraph">
+<p>Why can’t I just make ASCII drawings of books stacked on top of each other, just like my current library? Here is <a href="https://web.archive.org/web/20200925133247/https://sandyuraz.com/books/">the snapshot</a> that recorded that moment. I still want to add a review section to my bookshelf, but <a href="https://sandyuraz.com/anime/">anime</a> came first. </p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_fortunes">Fortunes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Donald Ray Burger with his famous burger.com has a separate page for <a href="http://burger.com/quotenow.htm">Quote of the Week</a>, which he’s been upkeeping since 2010 (oldest I could find, maybe goes even deeper). In my mind, it was such a cool idea to post a quote or a saying you liked and can look back on it. I used to do that in my notebook, but a whole website page sounds <strong>generational</strong>. </p>
+</div>
+<div class="paragraph">
+<p>Here is the <a href="https://web.archive.org/web/20200925123757/https://sandyuraz.com/fortunes/">earliest snapshot</a> I could find for it. </p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_foundation_time">Foundation time</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I like the <a href="https://sandyuraz.com/blogs/year_12019/">Human Era</a> calendar and I love Asimov, wherein one of his <em>Foundation</em> books he used a <a href="https://sandyuraz.com/blogs/foundation-time/">Galactic timestamp</a> format. Why not combine the two? I made a quick <a href="https://sandyuraz.com/time">webpage</a> that shows you the current Human Era time in Foundation format. Why not add it to the main website? But how... </p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.nytimes.com">The New York Times</a> website and app have a nice timestamp that shows what day it is today. Let me do a similar thing, but show the human era in foundation style. That’s how <a href="https://github.com/thecsw/thecsw.github.io/blob/master/scripts/time.js">this script</a> came to life, which updates the current time every second on every page. Added <a href="https://web.archive.org/web/20210124212647/https://sandyuraz.com/">sometime</a> in 12021 H.E. </p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_toddler_friendly">Toddler-friendly</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>One of my friends told me, &#34;Hey Sandy, I opened your website, but it was hard to navigate and read stuff, so much on it.&#34; To which I replied promptly, &#34;Okay, I’ll make it so simple that even toddlers can navigate through it.&#34; This was a good (great) change. </p>
+</div>
+<div class="paragraph">
+<p>I coupled up all pages, interests, movies, habits, projects, and posts into their separate subsections and made the main page a collection of links that leads users to the section they’re interested in. Compared to now, it <a href="https://web.archive.org/web/20210506184205/https://sandyuraz.com/">looks bland</a>. Humble beginnings. </p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_mahjong">Mahjong</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Donald Knuth has a <a href="https://www-cs-faculty.stanford.edu/~knuth/">weird symbol</a> on every section link, so that’s why I have mahjong Unicode characters in the sections’ titles. </p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_my_face">My face</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Another inspiration I yoinked from Donald Knuth is having a <a href="https://web.archive.org/web/20210612140549/https://sandyuraz.com/">profile picture</a> on the top left content corner of your website. &#34;That looks good! I’m not face-shy anymore. I think I had a good selfie somewhere...&#34; </p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_serif_fonts">Serif fonts</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Wow, this was <a href="https://www.nybooks.com/articles/2021/07/01/dostoevsky-and-his-demons/">one of the best</a> essays I have ever read. Not only it’s a fantastic study of Dostoyevsky’s life, but also the reading experience was simply pleasant. Something about the font and wide margins... </p>
+</div>
+<div class="paragraph">
+<p>The non-commercial license for nybooks’ font costs <a href="https://lettersfromsweden.se/font/ivar-text/">€440</a>. This is a bit much for a 20-year old, who just wants to write his musings on his website. I went on digging and found the amazing <a href="https://fonts.adobe.com/fonts/lora">Lora</a>, which was a match made in heavens. A gorgeous serif font, it’s thick, bold, and confident. Let me adjust my margins and everything font-related to make it <a href="https://web.archive.org/web/20211115060630/https://sandyuraz.com/">look sexier</a>. </p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_colors">Colors</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I still have the default asciidoctor colors, mainly just the links and orange titles. <a href="https://sandyuraz.com/anime/komi/">I live for Najimi</a>, they have more of a purple/pink-ish appearance, which looks <strong>so good</strong>. Time to change the palette to have the pink shade of my duvet cover. </p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_darkness">Darkness</h2>
+<div class="sectionbody">
+</div>
+<div class="paragraph">
+<p>All of the above was leading up to this point. I observed there is no longer a reason for me to have my face sticking out, it does nothing. I want to express myself better and have fun, <a href="https://sandyuraz.com/blogs/living/">live consciously</a>. A full revamp was comparable to a fresh spring air in the morning. New previews, new emojis, new building pipeline, new interests, new people, and new adventures! Life is indeed grand.  <b style="color:#ba3925">◼︎</b></p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
