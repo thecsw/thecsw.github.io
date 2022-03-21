@@ -1017,8 +1017,8 @@ body {
 }
 
 p {
-        font-size: 18px;
-        line-height: 28.6px;
+        font-size: 1.15rem;
+        line-height: 1.8rem;
         font-family: "Lora", serif;
         font-weight: 500;
 }
@@ -1062,11 +1062,11 @@ pre {
 /* --------------------- */
 
 h2 {
-        font-size: 2em;
+        font-size: 2rem;
 }
 
 h3 {
-        font-size: 1.5em;
+        font-size: 1.5rem;
 }
 
 /* ------------------------------------------ */
