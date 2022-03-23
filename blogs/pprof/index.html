@@ -12,7 +12,7 @@
 <meta name="generator" property="generator" content="Darkness">
 <meta name="author" property="author" content="sandy">
 <meta name="theme-color" property="theme-color" content="#fffff4">
-<meta name="description" property="description" content="If you write a program with everything you&amp;#39;ve got, you will never be able to debug or maintain it, a..."><meta name="og:title" property="og:title" content="Profiling should be friend ⛹️‍♀️">
+<meta name="description" property="description" content="If you write a program with everything you&amp;amp;#39;ve got, you will never be able to debug or maintain it, a..."><meta name="og:title" property="og:title" content="Profiling should be friend ⛹️‍♀️">
 <meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
 <meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/pprof">
 <meta name="og:locale" property="og:locale" content="en_GB">
@@ -22,13 +22,13 @@
 <meta name="og:image:type" property="og:image:type" content="image/png">
 <meta name="og:image:width" property="og:image:width" content="1280">
 <meta name="og:image:height" property="og:image:height" content="640">
-<meta name="og:description" property="og:description" content="If you write a program with everything you&amp;#39;ve got, you will never be able to debug or maintain it, a..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="og:description" property="og:description" content="If you write a program with everything you&amp;amp;#39;ve got, you will never be able to debug or maintain it, a..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/pprof/preview.png">
 <meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/pprof">
 <meta name="twitter:title" property="twitter:title" content="Profiling should be friend ⛹️‍♀️">
-<meta name="twitter:description" property="twitter:description" content="If you write a program with everything you&amp;#39;ve got, you will never be able to debug or maintain it, a...">
+<meta name="twitter:description" property="twitter:description" content="If you write a program with everything you&amp;amp;#39;ve got, you will never be able to debug or maintain it, a...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
 <title>Profiling should be friend ⛹️‍♀️</title>
@@ -53,16 +53,16 @@
 <p title="Fri, 18 Mar 2022">77; 12022 H.E. </p>
 </div>
 <div class="paragraph">
-<p>If you write a program with everything you’ve got, you will never be able to debug or maintain it, as the latter takes 10x amount of time and effort to put yourself through. One of the big parts of maintaining any application is optimizing its resource usage and how fast it can go to a reasonable extent. </p>
+<p>If you write a program with everything you&#39;ve got, you will never be able to debug or maintain it, as the latter takes 10x amount of time and effort to put yourself through. One of the big parts of maintaining any application is optimizing its resource usage and how fast it can go to a reasonable extent. </p>
 </div>
 <div class="paragraph">
-<p>I’m not the believer in rewriting everything and anything in Rust, while also measuring runtimes and who’s got it the fastest. Many applications simply don’t care if your print something to a user in 20ms or God forbid, in 100ms. Put your effort into something that has meaning and can be felt. However, you can’t have it being too slow either. </p>
+<p>I&#39;m not the believer in rewriting everything and anything in Rust, while also measuring runtimes and who’s got it the fastest. Many applications simply don&#39;t care if your print something to a user in 20ms or God forbid, in 100ms. Put your effort into something that has meaning and can be felt. However, you can&#39;t have it being too slow either. </p>
 </div>
 <div class="paragraph">
 <p>Profiling is an amazing tool you can use to inspect your application’s performance during its runtime, down to how much time is spent in each function or on each line of code. This would allow you to optimize your program in all the right places, while also seeing what the actual execution stack looks like (frequently we think that we spend a lot of time in a spot, which is so insignificant, it might not even show up in timing measurements). </p>
 </div>
 <div class="paragraph">
-<p>You can profile in any language with nice flames and stuff. There are <a href="https://pyroscope.io">some</a> that support many languages as well. In this post, I’ll focus on profiling in Go, as I’ve been doing it quite a lot lately. <a href="https://github.com/pkg/profile">profile</a> package is the best one I’ve used so far, as it also directly works with <a href="https://github.com/google/pprof">pprof</a> for visualization. </p>
+<p>You can profile in any language with nice flames and stuff. There are <a href="https://pyroscope.io">some</a> that support many languages as well. In this post, I&#39;ll focus on profiling in Go, as I&#39;ve been doing it quite a lot lately. <a href="https://github.com/pkg/profile">profile</a> package is the best one I&#39;ve used so far, as it also directly works with <a href="https://github.com/google/pprof">pprof</a> for visualization. </p>
 </div>
 <div class="paragraph">
 <p>How do you use it? Just paste in the line below into your <code>main</code> function on its first line. Build it, run it. </p>
@@ -81,7 +81,7 @@ func main() {
 </div>
 
 <div class="paragraph">
-<p>You’ll have a new file in your current directory named <code>cpu.pprof</code>. Use go’s toolchain to get a pretty visualization of everything your program did during its lifetime with the command below </p>
+<p>You&#39;ll have a new file in your current directory named <code>cpu.pprof</code>. Use go’s toolchain to get a pretty visualization of everything your program did during its lifetime with the command below </p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -90,7 +90,7 @@ func main() {
 </div>
 
 <div class="paragraph">
-<p>And you’re done! Enjoy all the nice investigative work that will follow. As an example, here is the profiling graph for darkness, the static website generator that I wrote for my website. It builds a hundred files in about 100ms. All thanks to optimizing bottlenecks found by profiling the whole thing many times </p>
+<p>And you&#39;re done! Enjoy all the nice investigative work that will follow. As an example, here is the profiling graph for darkness, the static website generator that I wrote for my website. It builds a hundred files in about 100ms. All thanks to optimizing bottlenecks found by profiling the whole thing many times </p>
 </div>
 <hr>
 <div class="imageblock">
