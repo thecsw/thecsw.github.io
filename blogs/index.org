@@ -26,6 +26,7 @@ new!
 *** Thoughts
 # - [[./friends][Friends come and go 🍤]]
 # - [[./tired][I'm a little tired 🍙]]
+- [[grind][Managing time without grinding ⏱]]
 - [[./living][Living consciously 🍜]]
 - [[./freshman][When I was a baby freshman 🐣]]
 - [[./anime][I love watching anime 🎻]]

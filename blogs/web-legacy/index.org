@@ -16,7 +16,7 @@ that was.
 
 You might be interested in how this website is built. Basically, the whole of
 this website is a collection of [[https://orgmode.org][Org Mode]] files, couple of [[https://en.wikipedia.org/wiki/Sed][sed]] scripts, some
-shell, and a master [[https://github.com/thecsw/thecsw.github.io/blob/legacy-source/Makefile][makefile]]. Makefile converts my raw org mode files into
+shell, and a master [[https://github.com/thecsw/thecsw.github.io/blob/source/Makefile][makefile]]. Makefile converts my raw org mode files into
 [[https://asciidoctor.org][asciidoctor]] with [[https://pandoc.org][pandoc]], sed scripts modify the asciidoctor files, then
 asciidoctor binary is called to generate HTML, and another sed script to
 modify the generated files, like adding CSS and some custom meta tags.
@@ -27,7 +27,7 @@ that runs everything above and deploys the generated website to =master= branch,
 where it triggers Github Pages to build the branch and deploy it [[https://sandyuraz.com][here]].
 
 Below is a good flow graph of files and operations. Just to solidify the
-structure of the website, here is the [[https://github.com/thecsw/thecsw.github.io/blob/legacy-source/web/index.org][source org file]] for *this* webpage.
+structure of the website, here is the [[https://github.com/thecsw/thecsw.github.io/blob/source/web/index.org][source org file]] for *this* webpage.
 
 #+begin_src
           ───────────────
