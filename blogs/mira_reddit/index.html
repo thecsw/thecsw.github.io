@@ -109,7 +109,7 @@
 <div class="title">NOTE</div>
 </td>
 <td class="content">
-mira is not <strong>completely</strong> concurrency safe! When you run <code>r.Comment(...)</code> or <code>r.Redditor(...)</code>, it adds those values to its internal queue and dequeues them when requested. If two threads or routines try to dequeue at the same time or expect something, then the data can get mingled up a bit. For example, there is a <code>r.ReplyWithID(commentID, text)</code> that makes an http request directly, without using the internal queue, which works fine. It’s a quick workaround that works. If you have more suggestions, I’m happy to wait for your PR! 
+mira is not <strong>completely</strong> concurrency safe! When you run <code>r.Comment(...)</code> or <code>r.Redditor(...)</code>, it adds those values to its internal queue and dequeues them when requested. If two threads or routines try to dequeue at the same time or expect something, then the data can get mingled up a bit. For example, there is a <code>r.ReplyWithID(commentID, text)</code> that makes an http request directly, without using the internal queue, which works fine. It’s a quick workaround that works. If you have more suggestions, I&#39;m happy to wait for your PR! 
 </td>
 </tr>
 </table>

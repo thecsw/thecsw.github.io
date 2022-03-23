@@ -744,10 +744,12 @@ ul dd,
         margin-bottom: 0.625em;
 }
 
+.videoblock.right,
 .imageblock.right {
         margin: 0.25em 0 1.25em 0.625em;
 }
 
+.videoblock > .title,
 .imageblock > .title {
         margin-bottom: 0;
 }
@@ -766,25 +768,6 @@ ul dd,
 a.image {
         text-decoration: none;
         display: inline-block;
-}
-
-.videoblock.right {
-        margin: 0.25em 0 1.25em 0.625em;
-}
-
-.videoblock > .title {
-        margin-bottom: 0;
-}
-
-.video.right {
-        margin-top: 0.25em;
-        margin-bottom: 0.25em;
-        display: inline-block;
-        line-height: 0;
-}
-
-.video.right {
-        margin-left: 0.625em;
 }
 
 a.video {
@@ -943,6 +926,7 @@ img {
         border-radius: 10px;
 }
 
+.videoblock,
 .imageblock {
         margin-left: auto;
         margin-right: auto;
@@ -952,21 +936,8 @@ img {
         text-align: center;
 }
 
+.videoblock > .title,
 .imageblock > .title {
-        text-align: center;
-        margin-top: 16px;
-}
-
-.videoblock {
-        margin-left: auto;
-        margin-right: auto;
-        width: 690px;
-        right: 50px;
-        position: relative;
-        text-align: center;
-}
-
-.videoblock > .title {
         text-align: center;
         margin-top: 16px;
 }
@@ -1065,6 +1036,24 @@ h3 {
         font-size: 1.5rem;
 }
 
+.videoblock {
+        position: relative;
+        overflow: hidden;
+        width: 690px;
+        padding-top: 390px; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+}
+
 /* ------------------------------------------ */
 
 /* Show my face picture when on wider screens */
@@ -1086,6 +1075,12 @@ h3 {
 @media all and (max-width: 700px) {
         .imageblock {
                 max-width: 100%;
+                right: 0px;
+        }
+
+        .videoblock {
+                width: 100%;
+                padding-top: 56.25%;
                 right: 0px;
         }
 }
