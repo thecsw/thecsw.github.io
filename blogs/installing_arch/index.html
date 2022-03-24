@@ -50,7 +50,9 @@
 <div id="content">
 
 <div class="paragraph">
-<p>May 2nd, 2019 </p>
+<p>
+May 2nd, 2019 
+</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -65,19 +67,27 @@ This blog is a <em>little</em> bit outdated. I just went through a new arch inst
 </table>
 </div>
 <div class="paragraph">
-<p>Welcome to my guide on installing Glorious Arch Linux! For some background, I have been using arch for the last and it is still my only machine that I use as a daily driver. Arch Linux is a lightweight DIY type of distro that does not assume what kind of person you are and thus just lets you be yourself. </p>
+<p>
+Welcome to my guide on installing Glorious Arch Linux! For some background, I have been using arch for the last and it is still my only machine that I use as a daily driver. Arch Linux is a lightweight DIY type of distro that does not assume what kind of person you are and thus just lets you be yourself. 
+</p>
 </div>
 <div class="sect1">
 <h2 id="_pre_installation">Pre-Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The whole system comes with a pre-compiled kernel (<code>Linux</code>), package manager (<code>pacman</code>), and some basic coreutils (<code>GNU</code>). That does not seem a lot, but this is just enough to make some great things. It installs a barebone system which allows the user to customize their system to smallest details and making it their own. Not like <code>ubuntu</code> with all the whistles and bangs included. </p>
+<p>
+The whole system comes with a pre-compiled kernel (<code>Linux</code>), package manager (<code>pacman</code>), and some basic coreutils (<code>GNU</code>). That does not seem a lot, but this is just enough to make some great things. It installs a barebone system which allows the user to customize their system to smallest details and making it their own. Not like <code>ubuntu</code> with all the whistles and bangs included. 
+</p>
 </div>
 <div class="paragraph">
-<p>This guide has an exact copy of steps I use when installing Arch Linux. Installed it over ~25 times. The beauty of arch is that no installation is considered the best one. Every installation can be unique and bespoke. This guide only shows how to setup a complete arch environment with simple and straight-forward steps. If you want to know more about each step and different options you can go with, please consult with the official <a href="https://wiki.archlinux.org/index.php/Installation_guide">Arch Wiki</a>. They have everything and more than you will ever need. </p>
+<p>
+This guide has an exact copy of steps I use when installing Arch Linux. Installed it over ~25 times. The beauty of arch is that no installation is considered the best one. Every installation can be unique and bespoke. This guide only shows how to setup a complete arch environment with simple and straight-forward steps. If you want to know more about each step and different options you can go with, please consult with the official <a href="https://wiki.archlinux.org/index.php/Installation_guide">Arch Wiki</a>. They have everything and more than you will ever need. 
+</p>
 </div>
 <div class="paragraph">
-<p>Open the <a href="https://www.archlinux.org/">Arch Linux Official Website</a> and download the latest image file. Later on just take a flash drive and burn it with <code>rufus</code> on Windows or with <code>dd</code> on Linux. To save you some trouble, here is an example <code>dd</code> command to burn the image </p>
+<p>
+Open the <a href="https://www.archlinux.org/">Arch Linux Official Website</a> and download the latest image file. Later on just take a flash drive and burn it with <code>rufus</code> on Windows or with <code>dd</code> on Linux. To save you some trouble, here is an example <code>dd</code> command to burn the image 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -120,14 +130,18 @@ This guide does not include installing Arch Linux as dual boot.
 <h4 id="_bios_configuration">BIOS Configuration</h4>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This part is quite easy. The only thing that you should do is to tell your BIOS to boot from Flash Drives instead of bootloader and other drives. This process is different for every BIOS Version and motherboard, however, this is really easy as all the entries in the BIOS menu are self-explanatory. </p>
+<p>
+This part is quite easy. The only thing that you should do is to tell your BIOS to boot from Flash Drives instead of bootloader and other drives. This process is different for every BIOS Version and motherboard, however, this is really easy as all the entries in the BIOS menu are self-explanatory. 
+</p>
 </div></div>
 </div>
 <div class="sect3">
 <h4 id="_flash_drive">Flash Drive</h4>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Just plug in your flash drive and power on/reboot your device. + Now, you will see a systemd prompt asking to boot. Choose the boot option that includes Arch Linux in it. + You should see a prompt of this form: </p>
+<p>
+Just plug in your flash drive and power on/reboot your device. + Now, you will see a systemd prompt asking to boot. Choose the boot option that includes Arch Linux in it. + You should see a prompt of this form: 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -170,7 +184,9 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <h3 id="_disk_partitioning">Disk Partitioning</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Okay, now we need to partition our hard/state drive. How do we do that? Actually, there are many ways to to it, however I prefer to use <code>cfdisk</code>. It has pseudo-GUI, which is easier to work and operate with. Before partitioning, we should find the name of your drive. For that, in your command line type. </p>
+<p>
+Okay, now we need to partition our hard/state drive. How do we do that? Actually, there are many ways to to it, however I prefer to use <code>cfdisk</code>. It has pseudo-GUI, which is easier to work and operate with. Before partitioning, we should find the name of your drive. For that, in your command line type. 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -179,7 +195,9 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>You will see a list of available storages. Ignore everything that ends with: boot, root, include, etc. What you are interested in is the biggest available drive. For example, my laptop has integrated SD Card 27GB and it is called <code>/dev/mmcblk0</code>. For the sake of simplicity, let’s use notation <code>/dev/sda</code> for the name of the drive. Okay, good. Now, launch <code>cfdisk</code> by typing </p>
+<p>
+You will see a list of available storages. Ignore everything that ends with: boot, root, include, etc. What you are interested in is the biggest available drive. For example, my laptop has integrated SD Card 27GB and it is called <code>/dev/mmcblk0</code>. For the sake of simplicity, let’s use notation <code>/dev/sda</code> for the name of the drive. Okay, good. Now, launch <code>cfdisk</code> by typing 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -188,17 +206,23 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>You will enter pseudo-GUI interface. Select <strong>gpt</strong> and now you will see your drive’s partitions. Next, we need to create 3 partitions: <code>EFI System(/dev/sda1)</code>, <code>Swap memory(/dev/sda2)</code> and <code>Root Directory (x86\_64)(/dev/sda3)</code>. I don&#39;t create home partitions, as I just don&#39;t like it. </p>
+<p>
+You will enter pseudo-GUI interface. Select <strong>gpt</strong> and now you will see your drive’s partitions. Next, we need to create 3 partitions: <code>EFI System(/dev/sda1)</code>, <code>Swap memory(/dev/sda2)</code> and <code>Root Directory (x86\_64)(/dev/sda3)</code>. I don&#39;t create home partitions, as I just don&#39;t like it. 
+</p>
 </div>
 <div class="paragraph">
-<p>By the rules, your swap should be 2xRAM and EFI System 512MB. Everything else can be given to Root Directory. Now, exit cfdisk by choosing QUIT. </p>
+<p>
+By the rules, your swap should be 2xRAM and EFI System 512MB. Everything else can be given to Root Directory. Now, exit cfdisk by choosing QUIT. 
+</p>
 </div></div>
 </div>
 <div class="sect2">
 <h3 id="_formatting_partitions">Formatting partitions</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>We need to format partitions appropriately and accordignly. Your EFI System should be FAT32 formatted, because we use systemd-boot. To do that, type </p>
+<p>
+We need to format partitions appropriately and accordignly. Your EFI System should be FAT32 formatted, because we use systemd-boot. To do that, type 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -207,7 +231,9 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>Your swap partition should be formatted as swap memory (obviously) </p>
+<p>
+Your swap partition should be formatted as swap memory (obviously) 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -217,7 +243,9 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>Your main directory should be formatted as ext4, so to use all your files further on </p>
+<p>
+Your main directory should be formatted as ext4, so to use all your files further on 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -226,14 +254,18 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>Very good, our partitions are properly formatted and we can go on. </p>
+<p>
+Very good, our partitions are properly formatted and we can go on. 
+</p>
 </div></div>
 </div>
 <div class="sect2">
 <h3 id="_mounting">Mounting</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Now, we should mount our partitions. Firstly, we should mount our root partition </p>
+<p>
+Now, we should mount our partitions. Firstly, we should mount our root partition 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -242,7 +274,9 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>Then, we should mount the EFI System, so the system would know where is the boot point. We also need to create boot directory on our own. </p>
+<p>
+Then, we should mount the EFI System, so the system would know where is the boot point. We also need to create boot directory on our own. 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -252,14 +286,18 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>Awesome, everything is mounted, now we can start installing the system </p>
+<p>
+Awesome, everything is mounted, now we can start installing the system 
+</p>
 </div></div>
 </div>
 <div class="sect2">
 <h3 id="_finding_closest_mirrors">Finding closest mirrors</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This part is quite easy. However, when I was installing my system, I had a problem with downloading speed, it was something like 20-50KB/s. Awful. To fix that and get the maximum download speed, do the following: </p>
+<p>
+This part is quite easy. However, when I was installing my system, I had a problem with downloading speed, it was something like 20-50KB/s. Awful. To fix that and get the maximum download speed, do the following: 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -270,14 +308,18 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 </div>
 
 <div class="paragraph">
-<p>Now, you will be connected to the fastest mirrors in your location. Hurray! </p>
+<p>
+Now, you will be connected to the fastest mirrors in your location. Hurray! 
+</p>
 </div></div>
 </div>
 <div class="sect2">
 <h3 id="_pacstrap">Pacstrap</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Now we will install the base system. Here, we will intall base and base-devel packages, because it will get us enough packages to start using Arch Linux. It may take a while. Sit back, take a cup of coffee and relax. </p>
+<p>
+Now we will install the base system. Here, we will intall base and base-devel packages, because it will get us enough packages to start using Arch Linux. It may take a while. Sit back, take a cup of coffee and relax. 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -290,7 +332,9 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <h3 id="_genfstab">Genfstab</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Now, the system is installed on the device and we need to tell our OS and Bootloader about the partitions of our disk. To do so, perform: </p>
+<p>
+Now, the system is installed on the device and we need to tell our OS and Bootloader about the partitions of our disk. To do so, perform: 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -315,10 +359,14 @@ Check <code>/mnt/etc/fstab</code> for any errors. If it looks right to you, it p
 <h3 id="_configuring_the_system">Configuring the system</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>If you have come this far, congratulations! You have installed the raw version of arch and essential tools. We have to perform some number of necessary configurations to make it usable as a daily driver. </p>
+<p>
+If you have come this far, congratulations! You have installed the raw version of arch and essential tools. We have to perform some number of necessary configurations to make it usable as a daily driver. 
+</p>
 </div>
 <div class="paragraph">
-<p>Log in to the newly installed system with </p>
+<p>
+Log in to the newly installed system with 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -342,7 +390,9 @@ If it does not let you in or some error occurs, please make sure you followed al
 <h4 id="_setting_the_time">Setting the time</h4>
 <div class="sectionbody">
 <div class="paragraph">
-<p>We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code> and use it instead of <code>_Region_</code> and <code>_City_</code> </p>
+<p>
+We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code> and use it instead of <code>_Region_</code> and <code>_City_</code> 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -414,7 +464,9 @@ Configure the hosts on your machine
 </div>
 
 <div class="paragraph">
-<p><code>% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 _myhostname_.localdomain _myhostname_ &gt; /etc/hosts</code> </p>
+<p>
+<code>% echo 127.0.0.1 localhost\n::1 localhost\n127.0.1.1 _myhostname_.localdomain _myhostname_ &gt; /etc/hosts</code> 
+</p>
 </div>
 <div class="ulist">
 <ul>
@@ -462,7 +514,9 @@ Changing the /user/’s password <code>% passwd _user_</code>
 <h3 id="_bootloader">Bootloader</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Small but important things swept out of the way, we have to configure one of the most important parts of this installation. Usually only arch and gentoo people have to work with manually setting up a bootloader. <a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">Bootloader</a> is a small program that boots your actual OS after motherboard’s BIOS gives you control over the system. In this installation, we are going with <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a>. It is the most compatible bootloader with Arch system in general. Also, my laptop’s hardware does not work with other bootloaders. Systemd is getting some bad fame because it is bloated, massive, and way too complicated. I agree with it but this is the best we have right now. Just like C++. </p>
+<p>
+Small but important things swept out of the way, we have to configure one of the most important parts of this installation. Usually only arch and gentoo people have to work with manually setting up a bootloader. <a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">Bootloader</a> is a small program that boots your actual OS after motherboard’s BIOS gives you control over the system. In this installation, we are going with <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a>. It is the most compatible bootloader with Arch system in general. Also, my laptop’s hardware does not work with other bootloaders. Systemd is getting some bad fame because it is bloated, massive, and way too complicated. I agree with it but this is the best we have right now. Just like C++. 
+</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -477,7 +531,9 @@ You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>, but pleas
 </table>
 </div>
 <div class="paragraph">
-<p>Assuming you have an intel chipset, run the following </p>
+<p>
+Assuming you have an intel chipset, run the following 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -487,7 +543,9 @@ You can go with <a href="https://www.gnu.org/software/grub/">GRUB</a>, but pleas
 </div>
 
 <div class="paragraph">
-<p>Use <code>vi</code> or <code>nano</code> text editor to write down the following: </p>
+<p>
+Use <code>vi</code> or <code>nano</code> text editor to write down the following: 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -500,7 +558,9 @@ editor 0</code></pre>
 </div>
 
 <div class="paragraph">
-<p>And for the second file: </p>
+<p>
+And for the second file: 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -519,13 +579,19 @@ options root=/dev/sda3 rw</code></pre>
 <h3 id="_finishing_up">Finishing up</h3>
 <div class="sectionbody">
 <div class="paragraph">
-<p>You are exactly two commands away from a complete Arch Linux installation! </p>
+<p>
+You are exactly two commands away from a complete Arch Linux installation! 
+</p>
 </div>
 <div class="paragraph">
-<p>You need to exit <code>chroot</code> by runing <code>% exit</code> and reboot with <code>% reboot</code> </p>
+<p>
+You need to exit <code>chroot</code> by runing <code>% exit</code> and reboot with <code>% reboot</code> 
+</p>
 </div>
 <div class="paragraph">
-<p>When you turn your machine back on, you should see some text popping out on the screen (that’s systemd) and finally, you should see the following prompt: </p>
+<p>
+When you turn your machine back on, you should see some text popping out on the screen (that’s systemd) and finally, you should see the following prompt: 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -535,7 +601,9 @@ _myhostname_ login:</code></pre>
 </div>
 
 <div class="paragraph">
-<p>If you see this, then <em>Congratulations!</em> + You have completed the installation. Everything is terminal based, if you want to install X Window Server for GUI and other shiny stuff, please follow to teh Post-Installation chapter. </p>
+<p>
+If you see this, then <em>Congratulations!</em> + You have completed the installation. Everything is terminal based, if you want to install X Window Server for GUI and other shiny stuff, please follow to teh Post-Installation chapter. 
+</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -554,7 +622,9 @@ If you did not see the login prompt, retrace your steps and make sure you follow
 <h2 id="_post_installation">Post-Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>I hope you enjoyed this installation guide. After the last step, you should be able to have an actual working and stable system. I will not go into details how to set up your Desktop Environment or Window Manager. It should be unique and this is your adventure now. I will give you a list of useful commands just to get started. Also, further reading links will be included. </p>
+<p>
+I hope you enjoyed this installation guide. After the last step, you should be able to have an actual working and stable system. I will not go into details how to set up your Desktop Environment or Window Manager. It should be unique and this is your adventure now. I will give you a list of useful commands just to get started. Also, further reading links will be included. 
+</p>
 </div>
 <div class="ulist">
 <ul>
@@ -628,17 +698,23 @@ Never ever run <code>% sudo pacman —force</code>. The only exception is if you
 </table>
 </div>
 <div class="paragraph">
-<p>I hope you enjoyed the installation process and I am sure you were able to learn something new about Linux and yourself. </p>
+<p>
+I hope you enjoyed the installation process and I am sure you were able to learn something new about Linux and yourself. 
+</p>
 </div>
 <div class="paragraph">
-<p><em>See you next time.</em> </p>
+<p>
+<em>See you next time.</em> 
+</p>
 </div></div>
 </div>
 <div class="sect1">
 <h2 id="_further_reading">Further Reading</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><em>IT&#39;S DANGEROUS TO GO ALONE! TAKE THIS.</em> </p>
+<p>
+<em>IT&#39;S DANGEROUS TO GO ALONE! TAKE THIS.</em> 
+</p>
 </div>
 <div class="ulist">
 <ul>

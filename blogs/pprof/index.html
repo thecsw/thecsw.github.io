@@ -50,22 +50,34 @@
 <div id="content">
 
 <div class="paragraph">
-<p title="Fri, 18 Mar 2022">77; 12022 H.E. </p>
+<p>
+77; 12022 H.E. 
+</p>
 </div>
 <div class="paragraph">
-<p>If you write a program with everything you&#39;ve got, you will never be able to debug or maintain it, as the latter takes 10x amount of time and effort to put yourself through. One of the big parts of maintaining any application is optimizing its resource usage and how fast it can go to a reasonable extent. </p>
+<p>
+If you write a program with everything you&#39;ve got, you will never be able to debug or maintain it, as the latter takes 10x amount of time and effort to put yourself through. One of the big parts of maintaining any application is optimizing its resource usage and how fast it can go to a reasonable extent. 
+</p>
 </div>
 <div class="paragraph">
-<p>I&#39;m not the believer in rewriting everything and anything in Rust, while also measuring runtimes and who’s got it the fastest. Many applications simply don&#39;t care if your print something to a user in 20ms or God forbid, in 100ms. Put your effort into something that has meaning and can be felt. However, you can&#39;t have it being too slow either. </p>
+<p>
+I&#39;m not the believer in rewriting everything and anything in Rust, while also measuring runtimes and who’s got it the fastest. Many applications simply don&#39;t care if your print something to a user in 20ms or God forbid, in 100ms. Put your effort into something that has meaning and can be felt. However, you can&#39;t have it being too slow either. 
+</p>
 </div>
 <div class="paragraph">
-<p>Profiling is an amazing tool you can use to inspect your application’s performance during its runtime, down to how much time is spent in each function or on each line of code. This would allow you to optimize your program in all the right places, while also seeing what the actual execution stack looks like (frequently we think that we spend a lot of time in a spot, which is so insignificant, it might not even show up in timing measurements). </p>
+<p>
+Profiling is an amazing tool you can use to inspect your application’s performance during its runtime, down to how much time is spent in each function or on each line of code. This would allow you to optimize your program in all the right places, while also seeing what the actual execution stack looks like (frequently we think that we spend a lot of time in a spot, which is so insignificant, it might not even show up in timing measurements). 
+</p>
 </div>
 <div class="paragraph">
-<p>You can profile in any language with nice flames and stuff. There are <a href="https://pyroscope.io">some</a> that support many languages as well. In this post, I&#39;ll focus on profiling in Go, as I&#39;ve been doing it quite a lot lately. <a href="https://github.com/pkg/profile">profile</a> package is the best one I&#39;ve used so far, as it also directly works with <a href="https://github.com/google/pprof">pprof</a> for visualization. </p>
+<p>
+You can profile in any language with nice flames and stuff. There are <a href="https://pyroscope.io">some</a> that support many languages as well. In this post, I&#39;ll focus on profiling in Go, as I&#39;ve been doing it quite a lot lately. <a href="https://github.com/pkg/profile">profile</a> package is the best one I&#39;ve used so far, as it also directly works with <a href="https://github.com/google/pprof">pprof</a> for visualization. 
+</p>
 </div>
 <div class="paragraph">
-<p>How do you use it? Just paste in the line below into your <code>main</code> function on its first line. Build it, run it. </p>
+<p>
+How do you use it? Just paste in the line below into your <code>main</code> function on its first line. Build it, run it. 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -81,7 +93,9 @@ func main() {
 </div>
 
 <div class="paragraph">
-<p>You&#39;ll have a new file in your current directory named <code>cpu.pprof</code>. Use go’s toolchain to get a pretty visualization of everything your program did during its lifetime with the command below </p>
+<p>
+You&#39;ll have a new file in your current directory named <code>cpu.pprof</code>. Use go’s toolchain to get a pretty visualization of everything your program did during its lifetime with the command below 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -90,7 +104,9 @@ func main() {
 </div>
 
 <div class="paragraph">
-<p>And you&#39;re done! Enjoy all the nice investigative work that will follow. As an example, here is the profiling graph for darkness, the static website generator that I wrote for my website. It builds a hundred files in about 100ms. All thanks to optimizing bottlenecks found by profiling the whole thing many times </p>
+<p>
+And you&#39;re done! Enjoy all the nice investigative work that will follow. As an example, here is the profiling graph for darkness, the static website generator that I wrote for my website. It builds a hundred files in about 100ms. All thanks to optimizing bottlenecks found by profiling the whole thing many times 
+</p>
 </div>
 <hr>
 <div class="imageblock">
@@ -101,10 +117,14 @@ func main() {
 </div>
 <hr>
 <div class="paragraph">
-<p>You can see that darkness spends most of its time in <code>ExportPage</code>, as it runs several buffered string operations, which still add up. Profiling will only show you the CPU time, so for parallelized darkness, the elapsed real time is around ~80ms, while the CPU time would counter at approximately 150ms. </p>
+<p>
+You can see that darkness spends most of its time in <code>ExportPage</code>, as it runs several buffered string operations, which still add up. Profiling will only show you the CPU time, so for parallelized darkness, the elapsed real time is around ~80ms, while the CPU time would counter at approximately 150ms. 
+</p>
 </div>
 <div class="paragraph">
-<p>You can also profile memory allocations and spot places where it might be beneficial for you to pre-allocate some space and use it continuously, instead of constantly pinging the OS and demanding more pages. It’s the same as the CPU example above, just replace it with the following, which will create a <code>mem.pprof</code>, where you can use the same <code>go tool pprof</code> on it </p>
+<p>
+You can also profile memory allocations and spot places where it might be beneficial for you to pre-allocate some space and use it continuously, instead of constantly pinging the OS and demanding more pages. It’s the same as the CPU example above, just replace it with the following, which will create a <code>mem.pprof</code>, where you can use the same <code>go tool pprof</code> on it 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -133,7 +153,9 @@ change that <code>profile.MemProfileRate(1)</code> to something bigger if you wa
 </table>
 </div>
 <div class="paragraph">
-<p>I hope this would be of use to you as it is to me!  <b style="color:#ba3925">◼︎</b></p>
+<p>
+I hope this would be of use to you as it is to me!  <b style="color:#ba3925">◼︎</b>
+</p>
 </div>
 </div>
 </div>
