@@ -50,7 +50,9 @@
 <div id="content">
 
 <div class="paragraph">
-<p title="Mon, 14 Mar 2022">73; 12022 H.E. </p>
+<p>
+73; 12022 H.E. 
+</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -65,16 +67,24 @@ Everything below is the legacy version of the website that has been building up 
 </table>
 </div>
 <div class="paragraph">
-<p>I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: <code>LaTeX</code>, <code>groff</code>, <code>markdown</code>, <code>Org-Mode</code>, <code>asciidoctor</code>, <code>HTML</code>, <code>plain text</code>. I had to decompress Word files and wrestle with raw XML files there, what a trip that was. </p>
+<p>
+I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: <code>LaTeX</code>, <code>groff</code>, <code>markdown</code>, <code>Org-Mode</code>, <code>asciidoctor</code>, <code>HTML</code>, <code>plain text</code>. I had to decompress Word files and wrestle with raw XML files there, what a trip that was. 
+</p>
 </div>
 <div class="paragraph">
-<p>You might be interested in how this website is built. Basically, the whole of this website is a collection of <a href="https://orgmode.org">Org Mode</a> files, couple of <a href="https://en.wikipedia.org/wiki/Sed">sed</a> scripts, some shell, and a master <a href="https://github.com/thecsw/thecsw.github.io/blob/source/Makefile">makefile</a>. Makefile converts my raw org mode files into <a href="https://asciidoctor.org">asciidoctor</a> with <a href="https://pandoc.org">pandoc</a>, sed scripts modify the asciidoctor files, then asciidoctor binary is called to generate HTML, and another sed script to modify the generated files, like adding CSS and some custom meta tags. </p>
+<p>
+You might be interested in how this website is built. Basically, the whole of this website is a collection of <a href="https://orgmode.org">Org Mode</a> files, couple of <a href="https://en.wikipedia.org/wiki/Sed">sed</a> scripts, some shell, and a master <a href="https://github.com/thecsw/thecsw.github.io/blob/source/Makefile">makefile</a>. Makefile converts my raw org mode files into <a href="https://asciidoctor.org">asciidoctor</a> with <a href="https://pandoc.org">pandoc</a>, sed scripts modify the asciidoctor files, then asciidoctor binary is called to generate HTML, and another sed script to modify the generated files, like adding CSS and some custom meta tags. 
+</p>
 </div>
 <div class="paragraph">
-<p>The <a href="https://github.com/thecsw/thecsw.github.io">repository</a> is hosted on Github. <code>source</code> branch is the one that contains all the source org files, on every commit push, a github workflow is triggered that runs everything above and deploys the generated website to <code>master</code> branch, where it triggers Github Pages to build the branch and deploy it <a href="https://sandyuraz.com">here</a>. </p>
+<p>
+The <a href="https://github.com/thecsw/thecsw.github.io">repository</a> is hosted on Github. <code>source</code> branch is the one that contains all the source org files, on every commit push, a github workflow is triggered that runs everything above and deploys the generated website to <code>master</code> branch, where it triggers Github Pages to build the branch and deploy it <a href="https://sandyuraz.com">here</a>. 
+</p>
 </div>
 <div class="paragraph">
-<p>Below is a good flow graph of files and operations. Just to solidify the structure of the website, here is the <a href="https://github.com/thecsw/thecsw.github.io/blob/source/web/index.org">source org file</a> for <strong>this</strong> webpage. </p>
+<p>
+Below is a good flow graph of files and operations. Just to solidify the structure of the website, here is the <a href="https://github.com/thecsw/thecsw.github.io/blob/source/web/index.org">source org file</a> for <strong>this</strong> webpage. 
+</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -133,16 +143,24 @@ Everything below is the legacy version of the website that has been building up 
 </div>
 
 <div class="paragraph">
-<p>That’s the kind of workflow I have for my website. Whenever I do want to add a new page or update existing ones, all I have to do is edit org mode files, which are native to Emacs and push committed updates. That’s all the magic! </p>
+<p>
+That’s the kind of workflow I have for my website. Whenever I do want to add a new page or update existing ones, all I have to do is edit org mode files, which are native to Emacs and push committed updates. That’s all the magic! 
+</p>
 </div>
 <div class="paragraph">
-<p>On a quick note, you were probably curious about the <a href="https://sandyuraz.com/fortunes">fortunes page</a>. The simplicity of website updates allows some room for automation. Please meet <a href="https://git.sr.ht/~thecsw/astrie">astrie</a>! My personal assistant for my website. </p>
+<p>
+On a quick note, you were probably curious about the <a href="https://sandyuraz.com/fortunes">fortunes page</a>. The simplicity of website updates allows some room for automation. Please meet <a href="https://git.sr.ht/~thecsw/astrie">astrie</a>! My personal assistant for my website. 
+</p>
 </div>
 <div class="paragraph">
-<p>Astrie talks to me through Telegram, where I send her various commands, such as adding quotes and she <a href="https://github.com/thecsw/thecsw.github.io/commit/4f39fb7479112e1d116475dad8ed7415c5ba10e6">patiently abides</a>. I&#39;m quite proud of her, as all we need for all that complexity is a ~100 loc Go package with a very small shell script that runs continuous git submodule updates and pushes. </p>
+<p>
+Astrie talks to me through Telegram, where I send her various commands, such as adding quotes and she <a href="https://github.com/thecsw/thecsw.github.io/commit/4f39fb7479112e1d116475dad8ed7415c5ba10e6">patiently abides</a>. I&#39;m quite proud of her, as all we need for all that complexity is a ~100 loc Go package with a very small shell script that runs continuous git submodule updates and pushes. 
+</p>
 </div>
 <div class="paragraph">
-<p>In a bigger picture, I must say that I would love to be able to typeset beautiful documents and books like the ones below </p>
+<p>
+In a bigger picture, I must say that I would love to be able to typeset beautiful documents and books like the ones below 
+</p>
 </div>
 <div class="ulist">
 <ul>

@@ -50,19 +50,29 @@
 <div id="content">
 
 <div class="paragraph">
-<p title="Mon, 08 Nov 2021">312; 12021 H.E. </p>
+<p>
+312; 12021 H.E. 
+</p>
 </div>
 <div class="paragraph">
-<p>Emacs is like a drug. You get on it once, feel the bliss, and never look back. This already happened to me many years ago. I don&#39;t even recommend it for new users anymore, it is a <strong>huge</strong> commitment. I wouldn&#39;t want anyone go through weird machinations to make it work on arm machines and M1’s. Too late for me. </p>
+<p>
+Emacs is like a drug. You get on it once, feel the bliss, and never look back. This already happened to me many years ago. I don&#39;t even recommend it for new users anymore, it is a <strong>huge</strong> commitment. I wouldn&#39;t want anyone go through weird machinations to make it work on arm machines and M1’s. Too late for me. 
+</p>
 </div>
 <div class="paragraph">
-<p>This is a quick post on how to use emacs on newer macs with arm chips and weird errors that you might encounter, which wouldn&#39;t be so intuitive on what is actually going wrong. </p>
+<p>
+This is a quick post on how to use emacs on newer macs with arm chips and weird errors that you might encounter, which wouldn&#39;t be so intuitive on what is actually going wrong. 
+</p>
 </div>
 <div class="paragraph">
-<p>In my mind, the first path is the best way: just download an emacs binary from <a href="https://emacsformacosx.com">emacsformacosx.com</a>, move it to <code>/Applications</code>, and you&#39;re set! It’s a universal binary, which would make it work wherever. One small caveat is that this emacs might have a <strong>really</strong> bad time navigating your hard drive, even if you give it <code>Full Disk Access</code> in settings. This is apparently because it’s launched through ruby, so you would need to grant the full disk access to <code>/usr/bin/ruby</code>. Works like a charm. I&#39;m using this version of emacs right now 🤔 </p>
+<p>
+In my mind, the first path is the best way: just download an emacs binary from <a href="https://emacsformacosx.com">emacsformacosx.com</a>, move it to <code>/Applications</code>, and you&#39;re set! It’s a universal binary, which would make it work wherever. One small caveat is that this emacs might have a <strong>really</strong> bad time navigating your hard drive, even if you give it <code>Full Disk Access</code> in settings. This is apparently because it’s launched through ruby, so you would need to grant the full disk access to <code>/usr/bin/ruby</code>. Works like a charm. I&#39;m using this version of emacs right now 🤔 
+</p>
 </div>
 <div class="paragraph">
-<p><strong>OR!</strong> Build it yourself. This is what I&#39;ve been doing for about a year since I got my M1 Pro. Undeniably, the jankiest way to use emacs, resulting in 500MB+ application packages and a long time of loading, because Rosetta 2 gotta translate all that sweet sweet x86_64 to your native arm. I really like this <a href="https://github.com/jimeh/build-emacs-for-macos">project</a> with a nice build script for both x86 and arm (this one is a wildcard to get working because of gcc’s JIT and signatures don&#39;t work, so it dies). I have a <a href="https://github.com/thecsw/emacs-builds">personal repo</a> where I upload good emacs builds. Good luck!  <b style="color:#ba3925">◼︎</b></p>
+<p>
+<strong>OR!</strong> Build it yourself. This is what I&#39;ve been doing for about a year since I got my M1 Pro. Undeniably, the jankiest way to use emacs, resulting in 500MB+ application packages and a long time of loading, because Rosetta 2 gotta translate all that sweet sweet x86_64 to your native arm. I really like this <a href="https://github.com/jimeh/build-emacs-for-macos">project</a> with a nice build script for both x86 and arm (this one is a wildcard to get working because of gcc’s JIT and signatures don&#39;t work, so it dies). I have a <a href="https://github.com/thecsw/emacs-builds">personal repo</a> where I upload good emacs builds. Good luck!  <b style="color:#ba3925">◼︎</b>
+</p>
 </div>
 </div>
 </div>
