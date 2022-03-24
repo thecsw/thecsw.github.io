@@ -1,8 +1,7 @@
 * My cozy blog 🍣
 
-Here is a list of my articles I have online. I hope you will find some of
-them interesting and you can learn something new! Always learn something
-new!
+I can't fall asleep if I don't write. I wake up in the morning; I need to tell a
+story. Are my eyes too innocent to see the future we have been destined for? 
 
 *** Software
 - [[./pprof][Profiling should be friend ⛹️‍♀️]]

@@ -1,7 +1,7 @@
 * Cool projects 🍥
 
-Some of the cool things I've done over the years, such as projects, websites,
-papers, etc! Hope you find something interesting for yourself
+What have I done? What do I do now? Ye shall not despair. Young boy, step forth
+and become legendary.
 
 - [[./vmagi][Write an Emulator in 24 hours 🥃]]
 - [[./katya][Katya or The Liberated Corpus 🙈]]
