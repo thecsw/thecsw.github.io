@@ -11,7 +11,7 @@ virtue to prevent me from sinking all my time, and methodically ignoring every
 other commitment in life - then, I consider it to be the moment of truth.
 
 #+begin_quote
-/You can’t get very far in this world without your dossier being there first./\
+/You can’t get very far in this world without your dossier being there first./ \
 -- Arthur Miller
 #+end_quote
 
