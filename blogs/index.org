@@ -25,7 +25,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 *** Thoughts
 # - [[./friends][Friends come and go 🍤]]
 # - [[./tired][I'm a little tired 🍙]]
-- [[./start][How to start a story 🪝]]
+- [[./story][How to start a story 🪝]]
 - [[grind][Managing time without grinding ⏱]]
 - [[./living][Living consciously 🍜]]
 - [[./freshman][When I was a baby freshman 🐣]]
