@@ -106,6 +106,5 @@ Her name is based on one of the characters I love from [[https://en.wikipedia.or
 [[darkness.webp][Dustiness Ford Lalatina]]
 
 #+begin_quote
-/A knight must never run away, no matter how mighty the enemy./ \
--- Darkness
+/A knight must never run away, no matter how mighty the enemy./ -- Darkness
 #+end_quote
