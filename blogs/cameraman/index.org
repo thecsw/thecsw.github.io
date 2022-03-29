@@ -18,6 +18,8 @@ WITHOUT THE HELP OF A SCENARIO \
 WITHOUT THE HELP OF THEATRE \
 #+end_center
 
+[[eye.png][Man with a Movie Camera]]
+
 /Man With A Movie Camera/ is almost a silent movie with incredibly fast-paced
 editing and the unique decision regarding its actors and plot, there is
 none. Let us traverse through different dimensions of what Dziga Vertov,
@@ -43,9 +45,11 @@ The second important feature of the film to notice is the apparent lack of a
 traditional narrative script, possibly a complete absence of it. Rarely this is
 done, as what we end up with is a movie with no central characters that develop
 or follow some overarching story that we are supposed to follow and care
-about. In a similar logical way, one would even dare to claim that /Man With A/
-/Movie Camera/ is devoid of any meaning, primarily because it doesn't have a plot
+about. In a similar logical way, one would even dare to claim that /Man With A
+Movie Camera/ is devoid of any meaning, primarily because it doesn't have a plot
 for us to consciously follow. I would disagree.
+
+[[people.png][Complete abscence of traditional actors]]
 
 What we have in front of us is a film with no actors, but that fact alone
 doesn't hinder or cripple the effect Dziga Vertov made on us. The absence of a
@@ -70,6 +74,8 @@ moralizing or lecturing tone in his film. It is simply a collection of
 real-world footage with real regular people in it. This merely serves as a
 manifestation of his own views on cinema, which is fully cinematic. Vertov
 accomplishes at making it real, a literal unplayed film.
+
+[[street.png][Showing the routine of life as it is]]
 
 This cinematic nature of it with an incredible editing and montage job done by
 Elizaveta Svilova allows us to formulate our own understanding of the film. This
@@ -100,6 +106,8 @@ they do have my respect. The second reason is that we are mostly presented with 
 active urban life, but an overwhelming majority of the Soviet population used to
 live in more rural areas, where I would imagine the lifestyle was very
 different.
+
+[[camera.png][Let the camera do the talking]]
 
 After an epilepsy-inducing final scene, the end credits simply read *KINEC*
 (*END*). I started applauding because I felt this is what /Man With A Movie Camera/
