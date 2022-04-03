@@ -9,7 +9,9 @@
    services, browser extensions you can use to get back control of your online
    presence.
 
+   #+begin_quote
    /Call it an internet usage etiquette./ -- Matthew, my friend
+   #+end_quote
 
 ** Adblockers
    Allowing people use the Internet without an adblocker is a violation of
