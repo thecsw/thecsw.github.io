@@ -1,0 +1,41 @@
+* WebP is such a goated format 🫐
+
+93; 12022 H.E.
+
+I have been toying around with [[https://en.wikipedia.org/wiki/WebP][WebP]] for a couple of weeks now. Convert this
+image into webp and try to use it instead of traditional png. It was pretty
+crazy for me to see an up to 10x image size reduction, yet very little to no
+visual difference with a naked human eye.
+
+Some further reading led me to some pleasant discoveries, such as lossy and
+lossless compression, transparency with an alpha channel, metadata, animation
+(!) support, and a wide adoption by major browsers and graphics software over
+the past decade or so.
+
+This is truly some state-of-the-art stuff. Even as claiming an average of 45%
+reduction in file size with wild PNGs found on the web and a 28% reduction
+compared to PNGs that are recompressed with [[https://en.wikipedia.org/wiki/Pngcrush][pngcrush]] and [[https://en.wikipedia.org/wiki/PNGOUT][PNGOUT]]. [fn:: [[http://googlecode.blogspot.com/2011/11/lossless-and-transparency-encoding-in.html][Lossless
+and transparency encoding in WebP]]]. I should try this now!
+
+The process of moving from PNG to WebP was painless. I rigged a quick =find= and
+=sed= script to go through all my directories and convert images with
+[[https://imagemagick.org][ImageMagick]]. Another quick regex to find corresponding file links and references
+in org files, and replace them with anew webp format. It all took no more than
+15 to 20 minutes. I talked to Darkness to [[https://github.com/thecsw/darkness/commit/85a89d871bcb272b9c2b7b36d02af67132dac834][support variable preview files]] aaaannd
+*push!*
+
+Wow, /it just works/. Even GitHub Pages deploys it in about halftime now. Let me
+see if we got any file size gains. I'll archive the whole website into two tar
+files: before and after webp changes (=.git= of course excluded).
+
+#+begin_src sh
+  sandyuraz:source* λ ls -lh *.tar
+  -rw-r--r--  1 thecsw  staff   279M Apr  3 15:33 png.tar
+  -rw-r--r--  1 thecsw  staff   108M Apr  3 15:33 webp.tar
+#+end_src
+
+*This is very nice*. It's less than half of what it was before! Going through
+some of the pages, even my eye can't spot any differences that would be
+noticeable. WebP is good for all the stuff on the web. Choose your image formats
+based on your needs and requirements. For now, WebP looks like a great
+alternative. Thank you!
