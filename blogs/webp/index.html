@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/blogs/webp" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/favicon.ico" type=""/>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="I have been toying around with &amp;lt;a href=&amp;#34;https://en.wikipedia.org/wiki/WebP&amp;#34;&amp;gt;WebP&amp;lt;/a&amp;gt; for a couple of weeks no..."><meta name="og:title" property="og:title" content="WebP is such a goated format 🫐">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/webp">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https:/sandyuraz.com/blogs/webp/preview.webp">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/png">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="I have been toying around with &amp;lt;a href=&amp;#34;https://en.wikipedia.org/wiki/WebP&amp;#34;&amp;gt;WebP&amp;lt;/a&amp;gt; for a couple of weeks no..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https:/sandyuraz.com/blogs/webp/preview.webp">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/webp">
+<meta name="twitter:title" property="twitter:title" content="WebP is such a goated format 🫐">
+<meta name="twitter:description" property="twitter:description" content="I have been toying around with &amp;lt;a href=&amp;#34;https://en.wikipedia.org/wiki/WebP&amp;#34;&amp;gt;WebP&amp;lt;/a&amp;gt; for a couple of weeks no...">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>WebP is such a goated format 🫐</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
+<body class="article">
+
+<div id="header">
+<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" height="112">WebP is such a goated format 🫐</h1>
+<div class="details">
+<span id="author" class="author">sandy</span><br>
+<span id="email" class="email">[at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="details"></div>
+</div>
+<div id="content">
+
+<div class="paragraph">
+<p title="Sun, 03 Apr 2022">
+93; 12022 H.E.
+</p>
+</div>
+<div class="paragraph">
+<p>
+I have been toying around with <a href="https://en.wikipedia.org/wiki/WebP">WebP</a> for a couple of weeks now. Convert this image into webp and try to use it instead of traditional png. It was pretty crazy for me to see an up to 10x image size reduction, yet very little to no visual difference with a naked human eye.
+</p>
+</div>
+<div class="paragraph">
+<p>
+Some further reading led me to some pleasant discoveries, such as lossy and lossless compression, transparency with an alpha channel, metadata, animation (!) support, and a wide adoption by major browsers and graphics software over the past decade or so.
+</p>
+</div>
+<div class="paragraph">
+<p>
+This is truly some state-of-the-art stuff. Even as claiming an average of 45% reduction in file size with wild PNGs found on the web and a 28% reduction compared to PNGs that are recompressed with <a href="https://en.wikipedia.org/wiki/Pngcrush">pngcrush</a> and <a href="https://en.wikipedia.org/wiki/PNGOUT">PNGOUT</a>. [fn:: <a href="http://googlecode.blogspot.com/2011/11/lossless-and-transparency-encoding-in.html">Lossless and transparency encoding in WebP</a>]. I should try this now!
+</p>
+</div>
+<div class="paragraph">
+<p>
+The process of moving from PNG to WebP was painless. I rigged a quick <code>find</code> and <code>sed</code> script to go through all my directories and convert images with <a href="https://imagemagick.org">ImageMagick</a>. Another quick regex to find corresponding file links and references in org files, and replace them with anew webp format. It all took no more than 15 to 20 minutes. I talked to Darkness to <a href="https://github.com/thecsw/darkness/commit/85a89d871bcb272b9c2b7b36d02af67132dac834">support variable preview files</a> aaaannd <strong>push!</strong>
+</p>
+</div>
+<div class="paragraph">
+<p>
+Wow, <em>it just works</em>. Even GitHub Pages deploys it in about halftime now. Let me see if we got any file size gains. I&#39;ll archive the whole website into two tar files: before and after webp changes (<code>.git</code> of course excluded).
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-sh" data-lang="sh">sandyuraz:source* λ ls -lh *.tar
+-rw-r--r--  1 thecsw  staff   279M Apr  3 15:33 png.tar
+-rw-r--r--  1 thecsw  staff   108M Apr  3 15:33 webp.tar</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+<strong>This is very nice</strong>. It’s less than half of what it was before! Going through some of the pages, even my eye can’t spot any differences that would be noticeable. WebP is good for all the stuff on the web. Choose your image formats based on your needs and requirements. For now, WebP looks like a great alternative. Thank you!  <b style="color:#ba3925">◼︎</b>
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
