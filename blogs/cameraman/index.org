@@ -18,7 +18,7 @@ WITHOUT THE HELP OF A SCENARIO \
 WITHOUT THE HELP OF THEATRE \
 #+end_center
 
-[[eye.png][Man with a Movie Camera]]
+[[eye.webp][Man with a Movie Camera]]
 
 /Man With A Movie Camera/ is almost a silent movie with incredibly fast-paced
 editing and the unique decision regarding its actors and plot, there is
@@ -49,7 +49,7 @@ about. In a similar logical way, one would even dare to claim that /Man With A
 Movie Camera/ is devoid of any meaning, primarily because it doesn't have a plot
 for us to consciously follow. I would disagree.
 
-[[people.png][Complete abscence of traditional actors]]
+[[people.webp][Complete abscence of traditional actors]]
 
 What we have in front of us is a film with no actors, but that fact alone
 doesn't hinder or cripple the effect Dziga Vertov made on us. The absence of a
@@ -75,7 +75,7 @@ real-world footage with real regular people in it. This merely serves as a
 manifestation of his own views on cinema, which is fully cinematic. Vertov
 accomplishes at making it real, a literal unplayed film.
 
-[[street.png][Showing the routine of life as it is]]
+[[street.webp][Showing the routine of life as it is]]
 
 This cinematic nature of it with an incredible editing and montage job done by
 Elizaveta Svilova allows us to formulate our own understanding of the film. This
@@ -107,7 +107,7 @@ active urban life, but an overwhelming majority of the Soviet population used to
 live in more rural areas, where I would imagine the lifestyle was very
 different.
 
-[[camera.png][Let the camera do the talking]]
+[[camera.webp][Let the camera do the talking]]
 
 After an epilepsy-inducing final scene, the end credits simply read *KINEC*
 (*END*). I started applauding because I felt this is what /Man With A Movie Camera/

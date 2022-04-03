@@ -52,7 +52,7 @@ example, here is the profiling graph for darkness, the static website generator
 that I wrote for my website. It builds a hundred files in about 100ms. All
 thanks to optimizing bottlenecks found by profiling the whole thing many times
 
-[[./darkness.png][Profiling =darkness build=]]
+[[darkness.webp][Profiling =darkness build=]]
 
 You can see that darkness spends most of its time in =ExportPage=, as it runs
 several buffered string operations, which still add up. Profiling will only 
