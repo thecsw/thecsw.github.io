@@ -15,7 +15,7 @@ that were made over time. This is the [[https://web.archive.org/web/202005091003
 a plain website built with [[https://asciidoctor.org][asciidoctor]]. It was very nice in the beginning! I
 wrote a couple of markdown documents, and boom, I have a website.  
 
-[[snap1.png][The oldest snapshot]]
+[[snap1.webp][The oldest snapshot]]
 
 Later on, I wanted to write my website files in org-mode instead of
 markdown-like asciidoc text files. That's [[https://sandyuraz.com/blogs/web-legacy/][when]] I came up with this wicked
@@ -47,7 +47,7 @@ Why can't I just make ASCII drawings of books stacked on top of each other, just
 like my current library? Here is [[https://web.archive.org/web/20200925133247/https://sandyuraz.com/books/][the snapshot]] that recorded that moment. I still
 want to add a review section to my bookshelf, but [[https://sandyuraz.com/anime/][anime]] came first.  
 
-[[books.png][The bookshelf hasn't changed that much]]
+[[books.webp][The bookshelf hasn't changed that much]]
 
 ** Fortunes 
 
@@ -59,7 +59,7 @@ website page sounds *generational*.
 
 Here is the [[https://web.archive.org/web/20200925123757/https://sandyuraz.com/fortunes/][earliest snapshot]] I could find for it. 
 
-[[fortunes.png][First fortunes]]
+[[fortunes.webp][First fortunes]]
 
 ** Foundation time 
 
@@ -85,7 +85,7 @@ their separate subsections and made the main page a collection of links that
 leads users to the section they're interested in. Compared to now, it [[https://web.archive.org/web/20210506184205/https://sandyuraz.com/][looks
 bland]]. Humble beginnings.
 
-[[bland.png][Links-only style]]
+[[bland.webp][Links-only style]]
 
 ** Mahjong 
 
@@ -98,7 +98,7 @@ Another inspiration I yoinked from Donald Knuth is having a [[https://web.archiv
 the top left content corner of your website. "That looks good! I'm not face-shy
 anymore. I think I had a good selfie somewhere..."
 
-[[face.png][👋 hi]]
+[[face.webp][👋 hi]]
 
 ** Serif fonts 
 
@@ -119,7 +119,7 @@ titles. [[https://sandyuraz.com/anime/komi/][I live for Najimi]] and they have m
 which looks *so good*. Time to change the palette to have the pink shade of my
 duvet cover.  
 
-[[najimi.png][Najimi's color palette]]
+[[najimi.webp][Najimi's color palette]]
 
 ** Darkness 
 
@@ -129,4 +129,4 @@ myself better and have fun, [[https://sandyuraz.com/blogs/living/][live consciou
 fresh spring air in the morning. New previews, new emojis, new building
 pipeline, new interests, new people, and new adventures! Life is indeed grand.
 
-[[darkness.png][I love Darkness]]
+[[darkness.webp][I love Darkness]]

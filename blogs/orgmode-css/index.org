@@ -22,6 +22,6 @@ how you can control your org html output. I update that org.css quite frequently
 
 *Before* and *after* (click to enlarge)
 
-[[example.png][Before and After]]
+[[example.webp][Before and After]]
 
 Thank you
