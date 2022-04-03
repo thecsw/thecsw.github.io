@@ -14,8 +14,8 @@ the past decade or so.
 
 This is truly some state-of-the-art stuff. Even as claiming an average of 45%
 reduction in file size with wild PNGs found on the web and a 28% reduction
-compared to PNGs that are recompressed with [[https://en.wikipedia.org/wiki/Pngcrush][pngcrush]] and [[https://en.wikipedia.org/wiki/PNGOUT][PNGOUT]]. [fn:: [[http://googlecode.blogspot.com/2011/11/lossless-and-transparency-encoding-in.html][Lossless
-and transparency encoding in WebP]]]. I should try this now!
+compared to PNGs that are recompressed with [[https://en.wikipedia.org/wiki/Pngcrush][pngcrush]] and [[https://en.wikipedia.org/wiki/PNGOUT][PNGOUT]].[fn:: [[http://googlecode.blogspot.com/2011/11/lossless-and-transparency-encoding-in.html][Lossless
+and transparency encoding in WebP]]] I should try this now!
 
 The process of moving from PNG to WebP was painless. I rigged a quick =find= and
 =sed= script to go through all my directories and convert images with
