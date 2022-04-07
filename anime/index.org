@@ -2,14 +2,32 @@
 
 *Sandy is (not) a weeb.*
 
-I also enjoy watching some good anime, so here is my VHS-esque shelf full of
-anime as a bonus! See some selected reviews at the bottom. I also keep my [[https://kitsu.io/users/1257674][kitsu]]
-library up-to-date with my progress
+Please enjoy some selected reviews I have below. Scroll down more to see my
+anime VHS-esque shelf. My [[https://kitsu.io/users/thecsw][kitsu]] profile has an up-to-date track record. Thanks
 
- #+BEGIN_SRC
- ┌──────────────────┐
- │     Horimiya     │
- ├──────────────────┼───────────────────┐
+** Selected Reviews 🧝‍♀️
+
+Please see some selected reviews below! It's just me talking about the show and
+going in my own thought process of what I make of it
+
+- [[./horimiya][Horimiya 🍰]]
+- [[./flcl][FLCL 🎸]]
+- [[./bunny][Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai 🐇❤️]]
+- [[./komi][Komi-san wa, Komyushō Desu 🥑]]
+- [[./banished][Banished from the Hero's Party 🪴]]
+
+Don't looosee your waaaaay!
+
+** /The shelf/
+
+#+begin_src
+ ┌──────────────────┬───────────────────┐
+ │Shingeki no Kyojin│    Kotarou wa     │
+ │ The Final Season │   Hitorigurashi   │
+ │      Part 2      ├───────────────────┤
+ ├──────────────────┤   Thermae Romae   │
+ │     Horimiya     │       Novae       │
+ ├──────────────────┼───────────────────┤
  │  Kono Subarashii │  Jujutsu Kaisen 0 │
  │     Sekai ni     ├───────────────────┤
  │  Shukufuku wo!:  │  Kono Subarashii  │
@@ -117,17 +135,4 @@ library up-to-date with my progress
  ├──────────────────┴───────────────────┘
  │                                      │
 /   ＼(^─^)／  ヾ｜￣ー￣｜ﾉ  ヽ(〃＾▽＾〃)ﾉ  \
- #+END_SRC
-
-** Selected Reviews 🧝‍♀️
-
-Please see some selected reviews below! It's just me talking about the show and
-going in my own thought process of what I make of it
-
-- [[./horimiya][Horimiya 🍰]]
-- [[./flcl][FLCL 🎸]]
-- [[./bunny][Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai 🐇❤️]]
-- [[./komi][Komi-san wa, Komyushō Desu 🥑]]
-- [[./banished][Banished from the Hero's Party 🪴]]
-
-Don't lose your way!
+#+end_src
