@@ -24,7 +24,6 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[./installing_arch][Installing glorious arch linux ☄️]]
 
 *** Thoughts
-- [[thecsw][The evolution of ``thecsw'' 🧋]]
 - [[games][Video games are kinda boring 🕹]]
 - [[weird][Don't be weird about it 🥡]]
 - [[./story][How to start a story 🪝]]
@@ -38,6 +37,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[./year_12019][Welcome to year 12,019 📅]]
 
 *** Random
+- [[thecsw][The evolution of ``thecsw'' 🧋]]
 - [[./looks][What do I look like 🤳]]
 - [[cameraman][Man with a Movie Camera 🎥]]
 - [[./design][How I worked on my design 🥐]]
