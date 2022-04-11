@@ -24,6 +24,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[./installing_arch][Installing glorious arch linux ☄️]]
 
 *** Thoughts
+- [[reality][You make your own reality 👒]]
 - [[games][Video games are kinda boring 🕹]]
 - [[weird][Don't be weird about it 🥡]]
 - [[./story][How to start a story 🪝]]
