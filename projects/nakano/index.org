@@ -1,0 +1,99 @@
+* Nakano: Empower Your Peers 🍵
+
+Hackathons are fun and our university, KU ACM chapter specifically hosts an MLH
+hackathon every year - [[https://hackku.org][HackKU]] ([[https://archive.ph/Xjvz7][archive of 2022]]). I was always in a seat of a
+semi-organizer, so I could never participate. The last time I did when I was a
+freshman, I had to forfeit and leave the competition because the mother of all
+colds decided to strike me down at the end of the first day of the hackathon.
+
+This year was different. [[https://github.com/ephing][Ethan]], Aubree, [[https://github.com/alexacallmebaka][Jame]], and I entered the competition as
+[[https://github.com/QunitessentialQuartet][The Quintessential Quartet]]. There were two main tracks, of which you could only
+pursue one. One of the tracks was ``teaching'' and the other one was basically
+anything. About seven more tracks are sponsored by MLH. We decided that
+*we will pursue and win all of them*, which were:
+
+- Blockchain Prize
+- Hacker's Choice Award
+- Best Domain Name from Domain.com
+- Best Use of Google Cloud
+- Most Creative Use of Twilio
+- Best Use of [[https://www.deso.org][DeSo]]
+- Most Creative Use of GitHub
+
+Each win in a category guaranteed some prizes. Shall we get started?
+
+[[nakano.webp][Our banner]]
+
+** How it began
+
+Brainstorming took a bit of a second to come up with anything, especially with
+me dipping the event for the first few hours to host a workshop and other
+things. Closer to the next morning, we had it.
+
+Use DeSo blockchain to create a social network platform for tutors to get
+directly paid, while hosting the web interface on a Kubernetes cluster in a GCP
+VM instance, use Twilio for registration, and GitHub later for pages hosting and
+more. I have to preface all of this that *none of us are remotely into crypto*. 
+
+We thought, how far can we go into the competition with tools we've never worked
+with before and basing our tech on ideals and philosophy, which we do not share?
+Please welcome Nakano. Empower your peers. We shall embrace the crypto bro
+mindset, we must become crypto bros to pull this off.
+
+Let's use every buzzword we can think of to make our elevator pitch, create
+socials for our project, a very shiny Web 3.0 looking website with BIG *bold*
+lettering, and neo-minimalist design. All while we have been working on actually
+deploying a DeSo node, but that proved to take more time and resources than we
+could allocate (you need to copy 400GB+ of blockchain data to start a node).
+
+[[deso.webp][Proudly built with DeSo]]
+
+** Submission time
+
+We submitted our project to [[https://hackku-2022.devpost.com][HackKU's devpost]]. Wrote an absolute banger of
+[[https://qunitessentialquartet.github.io/webpage][website]] (also [[https://nakano.tech][nakano.tech]]). We even made a whole [[https://twitter.com/nakano_nft][twitter account]] that would
+legit pass as some crypto startup social.
+
+[[twitter.webp][We believe in radical inclusivity]]
+
+I am especially proud of our [[https://devpost.com/software/nakano-empower-your-peers][devpost readme]] that goes on about the tech and /the
+vision/ in the most buzzword play we could think of at the moment. Looks like we
+are trying to sell you something
+
+[[features.webp][Our features]]
+
+Overall, we had a strong marketing focus on our project, while the node and
+backend did work, it wasn't as stable as we would like it to have been. The
+judging time is coming. *We have to sell this strong*
+
+** Our spiel
+
+Listen, let's be real here, *school is hard*. especially if you have no one to
+help you through it. Tutors are an essential, even a critical part of one's
+success.
+
+Research shows (we actually did it) that students that are being tutored get a
+grade-point average of a whole letter grade higher than the ones who don't have
+a tutor.
+
+Tutors are amazing! But there is a problem. Tutors and teachers now are
+criminally underpaid, under-engaged, and under-valued thanks to an outdated
+institutional model.
+
+We believe all of these problems can be solved by decentralizing teaching
+content in the same way Bitcoin and Ethereum are decentralizing the financial
+system.
+
+[[vision.webp][Teachers' salary vs average state salary]]
+
+** Results
+
+We had strong teams this year and [[https://hackku-2022.devpost.com/project-gallery][deserving winners]] announced during the closing
+ceremony. Interestingly enough, we won the DeSo award (no one else was crazy enough to
+go for it) and the Hacker's Choice Award (we had the most liked
+presentation/demo). Overall, amazing time!
+
+Thank you, HackKU team for organizing such an event and allowing us to run fun
+projects!
+
+[[banner.webp][Empower Your Peers]]
