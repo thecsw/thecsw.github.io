@@ -99,7 +99,7 @@ See this cool trick of cleaning up the project with =megumin=!
 
 [[./megumin.mp4][My name is Megumin, the number one mage of Axel!]]
 
-** Why "Darkness"?
+** Why ``Darkness''?
 
 Her name is based on one of the characters I love from [[https://en.wikipedia.org/wiki/KonoSuba][KonoSuba]]
 
