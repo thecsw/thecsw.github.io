@@ -2,6 +2,8 @@
 
 93; 12022 H.E.
 
+** Motivation
+
 I have been toying around with [[https://en.wikipedia.org/wiki/WebP][WebP]] for a couple of weeks now. Convert this
 image into webp and try to use it instead of traditional png. It was pretty
 crazy for me to see an up to 10x image size reduction, yet very little to no
@@ -16,6 +18,8 @@ This is truly some state-of-the-art stuff. Even as claiming an average of 45%
 reduction in file size with wild PNGs found on the web and a 28% reduction
 compared to PNGs that are recompressed with [[https://en.wikipedia.org/wiki/Pngcrush][pngcrush]] and [[https://en.wikipedia.org/wiki/PNGOUT][PNGOUT]].[fn:: [[http://googlecode.blogspot.com/2011/11/lossless-and-transparency-encoding-in.html][Lossless
 and transparency encoding in WebP]]] I should try this now!
+
+** The migration
 
 The process of moving from PNG to WebP was painless. I rigged a quick =find= and
 =sed= script to go through all my directories and convert images with
@@ -39,3 +43,50 @@ some of the pages, even my eye can't spot any differences that would be
 noticeable. WebP is good for all the stuff on the web. Choose your image formats
 based on your needs and requirements. For now, WebP looks like a great
 alternative. Thank you!
+
+** Example?
+
+Let's try to grab a picture in PNG format, convert it to WebP and see how the
+file size and image quality differ between those two. I'll have both examples
+from an amazing photographer [[https://mobile.twitter.com/shnimohus][@shnimohus]], whose shots *I absolutely adore*.
+
+Below is the ImageMagick version I will be using when simply running
+=convert source.png target.webp=
+
+#+begin_src sh
+  Version: ImageMagick 7.1.0-29 Q16-HDRI x86_64 19841 https://imagemagick.org
+  Copyright: (C) 1999 ImageMagick Studio LLC
+  License: https://imagemagick.org/script/license.php
+  Features: Cipher DPC HDRI Modules OpenMP(5.0)
+  Delegates (built-in): bzlib fontconfig freetype gslib heic jng jp2 jpeg lcms lqr ltdl lzma openexr png ps tiff webp xml zlib
+  Compiler: gcc (4.2)
+#+end_src
+
+Let's see an example!
+
+Here is a shot of a bus stop in PNG, weighing at around 2.4MB
+
+[[booth.png][This is the PNG version]]
+
+As a comparison, here is the WebP generated from it, which is only about 258KB
+
+[[booth.webp][This is the WebP version]]
+
+For the sake of the experiment, try to dowload both files and see if you can
+spot any differences.
+
+Here is one more example!
+
+[[town.png][This PNG is around 3.9MB]]
+
+With its counterpart generated with =convert town.png town.webp=
+
+[[town.webp][This WebP is only around 462KB]]
+
+Is this experiment biased? Definitely. I could have used some PNG compression
+techniques, go through ImageMagick's documentation to fine-tune the
+conversion. However, the big point here is that without doing any of that, WebP
+seems to keep the quality I prefer while also reducing the size (doesn't matter
+to me whether it's lossy or lossless).
+
+Thank you!
