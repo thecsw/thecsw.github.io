@@ -2,6 +2,12 @@
 
 93; 12022 H.E.
 
+*Update:* hi, this page got a [[https://news.ycombinator.com/item?id=31010659][little traction]] on HackerNews. I want to note that
+there are formats that are meant to supersede WebP, such as AVIF and JPEG XL,
+however, [[https://caniuse.com/avif][AVIF]] (69.25%) and [[https://caniuse.com/jpegxl][JPEG XL]] (0%) are not as nearly adopted as [[https://caniuse.com/webp][WebP]] is
+(91.38%). Usage taken on April 13th, 2022. Also, get a browser released
+after 2013. 
+
 ** Motivation
 
 I have been toying around with [[https://en.wikipedia.org/wiki/WebP][WebP]] for a couple of weeks now. Convert this
@@ -43,12 +49,6 @@ some of the pages, even my eye can't spot any differences that would be
 noticeable. WebP is good for all the stuff on the web. Choose your image formats
 based on your needs and requirements. For now, WebP looks like a great
 alternative. Thank you!
-
-*Update:* hi, this page got a [[https://news.ycombinator.com/item?id=31010659][little traction]] on HackerNews. I want to note that
-there are formats that are meant to supersede WebP, such as AVIF and JPEG XL,
-however, [[https://caniuse.com/avif][AVIF]] (69.25%) and [[https://caniuse.com/jpegxl][JPEG XL]] (0%) are not as nearly adopted as [[https://caniuse.com/webp][WebP]] is
-(91.38%). Usage taken on April 13th, 2022. Also, get a browser released
-after 2013. 
 
 ** Example?
 
