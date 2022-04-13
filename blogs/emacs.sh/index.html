@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/blogs/emacs.sh" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="After years of carefully cultivating and taking care of my &amp;lt;code&amp;gt;.emacs.d&amp;lt;/code&amp;gt; config files, I thought it may..."><meta name="og:title" property="og:title" content="Getting Sandy&amp;#39;s .emacs.d 🤺">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/emacs.sh">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https:/sandyuraz.com/blogs/emacs.sh/preview.webp">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/webp">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="After years of carefully cultivating and taking care of my &amp;lt;code&amp;gt;.emacs.d&amp;lt;/code&amp;gt; config files, I thought it may..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https:/sandyuraz.com/blogs/emacs.sh/preview.webp">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/emacs.sh">
+<meta name="twitter:title" property="twitter:title" content="Getting Sandy&amp;#39;s .emacs.d 🤺">
+<meta name="twitter:description" property="twitter:description" content="After years of carefully cultivating and taking care of my &amp;lt;code&amp;gt;.emacs.d&amp;lt;/code&amp;gt; config files, I thought it may...">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>Getting Sandy’s .emacs.d 🤺</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
+<body class="article">
+
+<div id="header">
+<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" height="112">Getting Sandy’s .emacs.d 🤺</h1>
+<div class="details">
+<span id="author" class="author">sandy</span><br>
+<span id="email" class="email">[at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="details"></div>
+</div>
+<div id="content">
+
+<div class="paragraph">
+<p title="Thu, 30 Jul 2020">
+212; 12020 H.E.
+</p>
+</div>
+<div class="paragraph">
+<p>
+After years of carefully cultivating and taking care of my <code>.emacs.d</code> config files, I thought it may be time to try and share it, maybe someone will like it
+</p>
+</div>
+<div class="paragraph">
+<p>
+I host my <code>.emacs.d</code> on <a href="https://github.com/thecsw/.emacs.d">github</a>, however, it depends on some LSP quirks and go tools that I decided writing a quick shell script to do the work. You can visit the config’s webpage <a href="https://sandyuraz.com/.emacs.d">here</a>.
+</p>
+</div>
+<div class="paragraph">
+<p>
+All you have to run is the curl command below in your home directory (<code>~</code>)
+</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">NOTE</div>
+</td>
+<td class="content">
+existing installation will move to .bak append
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-sh" data-lang="sh">curl -fsSL https://raw.githubusercontent.com/thecsw/thecsw.github.io/master/sh/emacs.sh | sh</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+It will clone <code>.emacs.d</code>, symlink <code>.emacs</code>, and optionally install golang X tools (considering you have Go installed)
+</p>
+</div>
+<div class="paragraph">
+<p>
+Read more on <a href="../emacsd">getting an emacs server running</a> (better use emacs-lsp now)  <b style="color:#ba3925">◼︎</b>
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

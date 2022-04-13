@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/blogs/go-emacs" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="May 7th, 2020..."><meta name="og:title" property="og:title" content="Becoming an emacs gopher 🐗">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/go-emacs">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https:/sandyuraz.com/blogs/go-emacs/preview.webp">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/webp">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="May 7th, 2020..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https:/sandyuraz.com/blogs/go-emacs/preview.webp">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/go-emacs">
+<meta name="twitter:title" property="twitter:title" content="Becoming an emacs gopher 🐗">
+<meta name="twitter:description" property="twitter:description" content="May 7th, 2020...">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>Becoming an emacs gopher 🐗</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
+<body class="article">
+
+<div id="header">
+<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" height="112">Becoming an emacs gopher 🐗</h1>
+<div class="details">
+<span id="author" class="author">sandy</span><br>
+<span id="email" class="email">[at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="details"></div>
+</div>
+<div id="content">
+
+<div class="paragraph">
+<p>
+May 7th, 2020
+</p>
+</div>
+<div class="paragraph">
+<p>
+<strong>UPDATE:</strong> <a href="https://emacs-lsp.github.io/lsp-mode/">Emacs LSP</a> is the way to go now. Please do not follow instructions below and use the more powerful lsp. It’s <strong>so good</strong>.
+</p>
+</div>
+<div class="paragraph">
+<p>
+I have been a full-time emacs user for the past 4 years and I have been working in Golang professionally for about 2 years now. Combining those two beauties is quite a task with so many different modules and addons available. This is a comfortable setup I found for myself and I wish to share it. <em>Demo below!</em>
+</p>
+</div>
+<div class="sect1">
+<h2 id="_getting_dependencies">Getting dependencies</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>
+One of many great things about Go is its tooling environment. You can write any tools and implement your ideas with ease.
+</p>
+</div>
+<div class="paragraph">
+<p>
+First tool you need is usually <a href="https://golang.org/">Go itself</a>. After that, install some of the go tools dependencies below:
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-sh" data-lang="sh">% go get -u golang.org/x/tools/cmd/goimports
+% go get -u github.com/rogpeppe/godef
+% go get -u github.com/nsf/gocode</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+Next we need to install some of the emacs dependencies through <a href="https://melpa.org">MELPA</a>. This is gonna be big, prep your <code>.emacs.d</code> for some fun time compiling elisp. Refresh your local repo of packages by running <kbd>M-x package-refresh-contents</kbd>. You can install packages by running <kbd>M-x package-install PACKAGE-NAME</kbd>
+</p>
+</div>
+<div class="paragraph">
+<p>
+Here is the list:
+</p>
+</div>
+<div class="ulist">
+<ul>
+
+<li>
+<p>
+<a href="https://github.com/auto-complete/auto-complete">auto-complete</a> - An Intelligent auto-completion extension for Emacs
+</p>
+</li>
+
+<li>
+<p>
+<a href="https://github.com/dominikh/go-mode.el">go-mode</a> - Emacs mode for the Go programming language
+</p>
+</li>
+
+<li>
+<p>
+<a href="https://github.com/vibhavp/go-complete">go-complete</a> - Native Go completion for Emacs
+</p>
+</li>
+
+<li>
+<p>
+<a href="https://melpa.org/#/go-autocomplete">go-autocomplete</a> - auto-complete-mode backend for go-mode
+</p>
+</li>
+
+<li>
+<p>
+<a href="https://github.com/capitaomorte/autopair">autopair</a> - Automagically pair braces and quotes in emacs like TextMate
+</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_config">Config</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>
+You can just put this in your <code>.emacs</code> or whatever init file you’re using. The following config is all you need to get yourself started with automatic code formatting, code completion, parenthesis matching, dot completion (!), and jump to definition.
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-emacs-lisp" data-lang="emacs-lisp">;; Init the auto complete modules
+(ac-config-default)
+(global-auto-complete-mode t)
+(require &#39;go-autocomplete)
+
+;; Enable auto-complete
+(auto-complete-mode 1)
+
+;; Define keymaps
+(define-key ac-mode-map (kbd &#34;M-TAB&#34;) &#39;auto-complete)
+(global-set-key (kbd&#34;C-c C-c&#34;) &#39;godef-jump)
+
+;; Set some quick config vals
+(setq ac-auto-start 1)
+(setq ac-auto-show-menu 0.8)
+
+;; Just to make sure go tools are enabled
+(add-to-list &#39;exec-path &#34;~/go/bin&#34;)
+
+;; Automatically format code on save
+(setq gofmt-command &#34;goimports&#34;)
+(add-hook &#39;before-save-hook &#39;gofmt-before-save)
+(add-hook &#39;go-mode-hook &#39;auto-complete-for-go)</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+After that, just reload your emacs and you should have full go environment installed!
+</p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_demo">Demo</h2>
+<div class="sectionbody">
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="demo.svg"><img src="demo.svg" alt="Gopher in emacs"></a>
+</div>
+<div class="title">Gopher in emacs</div>
+</div>
+<hr>
+</div>
+</div>
+
+</body>
+</html>

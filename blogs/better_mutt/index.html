@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/blogs/better_mutt" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="November 27th, 2019..."><meta name="og:title" property="og:title" content="Faster, better, stronger neomutt 🐩">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/better_mutt">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https:/sandyuraz.com/blogs/better_mutt/preview.webp">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/webp">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="November 27th, 2019..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https:/sandyuraz.com/blogs/better_mutt/preview.webp">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/better_mutt">
+<meta name="twitter:title" property="twitter:title" content="Faster, better, stronger neomutt 🐩">
+<meta name="twitter:description" property="twitter:description" content="November 27th, 2019...">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>Faster, better, stronger neomutt 🐩</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
+<body class="article">
+
+<div id="header">
+<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" height="112">Faster, better, stronger neomutt 🐩</h1>
+<div class="details">
+<span id="author" class="author">sandy</span><br>
+<span id="email" class="email">[at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="details"></div>
+</div>
+<div id="content">
+
+<div class="paragraph">
+<p>
+November 27th, 2019
+</p>
+</div>
+<div class="sect1">
+<h2 id="_abstract">Abstract</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>
+Hello there! This is an article on advanced neomutt features that might have been missed in my <a href="../using_mutt">previous article</a> on (neo)mutt. This page has been inspired by <a href="https://github.com/neomutt/neomutt/issues/1958">some of the issues</a> I had with neomutt and the fantastic neomutt community.
+</p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_named_mailboxes">Named Mailboxes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>
+With release <a href="https://github.com/neomutt/neomutt/tree/20191102">20191102</a>, neomutt team has introduced named-mailboxes features, which allows you to name your mailboxes (duh) in the sidebar. It can be used for some pretty creative things, like setting a mailbox different to what you have in your `.mail` directory, change the language, or make delimeters. For example, here is an excerpt from one of my neomutt accounts that is tied to my KU mail account
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-" data-lang="">set folder=&#34;~/.mail/kumail&#34;
+set spoolfile = +&#39;INBOX&#39;
+
+set trash = +&#39;Deleted Items&#39;
+set postponed = +&#39;Drafts&#39;
+set record = +&#39;Sent Items&#39;
+named-mailboxes &#34;  ―――――― ♠ KU ――――――  &#34; =Journal
+named-mailboxes &#34;↓ Inbox&#34; =INBOX
+named-mailboxes &#34;↑ Sent&#34; =&#39;Sent Items&#39;
+named-mailboxes &#34;∇ Trash&#34; =&#39;Deleted Items&#39;
+named-mailboxes &#34;∗ Junk&#34; =&#39;Junk Email&#39;
+named-mailboxes &#34;∃ Drafts&#34; =&#39;Drafts&#39;</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+After launching neomutt, it gives me nice custom sidebar with a dope delimeter
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-" data-lang=""> ―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
+↓ Inbox [32]       3568│ 2 |   [11-27-19 09:07:01] Bill      All rights reserved.
+↑ Sent              797│ 3 |   [11-27-19 06:07:02] Lao Tse   Difficult Paths
+∇ Trash             359│ 4 |   [11-27-19 06:59:18] Mando     This is the way
+∗ Junk                4│ 5 |   [11-26-19 22:59:02] BlondiXXX How much does she love you?
+∃ Drafts               │ 6 |   ...</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+`named-mailboxes` also work with multiple accounts. You can use some garbage mailboxes (looking at you, Journal) as delimeters.
+</p>
+</div></div>
+</div>
+<div class="sect1">
+<h2 id="_threads">Threads</h2>
+<div class="sectionbody">
+</div>
+<div class="paragraph">
+<p>
+I have been looking around how to do threads and I finally found out how. Usually, mutt just gives you your mail all in one blob of a list. With threads, you can have beautiful trees of replies, threads, forwards, and more! To trigger that, just add this to your `.muttrc`
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-" data-lang="">set sort = &#39;reverse-threads&#39;
+set sort_aux = &#39;last-date-received&#39;</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+This is how it looks with huge mail chains
+</p>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="threads.webp"><img src="threads.webp" alt="Fortune mailchain with threads enabled"></a>
+</div>
+<div class="title">Fortune mailchain with threads enabled</div>
+</div>
+<hr>
+<div class="paragraph">
+<p>
+For ease of use, you can add the following line to bind your `c` key to collapse threads
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-" data-lang="">macro index c &lt;collapse-thread&gt; &#34;collapse-thread&#34;</code></pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
