@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/blogs/pprof" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="If you write a program with everything you&amp;amp;#39;ve got, you will never be able to debug or maintain it, a..."><meta name="og:title" property="og:title" content="Profiling should be friend ⛹️‍♀️">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/pprof">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https:/sandyuraz.com/blogs/pprof/preview.webp">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/webp">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="If you write a program with everything you&amp;amp;#39;ve got, you will never be able to debug or maintain it, a..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https:/sandyuraz.com/blogs/pprof/preview.webp">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/pprof">
+<meta name="twitter:title" property="twitter:title" content="Profiling should be friend ⛹️‍♀️">
+<meta name="twitter:description" property="twitter:description" content="If you write a program with everything you&amp;amp;#39;ve got, you will never be able to debug or maintain it, a...">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>Profiling should be friend ⛹️‍♀️</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
+<body class="article">
+
+<div id="header">
+<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" height="112">Profiling should be friend ⛹️‍♀️</h1>
+<div class="details">
+<span id="author" class="author">sandy</span><br>
+<span id="email" class="email">[at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="details"></div>
+</div>
+<div id="content">
+
+<div class="paragraph">
+<p title="Fri, 18 Mar 2022">
+77; 12022 H.E.
+</p>
+</div>
+<div class="paragraph">
+<p>
+If you write a program with everything you&#39;ve got, you will never be able to debug or maintain it, as the latter takes 10x amount of time and effort to put yourself through. One of the big parts of maintaining any application is optimizing its resource usage and how fast it can go to a reasonable extent.
+</p>
+</div>
+<div class="paragraph">
+<p>
+I&#39;m not the believer in rewriting everything and anything in Rust, while also measuring runtimes and who’s got it the fastest. Many applications simply don’t care if your print something to a user in 20ms or God forbid, in 100ms. Put your effort into something that has meaning and can be felt. However, you can’t have it being too slow either.
+</p>
+</div>
+<div class="paragraph">
+<p>
+Profiling is an amazing tool you can use to inspect your application’s performance during its runtime, down to how much time is spent in each function or on each line of code. This would allow you to optimize your program in all the right places, while also seeing what the actual execution stack looks like (frequently we think that we spend a lot of time in a spot, which is so insignificant, it might not even show up in timing measurements).
+</p>
+</div>
+<div class="paragraph">
+<p>
+You can profile in any language with nice flames and stuff. There are <a href="https://pyroscope.io">some</a> that support many languages as well. In this post, I&#39;ll focus on profiling in Go, as I&#39;ve been doing it quite a lot lately. <a href="https://github.com/pkg/profile">profile</a> package is the best one I&#39;ve used so far, as it also directly works with <a href="https://github.com/google/pprof">pprof</a> for visualization.
+</p>
+</div>
+<div class="paragraph">
+<p>
+How do you use it? Just paste in the line below into your <code>main</code> function on its first line. Build it, run it.
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">import &#34;github.com/pkg/profile&#34;
+
+func main() {
+        defer profile.Start(
+                profile.CPUProfile,
+                profile.ProfilePath(&#34;.&#34;)).Stop()
+        // all of your good stuff
+}</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+You&#39;ll have a new file in your current directory named <code>cpu.pprof</code>. Use go’s toolchain to get a pretty visualization of everything your program did during its lifetime with the command below
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-sh" data-lang="sh">go tool pprof -http=:8080 cpu.pprof</code></pre>
+</div>
+</div>
+
+<div class="paragraph">
+<p>
+And you’re done! Enjoy all the nice investigative work that will follow. As an example, here is the profiling graph for darkness, the static website generator that I wrote for my website. It builds a hundred files in about 100ms. All thanks to optimizing bottlenecks found by profiling the whole thing many times
+</p>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="darkness.webp"><img src="darkness.webp" alt="Profiling =darkness build="></a>
+</div>
+<div class="title">Profiling <code>darkness build</code></div>
+</div>
+<hr>
+<div class="paragraph">
+<p>
+You can see that darkness spends most of its time in <code>ExportPage</code>, as it runs several buffered string operations, which still add up. Profiling will only show you the CPU time, so for parallelized darkness, the elapsed real time is around ~80ms, while the CPU time would counter at approximately 150ms.
+</p>
+</div>
+<div class="paragraph">
+<p>
+You can also profile memory allocations and spot places where it might be beneficial for you to pre-allocate some space and use it continuously, instead of constantly pinging the OS and demanding more pages. It’s the same as the CPU example above, just replace it with the following, which will create a <code>mem.pprof</code>, where you can use the same <code>go tool pprof</code> on it
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">import &#34;github.com/pkg/profile&#34;
+
+func main() {
+        defer profile.Start(
+                profile.MemProfile,
+                profile.MemProfileRate(1),
+                profile.ProfilePath(&#34;.&#34;)).Stop()
+        // be mindful of memory and IO, it adds up
+}</code></pre>
+</div>
+</div>
+
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">NOTE</div>
+</td>
+<td class="content">
+change that <code>profile.MemProfileRate(1)</code> to something bigger if you want to get a rougher sample of memory allocations or the profiling simply takes too much time to run (it needs to take memory snapshots at every <code>n</code> allocations)
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>
+I hope this would be of use to you as it is to me!  <b style="color:#ba3925">◼︎</b>
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

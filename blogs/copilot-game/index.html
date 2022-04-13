@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/blogs/copilot-game" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="This morning while at work, I received an email from Github, letting me know that I got access to Co..."><meta name="og:title" property="og:title" content="Write a whole game with Copilot 🎱">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/copilot-game">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https:/sandyuraz.com/blogs/copilot-game/preview.webp">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/webp">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="This morning while at work, I received an email from Github, letting me know that I got access to Co..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https:/sandyuraz.com/blogs/copilot-game/preview.webp">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/copilot-game">
+<meta name="twitter:title" property="twitter:title" content="Write a whole game with Copilot 🎱">
+<meta name="twitter:description" property="twitter:description" content="This morning while at work, I received an email from Github, letting me know that I got access to Co...">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>Write a whole game with Copilot 🎱</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
+<body class="article">
+
+<div id="header">
+<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" height="112">Write a whole game with Copilot 🎱</h1>
+<div class="details">
+<span id="author" class="author">sandy</span><br>
+<span id="email" class="email">[at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="details"></div>
+</div>
+<div id="content">
+
+<div class="paragraph">
+<p title="Fri, 09 Jul 2021">
+190; 12021 H.E.
+</p>
+</div>
+<div class="paragraph">
+<p>
+This morning while at work, I received an email from Github, letting me know that I got access to Copilot’s technical preview. Of course, I immediately dropped everything in order to play with this shiny new toy I just got.
+</p>
+</div>
+<div class="paragraph">
+<p>
+I played with it a little bit in different languages with my friends, trying to create functions over some of our custom classes or structs we made on the fly. Overall, I must say, it’s pretty impressive how it can pick up the surrounding context and write boilerplate code on it (maybe not always fully correct).
+</p>
+</div>
+<div class="paragraph">
+<p>
+Then sometime later in the afternoon, I pulled up an empty python file and just wrote <code>def start(</code>, where copilot picked it from and immediately started writing down print statements, for what it seems to be a simple text-based adventure game. I tab-completed the whole game and it actually ran!
+</p>
+</div>
+<div class="paragraph">
+<p>
+This is just a small experiment seeing how it picked up this specific example from whatever is its (controversial) training set. I recorded the game writing, where all I do is give the original start signature (this was my second attempt, so I gave it <code>def start(self):</code> to nudge copilot into giving me what I had right before) and just pressing tabs.
+</p>
+</div>
+<div class="videoblock">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/Im_13hXjIl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<hr>
+<div class="paragraph">
+<p>
+You can get the python file <a href="./start.py">here</a>.
+</p>
+</div>
+<div class="paragraph">
+<p>
+Some very quick searching showed that this is apparently an exercise from <a href="https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914">Learn Python the Hard Way</a> by Zed Shaw, more specifically, <a href="https://gist.github.com/blammothyst/9258449">exercise #35</a>. It feels as many people posted their take on this exercise from the book or some specific implementation got a prime spot in the training set and is later suggested first when evaluating.
+</p>
+</div>
+<div class="paragraph">
+<p>
+This is my ~7th hour since I started playing with copilot, so I wanted to share some cool findings and observations when playing with it. Will it replace all software engineers? Probably not, as a good engineer is not simply a code writer of various algorithms, one has to understand the big picture and work top-to-bottom. Will I use copilot? I don’t know. It works well for JS plotting and matplotlib plotting, because I could never care less to remember d3 methods to get me a 3d pie chart.  <b style="color:#ba3925">◼︎</b>
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
