@@ -4,6 +4,7 @@ What have I done? What do I do now? Ye shall not despair. Young boy, step forth
 and become legendary.
 
 - [[nakano][Nakano: Empower Your Peers 🍵]]
+- [[https://sandyuraz.com/darkness][A crusader builds your website 🗡]]
 - [[./vmagi][Write an Emulator in 24 hours 🥃]]
 - [[./katya][Katya or The Liberated Corpus 🙈]]
 - [[./art][The Art of Computer Science ❤️]]
