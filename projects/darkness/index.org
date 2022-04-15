@@ -1,0 +1,21 @@
+* A crusader builds your website 🗡
+
+I built my own static website generator to use for sandyuraz.com. For years, I
+have tried building my website with Hugo, Asicidoctor, and finally
+[[https://sandyuraz.com/blogs/web-legacy/][this]]. However, it was never really what I was precisely looking for. One of the
+is too complex, other could be too restrictive, the last was simply cursed. I
+set out on making my own within a span of a couple of days during my last Spring
+Break of senior year in college. What a beaut she was, my friend.
+
+It is my honor and pleasure to introduce you to Darkness! The noblest, static
+website generator. The website you are on right now is built by her, with all
+the images, styling, embeds, and more! The big advantage of Darkness is that she
+is general enough (with a config file), so she can build any website for what
+your heart desires.
+
+I have a separate introduction article written on Darkness, which can be found
+below, alongside with her github link. Thank you!
+
+-> [[https://sandyuraz.com/darkness/][I love Darkness 🥬]]
+
+-> [[https://github.com/thecsw/darkness][Darkness on github 🐙]]
