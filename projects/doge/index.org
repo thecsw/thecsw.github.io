@@ -10,6 +10,6 @@ the actual =.exe= file that was made using [[https://en.wikipedia.org/wiki/Delph
 was introduced to programming. Through Pascal and Delphi, the latter being an
 object-oriented version of the former.
 
-/I made Doge Clicker in Delphi 7, [[https://delphi.embarcadero.com/project/delphi-7/][which is from 2002]]/
+I made Doge Clicker in Delphi 7, [[https://delphi.embarcadero.com/project/delphi-7/][/which is from 2002/]]
 
 -> [[https://github.com/thecsw/Doge-Clicker][Go to the game files]]
