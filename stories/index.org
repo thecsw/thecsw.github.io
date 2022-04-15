@@ -4,9 +4,9 @@ This is an (incomplete) collection of short stories that I wrote here and
 there. Some of them were for fun. Some of them were for a gag. Some of them for
 assignments that never asked for it. Please enjoy!
 
-- [[./friend2][We were once friends. What happened to us? Part II]]
-- [[./friend][We were once friends. What happened to us?]]
-- [[./cheburashka][Cheburashka, I seek your sociolinguistic wisdom]]
-- [[./aristotle][That time I spoke with Aristotle about his virtue ethics and Sufism]]
-- [[./today][Today must be the day when I get the courage]]
-- [[./tacobell][Write a report? But I want to go to Taco Bell]]
+- [[friend2][We were once friends. What happened to us? Part II]]
+- [[friend][We were once friends. What happened to us?]]
+- [[cheburashka][Cheburashka, I seek your sociolinguistic wisdom]]
+- [[aristotle][That time I spoke with Aristotle about his virtue ethics and Sufism]]
+- [[today][Today must be the day when I get the courage]]
+- [[tacobell][Write a report? But I want to go to Taco Bell]]

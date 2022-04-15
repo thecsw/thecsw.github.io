@@ -25,7 +25,7 @@ what I had right before) and just pressing tabs.
 
 [[https://youtu.be/Im_13hXjIl0][copilote writes a game]]
 
-You can get the python file [[./start.py][here]].
+You can get the python file [[start.py][here]].
 
 Some very quick searching showed that this is apparently an exercise from
 [[https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914][Learn Python the Hard Way]] by Zed Shaw, more specifically, [[https://gist.github.com/blammothyst/9258449][exercise #35]]. It
