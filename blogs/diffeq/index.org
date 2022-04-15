@@ -9,7 +9,7 @@
 
 May 12th, 2020
 
-[[./index.pdf][(PDF Version)]]
+[[index.pdf][(PDF Version)]]
 
 ** Abstract
 When I got first introduced to differential equations, I had a love-hate

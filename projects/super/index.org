@@ -15,6 +15,6 @@ This work has been gratefully funded by the Summer Undergraduate Program for
 Engineering Research (SUPER) at the National Center for Atmospheric Research’s
 (NCAR) Earth Observing Laboratory (EOL). 
 
--> [[./2021_Sandy_Urazayev.pdf][Go to my final research poster]]
+-> [[2021_Sandy_Urazayev.pdf][Go to my final research poster]]
 
 -> [[https://www.eol.ucar.edu/content/summer-undergraduate-program-engineering-research-super][Go to the SUPER website]]

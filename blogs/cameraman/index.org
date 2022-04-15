@@ -118,6 +118,6 @@ talking.
 ---
 
 This review for [[https://en.wikipedia.org/wiki/Man_with_a_Movie_Camera][/Man with a Movie Camera/]] was written for graduate film course
-on Soviet Cinema. Original can be found [[./slav723_paper1.pdf][here]].
+on Soviet Cinema. Original can be found [[slav723_paper1.pdf][here]].
 
 ---

@@ -75,6 +75,6 @@ What happened to us?
 
 ---
 
-This story was written as [[./report7.pdf][Individual Report VII]] for my Computer Science thesis.
+This story was written as [[report7.pdf][Individual Report VII]] for my Computer Science thesis.
 
 ---

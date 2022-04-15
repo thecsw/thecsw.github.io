@@ -124,6 +124,6 @@ to you as much as you were to me. Goodbye, Dmitri. Thank you.
 
 ---
 
-This story was written as [[./report8.pdf][Individual Report VIII]] for my Computer Science thesis.
+This story was written as [[report8.pdf][Individual Report VIII]] for my Computer Science thesis.
 
 ---

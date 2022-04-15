@@ -54,6 +54,6 @@ yet, why should it have? Now, where is that Taco Bell...
 
 ---
 
-This story was written as [[./report4.pdf][Individual Report IV]] for my Computer Science thesis.
+This story was written as [[report4.pdf][Individual Report IV]] for my Computer Science thesis.
 
 ---
