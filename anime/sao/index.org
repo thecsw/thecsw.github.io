@@ -1,0 +1,70 @@
+* Sword Art Online ⚔️
+
+106; 12022 H.E.
+
+/``I like Sword Art Online''/ is something you would hear rarely if you ask
+someone about their opinions on it. It's such a popular series, as of 12021, the
+series has 26 million copies in print.[fn:: LN News (in
+Japanese). [[https://ln-news.com/page/circulation][https://ln-news.com/page/circulation]]] However, it received some
+rather harsh united criticism from the Western audiences. Some of the [[https://kitsu.io/anime/sword-art-online/reactions][top kitsu]]
+reviews include ``Self-indulgent power fantasy about a soulless husk in black
+saving waifus from one-dimensional psychopaths.'' and ``Overrated, poorly
+written at times, and generic as it is, SAO gets more hate than it deserves.''
+(someone gets it). Contrary to the general opinion, *I loved the show*.
+
+The idea of fully inserting yourself and your senses into a game's world is
+something I covered in [[https://sandyuraz.com/blogs/games/][/Video games are kinda boring 🕹/]]. I got inspired by that
+idea mainly from /Sword Art Online/ (SAO). It develops further than Ready Player
+One, which still focuses on using physical haptics, janky suits, and needs for
+space, whereas I would like to see a development in technology that better
+understands the neural activity of our bodies. It of course may be years and
+decades away, it's still good to dream big.
+
+[[sao.webp][SAO posters are so good]]
+
+Funnily enough, my computer science senior design capstone, which is
+equivalent to an undergraduate thesis that you work on in order to graduate is
+based on SAO. I pitched it to my senior design team, ``We need to improve the
+human-computer interaction by making interfaces with less friction.'' We spoke
+and later worked with [[https://neuroscience.ku.edu][KU Neuroscience Department]] for us to better understand the
+recent advances in the field, as well learn all the basics, such as differences
+between EEGs, EMGs, data smoothing, etc. We spent around $5k to get armbands and
+eye trackers to work on creative HCI uses (gaming and productivity). Stay tuned
+for how that turns out.
+
+Back to SAO. The plot and the main premise were something I could get
+behind. Players are stuck in a full-dive environment and anyone trying to
+disconnect or leave the game without clearing all of the game's bosses will be
+instantly killed by an extreme current sent straight to the brain. In reality,
+this would be a tragedy, yet it explores a very interesting question, how would
+people act and behave in this situation? Especially the ones stuck in the
+infamous game now of Sword Art Online.
+
+[[sao2.webp][There is a lot of SAO content]]
+
+Many take issues with how the main protagonist, Kirito, was overpowered from the very
+beginning, making them feel it gets boring, especially with him later
+``collecting girls.'' I can see how the show is a case of a classic power
+fantasy, fun (even silly) adventures, awkward situations, and lots of internal
+dialogues during fight scenes. I don't know. I love this genre. It's exactly
+what it advertises to be, straight to the formula, silly, and extremely fun to
+watch.
+
+The whole reason I wanted to write this small blurb is to make a contrarian take
+that SAO is good, despite all of its ``shounen'' and power fantasy elements. No
+one would disagree that openings are absolute fire.
+
+[[https://youtu.be/vI8W_XYT29Q][Sword art Online Opening 1 - Crossing Field]]
+
+This summarizes my opinion of not only the [[https://www.swordart-onlineusa.com/aincrad/][first season]] (dope website), but the
+[[https://www.swordart-onlineusa.com/phantom_bullet/][second one]], 
+[[https://sao-alicization.com][alicization]], [[https://kitsu.io/anime/sword-art-online-alicization-war-of-underworld][underworld]], [[https://sao-movie.net/us/][ordinal scale]], and [[https://gungale-onlineusa.com][gun gale spin-off]]. Sincerely liked
+all of them. I went to theaters to see [[https://kitsu.io/anime/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria][Sword Art Online the Movie -Progressive-
+Aria of the Starless Night]]. *It was incredible*. It's a retelling, a full rewrite
+of the original Sword Art Online Aincrad arc. If the show never went past the first
+couple of bosses (they beat SAO through a ``shortcut''), this one I believe
+wants to go through all 100 levels and clear the game the way it was intended to
+be. With one movie released a year, I hope I can live to see the end, as they
+only cleared the very first level by the movie's finale.
+
+[[https://open.spotify.com/track/4y0y7mkWykv2pfOATQhkrB?si=2a5b1ef900ef4200][To see the future]]
