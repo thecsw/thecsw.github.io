@@ -9,6 +9,7 @@ styles = ["css/web.css"]
 tombs = ["blogs", "anime", "arts"]
 exclude = ["present"]
 preview = "preview.webp"
+description_length = 137
 
 [author]
 image = "najimi.webp"
