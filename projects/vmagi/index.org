@@ -8,7 +8,7 @@ repository]].
 
 [[preview.webp][VMAGI: You can (not) interpret]]
 
-My friend [[https://github.com/Username-ejg-not-available][Ethan]] also joined us on this competition and completed [[https://github.com/Username-ejg-not-available/not-fake-assembly-language][his
+My friend [[https://github.com/ephing][Ethan]] also joined us on this competition and completed [[https://github.com/ephing/not-fake-assembly-language][his
 implementation]]. Funnily enough, I did it in Go, Matthew in Rust, Ethan in C++.
 
 The goal within 24 hours was to write an interpreter that can reliably run a
