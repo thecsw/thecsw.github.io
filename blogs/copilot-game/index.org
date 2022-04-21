@@ -1,4 +1,4 @@
-* Write a whole game with Copilot 🎱
+* Write a game with Copilot 🎱
 
 190; 12021 H.E.
 
