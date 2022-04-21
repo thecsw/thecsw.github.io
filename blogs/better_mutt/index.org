@@ -1,4 +1,4 @@
-* Faster, better, stronger neomutt 🐩
+* Faster, better, stronger 🐩
 
 November 27th, 2019
 
