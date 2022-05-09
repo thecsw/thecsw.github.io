@@ -2,6 +2,7 @@
 
 142; 12021 H.E.
 
+#+drop_cap
 I wish to talk here with you about aesthetics and fine art. Some things we might
 enjoy alone or together! Historically, my website had different sections for my
 favorite films, songs, shows, etc. I thought it would be nice to wrap them all
@@ -20,6 +21,7 @@ some medieval literature (Beowulf is a great example), classical philosophy (I
 adore Voltaire), and something in between. Tao of Pooh is also a fantastic work
 of literature.   
 
+#+drop_cap
 Movies... probably watched too many for my age. In some ways, like Eugene
 Onegin, I became very much disinterested in them, even to the extent of
 repulsion by the new cinema scene. Sometimes it's hard to explain, but all the
@@ -45,6 +47,7 @@ Peaks (can't watch it anymore), Boston Legal (good 2000s), Neon Genesis
 Evangelion (there was a month in my life where I actively watched anime), and
 Tengen Toppa Gurren Lagann (Who the hell do you think I am?!).  
 
+#+drop_cap
 Last but not least, music! We always talk about each other's taste in music, our
 favorite artists, groups, etc. I've always had a hard time answering that,
 simply because I just wasn't exposed to a lot of personal listening when I was
