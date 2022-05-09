@@ -2,6 +2,7 @@
 
 87; 12022 H.E.
 
+#+drop_cap
 Lights are dimming down, small chair creaks are getting ever louder in a quieter
 classroom, the small light illuminating through an ajar door is sent back to the
 void when the small wooden doorstop is kicked away. Intensifying orchestral
@@ -51,6 +52,7 @@ for us to consciously follow. I would disagree.
 
 [[people.webp][Complete abscence of traditional actors]]
 
+#+drop_cap
 What we have in front of us is a film with no actors, but that fact alone
 doesn't hinder or cripple the effect Dziga Vertov made on us. The absence of a
 traditional cast allows the movie to follow everyday people in their routine
@@ -109,6 +111,7 @@ different.
 
 [[camera.webp][Let the camera do the talking]]
 
+#+drop_cap
 After an epilepsy-inducing final scene, the end credits simply read *KINEC*
 (*END*). I started applauding because I felt this is what /Man With A Movie Camera/
 deserves. There was no doubt in my mind that Vertov showed the infinite
