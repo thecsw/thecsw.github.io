@@ -1008,6 +1008,15 @@ p {
         text-align: center;
 }
 
+.dropcap::first-letter {
+        float: left !important;
+        font-size: 2.2rem !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        line-height: 2rem !important;
+        margin: -0.46rem 0 0 !important;
+}
+
 h1,
 h2,
 h3,
