@@ -2,6 +2,7 @@
 
 52; 12022 H.E.
 
+#+drop_cap
 One time I heard someone describe FLCL as a fever dream of an anime. I think
 this reaction is justified, yet doesn't do it the full honor it deserves. FLCL
 is by far *the most unique and thrilling* anime I have ever seen. Not only by its
@@ -36,6 +37,7 @@ part of the manga page to another, where the manga itself is animated and truly
 brought to life. It takes some real creativity and courage to show such a scene
 to your audience.  
 
+#+drop_cap
 Inexplicably, no matter how crazy the plot is, how little we know about anything
 that's happening in front of our eyes, or how more and more surreal the feelings
 get, FLCL accomplishes brilliantly at reducing the emotional friction between
@@ -46,6 +48,7 @@ when typing this late at night, just because I felt I had to write about it.
 
 [[haruhara.webp][Haruko Haruhara]]
 
+#+drop_cap
 Fooly Cooly is a coming-of-age story. Accepting yourself, your life, taking
 responsibility for your actions, stopping whining about life, and instead,
 living it with everything you are given in the moment of now. You may consider
