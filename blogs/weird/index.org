@@ -2,6 +2,7 @@
 
 93; 12022 H.E.
 
+#+drop_cap
 An alternative title I had for this essay was /Embracing Yourself/, embracing your
 interests, and staying true to yourself. I'm getting ahead of myself. Let's walk
 through some of my thought processes more coherently.  
@@ -21,6 +22,7 @@ for boring swings to the left or right. This is not a good argument or even an
 ounce of thinking. It is simply a cheap /ha, gotcha/ trick. Now we have that
 cleared up, let's continue.
 
+#+drop_cap
 Many fear introducing their hobbies to someone if asked, therefore creating this
 weird atmosphere with a healthy dose of awkwardness. An interesting observation
 can be made that a situation is as awkward as you make it. If you own up to who
