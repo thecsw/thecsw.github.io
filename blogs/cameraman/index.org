@@ -21,6 +21,7 @@ WITHOUT THE HELP OF THEATRE \
 
 [[eye.webp][Man with a Movie Camera]]
 
+#+drop_cap
 /Man With A Movie Camera/ is almost a silent movie with incredibly fast-paced
 editing and the unique decision regarding its actors and plot, there is
 none. Let us traverse through different dimensions of what Dziga Vertov,
@@ -79,6 +80,7 @@ accomplishes at making it real, a literal unplayed film.
 
 [[street.webp][Showing the routine of life as it is]]
 
+#+drop_cap
 This cinematic nature of it with an incredible editing and montage job done by
 Elizaveta Svilova allows us to formulate our own understanding of the film. This
 ambiguity in its meaning, for many a complete lack thereof, gives us the freedom
