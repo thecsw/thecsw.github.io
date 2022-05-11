@@ -2,6 +2,7 @@
 
 84; 12022 H.E.
 
+#+drop_cap
 My toilet is clogged and the cold weather outside is making me cruelly feel all
 lonely. This is a fine time to get intimate with a good book and drown myself in
 the cozy atmosphere that follows it. I am a spoiled reader, so it better have a
@@ -37,6 +38,7 @@ standalone; it requires both talent and experience, so you’re not alienating
 your reader.'' I'm still a lifetime’s worth of experience away from pulling it
 off. Not even so sure about the talent part.  
 
+#+drop_cap
 Young child, you should not be worried. There is still hope for us. Many great
 writers have come and gone. Fortunately, they left a piece of them behind, a
 piece of their soul. I would like to share with you some of my all-time favorite

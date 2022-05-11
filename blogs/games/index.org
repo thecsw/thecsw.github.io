@@ -17,6 +17,7 @@ collectively about 300 more hours in other games.
 
 [[sheesh.webp][I was a gamer once]]
 
+#+drop_cap
 Phew, just listing them out and seeing all the time spent is quite something. Do
 I regret the many hours I spent playing because I could have invested them into
 something else? Nope. It was a blast, I enjoyed the games, as all of the hours
@@ -45,6 +46,7 @@ extreme, yet a good example in my head is for /Sword Art Online/.
 
 [[sao.webp][The New Aincrad Arc is top-tier]]
 
+#+drop_cap
 Players are stuck in the game called /Sword Art Online/ and if they try to leave
 the game before the final boss is beaten, then the neural gear they're hooked
 into will send a lethal electrical current to the brain, therefore killing them
@@ -75,6 +77,7 @@ interfaces. VR headsets and current gear aren’t much better.
 
 [[nerve.webp][Imagine how cool FullDive would be]]
 
+#+drop_cap
 Modern virtual reality needs to work more on the feedback from the virtual
 world. If I awkwardly hold my stick and hit something in the game, I should feel
 such a sensation in the real world, otherwise, it breaks the illusion. Ideally,

@@ -2,6 +2,7 @@
 
 105; 12022 H.E.
 
+#+drop_cap
 Eating is *important*. Eating well is *crucial*. For years, I have seen myself
 become the kind of person who eats to live, rather than the other type of living
 to eat. I would go have my breakfast/lunch/dinner and consume calories just
@@ -23,6 +24,7 @@ food delivery (or ready ingredients) for a couple of months, however, even that
 proved to be kind of a hassle and /a little pricey/ if that's what you are relying
 on.
 
+#+drop_cap
 Then it happened. I started throwing up from any sight or smell of frozen or
 heavily processed foods, such as frozen pizzas, fries, vegetables, and
 burritos. It got so bad to the point that I could recall myself starving in the
@@ -43,6 +45,7 @@ it. Instead of eating just to survive and because I have to, I started to
 finally look forward to cooking again, but to a new much simpler, faster, and
 richer experience as well. You just have to [[https://en.wikipedia.org/wiki/KISS_principle][keep it simple, stupid.]]
 
+#+drop_cap
 Instead of using a bazillion ingredients from different disciplines, I prefer to
 utilize a few and be sure of their quality. The simplicity of a dish brings out
 the quality of ingredients, you just have to let them do the talking. Same with

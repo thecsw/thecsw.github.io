@@ -11,6 +11,7 @@ Tarkovsky, a Soviet film director found a way to do just that.
 
 [[kris.webp][Kris Kelvin]]
 
+#+drop_cap
 The synopsis of Stanislaw Lem's magnum opus - /Solaris/ can be described as a
 story of how miserably small and inadequate humanity can appear when it comes
 one to one versus a civilization or a mind such grand, at such an unfathomable
@@ -28,6 +29,7 @@ haunting them, bringing out the loneliness and baggage each has.
 
 [[station.webp][Solaris station]]
 
+#+drop_cap
 With such an incredible story, I shall stress again that Tarkovsky managed to
 make the pacing of the movie so painfully slow and dragged out that even I, a
 big fan of Lem's works and Solaris novel in particular, barely survived through
@@ -50,6 +52,7 @@ my watch.
 
 [[ocean.webp][Ocean visuals]]
 
+#+drop_cap
 It is time to get to the crux of the matter. The biggest sin of /Solaris/ is its
 forced interpretation of its source, which borders closely to outright
 propaganda of one's very specific views, where that specific someone is
@@ -87,6 +90,7 @@ mastery of understanding such concepts as Dostoevsky does.
 
 [[harey.webp][Harey]]
 
+#+drop_cap
 Large portions of what made Lem's Solaris a timeless masterpiece were ignored
 (like the science-fiction part) as Tarkovsky was completely uninterested in
 `Solaristics' and the sentient ocean. Without a doubt, stylistic and structural
@@ -132,6 +136,7 @@ cursed questions.'' I couldn’t decide whether /Solaris/ is a masterpiece or a
 mirage of one in those specific moments. The ending of the movie and how it was
 presented answered that question for me.  
 
+#+drop_cap
 Tarkovsky is the kind of a director who wants everything to be ``in his own
 way''. It is not necessarily a bad thing, but when it comes at a cost of
 becoming blind to the importance of Lem's cognitive and epistemological
