@@ -8,6 +8,7 @@ you talking about, my friend? It is absolutely crazy to me that select
 individuals (many more, actually) dare to dictate one or another how to live by
 boxing them into their worldview.
 
+#+drop_cap
 There is this misconception, a crucial misunderstanding that is happening, where
 people seem to think that this way is /the right way to spend time and live/ while
 /that one over there is not/. Similar to the question I asked in [[https://sandyuraz.com/blogs/living/][``Living
@@ -40,6 +41,7 @@ out of it, so you are not stumbling into other people's feelings' territories
 spraying dirt all over them. We can try to put ourselves in their shoes to see
 where they are coming from.
 
+#+drop_cap
 The reality and world that surrounds you are exactly what you make of it. Every
 interaction you have, every path you take, and every food you eat; all
 contribute to your perception of what is around you. Two identical physical

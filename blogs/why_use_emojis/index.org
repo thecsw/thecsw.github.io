@@ -6,6 +6,7 @@ If you visited my website, you probably have noticed some number of emojis I
 have put up almost everywhere. I like to send emojis via tex messages and post
 statuses with them. Many ask me, *why?*
 
+#+drop_cap
 My first argument would be is that they are fun. Surely, most of my friends and
 current adolescents might see them as cringey and overused. They have a valid
 point too. I use emojis thanks to light-hearted feeling they have and a bit of
@@ -26,6 +27,7 @@ bottle up during while waiting and when the time comes, they can be splashed
 onto a piece of paper. The receiving party would feel the content, simply due
 to its length and the seriousness of emotions of that time. 
 
+#+drop_cap
 Our text communication is pretty quick now. It takes a couple of milliseconds
 for a piece of data to fly across the world and reach the recipient. We got rid
 of the wait time and now I can send so many [[https://en.wikipedia.org/wiki/The_Tao_of_Programming][Tao of Programming]] quotes that you
