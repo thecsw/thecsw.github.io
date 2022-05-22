@@ -1,0 +1,20 @@
+* Phantasos - Goodbye, CS@KU 🥑
+
+In my senior year of Computer Science bachelors, we undertook a year-long team
+project, which is called to be our capstone. I worked in a fantastic team with
+[[https://www.linkedin.com/in/grant-holmes/][Grant Holmes]], [[https://www.linkedin.com/in/malena-schoeni-6a8127187/][Malena Schoeni]], [[https://github.com/CHarrod283][Carter Hurrod]], and [[https://www.linkedin.com/in/rodrigo-figueroa-j/][Rodrigo Figueroa]]! My role in
+the group was more of a manager, such as keeping up with our deliverables,
+communication, conflict resolution, and project management. Supa thankful for
+such a great team and what we were able to do.
+
+#+drop_cap
+Our team/project is called [[https://github.com/RealPhantasos][Phantasos]], after a [[https://en.wikipedia.org/wiki/Phantasos][Roman God of Sleep]]. The goal was
+to develop a system that expands the user’s interactive capability of
+interfacing with a computer using multiple sensors. Keyboards? Mice? This is old
+tech from the 60s. There is lots of friction between computers and users; let us
+explore new ways that we can interact with them. In many ways, this idea has
+been significantly inspired by [[https://sandyuraz.com/anime/sao/][Sword Art Online]].
+
+Please see the final demo video below.
+
+[[https://youtu.be/cZjmoUuXd9k][Phantasos Final Demo]]
