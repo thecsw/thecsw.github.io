@@ -3,9 +3,11 @@
 Here is a stack of books I liked and recommend for reading if you are into this
 kind of stuff. You can find a couple of selected reviews
 
-
-#+BEGIN_SRC
-      ┌────────────────────────────┐
+#+begin_src
+        ┌───────────────────────┐
+        │ The Star with no Name │
+        │  by Mihail Sebastian  │
+      ┌─┴───────────────────────┴──┐
       │         Year Zero          │
       │        by Rob Reid         │
 ┌─────┴────────────────────────────┴─────┐
@@ -75,6 +77,6 @@ kind of stuff. You can find a couple of selected reviews
       │     The Tao of Pooh     │
 ──────┴─────────────────────────┴───────
  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
-#+END_SRC
+#+end_src
 
 The moment of truth.
