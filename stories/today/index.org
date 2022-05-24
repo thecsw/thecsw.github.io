@@ -1,5 +1,8 @@
 * Today must be the day when I get the courage
 
+NOTE: This story was written as [[report6.pdf][Individual Report VI]] for my Computer Science
+thesis.
+
 Today must be the day. How could it not? Tonight's the night. Look at the stars,
 marvel at their beauty. The breeze is so fresh as if it came flying straight
 from the Mediterranean lands. On a quiet night such as this, it is no secret
@@ -76,9 +79,3 @@ way. I see the beautiful metalwork of the revolver. The soft candlelight is
 reflecting beautifully. What a sight to behold. Shakespeare said - "Courage
 isn't the absence of fear, but acting in spite of it". I'm scared, but her smile
 gives me enough will to finally act. All I need to pull that trigge....
-
----
-
-This story was written as [[report6.pdf][Individual Report VI]] for my Computer Science thesis.
-
----
