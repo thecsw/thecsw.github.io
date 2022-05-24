@@ -1,5 +1,8 @@
 * We were once friends. What happened to us?
 
+NOTE: This story was written as [[report7.pdf][Individual Report VII]] for my Computer Science
+thesis.
+
 Come to think of it, it's been a while since we talked. All the way from high
 school. Am I to blame for it or just the circumstances of the time? My family
 always lived in the area temporarily, we knew that I will have to go wherever my
@@ -72,9 +75,3 @@ and treasured between both of us. What happened to him? What happened to me?
 What happened to us?
 
 /To be continued.../
-
----
-
-This story was written as [[report7.pdf][Individual Report VII]] for my Computer Science thesis.
-
----

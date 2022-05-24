@@ -1,5 +1,8 @@
 * Write a report? But I want to go to Taco Bell
 
+NOTE: This story was written as [[report4.pdf][Individual Report IV]] for my Computer Science
+thesis.
+
 Nothing felt the same as it used to. I looked around the room, everything seems
 to be in place, but... this feeling. This feeling of uneasiness and doubts is
 sinking deeper and deeper into me. Stuff like this always happens for the wrong
@@ -51,9 +54,3 @@ team with accommodating all the functionality and libraries' APIs.
 
 I left the phone booth, the mission was complete now. My hunger hasn't died down
 yet, why should it have? Now, where is that Taco Bell...
-
----
-
-This story was written as [[report4.pdf][Individual Report IV]] for my Computer Science thesis.
-
----
