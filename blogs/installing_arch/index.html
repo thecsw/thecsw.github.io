@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="canonical" href="/home/runner/work/thecsw.github.io/thecsw.github.io/blogs/installing_arch" type=""/>
-<link rel="shortcut icon" href="/home/runner/work/thecsw.github.io/thecsw.github.io/assets/favicon.ico" type="image/x-icon"/>
-<link rel="apple-touch-icon" href="/home/runner/work/thecsw.github.io/thecsw.github.io/assets/apple-touch-icon.png" type="image/png"/>
-<link rel="image_src" href="/home/runner/work/thecsw.github.io/thecsw.github.io/assets/android-chrome-512x512.png" type="image/png"/>
-<link rel="icon" href="/home/runner/work/thecsw.github.io/thecsw.github.io/assets/favicon.ico" type=""/>
+<link rel="canonical" href="https://sandyuraz.com/blogs/installing_arch" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" property="generator" content="Darkness">
@@ -14,10 +14,10 @@
 <meta name="theme-color" property="theme-color" content="#fffff4">
 <meta name="description" property="description" content="May 2nd, 2019..."><meta name="og:title" property="og:title" content="Installing glorious arch linux ☄️">
 <meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩">
-<meta name="og:url" property="og:url" content="/home/runner/work/thecsw.github.io/thecsw.github.io/blogs/installing_arch">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/installing_arch">
 <meta name="og:locale" property="og:locale" content="en_GB">
 <meta name="og:type" property="og:type" content="website">
-<meta name="og:image" property="og:image" content="/home/runner/work/thecsw.github.io/thecsw.github.io/blogs/installing_arch/preview.webp">
+<meta name="og:image" property="og:image" content="https:/sandyuraz.com/blogs/installing_arch/preview.webp">
 <meta name="og:image:alt" property="og:image:alt" content="Preview">
 <meta name="og:image:type" property="og:image:type" content="image/webp">
 <meta name="og:image:width" property="og:image:width" content="1280">
@@ -25,25 +25,25 @@
 <meta name="og:description" property="og:description" content="May 2nd, 2019..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
-<meta name="twitter:image:src" property="twitter:image:src" content="/home/runner/work/thecsw.github.io/thecsw.github.io/blogs/installing_arch/preview.webp">
-<meta name="twitter:url" property="twitter:url" content="/home/runner/work/thecsw.github.io/thecsw.github.io/blogs/installing_arch">
+<meta name="twitter:image:src" property="twitter:image:src" content="https:/sandyuraz.com/blogs/installing_arch/preview.webp">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/installing_arch">
 <meta name="twitter:title" property="twitter:title" content="Installing glorious arch linux ☄️">
 <meta name="twitter:description" property="twitter:description" content="May 2nd, 2019...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
 <title>Installing glorious arch linux ☄️</title>
 </head>
-<link rel="stylesheet" type="text/css" href="/home/runner/work/thecsw.github.io/thecsw.github.io/css/web.css">
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
 
 <body class="article">
 
 <div id="header">
-<h1><img id="myface" src="/home/runner/work/thecsw.github.io/thecsw.github.io/najimi.webp" width="112" height="112">Installing glorious arch linux ☄️</h1>
+<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" height="112">Installing glorious arch linux ☄️</h1>
 <div class="details">
 <span id="author" class="author">sandy</span><br>
 <span id="email" class="email">[at] sandyuraz [dot] com</span><br>
 <span id="revdate">
-<a href="/home/runner/work/thecsw.github.io/thecsw.github.io/dossier">Dossier 🖋</a> | <a href="/home/runner/work/thecsw.github.io/thecsw.github.io/books">Bookshelf 🔖</a> | <a href="/home/runner/work/thecsw.github.io/thecsw.github.io/fortunes">Fortunes 🧧</a> | <a href="/home/runner/work/thecsw.github.io/thecsw.github.io/">Home 🏠</a></span>
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
 </div>
 <div id="hetime" class="details"></div>
 </div>
@@ -410,7 +410,25 @@ We need to set your local time. Find your timezone in <code>/usr/share/zonenifo<
 
 <li>
 <p>
-∆Uncomment <code>en_US.UTF-8 UTF-8</code> and other if needed in <code>/etc/locale.gen</code>  ∆- Generate locales by running <code>% locale-gen</code>  ∆- Set the <code>LANG</code> variable equal to locale <code>% echo &#39;LANG=en_US.UTF-8&#39; &gt; /etc/locale.conf</code>  ∆- Set the keyboard layout to standard QWERTY <code>% echo &#39;KEYMAP=us&#39; &gt; /etc/vconsole.conf</code>
+Uncomment <code>en_US.UTF-8 UTF-8</code> and other if needed in <code>/etc/locale.gen</code>
+</p>
+</li>
+
+<li>
+<p>
+Generate locales by running <code>% locale-gen</code>
+</p>
+</li>
+
+<li>
+<p>
+Set the <code>LANG</code> variable equal to locale <code>% echo &#39;LANG=en_US.UTF-8&#39; &gt; /etc/locale.conf</code>
+</p>
+</li>
+
+<li>
+<p>
+Set the keyboard layout to standard QWERTY <code>% echo &#39;KEYMAP=us&#39; &gt; /etc/vconsole.conf</code>
 </p>
 </li>
 </ul>
@@ -433,7 +451,13 @@ If you are a power user with <em>dvorak</em>, run <code>% echo &#39;KEYMAP=dvora
 
 <li>
 <p>
-∆Set the hostname of your choice <code>% echo _myhostname_ &gt; /etc/hostname</code>  ∆- Configure the hosts on your machine
+Set the hostname of your choice <code>% echo _myhostname_ &gt; /etc/hostname</code>
+</p>
+</li>
+
+<li>
+<p>
+Configure the hosts on your machine
 </p>
 </li>
 </ul>
@@ -449,7 +473,37 @@ If you are a power user with <em>dvorak</em>, run <code>% echo &#39;KEYMAP=dvora
 
 <li>
 <p>
-∆Configuring your network drivers with <code>% pacman -S iw dialog wpa_actiond wpa_supplicant sudo</code>  ∆- Generate your kernel image (initramfs) <code>% mkinitcpio -p linux</code>  ∆- Change your default root password <code>% passwd</code>  ∆- Add new users <code>% useradd -m -G wheel -s /usr/bin/bash _user_</code>  ∆- Set the sudo access by uncommenting <code>%wheel ALL = (ALL) ALL</code> when running <code>visudo</code>  ∆- Changing the /user/’s password <code>% passwd _user_</code>
+Configuring your network drivers with <code>% pacman -S iw dialog wpa_actiond wpa_supplicant sudo</code>
+</p>
+</li>
+
+<li>
+<p>
+Generate your kernel image (initramfs) <code>% mkinitcpio -p linux</code>
+</p>
+</li>
+
+<li>
+<p>
+Change your default root password <code>% passwd</code>
+</p>
+</li>
+
+<li>
+<p>
+Add new users <code>% useradd -m -G wheel -s /usr/bin/bash _user_</code>
+</p>
+</li>
+
+<li>
+<p>
+Set the sudo access by uncommenting <code>%wheel ALL = (ALL) ALL</code> when running <code>visudo</code>
+</p>
+</li>
+
+<li>
+<p>
+Changing the /user/’s password <code>% passwd _user_</code>
 </p>
 </li>
 </ul>
@@ -577,7 +631,55 @@ I hope you enjoyed this installation guide. After the last step, you should be a
 
 <li>
 <p>
-∆Run this to install a package <code>% sudo pacman -S _package_name_</code>  ∆- Remove a package from your system <code>% sudo pacman -Rs _package_name_</code>  ∆- Update the system’s packages <code>% sudo pacman -Syu</code>  ∆- Installing X Graphical Server <code>% sudo pacman -S xorg xorg-xinit</code>  ∆- Installing zshell <code>% sudo pacman -S zsh</code> and update your shell <code>% chsh</code>  ∆- Installing graphical terminal emulator <code>% sudo pacman -S rxvt-unicode rxvt-unicode-terminfo</code>  ∆- Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3 dmenu</code>  ∆- Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and <code>% chmod 700 ~/.xinitrc</code>  ∆- Start graphical X server with <code>% startx</code>
+Run this to install a package <code>% sudo pacman -S _package_name_</code>
+</p>
+</li>
+
+<li>
+<p>
+Remove a package from your system <code>% sudo pacman -Rs _package_name_</code>
+</p>
+</li>
+
+<li>
+<p>
+Update the system’s packages <code>% sudo pacman -Syu</code>
+</p>
+</li>
+
+<li>
+<p>
+Installing X Graphical Server <code>% sudo pacman -S xorg xorg-xinit</code>
+</p>
+</li>
+
+<li>
+<p>
+Installing zshell <code>% sudo pacman -S zsh</code> and update your shell <code>% chsh</code>
+</p>
+</li>
+
+<li>
+<p>
+Installing graphical terminal emulator <code>% sudo pacman -S rxvt-unicode rxvt-unicode-terminfo</code>
+</p>
+</li>
+
+<li>
+<p>
+Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3 dmenu</code>
+</p>
+</li>
+
+<li>
+<p>
+Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and <code>% chmod 700 ~/.xinitrc</code>
+</p>
+</li>
+
+<li>
+<p>
+Start graphical X server with <code>% startx</code>
 </p>
 </li>
 </ul>
@@ -619,7 +721,19 @@ I hope you enjoyed the installation process and I am sure you were able to learn
 
 <li>
 <p>
-∆<a href="https://wiki.archlinux.org/index.php/Frequently_asked_questions">Arch Linux Frequently Asked Questions</a>  ∆- <a href="https://wiki.archlinux.org/index.php/General_recommendations">Arch Linux General Recommendations</a>  ∆- <a href="https://wiki.archlinux.org/index.php/List_of_applications">Arch Linux List of Applications</a>
+<a href="https://wiki.archlinux.org/index.php/Frequently_asked_questions">Arch Linux Frequently Asked Questions</a>
+</p>
+</li>
+
+<li>
+<p>
+<a href="https://wiki.archlinux.org/index.php/General_recommendations">Arch Linux General Recommendations</a>
+</p>
+</li>
+
+<li>
+<p>
+<a href="https://wiki.archlinux.org/index.php/List_of_applications">Arch Linux List of Applications</a>
 </p>
 </li>
 </ul>
@@ -642,7 +756,19 @@ Always try to consult with the List of Applications while searching for a progra
 
 <li>
 <p>
-∆<a href="https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions">Arch Linux compared to other distributions</a>]  ∆- <a href="https://www.archlinux.org/packages/">Arch Linux packages</a>  ∆- <a href="https://aur.archlinux.org/">Arch Linux AUR Home</a>
+<a href="https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions">Arch Linux compared to other distributions</a>]
+</p>
+</li>
+
+<li>
+<p>
+<a href="https://www.archlinux.org/packages/">Arch Linux packages</a>
+</p>
+</li>
+
+<li>
+<p>
+<a href="https://aur.archlinux.org/">Arch Linux AUR Home</a>
 </p>
 </li>
 </ul>
