@@ -8,7 +8,7 @@ twitter = "@sandyuraz"
 styles = ["css/web.css"]
 tombs = ["blogs", "anime", "arts"]
 exclude = ["present"]
-preview = "preview.webp"
+preview = "preview.jpg"
 description_length = 137
 
 [author]
