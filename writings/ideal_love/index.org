@@ -32,7 +32,8 @@ number of times other keywords appear within the target’s context. This is
 incredibly useful, as it provides us with a quantitative view of how closely or
 loosely topics appear in relationships with each other. More details on
 accessing Katya and interacting with its features can be found on her
-development webpage.  
+development webpage. [fn:: The development webpage of Katya on GitHub
+([[https://github.com/thecsw/katya-dev][https://github.com/thecsw/katya-dev]]). Accessed on May 5, 2022] 
 
 As the research question outlined, we are primarily interested in the topic of
 love and what is its true nature for Dostoevsky. Providing Katya with the whole
@@ -53,11 +54,13 @@ To tackle this question, let us understand what is defined by “love.” It is 
 elusive term that is perceived differently in an uncountably unique number of
 ways. Merriam-Webster defines love as “strong affection for another arising out
 of kinship or personal ties,” “attraction based on sexual desire,” or “warm
-attachment, enthusiasm, or devotion.”    Notice that nowhere in those
-definitions do we see a hint to action or performance of love. The most common
-understanding of love is purely defined through the lens of one’s affection and
-adoration, which means more experiencing feelings rather than taking action
-toward another person, an inanimate object, or God. 
+attachment, enthusiasm, or devotion.” [fn:: Merriam-Webster definition of “love”
+([[https://www.merriam-webster.com/dictionary/love][https://www.merriam-webster.com/dictionary/love]]). Accessed on May 5, 2022]
+Notice that nowhere in those definitions do we see a hint to action or
+performance of love. The most common understanding of love is purely defined
+through the lens of one’s affection and adoration, which means more experiencing
+feelings rather than taking action toward another person, an inanimate object,
+or God.  
 
 #+drop_cap
 Love, in this standard definition, is a subjective feeling. To deepen our
@@ -91,14 +94,17 @@ the standard definitions above, love is affection; it’s meant to be romantic,
 connect people, and lead them to better lives. However, Fyodor Mikhailovich sees
 love as a necessary instrument to uncover one’s path littered with
 tragedies. Interestingly enough, this is how Dostoevsky views the first type of
-love we mentioned above, the love born out of lust.   
+love we mentioned above, the love born out of lust. [fn:: /Язык
+Ф.М. Достоевского : идиоглоссарий, тезаурус, эйдос : Монография./ Москва :
+ЛЕКСРУС, 2015.]
 
 #+drop_cap
 When it is meant to bring people together, he sees it as dividing them. In his
 works, we see the tormenting parts of love, the parts we tend to ignore or gloss
 over in our lives, as it would be too much to bear for one person. Dostoevsky
 brings those issues to an open discussion. Passionate love doesn’t bridge the
-gap; it only deepens and widens the canyon of discord.   Ultimately, loving
+gap; it only deepens and widens the canyon of discord. [fn:: /Русский Эрос, или
+Философия любви в России./ Vladimir Solovyev, 1991.] Ultimately, loving
 someone means destining your demise. We must recognize that this is not the
 ideal of love. It is truly fascinating that there exists one kind of love that
 Dostoevsky describes as a positive rather than a destructive force of human
@@ -238,13 +244,14 @@ would be to help them by setting a clear goal in mind.
 In his novel, Fyodor Mikhailovich created an image of a “doer,” which contrasts
 with a “dreamer” that Dostoevsky has frequently employed in his previous
 works. Compared to “Crime and Punishment” and “Demons,” he presents us with a
-possessor of “деятельной любви.”   He doesn’t have the desire to become famous,
-nor does he have the experience of a long life. He does have the strength and
-wisdom to love people and respond to their trust. He understands their tragedies
-and allows them to seep through him; this is how he shows his active love. For
-our discussion of love, Alyosha is the question and the answer. He manifests and
-exercises the “active love” that Dostoevsky sees as the ideal. He describes in
-the novel,
+possessor of “деятельной любви.” [fn:: Накамура К. /Словарь персонажей
+произведений Ф. М. Достоевского./ — СПб.: Гиперион, 2011.] He doesn’t have the
+desire to become famous, nor does he have the experience of a long life. He does
+have the strength and wisdom to love people and respond to their trust. He
+understands their tragedies and allows them to seep through him; this is how he
+shows his active love. For our discussion of love, Alyosha is the question and
+the answer. He manifests and exercises the “active love” that Dostoevsky sees as
+the ideal. He describes in the novel,
 
 #+begin_quote
 “В этой путанице можно было совсем потеряться, а сердце Алёши не могло выносить
