@@ -452,7 +452,7 @@ pre {
 pre code,
 pre pre {
         color: inherit;
-        font-size: inherit;
+        font-size: 0.95rem;
         line-height: inherit;
 }
 
@@ -1114,6 +1114,11 @@ tr:hover {
         .videoblock {
                 width: 100%;
                 padding-top: 56.25%;
+                right: 0px;
+        }
+
+        table {
+                width: 100%;
                 right: 0px;
         }
 }
