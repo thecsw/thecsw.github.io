@@ -42,13 +42,16 @@ Darkness supports a vast array of features and cool tricks, such as
 - Paragraphs with full [[https://orgmode.org/worg/dev/org-syntax.html][orgmode-style formatting]]
 - Lists with any text and breaking lines
 - Good placement of images and their captions
+- Orgmode environments, like =quote= and =center=
 - Embed support for: youtube, Spotify, video, audio, etc.
 - Raw HTML placement and export within the page
+- Orgmode interactive tables support
+- Stylistic features, like dropcaps
 - Source code blocks with language selection
-- Full math render support with [[https://katex.org][KaTeX]] (only enabled on pages with math)
-- Smart Holocene time annotations and layovers (just hover over H.E. times)
-- Rich meta tags (OG/twitter-friendly) with previews enabled on every page
-- Creating new darkness websites from a template (use =darkness new NAME=)
+- Full math render support with [[https://katex.org][KaTeX]]
+- Smart Holocene time annotations and layovers
+- Rich meta tags with previews enabled on every page
+- Creating new darkness websites from a template
 - Project cleanup and maintenance tools included with the binary
 - Open-source code, PRs, and contributions are welcome!
 
