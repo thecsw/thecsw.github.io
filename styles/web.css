@@ -970,8 +970,7 @@ body {
         /* -webkit-font-smoothing: antialiased; */
 }
 
-.sect1,
-.sectionbody,
+#content,
 .paragraph {
         font-size: 1.15rem;
         line-height: 1.8rem;
