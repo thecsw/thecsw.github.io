@@ -264,15 +264,6 @@ a img {
         border: 0;
 }
 
-p {
-        font-family: inherit;
-        font-weight: 500;
-        font-size: 1em;
-        line-height: 1.6;
-        margin-bottom: 1.25em;
-        text-rendering: optimizeLegibility;
-}
-
 h1,
 h2,
 h3,
@@ -838,14 +829,9 @@ td.content strong {
         letter-spacing: 0.002em;
 }
 
-p,
 td.content,
 span.alt {
         font-size: 1.0625rem;
-}
-
-p {
-        margin-bottom: 1.25rem;
 }
 
 @page {
@@ -984,18 +970,22 @@ body {
         /* -webkit-font-smoothing: antialiased; */
 }
 
-p {
+.paragraph {
         font-size: 1.15rem;
         line-height: 1.8rem;
         font-family: "Lora", serif;
         font-weight: 500;
+        line-height: 1.6;
+        margin-bottom: 1.25em;
+        text-rendering: optimizeLegibility;
 }
 
 .quote {
+        font-size: 1rem;
         max-width: 550px;
         display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
         margin-inline-start: 40px;
         margin-inline-end: 40px;
 }
