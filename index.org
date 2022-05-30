@@ -1,5 +1,8 @@
 * Sandy's Website ⛩
-** Welcome 💌
+
+Visitor... Welcome to *my* Beige Website. This place exists between dream and
+reality, mind and matter. /I hope you enjoy your stay./
+
 *** 🀢 [[blogs][My cozy blog 🍣]]
 *** 🀣 [[projects][Cool projects 🍥]]  
 *** 🀤 [[stories][Short stories 🍯]]
