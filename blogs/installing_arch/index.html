@@ -491,7 +491,7 @@ Change your default root password <code>% passwd</code>
 
 <li>
 <p>
-Add new users <code>% useradd -m -G wheel -s /usr/bin/bash <u>user</u></code>
+Add new users <code>% useradd -m -G wheel -s /usr/bin/bash _user_</code>
 </p>
 </li>
 
@@ -631,13 +631,13 @@ I hope you enjoyed this installation guide. After the last step, you should be a
 
 <li>
 <p>
-Run this to install a package <code>% sudo pacman -S _package_name_</code>
+Run this to install a package <code>% sudo pacman -S <u>package_name</u></code>
 </p>
 </li>
 
 <li>
 <p>
-Remove a package from your system <code>% sudo pacman -Rs <u>package_name</u></code>
+Remove a package from your system <code>% sudo pacman -Rs _package_name_</code>
 </p>
 </li>
 
@@ -673,7 +673,7 @@ Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3
 
 <li>
 <p>
-Enable <code>i3<<em>code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~</em>.xinitrc<<em>code> and <code>% chmod 700 ~</em>.xinitrc</code>
+Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and <code>% chmod 700 ~/.xinitrc</code>
 </p>
 </li>
 
