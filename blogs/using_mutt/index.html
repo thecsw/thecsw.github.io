@@ -61,7 +61,7 @@ May 13th, 2019
 <p>
 &#34;Electronic mail (email or e-mail) is a method of exchanging messages (&#34;mail&#34;) between people using electronic devices. Invented by Ray Tomlinson, email first entered limited use in the 1960s and by the mid-1970s had taken the form now recognized as email.&#34; 
 <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">I</a>]</sup>
-		Email has been around for more than 50 years now. As we go further on our timeline, folks from new generations are starting to forget the beauty of email. This article will discuss the problems with the current state of emails and the ways to bring back joy into it.
+Email has been around for more than 50 years now. As we go further on our timeline, folks from new generations are starting to forget the beauty of email. This article will discuss the problems with the current state of emails and the ways to bring back joy into it.
 </p>
 </div></div>
 </div>
@@ -99,7 +99,7 @@ Is there a solution for this unfortunate turn of events and overcomplication of 
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-<a href="http://www.mutt.org/">Mutt</a> is a text-based email client developed by Michael Elkins in 1995 for UNIX-like systems. I want to say that this is truly the way emails were meant to be used. Before I start getting angry emails, I am aware of other fantastic <code>TUI</code> and <code>ncurses</code> email clients, such as: <a href="http://www.gnus.org/">Gnus</a>, <a href="http://www.instinct.org/elm/">Elm</a>, and <a href="http://alpine.x10host.com/alpine/">Alpine</a> (Used by Brian Kernighan!). However, it is safe to say that <code>Mutt</code> is the most extensive, feature-rich, actively developed, and well-supported by its community. Just to list some of its features, please take a look at the excerpt from Mutt’s website below:
+<a href="http://www.mutt.org/">Mutt</a> is a text-based email client developed by Michael Elkins in 1995 for UNIX-like systems. I want to say that this is truly the way emails were meant to be used. Before I start getting angry emails, I am aware of other fantastic <code>TUI<<em>code> and <code>ncurses</code> email clients, such as: <a href="http://www.gnus.org</em>">Gnus</a>, <a href="http://www.instinct.org/elm/">Elm</a>, and <a href="http://alpine.x10host.com/alpine/">Alpine</a> (Used by Brian Kernighan!). However, it is safe to say that <code>Mutt</code> is the most extensive, feature-rich, actively developed, and well-supported by its community. Just to list some of its features, please take a look at the excerpt from Mutt’s website below:
 </p>
 </div>
 <div class="ulist">
@@ -238,7 +238,7 @@ That should get you a fresh copy of <code>offlineimap</code>.
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-<code>offlineimap<<em>code> as a UNIX application, uses a configuration file, conveniently called <code>.offlineimaprc</code>. To make things easier, touch the file in your home directory or open your favorite tex editor, /emacs</em>, and write down the following:
+<code>offlineimap</code> as a UNIX application, uses a configuration file, conveniently called <code>.offlineimaprc</code>. To make things easier, touch the file in your home directory or open your favorite tex editor, <em>emacs</em>, and write down the following:
 </p>
 </div>
 <div class="listingblock">
@@ -483,7 +483,7 @@ Put a space before the command so your system will not save your plain text pass
 </div>
 <div class="paragraph">
 <p>
-Encrypt the file with <code>% gpg -r <u>my_email</u> -e ~/.mutt/mypass</code>, where <code><u>my_email</u></code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
+Encrypt the file with <code>% gpg -r <u>my_email<<em>u> -e ~</em>.mutt/mypass</code>, where <code>_my_email_</code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
 </p>
 </div>
 <div class="paragraph">
@@ -502,7 +502,7 @@ Remove the old file with <code>% rm mypass</code>
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-Add the following line to the top of your <code>~/.muttrc</code>: <code>source &#34;gpg -dq $HOME/.mutt/mypass.gpg |&#34;</code>
+Add the following line to the top of your <code>~/.muttrc<<em>code>: <code>source &#34;gpg -dq $HOME</em>.mutt/mypass.gpg |&#34;</code>
 </p>
 </div>
 <div class="paragraph">
@@ -541,7 +541,7 @@ Add the line below to include your signature in every new email message. <code>s
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-If you are feeling dangerous, you can start signing your emails, encrypting them, armored signatures, and other cool stuff. To do that, download link:./gpg.rc[this file], add that to your <code>~/.mutt/</code> directory, create one if you don’t have it, and add the following line to your <code>~/.muttrc</code>: <code>source ~/.mutt/gpg.rc</code>
+If you are feeling dangerous, you can start signing your emails, encrypting them, armored signatures, and other cool stuff. To do that, download link:./gpg.rc[this file], add that to your <code>~/.mutt/<<em>code> directory, create one if you don’t have it, and add the following line to your <code>~</em>.muttrc<<em>code>: <code>source ~</em>.mutt/gpg.rc</code>
 </p>
 </div>
 <div class="paragraph">
