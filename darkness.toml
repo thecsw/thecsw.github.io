@@ -11,6 +11,7 @@ preview = "preview.jpg"
 description_length = 137
 normalize_headings = false
 roman_footnotes = true
+footnote_brackets = true
 
 [project]
 exclude = ["present"]
