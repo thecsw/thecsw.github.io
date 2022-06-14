@@ -18,11 +18,11 @@ will introduce you to the Gregorian Calendar, its inconsistencies, and a better 
 
 Our current Gregorian calendar is the most used calendar in the world. It was introduced by
 Pope Gregory XIII in October 1582. Each year roughly elapses to 365 days.
-[fn:: United States Naval Observatory, _Introduction to Calendars_ (27 February 2019). Accessed April 13.]
+[fn:: United States Naval Observatory, Introduction to Calendars (27 February 2019). Accessed April 13.]
 The Gregorian Calendar includes two eras in itself: BC and AD. According to Merriam-Webster
 dictionary, BC stands for "before Christ" and AD roughly translates from Latin "Anno Domini"
 to "in the year of our Lord".
-[fn:: Merriam-Webster, _Anno Domini_ (2019). Accessed April 13.]
+[fn:: Merriam-Webster, Anno Domini (2019). Accessed April 13.]
 The current year 2019 can be fully expanded as the year 2019 after birth of Christ or AD 2019.
 Due to an ongoing and ever active globalization, the calendar was even adopted by most of the
 non-Western countries. It is truly, the dominant way of understanding time and our history.
@@ -32,7 +32,7 @@ The question rises, does it necessarily mean it is the best one?
 
 The Gregorian calendar and the Julian calendar before it are very much centered around
 the birth of Jesus of Nazareth.
-[fn:: Geza Vermes in _Jesus the Jew: A historian’s reading of the Gospels_ (1973).]
+[fn:: Geza Vermes in Jesus the Jew: A historian’s reading of the Gospels (1973).]
 Firstly, current calendar's system of year counting is computationally and conceptually
 confusing when we want to get to the fundamental levels. There is no year 0 in the Gregorian
 calendar, so the difference between 1.5 BC and AD 1.5 is 1 year instead of 3. And BC era does
@@ -44,7 +44,7 @@ history which itself is a tiny part of our actual history.
 
 In 1993, Italian-American scientist Cesare Emiliani proposed a new calendar in the Nature journal
 article "Calendar Reform".
-[fn:: Cesare Emiliani, “Calendar Reform,” _Nature_, University of Miami (1993).]
+[fn:: Cesare Emiliani, “Calendar Reform,” Nature, University of Miami (1993).]
 In his article, Professor Emiliani proposes that the beginning of calendrical time could be set
 at the beginning of the current Julian Cycle, 4,713 BC, established by Joseph Scalinger and still
 used by astronomers. To simplify the arithmetic, round 10,000 years could be added to the current
@@ -53,15 +53,15 @@ of the year 10,000 from the beginning of Human Era. Adding a round number to the
 conserves all established holidays, months, and days. However it adds a whole another level
 of understanding of our human civilization. Let us take a brief look at our history from the
 beginning of Human Era.
-[fn:: Virginia Tech, _Important Events in Human History_ (2006). Accessed April 13.]
+[fn:: Virginia Tech, Important Events in Human History (2006). Accessed April 13.]
 
 - 0-1,000 HE : Ain Mallaha, also known as Eynan, one of the first settled villages in the world.
-- 1,500 HE : First farmers, start of agriculture. Domestication of wheat, olive, sheep, and etc. [fn:: Ensminger, Parker in _Sheep and Goat Science_ (1986).]
-- 2,000 HE : The whole world's population was around 5 million people. [fn:: Vaughn Aubuchon, _World Population Growth History_ (2019). Accessed April 13.]
-- 3,500 HE : Beginning of trading between villages over long distances. [fn:: History World, _HISTORY OF TRADE_ (2019). Accessed April 13.]
-- 5,000 HE : Start of the Bronze Age. [fn:: Britannica, _Bronze Age_ (2019). Accessed April 13.]
-- 6,700 HE : First invention of writing in Mesopotamia. [fn:: Ancient History Encyclopedia, _Writing_ (2019). Accessed April 13.]
-- 7,520 HE : Construction of Pyramid of Giza begun. [fn:: National Geographic, _Pyramids at Giza_ (2019). Accessed April 13.]
+- 1,500 HE : First farmers, start of agriculture. Domestication of wheat, olive, sheep, and etc. [fn:: Ensminger, Parker in Sheep and Goat Science (1986).]
+- 2,000 HE : The whole world's population was around 5 million people. [fn:: Vaughn Aubuchon, World Population Growth History (2019). Accessed April 13.]
+- 3,500 HE : Beginning of trading between villages over long distances. [fn:: History World, HISTORY OF TRADE (2019). Accessed April 13.]
+- 5,000 HE : Start of the Bronze Age. [fn:: Britannica, Bronze Age (2019). Accessed April 13.]
+- 6,700 HE : First invention of writing in Mesopotamia. [fn:: Ancient History Encyclopedia, Writing (2019). Accessed April 13.]
+- 7,520 HE : Construction of Pyramid of Giza begun. [fn:: National Geographic, Pyramids at Giza (2019). Accessed April 13.]
 - 9,000 HE : The end of Bronze Age and the Start of Iron Age.
 - 9,200 HE : Iliad and Odyssey published.
 - 9,500 HE : The beginning of Western Culture and the Golden Age.
