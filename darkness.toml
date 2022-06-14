@@ -7,9 +7,13 @@ color = "#fffff4"
 twitter = "@sandyuraz"
 styles = ["css/web.css"]
 tombs = ["blogs", "anime", "arts"]
-exclude = ["present"]
 preview = "preview.jpg"
 description_length = 137
+normalize_headings = false
+roman_footnotes = true
+
+[project]
+exclude = ["present"]
 
 [author]
 image = "najimi.webp"
