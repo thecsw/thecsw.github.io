@@ -391,7 +391,7 @@ If it does not let you in or some error occurs, please make sure you followed al
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code> and use it instead of <code><u>Region</u></code> and <code><u>City</u></code>
+We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code> and use it instead of <code>_Region_</code> and <code>_City_</code>
 </p>
 </div>
 <div class="listingblock">
@@ -637,7 +637,7 @@ Run this to install a package <code>% sudo pacman -S <u>package_name</u></code>
 
 <li>
 <p>
-Remove a package from your system <code>% sudo pacman -Rs _package_name_</code>
+Remove a package from your system <code>% sudo pacman -Rs <u>package_name</u></code>
 </p>
 </li>
 
@@ -673,7 +673,7 @@ Installing <code>i3</code> and <code>dmenu</code> with <code>% sudo pacman -S i3
 
 <li>
 <p>
-Enable <code>i3<<em>code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~</em>.xinitrc<<em>code> and <code>% chmod 700 ~</em>.xinitrc</code>
+Enable <code>i3</code> with <code>% echo \#!/bin/bash\nexec i3 &gt; ~/.xinitrc</code> and <code>% chmod 700 ~/.xinitrc</code>
 </p>
 </li>
 
