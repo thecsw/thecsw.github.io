@@ -61,12 +61,12 @@ If you write a program with everything you&#39;ve got, you will never be able to
 </div>
 <div class="paragraph">
 <p>
-I’m not the believer in rewriting everything and anything in Rust, while also measuring runtimes and who’ got it the fastest. Many applications simply don’t care if your print something to a user in 20ms or God forbid, in 100ms. Put your effort into something that has meaning and can be felt. However, you can’t have it being too slow either.
+I’m not the believer in rewriting everything and anything in Rust, while also measuring runtimes and who’s got it the fastest. Many applications simply don’t care if your print something to a user in 20ms or God forbid, in 100ms. Put your effort into something that has meaning and can be felt. However, you can’t have it being too slow either.
 </p>
 </div>
 <div class="paragraph">
 <p>
-Profiling is an amazing tool you can use to inspect your application’ performance during its runtime, down to how much time is spent in each function or on each line of code. This would allow you to optimize your program in all the right places, while also seeing what the actual execution stack looks like (frequently we think that we spend a lot of time in a spot, which is so insignificant, it might not even show up in timing measurements).
+Profiling is an amazing tool you can use to inspect your application’s performance during its runtime, down to how much time is spent in each function or on each line of code. This would allow you to optimize your program in all the right places, while also seeing what the actual execution stack looks like (frequently we think that we spend a lot of time in a spot, which is so insignificant, it might not even show up in timing measurements).
 </p>
 </div>
 <div class="paragraph">
@@ -94,7 +94,7 @@ func main() {
 
 <div class="paragraph">
 <p>
-You’ll have a new file in your current directory named <code>cpu.pprof</code>. Use go’ toolchain to get a pretty visualization of everything your program did during its lifetime with the command below
+You’ll have a new file in your current directory named <code>cpu.pprof</code>. Use go’s toolchain to get a pretty visualization of everything your program did during its lifetime with the command below
 </p>
 </div>
 <div class="listingblock">
@@ -123,7 +123,7 @@ You can see that darkness spends most of its time in <code>ExportPage</code>, as
 </div>
 <div class="paragraph">
 <p>
-You can also profile memory allocations and spot places where it might be beneficial for you to pre-allocate some space and use it continuously, instead of constantly pinging the OS and demanding more pages. It’ the same as the CPU example above, just replace it with the following, which will create a <code>mem.pprof</code>, where you can use the same <code>go tool pprof</code> on it
+You can also profile memory allocations and spot places where it might be beneficial for you to pre-allocate some space and use it continuously, instead of constantly pinging the OS and demanding more pages. It’s the same as the CPU example above, just replace it with the following, which will create a <code>mem.pprof</code>, where you can use the same <code>go tool pprof</code> on it
 </p>
 </div>
 <div class="listingblock">
