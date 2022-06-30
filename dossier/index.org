@@ -18,7 +18,11 @@ other commitment in life - then, I consider it to be the moment of truth.
 I studied Literature with concentration in 19th century literature. Dostoyevsky
 is my favorite author. There is also a weak spot in me for science fiction,
 especially anything that Isaac Asimov wrote. [[https://sandyuraz.com/blogs/anime][Love anime]]. Also graduated with
-degrees in Computer Science and Mathematics ♡ ´･ᴗ･ `♡
+degrees in Computer Science and Mathematics
+
+#+begin_center
+♡ ´･ᴗ･ `♡
+#+end_center
 
 I don't actively use social media, most if not everything I write and talk about
 online is collected here. Links below are the only public services I have
