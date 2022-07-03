@@ -239,7 +239,7 @@ That should get you a fresh copy of <code>offlineimap</code>.
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-<code>offlineimap</code> as a UNIX application, uses a configuration file, conveniently called <code>.offlineimaprc</code>. To make things easier, touch the file in your home directory or open your favorite tex editor, <em>emacs</em>, and write down the following:
+<code>offlineimap<<em>code> as a UNIX application, uses a configuration file, conveniently called <code>.offlineimaprc</code>. To make things easier, touch the file in your home directory or open your favorite tex editor, /emacs</em>, and write down the following:
 </p>
 </div>
 <div class="listingblock">
@@ -273,7 +273,7 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt</code></pre>
 
 <div class="paragraph">
 <p>
-This config file just gives us some details about how to contact the IMAP server and how to save it. <code><u>mymail</u></code> is any name of your choice. For my university mail, I have it named <code>kumail</code>, feel free to name it whatever name is convenient for you.
+This config file just gives us some details about how to contact the IMAP server and how to save it. <code>_mymail_</code> is any name of your choice. For my university mail, I have it named <code>kumail</code>, feel free to name it whatever name is convenient for you.
 </p>
 </div>
 <div class="paragraph">
@@ -484,7 +484,7 @@ Put a space before the command so your system will not save your plain text pass
 </div>
 <div class="paragraph">
 <p>
-Encrypt the file with <code>% gpg -r <u>my_email<<em>u> -e ~</em>.mutt/mypass</code>, where <code>_my_email_</code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
+Encrypt the file with <code>% gpg -r <u>my_email</u> -e ~/.mutt/mypass</code>, where <code><u>my_email</u></code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
 </p>
 </div>
 <div class="paragraph">
@@ -503,7 +503,7 @@ Remove the old file with <code>% rm mypass</code>
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-Add the following line to the top of your <code>~/.muttrc</code>: <code>source &#34;gpg -dq $HOME/.mutt/mypass.gpg |&#34;</code>
+Add the following line to the top of your <code>~/.muttrc<<em>code>: <code>source &#34;gpg -dq $HOME</em>.mutt/mypass.gpg |&#34;</code>
 </p>
 </div>
 <div class="paragraph">
@@ -556,7 +556,7 @@ Press <code>p</code> when composing email to see the available options.
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-Download link:./mailcap[this file], move the file to the <code>~/.mutt/</code> directory, add this line to your configuration file <code>set mailcap_path = ~/.mutt/mailcap</code>
+Download link:./mailcap[this file], move the file to the <code>~/.mutt/<<em>code> directory, add this line to your configuration file <code>set mailcap_path = ~</em>.mutt/mailcap</code>
 </p>
 </div></div>
 </div>
@@ -570,7 +570,7 @@ Make your NeoMutt look really good. Same drill.
 </div>
 <div class="paragraph">
 <p>
-Download link:./color.mutt[this file], move the file to the <code>~/.mutt/</code> directory, add this line to your configuration file <code>source $HOME/.mutt/color.mutt</code>
+Download link:./color.mutt[this file], move the file to the <code>~/.mutt/<<em>code> directory, add this line to your configuration file <code>source $HOME</em>.mutt/color.mutt</code>
 </p>
 </div></div>
 </div>
