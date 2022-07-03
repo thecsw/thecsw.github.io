@@ -184,7 +184,8 @@ body {
         cursor: auto;
         tab-size: 4;
         -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
+        /* -webkit-font-smoothing: antialiased; */
+        -webkit-font-smoothing: subpixel-antialiased;
 }
 
 a:hover {
@@ -820,7 +821,7 @@ h2,
 p,
 td.content,
 span.alt {
-        letter-spacing: -0.014em;
+    /* letter-spacing: -0.014em; */
         hyphens: auto;
 }
 

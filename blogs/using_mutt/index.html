@@ -219,7 +219,7 @@ If you are using one of the bigger Linux distributions (Ubuntu, Fedora, Debian, 
 </div>
 <div class="paragraph">
 <p>
-If you do not have it installed, you can run <code>% sudo pacman -S offlineimap<<em>code> on Arch Linux to install it or use python package manager <a href="https://pypi.org/project/pip</em>">pip</a> to install it.
+If you do not have it installed, you can run <code>% sudo pacman -S offlineimap</code> on Arch Linux to install it or use python package manager <a href="https://pypi.org/project/pip/">pip</a> to install it.
 </p>
 </div>
 <div class="listingblock">
@@ -273,7 +273,7 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt</code></pre>
 
 <div class="paragraph">
 <p>
-This config file just gives us some details about how to contact the IMAP server and how to save it. <code>_mymail_</code> is any name of your choice. For my university mail, I have it named <code>kumail</code>, feel free to name it whatever name is convenient for you.
+This config file just gives us some details about how to contact the IMAP server and how to save it. <code><u>mymail</u></code> is any name of your choice. For my university mail, I have it named <code>kumail</code>, feel free to name it whatever name is convenient for you.
 </p>
 </div>
 <div class="paragraph">
@@ -484,7 +484,7 @@ Put a space before the command so your system will not save your plain text pass
 </div>
 <div class="paragraph">
 <p>
-Encrypt the file with <code>% gpg -r <u>my_email</u> -e ~/.mutt/mypass</code>, where <code><u>my_email</u></code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
+Encrypt the file with <code>% gpg -r <u>my_email<<em>u> -e ~</em>.mutt/mypass</code>, where <code>_my_email_</code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
 </p>
 </div>
 <div class="paragraph">
@@ -542,7 +542,7 @@ Add the line below to include your signature in every new email message. <code>s
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-If you are feeling dangerous, you can start signing your emails, encrypting them, armored signatures, and other cool stuff. To do that, download link:./gpg.rc[this file], add that to your <code>~/.mutt/<<em>code> directory, create one if you don’t have it, and add the following line to your <code>~</em>.muttrc<<em>code>: <code>source ~</em>.mutt/gpg.rc</code>
+If you are feeling dangerous, you can start signing your emails, encrypting them, armored signatures, and other cool stuff. To do that, download link:./gpg.rc[this file], add that to your <code>~/.mutt/</code> directory, create one if you don’t have it, and add the following line to your <code>~/.muttrc</code>: <code>source ~/.mutt/gpg.rc</code>
 </p>
 </div>
 <div class="paragraph">
@@ -570,7 +570,7 @@ Make your NeoMutt look really good. Same drill.
 </div>
 <div class="paragraph">
 <p>
-Download link:./color.mutt[this file], move the file to the <code>~/.mutt/<<em>code> directory, add this line to your configuration file <code>source $HOME</em>.mutt/color.mutt</code>
+Download link:./color.mutt[this file], move the file to the <code>~/.mutt/</code> directory, add this line to your configuration file <code>source $HOME/.mutt/color.mutt</code>
 </p>
 </div></div>
 </div>
