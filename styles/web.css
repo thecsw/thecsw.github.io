@@ -183,10 +183,10 @@ body {
         position: relative;
         cursor: auto;
         tab-size: 4;
-        /* -moz-osx-font-smoothing: grayscale; */
-        -moz-osx-font-smoothing: auto;
-        /* -webkit-font-smoothing: antialiased; */
-        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        /* -moz-osx-font-smoothing: auto; */
+        -webkit-font-smoothing: antialiased;
+        /* -webkit-font-smoothing: subpixel-antialiased; */
 }
 
 a:hover {
