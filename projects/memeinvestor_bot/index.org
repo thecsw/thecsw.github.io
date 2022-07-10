@@ -69,7 +69,7 @@ was... *fantastic*! I had over 25 people joining me on development. Even
 developers from the real world contributed to the project, taught me many
 invaluable skills, and an understanding of what it means to manage a
 project. This story has been retold many times and I will shorten it because
-it's very late right now and I'm watching Death Note.
+it's very late right now and I'm watching /Death Note/.
 
 I have been maintaining and working on the project for a little bit more than
 three years. We had dozens of developers from across the world contributing
