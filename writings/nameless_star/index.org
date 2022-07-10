@@ -3,6 +3,7 @@
 NOTE: This was a paper for my graduate course in Soviet Cinema taught by
 [[https://slavic.ku.edu/vitaly-chernetsky][Dr. Vitaly Chernetsky]]. Here is the [[The Star with no Name.pdf][original paper]].
 
+#+drop_cap
 Did you know Romania has a railway line between Bucharest and Sinaia, a
 mountain resort popular with high society thanks to its gambling and
 hotel scene? An express train hurriedly runs from its point of departure
@@ -40,6 +41,7 @@ we can observe both stylistically and narratively. I haven't found any
 research on comparative analysis of those two versions; therefore, our
 work from here and on will be unique.
 
+#+drop_cap
 Firstly, the film adaptation changes multiple scenes from its source and
 adds new ones and new characters instead. Even with those changes
 enacted, I would like to preface that the movie stays incredibly
@@ -120,6 +122,7 @@ station and its corrupting force on the students. Sending the crying
 student off their way, the train whistles get louder; Mr. Pascu arrives
 with the commuter train.
 
+#+drop_cap
 The adaptation took their liberty with this scene by giving it more life
 and colors than the play. The first significant deviation is how crowded
 the train station is compared to the play. New characters are introduced
@@ -214,6 +217,7 @@ is giddily hopping across the street to show his renewed state of mind.
 Another scene with Grig and the stationmaster driving through the town's
 roads shows how prestigious cars are.
 
+#+drop_cap
 Mihail Sebastian depicts the upper classes as leading empty life full of
 boredom. Mona and Grig come from a different society; it would be safer
 to say that they come from another world or planet. In Grig's world, the
