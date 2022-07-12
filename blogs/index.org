@@ -45,6 +45,8 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[year_12019][Welcome to year 12,019 📅]]
 
 ** Random
+
+- [[gradspeech][My graduation speech 🕊]]
 - [[graduation][Ah, I graduated 🎓]]
 - [[solaris][On Tarkovskian Solaris 🪐]]
 - [[thecsw][The evolution of /thecsw/ 🧋]]
