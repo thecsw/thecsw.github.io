@@ -82,7 +82,7 @@ the [[https://github.com/thecsw/darkness/releases][releases]] page)
   go install -v github.com/thecsw/darkness@latest
 #+end_src
 
-Next, go to the place, where you would like to hous your next website. Call her
+Next, go to the place, where you would like to house your next website. Call her
 with a =new= command followed by any name that feeds your soul (=ishmael= is an
 example here)
 
