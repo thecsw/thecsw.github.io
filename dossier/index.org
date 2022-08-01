@@ -27,6 +27,9 @@ degrees in Computer Science and Mathematics
 I don't actively use social media, most if not everything I write and talk about
 online is collected here. Links below are the only public services I have
 
-- [[https://github.com/thecsw][Github 🐙]]
-- [[https://open.spotify.com/user/v1s3wc3z6pco2qfz0pzi3vq02?si=c0ab0369717e4824][Spotify 🥒]]
-- [[https://www.linkedin.com/in/thecsw][LinkedIn 🕴]]
+- [[https://github.com/thecsw][Github 🐙]] -- tech projects tracking
+- [[https://open.spotify.com/user/v1s3wc3z6pco2qfz0pzi3vq02?si=c0ab0369717e4824][Spotify 🥒]] -- my jam and the vibes
+- [[https://www.linkedin.com/in/thecsw][LinkedIn 🕴]] -- professional appearances
+- [[https://letterboxd.com/thecsw/][Letterboxd 🎬]] -- film tracking
+- [[https://www.goodreads.com/thecsw][Goodreads 📔]] -- book tracking
+- [[https://kitsu.io/users/thecsw][Kitsu 🦊]] -- anime tracking 
