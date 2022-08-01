@@ -30,7 +30,7 @@ you to read the manga or watch the show.
 #+drop_cap
 Finally, I need to say that my favorite character is Osana Najimi. She has good
 energy and good vibes. Well, he? She? They prefer anything; canonically, their
-gender is simply “Najimi.” Thanks to her incredible communication skills and
+gender is simply ``Najimi.'' Thanks to her incredible communication skills and
 pure talent, she is the complete polar opposite of Komi. There is something
 about Najimi-chan whom I utmost admire. The positive energy and sincerity with
 people that matter to her/him.
