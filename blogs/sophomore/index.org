@@ -1,36 +1,199 @@
 * The strange sophomore year 🥴
 
-176; 12022 H.E.
+If you have ever heard of COVID, you probably remember it happened sometime in
+2020, well, March 2020, to be exact. Coincidentally, it happened in the middle
+of my sophomore year of college. Surprise, it changed everything: how the world
+works, how we view ourselves, and the new path I've chosen to walk on. I'm
+getting ahead of myself. It happened in the Spring. We are still due to start
+our reminiscing of the Fall semester. Shall we?
 
 ** Fall 2019
 
-This was by far the darkest semester I have had up until then. I was called
-/suicidal/ and /crazy/ for taking a semester of 6 courses (18 credit hours), where
-each course was an Honors class. Recall that Honors classes can be twice as hard
-as their regular versions. 
+The fall of 2019 was a dark time. First time ever that I thought of dropping a
+course because it weighed too much on me. Someone told me, "Sandy, sophomore
+Fall would be the hardest semester; it's like a transition from your freshman
+year." I don't remember who it was, but they were on the spot. 
 
-*** Intro to Digital Logic, Honors
+Just a note that only 18 honor credit hours are required throughout four years
+to graduate; I took all of them in one semester. My advisor and I called this a
+"suicide semester," as I decided to enroll in six honor courses. I haven't known
+anyone determined to do something similar. Probably for the better. I found The
+Tao of Pooh in those overwhelming times, which gave me peace.
 
-*** Honors Freshman Seminar Assistantship
+*** Honors Physics II
 
-*** Applied Differential Equations, Honors
+After a fiasco called "Physics I," I decided not to meddle anymore in
+introductory 300+ person science lectures. Instead, I was in a twelve-person
+classroom led by the eccentric Hui Zhao, PHSX 214 (there is also a lab section,
+PHSX 216, but it's so unremarkable, I would rather forget it). Thanks to the
+more intimate learning environment and higher standards set by the professor, I
+realized that physics can be fun! This is despite the double course workload
+compared to non-honors (peasant) counterparts.
 
-*** Elementary Linear Algebra, Honors
+During one of the lectures on fundamental laws of Physics, Professor Zhao
+preached, "Did you know when God said there shall be light, he actually meant
+the five Maxwell equations?" What a mad lad. He promptly pulled up a page from
+the Bible on screens, rewritten with those equations.
 
-*** General Physics II, Honors
+[[bible.webp][The Maxwell Bible]]
 
-*** American Society, Honors
+He was such a dad. Introducing a new topic or some law, he would famously say,
 
-** Spring 2020
+#+begin_center
+/``This might be a law for you, but for me,\ this is just common sense.''/
+#+end_center
 
-*** Discrete Structures
+He was a gambler too. One of my classmates and friends, Kim, didn't want to get
+the $80 textbook, which also grants us the privilege of attempting our
+required-25%-of-the-final-grade homework assignments. I believe it was simply
+out of principle. Professor Zhao presented him with an opportunity, "You can
+skip the homework, but I will combine it with your final exam score. Basically,
+what you get on the final will be your homework section grade." We also had a
+policy of a higher final exam score replacing the lower midterm grade. In the
+end, 75% of Kim's total grade in the class was riding on the final exam.
 
-*** Programming Language Paradigms
+\begin{align*}
+\text{Total Grade} = 
+\end{align*}
 
-*** Software Engineering I
+| Normal student                                                                                                                                   | Kim                                                                                         |
+|--------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------|
+| $\begin{cases} 25\% \text{- Assignments}\\ 25\% \text{- Midterm}\\25\% \text{- Final}\\25\% \text{- Lab work}\\\end{cases}$ | $\begin{cases} 75\% \text{- Final}\\25\% \text{- Lab work}\\\end{cases}$                      |
 
-*** Introductory Modern Algebra
+Teaching assistants who took the professor's courses in the past promised us
+he's the kind of a teacher who makes easy finals. That was the case until one of
+those teaching assistants (looking at you, Neema) wrote a great (and super
+complicated) study guide for us to use to prepare (thanks) *and* shared it with
+Professor Zhao (no thanks). He believed we were beyond capable of handling the
+most challenging material in class, therefore making the last semester's exam
+something reminiscent of a scholastic nightmare. Here is the two-page cheat
+sheet I prepared.
 
-*** Algebraic Topics in Computing: Cryptography
+[[cheatsheet.webp][sheesh 🥶]]
 
-USEMATHJAX
+What happened to Kim's gambit? Haven't seen or spoken it him ever since. I heard
+he's engaged now, so it couldn't have been that bad. Hope you are doing well,
+Kim!
+
+*** Honors Linear Algebra
+
+"Linear algebra is easy," they say. "It's only worth two credit hours" or
+"follow it like a cookbook, and you'll be fine." *None* applies to MATH 291:
+Honors Linear Algebra taught by Margaret Bayer. Anyone who had her class just
+gasped reading her name. Not to give a misleading impression, she's an excellent
+teacher, but her in-class policies and grading might as well be incarnate of
+what students tend to lose their sleep at night. Professor Bayer turned this
+"Baby Linear Algebra" into an upper-level course requiring students, primarily
+engineers with no formal math experience, to write tight linear algebra proofs.
+
+It's gotten so tedious for some students that the number of enrolled people
+thinned out by about a half in the first two or three weeks. Why? Because there
+is nothing more demoralizing than spending six to eight hours on a math proof
+for homework to get only 40% of the total credit. You might ask, "Oh, it
+couldn't have been that hard!" Not excruciatingly, but out of ten given
+problems, only two to three solutions would get selected for credit, and the
+professor didn't really believe in a thing called "partial credit." That's for
+the weak and feeble-minded, apparently.
+
+So much so that often our homework assignments reviewed by our grader would get
+tactically intercepted by Professor Bayer for a regrade. It is painful seeing
+your sweet 18/20 scribbled out and replaced with a 10/20. Also, the grader got
+fired somewhere in mid-semester for either being too soft on us or incompetent
+(by later testimonies of insiders, whose identities shall remain secret). What's
+the difference between those two in the eyes of our professor anyway?
+
+As much as I tend to demonize this class, it was great! Slowly but surely, I
+have gotten used to writing proofs, which has made me better at the
+subject. This experience served as an excellent setup for what came in the
+following semesters! As a little sneak peek, this is not the last time I have
+taken a Margaret Bayer course, nor has it been the last time I have done my
+linear algebra studies.
+
+*** Honors Ordinary Differential Equations
+
+Oh, boy. This course in the Fall of 2019 went down in history as the most
+chaotic ordinary differential equations class to date. It all started even
+before the beginning of the semester. The day before the start of classes, our
+assigned Professor, Milena Stanislavovea, was switched to a Ph.D. graduate
+student, Brad Isom. Recall that one of the significant allures of honors courses
+is the respective department's guarantee they will be taught by a professor or
+faculty member. This was Brad's first time instructing this level of a class
+(our Teaching Assistants usually undertake the role of supplemental instructors
+in introductory calculus and algebra courses). No narcing on Brad, though. He
+was a real homie.
+
+He walks in on the first day of lectures and tells us, "I don't know what honors
+sections are. I'll give you more homework, harder material, and harsher
+grading. You chose this class." *I never asked for this.* If you thought Professor
+Bayer's class was equivalent to the math department's hazing, Brad went straight
+to scholastic abuse (we still love you, Brad). 
+
+Never have I bombed a midterm so hard that I barely got away with a D. I guess
+optional homework assignments were a part of that; hence the negative incentive
+to do those hadn't been much help. On my way to the classroom, I saw my friend
+Kaitlyn (made-up name) walking in the opposite direction. Confusingly, I asked
+her, "Hey, Kaitlyn, how you're doing?" She replied with a heart of burning
+passion, "Went to Brad's office hours to see if I could do anything about my
+midterm (she also bombed it?) He looked at it and said, 'Too bad.'" What a mad
+lad. I never saw her again.
+
+Also, Brad had this quirk about him, where he would spend at least 99.8% of the
+class time proving an ordinary differential equation solving technique and do a
+very trivial example of using it. Later, never asked for anything close to
+proofs on any submissions and was only required to speed-solve what felt like a
+never-ending list of back-of-the-book problems. Sometimes, textbooks can be
+beneficial.
+
+At least he would ask us how to name variables in his class proofs. Pro-tip,
+always for the most obscure ones, like capital xi "Ξ" or capital lambda "Λ." It
+didn't stop at just symbols; it spread all the way to let us choose the colors
+of markers. I famously asked him to use the poop-colored one. That marker went
+flying straight into the nearest trash bin. Kinda wasteful of campus resources
+if you ask me. Circling back to the grade part -- it wasn't /great/. I walked into
+the final exam needing to score at least 99% to get an A in the
+class. Thankfully, I had an awkward date with a girl I was seeing at the time,
+so to take my mind off it, I occupied all my free time right before it with
+solving differential equations. I studied like never before.
+
+During the final exam, in two and a half hours, I wrote out 27 pages full of raw
+math, scored 120% (full extra credit, thanks, Brad), and finished the course
+with a strong A. So... thanks, Liz.
+
+Looking at it all later, Brad also had a lot on his plate. The math
+department dumped a whole class of too-clever-for-their-own-good honor students
+while he also had to take care of his newborn kid, henceforth, a family. You
+know you be real for that! Thank you, Brad.
+
+
+Extra content! I enjoyed the content; I have a whole article ([[https://sandyuraz.com/blogs/diffeq/][Differential
+equations 🔥]]) written on solving ODEs with what I learned from the class. It
+took a while to type it all out -- worth it.
+
+
+*** Honors Digital Circuits
+
+Even with my newly discovered math major, I can't forget my primary duties as a
+Computer Scientist (whatever that means). I couldn't at that time yet. Okay,
+this class is summarized as -- misery. Not as bad as the next one, but still
+uncomfortably close. As much as I enjoy wiring circuits; soldering; playing with
+small LED bulbs; learning the theory (SoP, PoS, PMOS, NMOS, CMOS, more evil to
+follow); designing circuits (adders, buses, latches, flip-flops, registers, pls
+no more). All of it was the bane of my existence. It just didn't click, and I
+had to grind through the material. Professor Petr (whom I worked for next year,
+yet to come) had this policy -- if you get a score of D or lower on any in-class
+exam -- you will be administratively removed from the course (the wording is
+verbatim). Every midterm, he would apply a weird curve, such that approximately
+25% of the students get an A, another 25% a B, more 25% a C, and the remaining
+quarter ends with a D or lower (this meant goodbye). Bizarre; I know.
+
+It didn't help when every midterm (there were two or three?), a quarter of the
+remaining students would get popped out of existence. The moment I have
+ingrained in my memory is of me sitting at my desk at midnight. Quiet in my
+shoebox-sized (that's flattering) dorm, watching Sofia Coppola's /Marie
+Antoinette/, and almost in tears from doing an EECS 210 assignment I had no love
+for. But hey, we built something that resembles a bomb and would get you in a
+lot of trouble if you tried to smuggle it past TSA. (don't do it)
+
+[[circuit.webp][Don't travel with this]]
+
+This was my introduction to circuits, digital logic, and all alike. Fun.
