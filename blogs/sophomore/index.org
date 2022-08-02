@@ -56,9 +56,9 @@ end, 75% of Kim's total grade in the class was riding on the final exam.
 \text{Total Grade} = 
 \end{align*}
 
-| Normal student                                                                                                                                   | Kim                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------|
-| $\begin{cases} 25\% \text{- Assignments}\\ 25\% \text{- Midterm}\\25\% \text{- Final}\\25\% \text{- Lab work}\\\end{cases}$ | $\begin{cases} 75\% \text{- Final}\\25\% \text{- Lab work}\\\end{cases}$                      |
+| Normal student                                                                                                              | /Kim's Gambit/                                                           |
+|-----------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------|
+| $\begin{cases} 25\% \text{ - Assignments}\\ 25\% \text{ - Midterm}\\25\% \text{ - Final}\\25\% \text{ - Lab work}\\\end{cases}$ | $\begin{cases} 75\% \text{ - Final}\\25\% \text{ - Lab work}\\\end{cases}$  |
 
 Teaching assistants who took the professor's courses in the past promised us
 he's the kind of a teacher who makes easy finals. That was the case until one of
