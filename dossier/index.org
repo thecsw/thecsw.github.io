@@ -29,7 +29,7 @@ online is collected here. Links below are the only public services I have
 
 - [[https://github.com/thecsw][Github 🐙]] -- tech projects tracking
 - [[https://open.spotify.com/user/v1s3wc3z6pco2qfz0pzi3vq02?si=c0ab0369717e4824][Spotify 🥒]] -- my jam and the vibes
-- [[https://www.linkedin.com/in/thecsw][LinkedIn 🕴]] -- professional appearances
+- [[https://www.linkedin.com/in/thecsw][LinkedIn 🕴]] -- professional stuff
 - [[https://letterboxd.com/thecsw/][Letterboxd 🎬]] -- film tracking
 - [[https://www.goodreads.com/thecsw][Goodreads 📔]] -- book tracking
 - [[https://kitsu.io/users/thecsw][Kitsu 🦊]] -- anime tracking 
