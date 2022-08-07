@@ -2,6 +2,7 @@
 /* The custom fonts we are importing */
 /* --------------------------------- */
 
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&display=swap");
 @font-face {
         font-family: "Fantasque Sans Mono";
@@ -12,16 +13,17 @@
 }
 
 :root {
-        --font-main: Lora, "Lora Serif", serif;
+        /* --font-main: Lora, "Lora Serif", serif; */
+        --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
-        --paragraph-size: 1.15rem;
+        --paragraph-size: 1.4rem;
         --paragraph-width: 610px;
         --paragraph-width-max: 100%;
-        --paragraph-line-height: 1.8rem;
+        --paragraph-line-height: 2.37rem;
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
         --paragraph-text-rendering: optimizeLegibility;
-        --code-size: 0.95rem;
+        --code-size: 1rem;
         --code-text-rendering: optimizeSpeed;
         --code-line-height: 1.45rem;
         --header-width: 760px;
@@ -29,10 +31,14 @@
         --header-font-weight: 500;
         --header-line-height: 1.2rem;
         --header-text-rendering: optimizeLegibility;
-        --subtitle-size: 1.1rem;
-        --quote-size: 1rem;
+        --subtitle-size: 1.37rem;
+        --quote-size: 1.25rem;
+        --quote-line-height: 1.8rem;
         --quote-width: 550px;
         --media-width: 690px;
+        --table-size: 1.2rem;
+        --details-size: 1.15rem;
+        --footnote-size: 1rem;
         /* Colors, duh */
         --color-text: #3a1616;
         --color-header: #c31585;
@@ -156,7 +162,7 @@ sup.footnoteref a:active {
 #footnotes .footnote {
         padding: 0 0.375em 0 0.225em;
         line-height: 1.3334;
-        font-size: 0.875em;
+        font-size: var(--footnote-size);
         margin-left: 1.2em;
         margin-bottom: 0.2em;
 }
@@ -320,7 +326,7 @@ h6 small {
 }
 
 h1 {
-        font-size: 2.125em;
+        font-size: 2.7em;
 }
 
 h2 {
@@ -399,7 +405,7 @@ ul li ul {
         }
 
         h1 {
-                font-size: 3em;
+                font-size: 3.4em;
         }
 
         h2 {
@@ -480,7 +486,7 @@ pre {
 pre code,
 pre pre {
         color: inherit;
-        font-size: 0.95rem;
+        font-size: var(--code-size);
         line-height: inherit;
 }
 
@@ -547,6 +553,7 @@ p a > code:hover {
 }
 
 #header .details {
+        font-size: var(--details-size);
         border-bottom: 1px solid #dddddf;
         line-height: 1.45;
         padding-top: 0.25em;
@@ -859,7 +866,7 @@ td.content strong {
 
 td.content,
 span.alt {
-        font-size: 1.0625rem;
+        font-size: var(--table-size);
 }
 
 @page {
@@ -1011,6 +1018,7 @@ body {
 
 .quote {
         font-size: var(--quote-size);
+        line-height: var(--quote-line-height);
         max-width: var(--quote-width);
         display: block;
         margin-block-start: 1rem;
@@ -1060,8 +1068,8 @@ pre {
 /* ----------------------------- */
 
 ::selection {
-        color: white;
-        background: #eb96ed;
+        color: var(--color-white);
+        background: var(--color-selection);
 }
 
 /* --------------------- */
@@ -1071,11 +1079,11 @@ pre {
 /* --------------------- */
 
 h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
 }
 
 h3 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
 }
 
 .videoblock {
