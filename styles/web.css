@@ -301,7 +301,7 @@ h6 {
         font-family: var(--font-main);
         font-weight: var(--header-font-weight);
         font-style: normal;
-        color: var(--color-height);
+        color: var(--color-header);
         text-rendering: var(--header-text-rendering);
         margin-top: 1em;
         margin-bottom: 0.5em;
