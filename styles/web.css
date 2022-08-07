@@ -11,6 +11,40 @@
         font-style: normal;
 }
 
+:root {
+        --font-main: Lora, "Lora Serif", serif;
+        --font-code: "Fantasque Sans Mono", monospace;
+        --paragraph-size: 1.15rem;
+        --paragraph-width: 610px;
+        --paragraph-width-max: 100%;
+        --paragraph-line-height: 1.8rem;
+        --paragraph-font-weight: 500;
+        --paragraph-font-bold-weight: 700;
+        --paragraph-text-rendering: optimizeLegibility;
+        --code-size: 0.95rem;
+        --code-text-rendering: optimizeSpeed;
+        --code-line-height: 1.45rem;
+        --header-width: 760px;
+        --header-width-max: 100%;
+        --header-font-weight: 500;
+        --header-line-height: 1.2rem;
+        --header-text-rendering: optimizeLegibility;
+        --subtitle-size: 1.1rem;
+        --quote-size: 1rem;
+        --quote-width: 550px;
+        --media-width: 690px;
+        /* Colors, duh */
+        --color-text: #3a1616;
+        --color-header: #c31585;
+        --color-header-hover: #a53221;
+        --color-bg: #fffff4;
+        --color-white: #fff;
+        --color-selection: #eb96ed;
+        --color-link: #bc2abb;
+        --color-link-visited: #5e416d;
+        --color-subtitle: #7a2518;
+}
+
 article,
 details,
 header,
@@ -172,12 +206,10 @@ body {
 }
 
 body {
-        background: #fff;
-        color: rgba(0, 0, 0, 0.8);
         padding: 0;
         margin: 0;
-        font-family: "Lora", "Lora Serif", serif;
-        font-weight: 500;
+        font-family: var(--font-main);
+        font-weight: var(--paragraph-font-weight);
         font-style: normal;
         line-height: 1;
         position: relative;
@@ -226,7 +258,7 @@ select {
 .paragraph > .title,
 .ulist > .title {
         line-height: 1.45;
-        color: #7a2518;
+        color: var(--color-subtitle);
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 0.25em;
@@ -252,14 +284,8 @@ td {
 }
 
 a {
-        color: #2156a5;
         text-decoration: underline;
         line-height: inherit;
-}
-
-a:hover,
-a:focus {
-        color: #1d4b8f;
 }
 
 a img {
@@ -272,14 +298,14 @@ h3,
 h4,
 h5,
 h6 {
-        font-family: "Lora Sans", "Lora Sans", sans-serif;
-        font-weight: 300;
+    font-family: var(--font-main);
+        font-weight: var(--header-font-weight)
         font-style: normal;
-        color: #c31585;
-        text-rendering: optimizeLegibility;
+        color: var(--color-height)
+        text-rendering: var(--header-text-rendering)
         margin-top: 1em;
         margin-bottom: 0.5em;
-        line-height: 1.0125em;
+        line-height: var(--header-line-height)
 }
 
 h1 small,
@@ -339,7 +365,7 @@ small {
 }
 
 code {
-        font-family: "DejaVu Sans Mono", "Lora Sans Mono", monospace;
+    font-family: var(--font-code);
         font-weight: 400;
         color: rgba(0, 0, 0, 0.9);
 }
@@ -439,16 +465,16 @@ h6 strong {
         background: #f7f7f8;
         -webkit-border-radius: 4px;
         border-radius: 4px;
-        line-height: 1.45;
-        text-rendering: optimizeSpeed;
+        line-height: var(--code-line-height);
+        text-rendering: var(--code-text-rendering);
         word-wrap: break-word;
 }
 
 pre {
         color: rgba(0, 0, 0, 0.9);
-        font-family: "DejaVu Sans Mono", "Lora Sans Mono", monospace;
-        line-height: 1.45;
-        text-rendering: optimizeSpeed;
+        font-family: var(--font-code);
+        line-height: var(--code-line-height);
+        text-rendering: var(--code-text-rendering);
 }
 
 pre code,
@@ -597,7 +623,7 @@ h3 > a.link,
 h4 > a.link,
 h5 > a.link,
 h6 > a.link {
-        color: #c31585;
+        color: var(--color-header);
         text-decoration: none;
 }
 
@@ -607,7 +633,7 @@ h3 > a.link:hover,
 h4 > a.link:hover,
 h5 > a.link:hover,
 h6 > a.link:hover {
-        color: #a53221;
+        color: var(--color-header-hover);
 }
 
 details,
@@ -629,10 +655,10 @@ details > summary:first-of-type {
 .listingblock > .title,
 .paragraph > .title,
 .ulist > .title {
-        text-rendering: optimizeLegibility;
+        text-rendering: var(--paragraph-text-rendering);
         text-align: left;
-        font-family: "Lora", "Lora Serif", serif;
-        font-size: 1.1rem;
+        font-family: var(--font-main);
+        font-size: var(--subtitle-size);
         font-style: italic;
 }
 
@@ -654,7 +680,7 @@ details > summary:first-of-type {
 
 .admonitionblock > table td.icon .title {
         font-weight: bold;
-        font-family: "Lora Sans", "Lora Sans", sans-serif;
+        font-family: var(--font-main);
         text-transform: uppercase;
 }
 
@@ -814,7 +840,7 @@ a.video {
 }
 
 td.content {
-        text-rendering: optimizeLegibility;
+        text-rendering: var(--paragraph-text-rendering);
 }
 
 h1,
@@ -891,13 +917,13 @@ span.alt {
 /* --------------------------------------- */
 
 #header {
-        width: 760px;
-        max-width: 100%;
+        width: var(--header-width);
+        max-width: var(--header-width-max);
 }
 
 #content {
-        width: 610px;
-        max-width: 100%;
+        width: var(--paragraph-width);
+        max-width: var(--paragraph-width-max);
 }
 
 /* --------------------------------------------------- */
@@ -915,7 +941,7 @@ img {
 .imageblock {
         margin-left: auto;
         margin-right: auto;
-        width: 690px;
+        width: var(--media-width);
         right: 50px;
         position: relative;
         text-align: center;
@@ -937,24 +963,24 @@ img {
 
 a {
         cursor: pointer;
-        color: #bc2abb;
+        color: var(--color-link);
         line-height: inherit;
         transition: 0.14s;
 }
 
 a:hover {
         color: white;
-        background-color: #bc2abb;
+        background-color: var(--color-link);
 }
 
 a:visited {
-        color: #5e416d;
-        border-color: #5e416d;
+        color: var(--color-link-visited);
+        border-color: var(--color-link-visited);
 }
 
 a:visited:hover {
         color: white;
-        background-color: #5e416d;
+        background-color: var(--color-link-visited);
 }
 
 /* -------------------------------- */
@@ -964,9 +990,9 @@ a:visited:hover {
 /* -------------------------------- */
 
 body {
-        background: #fffff4;
-        color: #3a1616;
-        font-family: "Lora", serif;
+        background: var(--color-bg);
+        color: var(--color-text);
+        font-family: var(--font-main);
         /* Smooth the font a little bit, it's a
          bit too bold on retina screens */
         /* -webkit-font-smoothing: antialiased; */
@@ -974,18 +1000,18 @@ body {
 
 #content,
 .paragraph {
-        font-size: 1.15rem;
-        line-height: 1.8rem;
-        font-family: "Lora", serif;
-        font-weight: 500;
-        line-height: 1.6;
+        font-size: var(--paragaph-size);
+        line-height: var(--paragaph-line-height);
+        font-family: var(--font-main);
+        font-weight: var(--paragaph-font-weight);
+        line-height: var(--paragaph-line-height);
         margin-bottom: 1.25em;
-        text-rendering: optimizeLegibility;
+        text-rendering: var(--paragaph-text-rendering);
 }
 
 .quote {
-        font-size: 1rem;
-        max-width: 550px;
+        font-size: var(--quote-size);
+        max-width: var(--quote-width);
         display: block;
         margin-block-start: 1rem;
         margin-block-end: 1rem;
@@ -1011,8 +1037,8 @@ h2,
 h3,
 h4,
 h5 {
-        font-family: "Lora", serif;
-        font-weight: 500;
+        font-family: var(--font-main)
+        font-weight: var(--header-font-weight);
         letter-spacing: -0.005em;
 }
 
@@ -1024,7 +1050,7 @@ h5 {
 
 code,
 pre {
-        font-family: "Fantasque Sans Mono", monospace;
+        font-family: var(--font-code)
 }
 
 /* ----------------------------- */
@@ -1055,7 +1081,7 @@ h3 {
 .videoblock {
         position: relative;
         overflow: hidden;
-        width: 690px;
+        width: var(--media-width);
         padding-top: 390px; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
