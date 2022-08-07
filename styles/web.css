@@ -39,6 +39,7 @@
         --table-size: 1.2rem;
         --details-size: 1.15rem;
         --footnote-size: 1rem;
+        --math-size: 1.4rem;
         /* Colors, duh */
         --color-text: #3a1616;
         --color-header: #c31585;
@@ -100,6 +101,10 @@ pre {
 
 pre {
         white-space: pre;
+}
+
+.katex {
+        font-size: var(--math-size);
 }
 
 #header,
