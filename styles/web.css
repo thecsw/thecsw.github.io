@@ -468,7 +468,7 @@ h6 strong {
 }
 
 :not(pre):not([class^="L"]) > code {
-        font-size: 0.9em;
+        font-size: var(--code-size);
         font-style: normal !important;
         letter-spacing: 0;
         padding: 0.1em 0.5ex;
