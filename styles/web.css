@@ -298,14 +298,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-main);
-        font-weight: var(--header-font-weight)
+        font-family: var(--font-main);
+        font-weight: var(--header-font-weight);
         font-style: normal;
-        color: var(--color-height)
-        text-rendering: var(--header-text-rendering)
+        color: var(--color-height);
+        text-rendering: var(--header-text-rendering);
         margin-top: 1em;
         margin-bottom: 0.5em;
-        line-height: var(--header-line-height)
+        line-height: var(--header-line-height);
 }
 
 h1 small,
@@ -365,7 +365,7 @@ small {
 }
 
 code {
-    font-family: var(--font-code);
+        font-family: var(--font-code);
         font-weight: 400;
         color: rgba(0, 0, 0, 0.9);
 }
@@ -848,7 +848,7 @@ h2,
 p,
 td.content,
 span.alt {
-    /* letter-spacing: -0.014em; */
+        /* letter-spacing: -0.014em; */
         hyphens: auto;
 }
 
@@ -1000,13 +1000,13 @@ body {
 
 #content,
 .paragraph {
-        font-size: var(--paragaph-size);
-        line-height: var(--paragaph-line-height);
+        font-size: var(--paragraph-size);
+        line-height: var(--paragraph-line-height);
         font-family: var(--font-main);
-        font-weight: var(--paragaph-font-weight);
-        line-height: var(--paragaph-line-height);
+        font-weight: var(--paragraph-font-weight);
+        line-height: var(--paragraph-line-height);
         margin-bottom: 1.25em;
-        text-rendering: var(--paragaph-text-rendering);
+        text-rendering: var(--paragraph-text-rendering);
 }
 
 .quote {
@@ -1037,7 +1037,7 @@ h2,
 h3,
 h4,
 h5 {
-        font-family: var(--font-main)
+        font-family: var(--font-main);
         font-weight: var(--header-font-weight);
         letter-spacing: -0.005em;
 }
@@ -1050,7 +1050,7 @@ h5 {
 
 code,
 pre {
-        font-family: var(--font-code)
+        font-family: var(--font-code);
 }
 
 /* ----------------------------- */
