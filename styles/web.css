@@ -16,14 +16,14 @@
         /* --font-main: Lora, "Lora Serif", serif; */
         --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
-        --paragraph-size: 1.4rem;
+        --paragraph-size: 1.29rem;
         --paragraph-width: 610px;
         --paragraph-width-max: 100%;
         --paragraph-line-height: 2.4rem;
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
         --paragraph-text-rendering: optimizeLegibility;
-        --code-size: 1rem;
+        --code-size: .95rem;
         --code-text-rendering: optimizeSpeed;
         --code-line-height: 1.45rem;
         --header-width: 760px;
@@ -331,7 +331,7 @@ h6 small {
 }
 
 h1 {
-        font-size: 2.7em;
+        font-size: 2.6em;
 }
 
 h2 {
