@@ -23,7 +23,7 @@
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
         --paragraph-text-rendering: optimizeLegibility;
-        --code-size: 0.95rem;
+        --code-size: .95rem;
         --code-text-rendering: optimizeSpeed;
         --code-line-height: 1.45rem;
         --header-width: 760px;

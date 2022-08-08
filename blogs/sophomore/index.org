@@ -18,7 +18,7 @@ Just a note that only 18 honor credit hours are required throughout four years
 to graduate; I took all of them in one semester. My advisor and I called this a
 "suicide semester," as I decided to enroll in six honor courses. I haven't known
 anyone determined to do something similar. Probably for the better. I found The
-/Tao of Pooh/ in those overwhelming times, which gave me peace.
+Tao of Pooh in those overwhelming times, which gave me peace.
 
 *** Honors Physics II
 
@@ -145,12 +145,12 @@ never-ending list of back-of-the-book problems. Sometimes, textbooks can be
 beneficial.
 
 At least he would ask us how to name variables in his class proofs. Pro-tip,
-always go for the most obscure ones, like capital xi "Ξ" or capital lambda "Λ."
-It didn't stop at just symbols; it spread all the way to let us choose the
-colors of markers. I famously asked him to use the poop-colored one. That marker
-went flying straight into the nearest trash bin. Kinda wasteful of campus
-resources if you ask me. Circling back to the grade part -- it wasn't /great/. I
-walked into the final exam needing to score at least 99% to get an A in the
+always for the most obscure ones, like capital xi "Ξ" or capital lambda "Λ." It
+didn't stop at just symbols; it spread all the way to let us choose the colors
+of markers. I famously asked him to use the poop-colored one. That marker went
+flying straight into the nearest trash bin. Kinda wasteful of campus resources
+if you ask me. Circling back to the grade part -- it wasn't /great/. I walked into
+the final exam needing to score at least 99% to get an A in the
 class. Thankfully, I had an awkward date with a girl I was seeing at the time,
 so to take my mind off it, I occupied all my free time right before it with
 solving differential equations. I studied like never before.
@@ -163,6 +163,7 @@ Looking at it all later, Brad also had a lot on his plate. The math
 department dumped a whole class of too-clever-for-their-own-good honor students
 while he also had to take care of his newborn kid, henceforth, a family. You
 know you be real for that! Thank you, Brad.
+
 
 Extra content! I enjoyed the content; I have a whole article ([[https://sandyuraz.com/blogs/diffeq/][Differential
 equations 🔥]]) written on solving ODEs with what I learned from the class. It
@@ -189,7 +190,7 @@ It didn't help when every midterm (there were two or three?), a quarter of the
 remaining students would get popped out of existence. The moment I have
 ingrained in my memory is of me sitting at my desk at midnight. Quiet in my
 shoebox-sized (that's flattering) dorm, watching Sofia Coppola's /Marie
-Antoinette/, and almost in tears from doing an EECS 141 assignment I had no love
+Antoinette/, and almost in tears from doing an EECS 210 assignment I had no love
 for. But hey, we built something that resembles a bomb and would get you in a
 lot of trouble if you tried to smuggle it past TSA. (don't do it)
 
