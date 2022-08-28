@@ -16,10 +16,10 @@
         /* --font-main: Lora, "Lora Serif", serif; */
         --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
-        --paragraph-size: 1.29rem;
+        --paragraph-size: 1.25rem;
         --paragraph-width: 610px;
         --paragraph-width-max: 100%;
-        --paragraph-line-height: 2.4rem;
+        --paragraph-line-height: 3.2rem;
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
         --paragraph-text-rendering: optimizeLegibility;
@@ -1042,7 +1042,7 @@ body {
         font-style: normal !important;
         font-weight: 500 !important;
         line-height: 2rem !important;
-        margin: -0.35rem 0 0 !important;
+        margin: 0.05rem 0 0 !important;
 }
 
 h1,
