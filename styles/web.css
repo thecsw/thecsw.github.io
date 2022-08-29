@@ -980,17 +980,17 @@ a {
         transition: 0.14s;
 }
 
-a:hover {
+a:not(.image):hover {
         color: white;
         background-color: var(--color-link);
 }
 
-a:visited {
+a:not(.image):visited {
         color: var(--color-link-visited);
         border-color: var(--color-link-visited);
 }
 
-a:visited:hover {
+a:not(.image):visited:hover {
         color: white;
         background-color: var(--color-link-visited);
 }

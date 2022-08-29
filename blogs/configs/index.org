@@ -1,0 +1,103 @@
+* My tools and my colors 🍬
+
+240; 12022 H.E.
+
+I like having my computers and tools tailor-made to suit my tastes and wants. It
+makes me feel at home. When I see my favorite collection of colors, contrasts,
+and schemas, it feels right. It might not be the best approach for your
+productivity, as you would spend the first couple of hours to a couple of days
+fine-tuning whatever you have in front of you to your liking. Yet, I believe
+there is value in bending anything and everything to feel at home.
+
+In the past, I made a [[https://github.com/thecsw/config-files][config files]] repository, where I stored all my cool Linux
+dotfiles, [[https://sandyuraz.com/blogs/using_mutt/][mutt stuff]], custom shell scripts for [[http://acme.cat-v.org][acme]], and more... This is all in
+the past now. I was still in high school. Then, I made a [[https://github.com/thecsw/dotfiles][new repository]], which I
+conveniently named /dotfiles/ to replace /config-files/. *What a novel idea!* However,
+I quickly fall out of the habit of manually updating the configs or using
+special programs that take a list of target files and hard symlink before
+pushing updates. Why not write them out on a page on my website with pictures
+and all the cool stuff?
+
+** Terminal 
+
+*THiS iS ExcItINg*. First of all, I have to start with my colors and preferences
+for the terminal. I like darker backgrounds and brighter foregrounds. But not
+too bright. White on black is one sure way to strain your eyes with a one-way
+ticket. All the /cool hackers/ like the ``green-on-black,'' which I think looks
+incredibly tacky and hardly legible. Unless you convince yourself
+otherwise. Many developers I was never too fond of always used this matrix color
+scheme.
+
+I'm sorry, it doesn't make you look cool or feel like it. I know it because I
+have also had it as my terminal for years. It is something you need to grow out
+of. I like the /classy/ ``orange-on-black'' balance, which gives off nice [[https://youtu.be/Y6ljFaKRTrI][Portal -
+/Still Alive/]] vibes. Here are my preferred colors: =#ffd000= for foreground,
+=#000000= for background, =#a466a5= for selection, and =#f4f4f4= for selected text. As
+a sheltered macOS user, I use [[https://iterm2.com][iTerm2]]. In Todd Howard's fashion, ``It just
+works.''
+
+[[terminal.webp][I'm making a note here: HUGE SUCCESS.]] 
+
+Portal is a great game.  
+
+** Font 
+
+Oh, and yeah. Forgot about the fonts. I always use [[https://en.wikipedia.org/wiki/Monaco_(typeface)][Monaco]] for Sans-serif
+monospace fonts when coding and such. Unfortunately, Apple didn't think of
+including the bold variant with their default systems, so there is [[https://github.com/vjpr/monaco-bold][this patch]],
+which will get you the Monaco font with a bold-variant.
+
+** Emacs 
+
+Emacs is next. Oh, emacs. How long have we been together? I think it is around
+the fifth or sixth year now. The longest relationship I have had with any
+software. Emacs's been there through thick and thin. In my lonely nights as a
+college student, stressful afternoons at work, and lovely mornings of focus. We
+have shared a sacred bond -- a [[https://sandyuraz.com/blogs/emacs.sh/][mutual config file]] that we have already been
+maintaining for many years. Here is to our friendship, camaraderie, and fruitful
+partnership.
+
+With a preface like that, the way emacs feels and looks is meaningful to
+me. Very much so. Spending hours looking at a screen should bring you joy and
+the kind that lasts for years. For the looks, I primarily depend on the
+*fantastic* Andre Richter's [[https://github.com/andre-richter/emacs-lush-theme][emacs-lush-theme]], which in turn is inspired by [[http://jdhuntington.com/paste/color-theme-blackboard.el.html][JD
+Huntington's blackboard theme]]. I have some [[https://sandyuraz.com/.emacs.d/#org1019aa6][custom faces]] added in for LSP
+integrations and such. Of course, I cannot miss the fantastic work done by
+[[https://github.com/rougier/nano-emacs][nano-emacs]], who brings the elegance of modern UIs to emacs. I forked [[https://sandyuraz.com/.emacs.d/#orgd5b797e][my version]]
+of it a long time ago, which I've been happily using for years.
+
+[[emacs.webp][I showed you my source code, pls respond]] 
+
+#+begin_quote
+While any text editor can save your files, only Emacs can save your soul. -- The
+Wise One
+#+end_quote 
+
+** IntelliJ IDEA 
+
+IntelliJ is one of those things that I refuse to believe exist because it makes
+me concerned whether they are tapping directly into my brain when I'm writing
+some of that sweet Java. Phenomenal IDE with state-of-the-art [[https://blog.jetbrains.com/idea/2020/05/debugger-basics-in-intellij-idea/][debugger]], freaky
+[[https://www.jetbrains.com/help/idea/auto-completing-code.html][code completion]], and much more. I only found one fatal flaw with the software --
+it didn't have a theme I liked. They do have a plugin, which [[https://plugins.jetbrains.com/plugin/10804-the-doki-theme][puts an anime girl]]
+in the bottom right of the screen with accompanying color schemes. It's /kinda/
+cool.
+
+But that is not what I'm looking for. Creating themes for IntelliJ is [[https://plugins.jetbrains.com/docs/intellij/themes.html#completing-the-default-ui-theme-description-file][too
+hard]]. What I did instead is I found a theme I liked on its principles -- /Lotus
+Dark/ from [[https://plugins.jetbrains.com/plugin/14369-lotus-theme][Lotus Theme]]. Later, I adapted =lush-theme= from emacs using color
+schemes and called it [[https://github.com/thecsw/najimi-jetbrains][najimi-jetbrains]]. Now, I feel safe once again.
+
+[[intelliji.webp][I live for Najimi ❤️‍🔥]] 
+
+The color scheme is currently meant for Java codebases. I might add other
+languages if I feel like it one morning.
+
+** Other 
+
+I love pink, purple, and all the adjacent colors. So for my macOS colors, I use
+their stock purple, which nicely affects everything else in the
+system. Otherwise, I prefer darker themes with candy-like secondary colors to
+balance everything.
+
+All right, bye! 😘 
