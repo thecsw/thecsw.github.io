@@ -4,6 +4,7 @@ I can't fall asleep if I don't write. I wake up in the morning; I need to tell a
 story. Are my eyes too innocent to see the future we have been destined for? 
 
 ** Software
+- [[configs][My tools and my colors 🍬]]
 - [[darkness][I love Darkness 🥬]]
 - [[webp][WebP is such a goated format 🫐]]
 - [[pprof][Profiling should be friend ⛹️‍♀️]]
