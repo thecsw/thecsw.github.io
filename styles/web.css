@@ -16,10 +16,10 @@
         /* --font-main: Lora, "Lora Serif", serif; */
         --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
-        --paragraph-size: 1.25rem;
+        --paragraph-size: 1.3rem;
         --paragraph-width: 610px;
         --paragraph-width-max: 100%;
-        --paragraph-line-height: 3.2rem;
+        --paragraph-line-height: 2.3rem;
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
         --paragraph-text-rendering: optimizeLegibility;
@@ -32,14 +32,14 @@
         --header-line-height: 1.2rem;
         --header-text-rendering: optimizeLegibility;
         --subtitle-size: 1.37rem;
-        --quote-size: 1.25rem;
-        --quote-line-height: 1.8rem;
+        --quote-size: 1.2rem;
+        --quote-line-height: 1.6rem;
         --quote-width: 550px;
         --media-width: 690px;
         --table-size: 1.2rem;
         --details-size: 1.15rem;
         --footnote-size: 1rem;
-        --math-size: 1.4rem;
+        --math-size: 1.3rem;
         /* Colors, duh */
         --color-text: #3a1616;
         --color-header: #c31585;
