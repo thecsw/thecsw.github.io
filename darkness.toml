@@ -13,6 +13,8 @@ normalize_headings = false
 roman_footnotes = true
 footnote_brackets = false
 holoscene_dates = true
+syntax_highlighting = true
+syntax_highlighting_theme = "scripts/highlight/styles/sandy.min.css"
 
 [project]
 exclude = ["present"]
