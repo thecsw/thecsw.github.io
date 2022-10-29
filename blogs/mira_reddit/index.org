@@ -121,13 +121,14 @@ libraries differ.
   }
 #+end_src
 
-NOTE: mira is not *completely* concurrency safe! When you run =r.Comment(...)=
-or =r.Redditor(...)=, it adds those values to its internal queue and dequeues
+#+begin_details on concurrency
+mira is concurrency safe! When you run =r.Comment(...)= or =r.Redditor(...)=, it
+adds those values to its internal channel-based queue and dequeues 
 them when requested. If two threads or routines try to dequeue at the same time
-or expect something, then the data can get mingled up a bit. For example, there is a
-=r.ReplyWithID(commentID, text)= that makes an http request directly, without
-using the internal queue, which works fine. It's a quick workaround that
-works. If you have more suggestions, I'm happy to wait for your PR!
+or expect something, then the data can get mingled up a bit. Only call methods
+in a FIFO (First-In-First-Out) style. If comment was the first to be added, then
+a comment-related function must consume it.
+#+end_details
 
 Similar API is available for other Reddit entities and objects. For example,
 mira currently supports:
