@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="It doesn’t feel right anymore. Every time I write something for my website, I feel that I have to dance to the tune of pandoc and =asci...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>I love Darkness 🥬</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -221,7 +223,7 @@ Darkness is also lightning fast! With the old pipeline, it would take around 8-1
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">sandyuraz:source* λ darkness build
+<pre class="highlight"><code class="language-bash" data-lang="bash">sandyuraz:source* λ darkness build
 Looking for files... found 83 in 23 ms
 Building and flushing... done in 65 ms
 farewell</code></pre>
@@ -239,7 +241,7 @@ Want to try out darkness but don’t know org-mode? You are at the very start of
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">go install -v github.com/thecsw/darkness@latest</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">go install -v github.com/thecsw/darkness@latest</code></pre>
 </div>
 </div>
 
@@ -250,7 +252,7 @@ Next, go to the place, where you would like to house your next website. Call her
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">darkness new ishmael</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">darkness new ishmael</code></pre>
 </div>
 </div>
 

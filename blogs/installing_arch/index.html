@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="May 2nd, 2019...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>Installing glorious arch linux ☄️</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -92,7 +94,7 @@ Open the <a href="https://www.archlinux.org/">Arch Linux Official Website</a> an
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% sudo dd if=/path/to/image.iso of=/dev/your_drive</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% sudo dd if=/path/to/image.iso of=/dev/your_drive</code></pre>
 </div>
 </div>
 
@@ -146,7 +148,7 @@ Just plug in your flash drive and power on/reboot your device. + Now, you will s
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% root@archios</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% root@archios</code></pre>
 </div>
 </div>
 
@@ -164,7 +166,7 @@ If you see a bunch of files when running the command below, then everything is [
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% ls /sys/firmware/efi/efivars</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% ls /sys/firmware/efi/efivars</code></pre>
 </div>
 </div>
 
@@ -191,7 +193,7 @@ Okay, now we need to partition our hard/state drive. How do we do that? Actually
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% fdisk -l</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% fdisk -l</code></pre>
 </div>
 </div>
 
@@ -202,7 +204,7 @@ You will see a list of available storages. Ignore everything that ends with: boo
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% cfdisk -z /dev/sda</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cfdisk -z /dev/sda</code></pre>
 </div>
 </div>
 
@@ -227,7 +229,7 @@ We need to format partitions appropriately and accordignly. Your EFI System shou
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% mkfs.fat -F32 /dev/sda1</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.fat -F32 /dev/sda1</code></pre>
 </div>
 </div>
 
@@ -238,7 +240,7 @@ Your swap partition should be formatted as swap memory (obviously)
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% mkswap /dev/sda2
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkswap /dev/sda2
 % swapon /dev/sda2</code></pre>
 </div>
 </div>
@@ -250,7 +252,7 @@ Your main directory should be formatted as ext4, so to use all your files furthe
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% mkfs.ext4 /dev/sda3</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.ext4 /dev/sda3</code></pre>
 </div>
 </div>
 
@@ -270,7 +272,7 @@ Now, we should mount our partitions. Firstly, we should mount our root partition
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% mount /dev/sda3 /mnt</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mount /dev/sda3 /mnt</code></pre>
 </div>
 </div>
 
@@ -281,7 +283,7 @@ Then, we should mount the EFI System, so the system would know where is the boot
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% mkdir /mnt/boot
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkdir /mnt/boot
 % mount /dev/sda1 /mnt/boot</code></pre>
 </div>
 </div>
@@ -302,7 +304,7 @@ This part is quite easy. However, when I was installing my system, I had a probl
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 % sed -i &#39;s/^#Server/Server/&#39; /etc/pacman.d/mirrorlist.backup
 % rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code></pre>
 </div>
@@ -324,7 +326,7 @@ Now we will install the base system. Here, we will intall base and base-devel pa
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% pacstrap /mnt base base-devel</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% pacstrap /mnt base base-devel</code></pre>
 </div>
 </div>
 </div>
@@ -339,7 +341,7 @@ Now, the system is installed on the device and we need to tell our OS and Bootlo
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
 </div>
 </div>
 
@@ -371,7 +373,7 @@ Log in to the newly installed system with
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% arch-chroot /mnt</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% arch-chroot /mnt</code></pre>
 </div>
 </div>
 
@@ -397,7 +399,7 @@ We need to set your local time. Find your timezone in <code>/usr/share/zonenifo<
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+<pre class="highlight"><code class="language-bash" data-lang="bash">% ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 % hwclock --systohc</code></pre>
 </div>
 </div>
@@ -538,7 +540,7 @@ Assuming you have an intel chipset, run the following
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% pacman -S intel-ucode
+<pre class="highlight"><code class="language-bash" data-lang="bash">% pacman -S intel-ucode
 % bootctl --path=/boot install</code></pre>
 </div>
 </div>
@@ -550,7 +552,7 @@ Use <code>vi</code> or <code>nano</code> text editor to write down the following
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">/boot/loader/loader.conf
+<pre class="highlight"><code class="language-bash" data-lang="bash">/boot/loader/loader.conf
 ------------------------
 default Arch(arch)
 timeout 4
@@ -565,7 +567,7 @@ And for the second file:
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">/boot/loader/entries/entry.conf
+<pre class="highlight"><code class="language-bash" data-lang="bash">/boot/loader/entries/entry.conf
 -------------------------------
 title Arch Linux
 linux /vmlinuz-linux
@@ -596,7 +598,7 @@ When you turn your machine back on, you should see some text popping out on the 
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">Arch Linux (tty1)
+<pre class="highlight"><code class="language-bash" data-lang="bash">Arch Linux (tty1)
 _myhostname_ login:</code></pre>
 </div>
 </div>

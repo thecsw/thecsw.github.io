@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: LaTeX, =grof...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>Building this website (Legacy) 🌐</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -89,7 +91,7 @@ Below is a good flow graph of files and operations. Just to solidify the structu
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-" data-lang="">          ───────────────
+<pre class="highlight"><code class="language-plaintext" data-lang="plaintext">          ───────────────
       ───/               \───
      /                       \
     (   Commit push triggers  )

@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="March 26th, 2020...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>Talk to Reddit with Go ⛳</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -80,7 +82,7 @@ mira can be installed like any other go package, just run
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">go get -u github.com/thecsw/mira</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">go get -u github.com/thecsw/mira</code></pre>
 </div>
 </div>
 </div>
@@ -106,7 +108,36 @@ For authentication, take a look at mira’s readme, we will get to the cream of 
 <p>
 You can post submissions and submit/reply/edit/delete comments. You can also grab N number of submissions from any subreddit, paginate through them, and other exciting stuff! Below is some basic functionality example.
 </p>
-</div><script src="https://gist.github.com/thecsw/c8bd97b96c892734eca1f945a049b834.js"></script>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">package main
+
+import (
+    &#34;fmt&#34;
+
+    &#34;github.com/thecsw/mira&#34;
+)
+
+// Error checking is omitted for brevity
+func main() {
+    // Start mira
+    r, err := mira.Init(mira.ReadCredsFromFile(&#34;login.conf&#34;))
+    // Make a submission
+    post, err := r.Subreddit(&#34;mysubreddit&#34;).Submit(&#34;mytitle&#34;, &#34;mytext&#34;)
+    // Comment on our new submission
+    comment, err := r.Submission(post.GetId()).Save(&#34;mycomment&#34;)
+    // Reply to our own comment
+    reply, err := r.Comment(comment.GetId()).Reply(&#34;myreply&#34;)
+    // Delete the reply
+    r.Comment(reply.GetId()).Delete()
+    // Edit the first comment
+    newComment, err := r.Comment(comment.GetId()).Edit(&#34;myedit&#34;)
+    // Show the comment&#39;s body
+    fmt.Println(newComment.GetBody())
+}</code></pre>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -121,7 +152,43 @@ Streaming Reddit data is probably the most exciting part of using mira and usual
 <p>
 Let’s take a quick example of how we can build a reminder bot from <a href="https://turnage.gitbooks.io/graw/content/graw.html">graw guide</a>. This code is originally from the graw guide, the only diffence is that it’s written to use mira instead of graw. Example done to show how those two libraries differ.
 </p>
-</div><script src="https://gist.github.com/thecsw/e2e3d2b558f943fb3f5047ed4979282d.js"></script>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">package main
+
+import (
+    &#34;strings&#34;
+    &#34;time&#34;
+    &#34;github.com/thecsw/mira&#34;
+)
+
+func main() {
+    r, err := mira.Init(mira.ReadCredsFromFile(&#34;login.conf&#34;))
+    if err != nil {
+        panic(err)
+    }
+    c, err := r.Subreddit(&#34;bottesting&#34;).StreamSubmissions()
+    if err != nil {
+        panic(err)
+    }
+    for {
+        post := &lt;-c
+        if !strings.Contains(post.GetBody(), &#34;remind me of this bot&#34;) {
+            continue
+        }
+        go func() {
+            &lt;-time.After(10 * time.Second)
+            err = r.Redditor(post.GetAuthor()).Compose(
+                fmt.Sprintf(&#34;Reminder: %s&#34;, post.GetTitle()),
+                &#34;You&#39;ve been reminded!&#34;,
+            )
+            // check the error if you wish
+        }()
+    }
+}</code></pre>
+</div>
+</div>
 
 <div class="admonitionblock note">
 <table>
@@ -212,7 +279,27 @@ you can lookup <code>checkType(...)</code> in mira’s readme
 </td>
 </tr>
 </table>
-</div><script src="https://gist.github.com/thecsw/25ff8b8e247b33b3cf023740ee5083bf.js"></script>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
+    ret := &amp;models.CommentWrap{}
+    // Second return is type, which is &#34;comment&#34;
+    name, _, err := c.checkType(&#34;comment&#34;)
+    if err != nil {
+        return *ret, err
+    }
+    target := RedditOauth + &#34;/api/comment&#34;
+    ans, err := c.MiraRequest(&#34;POST&#34;, target, map[string]string{
+        &#34;text&#34;:     text,
+        &#34;thing_id&#34;: name,
+        &#34;api_type&#34;: &#34;json&#34;,
+    })
+    json.Unmarshal(ans, ret)
+    return *ret, err
+}</code></pre>
+</div>
+</div>
 
 </div>
 </div>

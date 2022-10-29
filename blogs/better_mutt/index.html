@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="November 27th, 2019...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>Faster, better, stronger 🐩</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -74,7 +76,7 @@ With release <a href="https://github.com/neomutt/neomutt/tree/20191102">20191102
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-" data-lang="">set folder=&#34;~/.mail/kumail&#34;
+<pre class="highlight"><code class="language-plaintext" data-lang="plaintext">set folder=&#34;~/.mail/kumail&#34;
 set spoolfile = +&#39;INBOX&#39;
 
 set trash = +&#39;Deleted Items&#39;
@@ -96,7 +98,7 @@ After launching neomutt, it gives me nice custom sidebar with a dope delimeter
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-" data-lang=""> ―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
+<pre class="highlight"><code class="language-plaintext" data-lang="plaintext"> ―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
 ↓ Inbox [32]       3568│ 2 |   [11-27-19 09:07:01] Bill      All rights reserved.
 ↑ Sent              797│ 3 |   [11-27-19 06:07:02] Lao Tse   Difficult Paths
 ∇ Trash             359│ 4 |   [11-27-19 06:59:18] Mando     This is the way
@@ -122,7 +124,7 @@ I have been looking around how to do threads and I finally found out how. Usuall
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-" data-lang="">set sort = &#39;reverse-threads&#39;
+<pre class="highlight"><code class="language-plaintext" data-lang="plaintext">set sort = &#39;reverse-threads&#39;
 set sort_aux = &#39;last-date-received&#39;</code></pre>
 </div>
 </div>
@@ -147,7 +149,7 @@ For ease of use, you can add the following line to bind your `c` key to collapse
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-" data-lang="">macro index c &lt;collapse-thread&gt; &#34;collapse-thread&#34;</code></pre>
+<pre class="highlight"><code class="language-plaintext" data-lang="plaintext">macro index c &lt;collapse-thread&gt; &#34;collapse-thread&#34;</code></pre>
 </div>
 </div>
 
