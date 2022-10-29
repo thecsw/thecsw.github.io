@@ -15,7 +15,7 @@ in your `.mail` directory, change the language, or make delimeters. For example,
 here is an excerpt from one of my neomutt accounts that is tied to my KU mail
 account
 
-#+BEGIN_SRC
+#+begin_src
 set folder="~/.mail/kumail"
 set spoolfile = +'INBOX'
 
@@ -28,18 +28,18 @@ named-mailboxes "↑ Sent" ='Sent Items'
 named-mailboxes "∇ Trash" ='Deleted Items'
 named-mailboxes "∗ Junk" ='Junk Email'
 named-mailboxes "∃ Drafts" ='Drafts'
-#+END_SRC
+#+end_src
 
 After launching neomutt, it gives me nice custom sidebar with a dope delimeter
 
-#+BEGIN_SRC
- ―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
-↓ Inbox [32]       3568│ 2 |   [11-27-19 09:07:01] Bill      All rights reserved.
-↑ Sent              797│ 3 |   [11-27-19 06:07:02] Lao Tse   Difficult Paths
-∇ Trash             359│ 4 |   [11-27-19 06:59:18] Mando     This is the way
-∗ Junk                4│ 5 |   [11-26-19 22:59:02] BlondiXXX How much does she love you?
-∃ Drafts               │ 6 |   ...
-#+END_SRC
+#+begin_src
+―――――― ♠ KU ――――――   │ 1 |   [11-27-19 12:03:35] Mom       Did you buy eggs?
+↓ Inbox [32]      3568│ 2 |   [11-27-19 09:07:01] Bill      All rights reserved.
+↑ Sent             797│ 3 |   [11-27-19 06:07:02] Lao Tse   Difficult Paths
+∇ Trash            359│ 4 |   [11-27-19 06:59:18] Mando     This is the way
+∗ Junk               4│ 5 |   [11-26-19 22:59:02] BlondiXXX How much does she love you?
+∃ Drafts              │ 6 |   ...
+#+end_src
 
 `named-mailboxes` also work with multiple accounts. You can use some garbage
 mailboxes (looking at you, Journal) as delimeters. 
