@@ -190,10 +190,11 @@ func main() {
 </div>
 </div>
 <details>
-<summary>open for details</summary>
+<summary>on concurrency</summary>
+<hr>
 <div class="paragraph">
 <p>
-on concurrency mira is concurrency safe! When you run <code>r.Comment(...)</code> or <code>r.Redditor(...)</code>, it adds those values to its internal channel-based queue and dequeues them when requested. If two threads or routines try to dequeue at the same time or expect something, then the data can get mingled up a bit. Only call methods in a FIFO (First-In-First-Out) style. If comment was the first to be added, then a comment-related function must consume it.
+mira is concurrency safe! When you run <code>r.Comment(...)</code> or <code>r.Redditor(...)</code>, it adds those values to its internal channel-based queue and dequeues them when requested. If two threads or routines try to dequeue at the same time or expect something, then the data can get mingled up a bit. Only call methods in a FIFO (First-In-First-Out) style. If comment was the first to be added, then a comment-related function must consume it.
 </p>
 </div></details>
 <div class="paragraph">
