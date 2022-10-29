@@ -96,6 +96,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 
 #+begin_src
  ┌────────────────────────────────────┐
+ │   Wait For Me Yesterday in Spring  │
+ │────────────────────────────────────┤
  │  Komi Can't Communicate, Volume 20 │
  ├────────────────────────────────────┤
  │  Komi Can't Communicate, Volume 19 │
