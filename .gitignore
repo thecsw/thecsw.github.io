@@ -1,10 +1,16 @@
 # Ignore my emacs backup directory
 .saves
+# astrie's executables
 .astrie
 astrie
+# legacy
 temp.sed
+# mac os folder metadata
 .DS_Store
+# emacs' latex processor
 ltximg
+# ???
+.log
 
 # Ignore profiling files
 cpu.pprof

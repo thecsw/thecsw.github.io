@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="April 11th, 2020...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>Encrypting your drive with LUKS 🗝</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -109,7 +111,7 @@ Let <code>/dev/sdb</code> be your USB drive. Be careful, we don’t want to acci
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code></pre>
 </div>
 </div>
 
@@ -120,7 +122,7 @@ Now, let’s open the drive with LUKS and write a filesystem to it. Enter your n
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% cryptsetup open /dev/sdb sdb</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup open /dev/sdb sdb</code></pre>
 </div>
 </div>
 
@@ -131,7 +133,7 @@ Now we got access to the drive, let’s write your favorite filesystem, I’ll g
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% mkfs.ext4 /dev/mapper/sdb</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.ext4 /dev/mapper/sdb</code></pre>
 </div>
 </div>
 </div>
@@ -146,7 +148,7 @@ Let’s write something to the drive. <code>/mnt/flash</code> is some mounting t
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% mount /dev/mapper/sdb /mnt/flash</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% mount /dev/mapper/sdb /mnt/flash</code></pre>
 </div>
 </div>
 
@@ -157,7 +159,7 @@ That’s it, you have access now
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% cd /mnt/flash
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cd /mnt/flash
 % touch man
 % echo cat &gt; fish</code></pre>
 </div>
@@ -170,7 +172,7 @@ After we’re done, do the usual thing by unmounting it
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% umount /mnt/flash</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% umount /mnt/flash</code></pre>
 </div>
 </div>
 </div>
@@ -185,7 +187,7 @@ Don’t forget we have to close the LUKS drive and dump the encryption details
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% cryptsetup close sdb</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup close sdb</code></pre>
 </div>
 </div>
 </div>

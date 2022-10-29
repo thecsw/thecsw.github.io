@@ -39,9 +39,37 @@ You can post submissions and submit/reply/edit/delete comments. You can also
 grab N number of submissions from any subreddit, paginate through them, and
 other exciting stuff! Below is some basic functionality example.
 
-#+begin_export html
-<script src="https://gist.github.com/thecsw/c8bd97b96c892734eca1f945a049b834.js"></script>
-#+end_export
+# #+begin_export html
+# <script src="https://gist.github.com/thecsw/c8bd97b96c892734eca1f945a049b834.js"></script>
+# #+end_export
+
+#+begin_src go
+  package main
+
+  import (
+      "fmt"
+
+      "github.com/thecsw/mira"
+  )
+
+  // Error checking is omitted for brevity
+  func main() {
+      // Start mira
+      r, err := mira.Init(mira.ReadCredsFromFile("login.conf"))
+      // Make a submission
+      post, err := r.Subreddit("mysubreddit").Submit("mytitle", "mytext")
+      // Comment on our new submission
+      comment, err := r.Submission(post.GetId()).Save("mycomment")
+      // Reply to our own comment
+      reply, err := r.Comment(comment.GetId()).Reply("myreply")
+      // Delete the reply
+      r.Comment(reply.GetId()).Delete()
+      // Edit the first comment
+      newComment, err := r.Comment(comment.GetId()).Edit("myedit")
+      // Show the comment's body
+      fmt.Println(newComment.GetBody())
+  }
+#+end_src
 
 ** Streaming
 Streaming Reddit data is probably the most exciting part of using mira and
@@ -54,9 +82,44 @@ This code is originally from the graw guide, the only diffence is that it's
 written to use mira instead of graw. Example done to show how those two
 libraries differ.
 
-#+begin_export html
-<script src="https://gist.github.com/thecsw/e2e3d2b558f943fb3f5047ed4979282d.js"></script>
-#+end_export
+# #+begin_export html
+# <script src="https://gist.github.com/thecsw/e2e3d2b558f943fb3f5047ed4979282d.js"></script>
+# #+end_export
+
+#+begin_src go
+  package main
+
+  import (
+      "strings"
+      "time"
+      "github.com/thecsw/mira"
+  )
+
+  func main() {
+      r, err := mira.Init(mira.ReadCredsFromFile("login.conf"))
+      if err != nil {
+          panic(err)
+      }
+      c, err := r.Subreddit("bottesting").StreamSubmissions()
+      if err != nil {
+          panic(err)
+      }
+      for {
+          post := <-c
+          if !strings.Contains(post.GetBody(), "remind me of this bot") {
+              continue
+          }
+          go func() {
+              <-time.After(10 * time.Second)
+              err = r.Redditor(post.GetAuthor()).Compose(
+                  fmt.Sprintf("Reminder: %s", post.GetTitle()),
+                  "You've been reminded!",
+              )
+              // check the error if you wish
+          }()
+      }
+  }
+#+end_src
 
 NOTE: mira is not *completely* concurrency safe! When you run =r.Comment(...)=
 or =r.Redditor(...)=, it adds those values to its internal queue and dequeues
@@ -87,6 +150,25 @@ Here is an example of how =r.Comment(...).Reply(subject, text)= is implemented:
 
 NOTE: you can lookup =checkType(...)= in mira's readme
 
-#+begin_export html
-<script src="https://gist.github.com/thecsw/25ff8b8e247b33b3cf023740ee5083bf.js"></script>
-#+end_export
+# #+begin_export html
+# <script src="https://gist.github.com/thecsw/25ff8b8e247b33b3cf023740ee5083bf.js"></script>
+# #+end_export
+
+#+begin_src go
+  func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
+      ret := &models.CommentWrap{}
+      // Second return is type, which is "comment"
+      name, _, err := c.checkType("comment")
+      if err != nil {
+          return *ret, err
+      }
+      target := RedditOauth + "/api/comment"
+      ans, err := c.MiraRequest("POST", target, map[string]string{
+          "text":     text,
+          "thing_id": name,
+          "api_type": "json",
+      })
+      json.Unmarshal(ans, ret)
+      return *ret, err
+  }
+#+end_src

@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="May 13th, 2019...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>Bring joy back to email with Mutt 🐕</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -224,7 +226,7 @@ If you do not have it installed, you can run <code>% sudo pacman -S offlineimap<
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% pip install --user offlineimap</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% pip install --user offlineimap</code></pre>
 </div>
 </div>
 
@@ -244,7 +246,7 @@ That should get you a fresh copy of <code>offlineimap</code>.
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-" data-lang="">~/.offlineimaprc
+<pre class="highlight"><code class="language-plaintext" data-lang="plaintext">~/.offlineimaprc
 ----------------
 [general]
 metadata = ~/.offlineimap
@@ -292,7 +294,7 @@ Just run the command below to synchronize your email server and your local mailb
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% offlineimap</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% offlineimap</code></pre>
 </div>
 </div>
 
@@ -325,7 +327,7 @@ Installation of <code>NeoMutt</code> is super straight forward. Just pick your f
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% sudo pacman -S neomutt</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% sudo pacman -S neomutt</code></pre>
 </div>
 </div>
 
@@ -353,7 +355,7 @@ Just to get you started, the drill is the same as the last time, but now it woul
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-" data-lang=""># This should go to ~/.muttrc
+<pre class="highlight"><code class="language-plaintext" data-lang="plaintext"># This should go to ~/.muttrc
 # Set up all the folders
 set folder=&#34;~/.mail/mymail&#34;
 mailboxes = +INBOX
@@ -452,7 +454,7 @@ The following command will get you through everything
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% gpg --gen-key</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% gpg --gen-key</code></pre>
 </div>
 </div>
 
@@ -522,7 +524,7 @@ Make your signature in the <code>~/.mutt/mysig.sig</code>, for example
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-" data-lang="">~/.mutt/mysig.sig
+<pre class="highlight"><code class="language-plaintext" data-lang="plaintext">~/.mutt/mysig.sig
 -----------------
 Jack Bauer
 

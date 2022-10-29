@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="If you write a program with everything you&amp;#39;ve got, you will never be able to debug or maintain it, as the latter takes 10x amount of time...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>Profiling should be friend ⛹️‍♀️</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -100,7 +102,7 @@ You’ll have a new file in your current directory named <code>cpu.pprof</code>.
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">go tool pprof -http=:8080 cpu.pprof</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">go tool pprof -http=:8080 cpu.pprof</code></pre>
 </div>
 </div>
 

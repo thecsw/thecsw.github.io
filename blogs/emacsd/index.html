@@ -32,10 +32,12 @@
 <meta name="twitter:description" property="twitter:description" content="May 8th, 2020...">
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <title>Setting up an emacs server 😈</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 
 <div id="header">
@@ -70,7 +72,7 @@ Starting the emacs daeman cannot be even simpler, just type this in your favorit
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% emacs --daemon</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% emacs --daemon</code></pre>
 </div>
 </div>
 
@@ -90,7 +92,7 @@ Now to access and open your emacs daemon, just type in
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% emacsclient -nw</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% emacsclient -nw</code></pre>
 </div>
 </div>
 
@@ -110,7 +112,7 @@ Who doesn’t want to slaughter a daemon in cold blood? That’s a rhetorical qu
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">% emacsclient -e &#34;(kill-emacs)&#34;</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">% emacsclient -e &#34;(kill-emacs)&#34;</code></pre>
 </div>
 </div>
 </div>
