@@ -1,4 +1,4 @@
-* The strange sophomore year 🥴
+* My strange sophomore year, vol.1 🥴
 
 If you have ever heard of COVID, you probably remember it happened sometime in
 2020, well, March 2020, to be exact. Coincidentally, it happened in the middle
@@ -196,3 +196,5 @@ lot of trouble if you tried to smuggle it past TSA. (don't do it)
 [[circuit.webp][Don't travel with this]]
 
 This was my introduction to circuits, digital logic, and all alike. Fun.
+
+*Second Volume coming!* 😭
