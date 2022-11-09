@@ -36,6 +36,7 @@
         --quote-line-height: 1.6rem;
         --quote-width: 550px;
         --media-width: 690px;
+        --gallery-width: 98%;
         --table-size: 1.2rem;
         --details-size: 1.15rem;
         --footnote-size: 1rem;
@@ -108,8 +109,8 @@ pre {
         font-size: var(--math-size);
 }
 
-#header,
-#content,
+.header,
+.writing,
 #footnotes,
 #footer {
         width: 100%;
@@ -117,16 +118,16 @@ pre {
         margin-right: auto;
         margin-top: 0;
         margin-bottom: 0;
-        max-width: 62.5em;
-        *zoom: 1;
+        max-width: 62.5rem;
+        zoom: 1;
         position: relative;
-        padding-left: 0.9375em;
-        padding-right: 0.9375em;
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
 }
-#header::before,
-#header::after,
-#content::before,
-#content::after,
+.header::before,
+.header::after,
+.writing::before,
+.writing::after,
 #footnotes::before,
 #footnotes::after,
 #footer::before,
@@ -134,8 +135,8 @@ pre {
         content: " ";
         display: table;
 }
-#header::after,
-#content::after,
+.header::after,
+.writing::after,
 #footnotes::after,
 #footer::after {
         clear: both;
@@ -180,7 +181,7 @@ sup.footnoteref a:active {
 #footnotes .footnote:last-of-type {
         margin-bottom: 0;
 }
-#content #footnotes {
+.writing #footnotes {
         margin-top: -0.625em;
         margin-bottom: 0;
         padding: 0.75em 0;
@@ -190,7 +191,7 @@ small {
         font-size: 80%;
 }
 
-img {
+.image {
         border: 0;
 }
 
@@ -237,12 +238,12 @@ a:hover {
         cursor: pointer;
 }
 
-img {
+.image {
         max-width: 100%;
         height: auto;
 }
 
-img {
+.image {
         -ms-interpolation-mode: bicubic;
 }
 
@@ -254,7 +255,7 @@ img {
         text-align: right !important;
 }
 
-img {
+.image {
         display: inline-block;
         vertical-align: middle;
 }
@@ -300,7 +301,7 @@ a {
         line-height: inherit;
 }
 
-a img {
+a .image {
         border: 0;
 }
 
@@ -512,53 +513,53 @@ p a > code:hover {
         color: rgba(0, 0, 0, 0.9);
 }
 
-#header,
-#content {
+.header,
+.writing {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 0;
         margin-bottom: 0;
         max-width: 62.5em;
-        *zoom: 1;
+        zoom: 1;
         position: relative;
         padding-left: 0.9375em;
         padding-right: 0.9375em;
 }
 
-#header::before,
-#header::after,
-#content::before,
-#content::after {
+.header::before,
+.header::after,
+.writing::before,
+.writing::after {
         content: " ";
         display: table;
 }
 
-#header::after,
-#content::after {
+.header::after,
+.writing::after {
         clear: both;
 }
 
-#content {
+.writing {
         margin-top: 1.25em;
 }
 
-#content::before {
+.writing::before {
         content: none;
 }
 
-#header > h1:first-child {
+.header > h1:first-child {
         color: rgba(0, 0, 0, 0.85);
         margin-top: 2.25rem;
         margin-bottom: 0;
 }
 
-#header > h1:only-child {
+.header > h1:only-child {
         border-bottom: 1px solid #dddddf;
         padding-bottom: 8px;
 }
 
-#header .details {
+.header .details {
         font-size: var(--details-size);
         border-bottom: 1px solid #dddddf;
         line-height: 1.45;
@@ -574,28 +575,28 @@ p a > code:hover {
         flex-flow: row wrap;
 }
 
-#header .details span:first-child {
+.header .details span:first-child {
         margin-left: -0.125em;
 }
 
-#header .details span.email a {
+.header .details span.email a {
         color: rgba(0, 0, 0, 0.85);
 }
 
-#header .details br {
+.header .details br {
         display: none;
 }
 
-#header .details br + span::before {
+.header .details br + span::before {
         content: "\00a0\2013\00a0";
 }
 
-#header .details br + span.author::before {
+.header .details br + span.author::before {
         content: "\00a0\22c5\00a0";
         color: rgba(0, 0, 0, 0.85);
 }
 
-#content > h1:first-child:not([class]) {
+.writing > h1:first-child:not([class]) {
         color: rgba(0, 0, 0, 0.85);
         border-bottom: 1px solid #dddddf;
         padding-bottom: 8px;
@@ -604,7 +605,7 @@ p a > code:hover {
         margin-bottom: 1.25rem;
 }
 
-#content {
+.writing {
         margin-bottom: 0.625em;
 }
 
@@ -613,7 +614,7 @@ p a > code:hover {
 }
 
 @media screen and (min-width: 768px) {
-        #content {
+        .writing {
                 margin-bottom: 1.25em;
         }
 
@@ -630,7 +631,7 @@ p a > code:hover {
         border-top: 1px solid #e7e7e9;
 }
 
-#content h1 > a.link,
+.writing h1 > a.link,
 h2 > a.link,
 h3 > a.link,
 h4 > a.link,
@@ -640,7 +641,7 @@ h6 > a.link {
         text-decoration: none;
 }
 
-#content h1 > a.link:hover,
+.writing h1 > a.link:hover,
 h2 > a.link:hover,
 h3 > a.link:hover,
 h4 > a.link:hover,
@@ -651,7 +652,8 @@ h6 > a.link:hover {
 
 details,
 .imageblock,
-.listingblock {
+.listingblock,
+.mediablock {
         margin-bottom: 1.25em;
 }
 
@@ -687,7 +689,7 @@ details > summary:first-of-type {
         width: 80px;
 }
 
-.admonitionblock > table td.icon img {
+.admonitionblock > table td.icon .image {
         max-width: none;
 }
 
@@ -732,7 +734,7 @@ details > summary:first-of-type {
 .listingblock > .content > pre:not(.highlight),
 .listingblock > .content > pre[class="highlight"],
 .listingblock > .content > pre[class^="highlight "] {
-    background: var(--code-bg);
+        background: var(--code-bg);
 }
 
 .listingblock > .content {
@@ -774,7 +776,8 @@ ul dd,
 }
 
 .videoblock.right,
-.imageblock.right {
+.imageblock.right,
+.mediablock.right {
         margin: 0.25em 0 1.25em 0.625em;
 }
 
@@ -902,7 +905,7 @@ span.alt {
 
         pre,
         tr,
-        img {
+        .image {
                 page-break-inside: avoid;
         }
 
@@ -929,33 +932,35 @@ span.alt {
 
 /* --------------------------------------- */
 
-#header {
+.header {
         width: var(--header-width);
         max-width: var(--header-width-max);
 }
 
-#content {
+.writing {
         width: var(--paragraph-width);
         max-width: var(--paragraph-width-max);
 }
 
 /* --------------------------------------------------- */
-
 /* I like rounded pictures, maybe will get rid of them */
-
 /* --------------------------------------------------- */
 
-img {
+/* hr { */
+/*     max-width: var(--paragraph-width); */
+/* } */
+
+.image {
         max-width: 100%;
         border-radius: 10px;
 }
 
 .videoblock,
-.imageblock {
+.imageblock,
+.mediablock {
         margin-left: auto;
         margin-right: auto;
         width: var(--media-width);
-        right: 50px;
         position: relative;
         text-align: center;
 }
@@ -965,9 +970,13 @@ img {
         margin-top: 1rem;
 }
 
+.videoblock {
+    margin-top: -2rem;
+}
+
 .videoblock > .title {
-        text-align: center;
-        margin-top: 3rem;
+    text-align: center;
+        /* margin-top: 10rem; */
 }
 
 /* --------------------------------------------- */
@@ -1011,7 +1020,7 @@ body {
         /* -webkit-font-smoothing: antialiased; */
 }
 
-#content,
+.writing,
 .paragraph {
         font-size: var(--paragraph-size);
         line-height: var(--paragraph-line-height);
@@ -1096,7 +1105,8 @@ h3 {
         position: relative;
         overflow: hidden;
         width: var(--media-width);
-        padding-top: 390px; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        padding-top: 300px; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        margin-bottom: 3rem;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -1130,25 +1140,66 @@ tr:hover {
 }
 
 details {
-    border: 1px dotted var(--color-text);
-    border-radius: 10px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+        border: 1px dotted var(--color-text);
+        border-radius: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
 }
 
 details[open] {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
 }
 
-/* ------------------------------------------ */
-/* Show my face picture when on wider screens */
-/* ------------------------------------------ */
+/* ┌────────────────────────────────────────┐ */
+/* │            Flexbox gallery             │ */
+/* └────────────────────────────────────────┘ */
+
+.gallery {
+        max-width: 100%;
+        width: var(--gallery-width);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: flex-start; */
+        justify-content: center;
+        align-content: flex-start;
+        gap: 0px;
+}
+
+.item {
+        flex: 1;
+        flex-grow: 0;
+        transition: all 0.2s ease-in-out;
+}
+
+.item:hover {
+        transform: scale(1.02);
+}
+
+@media all and (max-width: 900px) {
+        .gallery {
+                width: 100%;
+        }
+        .item {
+                flex-basis: 50%;
+        }
+}
+
+hr {
+        max-width: var(--media-width);
+}
+
+/* ┌──────────────────────────────────────────┐ */
+/* │Show my face picture when on wider screens│ */
+/* └──────────────────────────────────────────┘ */
 
 #myface {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
 }
 
 /* You can change 1px to 499px to hide on mobile screens */
@@ -1160,15 +1211,14 @@ details[open] {
 }
 
 @media all and (max-width: 700px) {
-        .imageblock {
+        .mediablock,
+        .imageblock,
+        .videoblock {
                 max-width: 100%;
-                right: 0px;
         }
 
         .videoblock {
-                width: 100%;
-                padding-top: 56.25%;
-                right: 0px;
+            padding-top: 37.25%;
         }
 
         table {

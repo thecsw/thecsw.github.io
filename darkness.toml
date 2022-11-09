@@ -1,4 +1,4 @@
-title = "Sandy’s Website ⛩"
+title = "Sandy’s Website ⛩️"
 url = "https://sandyuraz.com"
 
 [website]
@@ -22,7 +22,7 @@ extra_head = [
            ]
 
 [project]
-exclude = ["present"]
+exclude = ["present", "scripts", ".saves", ".log"]
 
 [author]
 image = "najimi.webp"
