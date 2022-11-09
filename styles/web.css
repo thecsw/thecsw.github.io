@@ -1106,6 +1106,7 @@ h3 {
         overflow: hidden;
         width: var(--media-width);
         padding-top: 300px; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        margin-bottom: 3rem;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
