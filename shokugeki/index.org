@@ -1,0 +1,12 @@
+* Cooking together 🍜
+
+I get excited at the idea that there are still flavors to discover. Find spices
+to our techniques. Most of all — cooking needs freedom.... 
+
+#+begin_gallery
+- 1.jpeg
+- 2.jpeg
+- 3.jpeg
+- 4.jpeg
+- chicken.jpeg
+#+end_gallery
