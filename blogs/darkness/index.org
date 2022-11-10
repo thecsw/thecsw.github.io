@@ -103,7 +103,10 @@ find it fun here
 
 See this cool trick of cleaning up the project with =megumin=!
 
-[[megumin.mp4][My name is Megumin, the number one mage of Axel!]]
+#+caption: My name is Megumin, the number one mage of Axel!
+#+begin_export html
+<script id="asciicast-GDPZErv84ZdtpprJlX0Y4HjSb" src="https://asciinema.org/a/GDPZErv84ZdtpprJlX0Y4HjSb.js" async></script>
+#+end_export
 
 ** Why /Darkness/?
 
