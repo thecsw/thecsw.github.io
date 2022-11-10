@@ -266,6 +266,7 @@ select {
 
 .admonitionblock td.content > .title,
 .imageblock > .title,
+.mediablock > .title,
 .videoblock > .title,
 .listingblock > .title,
 .paragraph > .title,
@@ -667,6 +668,7 @@ details > summary:first-of-type {
 .admonitionblock td.content > .title,
 .videoblock > .title,
 .imageblock > .title,
+.mediablock > .title,
 .listingblock > .title,
 .paragraph > .title,
 .ulist > .title {
@@ -782,6 +784,7 @@ ul dd,
 }
 
 .videoblock > .title,
+.mediablock > .title,
 .imageblock > .title {
         margin-bottom: 0;
 }
@@ -965,6 +968,7 @@ span.alt {
         text-align: center;
 }
 
+.mediablock > .title,
 .imageblock > .title {
         text-align: center;
         margin-top: 1rem;
