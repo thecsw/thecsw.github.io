@@ -34,14 +34,16 @@
 <!-- Scripts -->
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <!-- Extra -->
-<script async defer data-website-id="fb8e3bc0-187d-4fc7-9d22-d069c4a7f7d4" src="https://umami.sandyuraz.com/umami.js"></script>
+
 <!-- Title -->
 <title>Bring joy back to email with Mutt 🐕</title>
 </head>
 <!-- Styling -->
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 <!-- Header -->
 
@@ -496,7 +498,7 @@ Put a space before the command so your system will not save your plain text pass
 </div>
 <div class="paragraph">
 <p>
-Encrypt the file with <code>% gpg -r <u>my_email</u> -e ~/.mutt/mypass</code>, where <code>_my_email_</code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
+Encrypt the file with <code>% gpg -r <u>my_email</u> -e ~/.mutt/mypass</code>, where <code><u>my_email</u></code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
 </p>
 </div>
 <div class="paragraph">
@@ -593,7 +595,6 @@ Download link:./color.mutt[this file], move the file to the <code>~/.mutt/</code
 <p>
 <em>MAKE EMAIL GREAT AGAIN</em> <b style="color:#ba3925">◼︎</b>
 </p>
-</div></div>
 </div></div>
 <!-- Footnotes -->
 
