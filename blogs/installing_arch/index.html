@@ -34,14 +34,16 @@
 <!-- Scripts -->
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 <!-- Extra -->
-<script async defer data-website-id="fb8e3bc0-187d-4fc7-9d22-d069c4a7f7d4" src="https://umami.sandyuraz.com/umami.js"></script>
+
 <!-- Title -->
 <title>Installing glorious arch linux ☄️</title>
 </head>
 <!-- Styling -->
 <link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
-
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 <!-- Header -->
 
@@ -402,7 +404,7 @@ If it does not let you in or some error occurs, please make sure you followed al
 <div class="sectionbody">
 <div class="paragraph">
 <p>
-We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code> and use it instead of <code><u>Region</u></code> and <code><u>City</u></code>
+We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code> and use it instead of <code>_Region_</code> and <code>_City_</code>
 </p>
 </div>
 <div class="listingblock">
@@ -788,8 +790,7 @@ Always try to consult with the List of Applications while searching for a progra
 </div>
 <div class="sect1">
 <h2 id="_pictures">Pictures</h2>
-<div class="sectionbody"></div></div>
-</div>
+<div class="sectionbody"></div>
 <div class="imageblock">
 <hr>
 <a class="image" href="pic1.webp"><img class="image" src="pic1.webp" alt="Writing my website in tmux"></a>
