@@ -20,4 +20,12 @@ Below is a link to a simple terminal-based sorting algorithm visualizer I
 wrote in [[https://www-cs-faculty.stanford.edu/~knuth/cweb.html][CWEB]]. Writing programs and explaining algorithms to people rather
 than to computers is actually fun! One can say, it's very much enlightening.
 
+I wrote a sorting visualizer in high school and years after, decided to re-write
+it using the principles of Literate Programming. My raw C code became not only
+much clearer, but also a pleasure to read with its automatic documentation.
+
+#+begin_export html
+<script id="asciicast-IPPp7R8AtNSTkYEvFVsEHkivV" src="https://asciinema.org/a/IPPp7R8AtNSTkYEvFVsEHkivV.js" async></script>
+#+end_export
+
 -> [[https://github.com/thecsw/literate-bubble-sort][Go to the literate sorting repository]]
