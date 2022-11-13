@@ -59,6 +59,7 @@
 </div>
 <!-- Content -->
 <div class="writing">
+
 <div class="paragraph">
 <p>
 April 11th, 2020
@@ -66,7 +67,7 @@ April 11th, 2020
 </div>
 <div class="sect1">
 <h2 id="_abstract">Abstract</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 The Linux Unified Key Setup (LUKS) is a disk encryption specification created by Clemens Fruhwirth in 2004 and was originally intended for Linux. - Wikipedia
@@ -86,11 +87,10 @@ Best way to keep your data safe is on a piece of paper with some ink splattered 
 <p>
 This is not an exhaustive guide or a full walkthrough of what LUKS is and how it works. Just something to get youstarted. Possible cloud solutions at the end
 </p>
-</div></div>
 </div>
 <div class="sect2">
 <h3 id="_preparation">Preparation</h3>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 Backup all your data on your thumb drive, because we will need to erase everything from it and rewrite the filesystem tables.
@@ -107,11 +107,10 @@ Backup all your data on your thumb drive, because we will need to erase everythi
 </td>
 </tr>
 </table>
-</div></div>
 </div>
 <div class="sect2">
 <h3 id="_setting_it_up">Setting it up</h3>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 Let <code>/dev/sdb</code> be your USB drive. Be careful, we don’t want to accidentally wipe everything out on your hard drive. Follow the instructions
@@ -144,11 +143,10 @@ Now we got access to the drive, let’s write your favorite filesystem, I’ll g
 <pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.ext4 /dev/mapper/sdb</code></pre>
 </div>
 </div>
-</div>
-</div>
+
 <div class="sect2">
 <h3 id="_mounting_the_drive">Mounting the drive</h3>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 Let’s write something to the drive. <code>/mnt/flash</code> is some mounting target
@@ -183,11 +181,10 @@ After we’re done, do the usual thing by unmounting it
 <pre class="highlight"><code class="language-bash" data-lang="bash">% umount /mnt/flash</code></pre>
 </div>
 </div>
-</div>
-</div>
+
 <div class="sect2">
 <h3 id="_closeluks">closeLUKS</h3>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 Don’t forget we have to close the LUKS drive and dump the encryption details
@@ -198,16 +195,15 @@ Don’t forget we have to close the LUKS drive and dump the encryption details
 <pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup close sdb</code></pre>
 </div>
 </div>
-</div>
-</div>
+
 <div class="sect2">
 <h3 id="_closing_thoughts">Closing thoughts</h3>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 Voilà! You now have fully encrypted and secure drive. Next time, just don’t forget the sequence of cryptopen, mount, ???, unmount, and cryptclose. If you are looking for trusty cloud solutions, try out <a href="https://keybase.io/">Keybase</a>. It’s a great e2e service for all your needs <b style="color:#ba3925">◼︎</b>
 </p>
-</div></div>
+</div>
 <!-- Footnotes -->
 
 </body>

@@ -59,6 +59,7 @@
 </div>
 <!-- Content -->
 <div class="writing">
+
 <div class="paragraph">
 <p>
 March 26th, 2020
@@ -81,7 +82,7 @@ I present to you, <a href="https://github.com/thecsw/mira">mira</a>! It’s a re
 </div>
 <div class="sect1">
 <h2 id="_installing">Installing</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 mira can be installed like any other go package, just run
@@ -92,11 +93,10 @@ mira can be installed like any other go package, just run
 <pre class="highlight"><code class="language-bash" data-lang="bash">go get -u github.com/thecsw/mira</code></pre>
 </div>
 </div>
-</div>
-</div>
+
 <div class="sect1">
 <h2 id="_introduction">Introduction</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 mira requires you to authenticate via reddit by supplying reddit tokens. Other methods of authing should be implemented. Maybe you are the chosen one?
@@ -106,11 +106,10 @@ mira requires you to authenticate via reddit by supplying reddit tokens. Other m
 <p>
 For authentication, take a look at mira’s readme, we will get to the cream of the crops and actual features.
 </p>
-</div></div>
 </div>
 <div class="sect1">
 <h2 id="_basic_reddit">Basic reddit</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 You can post submissions and submit/reply/edit/delete comments. You can also grab N number of submissions from any subreddit, paginate through them, and other exciting stuff! Below is some basic functionality example.
@@ -145,11 +144,10 @@ func main() {
 }</code></pre>
 </div>
 </div>
-</div>
-</div>
+
 <div class="sect1">
 <h2 id="_streaming">Streaming</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 Streaming Reddit data is probably the most exciting part of using mira and usually the top reason of using any Reddit API wrappers. When you want to run a stream of submissions/comments/replies, mira will give you a channel where it will get populated as new streaming data becomes available.
@@ -254,11 +252,10 @@ Similar API is available for other Reddit entities and objects. For example, mir
 <p>
 The names are very Java like and I hope they are intuitive
 </p>
-</div></div>
 </div>
 <div class="sect1">
 <h2 id="_extending_mira">Extending mira</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 The library only supports <code>15 endpoints. Reddit has well over 50-60. Mira exposes its caller =Reddit.MiraRequest(httpMethod, endpoint, payload)</code> and http request handler, so you can build your own mira callers and work with them!
@@ -301,7 +298,7 @@ you can lookup <code>checkType(...)</code> in mira’s readme
 }</code></pre>
 </div>
 </div>
-</div>
+
 <!-- Footnotes -->
 
 </body>

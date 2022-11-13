@@ -31,7 +31,7 @@
         --header-font-weight: 500;
         --header-line-height: 1.2rem;
         --header-text-rendering: optimizeLegibility;
-        --subtitle-size: 1.37rem;
+        --subtitle-size: 1.22rem;
         --quote-size: 1.2rem;
         --quote-line-height: 1.6rem;
         --quote-width: 550px;
@@ -975,11 +975,11 @@ span.alt {
 }
 
 .videoblock {
-    margin-top: -2rem;
+        margin-top: -2rem;
 }
 
 .videoblock > .title {
-    text-align: center;
+        text-align: center;
         /* margin-top: 10rem; */
 }
 
@@ -1056,7 +1056,7 @@ body {
         font-style: normal !important;
         font-weight: 500 !important;
         line-height: 2rem !important;
-        margin: -0.4rem 0 0 !important;
+        margin: -0.5rem 0 0 !important;
 }
 
 h1,
@@ -1222,11 +1222,14 @@ hr {
         }
 
         .videoblock {
-            padding-top: 37.25%;
+                padding-top: 37.25%;
         }
 
         table {
                 width: 100%;
                 right: 0px;
+        }
+        .image {
+                border-radius: 0px;
         }
 }
