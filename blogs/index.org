@@ -29,7 +29,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 # - [[chores][I enjoy doing chores 🧽]]
 # - [[haste][Haste slowly, my friend 🧸]]
 # - [[friends][Friends come and go]]
-- [[./sophomore][My strange sophomore year, vol.1 🥴]]
+- [[./sophomore][My strange sophomore year: I 🥴]]
 # - [[liking][I like it because I do 🥟]]
 - [[one][It's all one 🍞]]
 - [[eating][You are what you eat 🍚]]
