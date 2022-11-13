@@ -1,3 +1,4 @@
+
 /* --------------------------------- */
 /* The custom fonts we are importing */
 /* --------------------------------- */
@@ -1167,9 +1168,9 @@ details[open] {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        /* justify-content: flex-start; */
         justify-content: center;
         align-content: flex-start;
+        align-items: center;
         gap: 0px;
 }
 
