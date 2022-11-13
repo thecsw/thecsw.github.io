@@ -59,6 +59,7 @@
 </div>
 <!-- Content -->
 <div class="writing">
+
 <div class="paragraph">
 <p title="Sun, 03 Apr 2022">
 93; 12022 H.E.
@@ -71,7 +72,7 @@
 </div>
 <div class="sect1">
 <h2 id="_motivation">Motivation</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 I have been toying around with <a href="https://en.wikipedia.org/wiki/WebP">WebP</a> for a couple of weeks now. Convert this image into webp and try to use it instead of traditional png. It was pretty crazy for me to see an up to 10x image size reduction, yet very little to no visual difference with a naked human eye.
@@ -88,11 +89,10 @@ This is truly some state-of-the-art stuff. Even as claiming an average of 45% re
 <sup class="footnote"><a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">I</a></sup>
 I should try this now!
 </p>
-</div></div>
 </div>
 <div class="sect1">
 <h2 id="_the_migration">The migration</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 The process of moving from PNG to WebP was painless. I rigged a quick <code>find</code> and <code>sed</code> script to go through all my directories and convert images with <a href="https://imagemagick.org">ImageMagick</a>. Another quick regex to find corresponding file links and references in org files, and replace them with anew webp format. It all took no more than 15 to 20 minutes. I talked to Darkness to <a href="https://github.com/thecsw/darkness/commit/85a89d871bcb272b9c2b7b36d02af67132dac834">support variable preview files</a> aaaannd <strong>push!</strong>
@@ -115,11 +115,10 @@ Wow, <em>it just works</em>. Even GitHub Pages deploys it in about halftime now.
 <p>
 <strong>This is very nice</strong>. It’s less than half of what it was before! Going through some of the pages, even my eye can’t spot any differences that would be noticeable. WebP is good for all the stuff on the web. Choose your image formats based on your needs and requirements. For now, WebP looks like a great alternative. Thank you!
 </p>
-</div></div>
 </div>
 <div class="sect1">
 <h2 id="_example_">Example?</h2>
-<div class="sectionbody">
+</div>
 <div class="paragraph">
 <p>
 Let’s try to grab a picture in PNG format, convert it to WebP and see how the file size and image quality differ between those two. I’ll have both examples from an amazing photographer <a href="https://mobile.twitter.com/shnimohus">@shnimohus</a>, whose shots <strong>I absolutely adore</strong>.
@@ -151,23 +150,25 @@ Let’s see an example!
 Here is a shot of a bus stop in PNG, weighing at around 2.4MB
 </p>
 </div></div>
+
 <div class="imageblock">
-<hr>
 <a class="image" href="booth.png"><img class="image" src="booth.png" alt="This is the PNG version"></a>
 <div class="title">This is the PNG version</div>
 <hr>
 </div><div class="writing">
+
 <div class="paragraph">
 <p>
 As a comparison, here is the WebP generated from it, which is only about 258KB
 </p>
 </div></div>
+
 <div class="imageblock">
-<hr>
 <a class="image" href="booth.webp"><img class="image" src="booth.webp" alt="This is the WebP version"></a>
 <div class="title">This is the WebP version</div>
 <hr>
 </div><div class="writing">
+
 <div class="paragraph">
 <p>
 For the sake of the experiment, try to dowload both files and see if you can spot any differences.
@@ -178,23 +179,25 @@ For the sake of the experiment, try to dowload both files and see if you can spo
 Here is one more example!
 </p>
 </div></div>
+
 <div class="imageblock">
-<hr>
 <a class="image" href="town.png"><img class="image" src="town.png" alt="This PNG is around 3.9MB"></a>
 <div class="title">This PNG is around 3.9MB</div>
 <hr>
 </div><div class="writing">
+
 <div class="paragraph">
 <p>
 With its counterpart generated with <code>convert town.png town.webp</code>
 </p>
 </div></div>
+
 <div class="imageblock">
-<hr>
 <a class="image" href="town.webp"><img class="image" src="town.webp" alt="This WebP is only around 462KB"></a>
 <div class="title">This WebP is only around 462KB</div>
 <hr>
 </div><div class="writing">
+
 <div class="paragraph">
 <p>
 Is this experiment biased? Definitely. I could have used some PNG compression techniques, go through ImageMagick’s documentation to fine-tune the conversion. However, the big point here is that without doing any of that, WebP seems to keep the quality I prefer while also reducing the size (doesn’t matter to me whether it’s lossy or lossless).
@@ -204,7 +207,7 @@ Is this experiment biased? Definitely. I could have used some PNG compression te
 <p>
 Thank you! <b style="color:#ba3925">◼︎</b>
 </p>
-</div></div>
+</div>
 <!-- Footnotes -->
 
 <div id="footnotes">
