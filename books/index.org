@@ -3,7 +3,7 @@
 Here is a stack of books I liked and recommend for reading
 
 #+begin_center
-✨(っ◔︣◡◔᷅)っc(◕︣◡◕᷅c)✨
+(✿◠‿◠) (❛‿❛✿̶̥̥)
 #+end_center
 
 #+begin_src
