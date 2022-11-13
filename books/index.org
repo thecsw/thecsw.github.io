@@ -88,7 +88,7 @@ Here is a stack of books I liked and recommend for reading
 
 ** 漫画
 
-I'm also fond of manga, manhwa, and light novels! See the second bookshelf below 
+I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 
 #+begin_center
 (っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )
@@ -96,8 +96,12 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 
 #+begin_src
  ┌────────────────────────────────────┐
+ │  Komi Can't Communicate, Volume 21 │
+ ├────────────────────────────────────┤
+ │  Kowloon Generic Romance, Volume 1 │
+ ├────────────────────────────────────┤
  │   Wait For Me Yesterday in Spring  │
- │────────────────────────────────────┤
+ ├────────────────────────────────────┤
  │  Komi Can't Communicate, Volume 20 │
  ├────────────────────────────────────┤
  │  Komi Can't Communicate, Volume 19 │
