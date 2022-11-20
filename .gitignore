@@ -11,7 +11,7 @@ temp.sed
 ltximg
 # ???
 .log
-~undo-tree~
+.*.~undo-tree~
 
 # Ignore profiling files
 cpu.pprof
