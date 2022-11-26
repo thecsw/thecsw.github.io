@@ -1,3 +1,16 @@
+<!--
+                 ,ae,
+                ,88888e
+ _____   ,a888b.9888888i   _____              _
+(_____)  888888888888888  (____ \            | |
+   _     88888888888888Y   _   \ \ ____  ____| |  _ ____   ____  ___  ___
+  | |    '8888888888888'  | |   | / _  |/ ___) | / )  _ \ / _  )/___)/___)
+ _| |_     "S888888888"   | |__/ ( ( | | |   | |< (| | | ( (/ /|___ |___ |
+(_____)      "7888888Y    |_____/ \_||_|_|   |_| \_)_| |_|\____|___/(___/
+                "e88j
+                  "Y
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +22,14 @@
 <link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
 <!-- Meta -->
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" property="generator" content="Darkness">
 <meta name="author" property="author" content="sandy">
 <meta name="date" property="date" content="0; 12000 H.E.">
 <meta name="theme-color" property="theme-color" content="#fffff4">
-<meta name="description" property="description" content="May 12th, 2020..."><meta name="og:title" property="og:title" content="Differential equations 🔥">
+<meta name="description" property="description" content="May 12th, 2020...">
+<meta name="og:title" property="og:title" content="Differential equations 🔥">
 <meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
 <meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/diffeq">
 <meta name="og:locale" property="og:locale" content="en_GB">
@@ -24,7 +39,8 @@
 <meta name="og:image:type" property="og:image:type" content="image/jpg">
 <meta name="og:image:width" property="og:image:width" content="1280">
 <meta name="og:image:height" property="og:image:height" content="640">
-<meta name="og:description" property="og:description" content="May 12th, 2020..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="og:description" property="og:description" content="May 12th, 2020...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/diffeq/preview.jpg">
@@ -73,20 +89,20 @@
 <title>Differential equations 🔥</title>
 </head>
 <!-- Styling -->
-<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
 
 <body class="article">
 <!-- Header -->
 
 <div class="header">
-<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" alt="Top Face" height="112">Differential equations 🔥</h1>
-<div class="details">
+<h1 class="section-1"><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" alt="Top Face" height="112">Differential equations 🔥</h1>
+<div class="menu">
 <span id="author" class="author">sandy</span><br>
 <span id="email" class="email">[at] sandyuraz [dot] com</span><br>
 <span id="revdate">
 <a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
 </div>
-<div id="hetime" class="details"></div>
+<div id="hetime" class="menu"></div>
 </div>
 <!-- Content -->
 <div class="writing">
@@ -98,17 +114,13 @@ May 12th, 2020
 </div></div>
 <a href="index.pdf">(PDF Version)</a><div class="writing">
 
-<div class="sect1">
-<h2 id="_abstract">Abstract</h2>
-</div>
+<h1 id="abstract" class="section-2">Abstract</h1>
 <div class="paragraph">
 <p>
 When I got first introduced to differential equations, I had a love-hate relationship with it. Mainly due to some back-of-the-book problems we were given and never-ending projects we were assigned to. After some time, differential equations is a way to truly understand physics and the foundations of gravity, fields, and everything. This articles is merely an intro on manually solving common forms of differential equations. Hope you enjoy
 </p>
 </div>
-<div class="sect2">
-<h3 id="_quick_notes">Quick notes</h3>
-</div>
+<h2 id="quick-notes" class="section-3">Quick notes</h2>
 <div class="ulist">
 <ul>
 
@@ -144,17 +156,13 @@ If you found a typo or want to comment, feel free to email me. Email on top of t
 </ul>
 </div>
 
-<div class="sect2">
-<h3 id="_first_order__linear">First-order, linear</h3>
-</div>
+<h2 id="first-order--linear" class="section-3">First-order, linear</h2>
 <div class="paragraph">
 <p>
 Those equations have the form \begin{align*} y&#39; + p(t) y = q(t) \end{align*} Find \begin{align*} \mu(t) = e^{\int p(t) dt} \end{align*} Then \begin{align*} \frac{d}{dt}(\mu(t)y) &amp; = q(t) \mu(t)                        \\ \implies y            &amp; = \frac{\int q(t) \mu(t) dt}{\mu(t)} \end{align*}
 </p>
 </div>
-<div class="sect2">
-<h3 id="_first_order__separable">First-order, separable</h3>
-</div>
+<h2 id="first-order--separable" class="section-3">First-order, separable</h2>
 <div class="paragraph">
 <p>
 Those equations have the form:
@@ -180,9 +188,7 @@ Find the solution by solving
 Solve for exact (explicit) values of \(y\)
 </p>
 </div>
-<div class="sect2">
-<h3 id="_exact_equations">Exact equations</h3>
-</div>
+<h2 id="exact-equations" class="section-3">Exact equations</h2>
 <div class="paragraph">
 <p>
 They have the form
@@ -245,9 +251,7 @@ Find
 multiply both by \(M\) <strong>and</strong> \(N\), so the condition \(M_y = N_y\) is satisfied. Go to \((\xi)\) and proceed with finding \(F(x,y)\)
 </p>
 </div>
-<div class="sect2">
-<h3 id="_second_order__linear__constant_coefficient_equations">Second-order, linear, constant-coefficient equations</h3>
-</div>
+<h2 id="second-order--linear--constant-coefficient-equations" class="section-3">Second-order, linear, constant-coefficient equations</h2>
 <div class="paragraph">
 <p>
 They have the form
@@ -306,12 +310,8 @@ if \(r = \alpha \pm i \beta\) \(\implies y=c_1 \cos(\beta t)e^{\alpha t} + c_2 \
 </ul>
 </div>
 
-<div class="sect3">
-<h4 id="_solving_for_particular_solution__y_p_t__">Solving for particular solution \(y_p(t)\)</h4>
-</div>
-<div class="sect4">
-<h5 id="_undetermined_coefficients__superpositioned__for__f_t__">Undetermined coefficients (superpositioned) for \(f(t)\)</h5>
-</div>
+<h3 id="solving-for-particular-solution--y-p-t" class="section-4">Solving for particular solution \(y_p(t)\)</h3>
+<h4 id="undetermined-coefficients--superpositioned--for--f-t" class="section-5">Undetermined coefficients (superpositioned) for \(f(t)\)</h4>
 <div class="paragraph">
 <p>
 Whatever is in \(f(t)\), start adding up the corresponding coefficients into \(y_p(t)\)
@@ -362,9 +362,7 @@ should not be linearly dependent with the general solution. If it is, multiply b
 </tr>
 </table>
 </div>
-<div class="sect4">
-<h5 id="_variation_of_parameters">Variation of parameters</h5>
-</div>
+<h4 id="variation-of-parameters" class="section-5">Variation of parameters</h4>
 <div class="paragraph">
 <p>
 Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where
@@ -380,9 +378,7 @@ Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where
 So the final solution is \(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)
 </p>
 </div>
-<div class="sect2">
-<h3 id="_second_order__linear__variable_coefficient_equations">Second-order, linear, variable-coefficient equations</h3>
-</div>
+<h2 id="second-order--linear--variable-coefficient-equations" class="section-3">Second-order, linear, variable-coefficient equations</h2>
 <div class="paragraph">
 <p>
 Equations have the form
@@ -476,24 +472,20 @@ if \(r=\alpha\pm i\beta\), \(y_1=t^{\alpha}\cos(\beta ln|t|)\) and \(y_2=t^{\alp
 Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)
 </p>
 </div>
-<div class="sect2">
-<h3 id="_higher_order__linear_equations">Higher-order, linear equations</h3>
-</div>
+<h2 id="higher-order--linear-equations" class="section-3">Higher-order, linear equations</h2>
 <div class="paragraph">
 <p>
 \begin{align*} a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y&#39;+a_0(t)y=g(t) \end{align*} All second-order methods above extend to \(n^{th}\) order.
 </p>
 </div>
-<div class="sect2">
-<h3 id="_laplace_transform">Laplace transform</h3>
-</div>
+<h2 id="laplace-transform" class="section-3">Laplace transform</h2>
 <div class="paragraph">
 <p>
 Laplace is a holy grail of solving differential equations with initial values defined. Laplace is the same kind of Bible to engineers like Taylor Series is. \begin{align*} \mathcal{L}\{f\}(s) = \int_0^{\infty} e^{-st} f(t) dt \end{align*} assuming \(f\) is piecewise continuous and of exponential order.
 </p>
 </div></div>
 
-<div class="mediablock">
+<div class="media">
 <div class="title">Table of common Laplace transformations</div>
 <table><tr>
 <th>\(f(t)\)</th>
@@ -616,9 +608,7 @@ If IVP is not at 0, define some new function like \(w(t)=y(t+\alpha)\), and solv
 Step (block) function: \begin{align*} \Pi_{a,b}(t) = u(t-a)-u(t-b) \end{align*} so \begin{align*} \mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s} \end{align*}
 </p>
 </div>
-<div class="sect2">
-<h3 id="_constant_coefficient__homogeneous_systems_of_ode">Constant-coefficient, homogeneous systems of ODE</h3>
-</div>
+<h2 id="constant-coefficient--homogeneous-systems-of-ode" class="section-3">Constant-coefficient, homogeneous systems of ODE</h2>
 <div class="paragraph">
 <p>
 \begin{align*} \vec{x}&#39; = A \vec{x}, \quad \text{where } A\in\mathbb{R}^{n\times n},\quad x\in\mathbb{R}^n \end{align*}
@@ -731,9 +721,7 @@ For each \(\vec{u_j}^i\) computed in the previous step, compute \(e^{At}\vec{u_j
 \begin{align*} e^{At}\vec{u_j}^i &amp; =e^{\lambda_jt}e^{(A-\lambda_jI)t}\vec{u_j}^i                                                                              \\ &amp; =e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i) \end{align*}
 </p>
 </div>
-<div class="sect2">
-<h3 id="_linear_systems_of_ode">Linear systems of ODE</h3>
-</div>
+<h2 id="linear-systems-of-ode" class="section-3">Linear systems of ODE</h2>
 <div class="paragraph">
 <p>
 \begin{align*} \vec{x}&#39; = A(t)\vec{x} + \vec{f}(t), \quad \text{where } A\in\mathbb{R}^{n\times n}, x\in\mathbb{R}^n, \quad f\in\mathbb{R}^n \end{align*}
@@ -744,17 +732,13 @@ For each \(\vec{u_j}^i\) computed in the previous step, compute \(e^{At}\vec{u_j
 If \(X(t)\) is a matrix whose columns are made up of n linearly independent homogeneous solutions (\(X(t)\) is the fundamental matrix), then a general solution may be written as \(\vec{x}(t_0)=\vec{x_0}\) \begin{align*} \vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds \end{align*} If \(A(t)\) is constant-coefficient, then we recover Duhamel’s formula: \begin{align*} \vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds \end{align*}
 </p>
 </div>
-<div class="sect2">
-<h3 id="_applications">Applications</h3>
-</div>
+<h2 id="applications" class="section-3">Applications</h2>
 <div class="paragraph">
 <p>
 There are many applications of differential equations in classical mechanics, fields, etc. Below you will find just a snippet of some very common Physics 1/2 scenarios
 </p>
 </div>
-<div class="sect3">
-<h4 id="_falling_object">Falling object</h4>
-</div>
+<h3 id="falling-object" class="section-4">Falling object</h3>
 <div class="paragraph">
 <p>
 \begin{align*} m\frac{dv}{dt}=mg-bv \end{align*}
@@ -765,17 +749,13 @@ There are many applications of differential equations in classical mechanics, fi
 where \(b\) is the air resistance
 </p>
 </div>
-<div class="sect3">
-<h4 id="_fluid_mix__define__r__in___and__r__out__">Fluid mix, define \(R_{in}\) and \(R_{out}\)</h4>
-</div>
+<h3 id="fluid-mix--define--r--in---and--r--out" class="section-4">Fluid mix, define \(R_{in}\) and \(R_{out}\)</h3>
 <div class="paragraph">
 <p>
 \begin{align*} \frac{dx}{dt}=R_{in}-R_{out} \end{align*}
 </p>
 </div>
-<div class="sect3">
-<h4 id="_mass_spring_system">Mass-Spring System</h4>
-</div>
+<h3 id="mass-spring-system" class="section-4">Mass-Spring System</h3>
 <div class="ulist">
 <ul>
 
@@ -798,14 +778,14 @@ Horizontal spring \begin{align*} my”=-by&#39;-ky+F_{ext}(t) \end{align*} where
 </ul>
 </div>
 
-<div class="sect2">
-<h3 id="_conclusion">Conclusion</h3>
-</div>
+<h2 id="conclusion" class="section-3">Conclusion</h2>
 <div class="paragraph">
 <p>
 This is as much as I can recover from my initial experience with differential equations. This article is not as much to teach you how to solve them but provide a quick lookup cheatsheet if needed or glance at different forms that we can actually solve! There are infinitely many differential equations that we cannot find an exact solution for! <b style="color:#ba3925">◼︎</b>
 </p>
 </div>
+</div>
+
 <!-- Footnotes -->
 
 </body>

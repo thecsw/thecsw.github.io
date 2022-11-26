@@ -1,3 +1,16 @@
+<!--
+                 ,ae,
+                ,88888e
+ _____   ,a888b.9888888i   _____              _
+(_____)  888888888888888  (____ \            | |
+   _     88888888888888Y   _   \ \ ____  ____| |  _ ____   ____  ___  ___
+  | |    '8888888888888'  | |   | / _  |/ ___) | / )  _ \ / _  )/___)/___)
+ _| |_     "S888888888"   | |__/ ( ( | | |   | |< (| | | ( (/ /|___ |___ |
+(_____)      "7888888Y    |_____/ \_||_|_|   |_| \_)_| |_|\____|___/(___/
+                "e88j
+                  "Y
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +22,14 @@
 <link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
 <!-- Meta -->
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" property="generator" content="Darkness">
 <meta name="author" property="author" content="sandy">
 <meta name="date" property="date" content="0; 12000 H.E.">
 <meta name="theme-color" property="theme-color" content="#fffff4">
-<meta name="description" property="description" content="May 7th, 2020..."><meta name="og:title" property="og:title" content="Becoming an emacs gopher 🐗">
+<meta name="description" property="description" content="May 7th, 2020...">
+<meta name="og:title" property="og:title" content="Becoming an emacs gopher 🐗">
 <meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
 <meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/go-emacs">
 <meta name="og:locale" property="og:locale" content="en_GB">
@@ -24,7 +39,8 @@
 <meta name="og:image:type" property="og:image:type" content="image/jpg">
 <meta name="og:image:width" property="og:image:width" content="1280">
 <meta name="og:image:height" property="og:image:height" content="640">
-<meta name="og:description" property="og:description" content="May 7th, 2020..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="og:description" property="og:description" content="May 7th, 2020...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/go-emacs/preview.jpg">
@@ -42,20 +58,20 @@
 <title>Becoming an emacs gopher 🐗</title>
 </head>
 <!-- Styling -->
-<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
 <link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 <!-- Header -->
 
 <div class="header">
-<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" alt="Top Face" height="112">Becoming an emacs gopher 🐗</h1>
-<div class="details">
+<h1 class="section-1"><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" alt="Top Face" height="112">Becoming an emacs gopher 🐗</h1>
+<div class="menu">
 <span id="author" class="author">sandy</span><br>
 <span id="email" class="email">[at] sandyuraz [dot] com</span><br>
 <span id="revdate">
 <a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
 </div>
-<div id="hetime" class="details"></div>
+<div id="hetime" class="menu"></div>
 </div>
 <!-- Content -->
 <div class="writing">
@@ -75,9 +91,7 @@ May 7th, 2020
 I have been a full-time emacs user for the past 4 years and I have been working in Golang professionally for about 2 years now. Combining those two beauties is quite a task with so many different modules and addons available. This is a comfortable setup I found for myself and I wish to share it. <em>Demo below!</em>
 </p>
 </div>
-<div class="sect1">
-<h2 id="_getting_dependencies">Getting dependencies</h2>
-</div>
+<h1 id="getting-dependencies" class="section-2">Getting dependencies</h1>
 <div class="paragraph">
 <p>
 One of many great things about Go is its tooling environment. You can write any tools and implement your ideas with ease.
@@ -89,11 +103,9 @@ First tool you need is usually <a href="https://golang.org/">Go itself</a>. Afte
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% go get -u golang.org/x/tools/cmd/goimports
 % go get -u github.com/rogpeppe/godef
 % go get -u github.com/nsf/gocode</code></pre>
-</div>
 </div>
 
 <div class="paragraph">
@@ -141,16 +153,13 @@ Here is the list:
 </ul>
 </div>
 
-<div class="sect1">
-<h2 id="_config">Config</h2>
-</div>
+<h1 id="config" class="section-2">Config</h1>
 <div class="paragraph">
 <p>
 You can just put this in your <code>.emacs</code> or whatever init file you’re using. The following config is all you need to get yourself started with automatic code formatting, code completion, parenthesis matching, dot completion (!), and jump to definition.
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-emacs-lisp" data-lang="emacs-lisp">;; Init the auto complete modules
 (ac-config-default)
 (global-auto-complete-mode t)
@@ -175,18 +184,15 @@ You can just put this in your <code>.emacs</code> or whatever init file you’re
 (add-hook &#39;before-save-hook &#39;gofmt-before-save)
 (add-hook &#39;go-mode-hook &#39;auto-complete-for-go)</code></pre>
 </div>
-</div>
 
 <div class="paragraph">
 <p>
 After that, just reload your emacs and you should have full go environment installed!
 </p>
 </div>
-<div class="sect1">
-<h2 id="_demo">Demo</h2>
-</div></div>
+<h1 id="demo" class="section-2">Demo</h1></div>
 
-<div class="imageblock">
+<div class="media">
 <a class="image" href="demo.svg"><img class="image" src="demo.svg" alt="Gopher in emacs"></a>
 <div class="title">Gopher in emacs</div>
 <hr>
