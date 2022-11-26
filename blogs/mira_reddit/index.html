@@ -52,6 +52,10 @@
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
 <script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
 <!-- Extra -->
 
 <!-- Title -->
@@ -103,7 +107,7 @@ mira can be installed like any other go package, just run
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">go get -u github.com/thecsw/mira</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">go get -u github.com/thecsw/mira</code></pre>
 </div>
 
 <h1 id="introduction" class="section-2">Introduction</h1>
@@ -124,7 +128,7 @@ You can post submissions and submit/reply/edit/delete comments. You can also gra
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">package main
+<pre class="highlight"><code class="language-plaintext" data-lang="go">package main
 
 import (
     &#34;fmt&#34;
@@ -163,7 +167,7 @@ Let’s take a quick example of how we can build a reminder bot from <a href="ht
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">package main
+<pre class="highlight"><code class="language-plaintext" data-lang="go">package main
 
 import (
     &#34;strings&#34;
@@ -279,7 +283,7 @@ you can lookup <code>checkType(...)</code> in mira’s readme
 </table>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
+<pre class="highlight"><code class="language-plaintext" data-lang="go">func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
     ret := &amp;models.CommentWrap{}
     // Second return is type, which is &#34;comment&#34;
     name, _, err := c.checkType(&#34;comment&#34;)

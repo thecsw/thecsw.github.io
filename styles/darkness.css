@@ -288,8 +288,8 @@ a:not(.image):hover {
 
 @media all and (max-width: 640px) {
         .section-1 {
-            font-size: 2.6rem;
-            line-height: 2.9rem;
+                font-size: 2.6rem;
+                line-height: 2.9rem;
         }
 }
 
@@ -664,6 +664,20 @@ td {
  │   \_/ \___│_│  │_.__/ \__,_│\__│_│_│ │_│ │_│  │
  └───────────────────────────────────────────────┘ */
 
+.listingblock {
+        background: var(--code-bg);
+        padding-top: 0;
+        padding-bottom: 0;
+}
+
+.listingblock > pre {
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        word-wrap: break-word;
+        overflow-x: auto;
+        /* padding: 0.2rem; */
+}
+
 code {
         background: var(--code-bg);
         font-size: var(--code-size);
@@ -672,15 +686,20 @@ code {
         text-rendering: var(--code-text-rendering);
         padding: 6px;
         border-radius: 8px;
+        word-wrap: break-word;
+}
+
+pre {
+        white-space: pre;
 }
 
 pre code,
 pre pre {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        /* margin-top: 2rem; */
+        /* margin-bottom: 2rem; */
         padding-top: 1rem;
         padding-bottom: 1rem;
-        padding-left: 2rem;
+        padding-left: 1rem;
         margin-right: 1rem;
 }
 
@@ -738,4 +757,25 @@ pre pre {
 
 .footnote a:hover {
         font-weight: bold;
+}
+
+/* This bit is from asciidoctor */
+kbd {
+        font-family: var(--font-code);
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: var(--code-size);
+        line-height: 1.45;
+        background: #f7f7f7;
+        border: 1px solid #ccc;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em #fff inset;
+        margin: 0 0.1em;
+        padding: 0.1em 0.5em;
+        vertical-align: middle;
+        position: relative;
+        top: -0.1em;
+        white-space: nowrap;
 }

@@ -52,6 +52,9 @@
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
 <script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
 <!-- Extra -->
 
 <!-- Title -->
@@ -107,7 +110,7 @@ How do you use it? Just paste in the line below into your <code>main</code> func
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">import &#34;github.com/pkg/profile&#34;
+<pre class="highlight"><code class="language-plaintext" data-lang="go">import &#34;github.com/pkg/profile&#34;
 
 func main() {
         defer profile.Start(
@@ -123,7 +126,7 @@ You’ll have a new file in your current directory named <code>cpu.pprof</code>.
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">go tool pprof -http=:8080 cpu.pprof</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">go tool pprof -http=:8080 cpu.pprof</code></pre>
 </div>
 
 <div class="paragraph">
@@ -149,7 +152,7 @@ You can also profile memory allocations and spot places where it might be benefi
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">import &#34;github.com/pkg/profile&#34;
+<pre class="highlight"><code class="language-plaintext" data-lang="go">import &#34;github.com/pkg/profile&#34;
 
 func main() {
         defer profile.Start(
