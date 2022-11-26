@@ -52,6 +52,13 @@
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
 <script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
 <!-- Extra -->
 
 <!-- Title -->
@@ -127,7 +134,7 @@ Let <code>/dev/sdb</code> be your USB drive. Be careful, we don’t want to acci
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code></pre>
 </div>
 
 <div class="paragraph">
@@ -136,7 +143,7 @@ Now, let’s open the drive with LUKS and write a filesystem to it. Enter your n
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup open /dev/sdb sdb</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">% cryptsetup open /dev/sdb sdb</code></pre>
 </div>
 
 <div class="paragraph">
@@ -145,7 +152,7 @@ Now we got access to the drive, let’s write your favorite filesystem, I’ll g
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.ext4 /dev/mapper/sdb</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">% mkfs.ext4 /dev/mapper/sdb</code></pre>
 </div>
 
 <h2 id="mounting-the-drive" class="section-3">Mounting the drive</h2>
@@ -155,7 +162,7 @@ Let’s write something to the drive. <code>/mnt/flash</code> is some mounting t
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% mount /dev/mapper/sdb /mnt/flash</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">% mount /dev/mapper/sdb /mnt/flash</code></pre>
 </div>
 
 <div class="paragraph">
@@ -164,7 +171,7 @@ That’s it, you have access now
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% cd /mnt/flash
+<pre class="highlight"><code class="language-bash" data-lang="sh">% cd /mnt/flash
 % touch man
 % echo cat &gt; fish</code></pre>
 </div>
@@ -175,7 +182,7 @@ After we’re done, do the usual thing by unmounting it
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% umount /mnt/flash</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">% umount /mnt/flash</code></pre>
 </div>
 
 <h2 id="closeluks" class="section-3">closeLUKS</h2>
@@ -185,7 +192,7 @@ Don’t forget we have to close the LUKS drive and dump the encryption details
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup close sdb</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">% cryptsetup close sdb</code></pre>
 </div>
 
 <h2 id="closing-thoughts" class="section-3">Closing thoughts</h2>

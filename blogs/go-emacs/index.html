@@ -52,6 +52,8 @@
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
 <script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/lisp.min.js"></script>
 <!-- Extra -->
 
 <!-- Title -->
@@ -103,7 +105,7 @@ First tool you need is usually <a href="https://golang.org/">Go itself</a>. Afte
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="bash">% go get -u golang.org/x/tools/cmd/goimports
+<pre class="highlight"><code class="language-bash" data-lang="sh">% go get -u golang.org/x/tools/cmd/goimports
 % go get -u github.com/rogpeppe/godef
 % go get -u github.com/nsf/gocode</code></pre>
 </div>
@@ -160,7 +162,7 @@ You can just put this in your <code>.emacs</code> or whatever init file you’re
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-emacs-lisp" data-lang="emacs-lisp">;; Init the auto complete modules
+<pre class="highlight"><code class="language-lisp" data-lang="emacs-lisp">;; Init the auto complete modules
 (ac-config-default)
 (global-auto-complete-mode t)
 (require &#39;go-autocomplete)
