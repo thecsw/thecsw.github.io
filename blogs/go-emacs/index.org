@@ -43,31 +43,31 @@ following config is all you need to get yourself started with automatic code
 formatting, code completion, parenthesis matching, dot completion (!), and jump
 to definition.
 
-#+BEGIN_SRC emacs-lisp
-;; Init the auto complete modules
-(ac-config-default)
-(global-auto-complete-mode t)
-(require 'go-autocomplete)
+#+begin_src emacs-lisp
+  ;; Init the auto complete modules
+  (ac-config-default)
+  (global-auto-complete-mode t)
+  (require 'go-autocomplete)
 
-;; Enable auto-complete
-(auto-complete-mode 1)
+  ;; Enable auto-complete
+  (auto-complete-mode 1)
 
-;; Define keymaps
-(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
-(global-set-key (kbd"C-c C-c") 'godef-jump)
+  ;; Define keymaps
+  (define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
+  (global-set-key (kbd"C-c C-c") 'godef-jump)
 
-;; Set some quick config vals
-(setq ac-auto-start 1)
-(setq ac-auto-show-menu 0.8)
+  ;; Set some quick config vals
+  (setq ac-auto-start 1)
+  (setq ac-auto-show-menu 0.8)
 
-;; Just to make sure go tools are enabled
-(add-to-list 'exec-path "~/go/bin")
+  ;; Just to make sure go tools are enabled
+  (add-to-list 'exec-path "~/go/bin")
 
-;; Automatically format code on save
-(setq gofmt-command "goimports")
-(add-hook 'before-save-hook 'gofmt-before-save)
-(add-hook 'go-mode-hook 'auto-complete-for-go)
-#+END_SRC
+  ;; Automatically format code on save
+  (setq gofmt-command "goimports")
+  (add-hook 'before-save-hook 'gofmt-before-save)
+  (add-hook 'go-mode-hook 'auto-complete-for-go)
+#+end_src
 
 After that, just reload your emacs and you should have full go environment
 installed! 
