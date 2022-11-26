@@ -675,7 +675,7 @@ pre pre {
         display: none;
         content: attr(data-lang);
         position: absolute;
-        font-size: 0.9rem;
+        /* font-size: 0.9rem; */
         right: 3rem;
         text-transform: uppercase;
         color: var(--color-header);
@@ -686,20 +686,21 @@ pre pre {
         display: block;
 }
 
+.listingblock code {
+    font-size: 75%;
+}
+
 @media all and (max-width: 768px) {
-        pre code,
-        pre pre {
-            font-size: 0.9rem;
+        .listingblock code {
+                font-size: 65%;
         }
 }
 
-
-@media all and (max-width: 505px) {
-        pre code,
-        pre pre {
-            font-size: 0.85rem;
-        }
-}
+/* @media all and (max-width: 505px) { */
+/*         .listingblock { */
+/*                 font-size: 0.85rem; */
+/*         } */
+/* } */
 
 /*
  +-------------------------------------------------+
