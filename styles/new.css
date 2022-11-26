@@ -42,7 +42,6 @@
         --header-width: 740px;
         --header-width-max: 100%;
         --header-font-weight: 500;
-        --header-line-height: 1.475rem;
         --header-text-rendering: antialiased;
         --subtitle-size: 1.37rem;
         --quote-size: 1.2rem;
@@ -277,7 +276,6 @@ a:not(.image):hover {
         margin-top: 1rem;
         margin-bottom: 0.5rem;
         padding-bottom: 0.5rem;
-        line-height: var(--header-line-height);
 }
 
 .section-1 {
