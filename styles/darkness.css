@@ -425,13 +425,11 @@ details {
         border-radius: 10px;
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-top: 1rem;
 }
 
 details[open] {
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-top: 1rem;
 }
 
 /*
