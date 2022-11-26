@@ -640,6 +640,26 @@ td {
         margin-top: 2rem;
 }
 
+@media all and (max-width: 430px) {
+        table {
+            width: 100%;
+            font-size: 90%;
+        }
+
+        table code {
+            font-size: 90%;
+        }
+
+        th {
+            padding: 0.2rem;
+        }
+
+        td {
+            padding: 0.3rem;
+        }
+}
+
+
 /*
  ┌───────────────────────────────────────────────┐
  │                 _           _   _             │
