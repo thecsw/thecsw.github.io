@@ -22,6 +22,8 @@ extra_head = [
            ]
 
 [project]
+input = ".org"
+output = ".html"
 exclude = ["present", "scripts", ".saves", ".log"]
 
 [author]
