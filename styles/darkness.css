@@ -38,7 +38,7 @@
         --paragraph-text-rendering: antialiased;
         --code-size: 0.95rem;
         --code-text-rendering: optimizeSpeed;
-        --code-line-height: 1.45rem;
+        --code-line-height: 1.2rem;
         --header-width: 740px;
         --header-width-max: 100%;
         --header-font-weight: 500;
@@ -288,7 +288,7 @@ a:not(.image):hover {
 
 @media all and (max-width: 640px) {
         .section-1 {
-                font-size: 2.7rem;
+                font-size: 2.6rem;
         }
 }
 
@@ -676,7 +676,6 @@ pre pre {
         content: attr(data-lang);
         position: absolute;
         font-size: 0.9rem;
-        line-height: 1;
         right: 3rem;
         text-transform: uppercase;
         color: var(--color-header);
@@ -687,17 +686,18 @@ pre pre {
         display: block;
 }
 
-@media all and (min-width: 768px) {
+@media all and (max-width: 768px) {
         pre code,
         pre pre {
-                font-size: 80%;
+            font-size: 0.9rem;
         }
 }
 
-@media all and (min-width: 1280px) {
+
+@media all and (max-width: 505px) {
         pre code,
         pre pre {
-                font-size: var(--code-size);
+            font-size: 0.85rem;
         }
 }
 
