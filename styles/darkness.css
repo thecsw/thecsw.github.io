@@ -301,9 +301,9 @@ a:not(.image):hover {
         font-size: 1.7rem;
 }
 
-.section-3 + .section-3 {
-        margin-top: 1.8rem;
-}
+/* .section-3 + .section-3 { */
+/*         margin-top: 1.8rem; */
+/* } */
 
 .section-4,
 .section-5 {
