@@ -1,3 +1,16 @@
+<!--
+                 ,ae,
+                ,88888e
+ _____   ,a888b.9888888i   _____              _
+(_____)  888888888888888  (____ \            | |
+   _     88888888888888Y   _   \ \ ____  ____| |  _ ____   ____  ___  ___
+  | |    '8888888888888'  | |   | / _  |/ ___) | / )  _ \ / _  )/___)/___)
+ _| |_     "S888888888"   | |__/ ( ( | | |   | |< (| | | ( (/ /|___ |___ |
+(_____)      "7888888Y    |_____/ \_||_|_|   |_| \_)_| |_|\____|___/(___/
+                "e88j
+                  "Y
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +22,14 @@
 <link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
 <!-- Meta -->
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" property="generator" content="Darkness">
 <meta name="author" property="author" content="sandy">
 <meta name="date" property="date" content="0; 12000 H.E.">
 <meta name="theme-color" property="theme-color" content="#fffff4">
-<meta name="description" property="description" content="March 26th, 2020..."><meta name="og:title" property="og:title" content="Talk to Reddit with Go ⛳">
+<meta name="description" property="description" content="March 26th, 2020...">
+<meta name="og:title" property="og:title" content="Talk to Reddit with Go ⛳">
 <meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
 <meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/mira_reddit">
 <meta name="og:locale" property="og:locale" content="en_GB">
@@ -24,7 +39,8 @@
 <meta name="og:image:type" property="og:image:type" content="image/jpg">
 <meta name="og:image:width" property="og:image:width" content="1280">
 <meta name="og:image:height" property="og:image:height" content="640">
-<meta name="og:description" property="og:description" content="March 26th, 2020..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="og:description" property="og:description" content="March 26th, 2020...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/mira_reddit/preview.jpg">
@@ -42,20 +58,20 @@
 <title>Talk to Reddit with Go ⛳</title>
 </head>
 <!-- Styling -->
-<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
 <link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 <!-- Header -->
 
 <div class="header">
-<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" alt="Top Face" height="112">Talk to Reddit with Go ⛳</h1>
-<div class="details">
+<h1 class="section-1"><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" alt="Top Face" height="112">Talk to Reddit with Go ⛳</h1>
+<div class="menu">
 <span id="author" class="author">sandy</span><br>
 <span id="email" class="email">[at] sandyuraz [dot] com</span><br>
 <span id="revdate">
 <a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
 </div>
-<div id="hetime" class="details"></div>
+<div id="hetime" class="menu"></div>
 </div>
 <!-- Content -->
 <div class="writing">
@@ -80,23 +96,17 @@ Surely, after a couple of seconds of DuckDuckGoing, I stumbled upon <a href="htt
 I present to you, <a href="https://github.com/thecsw/mira">mira</a>! It’s a really playful and straight-forward library. Mira aggressively uses the dot-notation (<a href="https://github.com/jinzhu/gorm">gorm</a> style) and has the simplicity of praw. Golang’s great features as goroutines are used to implement the streaming functionality. Let’s dive straight into it!
 </p>
 </div>
-<div class="sect1">
-<h2 id="_installing">Installing</h2>
-</div>
+<h1 id="installing" class="section-2">Installing</h1>
 <div class="paragraph">
 <p>
 mira can be installed like any other go package, just run
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">go get -u github.com/thecsw/mira</code></pre>
 </div>
-</div>
 
-<div class="sect1">
-<h2 id="_introduction">Introduction</h2>
-</div>
+<h1 id="introduction" class="section-2">Introduction</h1>
 <div class="paragraph">
 <p>
 mira requires you to authenticate via reddit by supplying reddit tokens. Other methods of authing should be implemented. Maybe you are the chosen one?
@@ -107,16 +117,13 @@ mira requires you to authenticate via reddit by supplying reddit tokens. Other m
 For authentication, take a look at mira’s readme, we will get to the cream of the crops and actual features.
 </p>
 </div>
-<div class="sect1">
-<h2 id="_basic_reddit">Basic reddit</h2>
-</div>
+<h1 id="basic-reddit" class="section-2">Basic reddit</h1>
 <div class="paragraph">
 <p>
 You can post submissions and submit/reply/edit/delete comments. You can also grab N number of submissions from any subreddit, paginate through them, and other exciting stuff! Below is some basic functionality example.
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-go" data-lang="go">package main
 
 import (
@@ -143,11 +150,8 @@ func main() {
     fmt.Println(newComment.GetBody())
 }</code></pre>
 </div>
-</div>
 
-<div class="sect1">
-<h2 id="_streaming">Streaming</h2>
-</div>
+<h1 id="streaming" class="section-2">Streaming</h1>
 <div class="paragraph">
 <p>
 Streaming Reddit data is probably the most exciting part of using mira and usually the top reason of using any Reddit API wrappers. When you want to run a stream of submissions/comments/replies, mira will give you a channel where it will get populated as new streaming data becomes available.
@@ -159,7 +163,6 @@ Let’s take a quick example of how we can build a reminder bot from <a href="ht
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-go" data-lang="go">package main
 
 import (
@@ -192,7 +195,6 @@ func main() {
         }()
     }
 }</code></pre>
-</div>
 </div>
 <details>
 <summary>on concurrency</summary>
@@ -253,9 +255,7 @@ Similar API is available for other Reddit entities and objects. For example, mir
 The names are very Java like and I hope they are intuitive
 </p>
 </div>
-<div class="sect1">
-<h2 id="_extending_mira">Extending mira</h2>
-</div>
+<h1 id="extending-mira" class="section-2">Extending mira</h1>
 <div class="paragraph">
 <p>
 The library only supports <code>15 endpoints. Reddit has well over 50-60. Mira exposes its caller =Reddit.MiraRequest(httpMethod, endpoint, payload)</code> and http request handler, so you can build your own mira callers and work with them!
@@ -279,7 +279,6 @@ you can lookup <code>checkType(...)</code> in mira’s readme
 </table>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-go" data-lang="go">func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
     ret := &amp;models.CommentWrap{}
     // Second return is type, which is &#34;comment&#34;
@@ -297,6 +296,7 @@ you can lookup <code>checkType(...)</code> in mira’s readme
     return *ret, err
 }</code></pre>
 </div>
+
 </div>
 
 <!-- Footnotes -->

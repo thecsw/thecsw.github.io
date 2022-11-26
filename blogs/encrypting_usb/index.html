@@ -1,3 +1,16 @@
+<!--
+                 ,ae,
+                ,88888e
+ _____   ,a888b.9888888i   _____              _
+(_____)  888888888888888  (____ \            | |
+   _     88888888888888Y   _   \ \ ____  ____| |  _ ____   ____  ___  ___
+  | |    '8888888888888'  | |   | / _  |/ ___) | / )  _ \ / _  )/___)/___)
+ _| |_     "S888888888"   | |__/ ( ( | | |   | |< (| | | ( (/ /|___ |___ |
+(_____)      "7888888Y    |_____/ \_||_|_|   |_| \_)_| |_|\____|___/(___/
+                "e88j
+                  "Y
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +22,14 @@
 <link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/>
 <!-- Meta -->
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" property="generator" content="Darkness">
 <meta name="author" property="author" content="sandy">
 <meta name="date" property="date" content="0; 12000 H.E.">
 <meta name="theme-color" property="theme-color" content="#fffff4">
-<meta name="description" property="description" content="April 11th, 2020..."><meta name="og:title" property="og:title" content="Encrypting your drive with LUKS 🗝">
+<meta name="description" property="description" content="April 11th, 2020...">
+<meta name="og:title" property="og:title" content="Encrypting your drive with LUKS 🗝">
 <meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
 <meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/encrypting_usb">
 <meta name="og:locale" property="og:locale" content="en_GB">
@@ -24,7 +39,8 @@
 <meta name="og:image:type" property="og:image:type" content="image/jpg">
 <meta name="og:image:width" property="og:image:width" content="1280">
 <meta name="og:image:height" property="og:image:height" content="640">
-<meta name="og:description" property="og:description" content="April 11th, 2020..."><meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="og:description" property="og:description" content="April 11th, 2020...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/encrypting_usb/preview.jpg">
@@ -42,20 +58,20 @@
 <title>Encrypting your drive with LUKS 🗝</title>
 </head>
 <!-- Styling -->
-<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
 <link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 <!-- Header -->
 
 <div class="header">
-<h1><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" alt="Top Face" height="112">Encrypting your drive with LUKS 🗝</h1>
-<div class="details">
+<h1 class="section-1"><img id="myface" src="https://sandyuraz.com/najimi.webp" width="112" alt="Top Face" height="112">Encrypting your drive with LUKS 🗝</h1>
+<div class="menu">
 <span id="author" class="author">sandy</span><br>
 <span id="email" class="email">[at] sandyuraz [dot] com</span><br>
 <span id="revdate">
 <a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
 </div>
-<div id="hetime" class="details"></div>
+<div id="hetime" class="menu"></div>
 </div>
 <!-- Content -->
 <div class="writing">
@@ -65,9 +81,7 @@
 April 11th, 2020
 </p>
 </div>
-<div class="sect1">
-<h2 id="_abstract">Abstract</h2>
-</div>
+<h1 id="abstract" class="section-2">Abstract</h1>
 <div class="paragraph">
 <p>
 The Linux Unified Key Setup (LUKS) is a disk encryption specification created by Clemens Fruhwirth in 2004 and was originally intended for Linux. - Wikipedia
@@ -88,9 +102,7 @@ Best way to keep your data safe is on a piece of paper with some ink splattered 
 This is not an exhaustive guide or a full walkthrough of what LUKS is and how it works. Just something to get youstarted. Possible cloud solutions at the end
 </p>
 </div>
-<div class="sect2">
-<h3 id="_preparation">Preparation</h3>
-</div>
+<h2 id="preparation" class="section-3">Preparation</h2>
 <div class="paragraph">
 <p>
 Backup all your data on your thumb drive, because we will need to erase everything from it and rewrite the filesystem tables.
@@ -108,18 +120,14 @@ Backup all your data on your thumb drive, because we will need to erase everythi
 </tr>
 </table>
 </div>
-<div class="sect2">
-<h3 id="_setting_it_up">Setting it up</h3>
-</div>
+<h2 id="setting-it-up" class="section-3">Setting it up</h2>
 <div class="paragraph">
 <p>
 Let <code>/dev/sdb</code> be your USB drive. Be careful, we don’t want to accidentally wipe everything out on your hard drive. Follow the instructions
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code></pre>
-</div>
 </div>
 
 <div class="paragraph">
@@ -128,9 +136,7 @@ Now, let’s open the drive with LUKS and write a filesystem to it. Enter your n
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup open /dev/sdb sdb</code></pre>
-</div>
 </div>
 
 <div class="paragraph">
@@ -139,23 +145,17 @@ Now we got access to the drive, let’s write your favorite filesystem, I’ll g
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% mkfs.ext4 /dev/mapper/sdb</code></pre>
 </div>
-</div>
 
-<div class="sect2">
-<h3 id="_mounting_the_drive">Mounting the drive</h3>
-</div>
+<h2 id="mounting-the-drive" class="section-3">Mounting the drive</h2>
 <div class="paragraph">
 <p>
 Let’s write something to the drive. <code>/mnt/flash</code> is some mounting target
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% mount /dev/mapper/sdb /mnt/flash</code></pre>
-</div>
 </div>
 
 <div class="paragraph">
@@ -164,11 +164,9 @@ That’s it, you have access now
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% cd /mnt/flash
 % touch man
 % echo cat &gt; fish</code></pre>
-</div>
 </div>
 
 <div class="paragraph">
@@ -177,33 +175,27 @@ After we’re done, do the usual thing by unmounting it
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% umount /mnt/flash</code></pre>
 </div>
-</div>
 
-<div class="sect2">
-<h3 id="_closeluks">closeLUKS</h3>
-</div>
+<h2 id="closeluks" class="section-3">closeLUKS</h2>
 <div class="paragraph">
 <p>
 Don’t forget we have to close the LUKS drive and dump the encryption details
 </p>
 </div>
 <div class="listingblock">
-<div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">% cryptsetup close sdb</code></pre>
 </div>
-</div>
 
-<div class="sect2">
-<h3 id="_closing_thoughts">Closing thoughts</h3>
-</div>
+<h2 id="closing-thoughts" class="section-3">Closing thoughts</h2>
 <div class="paragraph">
 <p>
 Voilà! You now have fully encrypted and secure drive. Next time, just don’t forget the sequence of cryptopen, mount, ???, unmount, and cryptclose. If you are looking for trusty cloud solutions, try out <a href="https://keybase.io/">Keybase</a>. It’s a great e2e service for all your needs <b style="color:#ba3925">◼︎</b>
 </p>
 </div>
+</div>
+
 <!-- Footnotes -->
 
 </body>
