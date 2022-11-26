@@ -41,12 +41,13 @@ Darkness supports a vast array of features and cool tricks, such as
 - Smart headings (laid out and shifted as needed)
 - Paragraphs with full [[https://orgmode.org/worg/dev/org-syntax.html][orgmode-style formatting]]
 - Lists with any text and breaking lines
-- Good placement of images and their captions
+- Intelligent placement of images and their captions
 - Orgmode environments, like =quote= and =center=
 - Embed support for: youtube, Spotify, video, audio, etc.
 - Raw HTML placement and export within the page
 - Orgmode interactive tables support
 - Stylistic features, like dropcaps
+- Native support for image galleries
 - Source code blocks with language selection
 - Full math render support with [[https://katex.org][KaTeX]]
 - Smart Holocene time annotations and layovers
@@ -58,16 +59,16 @@ Darkness supports a vast array of features and cool tricks, such as
 ** Not only noble but also super fast
 
 Darkness is also lightning fast! With the old pipeline, it would take around
-8-10 seconds to build my website. Darkness *only takes ~100ms* to do the same,
-with IO and memory syscall times included. This is why [[https://sandyuraz.com/blogs/pprof/][profiling should be your
-friend.]] She uses some cool parallelization tricks, so we spend around 1ms on 
-each page. Pretty cool if you ask me. The fastest (though admittedly larger)
-static website generators took a bit more time in my experience.
+15-20 seconds to build my website. Darkness *only takes ~120ms* to do the same,
+with IO and memory syscall times included.[fn:: Tested on my macOS 13.0.1 22A400 arm64]
+This is why [[https://sandyuraz.com/blogs/pprof/][profiling should be your friend.]] She uses some cool parallelization
+tricks, so we spend around 1ms on each page. Pretty cool if you ask me. The
+fastest (though admittedly larger) static website generators took a bit more
+time in my experience.
 
 #+begin_src sh
   sandyuraz:source* λ darkness build
-  Looking for files... found 83 in 23 ms
-  Building and flushing... done in 65 ms
+  Processed in 127 ms
   farewell
 #+end_src
 

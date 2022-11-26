@@ -50,8 +50,8 @@
 <!-- Scripts -->
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
-<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
 <script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
 <script>hljs.highlightAll();</script>
 <!-- Extra -->
 
@@ -151,7 +151,7 @@ Lists with any text and breaking lines
 
 <li>
 <p>
-Good placement of images and their captions
+Intelligent placement of images and their captions
 </p>
 </li>
 
@@ -182,6 +182,12 @@ Orgmode interactive tables support
 <li>
 <p>
 Stylistic features, like dropcaps
+</p>
+</li>
+
+<li>
+<p>
+Native support for image galleries
 </p>
 </li>
 
@@ -232,13 +238,14 @@ Open-source code, PRs, and contributions are welcome!
 <h1 id="not-only-noble-but-also-super-fast" class="section-2">Not only noble but also super fast</h1>
 <div class="paragraph">
 <p>
-Darkness is also lightning fast! With the old pipeline, it would take around 8-10 seconds to build my website. Darkness <strong>only takes ~100ms</strong> to do the same, with IO and memory syscall times included. This is why <a href="https://sandyuraz.com/blogs/pprof/">profiling should be your friend.</a> She uses some cool parallelization tricks, so we spend around 1ms on each page. Pretty cool if you ask me. The fastest (though admittedly larger) static website generators took a bit more time in my experience.
+Darkness is also lightning fast! With the old pipeline, it would take around 15-20 seconds to build my website. Darkness <strong>only takes ~120ms</strong> to do the same, with IO and memory syscall times included.
+<sup class="footnote"><a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">I</a></sup>
+This is why <a href="https://sandyuraz.com/blogs/pprof/">profiling should be your friend.</a> She uses some cool parallelization tricks, so we spend around 1ms on each page. Pretty cool if you ask me. The fastest (though admittedly larger) static website generators took a bit more time in my experience.
 </p>
 </div>
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">sandyuraz:source* λ darkness build
-Looking for files... found 83 in 23 ms
-Building and flushing... done in 65 ms
+Processed in 127 ms
 farewell</code></pre>
 </div>
 
@@ -306,6 +313,16 @@ Her name is based on one of the characters I love from <a href="https://en.wikip
 </div>
 
 <!-- Footnotes -->
+
+<div id="footnotes">
+<hr>
+
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">I</a>
+Tested on my macOS 13.0.1 22A400 arm64
+</div>
+
+</div>
 
 </body>
 </html>
