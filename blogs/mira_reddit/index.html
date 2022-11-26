@@ -50,12 +50,10 @@
 <!-- Scripts -->
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/go.min.js"></script>
 <script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
-<script src="https://sandyuraz.com/scripts/highlight/languages/bash.min.js"></script>
-<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
-<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
-<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
 <!-- Extra -->
 
 <!-- Title -->
@@ -128,7 +126,7 @@ You can post submissions and submit/reply/edit/delete comments. You can also gra
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-plaintext" data-lang="go">package main
+<pre class="highlight"><code class="language-go" data-lang="go">package main
 
 import (
     &#34;fmt&#34;
@@ -167,7 +165,7 @@ Let’s take a quick example of how we can build a reminder bot from <a href="ht
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-plaintext" data-lang="go">package main
+<pre class="highlight"><code class="language-go" data-lang="go">package main
 
 import (
     &#34;strings&#34;
@@ -283,7 +281,7 @@ you can lookup <code>checkType(...)</code> in mira’s readme
 </table>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-plaintext" data-lang="go">func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
+<pre class="highlight"><code class="language-go" data-lang="go">func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
     ret := &amp;models.CommentWrap{}
     // Second return is type, which is &#34;comment&#34;
     name, _, err := c.checkType(&#34;comment&#34;)
