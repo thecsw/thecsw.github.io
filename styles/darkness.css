@@ -288,7 +288,7 @@ a:not(.image):hover {
 
 @media all and (max-width: 640px) {
         .section-1 {
-                font-size: 3rem;
+                font-size: 2.7rem;
         }
 }
 
