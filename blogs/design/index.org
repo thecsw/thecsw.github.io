@@ -130,3 +130,12 @@ fresh spring air in the morning. New previews, new emojis, new building
 pipeline, new interests, new people, and new adventures! Life is indeed grand.
 
 [[darkness.webp][I love Darkness]]
+
+NOTE: The website went through a small but significant design update, like a
+fully re-written CSS, reader-friendly DOM layout, simpler HTML structure, and
+more!
+
+** New links
+
+I loved the website and link design of [[https://asteriskmag.com/][Asterisk]] journal. Moving away from a full
+block-ish links, the links now are nice to look an click at. 
