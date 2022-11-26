@@ -612,6 +612,7 @@ https://www.codespeedy.com/make-youtube-embed-video-responsive-using-css/
  └───────────────────────────────┘ */
 
 table {
+        display: table;
         font-size: var(--table-size);
         word-wrap: break-word;
         border-collapse: collapse;
@@ -687,7 +688,7 @@ pre pre {
 }
 
 .listingblock code {
-    font-size: 75%;
+        font-size: 75%;
 }
 
 @media all and (max-width: 768px) {
@@ -695,12 +696,6 @@ pre pre {
                 font-size: 65%;
         }
 }
-
-/* @media all and (max-width: 505px) { */
-/*         .listingblock { */
-/*                 font-size: 0.85rem; */
-/*         } */
-/* } */
 
 /*
  +-------------------------------------------------+
