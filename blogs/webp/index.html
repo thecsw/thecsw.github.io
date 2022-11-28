@@ -84,13 +84,13 @@
 </div>
 <div class="paragraph">
 <p>
-<strong>Update:</strong> hi, this page got a <a href="https://news.ycombinator.com/item?id=31010659">little traction</a> on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, <a href="https://caniuse.com/avif">AVIF</a> (69.25%) and <a href="https://caniuse.com/jpegxl">JPEG XL</a> (0%) are not as nearly adopted as <a href="https://caniuse.com/webp">WebP</a> is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released after 2013.
+<strong>Update:</strong> hi, this page got a <a href="https://news.ycombinator.com/item?id=31010659" title="">little traction</a> on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, <a href="https://caniuse.com/avif" title="">AVIF</a> (69.25%) and <a href="https://caniuse.com/jpegxl" title="">JPEG XL</a> (0%) are not as nearly adopted as <a href="https://caniuse.com/webp" title="">WebP</a> is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released after 2013.
 </p>
 </div>
 <h1 id="motivation" class="section-2">Motivation</h1>
 <div class="paragraph">
 <p>
-I have been toying around with <a href="https://en.wikipedia.org/wiki/WebP">WebP</a> for a couple of weeks now. Convert this image into webp and try to use it instead of traditional png. It was pretty crazy for me to see an up to 10x image size reduction, yet very little to no visual difference with a naked human eye.
+I have been toying around with <a href="https://en.wikipedia.org/wiki/WebP" title="">WebP</a> for a couple of weeks now. Convert this image into webp and try to use it instead of traditional png. It was pretty crazy for me to see an up to 10x image size reduction, yet very little to no visual difference with a naked human eye.
 </p>
 </div>
 <div class="paragraph">
@@ -100,7 +100,7 @@ Some further reading led me to some pleasant discoveries, such as lossy and loss
 </div>
 <div class="paragraph">
 <p>
-This is truly some state-of-the-art stuff. Even as claiming an average of 45% reduction in file size with wild PNGs found on the web and a 28% reduction compared to PNGs that are recompressed with <a href="https://en.wikipedia.org/wiki/Pngcrush">pngcrush</a> and <a href="https://en.wikipedia.org/wiki/PNGOUT">PNGOUT</a>.
+This is truly some state-of-the-art stuff. Even as claiming an average of 45% reduction in file size with wild PNGs found on the web and a 28% reduction compared to PNGs that are recompressed with <a href="https://en.wikipedia.org/wiki/Pngcrush" title="">pngcrush</a> and <a href="https://en.wikipedia.org/wiki/PNGOUT" title="">PNGOUT</a>.
 <sup class="footnote"><a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">I</a></sup>
 I should try this now!
 </p>
@@ -108,7 +108,7 @@ I should try this now!
 <h1 id="the-migration" class="section-2">The migration</h1>
 <div class="paragraph">
 <p>
-The process of moving from PNG to WebP was painless. I rigged a quick <code>find</code> and <code>sed</code> script to go through all my directories and convert images with <a href="https://imagemagick.org">ImageMagick</a>. Another quick regex to find corresponding file links and references in org files, and replace them with anew webp format. It all took no more than 15 to 20 minutes. I talked to Darkness to <a href="https://github.com/thecsw/darkness/commit/85a89d871bcb272b9c2b7b36d02af67132dac834">support variable preview files</a> aaaannd <strong>push!</strong>
+The process of moving from PNG to WebP was painless. I rigged a quick <code>find</code> and <code>sed</code> script to go through all my directories and convert images with <a href="https://imagemagick.org" title="">ImageMagick</a>. Another quick regex to find corresponding file links and references in org files, and replace them with anew webp format. It all took no more than 15 to 20 minutes. I talked to Darkness to <a href="https://github.com/thecsw/darkness/commit/85a89d871bcb272b9c2b7b36d02af67132dac834" title="">support variable preview files</a> aaaannd <strong>push!</strong>
 </p>
 </div>
 <div class="paragraph">
@@ -130,7 +130,7 @@ Wow, <em>it just works</em>. Even GitHub Pages deploys it in about halftime now.
 <h1 id="example" class="section-2">Example?</h1>
 <div class="paragraph">
 <p>
-Let’s try to grab a picture in PNG format, convert it to WebP and see how the file size and image quality differ between those two. I’ll have both examples from an amazing photographer <a href="https://mobile.twitter.com/shnimohus">@shnimohus</a>, whose shots <strong>I absolutely adore</strong>.
+Let’s try to grab a picture in PNG format, convert it to WebP and see how the file size and image quality differ between those two. I’ll have both examples from an amazing photographer <a href="https://mobile.twitter.com/shnimohus" title="">@shnimohus</a>, whose shots <strong>I absolutely adore</strong>.
 </p>
 </div>
 <div class="paragraph">
@@ -159,7 +159,7 @@ Here is a shot of a bus stop in PNG, weighing at around 2.4MB
 </div></div>
 
 <div class="media">
-<a class="image" href="booth.png"><img class="image" src="booth.png" alt="This is the PNG version"></a>
+<a class="image" href="booth.png"><img class="image" src="booth.png" title="This is the PNG version" alt="This is the PNG version"></a>
 <div class="title">This is the PNG version</div>
 <hr>
 </div><div class="writing">
@@ -171,7 +171,7 @@ As a comparison, here is the WebP generated from it, which is only about 258KB
 </div></div>
 
 <div class="media">
-<a class="image" href="booth.webp"><img class="image" src="booth.webp" alt="This is the WebP version"></a>
+<a class="image" href="booth.webp"><img class="image" src="booth.webp" title="This is the WebP version" alt="This is the WebP version"></a>
 <div class="title">This is the WebP version</div>
 <hr>
 </div><div class="writing">
@@ -188,7 +188,7 @@ Here is one more example!
 </div></div>
 
 <div class="media">
-<a class="image" href="town.png"><img class="image" src="town.png" alt="This PNG is around 3.9MB"></a>
+<a class="image" href="town.png"><img class="image" src="town.png" title="This PNG is around 3.9MB" alt="This PNG is around 3.9MB"></a>
 <div class="title">This PNG is around 3.9MB</div>
 <hr>
 </div><div class="writing">
@@ -200,7 +200,7 @@ With its counterpart generated with <code>convert town.png town.webp</code>
 </div></div>
 
 <div class="media">
-<a class="image" href="town.webp"><img class="image" src="town.webp" alt="This WebP is only around 462KB"></a>
+<a class="image" href="town.webp"><img class="image" src="town.webp" title="This WebP is only around 462KB" alt="This WebP is only around 462KB"></a>
 <div class="title">This WebP is only around 462KB</div>
 <hr>
 </div><div class="writing">
@@ -224,7 +224,7 @@ Thank you! <b style="color:#ba3925">◼︎</b>
 
 <div class="footnote" id="_footnotedef_1">
 <a href="#_footnoteref_1">I</a>
-<a href="http://googlecode.blogspot.com/2011/11/lossless-and-transparency-encoding-in.html">Lossless and transparency encoding in WebP</a>
+<a href="http://googlecode.blogspot.com/2011/11/lossless-and-transparency-encoding-in.html" title="">Lossless and transparency encoding in WebP</a>
 </div>
 
 </div>
