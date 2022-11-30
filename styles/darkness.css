@@ -380,6 +380,7 @@ a:not(.image):hover {
 
 .gallery {
         max-width: 100%;
+        min-width: 1px;
         width: var(--gallery-width);
         display: flex;
         flex-direction: row;
@@ -395,7 +396,21 @@ a:not(.image):hover {
 .item {
         flex: 1;
         flex-grow: 0;
+        width: 1%;
+        height: 1%;
         transition: all 0.2s ease-in-out;
+}
+
+.flex-2 {
+        flex-basis: 50%;
+}
+
+.flex-3 {
+        flex-basis: 33%;
+}
+
+.flex-4 {
+        flex-basis: 25%;
 }
 
 .item:hover {
@@ -407,7 +422,7 @@ a:not(.image):hover {
                 width: 100%;
         }
         .item {
-                flex-basis: 50%;
+            flex-basis: 50%;
         }
 }
 
