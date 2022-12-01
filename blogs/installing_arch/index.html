@@ -47,6 +47,9 @@
 <meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/installing_arch">
 <meta name="twitter:title" property="twitter:title" content="Installing glorious arch linux ☄️">
 <meta name="twitter:description" property="twitter:description" content="May 2nd, 2019...">
+<!-- Styling -->
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <!-- Scripts -->
 <script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
@@ -58,9 +61,6 @@
 <!-- Title -->
 <title>Installing glorious arch linux ☄️</title>
 </head>
-<!-- Styling -->
-<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
-<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css">
 <body class="article">
 <!-- Header -->
 
@@ -451,7 +451,7 @@ Change your default root password <code>% passwd</code>
 
 <li>
 <p>
-Add new users <code>% useradd -m -G wheel -s /usr/bin/bash _user_</code>
+Add new users <code>% useradd -m -G wheel -s /usr/bin/bash <u>user</u></code>
 </p>
 </li>
 
@@ -463,7 +463,7 @@ Set the sudo access by uncommenting <code>%wheel ALL = (ALL) ALL</code> when run
 
 <li>
 <p>
-Changing the /user/’s password <code>% passwd _user_</code>
+Changing the /user/’s password <code>% passwd <u>user</u></code>
 </p>
 </li>
 </ul>
@@ -580,7 +580,7 @@ Run this to install a package <code>% sudo pacman -S <u>package_name</u></code>
 
 <li>
 <p>
-Remove a package from your system <code>% sudo pacman -Rs <u>package_name</u></code>
+Remove a package from your system <code>% sudo pacman -Rs _package_name_</code>
 </p>
 </li>
 
