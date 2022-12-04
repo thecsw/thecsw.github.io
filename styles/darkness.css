@@ -388,7 +388,7 @@ a:not(.image):hover {
         justify-content: center;
         align-content: flex-start;
         align-items: center;
-        gap: 0px;
+        gap: 5px;
         margin-top: 2rem;
         margin-bottom: 2rem;
 }
@@ -402,23 +402,23 @@ a:not(.image):hover {
 }
 
 .flex-1 {
-        flex-basis: 100%;
+        flex-basis: 99%;
 }
 
 .flex-2 {
-        flex-basis: 50%;
+        flex-basis: 49%;
 }
 
 .flex-3 {
-        flex-basis: 33%;
+        flex-basis: 32%;
 }
 
 .flex-4 {
-        flex-basis: 25%;
+        flex-basis: 24%;
 }
 
 .flex-5 {
-        flex-basis: 20%;
+        flex-basis: 19%;
 }
 
 .item:hover {
@@ -428,16 +428,24 @@ a:not(.image):hover {
 @media all and (max-width: 900px) {
         .gallery {
                 width: 100%;
+                gap: 2px;
+        }
+        .flex-2 {
+                flex-basis: 99%;
         }
         .flex-3 {
-            flex-basis: 50%;
+                flex-basis: 49%;
         }
         .flex-4 {
-            flex-basis: 33%;
+                flex-basis: 32%;
         }
         .flex-5 {
-            flex-basis: 25%;
+                flex-basis: 24%;
         }
+}
+
+.gallery-container + .gallery-container {
+        margin-top: -1.2rem;
 }
 
 /*
