@@ -116,7 +116,7 @@ Open the <a href="https://www.archlinux.org/" title="">Arch Linux Official Websi
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="sh">% sudo dd if=/path/to/image.iso of=/dev/your_drive</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">% mkfs.ext4 /dev/sda3</code></pre>
 </div>
 
 <div class="admonitionblock note">
@@ -158,7 +158,11 @@ Just plug in your flash drive and power on/reboot your device. + Now, you will s
 </p>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="sh">% root@archios</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">/boot/loader/loader.conf
+------------------------
+default Arch(arch)
+timeout 4
+editor 0</code></pre>
 </div>
 
 <div class="admonitionblock note">
@@ -174,7 +178,8 @@ If you see a bunch of files when running the command below, then everything is [
 </table>
 </div>
 <div class="listingblock">
-<pre class="highlight"><code class="language-bash" data-lang="sh">% ls /sys/firmware/efi/efivars</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="sh">Arch Linux (tty1)
+_myhostname_ login:</code></pre>
 </div>
 
 <div class="admonitionblock note">
@@ -451,7 +456,7 @@ Change your default root password <code>% passwd</code>
 
 <li>
 <p>
-Add new users <code>% useradd -m -G wheel -s /usr/bin/bash <u>user</u></code>
+Add new users <code>% useradd -m -G wheel -s /usr/bin/bash _user_</code>
 </p>
 </li>
 
@@ -463,7 +468,7 @@ Set the sudo access by uncommenting <code>%wheel ALL = (ALL) ALL</code> when run
 
 <li>
 <p>
-Changing the /user/’s password <code>% passwd <u>user</u></code>
+Changing the /user/’s password <code>% passwd _user_</code>
 </p>
 </li>
 </ul>
@@ -574,7 +579,7 @@ I hope you enjoyed this installation guide. After the last step, you should be a
 
 <li>
 <p>
-Run this to install a package <code>% sudo pacman -S <u>package_name</u></code>
+Run this to install a package <code>% sudo pacman -S _package_name_</code>
 </p>
 </li>
 

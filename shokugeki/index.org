@@ -1,9 +1,9 @@
 * Cooking together 🍜
 
 I get excited at the idea that there are still flavors to discover. Find spices
-to our techniques. Most of all — cooking needs freedom.... 
+to our techniques. Most of all — cooking needs freedom!
 
-#+begin_gallery cooks
+#+begin_gallery :path cooks :num -5
 - [[miso_cookies2.jpeg][Fresh miso cookies "they look especially good when they are straight out of the oven"]]
 - [[miso_cookies.jpeg][Miso cookies "one night, I made 96 miso cookies -- it was so much fun :)"]]
 - [[dorayaki.jpg][Dorayaki "made some classic red bean paste filled dorayaki -- delicious"]]

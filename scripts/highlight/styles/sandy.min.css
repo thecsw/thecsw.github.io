@@ -12,7 +12,7 @@ code.hljs {
 }
 .hljs-comment,
 .hljs-quote {
-        color: #2aa198;
+        color: #21817a;
         font-style: italic;
 }
 .hljs-doctag,
@@ -41,7 +41,7 @@ code.hljs {
 .hljs-meta .hljs-string,
 .hljs-regexp,
 .hljs-string {
-        color: #46942B;
+        color: #3a7e24;
 }
 .hljs-attr,
 .hljs-number,
@@ -67,7 +67,7 @@ code.hljs {
 .hljs-built_in,
 .hljs-class .hljs-title,
 .hljs-title.class_ {
-        color: #27a198;
+        color: #1f817a;
 }
 .hljs-emphasis {
         font-style: italic;
