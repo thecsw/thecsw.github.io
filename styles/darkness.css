@@ -52,7 +52,7 @@
         --table-size: 1.2rem;
         --details-size: 1.15rem;
         --footnote-size: 1rem;
-        --math-size: 100%;
+        --math-size: 1.37rem;
         /* Colors, duh */
         --color-text: #3a1616;
         --color-header: #c31585;
@@ -93,7 +93,7 @@
         margin-bottom: 3rem;
 }
 
-.katex {
+.katex-html {
         font-size: var(--math-size);
 }
 
@@ -780,6 +780,12 @@ pre pre {
 #footnotes {
         padding-top: 0.75rem;
         margin-left: 4rem;
+}
+
+@media all and (max-width: 900px) {
+        #footnotes {
+                margin-left: 1rem;
+        }
 }
 
 #footnotes .footnote {
