@@ -1,0 +1,62 @@
+* My Spotify Wrapped for 2022 👩‍🎤
+
+338; 12022 H.E.
+
+Well, well, well, here we are again! [[https://sandyuraz.com/blogs/wrapped/][/Almost a year later./]] World goes round,
+chaos happens, but we all patiently await for when Spotify drops [[https://www.spotify.com/us/wrapped/][new Wrapped]].
+To get sentimental just for one fleeting moment -- this was a tough year with
+its many downs and thankfully, many more ups. Let us see what music got us
+through those trying times!
+
+First and foremost, I found out that my top genres this year were: /Anime/,
+/Japanese VGM/ (ahh, /Persona/!), /Otacore/, /J-Rock/, and /J-Pop/. Logically, my number
+one song and artist that I listened the living vibes out of were of course
+/Beneath the Mask/ and /Lyn/, respectively.
+
+[[https://open.spotify.com/track/5XLXrm5JVMdOus1fWmTOFw?si=6d164e8764be44a5][Beneath the Mask]]
+
+#+begin_gallery :path pics :num 3
+- [[genres.jpeg][My Top Genres "I'm such a weakling for all of my favorite shows"]]
+- [[song.jpeg][My Top Song "I can listen to Beneath the Mask until the end of time"]]
+- [[artist.jpeg][My Top Artist "Lyn put out some fire out there with Persona 5"]]
+#+end_gallery
+
+This paints a very particular picture about a person. All I do >95% of the time
+is listen to my custom playlist, [[https://open.spotify.com/playlist/6P7ksZ5uGpVp4qq9gDhFlj?si=60febde8005a4e8f][/amelia/]].
+
+On a similar note, if we collect it a bit more, my top songs also include: /One
+Last Kiss/ (I absolutely *love* Eva 3+1), /Deal with the devil/ (well, what can I say
+-- *I am a gambling man*), /D City Rock/ (/PSG/ would never let you down), and finally,
+/Beautiful Day/ ([[https://sandyuraz.com/anime/banished/][a great callback]]).
+
+On the artists side of things, it looks a bit funny, but the first two are all
+Persona 5, followed by /Eir Aoi/ (who dominates [[https://sandyuraz.com/anime/sao/][SAO]] openings), then the brilliant
+/DECO*27/ (who for me, reinvented Hatsune Miku with the [[https://youtu.be/-H2PCK7DJsQ][best cup noodles
+commercial]]), finally, closing in with /TeddyLoid/ (everything [[https://open.spotify.com/album/1OcPnTk7T4fgB8nkl4AOh6?si=B24XpcO1QIaR0k-6JfBklw][/PSG]]/, [[https://open.spotify.com/track/4MxL1VijbxrUGBu39TgzMY?si=db6a18f8bf4744d6][/Pipo
+Password/]], and [[https://open.spotify.com/track/3JkwzHI9Oe3TVl2sYhOHQP?si=5ba5f6e1b90c4485][other classics]]).
+
+All of this amounted to *whopping* 22,121 minutes of active minutes listened! This
+is just shy of 369 hours (/nice/) and a bit more than 15 days. I like fact that I
+spent around 4% of the year listening to Spotify (many more songs were on other
+platforms as well or /other means/).
+
+#+begin_gallery :path pics :num 3
+- [[minutes.jpeg][My Minutes Listened "some of my friends had 60k+, like what????"]]
+- [[songs.jpeg][My Top Songs "this is such a faithful collection of my favorite songs"]]
+- [[artists.jpeg][My Top Artists "the funny joke can be made here is that I never played any Persona"]]
+#+end_gallery
+
+Last but not least, I like that Spotify creates a "personality" profile for you
+based on everything it has just shown you. If I look at what it gave me above,
+it looks like this person /maybe likes anime/. Unclear.
+
+Withouth further adieu -- those are pretty self-explanatory. Please find the top
+selection of this Wrapped below! /Until next time./
+
+[[https://open.spotify.com/playlist/0AmXSAYsAcufJ7oIiEsVZw?si=8bb44a0b3bd14962][Best of 12022]]
+
+#+begin_gallery :path pics :num 3
+- [[day.jpeg][My Audio Day "I'm just a chill person, apparently -- yay"]]
+- [[personality.jpeg][My Listening Personality "let me have my comfort songs and let it be it"]]
+- [[summary.jpeg][Summary "this music did get me through this year -- thank you"]]
+#+end_gallery

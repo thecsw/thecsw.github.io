@@ -9,8 +9,5 @@ and a *lot* of patience. But hey, looks great in my living room!
 #+begin_gallery :num 2 :path .
 - [[adam1.jpeg][View from the right "I don't know why colors are so off from the second one"]]
 - [[adam2.jpeg][View from the left "it looks so vibrant here also *majestic*"]]
-#+end_gallery
-
-#+begin_gallery :num 1 :path .
-- [[adam3.jpeg][Biblical]]
+- [[adam3.jpeg][Biblical]] :flex 1
 #+end_gallery
