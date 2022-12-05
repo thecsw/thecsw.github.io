@@ -36,9 +36,9 @@ commercial]]), finally, closing in with /TeddyLoid/ (everything [[https://open.s
 Password/]], and [[https://open.spotify.com/track/3JkwzHI9Oe3TVl2sYhOHQP?si=5ba5f6e1b90c4485][other classics]]).
 
 All of this amounted to *whopping* 22,121 minutes of active minutes listened! This
-is just shy of 369 hours (/nice/) and a bit more than 15 days. I like fact that I
-spent around 4% of the year listening to Spotify (many more songs were on other
-platforms as well or /other means/).
+is just shy of 369 hours (/nice/) and a bit more than 15 days. I like the fact
+that I spent around 4% of the year listening to Spotify (many more songs were on
+other platforms as well or /other means/).
 
 #+begin_gallery :path pics :num 3
 - [[minutes.jpeg][My Minutes Listened "some of my friends had 60k+, like what????"]]
