@@ -30,7 +30,7 @@
         --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
         --paragraph-size: 1.3rem;
-        --paragraph-width: 590px;
+        --paragraph-width: 36.875rem;
         --paragraph-width-max: 100%;
         --paragraph-line-height: 2.3rem;
         --paragraph-font-weight: 500;
@@ -39,16 +39,16 @@
         --code-size: 0.95rem;
         --code-text-rendering: optimizeSpeed;
         --code-line-height: 1.2rem;
-        --header-width: 740px;
+        --header-width: 46.25rem;
         --header-width-max: 100%;
         --header-font-weight: 500;
         --header-text-rendering: antialiased;
         --subtitle-size: 1.37rem;
         --quote-size: 1.2rem;
         --quote-line-height: 1.6rem;
-        --quote-width: 550px;
-        --media-width: 690px;
-        --gallery-width: 98%;
+        --quote-width: 34.375rem;
+        --media-width: 43.125rem;
+        --gallery-width: 99%;
         --table-size: 1.2rem;
         --details-size: 1.15rem;
         --footnote-size: 1rem;
@@ -388,9 +388,13 @@ a:not(.image):hover {
         justify-content: center;
         align-content: flex-start;
         align-items: center;
-        gap: 5px;
+        gap: 4px;
         margin-top: 2rem;
         margin-bottom: 2rem;
+}
+
+.no-gap {
+        gap: 0;
 }
 
 .item {
@@ -401,24 +405,32 @@ a:not(.image):hover {
         transition: all 0.2s ease-in-out;
 }
 
+:root {
+        --flex-one: 99%;
+        --flex-two: 49%;
+        --flex-three: 32%;
+        --flex-four: 24%;
+        --flex-five: 19%;
+}
+
 .flex-1 {
-        flex-basis: 99%;
+        flex-basis: var(--flex-one);
 }
 
 .flex-2 {
-        flex-basis: 49%;
+        flex-basis: var(--flex-two);
 }
 
 .flex-3 {
-        flex-basis: 32%;
+        flex-basis: var(--flex-three);
 }
 
 .flex-4 {
-        flex-basis: 24%;
+        flex-basis: var(--flex-four);
 }
 
 .flex-5 {
-        flex-basis: 19%;
+        flex-basis: var(--flex-five);
 }
 
 .item:hover {
@@ -430,17 +442,20 @@ a:not(.image):hover {
                 width: 100%;
                 gap: 2px;
         }
+        .no-gap {
+                gap: 0;
+        }
         .flex-2 {
-                flex-basis: 99%;
+                flex-basis: var(--flex-one);
         }
         .flex-3 {
-                flex-basis: 49%;
+                flex-basis: var(--flex-two);
         }
         .flex-4 {
-                flex-basis: 32%;
+                flex-basis: var(--flex-three);
         }
         .flex-5 {
-                flex-basis: 24%;
+                flex-basis: var(--flex-four);
         }
 }
 
@@ -494,9 +509,12 @@ details[open] {
  └────────────────────────────────────────┘ */
 
 #myface {
+        height: 7rem;
+        width: 7rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-bottom: 0.2rem;
 }
 
 /*
