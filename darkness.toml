@@ -48,3 +48,4 @@ title = "Fortunes 🧧"
 [navigation.4]
 link = ""
 title = "Home 🏠"
+hide = "."
