@@ -233,10 +233,14 @@ If you are using one of the bigger Linux distributions (Ubuntu, Fedora, Debian, 
 <p>
 If you do not have it installed, you can run <code>% sudo pacman -S offlineimap</code> on Arch Linux to install it or use python package manager <a href="https://pypi.org/project/pip/" title="">pip</a> to install it.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% pip install --user offlineimap</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -248,7 +252,9 @@ That should get you a fresh copy of <code>offlineimap</code>.
 <p>
 <code>offlineimap</code> as a UNIX application, uses a configuration file, conveniently called <code>.offlineimaprc</code>. To make things easier, touch the file in your home directory or open your favorite tex editor, <em>emacs</em>, and write down the following:
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-plaintext" data-lang="">~/.offlineimaprc
 ----------------
@@ -275,10 +281,12 @@ ssl = yes
 realdelete = no
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
-This config file just gives us some details about how to contact the IMAP server and how to save it. <code>_mymail_</code> is any name of your choice. For my university mail, I have it named <code>kumail</code>, feel free to name it whatever name is convenient for you.
+This config file just gives us some details about how to contact the IMAP server and how to save it. <code><u>mymail</u></code> is any name of your choice. For my university mail, I have it named <code>kumail</code>, feel free to name it whatever name is convenient for you.
 </p>
 </div>
 <div class="paragraph">
@@ -291,10 +299,14 @@ Local Repository gives info where it store all our email data, that would be <co
 <p>
 Just run the command below to synchronize your email server and your local mailbox.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% offlineimap</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -317,10 +329,14 @@ So far, we talked about <code>Mutt</code>, but there is also a fork of it (same 
 <p>
 Installation of <code>NeoMutt</code> is super straight forward. Just pick your favorite flavor of Linux and install a package called <code>neomutt</code>. For Arch Linux, it just would be
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% sudo pacman -S neomutt</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -338,7 +354,9 @@ For the sake of brevity, I will brake down the configuration into multiple chunk
 <p>
 Just to get you started, the drill is the same as the last time, but now it would be called <code>~/.muttrc</code> The config file has a lot of different entries, so to keep it short, I will include the config file and it will be an exercise for the reader to get the meaning of the entries (this will be simple, I promise).
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-plaintext" data-lang=""># This should go to ~/.muttrc
 # Set up all the folders
@@ -405,6 +423,8 @@ set rfc2047_parameters = yes
 set date_format=&#34;%m-%d-%y %T&#34;
 set index_format=&#34;%2C | %Z [%d] %-30.30F (%-4.4c) %s&#34;# -*-muttrc-*-</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -428,10 +448,14 @@ We will make you a pair of your own encryption keys to store your password in a 
 <p>
 The following command will get you through everything
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% gpg --gen-key</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -458,7 +482,7 @@ Put a space before the command so your system will not save your plain text pass
 </div>
 <div class="paragraph">
 <p>
-Encrypt the file with <code>% gpg -r <u>my_email</u> -e ~/.mutt/mypass</code>, where <code>_my_email_</code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
+Encrypt the file with <code>% gpg -r <u>my_email</u> -e ~/.mutt/mypass</code>, where <code><u>my_email</u></code> is the email address you used when you created your key. You will have a new file called <code>mypass.gpg</code> that is your actual encrypted password.
 </p>
 </div>
 <div class="paragraph">
@@ -487,7 +511,9 @@ Now, you can get rid of the plain text password from your <code>~/.muttrc</code>
 <p>
 Make your signature in the <code>~/.mutt/mysig.sig</code>, for example
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-plaintext" data-lang="">~/.mutt/mysig.sig
 -----------------
@@ -496,6 +522,8 @@ Jack Bauer
 Director of C.T.U.
 Don&#39;t call me</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>

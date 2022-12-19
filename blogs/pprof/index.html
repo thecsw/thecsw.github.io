@@ -107,7 +107,9 @@ You can profile in any language with nice flames and stuff. There are <a href="h
 <p>
 How do you use it? Just paste in the line below into your <code>main</code> function on its first line. Build it, run it.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">  import &#34;github.com/pkg/profile&#34;
 
@@ -118,15 +120,21 @@ How do you use it? Just paste in the line below into your <code>main</code> func
           // all of your good stuff
   }</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
 You’ll have a new file in your current directory named <code>cpu.pprof</code>. Use go’s toolchain to get a pretty visualization of everything your program did during its lifetime with the command below
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">  go tool pprof -http=:8080 cpu.pprof</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -149,7 +157,9 @@ You can see that darkness spends most of its time in <code>ExportPage</code>, as
 <p>
 You can also profile memory allocations and spot places where it might be beneficial for you to pre-allocate some space and use it continuously, instead of constantly pinging the OS and demanding more pages. It’s the same as the CPU example above, just replace it with the following, which will create a <code>mem.pprof</code>, where you can use the same <code>go tool pprof</code> on it
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">  import &#34;github.com/pkg/profile&#34;
 
@@ -161,6 +171,8 @@ You can also profile memory allocations and spot places where it might be benefi
           // be mindful of memory and IO, it adds up
   }</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="admonitionblock note">
 <table>

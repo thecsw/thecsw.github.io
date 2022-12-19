@@ -38,7 +38,7 @@
         --paragraph-text-rendering: antialiased;
         --code-size: 0.95rem;
         --code-text-rendering: optimizeSpeed;
-        --code-line-height: 1.2rem;
+        --code-line-height: 1.37rem;
         --header-width: 46.25rem;
         --header-width-max: 100%;
         --header-font-weight: 500;
@@ -732,6 +732,7 @@ td {
         background: var(--code-bg);
         padding-top: 0;
         padding-bottom: 0;
+        text-align: left;
 }
 
 .listingblock > pre {
@@ -786,12 +787,12 @@ pre pre {
 }
 
 .listingblock code {
-        font-size: 75%;
+        font-size: 95%;
 }
 
 @media all and (max-width: 768px) {
         .listingblock code {
-                font-size: 65%;
+                font-size: 85%;
         }
 }
 

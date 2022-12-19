@@ -103,12 +103,16 @@ One of many great things about Go is its tooling environment. You can write any 
 <p>
 First tool you need is usually <a href="https://golang.org/" title="">Go itself</a>. After that, install some of the go tools dependencies below:
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% go get -u golang.org/x/tools/cmd/goimports
 % go get -u github.com/rogpeppe/godef
 % go get -u github.com/nsf/gocode</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -160,7 +164,9 @@ Here is the list:
 <p>
 You can just put this in your <code>.emacs</code> or whatever init file you’re using. The following config is all you need to get yourself started with automatic code formatting, code completion, parenthesis matching, dot completion (!), and jump to definition.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-lisp" data-lang="emacs-lisp">  ;; Init the auto complete modules
   (ac-config-default)
@@ -186,6 +192,8 @@ You can just put this in your <code>.emacs</code> or whatever init file you’re
   (add-hook &#39;before-save-hook &#39;gofmt-before-save)
   (add-hook &#39;go-mode-hook &#39;auto-complete-for-go)</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
