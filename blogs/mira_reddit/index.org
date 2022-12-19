@@ -143,7 +143,7 @@ mira currently supports:
 The names are very Java like and I hope they are intuitive
 
 ** Extending mira
-The library only supports ~15 endpoints. Reddit has well over 50-60. Mira
+The library only supports around 15 endpoints. Reddit has well over 50-60. Mira
 exposes its caller =Reddit.MiraRequest(httpMethod, endpoint, payload)= and http
 request handler, so you can build your own mira callers and work with them!
 
