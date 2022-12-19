@@ -114,10 +114,14 @@ This guide has an exact copy of steps I use when installing Arch Linux. Installe
 <p>
 Open the <a href="https://www.archlinux.org/" title="">Arch Linux Official Website</a> and download the latest image file. Later on just take a flash drive and burn it with <code>rufus</code> on Windows or with <code>dd</code> on Linux. To save you some trouble, here is an example <code>dd</code> command to burn the image
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% mkfs.ext4 /dev/sda3</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="admonitionblock note">
 <table>
@@ -156,7 +160,9 @@ This part is quite easy. The only thing that you should do is to tell your BIOS 
 <p>
 Just plug in your flash drive and power on/reboot your device. + Now, you will see a systemd prompt asking to boot. Choose the boot option that includes Arch Linux in it. + You should see a prompt of this form:
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">/boot/loader/loader.conf
 ------------------------
@@ -164,6 +170,8 @@ default Arch(arch)
 timeout 4
 editor 0</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="admonitionblock note">
 <table>
@@ -176,11 +184,15 @@ If you see a bunch of files when running the command below, then everything is [
 </td>
 </tr>
 </table>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">Arch Linux (tty1)
 _myhostname_ login:</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="admonitionblock note">
 <table>
@@ -199,19 +211,27 @@ If you have an Ethernet connection, you may skip this step. If you are trying to
 <p>
 Okay, now we need to partition our hard/state drive. How do we do that? Actually, there are many ways to to it, however I prefer to use <code>cfdisk</code>. It has pseudo-GUI, which is easier to work and operate with. Before partitioning, we should find the name of your drive. For that, in your command line type.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% fdisk -l</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
 You will see a list of available storages. Ignore everything that ends with: boot, root, include, etc. What you are interested in is the biggest available drive. For example, my laptop has integrated SD Card 27GB and it is called <code>/dev/mmcblk0</code>. For the sake of simplicity, let’s use notation <code>/dev/sda</code> for the name of the drive. Okay, good. Now, launch <code>cfdisk</code> by typing
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% cfdisk -z /dev/sda</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -228,29 +248,41 @@ By the rules, your swap should be 2xRAM and EFI System 512MB. Everything else ca
 <p>
 We need to format partitions appropriately and accordignly. Your EFI System should be FAT32 formatted, because we use systemd-boot. To do that, type
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% mkfs.fat -F32 /dev/sda1</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
 Your swap partition should be formatted as swap memory (obviously)
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% mkswap /dev/sda2
 % swapon /dev/sda2</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
 Your main directory should be formatted as ext4, so to use all your files further on
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% mkfs.ext4 /dev/sda3</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -262,20 +294,28 @@ Very good, our partitions are properly formatted and we can go on.
 <p>
 Now, we should mount our partitions. Firstly, we should mount our root partition
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% mount /dev/sda3 /mnt</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
 Then, we should mount the EFI System, so the system would know where is the boot point. We also need to create boot directory on our own.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% mkdir /mnt/boot
 % mount /dev/sda1 /mnt/boot</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -287,12 +327,16 @@ Awesome, everything is mounted, now we can start installing the system
 <p>
 This part is quite easy. However, when I was installing my system, I had a problem with downloading speed, it was something like 20-50KB/s. Awful. To fix that and get the maximum download speed, do the following:
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 % sed -i &#39;s/^#Server/Server/&#39; /etc/pacman.d/mirrorlist.backup
 % rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup &gt; /etc/pacman.d/mirrorlist</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -304,20 +348,28 @@ Now, you will be connected to the fastest mirrors in your location. Hurray!
 <p>
 Now we will install the base system. Here, we will intall base and base-devel packages, because it will get us enough packages to start using Arch Linux. It may take a while. Sit back, take a cup of coffee and relax.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% pacstrap /mnt base base-devel</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <h2 id="genfstab" class="section-3">Genfstab</h2>
 <div class="paragraph">
 <p>
 Now, the system is installed on the device and we need to tell our OS and Bootloader about the partitions of our disk. To do so, perform:
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="admonitionblock note">
 <table>
@@ -341,10 +393,14 @@ If you have come this far, congratulations! You have installed the raw version o
 <p>
 Log in to the newly installed system with
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% arch-chroot /mnt</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="admonitionblock note">
 <table>
@@ -363,11 +419,15 @@ If it does not let you in or some error occurs, please make sure you followed al
 <p>
 We need to set your local time. Find your timezone in <code>/usr/share/zonenifo</code> and use it instead of <code><u>Region</u></code> and <code><u>City</u></code>
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 % hwclock --systohc</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <h3 id="configuring-essential-files" class="section-4">Configuring essential files</h3>
 <div class="ulist">
@@ -496,17 +556,23 @@ You can go with <a href="https://www.gnu.org/software/grub/" title="">GRUB</a>, 
 <p>
 Assuming you have an intel chipset, run the following
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% pacman -S intel-ucode
 % bootctl --path=/boot install</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
 Use <code>vi</code> or <code>nano</code> text editor to write down the following:
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">/boot/loader/loader.conf
 ------------------------
@@ -514,12 +580,16 @@ default Arch(arch)
 timeout 4
 editor 0</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
 And for the second file:
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">/boot/loader/entries/entry.conf
 -------------------------------
@@ -529,6 +599,8 @@ initrd /intel-ucode.img
 initrd /initramfs-linux.img
 options root=/dev/sda3 rw</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <h2 id="finishing-up" class="section-3">Finishing up</h2>
 <div class="paragraph">
@@ -545,11 +617,15 @@ You need to exit <code>chroot</code> by runing <code>% exit</code> and reboot wi
 <p>
 When you turn your machine back on, you should see some text popping out on the screen (that’s systemd) and finally, you should see the following prompt:
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">Arch Linux (tty1)
 _myhostname_ login:</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <div class="paragraph">
 <p>
@@ -579,7 +655,7 @@ I hope you enjoyed this installation guide. After the last step, you should be a
 
 <li>
 <p>
-Run this to install a package <code>% sudo pacman -S _package_name_</code>
+Run this to install a package <code>% sudo pacman -S <u>package_name</u></code>
 </p>
 </li>
 

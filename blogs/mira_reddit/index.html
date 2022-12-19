@@ -103,10 +103,14 @@ I present to you, <a href="https://github.com/thecsw/mira" title="">mira</a>! It
 <p>
 mira can be installed like any other go package, just run
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">go get -u github.com/thecsw/mira</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <h1 id="introduction" class="section-2">Introduction</h1>
 <div class="paragraph">
@@ -124,7 +128,9 @@ For authentication, take a look at mira’s readme, we will get to the cream of 
 <p>
 You can post submissions and submit/reply/edit/delete comments. You can also grab N number of submissions from any subreddit, paginate through them, and other exciting stuff! Below is some basic functionality example.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">  package main
 
@@ -152,6 +158,8 @@ You can post submissions and submit/reply/edit/delete comments. You can also gra
       fmt.Println(newComment.GetBody())
   }</code></pre>
 </div>
+</div>
+<div class="writing">
 
 <h1 id="streaming" class="section-2">Streaming</h1>
 <div class="paragraph">
@@ -163,7 +171,9 @@ Streaming Reddit data is probably the most exciting part of using mira and usual
 <p>
 Let’s take a quick example of how we can build a reminder bot from <a href="https://turnage.gitbooks.io/graw/content/graw.html" title="">graw guide</a>. This code is originally from the graw guide, the only diffence is that it’s written to use mira instead of graw. Example done to show how those two libraries differ.
 </p>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">  package main
 
@@ -198,6 +208,8 @@ Let’s take a quick example of how we can build a reminder bot from <a href="ht
       }
   }</code></pre>
 </div>
+</div>
+<div class="writing">
 <details>
 <summary>on concurrency</summary>
 <hr>
@@ -279,7 +291,9 @@ you can lookup <code>checkType(...)</code> in mira’s readme
 </td>
 </tr>
 </table>
-</div>
+</div></div>
+
+<div class="media">
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">  func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
       ret := &amp;models.CommentWrap{}
@@ -298,7 +312,6 @@ you can lookup <code>checkType(...)</code> in mira’s readme
       return *ret, err
   }</code></pre>
 </div>
-
 </div>
 
 <!-- Footnotes -->
