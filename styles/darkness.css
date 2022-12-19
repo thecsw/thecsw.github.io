@@ -744,7 +744,7 @@ td {
 }
 
 code {
-                background: var(--code-bg);
+        background: var(--code-bg);
         font-size: var(--code-size);
         line-height: var(--code-line-height);
         font-family: var(--font-code);
