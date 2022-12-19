@@ -139,3 +139,9 @@ more!
 
 I loved the website and link design of [[https://asteriskmag.com/][Asterisk]] journal. Moving away from a full
 block-ish links, the links now are nice to look an click at. 
+
+** Galleries
+
+One of the biggest features that landed in Darkness were native
+galleries. Through some ~#+begin_gallery~ magic, you can have [[https://sandyuraz.com/shokugeki/][beautiful tiles]]
+spread around the page. This is heavily inspired by [[https://github.com/itorr][itorr]]'s [[https://i.magiconch.com/pvc][pvc page]].
