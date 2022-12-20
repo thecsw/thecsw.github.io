@@ -1,0 +1,5 @@
+* Strategic art investments 🥖
+
+#+begin_gallery :num 3
+- [[https://bnz05pap002files.storage.live.com/y4mxqzv3HF1vw4ZaqVxcFa0E9b8splyhRztWfbUfovKB10by2L97W8Y-bJiTz8lWLgOBc7KbrykzbldHOrajGoTiDtyGP8GHq1FKsLm3bzrYPZ1IwqOBA9ULyrYvm-yAyNw5LZDdj67APDNiMXVmNTcVMu6_ay-pdho8HqCbDsW9e2GhOcPyGooIjcAqr-MuTlW?width=2268&height=4032&cropmode=none][Rem Summer Relax Time "being a fan of Rem is like bankrupting yourself every 5 months"]] [[rem][page link]]
+#+end_gallery
