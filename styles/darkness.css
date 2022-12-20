@@ -406,6 +406,10 @@ a:not(.image):not(.gallery-item):hover {
         overflow: hidden;
 }
 
+.ease-transition {
+        transition: all 300ms ease-in-out;
+}
+
 .gallery-item .item {
         width: 100%;
         height: 100%;
