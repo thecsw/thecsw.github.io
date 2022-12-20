@@ -378,6 +378,10 @@ a:not(.image):not(.gallery-item):hover {
  │  │___/                     │___/   │
  └────────────────────────────────────┘ */
 
+:root {
+        --gallery-gap: 2px;
+}
+
 .gallery {
         max-width: 100%;
         min-width: 1px;
@@ -385,10 +389,10 @@ a:not(.image):not(.gallery-item):hover {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
         align-content: flex-start;
         align-items: center;
-        gap: 2px 2px;
+        gap: var(--gallery-gap) var(--gallery-gap);
         line-height: 0;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -416,11 +420,11 @@ a:not(.image):not(.gallery-item):hover {
 }
 
 :root {
-        --flex-one: 99%;
-        --flex-two: 49%;
-        --flex-three: 32%;
-        --flex-four: 24%;
-        --flex-five: 19%;
+        --flex-one: calc(100% - var(--gallery-gap));
+        --flex-two: calc(100% / 2 - var(--gallery-gap));
+        --flex-three: calc(100% / 3 - var(--gallery-gap));
+        --flex-four: calc(100% / 4 - var(--gallery-gap));
+        --flex-five: calc(100% / 5 - var(--gallery-gap));
 }
 
 .flex-1 {
@@ -441,6 +445,58 @@ a:not(.image):not(.gallery-item):hover {
 
 .flex-5 {
         flex-basis: var(--flex-five);
+}
+
+.flex-90 {
+        flex-basis: 90%;
+}
+
+.flex-85 {
+        flex-basis: 85%;
+}
+
+.flex-80 {
+        flex-basis: 80%;
+}
+
+.flex-75 {
+        flex-basis: 75%;
+}
+
+.flex-70 {
+        flex-basis: 70%;
+}
+
+.flex-65 {
+        flex-basis: 65%;
+}
+
+.flex-60 {
+        flex-basis: 60%;
+}
+
+.flex-55 {
+        flex-basis: 55%;
+}
+
+.flex-50 {
+        flex-basis: 50%;
+}
+
+.flex-45 {
+        flex-basis: 45%;
+}
+
+.flex-40 {
+        flex-basis: 40%;
+}
+
+.flex-35 {
+        flex-basis: 35%;
+}
+
+.flex-30 {
+        flex-basis: 30%;
 }
 
 .item:hover {
