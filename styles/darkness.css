@@ -522,6 +522,26 @@ a:not(.image):not(.gallery-item):hover {
         .flex-5 {
                 flex-basis: var(--flex-four);
         }
+        .flex-90,
+        .flex-85,
+        .flex-80,
+        .flex-75,
+        .flex-70,
+        .flex-65 {
+                flex-basis: var(--flex-one);
+        }
+}
+
+@media all and (max-width: 600px) {
+        .flex-60,
+        .flex-55,
+        .flex-50,
+        .flex-45,
+        .flex-40,
+        .flex-35,
+        .flex-30 {
+                flex-basis: var(--flex-one);
+        }
 }
 
 .gallery-container + .gallery-container {
