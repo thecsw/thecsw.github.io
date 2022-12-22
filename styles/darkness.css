@@ -451,6 +451,10 @@ a:not(.image):not(.gallery-item):hover {
         flex-basis: var(--flex-five);
 }
 
+.flex-95 {
+        flex-basis: 95%;
+}
+
 .flex-90 {
         flex-basis: 90%;
 }
@@ -526,6 +530,7 @@ a:not(.image):not(.gallery-item):hover {
         .flex-5 {
                 flex-basis: var(--flex-four);
         }
+        .flex-95,
         .flex-90,
         .flex-85,
         .flex-80,
