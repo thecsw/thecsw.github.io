@@ -96,6 +96,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 
 #+begin_src
  ┌───────────────────────────────────────┐
+ │   Komi Can't Communicate, Volume 22   │
+ ├───────────────────────────────────────┤
  │   Wotakoi: Love is Hard for Otaku 11  │
  ├───────────────────────────────────────┤
  │   Wotakoi: Love is Hard for Otaku 10  │
