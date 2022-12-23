@@ -571,6 +571,7 @@ details {
         border-radius: 10px;
         padding-left: 1rem;
         padding-right: 1rem;
+        margin-bottom: 2.4rem;
 }
 
 details[open] {
