@@ -2,8 +2,9 @@
 
 144; 12022 H.E.
 
-NOTE: This was originally published on =78; 12022 H.E.= Darkness got new
-features, so I updated this page.
+NOTE: Darkness v2.0 got released on December 23rd, 12022 H.E. 🥳 Please go and
+check out the updated instructions and samples on [[https://github.com/thecsw/darkness][her GitHub]]. This page was kept
+the same for legacy reasons.
 
 ** This is no life
 
