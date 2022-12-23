@@ -15,9 +15,9 @@ other commitment in life - then, I consider it to be the moment of truth.
 -- Arthur Miller
 #+end_quote
 
-I studied Literature with concentration in 19th century literature. Dostoyevsky
+I studied Literature with concentration in 19th century literature. [[https://sandyuraz.com/writings/ideal_love/][Dostoyevsky]]
 is my favorite author. There is also a weak spot in me for science fiction,
-especially anything that Isaac Asimov wrote. [[https://sandyuraz.com/blogs/anime][Love anime]]. Also graduated with
+especially anything that [[https://sandyuraz.com/blogs/foundation-time/][Isaac Asimov]] wrote. [[https://sandyuraz.com/blogs/anime][Love anime]]. Also graduated with
 degrees in Computer Science and Mathematics. Also, thoughts ≠ employer.
 
 #+begin_center
