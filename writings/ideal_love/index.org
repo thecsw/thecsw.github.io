@@ -1,7 +1,9 @@
 * The Ideal of Love in /Brothers Karamazov/
 
 NOTE: This was written for my literature major capstone. The submission was a
-PDF file, which can be [[The Ideal of Love in Brothers Karamazov.pdf][found here]].
+PDF file, which can be [[The Ideal of Love in Brothers Karamazov.pdf][found here]]. On December 22nd, 12022 H.E.,
+[[https://en.wikipedia.org/wiki/Richard_Pevear_and_Larissa_Volokhonsky][Richard Pevear's and Larissa Volokhonsky's]] fantastic english translations were
+added. 
 
 What does it mean to love someone? This is the question I asked myself many
 times over my own life with its tried and failed attempts at love. Fatefully,
@@ -127,11 +129,20 @@ what the future holds are proving to be something truly terrifying to one’s
 heart. 
 
 #+begin_quote
-“Ну что, думаю, я всю жизнь верила — умру, и вдруг ничего нет, и только
+``Ну что, думаю, я всю жизнь верила — умру, и вдруг ничего нет, и только
 «вырастет лопух на могиле», как прочитала я у одного писателя. Это ужасно! Чем,
-чем возвратить веру? […] Это убийственно, убийственно!” (Dostoevsky, /Brothers
+чем возвратить веру? […] Это убийственно, убийственно!'' (Dostoevsky, /Brothers
 Karamazov/)
 #+end_quote
+
+#+begin_details english translation
+#+begin_quote
+``I think, all my life I've believed, then I die, and suddenly there's nothing,
+and only 'burdock will grow on my grave,' as I read in one writer? It's
+terrible! What, what will give me back my faith? […] It's devastating,
+devastating!'' (Dostoevsky, /Brothers Karamazov/)
+#+end_quote
+#+end_details
 
 In a genuinely fascinating fashion of Dostoevsky’s writing, Father Zosima
 acknowledges the killing nature of such a crisis. One cannot prove the existence
@@ -141,13 +152,24 @@ find that the only way to do so is through “опытом деятельной 
 experience of active love”).
 
 #+begin_quote
-“— Опытом деятельной любви. Постарайтесь любить ваших ближних деятельно и
+``— Опытом деятельной любви. Постарайтесь любить ваших ближних деятельно и
 неустанно. По мере того как будете преуспевать в любви, будете убеждаться и в
 бытии бога, и в бессмертии души вашей. Если же дойдете до полного самоотвержения
 в любви к ближнему, тогда уж несомненно уверуете, и никакое сомнение даже и не
-возможет зайти в вашу душу. Это испытано, это точно.” (Dostoevsky, /Brothers
+возможет зайти в вашу душу. Это испытано, это точно.'' (Dostoevsky, /Brothers
 Karamazov/)
 #+end_quote
+
+#+begin_details english translation
+#+begin_quote
+``By the experience of active love. Try to love your neighbors actively and
+tirelessly. The more you succeed in loving, the more you'll be convinced of the
+existence of God and the immortality of your soul. And if you reach complete
+selflessness in the love of your neighbor, then undoubtedly you will believe,
+and no doubt will even be able to enter your soul. This has been tested. It is
+certain.'' (Dostoevsky, /Brothers Karamazov/)
+#+end_quote
+#+end_details
 
 Notice that Dostoevsky’s intent with Father Zosima was to portray the Orthodox
 Church and its beliefs as a positive social and spiritual ideal. Through the
@@ -205,12 +227,22 @@ similar desire to leave her daughter, join sisters of mercy, and care for
 suffering martyrs.
 
 #+begin_quote
-“— Деятельной любви? […] Видите, я так люблю человечество, что, верите ли,
+``— Деятельной любви? […] Видите, я так люблю человечество, что, верите ли,
 мечтаю иногда бросить всё, всё, что имею, оставить Lise и идти в сестры
 милосердия. […] Я бы перевязывала и обмывала собственными руками, я была бы
-сиделкой у этих страдальцев, я готова целовать эти язвы...” (Dostoevsky,
+сиделкой у этих страдальцев, я готова целовать эти язвы...'' (Dostoevsky,
 /Brothers Karamazov/)
 #+end_quote
+
+#+begin_details english translation
+#+begin_quote
+``Active love? […] You see, I love mankind so much that -- would you believe it?
+-- I sometimes dream of giving up all, all I have, of leaving Lise and going to
+become a sister of mercy. […] I would bind them and cleanse them with my own
+hands, I would nurse the suffering, I am ready to kiss those sores...''
+(Dostoevsky, /Brothers Karamazov/)
+#+end_quote
+#+end_details
 
 It is interesting to explore what is stopping us from pursuing such virtuous
 dreams? On my account, it is the gratitude I will receive or its absence. Doing
@@ -254,11 +286,20 @@ the answer. He manifests and exercises the “active love” that Dostoevsky see
 the ideal. He describes in the novel,
 
 #+begin_quote
-“В этой путанице можно было совсем потеряться, а сердце Алёши не могло выносить
+``В этой путанице можно было совсем потеряться, а сердце Алёши не могло выносить
 неизвестности, потому что характер любви его был всегда деятельный. Любить
-пассивно он не мог; возлюбив, он тотчас же принимался и помогать.” (Dostoevsky,
+пассивно он не мог; возлюбив, он тотчас же принимался и помогать.'' (Dostoevsky,
 /Brothers Karamazov/)
 #+end_quote
+
+#+begin_details english translation
+#+begin_quote
+``One could get completely lost in this tangle, and Alyosha's heart could not
+bear uncertainty, for the nature of his love was always active. He could not
+love passively; once he loved, he immediately also began to help.'' (Dostoevsky,
+/Brothers Karamazov/)
+#+end_quote
+#+end_details
 
 #+drop_cap
 One of the prime examples is Alyosha’s relationship with his father, Fyodor
@@ -309,8 +350,17 @@ is an ordeal that very few can overcome. With the heroes of our story, we
 realize it has to be this way.
 
 #+begin_quote
-“Братья, любовь — учительница, но нужно уметь ее приобрести, ибо она трудно
+``Братья, любовь — учительница, но нужно уметь ее приобрести, ибо она трудно
 приобретается, дорого покупается, долгою работой и через долгий срок, ибо не на
 мгновение лишь случайное надо любить, а на весь срок. А случайно-то и всяк
-полюбить может, и злодей полюбит.” (Dostoevsky, /Brothers Karamazov/)
+полюбить может, и злодей полюбит.'' (Dostoevsky, /Brothers Karamazov/)
 #+end_quote
+
+#+begin_details english translation
+#+begin_quote
+``Brothers, love is a teacher, but one must know how to acquire it, for it is
+difficult to acquire, it is dearly bought, by long work over a long time, for
+one ought to love not for a chance moment but for all time. Anyone, even a
+wicked man, can love by chance.'' (Dostoevsky, /Brothers Karamazov/)
+#+end_quote
+#+end_details
