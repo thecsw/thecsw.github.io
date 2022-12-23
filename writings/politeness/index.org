@@ -2,7 +2,9 @@
 
 NOTE: This was a research paper written for the graduate course /SLAV 540:
 Language and Identity in East-Central Europe and Former Soviet Union/ taught by 
-the incredible [[https://mlg.ku.edu][Marc L. Greenberg]]. See the [[Politeness is Dead.pdf][original paper]].
+the incredible [[https://mlg.ku.edu][Marc L. Greenberg]]. See the [[Politeness is Dead.pdf][original paper]].\ The excerpts do not
+have english translations as this research paper focused on the linguistic
+properties of the source languages (Russian and Polish).
 
 ** Introduction
 
