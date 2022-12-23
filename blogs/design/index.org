@@ -145,3 +145,16 @@ block-ish links, the links now are nice to look an click at.
 One of the biggest features that landed in Darkness were native
 galleries. Through some ~#+begin_gallery~ magic, you can have [[https://sandyuraz.com/shokugeki/][beautiful tiles]]
 spread around the page. This is heavily inspired by [[https://github.com/itorr][itorr]]'s [[https://i.magiconch.com/pvc][pvc page]].
+
+** Let it snow!
+
+December 22nd was the Day of Reckoning here in Kansas. Literally -32C in the
+afternoon like it's nothing. I misread my weather forecast, thinking it's /only/
+-5C outside. I went to the office (walked lmao) and in couple of minutes all I
+could do was scream and yell until I got to the building.
+
+So... enjoy some snow on the website using [[https://github.com/scottschiller][Scott Schiller's]] [[http://www.schillmania.com/projects/snowstorm/][snowstorm]].
+
+#+begin_gallery
+- [[https://bnz05pap002files.storage.live.com/y4mJjAXmd6n1IsPOEzYLhJCRf33ILJoLacDmxDIM5r4CrZa8kotHrWWvFOgXTXFrlgmPoLgqWtp9lYMqHgOQ-V8MXDJfmH3Ym9NTgdgjFd3c6ujkVGVxcBk984yni5p8gTckNC9CEdODutQiWsDXGRaZi5wRgwJlL4r4z_Ert397rn4RSbVlIrbptbwupBbA7M2?width=2930&height=1912&cropmode=none][Let it snow! (we are running a modified version of the snowstorm)]] :flex 65
+#+end_gallery
