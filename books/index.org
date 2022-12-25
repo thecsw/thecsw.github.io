@@ -1,5 +1,12 @@
 * Sandy's bookshelf 🔖
 
+If I'm about to explode because I need to talk about a book I've read then I
+consider it to be a good time for posting a piece about it.
+
+- [[ryuko][Ryuko 🐉]]
+
+** /The Stack/
+
 Here is a stack of books I liked and recommend for reading
 
 #+begin_center
@@ -96,6 +103,10 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 
 #+begin_src
  ┌───────────────────────────────────────┐
+ │             Ryuko, Volume 2           │
+ ├───────────────────────────────────────┤
+ │             Ryuko, Volume 1           │
+ ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 22   │
  ├───────────────────────────────────────┤
  │   Wotakoi: Love is Hard for Otaku 11  │
