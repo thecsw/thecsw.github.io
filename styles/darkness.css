@@ -48,13 +48,18 @@
         --quote-line-height: 1.6rem;
         --quote-width: 34.375rem;
         --media-width: 43.125rem;
-        --gallery-width: 99%;
+        --gallery-gap: 2px;
+        --gallery-width: calc(100% - var(--gallery-gap));
+        --gallery-zoom: 1.069;
         --table-size: 1.2rem;
         --details-size: 1.15rem;
         --footnote-size: 1rem;
         --math-size: 1.37rem;
+
         /* Colors, duh */
         --color-text: #3a1616;
+        --color-link-text: var(--color-text);
+        --color-title: black;
         --color-header: #c31585;
         --color-header-hover: #a53221;
         --color-bg: #fffff4;
@@ -64,6 +69,9 @@
         --color-link-visited: #5e416d;
         --color-subtitle: #7a2518;
         --code-bg: #fffbfd;
+
+        /* Extra stuff to support custom scripts*/
+        --color-snow: #4f86f7;
 }
 
 /*
@@ -118,7 +126,7 @@
         padding-top: 0.25em;
         padding-bottom: 0.25em;
         padding-left: 0.25em;
-        color: rgba(0, 0, 0, 0.6);
+        color: inherit;
         display: flex;
         -ms-flex-flow: row wrap;
         -webkit-flex-flow: row wrap;
@@ -133,7 +141,7 @@
 }
 
 .header .menu span.email a {
-        color: rgba(0, 0, 0, 0.85);
+        color: inherit;
 }
 
 .header .menu br {
@@ -146,11 +154,11 @@
 
 .header .menu br + span.author::before {
         content: "\00a0\22c5\00a0";
-        color: rgba(0, 0, 0, 0.85);
+        color: var(--color-title);
 }
 
 .header > .section-1:first-child {
-        color: rgba(0, 0, 0, 0.85);
+        color: var(--color-title);
         margin-top: 2.25rem;
         margin-bottom: 0;
 }
@@ -218,8 +226,8 @@
 a:not(.image):not(.gallery-item) {
         cursor: pointer;
         text-decoration: none;
-        border-bottom: 1px solid var(--color-text);
-        color: var(--color-text);
+        border-bottom: 1px solid var(--color-link-text);
+        color: var(--color-link-text);
         line-height: inherit;
         transition: 80ms;
         font-size: 100%;
@@ -227,10 +235,8 @@ a:not(.image):not(.gallery-item) {
 }
 
 a:not(.image):not(.gallery-item):hover {
-        /* color: white; */
         color: var(--color-link);
         border-bottom: none;
-        /* background-color: var(--color-link); */
 }
 
 /*
@@ -378,10 +384,6 @@ a:not(.image):not(.gallery-item):hover {
  │  │___/                     │___/   │
  └────────────────────────────────────┘ */
 
-:root {
-        --gallery-gap: 2px;
-}
-
 .gallery {
         max-width: 100%;
         min-width: 1px;
@@ -452,68 +454,88 @@ a:not(.image):not(.gallery-item):hover {
 }
 
 .flex-95 {
-        flex-basis: 95%;
+        flex-basis: calc(95% - var(--gallery-gap));
 }
 
 .flex-90 {
-        flex-basis: 90%;
+        flex-basis: calc(90% - var(--gallery-gap));
 }
 
 .flex-85 {
-        flex-basis: 85%;
+        flex-basis: calc(85% - var(--gallery-gap));
 }
 
 .flex-80 {
-        flex-basis: 80%;
+        flex-basis: calc(80% - var(--gallery-gap));
 }
 
 .flex-75 {
-        flex-basis: 75%;
+        flex-basis: calc(75% - var(--gallery-gap));
 }
 
 .flex-70 {
-        flex-basis: 70%;
+        flex-basis: calc(70% - var(--gallery-gap));
 }
 
 .flex-65 {
-        flex-basis: 65%;
+        flex-basis: calc(65% - var(--gallery-gap));
 }
 
 .flex-60 {
-        flex-basis: 60%;
+        flex-basis: calc(60% - var(--gallery-gap));
 }
 
 .flex-55 {
-        flex-basis: 55%;
+        flex-basis: calc(55% - var(--gallery-gap));
 }
 
 .flex-50 {
-        flex-basis: 50%;
+        flex-basis: calc(50% - var(--gallery-gap));
 }
 
 .flex-45 {
-        flex-basis: 45%;
+        flex-basis: calc(45% - var(--gallery-gap));
 }
 
 .flex-40 {
-        flex-basis: 40%;
+        flex-basis: calc(40% - var(--gallery-gap));
 }
 
 .flex-35 {
-        flex-basis: 35%;
+        flex-basis: calc(35% - var(--gallery-gap));
 }
 
 .flex-30 {
-        flex-basis: 30%;
+        flex-basis: calc(30% - var(--gallery-gap));
+}
+
+.flex-25 {
+        flex-basis: calc(25% - var(--gallery-gap));
+}
+
+.flex-20 {
+        flex-basis: calc(20% - var(--gallery-gap));
+}
+
+.flex-15 {
+        flex-basis: calc(15% - var(--gallery-gap));
+}
+
+.flex-10 {
+        flex-basis: calc(10% - var(--gallery-gap));
 }
 
 .item:hover {
-        transform: scale(1.069);
+        transform: scale(var(--gallery-zoom));
+}
+
+.no-zoom:hover {
+        transform: none;
 }
 
 @media all and (max-width: 900px) {
         .gallery {
-                width: 100%;
+                width: calc(100% - var(--gallery-gap));
         }
         .no-gap {
                 gap: 0;
@@ -548,7 +570,11 @@ a:not(.image):not(.gallery-item):hover {
         .flex-45,
         .flex-40,
         .flex-35,
-        .flex-30 {
+        .flex-30,
+        .flex-25,
+        .flex-20,
+        .flex-15,
+        .flex-10 {
                 flex-basis: var(--flex-one);
         }
 }
@@ -589,7 +615,6 @@ details[open] {
  └───────────────────────────────────────────┘ */
 
 ::selection {
-        /* color: var(--color-white); */
         background: var(--color-selection);
 }
 
