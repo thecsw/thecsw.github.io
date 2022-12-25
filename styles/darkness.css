@@ -56,6 +56,8 @@
         --footnote-size: 1rem;
         --math-size: 1.37rem;
 
+        --section-one-font-size: 3.37rem;
+
         /* Colors, duh */
         --color-text: #3a1616;
         --color-link-text: var(--color-text);
@@ -286,16 +288,15 @@ a:not(.image):not(.gallery-item):hover {
 
 .section-1 {
         padding-top: 0.2rem;
-        line-height: 4rem;
-        font-size: 3.37rem;
+        font-size: var(--section-one-font-size);
+        line-height: calc(var(--section-one-font-size) - 0.2rem);
         font-weight: 500;
         letter-spacing: -0.01rem;
 }
 
 @media all and (max-width: 640px) {
         .section-1 {
-                font-size: 2.6rem;
-                line-height: 2.9rem;
+                font-size: calc(var(--section-one-font-size) * .9);
         }
 }
 
