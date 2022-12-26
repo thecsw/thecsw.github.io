@@ -56,9 +56,9 @@ menu are self-explanatory.
 
 **** Flash Drive
 
-Just plug in your flash drive and power on/reboot your device. + Now,
+Just plug in your flash drive and power on/reboot your device. Now,
 you will see a systemd prompt asking to boot. Choose the boot option
-that includes Arch Linux in it. + You should see a prompt of this form:
+that includes Arch Linux in it. You should see a prompt of this form:
 
 #+BEGIN_SRC sh
 % root@archios
