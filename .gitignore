@@ -1,5 +1,7 @@
 # do not commit vendored gallery items
 darkness_vendor
+.darkness/vendored
+
 # Ignore my emacs backup directory
 .saves
 # astrie's executables

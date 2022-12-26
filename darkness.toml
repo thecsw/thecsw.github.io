@@ -26,6 +26,8 @@ extra_head = [
 input = ".org"
 output = ".html"
 exclude = ["present", "scripts", ".saves", ".log"]
+vendor_directory = ".darkness/vendored"
+preview_directory = ".darkness/previews"
 
 [author]
 image = "najimi.webp"
