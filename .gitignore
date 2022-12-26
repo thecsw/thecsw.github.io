@@ -1,6 +1,7 @@
 # do not commit vendored gallery items
 darkness_vendor
 .darkness/vendored
+darkness-stuff/vendored
 
 # Ignore my emacs backup directory
 .saves
