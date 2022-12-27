@@ -18,10 +18,5 @@
 }
 
 .header > .section-1:first-child {
-        margin-top: -2rem;
         margin-bottom: 1.6rem;
-}
-
-#myface {
-        visibility: hidden;
 }
