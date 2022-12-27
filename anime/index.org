@@ -1,3 +1,4 @@
+#+options: tomb:nil
 * Sandy's anime 🍶
 
 #+begin_center
