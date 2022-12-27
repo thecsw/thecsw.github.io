@@ -1,3 +1,4 @@
+#+options: tomb:nil
 * Sandy's bookshelf 🔖
 
 If I'm about to explode because I need to talk about a book I've read then I

@@ -1,5 +1,4 @@
 #+extra_head: <link rel="stylesheet" type="text/css" href="ryuko.css">
-
 * Ryuko 🐉
 
 358; 12022 H.E.
@@ -122,7 +121,7 @@ Thank you.
 ありがとうございました
 #+end_center
 
-What a great present on a Christmas Eve.
+A Christmas Eve present for sure!
 
 #+begin_gallery
 - [[retweet.png][Retweet]] [[https://twitter.com/RYUKOyoshimizu/status/1606945916338200583][<-- tweet link]] :flex 40 :no-zoom
