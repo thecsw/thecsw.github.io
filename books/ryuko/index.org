@@ -1,5 +1,5 @@
 #+extra_head: <link rel="stylesheet" type="text/css" href="ryuko.css">
-#+options: author-image:nil
+#+options: author-image:nil tomb:nil
 * Ryuko 🐉
 
 358; 12022 H.E.
