@@ -48,7 +48,7 @@
         --quote-line-height: 1.6rem;
         --quote-width: 34.375rem;
         --media-width: 43.125rem;
-        --gallery-gap: 2px;
+        --gallery-gap: 1px;
         --gallery-width: calc(100% - var(--gallery-gap));
         --gallery-zoom: 1.069;
         --table-size: 1.2rem;
