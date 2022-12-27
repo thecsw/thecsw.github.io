@@ -1,3 +1,4 @@
+#+options: tomb:nil
 * My cozy blog 🍣
 
 I can't fall asleep if I don't write. I wake up in the morning; I need to tell a
