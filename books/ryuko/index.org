@@ -122,7 +122,7 @@ Thank you.
 ありがとうございました
 #+end_center
 
-A Christmas Eve present for sure!
+Merry Christmas indeed!
 
 #+begin_gallery
 - [[retweet.png][Retweet]] [[https://twitter.com/RYUKOyoshimizu/status/1606945916338200583][<-- tweet link]] :flex 40 :no-zoom
