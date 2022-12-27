@@ -1,4 +1,4 @@
-#+extra_head: <link rel="stylesheet" type="text/css" href="ryuko.css">
+#+html_head: <link rel="stylesheet" type="text/css" href="ryuko.css">
 #+options: author-image:nil tomb:nil
 * Ryuko 🐉
 
