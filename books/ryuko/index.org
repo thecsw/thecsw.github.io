@@ -1,5 +1,12 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="ryuko.css">
 #+options: author-image:nil tomb:nil
+
+# Unattach any other snow javascript effects.
+#+options: exclude-html-head:/scripts/snowstorm-min.js
+
+# Attach our custom ryuko snow effect.
+#+html_head: <script async src="ryuko-snow.js"></script>
+
 * Ryuko 🐉
 
 358; 12022 H.E.
