@@ -86,6 +86,10 @@
  │                    │___/  │
  └───────────────────────────┘ */
 
+html {
+        scroll-behavior: smooth;
+}
+
 .article {
         background: var(--color-bg);
         color: var(--color-text);
@@ -296,7 +300,7 @@ a:not(.image):not(.gallery-item):hover {
 
 @media all and (max-width: 640px) {
         .section-1 {
-                font-size: calc(var(--section-one-font-size) * .77);
+                font-size: calc(var(--section-one-font-size) * 0.77);
         }
 }
 
