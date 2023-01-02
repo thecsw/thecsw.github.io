@@ -28,9 +28,9 @@ invest myself in what I'm about to watch.
 
 #+begin_src
  ┌────────────────────┐
- │      Cyberpunk:    │
+ │    Cyberpunk:      │
  │     Edgerunners    ├───────────────────┐
- ├────────────────────┤       Oreimo 2    │
+ ├────────────────────┤      Oreimo 2     │
  │  Mob Psycho 100 II ├───────────────────┤
  ├────────────────────┤   Mob Psycho 100  │
  │ SPY×FAMILY Part II ├───────────────────┤
