@@ -22,7 +22,11 @@ jobs:
 
       - name: Gallery previews 🖼️
         run: |
-          ./darkness.com misa -gallery-previews -holoscene-titles
+          ./darkness.com misa -gallery-previews
+
+      - name: Holoscene titles ✨
+        run: |
+          ./darkness.com misa -holoscene-titles
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
