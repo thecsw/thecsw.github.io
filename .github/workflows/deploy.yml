@@ -28,6 +28,10 @@ jobs:
         run: |
           ./darkness.com misa -holoscene-titles
 
+      - name: RSS 🎷
+        run: |
+          ./darkness.com misa -rss
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
