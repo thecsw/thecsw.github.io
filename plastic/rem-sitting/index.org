@@ -11,7 +11,7 @@
 #+end_gallery
 
 #+begin_center
-*[[../rem-fancy][There can]] [[winter-rem][never be]] [[../rem][too many Rem]].*
+*[[../rem-fancy][There can]] [[../winter-rem][never be]] [[../rem][too many Rem]].*
 #+end_center
 
 I've been scrolling through a couple of [[https://rezero.fandom.com/wiki/Rem/Image_Gallery][pictures of Rem from the anime]]. There is
