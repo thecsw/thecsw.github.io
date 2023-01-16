@@ -34,6 +34,14 @@ image = "najimi.webp"
 name = "sandy"
 email = "[at] sandyuraz [dot] com"
 
+[rss]
+language = "en-us"
+description = ""
+copyright = "Copyright 2023, Sandy Urazayev"
+managing_editor = "sandy@sandyuraz.com (Sandy Urazayev)"
+web_master = "sandy@sandyuraz.com (Sandy Urazayev)"
+category = "Blog"
+
 [navigation]
 
 [navigation.1]

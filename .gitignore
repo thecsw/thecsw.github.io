@@ -1,3 +1,6 @@
+# feed rss
+feed.xml
+
 # do not commit vendored gallery items
 darkness_vendor
 .darkness/vendored
