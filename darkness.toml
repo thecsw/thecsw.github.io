@@ -31,8 +31,8 @@ preview_directory = "darkness-stuff/previews"
 
 [author]
 image = "najimi.webp"
-name = "sandy"
-email = "[at] sandyuraz [dot] com"
+name = "<a href=\"/feed.xml\" class=\"rss-link\"><img src=\"/assets/rss.svg\" class=\"rss-icon\"></a>"
+email = "sandy [at] sandyuraz [dot] com"
 
 [rss]
 language = "en-us"
