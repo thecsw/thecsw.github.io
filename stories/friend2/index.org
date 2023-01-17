@@ -1,3 +1,4 @@
+#+date: 73; 12022 H.E.
 * We were once friends. What happened to us? Part II
 
 NOTE: This story was written as [[report8.pdf][Individual Report VIII]] for my Computer Science
