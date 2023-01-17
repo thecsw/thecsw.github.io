@@ -1,3 +1,4 @@
+#+date: 355; 12022 H.E.
 * Winter Darkness 🧤
 
 #+begin_gallery :num 3

@@ -1,5 +1,5 @@
 #+options: tomb:nil
-* Sandy's anime 🍶
+* Sandy's Anime 🍶
 
 #+begin_center
 *Sandy is (not) a weeb.*

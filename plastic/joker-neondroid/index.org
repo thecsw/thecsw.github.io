@@ -1,3 +1,4 @@
+#+date: 5; 12023 H.E.
 * Joker Neondroid ☕️
 
 #+begin_gallery :num 3
