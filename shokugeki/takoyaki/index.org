@@ -1,3 +1,4 @@
+#+date: 22; 12023 H.E.
 * Takoyaki 🐙
 
 #+begin_gallery
