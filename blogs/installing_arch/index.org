@@ -1,3 +1,4 @@
+#+date: 122; 12019 H.E.
 * Installing glorious arch linux ☄️
 
 May 2nd, 2019
