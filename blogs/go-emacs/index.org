@@ -1,3 +1,4 @@
+#+date: 128; 12020 H.E.
 * Becoming an emacs gopher 🐗
 
 May 7th, 2020

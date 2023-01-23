@@ -1,3 +1,4 @@
+#+date: 331; 12019 H.E.
 * Faster, better, stronger 🐩
 
 November 27th, 2019
