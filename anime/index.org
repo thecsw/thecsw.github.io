@@ -26,7 +26,13 @@ do. I have to prepare myself emotionally, get well-rested, and be ready to
 invest myself in what I'm about to watch.
 
 #+begin_src
- ┌────────────────────┬───────────────────┐
+ ┌────────────────────┐
+ │      Initial D     │
+ │  Legend 3: Dream   │
+ ├────────────────────┼───────────────────┐
+ │      Initial D     │     Initial D     │
+ │ Legend 1: Awakening│  Legend 2: Racer  │
+ ├────────────────────┼───────────────────┤
  │    Cyberpunk:      │ Mob Psycho 100 III│
  │     Edgerunners    ├───────────────────┤
  ├────────────────────┤      Oreimo 2     │
