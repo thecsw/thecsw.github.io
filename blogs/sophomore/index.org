@@ -166,9 +166,9 @@ department dumped a whole class of too-clever-for-their-own-good honor students
 while he also had to take care of his newborn kid, henceforth, a family. You
 know you be real for that! Thank you, Brad.
 
-Extra content! I enjoyed the content; I have a whole article ([[https://sandyuraz.com/blogs/diffeq/][Differential
-equations 🔥]]) written on solving ODEs with what I learned from the class. It
-took a while to type it all out -- worth it.
+Extra content! I enjoyed the content; I have a whole article
+([[https://sandyuraz.com/blogs/diffeq/][Differential equations 🔥]]) written on solving ODEs with what I learned from the
+class. It took a while to type it all out -- worth it.
 
 
 *** Honors Digital Circuits
@@ -198,5 +198,36 @@ lot of trouble if you tried to smuggle it past TSA. (don't do it)
 [[circuit.webp][Don't travel with this]]
 
 This was my introduction to circuits, digital logic, and all alike. Fun.
+
+*** American Society
+
+Ah, SOC 335... You weren't even in the first published version of this page
+because of how hard I tried to erase you from my mind. I'll be clear -- I was
+*miserable* in this course, and the only problem was me. Sociology did not
+interest me then (this was before I got my hands on /Foundation/). So reading a
+book (maybe around 200-300 pages of hard sociology material) a week, writing
+weekly 4-5 page papers + 12 pages every other week striking the heart of the
+matter almost broke me. At that point in my life, I was not ready for this
+course, and I still consider it a wonder and a miracle that I survived it. I was
+not prepared, it showed, and it was my fault, which I regret a little, as I
+would have enjoyed the course immensely if I had taken it two or three years
+later. Just a year later would have given me enough time to mature.
+
+This was the first class at college where I got a B. Boohoo, I was mad and sad
+at that time, as /it broke my 4.0 GPA/. *Pathetic*. I actually had thoughts like
+that? What a prison I must have been living in to let stuff like that have such
+control over me and dictate my mood over days. I am happy I got a B, and even
+that was undeserved. Dear Professor might have still taken pity on this sole (at
+that time) engineering student who didn't know shit about shit. With a little
+spoiler for future posts (which will take years to come out at this point), this
+was my only non-A course. But the reason why I got an A was different. I never
+chased that 4 GPA. I already lost it. Instead, all I would do in classes was to
+try and have fun (while also /sometimes/ being annoying to the Professors and my
+peers with random quirks). This course, for how much I suffered at the time,
+felt miserable day in and day out; as much as I regret that I haven't ingested
+the knowledge, which was bestowed upon me, it did give me peace throughout my
+entire academic career that it will be ok too.  
+
+-----
 
 *Second Volume coming!* 😭
