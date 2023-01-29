@@ -726,8 +726,7 @@ You can tell the ideals of a nation by its advertisements.
 
 ** 186; 12021 H.E.
  
-Fare thee well, and if for ever,
-
+Fare thee well, and if for ever,\
 Still for ever, fare thee well.
 
 -- Byron
