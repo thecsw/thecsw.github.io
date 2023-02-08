@@ -8,7 +8,7 @@
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <webMaster>sandy@sandyuraz.com (Sandy Urazayev)</webMaster>
     <pubDate>Tue, 07 Feb 2023 00:00:00 CST</pubDate>
-    <lastBuildDate>Tue, 07 Feb 2023 23:40:32 CST</lastBuildDate>
+    <lastBuildDate>Tue, 07 Feb 2023 23:49:15 CST</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -655,7 +655,7 @@
     <item>
       <title>My 30-day song challenge 🎵🤘</title>
       <link>https://sandyuraz.com/blogs/song_challenge</link>
-      <description>June... [ Continue reading... ]</description>
+      <description>With my new insta (https://www.instagram.com/sandy_uraz/), I decided to do my first song challenge where I have to put a new song every day, which matches that day&#39;s description. H... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/song_challenge</guid>
       <pubDate>Fri, 05 Jun 2020 01:00:00 CDT</pubDate>
@@ -664,7 +664,7 @@
     <item>
       <title>Your Domains &amp; Github Pages 🦉</title>
       <link>https://sandyuraz.com/blogs/githubio</link>
-      <description>May ... [ Continue reading... ]</description>
+      <description>Github Pages is a beatiful thing for static website hosting. If you have a github account with username myname and create a repo called myname.github.io, you officially have a static website that you can access by just going to https://myname.github.io! I used it for about 2-3 years now. A man has to grow up and finally have his own domain. This is a quick post about how to make ... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/githubio</guid>
       <pubDate>Sat, 23 May 2020 01:00:00 CDT</pubDate>
@@ -673,7 +673,7 @@
     <item>
       <title>Differential equations 🔥</title>
       <link>https://sandyuraz.com/blogs/diffeq</link>
-      <description>May ... [ Continue reading... ]</description>
+      <description>When I got first introduced to differential equations, I had a love-hate relationship with it. Mainly due to some back-of-the-book problems we were given and never-ending projects we were assigned to. After some time, differential equations is a way to truly understand physics and the foundations of gravity, fields, and everything. This articles is merely an intro on manually solving common forms of differential equations. Hope... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/diffeq</guid>
       <pubDate>Tue, 12 May 2020 01:00:00 CDT</pubDate>
@@ -682,7 +682,7 @@
     <item>
       <title>Prettifying org-mode w/ CSS 💅</title>
       <link>https://sandyuraz.com/blogs/orgmode-css</link>
-      <description>May... [ Continue reading... ]</description>
+      <description>Org Mode HTML output can look like this webpage (https://motherfuckingwebsite.com/), but as its big brother (http://bettermotherfuckingwebsite.com/) rightfully states, a grotesque pile of shit. Same goes for orgmode. I wrote a very small CSS file that you can add to your orgmode header and the output shoul... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/orgmode-css</guid>
       <pubDate>Sat, 09 May 2020 01:00:00 CDT</pubDate>
@@ -691,7 +691,7 @@
     <item>
       <title>Setting up an emacs server 😈</title>
       <link>https://sandyuraz.com/blogs/emacsd</link>
-      <description>May... [ Continue reading... ]</description>
+      <description>Booting up emacs can be a challenging task for your terminal emulator and the rock that you tricked into thinking. This is a quick guide with some pointers on speeding up your emacs interactions 100x... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/emacsd</guid>
       <pubDate>Fri, 08 May 2020 01:00:00 CDT</pubDate>
@@ -700,7 +700,7 @@
     <item>
       <title>Becoming an emacs gopher 🐗</title>
       <link>https://sandyuraz.com/blogs/go-emacs</link>
-      <description>May... [ Continue reading... ]</description>
+      <description>UPDATE: Emacs LSP (https://emacs-lsp.github.io/lsp-mode/) is the way to go now. Please do not follow instructions below and use the more powerful lsp. It&#39;... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/go-emacs</guid>
       <pubDate>Thu, 07 May 2020 01:00:00 CDT</pubDate>
@@ -709,7 +709,7 @@
     <item>
       <title>Twin Peaks as a Cult Film 🌲🌲</title>
       <link>https://sandyuraz.com/blogs/twin-peaks</link>
-      <description>April ... [ Continue reading... ]</description>
+      <description>Twin Peaks was one of the biggest impacts TV industry has ever experienced thanks to its rebellious nature against the traditional set values of mainstream media. In the realm of &#34;bad movies&#34; and &#34;trash aesthetics&#34;, this behavior is often considered a cult film. This paper will research how David Lynch and Mark Frost changed the film industry with their infamous ... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/twin-peaks</guid>
       <pubDate>Wed, 22 Apr 2020 01:00:00 CDT</pubDate>
@@ -718,7 +718,7 @@
     <item>
       <title>Encrypting your drive with LUKS 🗝</title>
       <link>https://sandyuraz.com/blogs/encrypting_usb</link>
-      <description>April ... [ Continue reading... ]</description>
+      <description>The Linux Unified Key Setup (LUKS) is a disk encryption specification created by Clemens Fruhwirth in 2004 and was originally intended for Linux. -... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/encrypting_usb</guid>
       <pubDate>Sat, 11 Apr 2020 01:00:00 CDT</pubDate>
@@ -727,7 +727,7 @@
     <item>
       <title>Programmer Ryan Gosling 👨‍💻</title>
       <link>https://sandyuraz.com/blogs/ryan_codes</link>
-      <description>April... [ Continue reading... ]</description>
+      <description>Memes are great and in many ways, define who we are. Couple of months ago, I found one of the best meme goldmines. Programmer Ryan Gosling (https://programmerryangosling.tumblr.com/) I fell in love with it instantly. I love Ryan since the first time I saw him in Drive (https://en.wikipedia.org/wiki/Drive_(2011_film)) and I who doesn&#39;t enjoy a bit of r/ProgrammerHumor (https://www.reddit.com/r/ProgrammerHumor/)? Unfortunately, the stream of content discontinued since Feb 14th, 2014 (what a coincidence). Heart breaking. My good fri... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/ryan_codes</guid>
       <pubDate>Thu, 02 Apr 2020 01:00:00 CDT</pubDate>
@@ -736,7 +736,7 @@
     <item>
       <title>Watching good &amp; bad movies 🎭</title>
       <link>https://sandyuraz.com/blogs/good_bad_movies</link>
-      <description>March ... [ Continue reading... ]</description>
+      <description>My Spring break got extended, all classes are going to transcend into the cloud for the foreseeable future, and I have a lot of time to spare on my hands. I love watching movies, it is actually my favorite medium of entertainment. Looking at the screen and seeing someone else&#39;s imagination form the scenes, charaters, and the plot. I wish to consider myself having a film version of melomania. However, every time I talk to my mother about movies, I just shock her into silence. I&#39;m probably nowhere near her on the movie tastes scale and she woul... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/good_bad_movies</guid>
       <pubDate>Mon, 16 Mar 2020 01:00:00 CDT</pubDate>
@@ -745,7 +745,7 @@
     <item>
       <title>Why use emojis? 🎷🕺</title>
       <link>https://sandyuraz.com/blogs/why_use_emojis</link>
-      <description>March ... [ Continue reading... ]</description>
+      <description>If you visited my website, you probably have noticed some number of emojis I have put up almost everywhere. I like to send emojis via tex messages and post statuses with them. Many as... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/why_use_emojis</guid>
       <pubDate>Sun, 15 Mar 2020 01:00:00 CDT</pubDate>
@@ -754,7 +754,7 @@
     <item>
       <title>My favorite stuff on the web 🌍</title>
       <link>https://sandyuraz.com/blogs/best_web</link>
-      <description>March... [ Continue reading... ]</description>
+      <description>This list has some of my favorite stuff on the internet, divided into categories with links! The list is complet... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/best_web</guid>
       <pubDate>Tue, 03 Mar 2020 00:00:00 CST</pubDate>
@@ -763,7 +763,7 @@
     <item>
       <title>$\sqrt{2}$ is irrational ◻</title>
       <link>https://sandyuraz.com/blogs/sqrt2irrational</link>
-      <description>February ... [ Continue reading... ]</description>
+      <description>$\sqrt{2}$ is i... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/sqrt2irrational</guid>
       <pubDate>Tue, 11 Feb 2020 00:00:00 CST</pubDate>
@@ -772,7 +772,7 @@
     <item>
       <title>Faster, better, stronger 🐩</title>
       <link>https://sandyuraz.com/blogs/better_mutt</link>
-      <description>November ... [ Continue reading... ]</description>
+      <description>Hello there! This is an article on advanced neomutt features that might have been missed in my previous article (../using_mutt) on (neo)mutt. This page has been inspired by some of the issues (https://github.com/neomutt/neomutt/issues/1958) I had with neomutt and the fantastic neomutt ... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/better_mutt</guid>
       <pubDate>Wed, 27 Nov 2019 00:00:00 CST</pubDate>
@@ -781,7 +781,7 @@
     <item>
       <title>Welcome to year 12,019 📅</title>
       <link>https://sandyuraz.com/blogs/year_12019</link>
-      <description>May ... [ Continue reading... ]</description>
+      <description>This is a converted version of my speech I gave at my public speaking class in college. You can find the original document here (../../documents/20190500-Year-2019.pdf). This speech is meant to persuade its audience. I truly believe that changing the current marking method of history can shift the way we thenx and perceive ourselves. The idea itself was greatly inspired by Kurzgesagt&#39;s famous video (https://www.youtube.com/watch?v=czgOWmtGVG... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/year_12019</guid>
       <pubDate>Sun, 26 May 2019 01:00:00 CDT</pubDate>
@@ -790,7 +790,7 @@
     <item>
       <title> Mini Jenni - my new friend 👯‍♀️</title>
       <link>https://sandyuraz.com/blogs/mini_jenni</link>
-      <description>May ... [ Continue reading... ]</description>
+      <description>This is just a showcase of my building process of my new best friend - Mini Jenni (https://myminijenni.weebly.com/), made by Jenny Cox. Before the pictures start pouring in, I want to say that this is not an advertisement, I do not personally know Jenny Cox, and I am not being paid in any way for endorsing t... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/mini_jenni</guid>
       <pubDate>Thu, 16 May 2019 01:00:00 CDT</pubDate>
@@ -799,7 +799,7 @@
     <item>
       <title>Bring joy back to email with Mutt 🐕</title>
       <link>https://sandyuraz.com/blogs/using_mutt</link>
-      <description>May ... [ Continue reading... ]</description>
+      <description>&#34;Electronic mail (email or e-mail) is a method of exchanging messages (&#34;mail&#34;) between people using electronic devices. Invented by Ray Tomlinson, email first entered limited use in the 1960s and by the mid-1970s had taken the form now recognized as email.&#34; [fn:: Taken directly from Wikipedia (https://en.wikipedia.org/wiki/Email)] Email has been around for more than 50 years now. As we go further on our timeline, folks from new generations are starting to forget the beauty of email. This article will discuss the problems with the current s... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/using_mutt</guid>
       <pubDate>Mon, 13 May 2019 01:00:00 CDT</pubDate>
@@ -808,7 +808,7 @@
     <item>
       <title>Installing glorious arch linux ☄️</title>
       <link>https://sandyuraz.com/blogs/installing_arch</link>
-      <description>May... [ Continue reading... ]</description>
+      <description>Welcome to my guide on installing Glorious Arch Linux! For some background, I have been using arch for the last and it is still my only machine that I use as a daily driver. Arch Linux is a lightweight DIY type of distro that does not assume what kind of person you are and thus just lets you be... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/installing_arch</guid>
       <pubDate>Thu, 02 May 2019 01:00:00 CDT</pubDate>
@@ -817,7 +817,7 @@
     <item>
       <title>Talk to Reddit with Go ⛳</title>
       <link>https://sandyuraz.com/blogs/mira_reddit</link>
-      <description>March ... [ Continue reading... ]</description>
+      <description>I like Go and I think it&#39;s a great language. I built memeinvestor_bot (https://github.com/thecsw/memeinvestor_bot), which was one of the interactive reddit bots on the platform at the time. So you can imagine we used quite a bit of praw (https://github.com/praw-dev/praw). About year and a half later, the python codebase became so disgusting and unmaintainable, where I decided to re-write the whole thing in Go. (The old &#34;let&#39;s rewrite everything&#34; syndrome&#34;) Re-write would be too strong, re-build from scratch is what the... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/mira_reddit</guid>
       <pubDate>Tue, 26 Mar 2019 01:00:00 CDT</pubDate>
