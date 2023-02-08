@@ -8,7 +8,7 @@
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <webMaster>sandy@sandyuraz.com (Sandy Urazayev)</webMaster>
     <pubDate>Mon, 23 Jan 2023 00:00:00 CST</pubDate>
-    <lastBuildDate>Mon, 23 Jan 2023 09:20:42 CST</lastBuildDate>
+    <lastBuildDate>Tue, 07 Feb 2023 23:28:33 CST</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -113,24 +113,6 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>Ichika 👜</title>
-      <link>https://sandyuraz.com/plastic/ichika</link>
-      <description>Ichika doesn&#39;t need many angles to capture her beauty -- she already i... [ Continue reading... ]</description>
-      <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-    </item>
-    <item>
-      <title>Winter Aqua 🍶</title>
-      <link>https://sandyuraz.com/plastic/winter-aqua</link>
-      <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable -- like at all. Sure, she is usually more trouble than she&#39;s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
-      <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-aqua</guid>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-    </item>
-    <item>
       <title>Winter Ram 🧣</title>
       <link>https://sandyuraz.com/plastic/winter-ram</link>
       <description>Re:Zero is probably on of the best animated shows ever made. Truly, the Brothers Karamazov of anime (or maybe Tengen Toppa Gurren Lagann? why not both..... [ Continue reading... ]</description>
@@ -145,6 +127,24 @@
       <description>I might have lied in the previous page (../rem) -- I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+    </item>
+    <item>
+      <title>Winter Aqua 🍶</title>
+      <link>https://sandyuraz.com/plastic/winter-aqua</link>
+      <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable -- like at all. Sure, she is usually more trouble than she&#39;s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-aqua</guid>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+    </item>
+    <item>
+      <title>Ichika 👜</title>
+      <link>https://sandyuraz.com/plastic/ichika</link>
+      <description>Ichika doesn&#39;t need many angles to capture her beauty -- she already i... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
       <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
@@ -230,6 +230,15 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
+      <title>Politeness is Dead</title>
+      <link>https://sandyuraz.com/writings/politeness</link>
+      <description>Politeness theory was proposed by P. Brown and S. Levinson in the late 70s. It focuses on the original notion of politeness, which Mary Henningsen describes as „efforts on redressing the affronts to a person&#39;s self-esteem of effectively claiming positive social values .&#34; The central concept of the theory is based on the idea of the face, understood in terms of sociology. ``Face&#39;&#39; is something that can be lost, maintained, or enhanced. &#34;Every person lives in a world of social encounters, involving him either in face-to-face or mediated conta... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/writings">More writings 🥂</category>
+      <guid isPermaLink="true">https://sandyuraz.com/writings/politeness</guid>
+      <pubDate>Tue, 24 May 2022 01:00:00 CDT</pubDate>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+    </item>
+    <item>
       <title>I love Darkness 🥬</title>
       <link>https://sandyuraz.com/blogs/darkness</link>
       <description>It doesn&#39;t feel right anymore. Every time I write something for my website, I feel that I have to dance to the tune of pandoc and asciidoctor. Maybe the Ruby and Haskell Gods will take pity on me and my stuff will render as I want them to. Oh... they didn&#39;t? Time to write a new sed script to... [ Continue reading... ]</description>
@@ -248,30 +257,12 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>Politeness is Dead</title>
-      <link>https://sandyuraz.com/writings/politeness</link>
-      <description>Politeness theory was proposed by P. Brown and S. Levinson in the late 70s. It focuses on the original notion of politeness, which Mary Henningsen describes as „efforts on redressing the affronts to a person&#39;s self-esteem of effectively claiming positive social values .&#34; The central concept of the theory is based on the idea of the face, understood in terms of sociology. ``Face&#39;&#39; is something that can be lost, maintained, or enhanced. &#34;Every person lives in a world of social encounters, involving him either in face-to-face or mediated conta... [ Continue reading... ]</description>
-      <category domain="https://sandyuraz.com/writings">More writings 🥂</category>
-      <guid isPermaLink="true">https://sandyuraz.com/writings/politeness</guid>
-      <pubDate>Tue, 24 May 2022 01:00:00 CDT</pubDate>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-    </item>
-    <item>
       <title>The Ideal of Love in /Brothers Karamazov/</title>
       <link>https://sandyuraz.com/writings/ideal_love</link>
       <description>What does it mean to love someone? This is the question I asked myself many times over my own life with its tried and failed attempts at love. Fatefully, one summer, I discovered Brothers Karamazov by Fyodor Dostoevsky, which reinvented the many ways I used to perceive what life has to offer. Standing here, I realize what a transitional experience it has been for many people who have had the pleasure and struggle to enter Dostoevsky’s mind in what has been acclaimed as one of the supreme achievements in world literature. One of the essent... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/writings">More writings 🥂</category>
       <guid isPermaLink="true">https://sandyuraz.com/writings/ideal_love</guid>
       <pubDate>Mon, 23 May 2022 01:00:00 CDT</pubDate>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-    </item>
-    <item>
-      <title>The awkward moment of me being naked at a conference</title>
-      <link>https://sandyuraz.com/stories/naked</link>
-      <description>I can&#39;t be late. I can&#39;t be late. I cannot be late. Donald Knuth himself is coming to the presentation tonight; I want to see him and all the other special guests we are having. Jame and Ethan should already be there. Hopefully it doesn&#39;t start... [ Continue reading... ]</description>
-      <category domain="https://sandyuraz.com/stories">Short stories 🍯</category>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/naked</guid>
-      <pubDate>Tue, 03 May 2022 01:00:00 CDT</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
@@ -284,12 +275,12 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>Sword Art Online ⚔️</title>
-      <link>https://sandyuraz.com/anime/sao</link>
-      <description>``I like Sword Art Online&#39;&#39; is something you would hear rarely if you ask someone about their opinions on it. It&#39;s such a popular series, as of 12021, the series has 26 million copies in print.[fn:: LN News (in Japanese). https://ln-news.com/page/circulation (https://ln-news.com/page/circulation)] However, it received some rather harsh united criticism from the Western audiences. Some of the top kitsu (https://kitsu.io/anime/sword-art-online/reactions) reviews include ``Self-indulgent power fantasy about a soulless husk in black savin... [ Continue reading... ]</description>
-      <category domain="https://sandyuraz.com/anime">Sandy&#39;s Anime 🍶</category>
-      <guid isPermaLink="true">https://sandyuraz.com/anime/sao</guid>
-      <pubDate>Sat, 16 Apr 2022 01:00:00 CDT</pubDate>
+      <title>The awkward moment of me being naked at a conference</title>
+      <link>https://sandyuraz.com/stories/naked</link>
+      <description>I can&#39;t be late. I can&#39;t be late. I cannot be late. Donald Knuth himself is coming to the presentation tonight; I want to see him and all the other special guests we are having. Jame and Ethan should already be there. Hopefully it doesn&#39;t start... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/stories">Short stories 🍯</category>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/naked</guid>
+      <pubDate>Tue, 03 May 2022 01:00:00 CDT</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
@@ -298,6 +289,15 @@
       <description>I need to do this, I can&#39;t miss that, and more is what we tell ourselves every day, trying to accomplish tasks and fill our ``productivity meters` throughout the day. We hurry so much onto doing as many things as possible that no time is being left out to enjoy doing the things we... enjoy doing. You of course can like the things you do throughout the day, however, that time you spend just with yourself is as equally important. I ask myself, is this modern busyness needed or is its necessity something that we made ourselves b... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/haste</guid>
+      <pubDate>Sat, 16 Apr 2022 01:00:00 CDT</pubDate>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+    </item>
+    <item>
+      <title>Sword Art Online ⚔️</title>
+      <link>https://sandyuraz.com/anime/sao</link>
+      <description>``I like Sword Art Online&#39;&#39; is something you would hear rarely if you ask someone about their opinions on it. It&#39;s such a popular series, as of 12021, the series has 26 million copies in print.[fn:: LN News (in Japanese). https://ln-news.com/page/circulation (https://ln-news.com/page/circulation)] However, it received some rather harsh united criticism from the Western audiences. Some of the top kitsu (https://kitsu.io/anime/sword-art-online/reactions) reviews include ``Self-indulgent power fantasy about a soulless husk in black savin... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/anime">Sandy&#39;s Anime 🍶</category>
+      <guid isPermaLink="true">https://sandyuraz.com/anime/sao</guid>
       <pubDate>Sat, 16 Apr 2022 01:00:00 CDT</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
@@ -338,11 +338,11 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>WebP is such a goated format 🫐</title>
-      <link>https://sandyuraz.com/blogs/webp</link>
-      <description>Update: hi, this page got a little traction (https://news.ycombinator.com/item?id=31010659) on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, AVIF (https://caniuse.com/avif) (69.25%) and JPEG XL (https://caniuse.com/jpegxl) (0%) are not as nearly adopted as WebP (https://caniuse.com/webp) is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released a... [ Continue reading... ]</description>
+      <title>What do I look like 🤳</title>
+      <link>https://sandyuraz.com/blogs/looks</link>
+      <description>I never intended for my website or persona on the internet to be hidden or anonymized. The online appearance I keep is pretty mainstream, yet predominantly isolated to sandyuraz.com. I have my real pictures scattered around from different platforms I used to have; allow me to share some... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
       <pubDate>Sun, 03 Apr 2022 01:00:00 CDT</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
@@ -356,11 +356,11 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>What do I look like 🤳</title>
-      <link>https://sandyuraz.com/blogs/looks</link>
-      <description>I never intended for my website or persona on the internet to be hidden or anonymized. The online appearance I keep is pretty mainstream, yet predominantly isolated to sandyuraz.com. I have my real pictures scattered around from different platforms I used to have; allow me to share some... [ Continue reading... ]</description>
+      <title>WebP is such a goated format 🫐</title>
+      <link>https://sandyuraz.com/blogs/webp</link>
+      <description>Update: hi, this page got a little traction (https://news.ycombinator.com/item?id=31010659) on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, AVIF (https://caniuse.com/avif) (69.25%) and JPEG XL (https://caniuse.com/jpegxl) (0%) are not as nearly adopted as WebP (https://caniuse.com/webp) is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released a... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
       <pubDate>Sun, 03 Apr 2022 01:00:00 CDT</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
@@ -437,15 +437,6 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>For your soul 💃</title>
-      <link>https://sandyuraz.com/blogs/soul</link>
-      <description>I wish to share this beautiful song (https://en.wikipedia.org/wiki/Por_una_Cabeza... [ Continue reading... ]</description>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/soul</guid>
-      <pubDate>Mon, 14 Mar 2022 01:00:00 CDT</pubDate>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-    </item>
-    <item>
       <title>We were once friends. What happened to us? Part II</title>
       <link>https://sandyuraz.com/stories/friend2</link>
       <description>‘Sergey, dear, how was your flight in? How is your family?’ her sweet motherly tone only softened over the years since I&#39;ve last ... [ Continue reading... ]</description>
@@ -464,15 +455,6 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>Cheburashka, I seek your sociolinguistic wisdom</title>
-      <link>https://sandyuraz.com/stories/cheburashka</link>
-      <description>I wonder where he is. It&#39;s already been more than half an hour and he is still not here. Everyone knows it. Everyone should know it. It is the unspoken rule in our society that you are never to be late to a tea party, especially to the one you are i... [ Continue reading... ]</description>
-      <category domain="https://sandyuraz.com/stories">Short stories 🍯</category>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/cheburashka</guid>
-      <pubDate>Mon, 14 Mar 2022 01:00:00 CDT</pubDate>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-    </item>
-    <item>
       <title>Building this website (Legacy) 🌐</title>
       <link>https://sandyuraz.com/blogs/web-legacy</link>
       <description>I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: LaTeX, groff, markdown, Org-Mode, asciidoctor, HTML, plain text. I had to decompress Word files and wrestle with raw XML files there, what a trip... [ Continue reading... ]</description>
@@ -482,12 +464,21 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>Today must be the day when I get the courage</title>
-      <link>https://sandyuraz.com/stories/today</link>
-      <description>Today must be the day. How could it not? Tonight&#39;s the night. Look at the stars, marvel at their beauty. The breeze is so fresh as if it came flying straight from the Mediterranean lands. On a quiet night such as this, it is no secret that the leaves of nearby trees are all singing of God. The Universe itself is singing a lullaby, preparing its subordinates to fall asleep before the new tomorrow. Must be a shame that it will all end for me today. It must... [ Continue reading... ]</description>
+      <title>For your soul 💃</title>
+      <link>https://sandyuraz.com/blogs/soul</link>
+      <description>I wish to share this beautiful song (https://en.wikipedia.org/wiki/Por_una_Cabeza... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/soul</guid>
+      <pubDate>Mon, 14 Mar 2022 01:00:00 CDT</pubDate>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+    </item>
+    <item>
+      <title>Cheburashka, I seek your sociolinguistic wisdom</title>
+      <link>https://sandyuraz.com/stories/cheburashka</link>
+      <description>I wonder where he is. It&#39;s already been more than half an hour and he is still not here. Everyone knows it. Everyone should know it. It is the unspoken rule in our society that you are never to be late to a tea party, especially to the one you are i... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/stories">Short stories 🍯</category>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/today</guid>
-      <pubDate>Sun, 06 Mar 2022 00:00:00 CST</pubDate>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/cheburashka</guid>
+      <pubDate>Mon, 14 Mar 2022 01:00:00 CDT</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
@@ -505,6 +496,15 @@
       <description>Nothing felt the same as it used to. I looked around the room, everything seems to be in place, but... this feeling. This feeling of uneasiness and doubts is sinking deeper and deeper into me. Stuff like this always happens for the wrong reasons, at the wrong times. I think to myself, why do I allow it to ... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/stories">Short stories 🍯</category>
       <guid isPermaLink="true">https://sandyuraz.com/stories/tacobell</guid>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 CST</pubDate>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+    </item>
+    <item>
+      <title>Today must be the day when I get the courage</title>
+      <link>https://sandyuraz.com/stories/today</link>
+      <description>Today must be the day. How could it not? Tonight&#39;s the night. Look at the stars, marvel at their beauty. The breeze is so fresh as if it came flying straight from the Mediterranean lands. On a quiet night such as this, it is no secret that the leaves of nearby trees are all singing of God. The Universe itself is singing a lullaby, preparing its subordinates to fall asleep before the new tomorrow. Must be a shame that it will all end for me today. It must... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/stories">Short stories 🍯</category>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/today</guid>
       <pubDate>Sun, 06 Mar 2022 00:00:00 CST</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
@@ -554,6 +554,15 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
+      <title>I don&#39;t like /some/ people 😤</title>
+      <link>https://sandyuraz.com/blogs/people</link>
+      <description>I don&#39;t like three kinds of people, which boils some of my general views pretty succinctly: people who cheat, people who have a knack for doing wretched things, and finally, people who are on purpose annoyingly loud or inconsiderate of others. Some might even say I have high expectations of people or harshly judge them. It surprises me even further that staying decent human beings isn&#39;t considered common sense anymore. Still, something to be debated and celebrated as an outstanding achievement or an impossible task, especially with how popula... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/people</guid>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 CST</pubDate>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+    </item>
+    <item>
       <title>When I was a baby freshman 🐣</title>
       <link>https://sandyuraz.com/blogs/freshman</link>
       <description>Being a senior in college is weird. I have to confess that I contracted senioritis big time. So much has changed since my first time coming to the University of Kansas. The change was very well expected, actually desired. But what I failed to predict was the number of things that not only will change but completely go away. Don&#39;t forget about this whole pandemic situation that happened right in the middle, kind of pushing me off... [ Continue reading... ]</description>
@@ -572,20 +581,20 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
     <item>
-      <title>Banished from the Hero&#39;s Party 🪴</title>
-      <link>https://sandyuraz.com/anime/banished</link>
-      <description>Hello! Hope you’re doing well today. This is my first anime review; I don’t know the best format to follow. I think I’m the only person who will read this, so I’ll write it myself. If you’re not me, Godspeed.... [ Continue reading... ]</description>
-      <category domain="https://sandyuraz.com/anime">Sandy&#39;s Anime 🍶</category>
-      <guid isPermaLink="true">https://sandyuraz.com/anime/banished</guid>
-      <pubDate>Tue, 04 Jan 2022 00:00:00 CST</pubDate>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-    </item>
-    <item>
       <title>My Spotify Wrapped for 2021 🎧</title>
       <link>https://sandyuraz.com/blogs/wrapped</link>
       <description>Good morning! It&#39;s been a while since I posted anything in the random section. I talked briefly (https://sandyuraz.com/blogs/song_challenge/) in the past (https://sandyuraz.com/arts/) about my music tastes and what kind of music I listen to. I must confess, 12021 has been quite rough in some spots, which affected my taste and playlists in somewhat of a major way. What&#39;s the better way to recap it than using the new handy-dandy Spotify wrapped (https://www.spotify.com/us/wrapped/) that sums up everything you did on the platform for th... [ Continue reading... ]</description>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/wrapped</guid>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 CST</pubDate>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+    </item>
+    <item>
+      <title>Banished from the Hero&#39;s Party 🪴</title>
+      <link>https://sandyuraz.com/anime/banished</link>
+      <description>Hello! Hope you’re doing well today. This is my first anime review; I don’t know the best format to follow. I think I’m the only person who will read this, so I’ll write it myself. If you’re not me, Godspeed.... [ Continue reading... ]</description>
+      <category domain="https://sandyuraz.com/anime">Sandy&#39;s Anime 🍶</category>
+      <guid isPermaLink="true">https://sandyuraz.com/anime/banished</guid>
       <pubDate>Tue, 04 Jan 2022 00:00:00 CST</pubDate>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
     </item>
