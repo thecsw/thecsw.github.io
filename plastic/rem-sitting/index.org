@@ -1,4 +1,4 @@
-#+date: 16; 12023 H.E.
+#+date: 17; 12023 H.E.
 * Rem sitting 🪑
 
 #+begin_gallery :num 3
