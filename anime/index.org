@@ -27,7 +27,7 @@ invest myself in what I'm about to watch.
 
 #+begin_src
  ┌────────────────────┐
- │    Made in Abyss   ├───────────────────┐      
+ │    Made in Abyss   ├───────────────────┐
  ├────────────────────┤  Sword Art Online │
  │      Initial D     │Progressive:Scherzo│
  │  Legend 3: Dream   │   of Deep Night   │
