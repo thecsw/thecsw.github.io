@@ -27,9 +27,11 @@ invest myself in what I'm about to watch.
 
 #+begin_src
  ┌────────────────────┐
- │      Initial D     │
- │  Legend 3: Dream   │
- ├────────────────────┼───────────────────┐
+ │    Made in Abyss   ├───────────────────┐      
+ ├────────────────────┤  Sword Art Online │
+ │      Initial D     │Progressive:Scherzo│
+ │  Legend 3: Dream   │   of Deep Night   │
+ ├────────────────────┼───────────────────┤
  │      Initial D     │     Initial D     │
  │ Legend 1: Awakening│  Legend 2: Racer  │
  ├────────────────────┼───────────────────┤
@@ -119,7 +121,7 @@ invest myself in what I'm about to watch.
  │      Takt Op.      │ in the Countryside│
  │      Destiny       ├───────────────────┤
  ├────────────────────┤ Sword Art Online: │
- │     Death Note     │ Progressive───Aria│
+ │     Death Note     │ Progressive - Aria│
  ├────────────────────┤of a Starless Night│
  │    Is it Wrong     ├───────────────────┤
  │   to Try to Pick   │   Is it Wrong     │
