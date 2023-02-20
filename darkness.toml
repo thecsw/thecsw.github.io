@@ -33,7 +33,7 @@ preview_directory = "darkness-stuff/previews"
 image = "najimi.webp"
 name = "sandy"
 name_enable = false
-email = "sandy [at] sandyuraz [dot] com"
+email = "darkness [at] sandyuraz [dot] com"
 email_enable = true
 
 [rss]
