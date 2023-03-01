@@ -49,7 +49,7 @@ account with my username. Holdup, does it have a character limit?
 Hmmm
 
 #+begin_center
-*/tcsw/*
+*/tcsw/* 
 #+end_center
 
 It's perfect (x3). I've been going by /tcsw/ for many months after that. I think

@@ -26,8 +26,12 @@ do. I have to prepare myself emotionally, get well-rested, and be ready to
 invest myself in what I'm about to watch.
 
 #+begin_src
- ┌────────────────────┐
- │    Made in Abyss   ├───────────────────┐
+ ┌────────────────────┬───────────────────┐
+ │    Aggretsuko 3    │Made in Abyss: Dawn│
+ ├────────────────────┤  of the Deep Soul │
+ │    Aggretsuko 2    ├───────────────────┤
+ ├────────────────────┤     Aggretsuko    │
+ │    Made in Abyss   ├───────────────────┤
  ├────────────────────┤  Sword Art Online │
  │      Initial D     │Progressive:Scherzo│
  │  Legend 3: Dream   │   of Deep Night   │

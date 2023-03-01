@@ -30,7 +30,7 @@ jobs:
 
       - name: RSS 🎷
         run: |
-          ./darkness.com misa -rss
+          ./darkness.com misa -rss feed.xml -rss-dirs ./,anime,blogs,books,plastic,shokugeki,stories,writings
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
