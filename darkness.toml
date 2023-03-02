@@ -11,7 +11,7 @@ preview = "preview.jpg"
 description_length = 137
 roman_footnotes = true
 footnote_brackets = false
-holoscene_dates = true
+clickable_images = false
 
 syntax_highlighting = true
 syntax_highlighting_languages = "scripts/highlight/languages"
