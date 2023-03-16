@@ -1,0 +1,11 @@
+#+options: draft:t
+* From School to Corporate 📞
+
+#+begin_export html responsive
+<iframe
+        src="https://onedrive.live.com/embed?cid=2DB56E4296B6CB04&resid=2DB56E4296B6CB04%211287&authkey=AK4SpFdSWpv14lE&em=2"
+        width="1000px"
+        frameborder="0"
+        scrolling="no"
+></iframe>
+#+end_export
