@@ -1,5 +1,23 @@
-#+options: draft:t
 * From School to Corporate 📞
+
+On February 22nd, 2023, I gave my traditional annual spotlight talk at KU
+(University of Kansas) ACM (Association for Computing Machinery) chapter
+meeting.
+
+Last time I gave a talk, I was still a student (senior at the time) at KU. I
+would call that talk my personal ``magnum opus'', [[https://sandyuraz.com/projects/art/][The Art of Computer Science ❤️]].
+
+I wondered to myself, what can I talk about now? My presentations always tried
+to avoid talking about anything too technical, as my interests line up more with
+higher-level topics, which can capture all kinds of audiences.
+
+How about I summarize everything I learned about corporate, internships,
+and strategies with all the cynicism that it comes with? How does college
+prepare one for the private sector or whether it's needed at all?
+
+Please join me through seeing what it means to be a young adult under
+capitalism, sprinkled with humble a retrospective into what I have done
+throughout my studies and some personal regrets as well.
 
 #+begin_export html responsive
 <iframe
