@@ -70,7 +70,7 @@ Note: if work produces outputs or errors, those activated channels *need* to be
 consumed by the user, otherwise, when reaching =size= number of elements in either
 (if active), work will be blocked until the destination channel is consumed.
 
-**  Connectors
+** Connectors
 
 Unique feature of =komi= is that each pool can be connected with each other. Say
 you have two functions, where one opens file's contents, =openFile(filename
@@ -124,14 +124,14 @@ return from the original =Close()= call.
 Please note that none of the pools =1,2,...,N-1= in the above will honor user's
 closure request, as it should come from their connected (parent) pool.
 
-**  Quirks
+** Quirks
 
 When the parent-most pool is closing, it will wait for all the child pools to
 complete their jobs. This behavior can be overwritten by calling =.Close(true)=,
 which would skip any waiting of childrens' queued jobs and skip any waiting of
 the parent-most pool's queued jobs.
 
-**  Operations
+** Operations
 
 Pools support waiting (blocking) until the pool has no jobs waiting for
 completion with =pool.Wait()=.
@@ -175,10 +175,27 @@ used extensively and in production. However, there are no guarantees provided
 for this library, that is, until something like =v1.0= is out, in which case, I
 would promise to maintain backward compatibility.
 
+Here is how [[https://sandyuraz.com/darkness/][Darkness 🥬]] currently builds this website,
+
+#+begin_src
+           Reading 📚                      Parsing 🧹
+   path  ┌───────────┐   file handler   ┌─────────────┐
+ ──────> │ filesPool │ ───────────────> │  parserPool │
+         └───────────┘                  └─────────────┘
+          log errors                          │
+                                              │    parsed files
+                                              │  aka yunyun pages
+                                              │
+   file  ┌────────────┐  exported data  ┌──────────────┐
+  <───── │ writerPool │ <────────────── │ exporterPool │
+         └────────────┘                 └──────────────┘
+           Writing 🎸                     Exporting 🥂
+#+end_src
+
 Please use it with knowing your risks. However, if you use a tagged version or a
 commit hash in your =go.mod=, you should be fine.
 
-**  Future work
+** Future work
 
 Some future items in mind:
 
