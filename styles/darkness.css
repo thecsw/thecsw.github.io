@@ -662,8 +662,8 @@ details[open] {
 .media {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         width: var(--media-width);
         max-width: 100%;
         position: relative;
