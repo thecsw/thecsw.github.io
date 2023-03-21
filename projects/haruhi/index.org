@@ -1,0 +1,82 @@
+#+options: preview:haruhi.gif
+* HTTP just like SOS Brigade 🐰
+
+Welcome! This is Sandy's take on making a simple yet powerful enough
+HTTP library. Inspired by [[https://github.com/psf/requests][python's requests]].
+
+[[haruhi.gif][Muh leader]]
+
+**  Motivation
+
+When it comes to making network requests, I find myself writing a lot of
+repetitive go code, you know the gist of getting a json response,
+
+#+begin_src go
+  ctx := context.WithTimeout(context.TODO(), time.Minute)
+  req, err := http.NewRequestWithContext(ctx, method, URLpath, body)
+  if err != nil { /* ... */
+  }
+
+  params := req.URL.Query()
+  params.Add(key, value)
+  // more great parameters you need
+  req.URL.RawQuery = params.Encode()
+
+  resp, err := client.Do(req)
+  if err != nil { /* ...  */
+  }
+  defer resp.Body.Close()
+
+  // do a response status check if needed...
+
+  ans := &SomeStruct{}
+  if err != json.NewDecoder(resp.Body).Decode(ans); err != nil { /*... */
+  }
+
+  // whatever other magic you need to do!
+#+end_src
+
+This is still a condensed version! The example above skips a couple of steps for
+brevity, like setting timeouts, deadlines, proper reading, buffering, progress, etc. 
+
+You can end up making something of your own, but repeating the same code has
+many issues, such as forgetting to close the response body or set proper
+contexts with plenty more.
+
+**  Examples
+
+What if instead, all you had to write was
+
+#+begin_src go
+ans := &SomeStruct{}
+err := haruhi.URL(URLpath).
+    Method(method).
+    Params(params).
+    Body(body).
+    Timeout(time.Minute).
+    ResponseJSON(ans)
+#+end_src
+
+and it did everything for you? You can even simplify it with haruhi's sensible
+defaults, such as running a =GET= request by default, etc, so you could even do
+
+#+begin_src go
+respStr, err := haruhi.URL(url).Get()
+#+end_src
+
+Haruhi of course, supports more funtionality that is aimed to be simple and
+straight-forward. Entire codebase is documented, so head on to [[https://pkg.go.dev/github.com/thecsw/haruhi][go docs]] to see
+what else she can do.
+
+Have fun requesting!
+
+** Why Haruhi?
+
+Because [[https://letterboxd.com/thecsw/film/the-melancholy-of-haruhi-suzumiya/][Endless Eight is a cinematic masterpiece]] and [[https://haruhi.fandom.com/wiki/Haruhi_Suzumiya][Haruhi is life itself]].
+
+** Development
+
+Please visit the github page and let me know through issues or PRs if you have
+any questions!
+
+-> [[https://github.com/thecsw/komi][HTTP just like SOS Brigade 🐰]]
