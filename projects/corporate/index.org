@@ -19,6 +19,9 @@ Please join me through seeing what it means to be a young adult under
 capitalism, sprinkled with humble a retrospective into what I have done
 throughout my studies and some personal regrets as well.
 
+There isn't a recording like last time, so please find the deck embedded
+below. If it doesn't work, it's available through [[https://1drv.ms/b/s!AgTLtpZCbrUtigqsxy2Dve2gk4F5?e=9eNVs0][a direct link]].
+
 #+begin_export html responsive
 <iframe
         src="https://onedrive.live.com/embed?cid=2DB56E4296B6CB04&resid=2DB56E4296B6CB04%211287&authkey=AK4SpFdSWpv14lE&em=2"

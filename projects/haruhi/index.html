@@ -1,0 +1,191 @@
+<!--
+                 ,ae,
+                ,88888e
+ _____   ,a888b.9888888i   _____              _
+(_____)  888888888888888  (____ \            | |
+   _     88888888888888Y   _   \ \ ____  ____| |  _ ____   ____  ___  ___
+  | |    '8888888888888'  | |   | / _  |/ ___) | / )  _ \ / _  )/___)/___)
+ _| |_     "S888888888"   | |__/ ( ( | | |   | |< (| | | ( (/ /|___ |___ |
+(_____)      "7888888Y    |_____/ \_||_|_|   |_| \_)_| |_|\____|___/(___/
+                "e88j
+                  "Y
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/projects/haruhi" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="date" property="date" content="0; 12000 H.E.">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="Welcome! This is Sandy’s take on making a simple yet powerful enough HTTP library. Inspired by [[https://github.com/psf/requests][python&amp;#39;...">
+<meta name="og:title" property="og:title" content="HTTP just like SOS Brigade 🐰">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/projects/haruhi">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https://sandyuraz.com/projects/haruhi/haruhi.gif">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/gif">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="Welcome! This is Sandy’s take on making a simple yet powerful enough HTTP library. Inspired by [[https://github.com/psf/requests][python&amp;#39;...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/projects/haruhi/haruhi.gif">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/projects/haruhi">
+<meta name="twitter:title" property="twitter:title" content="HTTP just like SOS Brigade 🐰">
+<meta name="twitter:description" property="twitter:description" content="Welcome! This is Sandy’s take on making a simple yet powerful enough HTTP library. Inspired by [[https://github.com/psf/requests][python&amp;#39;..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
+
+
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css"><script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/go.min.js"></script>
+<script>hljs.highlightAll();</script>
+<title>HTTP just like SOS Brigade 🐰</title>
+</head>
+<body class="article">
+
+<div class="header">
+<h1 class="section-1"><img id="myface" src="https://sandyuraz.com/najimi.webp" alt="avatar">HTTP just like SOS Brigade 🐰</h1>
+<div class="menu">
+<span><a href="/feed.xml" class="rss-link"><img src="/assets/rss.svg" class="rss-icon"></a></span><br>
+<span id="email" class="email">darkness [at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="menu"></div>
+</div>
+<div class="writing">
+
+<div class="paragraph">
+<p>
+Welcome! This is Sandy’s take on making a simple yet powerful enough HTTP library. Inspired by <a href="https://github.com/psf/requests" title="">python’s requests</a>.
+</p>
+</div></div>
+
+<div class="media">
+<a class="image" ><img class="image" src="haruhi.gif" title="Muh leader" alt="Muh leader"></a>
+<div class="title">Muh leader</div>
+<hr>
+</div><div class="writing">
+
+<h1 id="-motivation" class="section-2">Motivation</h1>
+<div class="paragraph">
+<p>
+When it comes to making network requests, I find myself writing a lot of repetitive go code, you know the gist of getting a json response,
+</p>
+</div></div>
+
+<div class="media">
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">  ctx := context.WithTimeout(context.TODO(), time.Minute)
+  req, err := http.NewRequestWithContext(ctx, method, URLpath, body)
+  if err != nil { /* ... */
+  }
+
+  params := req.URL.Query()
+  params.Add(key, value)
+  // more great parameters you need
+  req.URL.RawQuery = params.Encode()
+
+  resp, err := client.Do(req)
+  if err != nil { /* ...  */
+  }
+  defer resp.Body.Close()
+
+  // do a response status check if needed...
+
+  ans := &amp;SomeStruct{}
+  if err != json.NewDecoder(resp.Body).Decode(ans); err != nil { /*... */
+  }
+
+  // whatever other magic you need to do!</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph">
+<p>
+This is still a condensed version! The example above skips a couple of steps for brevity, like setting timeouts, deadlines, proper reading, buffering, progress, etc.
+</p>
+</div>
+<div class="paragraph">
+<p>
+You can end up making something of your own, but repeating the same code has many issues, such as forgetting to close the response body or set proper contexts with plenty more.
+</p>
+</div>
+<h1 id="-examples" class="section-2">Examples</h1>
+<div class="paragraph">
+<p>
+What if instead, all you had to write was
+</p>
+</div></div>
+
+<div class="media">
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">ans := &amp;SomeStruct{}
+err := haruhi.URL(URLpath).
+    Method(method).
+    Params(params).
+    Body(body).
+    Timeout(time.Minute).
+    ResponseJSON(ans)</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph">
+<p>
+and it did everything for you? You can even simplify it with haruhi’s sensible defaults, such as running a <code>GET</code> request by default, etc, so you could even do
+</p>
+</div></div>
+
+<div class="media">
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">respStr, err := haruhi.URL(url).Get()</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph">
+<p>
+Haruhi of course, supports more funtionality that is aimed to be simple and straight-forward. Entire codebase is documented, so head on to <a href="https://pkg.go.dev/github.com/thecsw/haruhi" title="">go docs</a> to see what else she can do.
+</p>
+</div>
+<div class="paragraph">
+<p>
+Have fun requesting!
+</p>
+</div>
+<h1 id="why-haruhi" class="section-2">Why Haruhi?</h1>
+<div class="paragraph">
+<p>
+Because <a href="https://letterboxd.com/thecsw/film/the-melancholy-of-haruhi-suzumiya/" title="">Endless Eight is a cinematic masterpiece</a> and <a href="https://haruhi.fandom.com/wiki/Haruhi_Suzumiya" title="">Haruhi is life itself</a>.
+</p>
+</div>
+<h1 id="development" class="section-2">Development</h1>
+<div class="paragraph">
+<p>
+Please visit the github page and let me know through issues or PRs if you have any questions!
+</p>
+</div>
+<div class="paragraph">
+<p>
+-&gt; <a href="https://github.com/thecsw/komi" title="">HTTP just like SOS Brigade 🐰</a>
+</p>
+</div>
+</div>
+
+
+</body>
+</html>
