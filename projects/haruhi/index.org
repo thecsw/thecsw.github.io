@@ -6,7 +6,7 @@ HTTP library. Inspired by [[https://github.com/psf/requests][python's requests]]
 
 [[haruhi.gif][Muh leader]]
 
-**  Motivation
+** Motivation
 
 When it comes to making network requests, I find myself writing a lot of
 repetitive go code, you know the gist of getting a json response,
@@ -43,7 +43,7 @@ You can end up making something of your own, but repeating the same code has
 many issues, such as forgetting to close the response body or set proper
 contexts with plenty more.
 
-**  Examples
+** Examples
 
 What if instead, all you had to write was
 
@@ -79,4 +79,4 @@ Because [[https://letterboxd.com/thecsw/film/the-melancholy-of-haruhi-suzumiya/]
 Please visit the github page and let me know through issues or PRs if you have
 any questions!
 
--> [[https://github.com/thecsw/komi][HTTP just like SOS Brigade 🐰]]
+-> [[https://github.com/thecsw/haruhi][HTTP just like SOS Brigade 🐰]]
