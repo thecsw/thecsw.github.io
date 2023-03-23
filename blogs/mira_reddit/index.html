@@ -122,31 +122,31 @@ You can post submissions and submit/reply/edit/delete comments. You can also gra
 
 <div class="media">
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">  package main
+<pre class="highlight"><code class="language-go" data-lang="go">package main
 
-  import (
-      &#34;fmt&#34;
+import (
+    &#34;fmt&#34;
 
-      &#34;github.com/thecsw/mira&#34;
-  )
+    &#34;github.com/thecsw/mira&#34;
+)
 
-  // Error checking is omitted for brevity
-  func main() {
-      // Start mira
-      r, err := mira.Init(mira.ReadCredsFromFile(&#34;login.conf&#34;))
-      // Make a submission
-      post, err := r.Subreddit(&#34;mysubreddit&#34;).Submit(&#34;mytitle&#34;, &#34;mytext&#34;)
-      // Comment on our new submission
-      comment, err := r.Submission(post.GetId()).Save(&#34;mycomment&#34;)
-      // Reply to our own comment
-      reply, err := r.Comment(comment.GetId()).Reply(&#34;myreply&#34;)
-      // Delete the reply
-      r.Comment(reply.GetId()).Delete()
-      // Edit the first comment
-      newComment, err := r.Comment(comment.GetId()).Edit(&#34;myedit&#34;)
-      // Show the comment&#39;s body
-      fmt.Println(newComment.GetBody())
-  }</code></pre>
+// Error checking is omitted for brevity
+func main() {
+    // Start mira
+    r, err := mira.Init(mira.ReadCredsFromFile(&#34;login.conf&#34;))
+    // Make a submission
+    post, err := r.Subreddit(&#34;mysubreddit&#34;).Submit(&#34;mytitle&#34;, &#34;mytext&#34;)
+    // Comment on our new submission
+    comment, err := r.Submission(post.GetId()).Save(&#34;mycomment&#34;)
+    // Reply to our own comment
+    reply, err := r.Comment(comment.GetId()).Reply(&#34;myreply&#34;)
+    // Delete the reply
+    r.Comment(reply.GetId()).Delete()
+    // Edit the first comment
+    newComment, err := r.Comment(comment.GetId()).Edit(&#34;myedit&#34;)
+    // Show the comment&#39;s body
+    fmt.Println(newComment.GetBody())
+}</code></pre>
 </div>
 </div>
 <div class="writing">
@@ -165,38 +165,38 @@ Let’s take a quick example of how we can build a reminder bot from <a href="ht
 
 <div class="media">
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">  package main
+<pre class="highlight"><code class="language-go" data-lang="go">package main
 
-  import (
-      &#34;strings&#34;
-      &#34;time&#34;
-      &#34;github.com/thecsw/mira&#34;
-  )
+import (
+    &#34;strings&#34;
+    &#34;time&#34;
+    &#34;github.com/thecsw/mira&#34;
+)
 
-  func main() {
-      r, err := mira.Init(mira.ReadCredsFromFile(&#34;login.conf&#34;))
-      if err != nil {
-          panic(err)
-      }
-      c, err := r.Subreddit(&#34;bottesting&#34;).StreamSubmissions()
-      if err != nil {
-          panic(err)
-      }
-      for {
-          post := &lt;-c
-          if !strings.Contains(post.GetBody(), &#34;remind me of this bot&#34;) {
-              continue
-          }
-          go func() {
-              &lt;-time.After(10 * time.Second)
-              err = r.Redditor(post.GetAuthor()).Compose(
-                  fmt.Sprintf(&#34;Reminder: %s&#34;, post.GetTitle()),
-                  &#34;You&#39;ve been reminded!&#34;,
-              )
-              // check the error if you wish
-          }()
-      }
-  }</code></pre>
+func main() {
+    r, err := mira.Init(mira.ReadCredsFromFile(&#34;login.conf&#34;))
+    if err != nil {
+        panic(err)
+    }
+    c, err := r.Subreddit(&#34;bottesting&#34;).StreamSubmissions()
+    if err != nil {
+        panic(err)
+    }
+    for {
+        post := &lt;-c
+        if !strings.Contains(post.GetBody(), &#34;remind me of this bot&#34;) {
+            continue
+        }
+        go func() {
+            &lt;-time.After(10 * time.Second)
+            err = r.Redditor(post.GetAuthor()).Compose(
+                fmt.Sprintf(&#34;Reminder: %s&#34;, post.GetTitle()),
+                &#34;You&#39;ve been reminded!&#34;,
+            )
+            // check the error if you wish
+        }()
+    }
+}</code></pre>
 </div>
 </div>
 <div class="writing">
@@ -285,22 +285,22 @@ you can lookup <code>checkType(...)</code> in mira’s readme
 
 <div class="media">
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">  func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
-      ret := &amp;models.CommentWrap{}
-      // Second return is type, which is &#34;comment&#34;
-      name, _, err := c.checkType(&#34;comment&#34;)
-      if err != nil {
-          return *ret, err
-      }
-      target := RedditOauth + &#34;/api/comment&#34;
-      ans, err := c.MiraRequest(&#34;POST&#34;, target, map[string]string{
-          &#34;text&#34;:     text,
-          &#34;thing_id&#34;: name,
-          &#34;api_type&#34;: &#34;json&#34;,
-      })
-      json.Unmarshal(ans, ret)
-      return *ret, err
-  }</code></pre>
+<pre class="highlight"><code class="language-go" data-lang="go">func (c *Reddit) Reply(text string) (models.CommentWrap, error) {
+    ret := &amp;models.CommentWrap{}
+    // Second return is type, which is &#34;comment&#34;
+    name, _, err := c.checkType(&#34;comment&#34;)
+    if err != nil {
+        return *ret, err
+    }
+    target := RedditOauth + &#34;/api/comment&#34;
+    ans, err := c.MiraRequest(&#34;POST&#34;, target, map[string]string{
+        &#34;text&#34;:     text,
+        &#34;thing_id&#34;: name,
+        &#34;api_type&#34;: &#34;json&#34;,
+    })
+    json.Unmarshal(ans, ret)
+    return *ret, err
+}</code></pre>
 </div>
 </div>
 
