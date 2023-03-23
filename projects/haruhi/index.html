@@ -88,28 +88,28 @@ When it comes to making network requests, I find myself writing a lot of repetit
 
 <div class="media">
 <div class="listingblock">
-<pre class="highlight"><code class="language-go" data-lang="go">  ctx := context.WithTimeout(context.TODO(), time.Minute)
-  req, err := http.NewRequestWithContext(ctx, method, URLpath, body)
-  if err != nil { /* ... */
-  }
+<pre class="highlight"><code class="language-go" data-lang="go">ctx := context.WithTimeout(context.TODO(), time.Minute)
+req, err := http.NewRequestWithContext(ctx, method, URLpath, body)
+if err != nil { /* ... */
+}
 
-  params := req.URL.Query()
-  params.Add(key, value)
-  // more great parameters you need
-  req.URL.RawQuery = params.Encode()
+params := req.URL.Query()
+params.Add(key, value)
+// more great parameters you need
+req.URL.RawQuery = params.Encode()
 
-  resp, err := client.Do(req)
-  if err != nil { /* ...  */
-  }
-  defer resp.Body.Close()
+resp, err := client.Do(req)
+if err != nil { /* ...  */
+}
+defer resp.Body.Close()
 
-  // do a response status check if needed...
+// do a response status check if needed...
 
-  ans := &amp;SomeStruct{}
-  if err != json.NewDecoder(resp.Body).Decode(ans); err != nil { /*... */
-  }
+ans := &amp;SomeStruct{}
+if err != json.NewDecoder(resp.Body).Decode(ans); err != nil { /*... */
+}
 
-  // whatever other magic you need to do!</code></pre>
+// whatever other magic you need to do!</code></pre>
 </div>
 </div>
 <div class="writing">
