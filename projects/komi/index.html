@@ -189,7 +189,7 @@ Two pools can be created,
 	Size:     4,
 })
 
-counter := komi.NewPool(komi.Work(countWords), &amp;komi.Settings{
+counter := komi.NewWithSettings(komi.Work(countWords), &amp;komi.Settings{
 	Name:     &#34;Counter 📚 &#34;,
 	Laborers: 10,
 	Size:     20,

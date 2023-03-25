@@ -90,8 +90,7 @@ When it comes to making network requests, I find myself writing a lot of repetit
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">ctx := context.WithTimeout(context.TODO(), time.Minute)
 req, err := http.NewRequestWithContext(ctx, method, URLpath, body)
-if err != nil { /* ... */
-}
+if err != nil { /* ... */ }
 
 params := req.URL.Query()
 params.Add(key, value)
@@ -99,15 +98,13 @@ params.Add(key, value)
 req.URL.RawQuery = params.Encode()
 
 resp, err := client.Do(req)
-if err != nil { /* ...  */
-}
+if err != nil { /* ...  */ }
 defer resp.Body.Close()
 
 // do a response status check if needed...
 
 ans := &amp;SomeStruct{}
-if err != json.NewDecoder(resp.Body).Decode(ans); err != nil { /*... */
-}
+if err != json.NewDecoder(resp.Body).Decode(ans); err != nil { /*... */ }
 
 // whatever other magic you need to do!</code></pre>
 </div>
