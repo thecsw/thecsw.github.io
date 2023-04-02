@@ -1,4 +1,5 @@
 #+options: tomb:nil
+#+date: 92; 12023 H.E.
 * Komi and Dostoevsky 🥙
 
 Taken from a conversation with my very close friends. A very weak link between
