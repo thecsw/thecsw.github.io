@@ -104,11 +104,11 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 
 #+begin_src
  ┌───────────────────────────────────────┐
- │ SPY CLASSROOM, Visual Novel, Volume 3 │
+ │  SPY CLASSROOM, Light Novel, Volume 3 │
  ├───────────────────────────────────────┤
- │ SPY CLASSROOM, Visual Novel, Volume 2 │
+ │  SPY CLASSROOM, Light Novel, Volume 2 │
  ├───────────────────────────────────────┤
- │ SPY CLASSROOM, Visual Novel, Volume 1 │
+ │  SPY CLASSROOM, Light Novel, Volume 1 │
  ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 23   │
  ├───────────────────────────────────────┤
