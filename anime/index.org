@@ -26,9 +26,9 @@ do. I have to prepare myself emotionally, get well-rested, and be ready to
 invest myself in what I'm about to watch.
 
 #+begin_src
- ┌────────────────────┐
- │   Made in Abyss:   │
- │   Retsujitsu no    ├───────────────────┐
+ ┌────────────────────┬───────────────────┐
+ │   Made in Abyss:   │     Golden Boy    │
+ │   Retsujitsu no    ├───────────────────┤
  │     Ougonkyou      │   Chainsaw Man    │
  ├────────────────────┼───────────────────┤
  │    Aggretsuko 4    │    Aggretsuko 5   │
