@@ -1,4 +1,5 @@
 #+date: 91; 12023 H.E.
+#+options: tomb:nil
 * Grand wisdom is made up 🏔️
 
 I wanted to try something new, copy-pasted something I wrote in a discord
@@ -60,6 +61,6 @@ i'll stop with examples here lol, we can go on for a very long time
 
 My friend read this article, thinking that multiple people were conversing, so I
 was asked to add some delimiters or flags of who said what. Well, I can't do
-that. All of the above was just me. Related.
+that. All of the above was just me. Related,
 
 [[realest.jpg][fr fr]]
