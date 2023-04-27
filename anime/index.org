@@ -8,6 +8,7 @@
 Please enjoy some selected reviews I have below. Scroll down more to see my
 anime VHS-esque shelf. My [[https://kitsu.io/users/thecsw][kitsu]] profile has an up-to-date track record!
 
+- [[shinkai][Makoto Shinkai ☔️]]
 - [[mgx][Nazo no Kanojo X ✂️]]
 - [[sao][Sword Art Online ⚔️]]
 - [[horimiya][Horimiya 🍰]]
@@ -26,7 +27,9 @@ do. I have to prepare myself emotionally, get well-rested, and be ready to
 invest myself in what I'm about to watch.
 
 #+begin_src
- ┌────────────────────┬───────────────────┐
+ ┌────────────────────┐
+ │       Suzume       │
+ ├────────────────────┼───────────────────┐
  │   Made in Abyss:   │     Golden Boy    │
  │   Retsujitsu no    ├───────────────────┤
  │     Ougonkyou      │   Chainsaw Man    │
