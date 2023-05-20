@@ -3,6 +3,9 @@ darkness_vendor
 .darkness/vendored
 darkness-stuff/vendored
 
+# nagito export files
+nagito_export*
+
 # Ignore my emacs backup directory
 .saves
 # astrie's executables
