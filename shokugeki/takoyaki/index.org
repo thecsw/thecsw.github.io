@@ -2,8 +2,8 @@
 * Takoyaki 🐙
 
 #+begin_gallery
-- [[https://bnz05pap002files.storage.live.com/y4mwF7SuGE2yN3Wyzc4RrEZ_IGA5CfITLPAWcUJNB1HRpsaRElPoxVxZDQjuOd1DD897EwdlGtmK3MxDa8lOEJ80lq3ybL1DOKPjAquC8HcxdRgCjpQl99QGbkHcgMjyjkoJyp1u5CYypwDEpnFrtMWRb6MN_xIgHzPFAX6X9XEoWEbzFjKnUREz6mvTvyNOKWV?width=2268&height=4032&cropmode=none][vert]] :flex 40
-- [[https://bnz05pap002files.storage.live.com/y4mIR6VgykQYPzIZw8qaZ3mj84gVK8yxGIlF-ah9Y6SlGFedzmQpZ5Q2xx7l7xiROq5fvIBlobuzGewm7tnC9LQBTbOW5yqzgCScjhjpaaqHC-noFM0PfKezjkiHL_z9cDXoEiGty-HAbc2j5cH4F9YRiHln0xINbnvkRCwrqHpJ2caGzPi614mdVg5WgD96s0L?width=3024&height=3024&cropmode=none][sq]] :flex 50
+- [[https://photos.sandyuraz.com/oxN][vert]] :flex 40
+- [[https://photos.sandyuraz.com/ePp][sq]] :flex 50
 #+end_gallery
 
 Big thanks to [[https://www.justonecookbook.com/][JUST ONE COOKBOOK]] for this [[https://www.justonecookbook.com/takoyaki-recipe/][great recipe]]!
