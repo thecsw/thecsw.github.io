@@ -14,14 +14,17 @@ NOTE: Added a new (new) picture on March 1st, 2023! Gotten older.
 
 NOTE: Added a new picture! I finally found a good stylist that *gets me*.
 
-[[newphone.webp][I got a new phone here]]
+#+attr_darkness: image
+[[https://photos.sandyuraz.com/dOt][I got a new phone here]]
 
 ** Older pics
 
-[[gilet.webp][This gilet is too light-colored]]
+#+attr_darkness: image
+[[https://photos.sandyuraz.com/YdP][This gilet is too light-colored]]
 
 I've been growing out my hair for some time, gotta get them [[https://sandyuraz.com/anime/horimiya/][Miyamura]] strands.
 
-[[tie.webp][Acne is my foe by blood]]
+#+attr_darkness: image
+[[https://photos.sandyuraz.com/xlV][Acne is my foe by blood]]
 
 Instagram always felt kinda meh.
