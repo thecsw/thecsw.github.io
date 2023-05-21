@@ -3,7 +3,7 @@
 I get excited at the idea that there are still flavors to discover. Find spices
 to our techniques. Most of all — cooking needs freedom!
 
-#+begin_gallery :num 3
+#+begin_gallery
 - [[https://photos.sandyuraz.com/VWn][Takoyaki "these are super simple to make, make sure to get a takoyaki grill tho"]] [[takoyaki][<-- takoyaki]]
 - [[https://photos.sandyuraz.com/DHJ][Vegetarian sushi "proud of this because it only took me an hour to make (with rice cooktime)"]]
 - [[https://photos.sandyuraz.com/lwv][Olivier for 2023 "it took me about five or six hours to make eight pounds of it"]]
