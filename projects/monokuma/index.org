@@ -1,0 +1,29 @@
+* Shortening URLs in style 🧸
+
+This is Sandy's custom URL shortener that works through Redis.
+I wanted to learn how to use custom TLS Redis and I wanted to make a URL shortener.
+So I did both. Done. hah.
+
+Well, on my website, I also have many gallery pages, which are powered by OneDrive that
+have really long URLs. I wanted to shorten them so that I can share them more easily.
+
+If you go to [[https://sandyuraz.com/cooking][Cooking together 🍜]] and open the source code, you will see that all
+the images are now calling to [[https://photos.sandyuraz.com][photos.sandyuraz.com]]. Makes before and after look
+pretty nice.
+
+[[before.webp][before 🤢]]
+
+and after sending them all through my url shortener,
+
+[[after.webp][after 😇]]
+
+Overall, it's pretty quick and with some internal caching, each lookup is a
+couple of microseconds (though the network overhead is 10000x of that).
+
+Another program, [[https://github.com/thecsw/nagito][nagito]] has been written to interact with monokuma and
+efficiently shorten links. You can stand up your own =monokuma= with little effort
+and in whatever ways you want ([[../certificates][TLS]], auth, urls, randomization, alphabet, etc).
+
+-> See more at [[https://github.com/thecsw/monokuma][=monokuma= development repository]]
+
+-> Nagito can be [[https://github.com/thecsw/nagito][found here]]

@@ -1,0 +1,89 @@
+<!--
+                 ,ae,
+                ,88888e
+ _____   ,a888b.9888888i   _____              _
+(_____)  888888888888888  (____ \            | |
+   _     88888888888888Y   _   \ \ ____  ____| |  _ ____   ____  ___  ___
+  | |    '8888888888888'  | |   | / _  |/ ___) | / )  _ \ / _  )/___)/___)
+ _| |_     "S888888888"   | |__/ ( ( | | |   | |< (| | | ( (/ /|___ |___ |
+(_____)      "7888888Y    |_____/ \_||_|_|   |_| \_)_| |_|\____|___/(___/
+                "e88j
+                  "Y
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/projects/certificates" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="date" property="date" content="0; 12000 H.E.">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="There are many modern ways (Caddy (https://caddyserver.com/docs/automatic-https), certbot (https://certbot.eff.org/)) of acquiring ...">
+<meta name="og:title" property="og:title" content="Creating custom TLS certs 🏔️">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/projects/certificates">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https://sandyuraz.com/projects/certificates/preview.jpg">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/jpg">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="There are many modern ways (Caddy (https://caddyserver.com/docs/automatic-https), certbot (https://certbot.eff.org/)) of acquiring ...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/projects/certificates/preview.jpg">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/projects/certificates">
+<meta name="twitter:title" property="twitter:title" content="Creating custom TLS certs 🏔️">
+<meta name="twitter:description" property="twitter:description" content="There are many modern ways (Caddy (https://caddyserver.com/docs/automatic-https), certbot (https://certbot.eff.org/)) of acquiring ..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>Creating custom TLS certs 🏔️</title>
+</head>
+<body class="article">
+
+<div class="header">
+<h1 class="section-1"><img id="myface" src="https://sandyuraz.com/najimi.webp" alt="avatar">Creating custom TLS certs 🏔️</h1>
+<div class="menu">
+<span><a href="/feed.xml" class="rss-link"><img src="/assets/rss.svg" class="rss-icon"></a></span><br>
+<span id="email" class="email">darkness [at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="menu"></div>
+</div>
+<div class="writing">
+
+<div class="paragraph">
+<p>
+There are many modern ways (<a href="https://caddyserver.com/docs/automatic-https" title="">Caddy</a>, <a href="https://certbot.eff.org/" title="">certbot</a>) of acquiring yourself a nice TLS/SSL certificate for your services, all issued by titans such as <a href="https://letsencrypt.org/" title="">Let’s Encrypt</a> and <a href="https://zerossl.com/" title="">ZeroSSL</a>. Boom, you get a certificate that can be recognized and verified during a handshake by almost any <a href="https://support.apple.com/en-us/HT209143" title="">user</a>, <a href="https://wiki.mozilla.org/CA/Included_Certificates" title="">browser</a>, an <a href="https://www.chromium.org/Home/chromium-security/root-ca-policy/" title="">operating system</a>. However, what do you do if you want to try and create your own trust chain and/or need to use the encryption schemes in an isolated network/environment?
+</p>
+</div>
+<div class="paragraph">
+<p>
+I have always found <a href="https://wiki.openssl.org/index.php/Command_Line_Utilities" title=""><code>openssl</code> command</a> with its million utilities to be awful. At the very least, I could never remember off top of my head how to use it and what flags to pass whenever I want to self-sign or create a chain. So for that, I created a couple of scripts, which will make you your very own Certificate Authority (self-signed), server certificates (with <a href="https://en.wikipedia.org/wiki/Subject_Alternative_Name" title="">SAN extensions</a>), and client certificates.
+</p>
+</div>
+<div class="paragraph">
+<p>
+I use it for my dev infrastructure, like <code>redis.sandyuraz.com</code>, which requires a two-way TLS handshake (both the server’s and client’s certificate needs to be vetted by the CA, which is just me). This can give you a better control over your system, however, it does pose additional challenges such as renewals, creating intermediate CAs, etc. But you will figure it out if needed, won’t you?
+</p>
+</div>
+<div class="paragraph">
+<p>
+-&gt; <a href="https://github.com/thecsw/certificates" title=""><code>certificates</code> github repository</a> with scripts and configs
+</p>
+</div>
+</div>
+
+
+</body>
+</html>

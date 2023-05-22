@@ -1,0 +1,40 @@
+* Daemonize your go programs 👹
+
+Daemonize your go programs by locking the [[https://www.baeldung.com/linux/pid-file][process id file]].
+Simply put the following at the top of your =main=,
+
+#+begin_src go
+func main() {
+    defer pid.Start("monokuma").Stop()
+    // your code...
+}
+#+end_src
+
+This will create a =monokuma.pid= file in =/tmp= with the process id (pid) of the go
+program when loaded by your operating system. When your `main` exits, the file will be
+cleaned up.
+
+This will prevent any other instances of your program running at the same time (say running
+a web server or overloading some resources). Say, when I run
+
+#+begin_src
+λ monokuma
+#+end_src
+
+I can find the PID of it with (no line feed at the end),
+
+#+begin_src
+λ cat /tmp/monokuma.pid
+91100⏎
+#+end_src
+
+If I try to start the same program, I will be greeted by
+
+#+begin_src
+λ ./monokuma
+2023/05/17 23:03:03 your app with pid 91100 is already running
+#+end_src
+
+** Development
+
+-> See more in [[https://github.com/thecsw/pid][=pid= github repository]]
