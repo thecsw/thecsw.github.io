@@ -1,4 +1,4 @@
-#+options: preview:rebecca.png
+#+options: preview:rebecca.png preview-width:502 preview-height:497
 * Rebecca SUPREMACY 🍬
 
 147; 12023 H.E.
