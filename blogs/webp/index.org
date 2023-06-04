@@ -54,7 +54,7 @@ alternative. Thank you!
 
 Let's try to grab a picture in PNG format, convert it to WebP and see how the
 file size and image quality differ between those two. I'll have both examples
-from an amazing photographer [[https://mobile.twitter.com/shnimohus][@shnimohus]], whose shots *I absolutely adore*.
+from an amazing photographer [[https://mobile.twitter.com/shnimohus][@shnimohus]], whose shots *I adore*.
 
 Below is the ImageMagick version I will be using when simply running
 =convert source.png target.webp=
