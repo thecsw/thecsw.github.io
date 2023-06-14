@@ -1,3 +1,4 @@
+#+options: toc:t
 #+date: 122; 12019 H.E.
 * Installing glorious arch linux ☄️
 

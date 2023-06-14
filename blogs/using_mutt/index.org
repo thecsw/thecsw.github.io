@@ -1,3 +1,4 @@
+#+options: toc:t
 #+date: 133; 12019 H.E.
 * Bring joy back to email with Mutt 🐕
 

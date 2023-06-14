@@ -47,6 +47,9 @@
         --quote-size: 1.2rem;
         --quote-line-height: 1.6rem;
         --quote-width: 34.375rem;
+        --toc-size: var(--quote-size);
+        --toc-line-height: 1.3rem;
+        --toc-width: var(--paragraph-width);
         --media-width: 43.125rem;
         --gallery-gap: 1px;
         --gallery-width: calc(100% - var(--gallery-gap));
@@ -55,13 +58,14 @@
         --details-size: 1.15rem;
         --footnote-size: 1rem;
         --math-size: 1.37rem;
+        --list-margin-left: 2rem;
 
         --section-one-font-size: 3.37rem;
         --section-two-font-size: 2.2rem;
         --section-three-font-size: 1.7rem;
-        --section-four-font-size: 1.125rem;
-        --section-five-font-size: 1.05rem;
-        --section-six-font-size: 1rem;
+        --section-four-font-size: 1.4rem;
+        --section-five-font-size: 1.3rem;
+        --section-six-font-size: 1.2rem;
 
         /* Colors, duh */
         --color-text: #3a1616;
@@ -757,6 +761,29 @@ ul,
         margin-bottom: -0.2rem;
 }
 
+.l1 {
+    /* empty because level 1 list items have no shifts */
+}
+
+.l2 {
+        margin-left: calc(1 * var(--list-margin-left));
+}
+
+.l3 {
+        margin-left: calc(2 * var(--list-margin-left));
+}
+
+.l4 {
+        margin-left: calc(3 * var(--list-margin-left));
+}
+
+.toc {
+        list-style: circle;
+        font-size: var(--toc-size);
+        line-height: var(--toc-line-height);
+        max-width: var(--toc-width);
+}
+
 /*
  ┌───────────────────────────────────────────┐
  │                    _         _            │
@@ -978,7 +1005,4 @@ kbd {
 .rss-icon {
         padding-top: 7.5px;
         max-width: 16px;
-}
-
-.rss-link {
 }
