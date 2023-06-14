@@ -261,69 +261,69 @@ Some other quality of life operations are also provided,
 </p>
 </div>
 <div class="ulist">
-<ul>
+<ul class="">
 
-<li>
+<li class="l1">
 <p>
 <code>Submit(v)</code> will submit job <code>v</code> to be performed by the pool.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Close()</code> will close the pool if and only if it’s disconnected or the parent-most pool.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Close(true)</code> will close the pool ignoring any pending jobs.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Outputs()</code> will return channel that the user should listen to for outputs (if work generated them).
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Errors()</code> will return channel that the user shoud listen to for errors (if work generates them).
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>IsConnected()</code> will return true if the pool is a child of another pool, thus sending its outputs.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>IsClosed()</code> will return true if the pool has gracefully shutdown.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>JobsCompleted()</code> will return the number of jobs this pool has completed.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>JobsWaiting()</code> will return the number of jobs waiting in queue and currently in-work.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>JobsSucceeded()</code> will return the number of jobs completed with a non-nil errors.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Name()</code> will return the pool’s name (defaults to <code>&#34;Komi 🍡 &#34;</code>).
 </p>
@@ -338,39 +338,39 @@ You can tune the performance and behavior of the pool with <code>komi.NewWithSet
 </p>
 </div>
 <div class="ulist">
-<ul>
+<ul class="">
 
-<li>
+<li class="l1">
 <p>
 <code>Laborers</code> sets the number of pool’s laborers.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Size</code> sets the size of the pool (how many jobs can wait until <code>pool.Submit</code> is blocked).
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Ratio</code> sets the <code>ratio</code> in <code>size = ratio * number of laborers</code> equation (only if size has not been manually set).
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>LogLevel</code> sets the pool’s logging level to <code>level</code>.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Debug</code> sets the pool’s logging level to <code>DebugLevel</code>.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 <code>Name</code> sets the pool’s name as shown in logs.
 </p>
@@ -420,15 +420,15 @@ Some future items in mind:
 </p>
 </div>
 <div class="ulist">
-<ul>
+<ul class="">
 
-<li>
+<li class="l1">
 <p>
 Adding an error handler to <code>komi</code> polls, which if given, will be invoked if non-nil errors are returned by work.
 </p>
 </li>
 
-<li>
+<li class="l1">
 <p>
 More tests
 </p>
