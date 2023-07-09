@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Sat, 27 May 2023 01:00:00 CDT</pubDate>
-    <lastBuildDate>Sat, 27 May 2023 20:06:40 CDT</lastBuildDate>
+    <pubDate>Sat, 08 Jul 2023 01:00:00 CDT</pubDate>
+    <lastBuildDate>Sat, 08 Jul 2023 22:31:08 CDT</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -15,11 +15,22 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/eva</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Eva TV ending is great! ☁️</title>
+      <link>https://sandyuraz.com/blogs/eva</link>
+      <description>In one of the discord channels, a friend of mine asked his ChatGPT-based discord bot to answer a... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 08 Jul 2023 01:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/rebecca</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Rebecca SUPREMACY 🍬</title>
       <link>https://sandyuraz.com/blogs/rebecca</link>
-      <description>Yoinked and twisted directly from a wall of text I sent to my friends in our discord server. Totally unsolicited and no one asked for it. My take on Rebecca and Lucy from Cyberpunk Ed... [ Continue reading... ]</description>
+      <description>Yoinked and twisted directly from a wall of text I sent to my friends in our discord server. Totally unsolicited and no one asked for it. My take on Rebecca and Lucy from Cyberpunk: Ed... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 27 May 2023 01:00:00 CDT</pubDate>
     </item>
@@ -202,11 +213,11 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-ram</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Ram 🧣</title>
-      <link>https://sandyuraz.com/plastic/winter-ram</link>
-      <description>Re:Zero is probably on of the best animated shows ever made. Truly, the Brothers Karamazov of anime (or maybe Tengen Toppa Gurren Lagann? why not both..... [ Continue reading... ]</description>
+      <title>Winter Darkness 🧤</title>
+      <link>https://sandyuraz.com/plastic/darkness-winter</link>
+      <description>I might have lied in the previous page (../rem) -- I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
     </item>
@@ -224,22 +235,11 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-ram</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Darkness 🧤</title>
-      <link>https://sandyuraz.com/plastic/darkness-winter</link>
-      <description>I might have lied in the previous page (../rem) -- I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Ichika 👜</title>
-      <link>https://sandyuraz.com/plastic/ichika</link>
-      <description>Ichika doesn&#39;t need many angles to capture her beauty -- she already i... [ Continue reading... ]</description>
+      <title>Winter Ram 🧣</title>
+      <link>https://sandyuraz.com/plastic/winter-ram</link>
+      <description>Re:Zero is probably on of the best animated shows ever made. Truly, the Brothers Karamazov of anime (or maybe Tengen Toppa Gurren Lagann? why not both..... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
     </item>
@@ -262,6 +262,17 @@
       <title>Winter Aqua 🍶</title>
       <link>https://sandyuraz.com/plastic/winter-aqua</link>
       <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable -- like at all. Sure, she is usually more trouble than she&#39;s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Strategic art investments 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Ichika 👜</title>
+      <link>https://sandyuraz.com/plastic/ichika</link>
+      <description>Ichika doesn&#39;t need many angles to capture her beauty -- she already i... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 00:00:00 CST</pubDate>
     </item>
@@ -378,22 +389,22 @@
     <item>
       <category domain="https://sandyuraz.com/writings">More writings 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/writings/politeness</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The Star with No Name</title>
-      <link>https://sandyuraz.com/writings/nameless_star</link>
-      <description>Did you know Romania has a railway line between Bucharest and Sinaia, a mountain resort popular with high society thanks to its gambling and hotel scene? An express train hurriedly runs from its point of departure to its destination. Passengers on the train are either excited to get a lucky gambling streak at a casino or return to business as usual. Interestingly, none of the people on board would know a small provincial town on the railway. But we also must ask ourselves, how would they know? It&#39;s not like the train ever bothers to stop ther... [ Continue reading... ]</description>
+      <title>Politeness is Dead</title>
+      <link>https://sandyuraz.com/writings/politeness</link>
+      <description>Politeness theory was proposed by P. Brown and S. Levinson in the late 70s. It focuses on the original notion of politeness, which Mary Henningsen describes as „efforts on redressing the affronts to a person&#39;s self-esteem of effectively claiming positive social values .&#34; The central concept of the theory is based on the idea of the face, understood in terms of sociology. ``Face&#39;&#39; is something that can be lost, maintained, or enhanced. &#34;Every person lives in a world of social encounters, involving him either in face-to-face or mediated conta... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 24 May 2022 01:00:00 CDT</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/writings">More writings 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/writings/politeness</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Politeness is Dead</title>
-      <link>https://sandyuraz.com/writings/politeness</link>
-      <description>Politeness theory was proposed by P. Brown and S. Levinson in the late 70s. It focuses on the original notion of politeness, which Mary Henningsen describes as „efforts on redressing the affronts to a person&#39;s self-esteem of effectively claiming positive social values .&#34; The central concept of the theory is based on the idea of the face, understood in terms of sociology. ``Face&#39;&#39; is something that can be lost, maintained, or enhanced. &#34;Every person lives in a world of social encounters, involving him either in face-to-face or mediated conta... [ Continue reading... ]</description>
+      <title>The Star with No Name</title>
+      <link>https://sandyuraz.com/writings/nameless_star</link>
+      <description>Did you know Romania has a railway line between Bucharest and Sinaia, a mountain resort popular with high society thanks to its gambling and hotel scene? An express train hurriedly runs from its point of departure to its destination. Passengers on the train are either excited to get a lucky gambling streak at a casino or return to business as usual. Interestingly, none of the people on board would know a small provincial town on the railway. But we also must ask ourselves, how would they know? It&#39;s not like the train ever bothers to stop ther... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 24 May 2022 01:00:00 CDT</pubDate>
     </item>
@@ -499,28 +510,6 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>WebP is such a goated format 🫐</title>
-      <link>https://sandyuraz.com/blogs/webp</link>
-      <description>Update: hi, this page got a little traction (https://news.ycombinator.com/item?id=31010659) on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, AVIF (https://caniuse.com/avif) (69.25%) and JPEG XL (https://caniuse.com/jpegxl) (0%) are not as nearly adopted as WebP (https://caniuse.com/webp) is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released a... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sun, 03 Apr 2022 01:00:00 CDT</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/games</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Video games are kinda boring 🕹</title>
-      <link>https://sandyuraz.com/blogs/games</link>
-      <description>I observe that video games just aren&#39;t that fun. It is not my intention now to trivialize it down to oh cmon bro, it&#39;s pixels changing on your monitor, but to discuss the effect of video games on us, the entertainment value, and its necessity (or its uselessness) in our lives. Nonetheless, prepare for a hot and a subjective take.... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sun, 03 Apr 2022 01:00:00 CDT</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>What do I look like 🤳</title>
@@ -532,11 +521,33 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>WebP is such a goated format 🫐</title>
+      <link>https://sandyuraz.com/blogs/webp</link>
+      <description>Update: hi, this page got a little traction (https://news.ycombinator.com/item?id=31010659) on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, AVIF (https://caniuse.com/avif) (69.25%) and JPEG XL (https://caniuse.com/jpegxl) (0%) are not as nearly adopted as WebP (https://caniuse.com/webp) is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released a... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 03 Apr 2022 01:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/weird</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Don&#39;t be weird about it 🥡</title>
       <link>https://sandyuraz.com/blogs/weird</link>
       <description>An alternative title I had for this essay was Embracing Yourself, embracing your interests, and staying true to yourself. I&#39;m getting ahead of myself. Let&#39;s walk through some of my thought processes more c... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 03 Apr 2022 01:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/games</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Video games are kinda boring 🕹</title>
+      <link>https://sandyuraz.com/blogs/games</link>
+      <description>I observe that video games just aren&#39;t that fun. It is not my intention now to trivialize it down to oh cmon bro, it&#39;s pixels changing on your monitor, but to discuss the effect of video games on us, the entertainment value, and its necessity (or its uselessness) in our lives. Nonetheless, prepare for a hot and a subjective take.... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 01:00:00 CDT</pubDate>
     </item>
@@ -620,11 +631,11 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Short stories 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/cheburashka</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/friend2</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Cheburashka, I seek your sociolinguistic wisdom</title>
-      <link>https://sandyuraz.com/stories/cheburashka</link>
-      <description>I wonder where he is. It&#39;s already been more than half an hour and he is still not here. Everyone knows it. Everyone should know it. It is the unspoken rule in our society that you are never to be late to a tea party, especially to the one you are i... [ Continue reading... ]</description>
+      <title>We were once friends. What happened to us? Part II</title>
+      <link>https://sandyuraz.com/stories/friend2</link>
+      <description>‘Sergey, dear, how was your flight in? How is your family?’ her sweet motherly tone only softened over the years since I&#39;ve last ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 14 Mar 2022 01:00:00 CDT</pubDate>
     </item>
@@ -653,11 +664,11 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Short stories 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/friend2</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/cheburashka</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>We were once friends. What happened to us? Part II</title>
-      <link>https://sandyuraz.com/stories/friend2</link>
-      <description>‘Sergey, dear, how was your flight in? How is your family?’ her sweet motherly tone only softened over the years since I&#39;ve last ... [ Continue reading... ]</description>
+      <title>Cheburashka, I seek your sociolinguistic wisdom</title>
+      <link>https://sandyuraz.com/stories/cheburashka</link>
+      <description>I wonder where he is. It&#39;s already been more than half an hour and he is still not here. Everyone knows it. Everyone should know it. It is the unspoken rule in our society that you are never to be late to a tea party, especially to the one you are i... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 14 Mar 2022 01:00:00 CDT</pubDate>
     </item>
