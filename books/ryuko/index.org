@@ -1,4 +1,9 @@
+# unplug global darkness.css and plug the one from July 12th, 2023
+# to prevent any headaches in the future
+#+options: exclude-html-head:darkness.css
+#+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
 #+html_head: <link rel="stylesheet" type="text/css" href="ryuko.css">
+
 #+options: author-image:nil tomb:nil
 
 # Detach any other snow javascript effects.

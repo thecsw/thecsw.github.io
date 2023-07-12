@@ -1,4 +1,11 @@
+
+# unplug global darkness.css and plug the one from July 12th, 2023
+# to prevent any headaches in the future
+#+options: exclude-html-head:darkness.css
+#+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
 #+html_head: <link rel="stylesheet" type="text/css" href="kaguya.css">
+
+#+options: author-image:nil
 
 # Detach any other snow javascript effects.
 #+options: exclude-html-head:/scripts/snowstorm-min.js
@@ -122,7 +129,7 @@ intrigue and fiery battles (not that it's necessary, the main heroes went
 through the ordeal thanks to their colossal pride, but if anything were
 different---they could have never even met). There is a sensation of hollowing
 out after wrapping up the series, as its warm hug of overwhelmingly wholesome
-yet strikingly insidious aura ends, albeit temporarily.
+yet strikingly insidious aura ends, albeit temporarily. Bittersweet.
 
 Speaking of aura, I have yet to write a quick blurb on this, but I’m all about
 the atmosphere and sets. Sometimes, even more than the characters or story, what
@@ -171,8 +178,8 @@ I don’t have much more to say. /Love is War/ is a masterpiece of its world. Go
 from being packed to the brim of funny references to popular media, such as
 /Among Us/ (yakuza girl’s futon), /Resident Evil/ (Kaguya repeatedly bumping into a
 table during the culture festival), /Mario Kart/ (there is a whole episode),
-/Mission Impossible/ (Hayasaka patrolling the Student Council Room’s entrance), [[https://youtu.be/DR8iN47Mk_s][a
-lot more]] to having tender moments that caught me with a bated breath. Thank you,
+/Mission Impossible/ (Hayasaka patrolling the Student Council Room’s entrance),
+[[https://youtu.be/DR8iN47Mk_s][a lot more]] to having tender moments that caught me with a bated breath. Thank you,
 Jame, Ethan, and Amina, for pushing me to watch Kaguya—this journey of a
 thousand miles has begun with you.
 
@@ -180,6 +187,6 @@ thousand miles has begun with you.
 *I relate to Chika Fujiwara on a spiritual level.*
 #+end_center
 
-Mwah.
+She and I with diplomat family trauma. Mwah.
 
 [[https://youtu.be/piGuCMs_qok][Boys Love Rap]]
