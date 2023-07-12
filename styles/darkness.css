@@ -80,6 +80,7 @@
         --color-link-visited: #5e416d;
         --color-subtitle: #7a2518;
         --code-bg: #fffbfd;
+        --color-tomb: #ba3925;
 
         /* Extra stuff to support custom scripts*/
         --color-snow: #4f86f7;
@@ -793,6 +794,10 @@ ul,
  │  \__, │\___/ \__,_│\__│\__,_│_.__/ \___│  │
  │  │___/                                    │
  └───────────────────────────────────────────┘ */
+
+.responsive-iframe {
+    max-width: 100%;
+}
 
 /*
 Adapted from
