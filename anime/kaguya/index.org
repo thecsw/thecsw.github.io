@@ -10,7 +10,7 @@
 #+html_head: <meta name="theme-color" property="theme-color" content="#ff4a68">
 
 # set the preview
-#+options: preview:kawaii_koto.webp preview-height:900 preview-width:1600
+#+options: preview:kawaii_koto.jpg preview-height:900 preview-width:1600
 
 #+date: 193; 12023 H.E.
 
