@@ -1,0 +1,25 @@
+:root {
+        --color-bg: #f9f9f9;
+        --color-snow: #ff4a68;
+        --color-tomb: #ff001f;
+        --color-text: #010101;
+        --media-width: 69rem;
+}
+
+.ss{}
+
+@media all and (min-width: 1000px) {
+        :root {
+                --header-width: 50.25rem;
+                --section-one-font-size: 6.3rem;
+        }
+
+        .section-1 {
+                margin-left: -8rem;
+                margin-right: -8rem;
+        }
+
+        .header > .section-1:first-child {
+                margin-bottom: 1.9rem;
+        }
+}
