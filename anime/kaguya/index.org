@@ -24,7 +24,7 @@ and liberate myself from the shackles that hurt the mind—I have to watch
 /Kaguya-sama: Love is War/.
 
 #+begin_gallery
-- [[war.webp][Love is War]] :flex 95 :no-zoom
+- [[war.jpg][Love is War]] :flex 95 :no-zoom
 #+end_gallery
 
 #+drop_cap
@@ -43,7 +43,7 @@ shattering your self-esteem into tiny pieces. It is a wonder how Shirogane took
 upon this (seemingly) impossible mental challenge. More on that in a bit.
 
 #+begin_gallery
-- [[kawaii_koto.webp][O Kawaii Koto]] :flex 85 :no-zoom
+- [[kawaii_koto.jpg][O Kawaii Koto]] :flex 85 :no-zoom
 #+end_gallery
 
 #+drop_cap
