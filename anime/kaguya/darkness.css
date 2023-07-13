@@ -763,7 +763,7 @@ ul,
 }
 
 .l1 {
-    /* empty because level 1 list items have no shifts */
+        /* empty because level 1 list items have no shifts */
 }
 
 .l2 {
@@ -796,7 +796,7 @@ ul,
  └───────────────────────────────────────────┘ */
 
 .responsive-iframe {
-    max-width: 100%;
+        max-width: 100%;
 }
 
 /*
@@ -1010,4 +1010,33 @@ kbd {
 .rss-icon {
         padding-top: 7.5px;
         max-width: 16px;
+}
+
+/*
+ +------------------------------------+
+ |                  _   _  __         |
+ |  ___ _ __   ___ | |_(_)/ _|_   _   |
+ | / __| '_ \ / _ \| __| | |_| | | |  |
+ | \__ \ |_) | (_) | |_| |  _| |_| |  |
+ | |___/ .__/ \___/ \__|_|_|  \__, |  |
+ |     |_|                    |___/   |
+ +------------------------------------+
+*/
+
+.spotify-embed-playlist {
+        width: 69%;
+}
+
+.spotify-embed-track {
+        width: 69%;
+}
+
+@media all and (max-width: 640px) {
+        .spotify-embed-playlist {
+                width: 95%;
+        }
+
+        .spotify-embed-track {
+                width: 95%;
+        }
 }

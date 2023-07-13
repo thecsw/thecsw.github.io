@@ -15,7 +15,6 @@
 
 var snowStorm = (function (window, document) {
         // --- common properties ---
-
         this.autoStart = true; // Whether the snow should start automatically or not.
         this.excludeMobile = true; // Snow is likely to be bad news for mobile phones' CPUs (and batteries.) Enable at your own risk.
         this.flakesMax = 20; // Limit total amount of snow made (falling + sticking)
@@ -30,7 +29,6 @@ var snowStorm = (function (window, document) {
         this.snowStick = false; // Whether or not snow should "stick" at the bottom. When off, will never collect.
         this.targetElement = null; // element which snow will be appended to (null = document.body) - can be an element ID eg. 'myDiv', or a DOM node reference
         this.useMeltEffect = false; // When recycling fallen snow (or rarely, when falling), have it "melt" and fade out if browser supports it
-        this.useTwinkleEffect = false; // Allow snow to randomly "flicker" in and out of view while falling
         this.usePositionFixed = false; // true = snow does not shift vertically when scrolling. May increase CPU load, disabled by default - if enabled, used only where supported
         this.usePixelPosition = false; // Whether to use pixel values for snow top/left vs. percentages. Auto-enabled if body is position:relative or targetElement is specified.
         this.accessibility = true; // Hide snow from screen readers
@@ -399,7 +397,7 @@ var snowStorm = (function (window, document) {
                 var s = this;
                 this.type = type;
                 this.x = x || parseInt(rnd(screenX + 40), 10);
-            this.y = !isNaN(y) ? y : -rnd(screenY) - 12 + screenY;
+                this.y = !isNaN(y) ? y : -rnd(screenY) - 12 + screenY;
                 this.vX = null;
                 this.vY = null;
                 this.vAmpTypes = [1, 1.2, 1.4, 1.6, 1.8]; // "amplification" for vX/vY (based on flake size/type)
@@ -485,8 +483,7 @@ var snowStorm = (function (window, document) {
                         s.x += vX;
 
                         // SANDY Y MOVE
-                    s.y -= s.vY * s.vAmp;
-                    //console.log("moved to " + s.y)
+                        s.y -= s.vY * s.vAmp;
 
                         if (
                                 s.x >= screenX ||
@@ -533,36 +530,6 @@ var snowStorm = (function (window, document) {
                         o.style.opacity = opacity;
                 };
 
-                this.melt = function () {
-                        if (!storm.useMeltEffect || !s.melting) {
-                                s.recycle();
-                        } else {
-                                if (s.meltFrame < s.meltFrameCount) {
-                                        s.setOpacity(
-                                                s.o,
-                                                s.meltFrames[s.meltFrame]
-                                        );
-                                        s.o.style.fontSize =
-                                                s.fontSize -
-                                                s.fontSize *
-                                                        (s.meltFrame /
-                                                                s.meltFrameCount) +
-                                                "px";
-                                        s.o.style.lineHeight =
-                                                storm.flakeHeight +
-                                                2 +
-                                                storm.flakeHeight *
-                                                        0.75 *
-                                                        (s.meltFrame /
-                                                                s.meltFrameCount) +
-                                                "px";
-                                        s.meltFrame++;
-                                } else {
-                                        s.recycle();
-                                }
-                        }
-                };
-
                 this.recycle = function () {
                         s.o.style.display = "none";
                         s.o.style.position = fixedForEverything
@@ -585,7 +552,7 @@ var snowStorm = (function (window, document) {
                                 10
                         );
                         s.y =
-                                parseInt(rnd(screenY+1000), 10) -
+                                parseInt(rnd(screenY + 1000), 10) -
                                 storm.flakeHeight;
                         s.refresh();
                         s.o.style.display = "block";
