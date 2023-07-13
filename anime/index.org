@@ -30,8 +30,23 @@ invest myself in what I'm about to watch.
 
 #+begin_src
  ┌────────────────────┐
- │       Suzume       │
- ├────────────────────┼───────────────────┐
+ │   Kaguya─sama wa   │
+ │ Kokurasetai: First │
+ │  Kiss wa Owaranai  ├───────────────────┐
+ ├────────────────────┤  Kaguya─sama wa   │
+ │   Kaguya─sama wa   │   Kokurasetai:    │
+ │    Kokurasetai?:   │  Ultra Romantic   │
+ │     Tensaitachi    ├───────────────────┤
+ │ no Renai Zunousen  │  Kaguya─sama wa   │
+ ├────────────────────┤   Kokurasetai:    │
+ │   The Devil is a   │  Tensai─tachi no  │
+ │    Part─Timer!!    │  Renai Zunousen   │
+ ├────────────────────┼───────────────────┤
+ │   Kono Subarashii  │  Kawaii dake ja   │
+ │ Sekai ni Bakuen wo!│ Nai Shikimori─san │
+ ├────────────────────┼───────────────────┤
+ │ Suzume no Tojimari │  Yofukashi no Uta │
+ ├────────────────────┼───────────────────┤
  │   Made in Abyss:   │     Golden Boy    │
  │   Retsujitsu no    ├───────────────────┤
  │     Ougonkyou      │   Chainsaw Man    │
@@ -208,3 +223,11 @@ invest myself in what I'm about to watch.
  │                                        │
 /  ＼(^─^)／ ヾ｜￣ー￣｜ﾉ  ヽ(〃＾▽＾〃)ﾉ  \
 #+end_src
+
+** The (Physical) Shelf
+
+A little peek into what a shelf above would look like...
+
+#+begin_gallery
+- [[https://photos.sandyuraz.com/Vof][Living Room]] :flex 1
+#+end_gallery
