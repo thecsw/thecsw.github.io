@@ -29,10 +29,10 @@ do. I have to prepare myself emotionally, get well-rested, and be ready to
 invest myself in what I'm about to watch.
 
 #+begin_src
- ┌────────────────────┐
- │   Kaguya─sama wa   │
- │ Kokurasetai: First │
- │  Kiss wa Owaranai  ├───────────────────┐
+ ┌────────────────────┬───────────────────┐
+ │   Kaguya─sama wa   │    Summer Time    │
+ │ Kokurasetai: First │     Rendering     │
+ │  Kiss wa Owaranai  ├───────────────────┤
  ├────────────────────┤  Kaguya─sama wa   │
  │   Kaguya─sama wa   │   Kokurasetai:    │
  │    Kokurasetai?:   │  Ultra Romantic   │
