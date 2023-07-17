@@ -1,4 +1,4 @@
-window.addEventListener('load', function() { 
+document.addEventListener('DOMContentLoaded', function() { 
   let time = document.querySelector("#hetime");
   const day = 24 * 60 * 60 * 1000;
   cityDuringDayEmojis = ["🌃", "🌃", "🌌", "🌌", "🌉", "🌉",
