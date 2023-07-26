@@ -5,6 +5,12 @@
 glass.'' -- Anton Chekhov
 #+end_quote
 
+^{{psst... try clicking on a figure you like!}}
+
+#+begin_export html
+<p style="margin-top:-3.7rem"></p>
+#+end_export
+
 #+begin_gallery
 - [[https://photos.sandyuraz.com/SFn][Lucifer 😈]] [[lucifer][<-- lucifer]]
 - [[https://photos.sandyuraz.com/hnG][Houshou Marine "Ahoy! 🏴‍☠️"]] [[senchou][<-- senchou]]
