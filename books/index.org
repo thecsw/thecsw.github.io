@@ -104,6 +104,41 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 
 #+begin_src
  ┌───────────────────────────────────────┐
+ │         Chainsaw Man, Volume 11       │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 10       │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 9        │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 8        │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 7        │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 6        │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 5        │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 4        │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 3        │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 2        │
+ ├───────────────────────────────────────┤
+ │         Chainsaw Man, Volume 1        │
+ ├───────────────────────────────────────┤
+ │   Kowloon Generic Romance, Volume 4   │
+ ├───────────────────────────────────────┤
+ |        Summer Time Render 2026:       |
+ |            Mizen Jikobukken           |
+ ├───────────────────────────────────────┤
+ │              Sayonara Eri             │
+ ├───────────────────────────────────────┤
+ │   Komi Can't Communicate, Volume 25   │
+ ├───────────────────────────────────────┤
+ │   Kowloon Generic Romance, Volume 3   │
+ ├───────────────────────────────────────┤
+ │   Komi Can't Communicate, Volume 24   │
+ ├───────────────────────────────────────┤
  │  SPY CLASSROOM, Light Novel, Volume 3 │
  ├───────────────────────────────────────┤
  │  SPY CLASSROOM, Light Novel, Volume 2 │
