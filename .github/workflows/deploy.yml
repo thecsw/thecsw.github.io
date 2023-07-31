@@ -37,9 +37,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          SSH: true
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: source
-          BRANCH: main
-          FOLDER: .
-          CLEAN: true
+          branch: main
+          clean: true
