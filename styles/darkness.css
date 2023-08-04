@@ -79,7 +79,7 @@
         --color-link: #ff50a2;
         --color-link-visited: #5e416d;
         --color-subtitle: #7a2518;
-        --code-bg: #fffbfd;
+        --code-bg: #fdf5f5;
         --color-tomb: #ba3925;
 
         /* Extra stuff to support custom scripts*/
@@ -690,7 +690,7 @@ details[open] {
 
 .image {
         max-width: 100%;
-        border-radius: 7px;
+        border-radius: 2px;
 }
 
 @media all and (max-width: 690px) {
@@ -837,22 +837,22 @@ table {
         border-collapse: collapse;
         margin-left: auto;
         margin-right: auto;
-        border: solid 1px peachpuff;
+        border: solid 1px var(--color-text);
         max-width: 100%;
 }
 
 th {
         padding: 1rem;
         text-align: left;
-        border-bottom: 1px solid peachpuff;
-        border-left: 1px solid peachpuff;
+        border-bottom: 1px solid var(--color-text);
+        border-left: 1px solid var(--color-text);
 }
 
 td {
         padding: 0.5rem;
         padding-left: 1rem;
         text-align: left;
-        border-left: 1px solid peachpuff;
+        border-left: 1px solid var(--color-text);
 }
 
 .admonitionblock table {
