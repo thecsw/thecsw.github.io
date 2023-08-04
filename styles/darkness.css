@@ -612,7 +612,7 @@ a:not(.image):not(.gallery-item):hover {
 
 details {
         border: 1px dotted var(--color-text);
-        border-radius: 10px;
+        border-radius: 2px;
         padding-left: 1rem;
         padding-right: 1rem;
         margin-bottom: 2.4rem;
