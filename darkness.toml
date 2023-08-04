@@ -3,7 +3,7 @@ url = "https://sandyuraz.com"
 
 [website]
 locale = "en_GB"
-color = "#fffff4"
+color = "#f5e9e1"
 twitter = "@sandyuraz"
 styles = ["css/darkness.css"]
 tombs = ["blogs", "anime", "arts", "books"]
