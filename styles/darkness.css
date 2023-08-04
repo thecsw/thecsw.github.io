@@ -81,6 +81,7 @@
         --color-subtitle: #7a2518;
         --code-bg: #fdf5f5;
         --color-tomb: #ba3925;
+        --color-divider: #d7bbbb; 
 
         /* Extra stuff to support custom scripts*/
         --color-snow: #4f86f7;
@@ -137,7 +138,7 @@ html {
 
 .header .menu {
         font-size: var(--details-size);
-        border-bottom: 1px solid #dddddf;
+        border-bottom: 1px solid var(--color-divider);
         line-height: 1.45;
         padding-top: 0.25em;
         padding-bottom: 0.25em;
@@ -180,7 +181,7 @@ html {
 }
 
 .header > .section-1:only-child {
-        border-bottom: 1px solid #dddddf;
+        border-bottom: 1px solid var(--color-divider);
         padding-bottom: 8px;
 }
 
@@ -269,7 +270,7 @@ a:not(.image):not(.gallery-item):hover {
 }
 
 .paragraph + .section-2 {
-        border-top: 1px solid #e7e7e9;
+        border-top: 1px solid var(--color-divider);
 }
 
 .paragraph + .section-3 {
@@ -713,7 +714,7 @@ hr {
         box-sizing: content-box;
         height: 0;
         max-width: var(--media-width);
-        border: solid #dddddf;
+        border: solid var(--color-divider);
         border-width: 1px 0 0;
         clear: both;
         margin: 1.25em 0 1.1875em;
