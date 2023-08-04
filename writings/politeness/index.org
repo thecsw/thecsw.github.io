@@ -840,7 +840,7 @@ to determine whether the change in politeness was significantly observed
 in our sample. We find,
 
 \begin{align*}
-	p=2 \times \operatorname{Pr}(T[v=8] \geq t)
+	 p=2 \times \operatorname{Pr}(T[v=8] \geq t)
 	 & =2 \times \operatorname{Pr}(T[v=8] \geq 1.065) \\
 	 & \approx 2 \times 0.147 \\
 	 & =0.294.
