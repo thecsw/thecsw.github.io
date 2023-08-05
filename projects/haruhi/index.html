@@ -74,7 +74,7 @@ Welcome! This is Sandy’s take on making a simple yet powerful enough HTTP libr
 </p>
 </div></div>
 
-<div class="media">
+<div class="media" >
 <a class="image" ><img class="image" src="haruhi.gif" title="Muh leader" alt="Muh leader"></a>
 <div class="title">Muh leader</div>
 <hr>
@@ -87,7 +87,7 @@ When it comes to making network requests, I find myself writing a lot of repetit
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">ctx := context.WithTimeout(context.TODO(), time.Minute)
 req, err := http.NewRequestWithContext(ctx, method, URLpath, body)
@@ -129,7 +129,7 @@ What if instead, all you had to write was
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">ans := &amp;SomeStruct{}
 err := haruhi.URL(URLpath).
@@ -148,7 +148,7 @@ and it did everything for you? You can even simplify it with haruhi’s sensible
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">respStr, err := haruhi.URL(url).Get()</code></pre>
 </div>

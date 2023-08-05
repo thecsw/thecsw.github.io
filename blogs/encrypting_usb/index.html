@@ -119,7 +119,7 @@ Let <code>/dev/sdb</code> be your USB drive. Be careful, we don’t want to acci
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb</code></pre>
 </div>
@@ -132,7 +132,7 @@ Now, let’s open the drive with LUKS and write a filesystem to it. Enter your n
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% cryptsetup open /dev/sdb sdb</code></pre>
 </div>
@@ -145,7 +145,7 @@ Now we got access to the drive, let’s write your favorite filesystem, I’ll g
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% mkfs.ext4 /dev/mapper/sdb</code></pre>
 </div>
@@ -159,7 +159,7 @@ Let’s write something to the drive. <code>/mnt/flash</code> is some mounting t
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% mount /dev/mapper/sdb /mnt/flash</code></pre>
 </div>
@@ -172,7 +172,7 @@ That’s it, you have access now
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% cd /mnt/flash
 % touch man
@@ -187,7 +187,7 @@ After we’re done, do the usual thing by unmounting it
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% umount /mnt/flash</code></pre>
 </div>
@@ -201,7 +201,7 @@ Don’t forget we have to close the LUKS drive and dump the encryption details
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-bash" data-lang="sh">% cryptsetup close sdb</code></pre>
 </div>
