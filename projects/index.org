@@ -7,7 +7,7 @@ and become legendary.
 - [[certificates][Creating custom TLS certs 🏔️]]
 - [[pid][Daemonize your go programs 👹]]
 - [[haruhi][HTTP just like SOS Brigade 🐰]]
-- [[komi][/Subarashi/ golang pooling 🍡]]
+- [[komi][/Subarashii/ golang pooling 🍡]]
 - [[corporate][From School to Corporate 📞]]
 - [[phantasos][Phantasos - Goodbye, CS@KU 🥑]]
 - [[nakano][Nakano: Empower Your Peers 🍵]]

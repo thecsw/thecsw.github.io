@@ -1,4 +1,4 @@
-* /Subarashi/ golang pooling 🍡
+* /Subarashii/ golang pooling 🍡
 
 Go is great for setting up easy parallel jobs and processes, however, it is not
 easy when one starts confusing concurrency with parallelism and ending up
@@ -177,7 +177,7 @@ used extensively and in production. However, there are no guarantees provided
 for this library, that is, until something like =v1.0= is out, in which case, I
 would promise to maintain backward compatibility.
 
-Here is how [[https://sandyuraz.com/darkness/][Darkness 🥬]] currently builds this website,
+Here is how [[https://github.com/thecsw/darkness/blob/78d4821d3d36ecd4514af756eef560a9125e1069/ichika/build.go#L56][Darkness 🥬]] currently builds this website,
 
 #+begin_src
            Reading 📚                      Parsing 🧹
