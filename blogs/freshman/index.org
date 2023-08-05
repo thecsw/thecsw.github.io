@@ -16,6 +16,7 @@ every single course I have taken. I remember everything. To keep it focused,
 this essay will only concentrate on academic life, which is a smaller part of
 all my time, yet an important one as well. *CHARGE!*
 
+#+html_tags: style="width:37rem";
 [[campanile.webp][My beautiful campus]]
 
 ** Fall 2018 

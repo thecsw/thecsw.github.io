@@ -42,6 +42,7 @@ and march into the future that awaits.
 
 Let me ask you, are you ready to live?
 
+#+html_tags: style="width:34rem";
 [[gradspeech.webp][Ceremony brochure and the podium]]
 
 *Update*: KU Engineering actually uploaded the entire gradution ceremony! My

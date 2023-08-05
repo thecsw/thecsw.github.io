@@ -50,7 +50,8 @@
         --toc-size: var(--quote-size);
         --toc-line-height: 1.3rem;
         --toc-width: var(--paragraph-width);
-        --media-width: 43.125rem;
+        --media-width: 55.125rem;
+        --code-width: 43.125rem;
         --gallery-gap: 1px;
         --gallery-width: calc(100% - var(--gallery-gap));
         --gallery-zoom: 1.069;
@@ -75,7 +76,7 @@
         --color-header-hover: #a53221;
         --color-bg: #f5e9e1;
         --color-white: #fff;
-        --color-selection: #ffdcf4;
+        --color-selection: #ff7ab15c;
         --color-link: #ff50a2;
         --color-link-visited: #5e416d;
         --color-subtitle: #7a2518;
@@ -671,6 +672,17 @@ details[open] {
         margin-top: 1rem;
         margin-bottom: 1rem;
         width: var(--media-width);
+        max-width: 100%;
+        position: relative;
+        text-align: center;
+}
+
+.coding {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: var(--code-width);
         max-width: 100%;
         position: relative;
         text-align: center;
