@@ -75,7 +75,7 @@ Go is great for setting up easy parallel jobs and processes, however, it is not 
 </p>
 </div></div>
 
-<div class="media">
+<div class="media" >
 <a class="image" ><img class="image" src="preview.jpg" title="Komi writes Go" alt="Komi writes Go"></a>
 <div class="title">Komi writes Go</div>
 <hr>
@@ -88,7 +88,7 @@ Say you want to run a function <code>foo(v)</code> that performs some kind of wo
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">pool := komi.New(komi.WorkSimple(foo))
 defer pool.Close()
@@ -109,7 +109,7 @@ But what if you want to collect outputs of work performed on <code>v</code> with
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">pool := komi.New(komi.Work(foo))
 defer pool.Close()
@@ -131,7 +131,7 @@ But what if you want to collect errors as well? Consider <code>foo(v) error</cod
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">pool := komi.New(komi.WorkSimpleWithErrors(foo))
 defer pool.Close()
@@ -148,7 +148,7 @@ Or with <code>foo(v) (w, error)</code>!
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">pool := komi.New(komi.WorkWithErrors(foo))
 defer pool.Close()
@@ -182,7 +182,7 @@ Two pools can be created,
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">opener := komi.NewWithSettings(komi.WorkWithErrors(openFile), &amp;komi.Settings{
 	Name:     &#34;Opener 📂 &#34;,
@@ -205,7 +205,7 @@ We can wire the outputs of <code>opener</code> to be automatically fed into <cod
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">opener.Connect(counter)</code></pre>
 </div>
@@ -218,7 +218,7 @@ So now, those two pools are &#34;connected&#34;. We would call this relationship
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-plaintext" data-lang="">                Opener 📂                   Counter 📚
   filenames  ┌─────────────┐  contents   ┌──────────────┐  word counts
@@ -391,7 +391,7 @@ Here is how <a href="https://sandyuraz.com/darkness/" title="">Darkness 🥬</a>
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-plaintext" data-lang="">           Reading 📚                      Parsing 🧹
    path  ┌───────────┐   file handler   ┌─────────────┐

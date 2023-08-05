@@ -75,7 +75,7 @@ Daemonize your go programs by locking the <a href="https://www.baeldung.com/linu
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-go" data-lang="go">func main() {
     defer pid.Start(&#34;monokuma&#34;).Stop()
@@ -96,7 +96,7 @@ This will prevent any other instances of your program running at the same time (
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-plaintext" data-lang="">λ monokuma</code></pre>
 </div>
@@ -109,7 +109,7 @@ I can find the PID of it with (no line feed at the end),
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-plaintext" data-lang="">λ cat /tmp/monokuma.pid
 91100⏎</code></pre>
@@ -123,7 +123,7 @@ If I try to start the same program, I will be greeted by
 </p>
 </div></div>
 
-<div class="media">
+<div class="coding" >
 <div class="listingblock">
 <pre class="highlight"><code class="language-plaintext" data-lang="">λ ./monokuma
 2023/05/17 23:03:03 your app with pid 91100 is already running</code></pre>
