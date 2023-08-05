@@ -14,6 +14,7 @@ Here is a stack of books I liked and recommend for reading
 (✿◠‿◠) (❛‿❛✿̶̥̥)
 #+end_center
 
+#+html_tags: style="width:25rem";
 #+begin_src
         ┌───────────────────────┐
         │ The Star with no Name │
@@ -102,6 +103,7 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 (っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )
 #+end_center
 
+#+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
  │         Chainsaw Man, Volume 11       │

@@ -12,14 +12,20 @@ good friend, Malena and I tried to make few of them and post here. If you wish
 to submit some for our own amusements and yours, feel free to send it to 
 *c t u AT k u DOT e d u*
 
+#+html_tags: style="width:34rem";
 [[agile.jpg][Agile]]
 
+#+html_tags: style="width:34rem";
 [[oom.jpg][OOM Killer]]
 
+#+html_tags: style="width:34rem";
 [[mst.jpg][Master Branch]]
 
+#+html_tags: style="width:34rem";
 [[stack.jpg][Stack]]
 
+#+html_tags: style="width:34rem";
 [[list.jpg][List]]
 
+#+html_tags: style="width:34rem";
 [[dfa.jpg][DFA]]
