@@ -43,7 +43,7 @@
         --header-width-max: 100%;
         --header-font-weight: 500;
         --header-text-rendering: antialiased;
-        --subtitle-size: 1.37rem;
+        --subtitle-size: 1.2rem;
         --quote-size: 1.2rem;
         --quote-line-height: 1.6rem;
         --quote-width: 34.375rem;
@@ -82,7 +82,7 @@
         --color-subtitle: #7a2518;
         --code-bg: #fdf5f5;
         --color-tomb: #ba3925;
-        --color-divider: #d7bbbb; 
+        --color-divider: #d7bbbb;
 
         /* Extra stuff to support custom scripts*/
         --color-snow: #4f86f7;
@@ -692,13 +692,17 @@ details[open] {
         line-height: 1.45;
         color: var(--color-subtitle);
         text-rendering: var(--paragraph-text-rendering);
-        text-align: center;
+        text-align: left;
         font-family: var(--font-main);
         font-size: var(--subtitle-size);
         font-style: italic;
         font-weight: 400;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+}
+
+@media all and (max-width: 640px) {
+        .media > .title {
+                margin-left: .8rem;
+        }
 }
 
 .image {
@@ -729,7 +733,6 @@ hr {
         border: solid var(--color-divider);
         border-width: 1px 0 0;
         clear: both;
-        margin: 1.25em 0 1.1875em;
         height: 0;
 }
 
@@ -776,7 +779,7 @@ ul,
 }
 
 .l1 {
-    /* empty because level 1 list items have no shifts */
+        /* empty because level 1 list items have no shifts */
 }
 
 .l2 {
@@ -809,7 +812,7 @@ ul,
  └───────────────────────────────────────────┘ */
 
 .responsive-iframe {
-    max-width: 100%;
+        max-width: 100%;
 }
 
 /*
