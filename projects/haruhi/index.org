@@ -4,6 +4,7 @@
 Welcome! This is Sandy's take on making a simple yet powerful enough
 HTTP library. Inspired by [[https://github.com/psf/requests][python's requests]].
 
+#+html_tags: style="width:40rem";
 [[haruhi.gif][Muh leader]]
 
 ** Motivation
