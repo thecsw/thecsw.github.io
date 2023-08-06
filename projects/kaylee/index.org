@@ -18,6 +18,9 @@ webpage and some quick interfaces hooked up onto our little car. It was a fun
 farewell to this course. The link below has a webpage written by me by the
 request of our Instructor to document some selected final projects.
 
+#+html_tags: style="width:34rem"
+[[sandykaylee.webp][The dream team (we basically did this whole thing in a day)]]
+
 -> [[https://sandyuraz.com/eecs388_projects/][Go to the selected finals webpage]]
 
-(above is the backup, original should be [[https://eecs388.ku.edu/388Fa2020_selected_final][available here]])   
+(above is the backup, original was /once/ [[https://eecs388.ku.edu/388Fa2020_selected_final][available here]])

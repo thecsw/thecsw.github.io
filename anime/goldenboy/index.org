@@ -8,6 +8,7 @@ instead of graduating as anyone in the ordinary sense would—Kintaro travels ac
 Japan, working odd jobs—all to pursue knowledge and learn
 everything a book won't tell you. *A student of life*.
 
+#+html_tags: style="width:40rem";
 [[kintaro.webp][``I really like to study.'']]
 
 There is so much I would like to say; however, due to the short nature of this
@@ -25,6 +26,7 @@ and duty to not let those lowly sensations dictate our life or drain us of
 energy. Accept them as if you are telling them, ``You can tag along, but I have
 other things to do today.''
 
+#+html_tags: style="width:40rem";
 [[udon.webp][Danger! The Virgin's First Love]]
 
 /Golden Boy/ capitalizes on that big time with Kintaro. The protagonist isn't a
@@ -43,6 +45,7 @@ challenges with skills and life lessons he picked up in his ventures. Be
 it working in a women-only software company, udon shop, swimming pool, and
 more. \ ^{{(I should mention, /we all *can* and *should* do this/)}}
 
+#+html_tags: style="width:40rem";
 [[madam.webp][Madame President]]
 
 The ambiance of the OVA stuck with me because it touched something I have been
@@ -61,7 +64,7 @@ thoughts created by them stay authentic and genuine to who we are. Go, watch /Go
 Boy/ (apparently free on [[https://archive.org/details/golden-boy-english-dubbed-anime-480p/Golden+Boy+Episode+1+English+Dubbed+Anime-(480p).mp4][Internet Archive]]) and see if there is something in it
 for you.
 
-#+html_tags: style="width:32rem";
+#+html_tags: style="width:34rem";
 [[poster.webp][Golden Boy]]
 
 Oh, and btw, the show is /very suggestive/. 
