@@ -8,4 +8,8 @@ and reading it comes more naturally. The only caveat was that we were writing it
 all in a parallel programming paradigm in VHDL. I don't really want to touch
 VHDL in the near future. 
 
+#+html_tags: style="width:42rem"
+#+attr_darkness: image
+[[arch.webp][The CPU Architecture]]
+
 -> [[https://github.com/thecsw/MIPS][Go to the MIPS CPU repository]]

@@ -7,6 +7,7 @@ around by endlessly browsing Twitter, Pixiv, and many places. You can say a gag
 between us drove us closer over months, bridging the gap. One fateful day, he
 sent me the gif (/g/ is pronounced as graphical, not like a giraffe) below.
 
+#+html_tags: style="width:14rem";
 [[kaede.gif][That one picture]]
 
 He told me it’s from ``Rascal Does Not Dream of Bunny Girl Senpai.'' What a goofy

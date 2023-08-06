@@ -11,10 +11,12 @@ If you go to [[https://sandyuraz.com/cooking][Cooking together 🍜]] and open t
 the images are now calling to [[https://photos.sandyuraz.com][photos.sandyuraz.com]]. Makes before and after look
 pretty nice.
 
+#+html_tags: style="width:45rem"
 [[before.webp][before 🤢]]
 
 and after sending them all through my url shortener,
 
+#+html_tags: style="width:45rem"
 [[after.webp][after 😇]]
 
 Overall, it's pretty quick and with some internal caching, each lookup is a
