@@ -174,7 +174,7 @@ really, energg to sit down and do something for myself. (I'm good, I promise.)
 First thing I thought---I love the color scheme, but over the years, they kind
 of washed out on me and it feels a bit too bright, especially bg of
 =#fffff4=. After a tiny bit of exploring and soul-searching, I [[https://github.com/thecsw/thecsw.github.io/commit/ebce44f24fa96b06b6b85c47df16f2b7eb506dd2][found]] the new
-*perfect* background color---=#fdf5f5=.
+*perfect* background color---=#f1ded1=.
 
 It's softer than the previous one, has a bit more tone to it, a bit more warmth,
 yet not too dark or distractingly ``sepia''.
