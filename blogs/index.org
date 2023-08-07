@@ -5,7 +5,7 @@ I can't fall asleep if I don't write. I wake up in the morning; I need to tell a
 story. Are my eyes too innocent to see the future we have been destined for?
 
 #+begin_export html
-<p style="margin-top:-4rem"></p>
+<p style="margin-top:-3rem"></p>
 #+end_export
 
 #+begin_center

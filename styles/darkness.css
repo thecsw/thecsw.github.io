@@ -773,7 +773,6 @@ hr {
 └─────────────────────────────┘ */
 
 ul > li p,
-ul,
 .ulist .ulist {
         margin-bottom: -0.4rem;
 }
