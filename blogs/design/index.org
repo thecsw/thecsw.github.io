@@ -1,3 +1,4 @@
+#+options: tomb:nil toc:t
 * How I worked on my design 🥐
 
 80; 12022 H.E.
@@ -15,6 +16,7 @@ that were made over time. This is the [[https://web.archive.org/web/202005091003
 a plain website built with [[https://asciidoctor.org][asciidoctor]]. It was very nice in the beginning! I
 wrote a couple of markdown documents, and boom, I have a website.  
 
+#+html_tags: style="width:40rem";
 [[snap1.webp][The oldest snapshot]]
 
 Later on, I wanted to write my website files in org-mode instead of
@@ -47,6 +49,7 @@ Why can't I just make ASCII drawings of books stacked on top of each other, just
 like my current library? Here is [[https://web.archive.org/web/20200925133247/https://sandyuraz.com/books/][the snapshot]] that recorded that moment. I still
 want to add a review section to my bookshelf, but [[https://sandyuraz.com/anime/][anime]] came first.  
 
+#+html_tags: style="width:40rem";
 [[books.webp][The bookshelf hasn't changed that much]]
 
 ** Fortunes 
@@ -59,6 +62,7 @@ website page sounds *generational*.
 
 Here is the [[https://web.archive.org/web/20200925123757/https://sandyuraz.com/fortunes/][earliest snapshot]] I could find for it. 
 
+#+html_tags: style="width:40rem";
 [[fortunes.webp][First fortunes]]
 
 ** Foundation time 
@@ -85,6 +89,7 @@ their separate subsections and made the main page a collection of links that
 leads users to the section they're interested in. Compared to now, it [[https://web.archive.org/web/20210506184205/https://sandyuraz.com/][looks
 bland]]. Humble beginnings.
 
+#+html_tags: style="width:40rem";
 [[bland.webp][Links-only style]]
 
 ** Mahjong 
@@ -98,6 +103,7 @@ Another inspiration I yoinked from Donald Knuth is having a [[https://web.archiv
 the top left content corner of your website. "That looks good! I'm not face-shy
 anymore. I think I had a good selfie somewhere..."
 
+#+html_tags: style="width:40rem";
 [[face.webp][👋 hi]]
 
 ** Serif fonts 
@@ -155,6 +161,40 @@ could do was scream and yell until I got to the building.
 
 So... enjoy some snow on the website using [[https://github.com/scottschiller][Scott Schiller's]] [[http://www.schillmania.com/projects/snowstorm/][snowstorm]].
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/LtS][Let it snow! (we are running a modified version of the snowstorm)]] :flex 55 :no-zoom
-#+end_gallery
+#+html_tags: style="width:46rem";
+#+attr_darkness: image
+[[https://photos.sandyuraz.com/LtS][Let it snow! (we are running a modified version of the snowstorm)]]
+
+** Tighter design
+
+Around the beginning of August, 2023, I decided to give the website's design a
+bit more discipline and /love/. It's been a hot second since I had a time or
+really, energg to sit down and do something for myself. (I'm good, I promise.)
+
+First thing I thought---I love the color scheme, but over the years, they kind
+of washed out on me and it feels a bit too bright, especially bg of
+=#fffff4=. After a tiny bit of exploring and soul-searching, I [[https://github.com/thecsw/thecsw.github.io/commit/ebce44f24fa96b06b6b85c47df16f2b7eb506dd2][found]] the new
+*perfect* background color---=#fdf5f5=.
+
+It's softer than the previous one, has a bit more tone to it, a bit more warmth,
+yet not too dark or distractingly ``sepia''.
+
+#+html_tags: style="width:44rem";
+[[website_august_2023.webp][The homepage with the new color scheme]]
+
+The font got a [[https://github.com/thecsw/thecsw.github.io/commit/465be007d43ca380b6d839c3ca99f1aab7853f18][bit bigger]] (=1.3rem= -> =1.32rem=) and the spacing between lines went
+down from =2.2rem= to =2rem=. It feels more organized and ``newspaper-like,'' but in
+a good way. /I hope/. 
+
+Also! Each image on the website got a /bit/ wider, but it *really* breaks square
+images or vertical proportions, as those become a screen-scrolling adventure for
+the user, which is not desired. Instead, /Darkness/ now allows to [[https://github.com/thecsw/thecsw.github.io/commit/b5287a3730318cd4c0e3c1960de80ae3d7651f99][resize any image]]
+on the page without the need for anything special or clevel. Adding an option
+tag above the image,
+
+#+begin_src
+#+html_tags: style="width:44rem";
+[[website_august_2023.webp][The homepage with the new color scheme]]
+#+end_src
+
+will size it up exactly as you need it.
