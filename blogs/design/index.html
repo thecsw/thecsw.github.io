@@ -44,9 +44,13 @@
 <meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/design">
 <meta name="twitter:title" property="twitter:title" content="How I worked on my design 🥐">
 <meta name="twitter:description" property="twitter:description" content="This website has gone through many different iterations, looks, tools, and contents. I thought it would be a nice exercise to quickly, ye..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
-<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+
+
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css"><script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
 <script async src="https://sandyuraz.com/scripts/time.js"></script>
-<script src="https://sandyuraz.com/scripts/lazysizes.min.js" async=""></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
+<script>hljs.highlightAll();</script>
 
 <title>How I worked on my design 🥐</title>
 </head>
@@ -63,6 +67,100 @@
 <div id="hetime" class="menu"></div>
 </div>
 <div class="writing">
+
+<h1 id="table-of-contents" class="section-3">Table of Contents</h1>
+<div class="ulist">
+<ul class="toc">
+
+<li class="l1">
+<p>
+<a href="#the-beginning" title="">The beginning</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#bookshelf" title="">Bookshelf</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#fortunes" title="">Fortunes</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#foundation-time" title="">Foundation time</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#toddler-friendly" title="">Toddler-friendly</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#mahjong" title="">Mahjong</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#my-face" title="">My face</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#serif-fonts" title="">Serif fonts</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#najimi-colors" title="">Najimi Colors</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#darkness" title="">Darkness</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#new-links" title="">New links</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#galleries" title="">Galleries</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#let-it-snow" title="">Let it snow!</a>
+</p>
+</li>
+
+<li class="l1">
+<p>
+<a href="#tighter-design" title="">Tighter design</a>
+</p>
+</li>
+</ul>
+</div>
+</div>
+<center>
+<hr>
+</center><div class="writing">
 
 <div class="paragraph">
 <p title="Mon, 21 Mar 2022">
@@ -81,7 +179,7 @@ I looked up sandyuraz.com on the <a href="https://web.archive.org/web/*/sandyura
 </p>
 </div></div>
 
-<div class="media" >
+<div class="media" style="width:40rem";>
 <a class="image" ><img class="image" src="snap1.webp" title="The oldest snapshot" alt="The oldest snapshot"></a>
 <div class="title">The oldest snapshot</div>
 <hr>
@@ -126,7 +224,7 @@ Why can’t I just make ASCII drawings of books stacked on top of each other, ju
 </p>
 </div></div>
 
-<div class="media" >
+<div class="media" style="width:40rem";>
 <a class="image" ><img class="image" src="books.webp" title="The bookshelf hasn't changed that much" alt="The bookshelf hasn't changed that much"></a>
 <div class="title">The bookshelf hasn’t changed that much</div>
 <hr>
@@ -144,7 +242,7 @@ Here is the <a href="https://web.archive.org/web/20200925123757/https://sandyura
 </p>
 </div></div>
 
-<div class="media" >
+<div class="media" style="width:40rem";>
 <a class="image" ><img class="image" src="fortunes.webp" title="First fortunes" alt="First fortunes"></a>
 <div class="title">First fortunes</div>
 <hr>
@@ -173,7 +271,7 @@ I coupled up all pages, interests, movies, habits, projects, and posts into thei
 </p>
 </div></div>
 
-<div class="media" >
+<div class="media" style="width:40rem";>
 <a class="image" ><img class="image" src="bland.webp" title="Links-only style" alt="Links-only style"></a>
 <div class="title">Links-only style</div>
 <hr>
@@ -192,7 +290,7 @@ Another inspiration I yoinked from Donald Knuth is having a <a href="https://web
 </p>
 </div></div>
 
-<div class="media" >
+<div class="media" style="width:40rem";>
 <a class="image" ><img class="image" src="face.webp" title="👋 hi" alt="👋 hi"></a>
 <div class="title">👋 hi</div>
 <hr>
@@ -267,20 +365,63 @@ December 22nd was the Day of Reckoning here in Kansas. Literally -32C in the aft
 </div>
 <div class="paragraph">
 <p>
-So... enjoy some snow on the website using <a href="https://github.com/scottschiller" title="">Scott Schiller’s</a> <a href="http://www.schillmania.com/projects/snowstorm/" title="">snowstorm</a>. <b style="color:var(--color-tomb)">◼︎</b>
+So... enjoy some snow on the website using <a href="https://github.com/scottschiller" title="">Scott Schiller’s</a> <a href="http://www.schillmania.com/projects/snowstorm/" title="">snowstorm</a>.
 </p>
 </div></div>
 
-<div class="gallery-container">
-<center>
-<div class="gallery">
-<div class="flex-55 hide-overflow ease-transition">
-<a class="gallery-item">
-<img class="item lazyload  no-zoom" src="https://sandyuraz.com/darkness-stuff/previews/c41289c.jpg" data-src="https://photos.sandyuraz.com/LtS" title="Let it snow! (we are running a modified version of the snowstorm)" alt="Let it snow! (we are running a modified version of the snowstorm)">
-</a>
+<div class="media" style="width:46rem";>
+<a class="image" ><img class="image" src="https://photos.sandyuraz.com/LtS" title="Let it snow! (we are running a modified version of the snowstorm)" alt="Let it snow! (we are running a modified version of the snowstorm)"></a>
+<div class="title">Let it snow! (we are running a modified version of the snowstorm)</div>
+<hr>
+</div><div class="writing">
+
+<h1 id="tighter-design" class="section-2">Tighter design</h1>
+<div class="paragraph">
+<p>
+Around the beginning of August, 2023, I decided to give the website’s design a bit more discipline and <em>love</em>. It’s been a hot second since I had a time or really, energg to sit down and do something for myself. (I’m good, I promise.)
+</p>
+</div>
+<div class="paragraph">
+<p>
+First thing I thought—I love the color scheme, but over the years, they kind of washed out on me and it feels a bit too bright, especially bg of <code>#fffff4</code>. After a tiny bit of exploring and soul-searching, I <a href="https://github.com/thecsw/thecsw.github.io/commit/ebce44f24fa96b06b6b85c47df16f2b7eb506dd2" title="">found</a> the new <strong>perfect</strong> background color—<code>#fdf5f5</code>.
+</p>
+</div>
+<div class="paragraph">
+<p>
+It’s softer than the previous one, has a bit more tone to it, a bit more warmth, yet not too dark or distractingly “sepia”.
+</p>
+</div></div>
+
+<div class="media" style="width:44rem";>
+<a class="image" ><img class="image" src="website_august_2023.webp" title="The homepage with the new color scheme" alt="The homepage with the new color scheme"></a>
+<div class="title">The homepage with the new color scheme</div>
+<hr>
+</div><div class="writing">
+
+<div class="paragraph">
+<p>
+The font got a <a href="https://github.com/thecsw/thecsw.github.io/commit/465be007d43ca380b6d839c3ca99f1aab7853f18" title="">bit bigger</a> (<code>1.3rem</code> -&gt; <code>1.32rem</code>) and the spacing between lines went down from <code>2.2rem</code> to <code>2rem</code>. It feels more organized and “newspaper-like,” but in a good way. <em>I hope</em>.
+</p>
+</div>
+<div class="paragraph">
+<p>
+Also! Each image on the website got a <em>bit</em> wider, but it <strong>really</strong> breaks square images or vertical proportions, as those become a screen-scrolling adventure for the user, which is not desired. Instead, <em>Darkness</em> now allows to <a href="https://github.com/thecsw/thecsw.github.io/commit/b5287a3730318cd4c0e3c1960de80ae3d7651f99" title="">resize any image</a> on the page without the need for anything special or clevel. Adding an option tag above the image,
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-plaintext" data-lang="">#+html_tags: style=&#34;width:44rem&#34;;
+[[website_august_2023.webp][The homepage with the new color scheme]]</code></pre>
 </div>
 </div>
-</center>
+<div class="writing">
+
+<div class="paragraph">
+<p>
+will size it up exactly as you need it.
+</p>
+</div>
 </div>
 
 
