@@ -1,4 +1,4 @@
-#+options: tomb:nil toc:t
+#+options: tomb:nil toc:nil
 * How I worked on my design 🥐
 
 80; 12022 H.E.
