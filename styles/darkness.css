@@ -612,17 +612,17 @@ a:not(.image):not(.gallery-item):hover {
  │  \__,_│\___│\__\__,_│_│_│___/   │
  └─────────────────────────────────┘ */
 
+summary {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.14rem;
+        padding-bottom: 0.14rem;
+}
+
 details {
         border: 1px dotted var(--color-text);
         border-radius: 2px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-bottom: 2.4rem;
-}
-
-details[open] {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        margin-bottom: 1.4rem;
 }
 
 /*
@@ -701,7 +701,7 @@ details[open] {
 
 @media all and (max-width: 640px) {
         .media > .title {
-                margin-left: .8rem;
+                margin-left: 0.8rem;
         }
 }
 
