@@ -1,4 +1,12 @@
 * Sandy's Fortunes 🧧
+** 221; 12023 H.E.
+ 
+Einstein argued that there must be simplified explanations of nature, because
+God is not capricious or arbitrary.  No such faith comforts the software
+engineer.
+
+--- Fred Brooks, Jr.
+
 ** 218; 12023 H.E.
  
 Death before dishonor.  But neither before breakfast.
