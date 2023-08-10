@@ -920,8 +920,8 @@ code {
         line-height: var(--code-line-height);
         font-family: var(--font-code);
         text-rendering: var(--code-text-rendering);
-        padding: 6px;
-        border-radius: 8px;
+        padding: 4px;
+        border-radius: 4px;
         word-wrap: break-word;
 }
 
