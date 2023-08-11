@@ -37,6 +37,7 @@ preached, "Did you know when God said there shall be light, he actually meant
 the five Maxwell equations?" What a mad lad. He promptly pulled up a page from
 the Bible on screens, rewritten with those equations.
 
+#+html_tags: style="width:32rem";
 [[bible.webp][The Maxwell Bible]]
 
 He was such a dad. Introducing a new topic or some law, he would famously say,
@@ -195,6 +196,7 @@ Antoinette/, and almost in tears from doing an EECS 141 assignment I had no love
 for. But hey, we built something that resembles a bomb and would get you in a
 lot of trouble if you tried to smuggle it past TSA. (don't do it)
 
+#+html_tags: style="width:40em";
 [[circuit.webp][Don't travel with this]]
 
 This was my introduction to circuits, digital logic, and all alike. Fun.
