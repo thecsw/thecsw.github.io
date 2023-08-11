@@ -699,6 +699,11 @@ details {
         font-weight: 400;
 }
 
+.media > .centered {
+        text-align: center;
+        margin-bottom: 0.4rem;
+}
+
 @media all and (max-width: 640px) {
         .media > .title {
                 margin-left: 0.8rem;
