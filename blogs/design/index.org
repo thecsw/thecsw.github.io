@@ -192,7 +192,7 @@ the user, which is not desired. Instead, /Darkness/ now allows to [[https://gith
 on the page without the need for anything special or clevel. Adding an option
 tag above the image,
 
-#+begin_src
+#+begin_src org
 #+html_tags: style="width:44rem";
 [[website_august_2023.webp][The homepage with the new color scheme]]
 #+end_src

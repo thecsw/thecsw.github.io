@@ -90,6 +90,7 @@ possibly ask for?
 
 *** American Popular Culture of: Shlocks! Thrills!: Trash Cinema 
 
+#+html_tags: style="width:32rem";
 [[barbarella.webp][Barbarella! This was the poster of our class]]
 
 Now, this was one of the highlights of my semester. My first film class. It
@@ -208,8 +209,10 @@ Before that real quick, I went to a [[https://en.wikipedia.org/wiki/Statistical_
 incredible people and statisticians from all over the nation. And there was me,
 a single KU student from Midwest.
 
+#+html_tags: style="width:37rem";
 [[samsi1.webp][Us taking a bus to the research triangle campus]]
 
+#+html_tags: style="width:37rem";
 [[samsi2.webp][Four folks on Duke campus]]
 
 *** Speaker-Audience Communication, Honors
@@ -309,6 +312,7 @@ throughout the semester. For example, for the first project, Professor gave each
 one of us a noodle, like the ones you like to eat, all in different shapes and
 we had to come up with mathematical equations and sets to plot it.
 
+#+html_tags: style="width:26rem";
 [[noodle_original.webp][The original noodle I got]]
 
 I got an [[https://en.wikipedia.org/wiki/Orecchiette][Orecchiette]] pasta, which you can see above. I thought of some ways I
@@ -317,6 +321,7 @@ Cartesian. I settled on making it work with Cylindrical coordinates because it
 is more doable to add those ridges on the pasta's surface. The result is as
 follows 
 
+#+html_tags: style="width:26rem";
 [[noodle_plotted.webp][My faithful representation of it]]
 
 Assume that the surface $S$ of this pasta is parametrized by the equations
