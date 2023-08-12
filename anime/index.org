@@ -230,5 +230,5 @@ invest myself in what I'm about to watch.
 A little peek into what a shelf above would look like...
 
 #+begin_gallery
-- [[https://photos.sandyuraz.com/Vof][Living Room]] :flex 1
+- [[https://photos.sandyuraz.com/Vof][Living Room]] :flex 90 :no-zoom
 #+end_gallery
