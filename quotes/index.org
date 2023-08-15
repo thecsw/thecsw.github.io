@@ -1,4 +1,10 @@
 * Sandy's Fortunes 🧧
+** 227; 12023 H.E.
+ 
+Boring is good. Boring is stable. Boring means being able to focus on your work, not on what’s different about Go.
+
+--- Russ Cox, /Backward Compatibility, Go 1.21, and Go 2/
+
 ** 221; 12023 H.E.
  
 Einstein argued that there must be simplified explanations of nature, because
