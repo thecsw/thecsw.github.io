@@ -613,13 +613,13 @@ a:not(.image):not(.gallery-item):hover {
  └─────────────────────────────────┘ */
 
 summary {
-        padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 0.14rem;
         padding-bottom: 0.14rem;
 }
 
 details {
+        padding-left: 1rem;
         border: 1px dotted var(--color-text);
         border-radius: 2px;
         margin-bottom: 1.4rem;
