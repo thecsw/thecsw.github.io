@@ -1,4 +1,4 @@
-#+options: tomb:nil toc:nil
+#+options: tomb:nil toc:nil preview-height:900 preview-width:1600
 #+date: 224; 12023 H.E.
 * The drive-thru challenge 🍔
 
