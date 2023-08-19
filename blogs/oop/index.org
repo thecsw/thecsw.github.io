@@ -1,0 +1,31 @@
+# unplug global darkness.css and plug the one from July 12th, 2023
+# to prevent any headaches in the future
+#+options: exclude-html-head:darkness.css
+#+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
+#+html_head: <link rel="stylesheet" type="text/css" href="oop.css">
+
+#+options: author-image:nil tomb:nil
+
+# Detach any other snow javascript effects.
+#+options: exclude-html-head:/scripts/snowstorm-min.js
+#+options: exclude-html-head:property="theme-color"
+
+* OOP
+
+*jame* \
+oop is cool\
+its all about what tools best fit the job\
+
+*sandy* \
+oop has a need in this world\
+it's the necessary evil\
+
+*jame* \
+kinda like abstract algebra\
+many problems are naturally object oriented\
+
+*sandy* \
+unfortunately\
+I think there is a better paradigm\
+we just haven't found it yet\
+
