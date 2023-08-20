@@ -19,3 +19,7 @@
 .header > .section-1:first-child {
         margin-bottom: 1.6rem;
 }
+
+hr {
+    display: none;
+}

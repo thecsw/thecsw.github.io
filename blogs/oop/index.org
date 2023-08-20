@@ -10,22 +10,150 @@
 #+options: exclude-html-head:/scripts/snowstorm-min.js
 #+options: exclude-html-head:property="theme-color"
 
-* OOP
+#+options: preview:7.jpeg preview-width:1170 preview-height:864
+
+* On OOP 🚬
+
+#+html_tags: style="margin-top:-0.5rem";
+#+begin_export html
+<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
 
 *jame* \
 oop is cool\
 its all about what tools best fit the job\
 
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+
 *sandy* \
 oop has a need in this world\
 it's the necessary evil\
 
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+
 *jame* \
 kinda like abstract algebra\
 many problems are naturally object oriented\
+
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
 
 *sandy* \
 unfortunately\
 I think there is a better paradigm\
 we just haven't found it yet\
 
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+*jame* \
+hmmm maybe\
+i would like to find it\
+"the universal paradigm" wouldnt that be something...\
+
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+
+*sandy* \
+yeah...\
+
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+
+*jame* \
+the parallels between this and algebra are crazy lol\
+
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+
+*sandy* \
+
+#+html_tags: style="width:35.5rem;margin-top:-1.2rem;margin-bottom:-2rem";
+[[1.jpeg]]
+
+The vibes are so strong with this one
+
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="ephin.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+*ethan* \
+People who say oop are bad are cringe\
+Its overused, not bad\
+
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+*sandy* \
+We more mean that it’s bad in how it’s used\
+
+#+html_tags: style="width:35.5rem";
+[[2.jpeg]]
+
+OOP has a very strong core, but more recent developments and over-abstractions
+made it a big mess
+
+#+html_tags: style="width:35.5rem";
+[[3.jpeg]]
+
+So I do like OOP, things like Spring and insane factories that don’t even serve
+the purpose of scalability and modularity are too overused
+
+#+html_tags: style="width:35.5rem";
+[[4.jpg]]
+
+JVM is a state-of-the-art machine though. However, times are much different from
+1970s. Modern compilers can cross-compile to any architecture and ship them
+there
+
+#+html_tags: style="width:35.5rem";
+[[5.jpeg]]
+
+So by building native binaries and sending them to your fleet is much better
+than running JVM, which is very expensive
+
+#+html_tags: style="width:35.5rem";
+[[6.jpeg]]
+
+Saying Java is good because it runs on all machines with JVM is like saying that
+anal is good because all sexes have a pooping hole
+
+#+html_tags: style="width:35.5rem";
+[[7.jpeg]]
+
+C++ is history repeated as tragedy. Java is history repeated as farce. – Scott
+McKay 
+
+-----
+
+#+begin_export html
+<hr style="display: block;">
+#+end_export
+
+#+html_tags: style="margin-top:-3.5rem";
+#+begin_export html
+<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+#+end_export
+*jame* \
+That was the most vibey oop critique I have ever read\
+I like it\
+Also this is funny out of context\
+
+#+html_tags: style="width:35.5rem";
+[[8.jpeg]]
