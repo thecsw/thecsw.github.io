@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Sat, 12 Aug 2023 00:00:00 UTC</pubDate>
-    <lastBuildDate>Sun, 20 Aug 2023 19:43:22 UTC</lastBuildDate>
+    <pubDate>Sun, 20 Aug 2023 00:00:00 UTC</pubDate>
+    <lastBuildDate>Sun, 20 Aug 2023 19:47:43 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -15,6 +15,17 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/oop</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>On OOP 🚬</title>
+      <link>https://sandyuraz.com/blogs/oop</link>
+      <description>jameoop is coolits all about what tools best f... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/drive-thru</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>The drive-thru challenge 🍔</title>
@@ -22,17 +33,6 @@
       <description>On August 5th, 12023 H.E., my two best friends and I did the DougDoug Fast-Food Drive-Thru Challenge (https://knowyourmeme.com/memes/dougdoug-fast-food-drive-thru-challenge) tha... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 12 Aug 2023 00:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/oop</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>On OOP 🚬</title>
-      <link>https://sandyuraz.com/blogs/oop</link>
-      <description>jameoop is coolits all about what tools best f... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 11 Aug 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/anime">Sandy&#39;s Anime 🍶</category>
