@@ -13,11 +13,17 @@
 
         --color-snow: white;
 
-        --section-one-font-size: 5rem;
+        --section-one-font-size: 6rem;
 }
 
 .header > .section-1:first-child {
         margin-bottom: 1.6rem;
+}
+
+@media all and (max-width: 640px) {
+        .section-1 {
+                font-size: 4rem;
+        }
 }
 
 hr {
