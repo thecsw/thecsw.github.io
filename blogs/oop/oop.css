@@ -16,9 +16,9 @@
         --section-one-font-size: 6rem;
 }
 
-.header > .section-1:first-child {
-        margin-bottom: 1.6rem;
-}
+/* .header > .section-1:first-child { */
+/*         margin-bottom: 1.6rem; */
+/* } */
 
 @media all and (max-width: 640px) {
         .section-1 {
@@ -27,5 +27,16 @@
 }
 
 hr {
-    display: none;
+        display: none;
+}
+
+.avatar {
+        width: 3rem;
+        margin-left: -40rem;
+        margin-bottom: -6rem;
+        border-radius: 100px;
+}
+
+.avatar-container {
+    margin-top:-3.5rem;
 }

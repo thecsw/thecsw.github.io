@@ -19,7 +19,7 @@
 
 #+html_tags: style="margin-top:-0.5rem";
 #+begin_export html
-<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="jame.jpg">
 #+end_export
 
 *jame* \
@@ -28,7 +28,7 @@ its all about what tools best fit the job\
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="sandy.jpg">
 #+end_export
 
 *sandy* \
@@ -37,7 +37,7 @@ it's the necessary evil\
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="jame.jpg">
 #+end_export
 
 *jame* \
@@ -46,7 +46,7 @@ many problems are naturally object oriented\
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="sandy.jpg">
 #+end_export
 
 *sandy* \
@@ -56,7 +56,7 @@ we just haven't found it yet\
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="jame.jpg">
 #+end_export
 *jame* \
 hmmm maybe\
@@ -65,7 +65,7 @@ i would like to find it\
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="sandy.jpg">
 #+end_export
 
 *sandy* \
@@ -73,7 +73,7 @@ yeah...\
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="jame.jpg">
 #+end_export
 
 *jame* \
@@ -81,7 +81,7 @@ the parallels between this and algebra are crazy lol\
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="sandy.jpg">
 #+end_export
 
 *sandy* \
@@ -93,7 +93,7 @@ The vibes are so strong with this one
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="ephin.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="ephin.jpg">
 #+end_export
 *ethan* \
 People who say oop are bad are cringe\
@@ -101,7 +101,7 @@ Its overused, not bad\
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="sandy.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="sandy.jpg">
 #+end_export
 *sandy* \
 We more mean that it’s bad in how it’s used\
@@ -151,7 +151,7 @@ McKay
 
 #+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
-<img class="image" src="jame.jpg" style="width:3rem;margin-left:-40rem;margin-bottom:-6rem;border-radius:100px" title="" alt="">
+<img class="image avatar" src="jame.jpg">
 #+end_export
 *jame* \
 That was the most vibey oop critique I have ever read\
