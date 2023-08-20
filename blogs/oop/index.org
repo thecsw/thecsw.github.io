@@ -17,7 +17,6 @@
 
 * On OOP 🚬
 
-#+html_tags: style="margin-top:-0.5rem";
 #+begin_export html
 <img class="image avatar" src="jame.jpg">
 #+end_export
@@ -26,7 +25,6 @@
 oop is cool\
 its all about what tools best fit the job\
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="sandy.jpg">
 #+end_export
@@ -35,7 +33,6 @@ its all about what tools best fit the job\
 oop has a need in this world\
 it's the necessary evil\
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="jame.jpg">
 #+end_export
@@ -44,7 +41,6 @@ it's the necessary evil\
 kinda like abstract algebra\
 many problems are naturally object oriented\
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="sandy.jpg">
 #+end_export
@@ -54,7 +50,6 @@ unfortunately\
 I think there is a better paradigm\
 we just haven't found it yet\
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="jame.jpg">
 #+end_export
@@ -63,7 +58,6 @@ hmmm maybe\
 i would like to find it\
 "the universal paradigm" wouldnt that be something...\
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="sandy.jpg">
 #+end_export
@@ -71,7 +65,6 @@ i would like to find it\
 *sandy* \
 yeah...\
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="jame.jpg">
 #+end_export
@@ -79,7 +72,6 @@ yeah...\
 *jame* \
 the parallels between this and algebra are crazy lol\
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="sandy.jpg">
 #+end_export
@@ -91,7 +83,6 @@ the parallels between this and algebra are crazy lol\
 
 The vibes are so strong with this one
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="ephin.jpg">
 #+end_export
@@ -99,7 +90,7 @@ The vibes are so strong with this one
 People who say oop are bad are cringe\
 Its overused, not bad\
 
-#+html_tags: style="margin-top:-3.5rem";
+
 #+begin_export html
 <img class="image avatar" src="sandy.jpg">
 #+end_export
@@ -149,7 +140,6 @@ McKay
 <hr style="display: block;">
 #+end_export
 
-#+html_tags: style="margin-top:-3.5rem";
 #+begin_export html
 <img class="image avatar" src="jame.jpg">
 #+end_export
