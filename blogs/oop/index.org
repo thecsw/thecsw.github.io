@@ -1,5 +1,6 @@
 # unplug global darkness.css and plug the one from July 12th, 2023
 # to prevent any headaches in the future
+
 #+options: exclude-html-head:darkness.css
 #+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
 #+html_head: <link rel="stylesheet" type="text/css" href="oop.css">
@@ -11,6 +12,8 @@
 #+options: exclude-html-head:property="theme-color"
 
 #+options: preview:7.jpeg preview-width:1170 preview-height:864
+
+#+date: 223; 12023 H.E.
 
 * On OOP 🚬
 
