@@ -13,6 +13,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 #+end_center
 
 ** Software
+- [[oop][On OOP 🚬]]
 - [[configs][My tools and my colors 🍬]]
 - [[darkness][I love Darkness 🥬]]
 - [[webp][WebP is such a goated format 🫐]]
@@ -59,7 +60,6 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[year_12019][Welcome to year 12,019 📅]]
 
 ** Random
-- [[oop][On OOP 🚬]]
 - [[drive-thru][The drive-thru challenge 🍔]]
 - [[stickers][I love stickers 🎴]]
 - [[wrapped-2][My Spotify Wrapped for 2022 👩‍🎤]]
