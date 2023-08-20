@@ -13,7 +13,7 @@
 
 #+options: preview:7.jpeg preview-width:1170 preview-height:864
 
-#+date: 223; 12023 H.E.
+#+date: 232; 12023 H.E.
 
 * On OOP 🚬
 
