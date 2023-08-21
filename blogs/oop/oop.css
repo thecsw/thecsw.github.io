@@ -16,9 +16,9 @@
         --section-one-font-size: 6rem;
 }
 
-/* .header > .section-1:first-child { */
-/*         margin-bottom: 1.6rem; */
-/* } */
+.header > .section-1:first-child {
+        margin-bottom: 1.6rem;
+}
 
 @media all and (max-width: 640px) {
         .section-1 {
@@ -34,7 +34,8 @@ hr {
         position: absolute;
         width: 3rem;
         border-radius: 100px;
-        left: 6.1rem;
+        /* left: 6.1rem; */
+        margin-left: -21rem;
         top: 0.6rem;
 }
 
