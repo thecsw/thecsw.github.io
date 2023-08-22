@@ -8,17 +8,29 @@ enough to want to ship it raw. 🚢
 
 -----
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
+
 /(me, Sandy)/ \
 I get nostalgic every time I read high school or just school based stories. I
 always think to myself how worried I was and if my mind were transported to a
 school’s body or time, I would do so well by not giving a fuck about anything .
 Do you ever miss school?
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/ephin.jpg">
+#+end_export
+
 /(Ethan)/ \
 Definitely do not miss middle school.
 Never will.
 I guess there were some things in high school that I no longer have but Im
 ultimately happier now so I dont miss them too hard.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
 
 /(Back to me)/ \
 Based take.
@@ -34,8 +46,16 @@ own days in school. Maybe it allows me to live through and experience what I
 missed or couldn’t have in my life, so having them coming from a book helps to
 reach fulfillment in unrealized moments.
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/ephin.jpg">
+#+end_export
+
 /(Ethan)/ \
 Living vicariously through manga instead of your children.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
 
 /(Sandy)/ \
 In a way, yes.
@@ -46,9 +66,17 @@ aspirations. Even if they’re the same as mine, it has to be their decision. I
 wouldn’t want to unload my life regrets onto them to achieve, because it’s not
 their cross to bear.
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/ephin.jpg">
+#+end_export
+
 /(Ethan)/ \
 Cold take, people living vicariously through their children is commonly viewed
 as bad parenting.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
 
 /(Sandy)/ \
 Yet it’s a universal experience. Show me an objectively good parent, it’s too
@@ -56,9 +84,17 @@ messy for one to handle cleanly. So there always will be selfish pressure of
 parents onto their kids. Subconsciously or consciously, so we can at least
 control the conscious part .
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/ephin.jpg">
+#+end_export
+
 /(Ethan)/ \
 The reason its pretty common is likely because people used to have kids when
 they were 19, before they were actually ready to have kids.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
 
 /(Sandy)/ \
 Every parent should ask their kids and themselves whether they deserve to call
@@ -71,6 +107,10 @@ It’s an exercise that my parents and I do somewhat regularly. What have I done
 to call myself your mother? I would say, what have I done to call myself your
 son?
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/ephin.jpg">
+#+end_export
+
 /(Ethan)/ \
 That would sound way too forced in my family.
 Ours is a very [[https://sandyuraz.com/anime/bunny/][sakuta-esque]] way of thinking.
@@ -78,6 +118,10 @@ They're my parents because they're my parents, I'm their son because I'm their
 son /(Sandy loved this)/.
 We do our best for eachother based on that /(Sandy loved this)/.
 No need to verbalize the details.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
 
 /(Back to me)/ \
 That’s totally okay and expected, every family has their own unique way of

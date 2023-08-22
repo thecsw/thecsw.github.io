@@ -18,7 +18,7 @@
 * On OOP 🚬
 
 #+begin_export html
-<img class="image avatar" src="jame.jpg">
+<img class="image avatar" src="/shared/avatars/jame.jpg">
 #+end_export
 
 *jame* \
@@ -26,7 +26,7 @@ oop is cool\
 its all about what tools best fit the job\
 
 #+begin_export html
-<img class="image avatar" src="sandy.jpg">
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
 #+end_export
 
 *sandy* \
@@ -34,7 +34,7 @@ oop has a need in this world\
 it's the necessary evil\
 
 #+begin_export html
-<img class="image avatar" src="jame.jpg">
+<img class="image avatar" src="/shared/avatars/jame.jpg">
 #+end_export
 
 *jame* \
@@ -42,7 +42,7 @@ kinda like abstract algebra\
 many problems are naturally object oriented\
 
 #+begin_export html
-<img class="image avatar" src="sandy.jpg">
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
 #+end_export
 
 *sandy* \
@@ -51,7 +51,7 @@ I think there is a better paradigm\
 we just haven't found it yet\
 
 #+begin_export html
-<img class="image avatar" src="jame.jpg">
+<img class="image avatar" src="/shared/avatars/jame.jpg">
 #+end_export
 *jame* \
 hmmm maybe\
@@ -59,21 +59,21 @@ i would like to find it\
 "the universal paradigm" wouldnt that be something...\
 
 #+begin_export html
-<img class="image avatar" src="sandy.jpg">
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
 #+end_export
 
 *sandy* \
 yeah...\
 
 #+begin_export html
-<img class="image avatar" src="jame.jpg">
+<img class="image avatar" src="/shared/avatars/jame.jpg">
 #+end_export
 
 *jame* \
 the parallels between this and algebra are crazy lol\
 
 #+begin_export html
-<img class="image avatar" src="sandy.jpg">
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
 #+end_export
 
 *sandy* \
@@ -84,7 +84,7 @@ the parallels between this and algebra are crazy lol\
 The vibes are so strong with this one
 
 #+begin_export html
-<img class="image avatar" src="ephin.jpg">
+<img class="image avatar" src="/shared/avatars/ephin.jpg">
 #+end_export
 *ethan* \
 People who say oop are bad are cringe\
@@ -92,7 +92,7 @@ Its overused, not bad\
 
 
 #+begin_export html
-<img class="image avatar" src="sandy.jpg">
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
 #+end_export
 *sandy* \
 We more mean that it’s bad in how it’s used\
@@ -141,7 +141,7 @@ McKay
 #+end_export
 
 #+begin_export html
-<img class="image avatar" src="jame.jpg">
+<img class="image avatar" src="/shared/avatars/jame.jpg">
 #+end_export
 *jame* \
 That was the most vibey oop critique I have ever read\
