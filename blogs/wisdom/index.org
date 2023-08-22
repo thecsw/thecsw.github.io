@@ -52,4 +52,5 @@ My friend read this article, thinking that multiple people were conversing, so I
 was asked to add some delimiters or flags of who said what. Well, I can't do
 that. All of the above was just me. Related,
 
+#+html_tags: style="width:34rem";
 [[realest.jpg][fr fr]]
