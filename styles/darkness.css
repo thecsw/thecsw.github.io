@@ -1060,3 +1060,16 @@ kbd {
                 width: 95%;
         }
 }
+
+.avatar {
+        position: absolute;
+        width: 3rem;
+        border-radius: 100px;
+        /* left: 6.1rem; */
+        margin-left: -21.4rem;
+        top: 0.6rem;
+}
+
+.media:has(.avatar) {
+        margin-bottom: -1.2rem;
+}
