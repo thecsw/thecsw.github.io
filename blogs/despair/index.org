@@ -8,6 +8,10 @@ that certain kind of warmth to it? A small note,
 
 -----
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
+
 /(sandy)/ \
 Allow me to be a bit sentimental, I liked this thread a lot and the
 [[https://news.ycombinator.com/item?id=35617493][attached article]]
@@ -46,6 +50,10 @@ the developed world, but it increasingly seems like they were just a bit ahead
 of the curve in it happening.
 #+end_quote
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
+
 /(sandy)/ \
 Japan has always been ahead of the curve.
 If you think about it, a lot of recent movies, not only coming from Japan or
@@ -74,6 +82,10 @@ it’s too expensive to “own” anything, have kids, or anything of sorts—ha
 population grow older with fewer young working adults and having the more senior
 populace die and wallow in their own work.
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame.jpg">
+#+end_export
+
 /(jame)/ \
 Interesting thread and thoughts.
 I’ve been thinking about this too.
@@ -82,8 +94,16 @@ escape from somewhere you aren’t appreciated to somewhere you are.
 Also that most protags are self insert.
 The world can be a sad place to live sometimes.
 
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/sandy.jpg">
+#+end_export
+
 /(sandy)/ \
 Can you blame people for seeking that?
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame.jpg">
+#+end_export
 
 /(jame)/ \
 Not one bit.
