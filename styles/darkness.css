@@ -36,7 +36,7 @@
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
         --paragraph-text-rendering: antialiased;
-        --code-size: 0.95rem;
+        --code-size: 1rem;
         --code-text-rendering: optimizeSpeed;
         --code-line-height: 1.37rem;
         --header-width: 46.25rem;

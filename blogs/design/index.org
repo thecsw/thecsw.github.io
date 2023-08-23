@@ -198,3 +198,21 @@ tag above the image,
 #+end_src
 
 will size it up exactly as you need it.
+
+** We're going /Barbie/
+
+Yeah, how about we forget that whole ``I found the new perfect background
+color?'' +f1ded1+ is no longer my best friend. =fbebef= is my *new* best friend.
+
+[[barbie.webp][It's this super soft pink-ish background]]
+
+*I am Kenough*.
+
+** Discord avatars
+
+I like to drop some of my discord convos (with all involved parties'
+consent). Now, with some clever CSS and Darkness' html export, we get cool
+avatars that immerse you a bit more, into what originally happened.
+
+#+html_tags: style="width:44rem";
+[[avatars.webp][I love the 3AM version of people\ Honest, vulnerable, real.]]
