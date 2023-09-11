@@ -375,7 +375,7 @@ Add the line below to include your signature in every new email message.
 
 If you are feeling dangerous, you can start signing your emails,
 encrypting them, armored signatures, and other cool stuff. To do that,
-download link:./gpg.rc[this file], add that to your =~/.mutt/=
+download link: [[./gpg.rc][this file]], add that to your =~/.mutt/=
 directory, create one if you don't have it, and add the following line
 to your =~/.muttrc=: =source ~/.mutt/gpg.rc=
 
@@ -383,7 +383,7 @@ Press =p= when composing email to see the available options.
 
 **** Read web pages in your email
 
-Download link:./mailcap[this file], move the file to the =~/.mutt/=
+Download link: [[./mailcap][this file]], move the file to the =~/.mutt/=
 directory, add this line to your configuration file
 =set mailcap_path = ~/.mutt/mailcap=
 
@@ -391,7 +391,7 @@ directory, add this line to your configuration file
 
 Make your NeoMutt look really good. Same drill.
 
-Download link:./color.mutt[this file], move the file to the =~/.mutt/=
+Download link: [[./color.mutt][this file]], move the file to the =~/.mutt/=
 directory, add this line to your configuration file
 =source $HOME/.mutt/color.mutt=
 
