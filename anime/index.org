@@ -30,7 +30,12 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┬───────────────────┐
+ ┌────────────────────┐
+ │   5 Centimeters    │
+ │    Per Second      ├───────────────────┐
+ ├────────────────────┤   Rin: Daughters  │
+ │ Princess Mononoke  │    of Mnemosyne   │
+ ├────────────────────┼───────────────────┤
  │   Kaguya─sama wa   │    Summer Time    │
  │ Kokurasetai: First │     Rendering     │
  │  Kiss wa Owaranai  ├───────────────────┤
