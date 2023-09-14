@@ -106,6 +106,13 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │        Akane-banashi, Volume 1        │
+ ├───────────────────────────────────────┤
+ │      Chainsaw Man, Buddy Stories      │
+ ├───────────────────────────────────────┤
+ │         Yokohama Kaidashi Kikou       │
+ │        Deluxe Edition, Volume 1       │
+ ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 26   │
  ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 11       │
