@@ -1,5 +1,5 @@
 #+options: tomb:nil
-* My cozy blog 🍣
+* Cozy blog 🍣
 
 I can't fall asleep if I don't write. I wake up in the morning; I need to tell a
 story. Are my eyes too innocent to see the future we have been destined for?
@@ -82,4 +82,5 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[best_web][My favorite stuff on the web 🌍]]
 - [[sqrt2irrational][$\sqrt{2}$ is irrational ◻]]
 - [[mini_jenni][Mini Jenni - my new best friend 👯‍♀️]]
+
   
