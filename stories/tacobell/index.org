@@ -1,4 +1,5 @@
 #+date: 65; 12022 H.E.
+#+options: preview-generate:t
 * Write a report? But I want to go to Taco Bell
 
 NOTE: This story was written as [[report4.pdf][Individual Report IV]] for my Computer Science

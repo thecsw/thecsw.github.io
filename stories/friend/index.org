@@ -1,4 +1,5 @@
 #+date: 73; 12022 H.E.
+#+options: preview-generate:t
 * We were once friends. What happened to us?
 
 NOTE: This story was written as [[report7.pdf][Individual Report VII]] for my Computer Science

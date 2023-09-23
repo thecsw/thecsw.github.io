@@ -1,4 +1,5 @@
 #+date: 123; 12022 H.E.
+#+options: preview-generate:t
 * The awkward moment of me being naked at a conference
 
 NOTE: This was a dream of mine.

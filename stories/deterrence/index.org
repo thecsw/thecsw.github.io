@@ -1,4 +1,5 @@
 #+date: 123; 12022 H.E.
+#+options: preview-generate:t
 * What are leader's ethics on nuclear deterrence?
 
 NOTE: This story was written as a paper ([[deterrence.pdf][original]]) for my Islamic Ethics
