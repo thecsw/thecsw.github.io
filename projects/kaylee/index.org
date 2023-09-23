@@ -18,7 +18,7 @@ webpage and some quick interfaces hooked up onto our little car. It was a fun
 farewell to this course. The link below has a webpage written by me by the
 request of our Instructor to document some selected final projects.
 
-#+html_tags: style="width:34rem"
+#+html_tags: style="width:var(--in-text-media-width)"
 [[sandykaylee.webp][The dream team (we basically did this whole thing in a day)]]
 
 -> [[https://sandyuraz.com/eecs388_projects/][Go to the selected finals webpage]]
