@@ -76,5 +76,5 @@ God Bless Evangelion
 One of my favorite posters is in the living room,
 
 #+attr_darkness: image
-#+html_tags: style="width:34rem";
+#+html_tags: style="width:var(--in-text-media-width)";
 [[https://photos.sandyuraz.com/MoN][THE FATE OF DESTRUCTION IS ALSO THE JOY OF REBIRTH]]

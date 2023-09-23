@@ -25,7 +25,7 @@ reddit bot that recognizes commands to invest in memes? Let's all create and
 account and see what's it's about!! Oh crap. The measely text file corrupted
 with number of writes and it of course [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzetc6b][crashed]]
 
-#+html_tags: style="width:34rem"
+#+html_tags: style="width:var(--in-text-media-width)"
 [[create.webp][MemeInvestor_bot went down]]
 
 Hey mom, dad, I need to go upstairs real quick. Be right back. Okay. I remember
@@ -40,28 +40,28 @@ hungry, let me go downstairs and have faith in my coding
 
 [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeefkl][Early investors]] saw very good returns
 
-#+html_tags: style="width:34rem"
+#+html_tags: style="width:var(--in-text-media-width)"
 [[300.webp][My man, I have invested 300 in this meme, don’t let me down]]
 
 [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzecssj][Some people]] even liked the new feature!
 
-#+html_tags: style="width:34rem"
+#+html_tags: style="width:var(--in-text-media-width)"
 [[invest.webp][I finally understand this subreddit]]
 
 [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzeeev4][Some]] even bet their everything
 
-#+html_tags: style="width:34rem"
+#+html_tags: style="width:var(--in-text-media-width)"
 [[fullinvest.webp][ballsy move, will it pay?]]
 
 You might wonder, how did the bot work back then? Here is the [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzet1ec][help message]] and
 available commands at the time
 
-#+html_tags: style="width:34rem"
+#+html_tags: style="width:var(--in-text-media-width)"
 [[help.webp][!help]]
 
 And here are the [[https://www.reddit.com/r/MemeEconomy/comments/8lc19o/comment/dzed7e6][messages]] with investment updates
 
-#+html_tags: style="width:34rem"
+#+html_tags: style="width:var(--in-text-media-width)"
 [[update.webp][!invest]]
 
 And 15 thousand more messages that are just =!create=, =!invest=, and
