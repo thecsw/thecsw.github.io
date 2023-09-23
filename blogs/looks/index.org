@@ -10,31 +10,31 @@ different platforms I used to have; allow me to share some pictures.
 NOTE: June 1st, 2023!
 
 #+attr_darkness: image
-#+html_tags: style="width:34rem";
+#+html_tags: style="width:var(--in-text-media-width)";
 [[https://photos.sandyuraz.com/YDu][i finally touched grass]]
 
 NOTE: Added a new (new) picture on March 1st, 2023! Gotten older.
 
 #+attr_darkness: image
-#+html_tags: style="width:34rem";
+#+html_tags: style="width:var(--in-text-media-width)";
 [[https://photos.sandyuraz.com/bMw][longer hair]]
 
 NOTE: Added a new picture! I finally found a good stylist that *gets me*.
 
 #+attr_darkness: image
-#+html_tags: style="width:34rem";
+#+html_tags: style="width:var(--in-text-media-width)";
 [[https://photos.sandyuraz.com/dOt][I got a new phone here]]
 
 ** Older pics
 
 #+attr_darkness: image
-#+html_tags: style="width:34rem";
+#+html_tags: style="width:var(--in-text-media-width)";
 [[https://photos.sandyuraz.com/YdP][This gilet is too light-colored]]
 
 I've been growing out my hair for some time, gotta get them [[https://sandyuraz.com/anime/horimiya/][Miyamura]] strands.
 
 #+attr_darkness: image
-#+html_tags: style="width:34rem";
+#+html_tags: style="width:var(--in-text-media-width)";
 [[https://photos.sandyuraz.com/xlV][Acne is my foe by blood]]
 
 Instagram always felt kinda meh.
