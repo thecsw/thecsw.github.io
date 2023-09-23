@@ -1,4 +1,5 @@
 #+date: 65; 12022 H.E.
+#+options: preview-generate:t
 * Today must be the day when I get the courage
 
 NOTE: This story was written as [[report6.pdf][Individual Report VI]] for my Computer Science
