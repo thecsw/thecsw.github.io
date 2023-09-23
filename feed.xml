@@ -3,7 +3,7 @@
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <pubDate>Sun, 20 Aug 2023 00:00:00 UTC</pubDate>
-    <lastBuildDate>Fri, 22 Sep 2023 05:43:58 UTC</lastBuildDate>
+    <lastBuildDate>Sat, 23 Sep 2023 02:21:00 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -13,7 +13,7 @@
     <description>Visitor... Welcome to my Pink Lounge. This place exists between dream and reality, mind and matter. I hope you enjoy ...</description>
     <link>https://sandyuraz.com/</link>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/oop</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -24,7 +24,7 @@
       <pubDate>Sun, 20 Aug 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/drive-thru</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -46,7 +46,7 @@
       <pubDate>Wed, 12 Jul 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/eva</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -57,7 +57,7 @@
       <pubDate>Sat, 08 Jul 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/rebecca</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -90,7 +90,7 @@
       <pubDate>Wed, 26 Apr 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/despair</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -101,7 +101,7 @@
       <pubDate>Tue, 18 Apr 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/komi</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -112,7 +112,7 @@
       <pubDate>Sun, 02 Apr 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/wisdom</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -134,7 +134,7 @@
       <pubDate>Thu, 09 Feb 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/people</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -145,7 +145,7 @@
       <pubDate>Tue, 07 Feb 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/bk</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -310,7 +310,7 @@
       <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/stickers</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -321,7 +321,7 @@
       <pubDate>Thu, 15 Dec 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/wrapped-2</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -332,7 +332,7 @@
       <pubDate>Sun, 04 Dec 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/adam</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -343,7 +343,7 @@
       <pubDate>Sun, 04 Dec 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/sophomore</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -354,7 +354,7 @@
       <pubDate>Sun, 30 Oct 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/one</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -365,7 +365,7 @@
       <pubDate>Fri, 14 Oct 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/configs</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -376,7 +376,7 @@
       <pubDate>Sun, 28 Aug 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/gradspeech</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -398,7 +398,7 @@
       <pubDate>Sun, 10 Jul 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/graduation</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -409,7 +409,7 @@
       <pubDate>Tue, 28 Jun 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/darkness</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -486,7 +486,7 @@
       <pubDate>Sat, 16 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/haste</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -497,7 +497,7 @@
       <pubDate>Sat, 16 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/eating</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -508,7 +508,7 @@
       <pubDate>Fri, 15 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/solaris</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -519,7 +519,7 @@
       <pubDate>Tue, 12 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/reality</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -530,7 +530,7 @@
       <pubDate>Mon, 11 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/thecsw</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -541,7 +541,7 @@
       <pubDate>Wed, 06 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -552,7 +552,7 @@
       <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/games</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -563,7 +563,7 @@
       <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/weird</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -574,7 +574,7 @@
       <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -585,7 +585,7 @@
       <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/cameraman</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -596,7 +596,7 @@
       <pubDate>Mon, 28 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/story</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -607,7 +607,7 @@
       <pubDate>Fri, 25 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/grind</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -618,7 +618,7 @@
       <pubDate>Tue, 22 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/design</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -640,7 +640,7 @@
       <pubDate>Sun, 20 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/pprof</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -651,7 +651,7 @@
       <pubDate>Fri, 18 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/latex</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -662,7 +662,7 @@
       <pubDate>Tue, 15 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/soul</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -673,7 +673,7 @@
       <pubDate>Mon, 14 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/web-legacy</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -750,7 +750,7 @@
       <pubDate>Sun, 06 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/living</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -783,7 +783,7 @@
       <pubDate>Sun, 20 Feb 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/dvorak</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -805,7 +805,7 @@
       <pubDate>Thu, 17 Feb 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/freshman</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -816,7 +816,7 @@
       <pubDate>Fri, 14 Jan 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/anime</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -838,7 +838,7 @@
       <pubDate>Tue, 04 Jan 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/wrapped</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -849,7 +849,7 @@
       <pubDate>Tue, 04 Jan 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/emacs-macos</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -860,7 +860,7 @@
       <pubDate>Mon, 08 Nov 2021 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/copilot-game</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -871,7 +871,7 @@
       <pubDate>Fri, 09 Jul 2021 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/arts</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -882,7 +882,7 @@
       <pubDate>Sat, 22 May 2021 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/web-toolbox</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -893,7 +893,7 @@
       <pubDate>Wed, 05 Aug 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/emacs.sh</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -904,7 +904,7 @@
       <pubDate>Thu, 30 Jul 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/foundation-time</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -915,7 +915,7 @@
       <pubDate>Wed, 15 Jul 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/song_challenge</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -926,7 +926,7 @@
       <pubDate>Fri, 05 Jun 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/githubio</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -937,7 +937,7 @@
       <pubDate>Sat, 23 May 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/diffeq</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -948,7 +948,7 @@
       <pubDate>Tue, 12 May 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/orgmode-css</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -959,7 +959,7 @@
       <pubDate>Sat, 09 May 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/emacsd</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -970,7 +970,7 @@
       <pubDate>Fri, 08 May 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/go-emacs</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -981,7 +981,7 @@
       <pubDate>Thu, 07 May 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/twin-peaks</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -992,7 +992,7 @@
       <pubDate>Wed, 22 Apr 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/encrypting_usb</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1003,7 +1003,7 @@
       <pubDate>Sat, 11 Apr 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/ryan_codes</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1014,7 +1014,7 @@
       <pubDate>Thu, 02 Apr 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/good_bad_movies</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1025,7 +1025,7 @@
       <pubDate>Mon, 16 Mar 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/why_use_emojis</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1036,7 +1036,7 @@
       <pubDate>Sun, 15 Mar 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/best_web</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1047,7 +1047,7 @@
       <pubDate>Tue, 03 Mar 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/sqrt2irrational</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1058,7 +1058,7 @@
       <pubDate>Tue, 11 Feb 2020 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/better_mutt</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1069,7 +1069,7 @@
       <pubDate>Wed, 27 Nov 2019 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/year_12019</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1080,7 +1080,7 @@
       <pubDate>Sun, 26 May 2019 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/mini_jenni</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1091,7 +1091,7 @@
       <pubDate>Thu, 16 May 2019 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/using_mutt</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1102,7 +1102,7 @@
       <pubDate>Mon, 13 May 2019 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/installing_arch</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1113,7 +1113,7 @@
       <pubDate>Thu, 02 May 2019 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/mira_reddit</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -1124,7 +1124,7 @@
       <pubDate>Tue, 26 Mar 2019 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">My cozy blog 🍣</category>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/junior</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
