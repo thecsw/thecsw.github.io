@@ -30,9 +30,11 @@
         --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
         --paragraph-size: 1.42rem;
+        --paragraph-size-mobile: 1.24rem;
         --paragraph-width: 40rem;
         --paragraph-width-max: 100%;
         --paragraph-line-height: 2.05rem;
+        --paragraph-line-height-mobile: 1.9rem;
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
         --paragraph-text-rendering: antialiased;
@@ -50,6 +52,7 @@
         --toc-size: var(--quote-size);
         --toc-line-height: 1.3rem;
         --toc-width: var(--paragraph-width);
+        /* this is around 640px, and @media queries should follow */
         --media-width: 55.125rem;
         --code-width: 44rem;
         --gallery-gap: 1px;
@@ -223,9 +226,20 @@ html {
         margin-top: 1rem;
         margin-bottom: 0.625rem;
         text-rendering: inherit;
-        -webkit-font-smoothing: inherit;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         -webkit-hyphens: auto;
         hyphens: auto;
+}
+
+/* Now, we have to do this ugly manual phone version */
+@media all and (max-width: 428px) {
+        .writing {
+                font-size: var(--paragraph-size-mobile);
+                line-height: var(--paragraph-line-height-mobile);
+                padding-left: 1.37rem;
+                padding-right: 1.37rem;
+        }
 }
 
 .writing::before {
@@ -310,9 +324,11 @@ a:not(.image):not(.gallery-item):hover {
         letter-spacing: -0.01rem;
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 428px) {
         .section-1 {
-                font-size: calc(var(--section-one-font-size) * 0.77);
+                font-size: calc(var(--section-one-font-size) * 0.84);
+                margin-left: -0.2rem;
+                padding-right: 3.69rem;
         }
 }
 
@@ -715,7 +731,7 @@ details {
         border-radius: 2px;
 }
 
-@media all and (max-width: 690px) {
+@media all and (max-width: 640px) {
         .image {
                 border-radius: 0;
         }
