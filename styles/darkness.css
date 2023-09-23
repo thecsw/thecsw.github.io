@@ -47,7 +47,9 @@
         --header-text-rendering: antialiased;
         --subtitle-size: 1.3rem;
         --quote-size: 1.3rem;
+        --quote-size-mobile: 1.1rem;
         --quote-line-height: 1.9rem;
+        --quote-line-height-mobile: 1.4rem;
         --quote-width: 34.375rem;
         --toc-size: var(--quote-size);
         --toc-line-height: 1.3rem;
@@ -376,6 +378,14 @@ a:not(.image):not(.gallery-item):hover {
         margin-block-end: 1rem;
         margin-inline-start: 40px;
         margin-inline-end: 40px;
+}
+
+/* Now, we have to do this ugly manual phone version */
+@media all and (max-width: 428px) {
+    .quote {
+        font-size: var(--quote-size-mobile);
+        line-height: var(--quote-line-height-mobile);
+}
 }
 
 /*
