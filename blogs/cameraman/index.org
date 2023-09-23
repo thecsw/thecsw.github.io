@@ -78,6 +78,7 @@ real-world footage with real regular people in it. This merely serves as a
 manifestation of his own views on cinema, which is fully cinematic. Vertov
 accomplishes at making it real, a literal unplayed film.
 
+#+html_tags: style="width:var(--in-text-media-width)";
 [[street.webp][Showing the routine of life as it is]]
 
 #+drop_cap
