@@ -3,7 +3,7 @@
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <pubDate>Sun, 20 Aug 2023 00:00:00 UTC</pubDate>
-    <lastBuildDate>Sun, 24 Sep 2023 02:15:10 UTC</lastBuildDate>
+    <lastBuildDate>Sun, 24 Sep 2023 02:17:11 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -1122,17 +1122,6 @@
       <description>I like Go and I think it’s a great language. I built memeinvestor_bot, which was one of the interactive reddit bots on the platform at the time. So you can imagine we used quite a bit of praw. About year and a half later, the python codebase became so disgusting and unmaintainable, where I decided to re-write the whole thing in Go. (The old &#34;let’s rewrite everything&#34; syndrome&#34;) Re-write would be too strong, re-build from scratch is what the... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 26 Mar 2019 00:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/junior</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Junior</title>
-      <link>https://sandyuraz.com/blogs/junior</link>
-      <description>??; ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
     </item>
     <ttl>60</ttl>
   </channel>
