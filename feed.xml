@@ -3,7 +3,7 @@
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <pubDate>Sun, 20 Aug 2023 00:00:00 UTC</pubDate>
-    <lastBuildDate>Sat, 23 Sep 2023 20:50:21 UTC</lastBuildDate>
+    <lastBuildDate>Sun, 24 Sep 2023 02:09:27 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -420,7 +420,7 @@
       <pubDate>Tue, 24 May 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/writings">More writings 🥂</category>
+      <category domain="https://sandyuraz.com/writings">I write 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/writings/politeness</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -431,7 +431,7 @@
       <pubDate>Tue, 24 May 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/writings">More writings 🥂</category>
+      <category domain="https://sandyuraz.com/writings">I write 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
@@ -442,7 +442,7 @@
       <pubDate>Tue, 24 May 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/writings">More writings 🥂</category>
+      <category domain="https://sandyuraz.com/writings">I write 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/writings/ideal_love</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
