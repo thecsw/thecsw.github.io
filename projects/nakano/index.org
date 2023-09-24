@@ -1,3 +1,4 @@
+#+options: preview-height:640 preview-width:1280
 * Nakano: Empower Your Peers 🍵
 
 Hackathons are fun and our university, KU ACM chapter specifically hosts an MLH
