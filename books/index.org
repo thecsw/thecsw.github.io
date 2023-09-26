@@ -16,7 +16,10 @@ Here is a stack of books I liked and recommend for reading
 
 #+html_tags: style="width:25rem";
 #+begin_src
-        ┌───────────────────────┐
+           ┌─────────────────┐
+           │ Abroad in Japan │
+           │  by Chris Broad │
+        ┌──┴─────────────────┴──┐
         │ The Star with no Name │
         │  by Mihail Sebastian  │
       ┌─┴───────────────────────┴──┐
