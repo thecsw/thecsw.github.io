@@ -31,8 +31,12 @@ invest myself in what I'm about to watch.
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌────────────────────┐
- │   5 Centimeters    │
- │    Per Second      ├───────────────────┐
+ │  Kimetsu no Yaiba: │
+ │    Katanakaji no   │
+ │      Sato─hen      │
+ ├────────────────────┼───────────────────┐
+ │   5 Centimeters    │Dr.STONE: NEW WORLD│
+ │    Per Second      ├───────────────────┤
  ├────────────────────┤   Rin: Daughters  │
  │ Princess Mononoke  │    of Mnemosyne   │
  ├────────────────────┼───────────────────┤
