@@ -30,11 +30,12 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┐
- │  Kimetsu no Yaiba: │
- │    Katanakaji no   │
- │      Sato─hen      │
- ├────────────────────┼───────────────────┐
+                      ┌───────────────────┐
+ ┌────────────────────┤   Gunsmith Cats   │
+ │  Kimetsu no Yaiba: ├───────────────────┤
+ │    Katanakaji no   │   Nihon Animator  │
+ │      Sato─hen      │      Mihonichi    │
+ ├────────────────────┼───────────────────┤
  │   5 Centimeters    │Dr.STONE: NEW WORLD│
  │    Per Second      ├───────────────────┤
  ├────────────────────┤   Rin: Daughters  │
