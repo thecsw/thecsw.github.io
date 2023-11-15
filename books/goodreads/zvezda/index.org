@@ -1,0 +1,20 @@
+#+options: preview-generate:t
+* The Star with No Name ⭐️
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+After seeing the Soviet adaptation of the play, directed by Mikhail Kozakov
+(playing Grig), and starring Anastasiya Vertinskaya (Mona) and Igor Kostolevsky
+(Marin Miroiu)—I decided to write a comparative analysis between the play and
+the picture for my graduate level film class.
+
+Every time I come back to it, whether after a related personal experience, or
+whenever I have the feeling of getting in touch with the message Mihail
+Sebastian implanted at the story's core—I always get reminded of what a little
+known piece of art the film and the play is.
+
+Because truly, ``No star deviates from its path.''
+
+Said comparative analysis is available at [[https://sandyuraz.com/writings/nameless_star/][The Star with No Name]]

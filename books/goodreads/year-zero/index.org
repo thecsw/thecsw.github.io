@@ -1,0 +1,10 @@
+#+options: preview-generate:t
+* Year Zero 👽
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+It was a fun and an enjoyable read, for what it promised with its premise and
+what I got with my expectations of modern science fiction—it was good! It's a
+nice light read and it does well there.

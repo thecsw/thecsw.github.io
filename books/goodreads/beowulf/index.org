@@ -1,0 +1,16 @@
+#+options: preview-generate:t
+* Beowulf ⛓️
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Any modern action movie, epic tales, anything really, can and will be tied back
+to Beowulf. It's a bit of a tougher read, as contemporary readers—we aren't used
+to tens and hundreds of pages worth of digressions into someone's family trees
+and ballads of their greatness, when they're simply being introduced at a dinner
+table.
+
+This is a true epic. The scale and style of which defined our tastes in tales
+and action-packed stories. Be prepared to apply some effort to get through the
+whole work.
