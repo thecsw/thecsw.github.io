@@ -1,0 +1,31 @@
+#+options: preview-generate:t
+* The Tao of Pooh 🐻
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+It was my college sophomore year—I took a semester with really hard classes and
+found myself straight up in a not a good place. Doubted my every decisions, and
+doubts weren't of the good kind, where you have the opportunity to reinforce
+your beliefs and become stronger—this was the debilitating kind of doubting.
+
+The Tao of Pooh was one of those serendipitous moments in life—could not have
+predicted it. Saw someone joke about "the tower of poo" when they heard about
+this little book. It was funny, sure, but something told me—I have to know what
+it's about—I feel as if it were a premonition—this has to become a part of my
+life.
+
+Reading it every day, chapter by chapter, slowly, and re-reading it a
+bunch—before going to bed, near a fountain, thinking about it while walking
+around. It gave colors to what at the time, I saw as a mundane and gray
+day-to-day business of routine life.
+
+When I walk and hear a bird singing on the tree—I don't want to think about what
+kind of bird it is, how long its beak is, is it a good season for them or not—I
+just want to enjoy the song itself.
+
+A modernist approach to the philosophy of Tao. I would call myself a Taoist as a
+consequence—got me deeper into more literature about it. Have to constantly
+remind myself of how to free up the mind to welcome the new and bright. I have a
+long way to go.

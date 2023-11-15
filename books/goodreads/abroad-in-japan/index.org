@@ -1,0 +1,11 @@
+#+options: preview-generate:t
+* Abroad in Japan 🇯🇵
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Pulls you in with sharp and witty writing, which feels just like Chris Broad
+from Abroad in Japan (haha). Atmospheric and personal. Loved the
+"behind-the-curtains" behind some of his big works he published throughout the
+years.

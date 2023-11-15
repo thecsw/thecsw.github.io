@@ -1,0 +1,16 @@
+#+options: preview-generate:t
+* The Dream of a Ridiculous Man 💤
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+If you don't have the time, energy, or the right circumstances to dive deep and
+expose yourself to Dostoevsky's larger novels, like Brothers Karamazov, The
+Idiot, Crime and Punishment, etc.—The Dream of a Ridiculous Man would be a
+perfect introduction to Fyodor Mikhailovich. I consider it to be the condensed
+version of Dostoevskian philosophy.
+
+What does it mean to love one another? The human decency to see and treat each
+other as brothers—every day, actively, and tirelessly. Even if others won't get
+it.

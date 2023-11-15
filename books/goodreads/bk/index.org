@@ -1,0 +1,33 @@
+#+options: preview-generate:t
+* Brothers Karamazov 🍞
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Because I have spoken to them so much about Brothers Karamazov and Dostoevsky, I
+have definitely given all my close friends some sort of a trauma and a trigger
+that comes for free with it. There is so much to say that if I start, this
+time—it might never end. So, in what I can say now:
+
+If I imagine all the books and literature ever written, anywhere, anytime, by
+anyone—put them in one big pile. Brothers Karamazov will be standing separate
+from all of them. It is truly, the supreme summit of all literature. How many
+tears have I shed against my will when turning the rusty pages of my thousand
+page copy of the book.
+
+I refuse to believe that a human being can possess such a depth of soul to most
+literally, "extract" Karamozov family onto ink and paper. What is left when you
+do that?
+
+Profoundly life-changing, cannot stress enough how non-casually I mean this. I
+always tell family and friends, there is my life "before Karamozov" and "after
+Karamazov". It has been many years since I first read the novel and there hasn't
+been a single day, when I haven't thought of something from the story and its
+characters.
+
+If you read Brothers Karamazov at least once in your life, then it's a life
+worth spent.
+
+I have a couple of works I've written on the novel, one about [[https://sandyuraz.com/writings/ideal_love/][the ideal love]]
+that Dostoevsky describes in the work and the [[https://sandyuraz.com/blogs/bk/][spirituality of its core]].

@@ -1,0 +1,12 @@
+#+options: preview-generate:t
+* Foundation's Edge 🦾
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+I must confess—I don't remember specifically the middle point between this and
+Foundation and Earth, but Asimov's writing is always what I like to call, "the
+perfect English." And this is a great companion to the original Foundation
+trilogy, as every civilization is doomed for the similar fate. If the history
+doesn't repeat itself, it definitely rhymes.

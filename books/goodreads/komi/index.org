@@ -1,0 +1,18 @@
+#+options: preview-generate:t
+* Komi Can’t Communicate ❤️
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+I am biased towards this series, as it gave me support and warmth in times when
+I needed one the most. Impulsively buying the first 14-15 volumes at once from
+B&N, bedridden a while later, Komi and friends were my trusty companions, with
+whom I shared time, which is so near and dear to me.
+
+This is of course, a perfect one for me, not only because it has a special
+connection to me—it's overall a fantastic series on something not a lot of
+relationship-based works talk about—how do you make friends? (and not just
+romantic partners)
+
+I spoke a bit more about Komi and how it [[https://sandyuraz.com/blogs/komi/][ties in with my love for Dostoevsky]].

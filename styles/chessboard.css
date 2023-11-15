@@ -1094,9 +1094,17 @@ kbd {
         position: absolute;
         width: 3rem;
         border-radius: 100px;
-        /* left: 6.1rem; */
         margin-left: -23rem;
         top: 0.6rem;
+}
+
+.book-cover {
+        position: absolute;
+        width: 10rem;
+        margin-left: -31rem;
+        margin-top: 1rem;
+        top: 0.6rem;
+        filter: drop-shadow(2px 2px 3px gray);
 }
 
 .media:has(.avatar) {

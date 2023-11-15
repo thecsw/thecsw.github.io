@@ -1,0 +1,15 @@
+#+options: preview-generate:t
+* Kowloon Generic Romance 🍉
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+*Melancholic, Gloomy, Yet Incredibly Captivating*
+
+An interesting story of a *truly* generic romance in a nostalgic land of Kowloon
+Walled City. The pacing and ambience that the story takes you in is weirdly
+soothing. It strikes that niche I always knew I craved for, but couldn't put
+into words for so long. Kowloon Generic Romance is different from regular manga,
+as it focuses more on the adult romance and worries that come with
+it. Refreshing and intriguing. I'm in.

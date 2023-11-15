@@ -1,0 +1,13 @@
+#+options: preview-generate:t
+* Eugene Onegin 🔫
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+*Encyclopedia of life.*
+
+You and I can take comfortable seats, each armed with a cup of tea and start
+talking about Eugene Onegin. We would grow old together in those chairs, with
+tea evaporated, and the cup withered away—still, we would only be touching the
+very surface of Pushkin's magnum opus. 

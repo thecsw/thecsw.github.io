@@ -1,0 +1,25 @@
+#+options: preview-generate:t
+* The Overcoat 🧥
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+I mean... This is *The Overcoat*. As Dostoevsky put it, "we all come from under
+Gogol's The Overcoat," such as the entirety of Russian Literature can be
+deconstructed through Akaky Akakievich.
+
+The tragedy and comedy of a life of a "little person," someone who is not of a
+particular value to society—someone, who is drifting through time, one moment
+entering life, and another time leaving it. Without really making much of an
+impression onto anyone or anything on its path.
+
+Whereas Gogol sharpened his pencil to ridicule the indifferent society, the
+"little man," and then later make us grow closer to Akaky Akakievich, Dostoevsky
+had something different in his mind.
+
+Hopefully this is intriguing enough to get started on "The Overcoat." If you
+want to understand the core of what it means for literature to be "Russian,"
+this is its heart. Eugene Onegin would be its soul.
+
+See the presentation I gave, [[https://sandyuraz.com/projects/chelovek/][Счастье маленького человека 🧥]]
