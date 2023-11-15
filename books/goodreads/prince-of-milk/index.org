@@ -1,0 +1,11 @@
+#+options: preview-generate:t
+* The Prince of Milk 🥛
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Similar to the Fifth Science, picked this one up as I was going through
+Exurb1a's repertoire. Solid modern sci-fi with reincarnations, classic
+Exurb1a-ridden themes of existentialism, absurdism, all with a nice scenery of a
+relative quiet (weird) English countryside.

@@ -1,0 +1,10 @@
+#+options: preview-generate:t
+* The Fifth Science 🪐
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+I have fond memories reading this collection of stories somewhere around the
+Summer of 2020. It's a solid list, one of the stories with the galactic empire's
+and humanity's downfall struck a cord somewhere with me.

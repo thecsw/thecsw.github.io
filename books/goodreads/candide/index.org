@@ -1,0 +1,21 @@
+#+options: preview-generate:t
+* Candide 🐑
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+I always like to say that Candide was centuries ahead of his time and this fact
+hasn't changed even today. We aren't ready yet, for the wit and sharpness of
+mind, to which Voltaire presents the absurdity of human condition. It is in
+fact, so tragic and irredeemably non-sensical that we can't do anything in our
+right minds but to laugh and see it all as a comedy. Truly, "God is a comedian
+playing to an audience too afraid to laugh"
+
+Was Candide a fool and disconnected from reality with his optimism? Or was it
+his strategic optimism that allowed him to persevere through all the rotten
+fruits handed to him? Maybe he was just human, a pure example of what it means
+to experience the quintessential human condition.
+
+I don't know. Only if good Pangloss were here.... he would definitely know and
+tell you.

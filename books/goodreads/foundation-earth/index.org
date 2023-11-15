@@ -1,0 +1,12 @@
+#+options: preview-generate:t
+* Foundation and Earth 🌏
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+This is a weaker installment compared to previous foundations, especially the
+original trilogy. However, I will preface that I am biased towards this sequel
+part, primarily because I read it as one of my close companions during the very
+first days of covid, when everything around was shutting itself off from the
+world. Oh, Bliss.

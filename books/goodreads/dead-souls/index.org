@@ -1,0 +1,17 @@
+#+options: preview-generate:t
+* Dead Souls 🐴
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+I cried laughing from beginning till the bitter end. No one is sharper with
+satire than Gogol. However, unfortunately, he does lack the ability to write
+philosophy—the digressions and pondering onto the Russian soul and the state of
+affairs of the nation do fall flat and get unbelievably boring, especially when
+they are sandwiched between what no one can even come close to
+replicating—Gogol's satire.
+
+Dead Souls is the story of Russia. Specifically, the Hell of Russia. A Dante and
+Divine Comedy level of work, which forever imprinted itself as one of the
+foundational works in all of Russian Literature.
