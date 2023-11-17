@@ -111,6 +111,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │        Akane-banashi, Volume 2        │
+ ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 5   │
  ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 27   │
