@@ -111,6 +111,10 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │         Insufficient Direction        │
+ ├───────────────────────────────────────┤
+ │        22-26: Tatsuki Fujimoto        │
+ ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 2        │
  ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 5   │
