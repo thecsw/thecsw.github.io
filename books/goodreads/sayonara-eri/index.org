@@ -1,0 +1,8 @@
+#+options: preview-generate:t
+* Sayonara Eri 📱
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Art is the way to remember one's subjective reality.

@@ -1,0 +1,21 @@
+#+options: preview-generate:t
+* The Gods Themselves ☄️
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+I love science fiction. Unfortunately, many of contemporary sci-fi works focus
+too heavily on some other-worldly tech, massive star energy collectors, colossal
+ships, etc. The science fiction that I grew up with, as in the works of Isaac
+Asimov, Alexander Belyaev, Stanislaw Lem, etc., which all primarily focused on
+people and treated science as a sociological catalyst.
+
+Who could top any pre-defined expectations and status quo but Asimov himself?
+All with alien sex and the premise, which is almost impossible to wrap your head
+around. Imagining a whole new universe, where the fundamental laws of physics
+are so different from ours that the troubles of animating something like this
+warranted a whole separate story, /Gold: The Final Science Fiction Collection/.
+
+As a few fellow reviewers/commenters noted here—it's not necessarily a work that
+I would come back to reading, but the one I deeply respect.

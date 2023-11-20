@@ -1,0 +1,10 @@
+#+options: preview-generate:t
+* Chainsaw Man: Buddy Stories 🕵️‍♀️
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+A nice stroll around the world of Chainsaw Man before Chainsaw Man. It was
+enjoyable to interact with already-known to us characters in a light novel
+form. Love Himeno.
