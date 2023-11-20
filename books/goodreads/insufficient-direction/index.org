@@ -1,0 +1,29 @@
+#+options: preview-generate:t
+* Insufficient Direction 🍺
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+This was a great and what felt like, a deeply personal read, which it definitely
+is. To get a peek into what it must be like to see legendary Hideaki Anno behind
+the scenes—in a day-to-day like routine, all through a collection of anecdotal
+stories, events of which are in some places could be exaggerated, shuffled
+around, all to make it all the funnier—what a big heart Moyoco Anno injected
+into her work.
+
+Maybe I'm also deep into the ota-sphere, as I found all the geeking out on old
+shows, endless references, and expensive merchandise (looking at you, kamen
+rider belts and figurines) super charming.
+
+The foreword (?) by Hideaki Anno says it best,
+
+#+begin_quote
+What's amazing about my wife's manga is that she doesn't create any "out" from
+reality. [...]
+Instead of making you want to dwell in yourself, her manga makes you want to
+go outside and do something, it emboldens you. It's a manga for tackling
+reality and living among others. [...]
+Her manga accomplished what I couldn't do in Eva to the end. It was a big shock
+to me, really. 
+#+end_quote
