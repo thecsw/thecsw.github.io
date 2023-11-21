@@ -1,0 +1,8 @@
+#+options: preview-generate:t
+* Solo Leveling 🔪
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Hardest drug I've ever taken.
