@@ -1,0 +1,12 @@
+#+options: preview-generate:t
+* 22-26: Tatsuki Fujimoto 🌊
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+I think I enjoyed this collection of stories a bit more than his selection from
+/17-21: Tatsuki Fujimoto/, especially /Nayuta of the Prophecy/, where Nayuta is
+probably one my favorite characters that Fujimoto has come up with. The core
+themes felt to hit close home with family relationships and how we come to
+understand each other as relatives, brothers, sisters, and loved ones.
