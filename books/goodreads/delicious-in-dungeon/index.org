@@ -1,0 +1,13 @@
+#+options: preview-generate:t
+* Delicious in Dungeon 🥩
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Brings out the charm of more vintage RPGs and food wars style preparations of
+monster ingredients. Superb art style! I enjoyed reading the first volume, even
+though dungeon-crawling and fantasy settings are unfortunately not my preferred
+genre. Still, I would be interested to know how it goes, especially since
+TRIGGER is coming out with the anime adaptation of it pretty soon. I'll try to
+stay up to date, maybe buy the manga, and read it when the time is right.
