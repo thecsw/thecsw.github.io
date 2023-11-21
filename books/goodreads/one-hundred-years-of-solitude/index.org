@@ -1,0 +1,8 @@
+#+options: preview-generate:t
+* One Hundred Years of Solitude 🌿
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+One Hundred Years of Torture reading this book.
