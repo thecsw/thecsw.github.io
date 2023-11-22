@@ -1,0 +1,8 @@
+#+options: preview-generate:t
+* Omniscient Reader's Viewpoint 📄
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Second hardest drug I've ever taken.
