@@ -1,0 +1,21 @@
+#+options: preview-generate:t
+* 1984 👁️
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Cartoonish levels of depicting oppressive governments with very little to no
+foresight and imagination to come up with something that has more meat to the
+matter, rooted deeper into a future that might be, all ending up reading as
+Orwell's personal gripe with Stalinism.
+
+I highly recommend reading Isaac Asimov's [[http://www.newworker.org/ncptrory/1984.htm][review of 1984]], as he said,
+
+#+begin_quote
+So I read it and found myself absolutely astonished at what I read. I wondered
+how many people who talked about the novel so glibly had ever read it; or if
+they had, whether they remembered it at all.\
+I felt I would have to write the critique if only to set people straight.\
+(I'm sorry; I love setting people straight.)
+#+end_quote
