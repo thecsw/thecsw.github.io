@@ -111,6 +111,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │    Delicious in Dungeon, Volume 1     │
+ ├───────────────────────────────────────┤ 
  │         Insufficient Direction        │
  ├───────────────────────────────────────┤
  │        22-26: Tatsuki Fujimoto        │
