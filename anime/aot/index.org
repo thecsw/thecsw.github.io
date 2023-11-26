@@ -2,7 +2,7 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
 #+html_head: <link rel="stylesheet" type="text/css" href="aot.css">
 
-#+options: author-image:nil tomb:nil
+#+options: author-image:nil tomb:nil preview:cabin.jpg
 
 * Attack on Titan: Final Final 🗡️
 
