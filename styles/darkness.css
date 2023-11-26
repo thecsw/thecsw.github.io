@@ -33,7 +33,7 @@
         --paragraph-size-mobile: 1.24rem;
         --paragraph-width: 40rem;
         --paragraph-width-max: 100%;
-        --paragraph-line-height: 2.05rem;
+        --paragraph-line-height: 1.95rem;
         --paragraph-line-height-mobile: 1.9rem;
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
@@ -268,6 +268,7 @@ a:not(.image):not(.gallery-item):not(.rss-link) {
         transition: 80ms;
         font-size: 100%;
         letter-spacing: -0.03rem;
+        font-weight: var(--paragraph-font-weight);
 }
 
 a:not(.image):not(.gallery-item):hover {
@@ -1093,9 +1094,17 @@ kbd {
         position: absolute;
         width: 3rem;
         border-radius: 100px;
-        /* left: 6.1rem; */
         margin-left: -23rem;
         top: 0.6rem;
+}
+
+.book-cover {
+        position: absolute;
+        width: 10rem;
+        margin-left: -31rem;
+        margin-top: 1rem;
+        top: 0.6rem;
+        filter: drop-shadow(2px 2px 3px gray);
 }
 
 .media:has(.avatar) {
