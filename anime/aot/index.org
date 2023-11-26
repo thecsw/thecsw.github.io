@@ -1,8 +1,10 @@
+#+options: author-image:nil tomb:nil preview:cabin.jpg
 #+options: exclude-html-head:darkness.css
 #+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
 #+html_head: <link rel="stylesheet" type="text/css" href="aot.css">
 
-#+options: author-image:nil tomb:nil preview:cabin.jpg
+#+title: Attack on Titan: Final Final 🗡️
+#+date: 330; 12023 H.E.
 
 * Attack on Titan: Final Final 🗡️
 

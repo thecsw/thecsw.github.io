@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Sun, 20 Aug 2023 00:00:00 UTC</pubDate>
-    <lastBuildDate>Sun, 26 Nov 2023 23:35:22 UTC</lastBuildDate>
+    <pubDate>Sun, 26 Nov 2023 00:00:00 UTC</pubDate>
+    <lastBuildDate>Sun, 26 Nov 2023 23:48:53 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>My friend, nothing exists here. Some would call this a “40...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/anime">Anime is dying 🍶</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/anime/aot</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Attack on Titan: Final Final 🗡️</title>
+      <link>https://sandyuraz.com/anime/aot</link>
+      <description>Have gotten to it after following AOT the anime and manga closely for the past decade—the ending was OK. In many ways, it’s a natural ending that as I see it—it played everything till the end very safe. It didn’t try to go and do something crazy (say, killing the rest of humanity EoE-style), but neatly tied all the loose ends together that there is nothing left for the audience to think about or fee... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 26 Nov 2023 00:00:00 UTC</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
@@ -213,22 +224,22 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika-neondroid</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/joker-neondroid</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Ichika Neondroid 🕶️</title>
-      <link>https://sandyuraz.com/plastic/ichika-neondroid</link>
-      <description>Ichika looks so cute in her glasses! Mwah. ... [ Continue reading... ]</description>
+      <title>Joker Neondroid ☕️</title>
+      <link>https://sandyuraz.com/plastic/joker-neondroid</link>
+      <description>My last year at college was the most grueling part of my life. Taking 21 credit hours, three majors, two jobs, not going to Ph.D. or graduate school in favor of going into corporate – it all weighs in on you. No one tells you this. One of the things that gave me immense comfort and an out was Joseph Anderson’s Persona 5 streams. I would watch them while falling asleep, working my jobs, and doing regular homework. A calming voice that was always there. It gave me peace. Very parasocial. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Thu, 05 Jan 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/joker-neondroid</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika-neondroid</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Joker Neondroid ☕️</title>
-      <link>https://sandyuraz.com/plastic/joker-neondroid</link>
-      <description>My last year at college was the most grueling part of my life. Taking 21 credit hours, three majors, two jobs, not going to Ph.D. or graduate school in favor of going into corporate – it all weighs in on you. No one tells you this. One of the things that gave me immense comfort and an out was Joseph Anderson’s Persona 5 streams. I would watch them while falling asleep, working my jobs, and doing regular homework. A calming voice that was always there. It gave me peace. Very parasocial. ... [ Continue reading... ]</description>
+      <title>Ichika Neondroid 🕶️</title>
+      <link>https://sandyuraz.com/plastic/ichika-neondroid</link>
+      <description>Ichika looks so cute in her glasses! Mwah. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Thu, 05 Jan 2023 00:00:00 UTC</pubDate>
     </item>
@@ -246,33 +257,22 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-rem</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Winter Rem 🌸</title>
+      <link>https://sandyuraz.com/plastic/winter-rem</link>
+      <description>“When you said that you hate yourself, it made me want to tell you all the wonderful things I know about you... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-aqua</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Winter Aqua 🍶</title>
       <link>https://sandyuraz.com/plastic/winter-aqua</link>
       <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable – like at all. Sure, she is usually more trouble than she’s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/rem</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Rem Summer RELAX 🍦</title>
-      <link>https://sandyuraz.com/plastic/rem</link>
-      <description>I don’t remember, but this figure must have been my first. It’s so cl... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Darkness 🧤</title>
-      <link>https://sandyuraz.com/plastic/darkness-winter</link>
-      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
     </item>
@@ -290,6 +290,17 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Winter Darkness 🧤</title>
+      <link>https://sandyuraz.com/plastic/darkness-winter</link>
+      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Ichika 👜</title>
@@ -301,11 +312,11 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-rem</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/rem</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Rem 🌸</title>
-      <link>https://sandyuraz.com/plastic/winter-rem</link>
-      <description>“When you said that you hate yourself, it made me want to tell you all the wonderful things I know about you... [ Continue reading... ]</description>
+      <title>Rem Summer RELAX 🍦</title>
+      <link>https://sandyuraz.com/plastic/rem</link>
+      <description>I don’t remember, but this figure must have been my first. It’s so cl... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
     </item>
