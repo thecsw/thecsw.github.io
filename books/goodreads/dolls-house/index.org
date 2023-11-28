@@ -1,0 +1,8 @@
+#+options: preview-generate:t
+* A Doll's House 🕰️
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+Something glorious is going to happen.
