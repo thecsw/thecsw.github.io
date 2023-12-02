@@ -31,10 +31,11 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┐
- │  Attack on Titan:  │
- │  The Final Season  │
- │   Final Chapters   ├───────────────────┐
+                      ┌───────────────────┐
+ ┌────────────────────┤    Perfect Blue   │
+ │  Attack on Titan:  ├───────────────────┤
+ │  The Final Season  │     Bartender     │
+ │   Final Chapters   ├───────────────────┤
  │       Part 2       │   Is It Wrong to  │
  ├────────────────────┤    Try to Pick    │
  │ Is It Wrong to Try │   Up Girls in a   │
