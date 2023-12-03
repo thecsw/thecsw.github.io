@@ -1,0 +1,62 @@
+#+options: preview-width:1920 preview-height:1097
+* My Spotify Wrapped for 2023 🗼
+
+336; 12023 H.E.
+
+Hello there! [[../wrapped][Again]] and [[../wrapped-2][again]]. I'm happy you're here with me on the third year of
+sharing my embarassing taste in music. I am *not* like the other girls.
+
+We'll start with the general stats. I must say, I *have* been on a steady rise in
+terms of my minutes. In 2021, I listened to 11,183 minutes (≈186 hours); in
+2022, I listened to 22,121 minutes (≈369 hours, *nice*). Apparently, this year I
+listened to a whopping 31,645 minutes worth of spotify music this year. That
+adds up to *strong 527 hours*. 🦫.
+
+And well of course, repeating the tradition of 2021, /Vitality/ made it to my top
+chart, yet again. Something about [[https://sandyuraz.com/plastic/lucifer/][helltaker]]... The rest of my top five songs
+describe me pretty well. When I'm at work, I would queue one of them on repeat
+from morning till evening, just on loop and non-stop. Psycho behavior. I
+know. They are so good, though.
+
+#+begin_gallery :path pics :num 3
+- [[minutes.jpeg][I don't think I can go much up at this point]] :no-zoom
+- [[top_song.jpeg][one of the hardest drugs I've taken fr fr]] :no-zoom
+- [[top_songs.jpeg][i'm not like the other girls]] :no-zoom
+#+end_gallery
+
+I must say---I'm proud this year as I have finally made it into the 1%. Only in
+the context of spotify wrapped, though. And this was teh most surprising
+revelation to me---I somehow made it into /Pillows'/ top percent of listeners. But
+they are such an iconic group, there totally have to be a lot more /Pillows/ heads
+out there than me. But oh well---it is backed up *math*, so I'll trust it. This
+year, they also showed the top town and place in the world that resembles your
+taste---unsurprisingly enough, /Tokyo/.
+
+#+begin_gallery :path pics :num 3
+- [[artist.jpeg][thankssss]] :no-zoom
+- [[place.jpeg][very unsurprising]] :no-zoom
+- [[top_1.jpeg][i am the one percent]] :no-zoom
+#+end_gallery
+
+Or maybe the top artists breakdown by months? January was a good month, though I
+could not tell you what I was up to then...
+
+#+begin_gallery :path pics :num 5
+- [[month_1.jpeg][i love flcl]] :no-zoom
+- [[month_2.jpeg][helltakerrr babbyyyy]] :no-zoom
+- [[month_3.jpeg][ITS NOT A GAME]] :no-zoom
+- [[month_4.jpeg][more persona artists?!?!]] :no-zoom
+- [[month_5.jpeg][persona 4 is life]] :no-zoom        
+#+end_gallery
+
+Let's finish it up with some honorable mentions, which is summarizing my
+type---of who I am; that's pretty straightforward. I'm a big binge listener on
+repeat that is somehow always focused around anime-adjacent song genres. Welp,
+that's enough of me!\
+See you later 🫦 (non-seducing)
+
+#+begin_gallery :path pics :num 3
+- [[genres.jpeg][anime is a genre, okay]] :no-zoom
+- [[total.jpeg][this is me]] :no-zoom
+- [[type.jpeg][loop loop loop]] :no-zoom
+#+end_gallery
