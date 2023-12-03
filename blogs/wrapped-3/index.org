@@ -1,4 +1,5 @@
 #+options: preview-width:1920 preview-height:1097
+#+html_head: <link rel="stylesheet" type="text/css" href="index.css">
 * My Spotify Wrapped for 2023 🗼
 
 336; 12023 H.E.
