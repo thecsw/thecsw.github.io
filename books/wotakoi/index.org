@@ -1,0 +1,4 @@
+#+html_head: <script async src="wotakoi.js"></script>
+#+html_head: <link rel="stylesheet" type="text/css" href="wotakoi.css">
+* WOTAKOI 🩷
+
