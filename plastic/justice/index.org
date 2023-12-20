@@ -1,4 +1,5 @@
 #+preview:preview.jpg
+#+html_head: <link rel="stylesheet" type="text/css" href="justice.css">
 #+date: 353; 12023 H.E.
 * Justice 🥖
 
