@@ -31,7 +31,10 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┬───────────────────┐
+ ┌────────────────────┐
+ │      Dr.STONE:     │
+ │  NEW WORLD Part 2  │
+ ├────────────────────┼───────────────────┐
  │      The Boy       │ Millennium Actress│
  │   and the Heron    ├───────────────────┤
  ├────────────────────┤    Perfect Blue   │
