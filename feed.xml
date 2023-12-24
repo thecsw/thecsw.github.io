@@ -3,7 +3,7 @@
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <pubDate>Tue, 19 Dec 2023 00:00:00 UTC</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 21:43:55 UTC</lastBuildDate>
+    <lastBuildDate>Sun, 24 Dec 2023 00:16:49 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -677,7 +677,7 @@
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/pprof</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Profiling should be friend ⛹️‍♀️</title>
+      <title>Profiling should be ur friend ⛹️‍♀️</title>
       <link>https://sandyuraz.com/blogs/pprof</link>
       <description>If you write a program with everything you’ve got, you will never be able to debug or maintain it, as the latter takes 10x amount of time and effort to put yourself through. One of the big parts of maintaining any application is optimizing its resource usage and how fast it can go to a reasonab... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
