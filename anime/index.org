@@ -31,7 +31,10 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┬───────────────────┐
+ ┌────────────────────┐
+ │   Zom 100: Bucket  │
+ │  List of the Dead  │
+ ├────────────────────┼───────────────────┐
  │      Dr.STONE:     │   Scott Pilgrim   │
  │  NEW WORLD Part 2  │     Takes Off     │
  ├────────────────────┼───────────────────┤
