@@ -1,0 +1,26 @@
+#+date: 360; 12023 H.E.
+#+options: preview:preview.jpg preview-height:1000 preview-width:1317
+* Komi 🍡
+
+Humanity as a whole has not been able to produce anything of higher quality than
+/Komi Can't Communicate/. This is a statement that I have made [[https://sandyuraz.com/anime/komi/][before]], and [[https://sandyuraz.com/blogs/komi/][again]],
+and [[https://sandyuraz.com/projects/komi/][once more]] for a good measure.
+
+#+begin_center
+Komi, *I live for Najimi ❤️‍🔥*, and Chadano
+#+end_center
+
+---magnum opus of character writing.
+
+#+begin_gallery
+- [[https://photos.sandyuraz.com/kNe][Excited Komi with cat ears and big eyes]] :flex 40 :no-zoom
+- [[https://photos.sandyuraz.com/igT][Blushing Komi holding her notebook with them bedroom (?) eyes]] :flex 40 :no-zoom
+#+end_gallery
+
+I've been playing with [[https://halide.cam/][Halide]], which allows me to export RAW pictures out of my
+phone's camera. After that, I can develop those pictures using [[https://www.darktable.org/][Darktable]] and the
+amount of control you get with the original camera dumps are [[https://www.lux.camera/iphone-13-pro-camera-app-intelligent-photography/][so cool]].
+
+#+begin_gallery
+- [[https://photos.sandyuraz.com/Vyl][Stoic Komi holding her school bag in front of my komi manga collection]] :flex 90 :no-zoom
+#+end_gallery
