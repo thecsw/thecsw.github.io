@@ -12,6 +12,7 @@ glass.'' -- Anton Chekhov
 #+end_export
 
 #+begin_gallery
+- [[https://photos.sandyuraz.com/cea][Komi 🍡]] [[komi][<-- komi]]
 - [[https://photos.sandyuraz.com/Oqt][Justice 🥖]] [[justice][<-- justice]]
 - [[https://photos.sandyuraz.com/SFn][Lucifer 😈]] [[lucifer][<-- lucifer]]
 - [[https://photos.sandyuraz.com/hnG][Houshou Marine "Ahoy! 🏴‍☠️"]] [[senchou][<-- senchou]]
