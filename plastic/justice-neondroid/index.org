@@ -1,0 +1,26 @@
+#+date: 361; 12023 H.E.
+#+options: preview:preview.jpg preview-height:1000 preview-width:1317
+#+html_head: <link rel="stylesheet" type="text/css" href="justice.css">
+
+# update the theme color for phones and fancy browsers
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+* Justice Neondroid 🥃
+
+Trying out to play with processing [[https://sandyuraz.com/plastic/komi/][RAW]] under harsher lighting.
+
+#+begin_center
+all for [[https://sandyuraz.com/plastic/justice/][my girl]]
+#+end_center
+
+#+begin_gallery
+- [[https://photos.sandyuraz.com/QeV][I glass of Hennessy before bed makes me sleep very well]] :flex 30 :no-zoom
+- [[https://photos.sandyuraz.com/zSH][So, what are you looking for? Justice looking down very cooly]] :flex 35 :no-zoom
+- [[https://photos.sandyuraz.com/Tun][Justice has as good of a taste in scotch as I do]] :flex 30 :no-zoom
+#+end_gallery
+
+Man... I could only wish to be an iota of a spirit that Justice is.
+
+#+begin_gallery
+- [[https://photos.sandyuraz.com/WtS][Wide shot of Justice looking VERY VERY cool (i could only wish)]] :flex 95 :no-zoom
+#+end_gallery
