@@ -2,7 +2,7 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="wotakoi.css">
 #+options: tomb:nil preview:preview.jpeg preview-width:1333 preview-height:1000
 #+date: 364; 12023 H.E.
-* WOTAKOI
+* WOTAKOI 💜
 
 /Wotakoi/ is near and dear to my heart. It was somewhere around the start of the
 end of 2022, must have been early December. I got so sick that I'll take calling
