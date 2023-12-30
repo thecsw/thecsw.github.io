@@ -89,3 +89,7 @@
                 letter-spacing: -0.5rem;
         }
 }
+
+.gallery {
+    filter: drop-shadow(2px 2px 3px gray);
+}
