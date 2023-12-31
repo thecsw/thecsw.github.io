@@ -1,0 +1,22 @@
+#+html_head: <link rel="stylesheet" type="text/css" href="drama.css">
+#+html_head: <script async src="drama.js"></script>
+* That's drama.
+
+Thank you, [[https://youtu.be/HTcK0O1qdAc][Alfred Hitchcock]]. Welcome to a collection of selected thoughts---they
+can be /very/ long or /very/ short. It only means that there was something left
+unsaid, which I wanted to fill.
+
+I like what Martin Scorsese once said,
+
+#+begin_quote
+Take myself too s---\
+The word is ``seriously,'' I guess.\
+But you know, the damn thing is\
+*You gotta be serious about making a picture.*
+#+end_quote
+
+The design here is of course inspired to [[https://www.criterion.com/shop/browse/list?sort=spine_number][Criterion's webpage]].
+
+| № |        | Title          | Director       | Country | Year |
+|---+--------+----------------+----------------+---------+------|
+| 1 | [[file:high-and-low/poster.jpg][poster]] | [[high-and-low][*High and Low*]] | Akira Kurosawa | Japan   | 1963 |
