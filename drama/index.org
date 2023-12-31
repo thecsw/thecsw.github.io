@@ -20,6 +20,8 @@ But you know, the damn thing is\
 
 The design here is of course inspired by [[https://www.criterion.com/shop/browse/list?sort=spine_number][Criterion]].
 
-| № |        | Title          | Director       | Country | Year |
-|---+--------+----------------+----------------+---------+------|
-| 1 | [[file:high-and-low/poster.jpg][poster]] | [[high-and-low][*High and Low*]] | Akira Kurosawa | Japan   | 1963 |
+| № |        | Title                     | Director         | Country      | Year |
+|---+--------+---------------------------+------------------+--------------+------|
+| 1 | [[file:high-and-low/poster.jpg][poster]] | [[high-and-low][*High and Low*]]            | Akira Kurosawa   | Japan        | 1963  |
+| 2 | [[file:solaris/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/solaris/][*Solaris*]]                 | Andrei Tarkovsky | Soviet Union | 1972 |
+| 3 | [[file:man-with-a-movie-camera/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/cameraman/][*Man with a Movie Camera*]] | Dziga Vertov     | Soviet Union | 1929 |
