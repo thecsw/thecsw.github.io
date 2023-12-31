@@ -81,11 +81,16 @@ Let’s say you bought your domain <code>myname.com</code>. First thing to do, g
 
 <div class="media" >
 <div class="title centered">This is how records should look like</div>
-<table><tr>
+<table>
+<thead>
+<tr>
 <th>Name</th>
 <th>Type</th>
 <th>TTL</th>
-<th>Data</th></tr>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><code>@</code></td>
 <td><code>A</code></td>
@@ -110,7 +115,9 @@ Let’s say you bought your domain <code>myname.com</code>. First thing to do, g
 <td><code>www</code></td>
 <td><code>CNAME</code></td>
 <td><code>1h</code></td>
-<td><code>myname.github.io.</code></td></tr></table>
+<td><code>myname.github.io.</code></td></tr>
+</tbody>
+</table>
 </div><div class="writing">
 
 <div class="paragraph">
