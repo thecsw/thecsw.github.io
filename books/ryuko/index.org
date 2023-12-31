@@ -23,7 +23,7 @@ in-depth into why this might be one of my all-time favorite crime fiction
 stories (and stylish mangas), I have to say,
 
 #+begin_center
-*It is violently brilliant.*
+/*It is violently brilliant.*/
 #+end_center
 
 #+begin_gallery :num 1
