@@ -79,9 +79,9 @@ tbody tr td:first-child {
                 word-break: break-all;
         }
 
-        tbody > tr > td > #title {
-                line-height: 2.6rem;
-        }
+        /* tbody > tr > td > #title { */
+        /*         line-height: 2.6rem; */
+        /* } */
 
         tbody > tr > td > #country {
                 color: dimgray;
