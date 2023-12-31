@@ -1098,6 +1098,7 @@ kbd {
         top: 0.6rem;
 }
 
+.movie-poster,
 .book-cover {
         position: absolute;
         width: 10rem;

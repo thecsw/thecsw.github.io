@@ -1,0 +1,22 @@
+#+options: preview-generate:t
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+date: 365; 12023 H.E.
+* High and Low
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+I'm lost for words. The supreme summit of filmmaking and taking the creation of
+art as one of the most serious embarks on can do.
+
+There is nothing left to say. For the overwhelming majority of cases, we really
+lost the sense of how to create something like High and Low; the audiences might
+have forgotten how to watch it.
+
+Phenomenal. I never use this word, as using it many times cheapens its
+value. Nonetheless. Phenomenal.
+
+-----
+
+*Highly* recommend seeing [[https://www.criterionchannel.com/videos/high-and-low-commentary][Stephen Prince's Commentary]].
