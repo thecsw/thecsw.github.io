@@ -18,7 +18,7 @@ But you know, the damn thing is\
 *You gotta be serious about making a picture.*
 #+end_quote
 
-The design here is of course inspired to [[https://www.criterion.com/shop/browse/list?sort=spine_number][Criterion's webpage]].
+The design here is of course inspired by [[https://www.criterion.com/shop/browse/list?sort=spine_number][Criterion]].
 
 | № |        | Title          | Director       | Country | Year |
 |---+--------+----------------+----------------+---------+------|
