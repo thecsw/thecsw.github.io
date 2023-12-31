@@ -1,5 +1,7 @@
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
 #+html_head: <link rel="stylesheet" type="text/css" href="drama.css">
 #+html_head: <script async src="drama.js"></script>
+#+options: tomb:nil
 * That's drama.
 
 Thank you, [[https://youtu.be/HTcK0O1qdAc][Alfred Hitchcock]]. Welcome to a collection of selected thoughts---they
