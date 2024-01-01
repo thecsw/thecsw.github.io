@@ -3,10 +3,12 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
 #+options: preview-generate:t
 #+date: 364; 12023 H.E.
-* Template
+* Perfect Blue
 
 #+begin_export html
 <img class="image movie-poster" src="poster.jpg">
 #+end_export
 
-Lorem ipsum
+Brilliant. What an insight into not only Japanese, but overabundant
+consumer-based and generally pre-occupied contemporary societies. Satoshi Kon
+was a visionary.
