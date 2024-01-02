@@ -1,0 +1,31 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t
+
+* The Last Seduction
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Quintessential erotic neo-noir of the 90s. Harrowing and
+can’t-look-away-op-let-me-rewind-that-scene-once-again-to-see-her performance by
+Linda Fiorentino.
+
+I think I’ve only seen her in men in black before this—shame to have her
+disappear without much trace left of what more could have been possible.
+
+Stunning. Seductive. Dangerous. What a character. One of the few depictions of
+femme fatales that got me crawling under my skin; at the same time, like a good
+Beston boy—root for her in a way that if she told you to jump off a cliff—you
+would.
+
+Since this is the erotic 90s, which they don’t make anything like it anymore—I
+wondered to myself, what if bad-to-the-bone Bridget had an equally cunning,
+chilling and ``anybody check you for a heartbeat lately?'' counterpart played by
+James Spader? woah.
+
+Severely underrated and Linda Fiorentino’s role is something I cannot
+forget. The woman with the sex appeal, charm, and charisma—men wouldn’t even
+realize the illegal things they’ve already committed to keep her in their lives.
