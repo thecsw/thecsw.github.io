@@ -29,3 +29,5 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 5 | [[file:perfect-blue/poster.jpg][poster]] | [[perfect-blue][*Perfect Blue*]]             | Satoshi Kon       | Japan         | 1997 |
 | 6 | [[file:sex-lies-videotape/poster.jpg][poster]] | [[sex-lies-videotape][*sex, lies, and videotape*]] | Steven Soderbergh | United States | 1989 |
 | 7 | [[file:millennium-actress/poster.jpg][poster]] | [[millennium-actress][*Millennium Actress*]]       | Satoshi Kon       | Japan         | 2001 |
+| 8 | [[file:the-last-seduction/poster.jpg][poster]] | [[the-last-seduction][*The Last Seduction*]]       | John Dahl         | United States | 1994 |
+
