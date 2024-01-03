@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 343; 12023 H.E.
 * The Tao of Pooh 🐻
 
 #+begin_export html

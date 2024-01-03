@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 362; 12023 H.E.
 * Chainsaw Man: Buddy Stories 🕵️‍♀️
 
 #+begin_export html

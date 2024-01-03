@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 350; 12023 H.E.
 * The Gods Themselves ☄️
 
 #+begin_export html
