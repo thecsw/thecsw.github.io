@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 361; 12023 H.E.
 * Chainsaw Man 🪚
 
 #+begin_export html

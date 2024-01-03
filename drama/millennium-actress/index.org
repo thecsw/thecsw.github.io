@@ -1,7 +1,7 @@
 #+options: exclude-html-head:property="theme-color"
 #+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
 #+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Film)xb
 #+date: 1; 12024 H.E.
 * Millenium Actress
 

@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 354; 12023 H.E.
 * Dead Souls 🐴
 
 #+begin_export html

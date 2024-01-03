@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 364; 12023 H.E.
 * 22-26: Tatsuki Fujimoto 🌊
 
 #+begin_export html

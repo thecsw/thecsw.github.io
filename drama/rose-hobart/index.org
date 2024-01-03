@@ -1,0 +1,62 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 2; 12024 H.E.
+* Rose Hobart
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+I was talking to [[https://letterboxd.com/tryavna/][Quiller]] on [[https://letterboxd.com/tryavna/film/rose-hobart/][Letterboxd]] and the closing thoughts of his review,
+
+#+begin_quote
+Ultimately, then, it’s a surrealist’s assertion that the process of watching and
+finding meaning in movies is akin to the process of dreaming and interpreting
+those dreams. It’s a one-of-kind masterpiece.
+#+end_quote
+
+Stuck with me and I’ve been thinking about it for a while. I first watched Rose
+Hobart in college for my film class—being of that age, it connected to me, but I
+was not able to articulate of what it meant.
+
+Yet somehow, I religiously watch it every half a year or so, and as you put—I
+would even say, it’s an intimate relationship that’s being built between the
+audience member and the work itself.
+
+/Rose Hobart/ is the love of montage (thanks, Eisenstein and [[../man-with-a-movie-camera][Vertov]]), the love of
+a movie star, more of a muse (Cornell was harmless, it was more of an adoration,
+_not_ the kind Satoshi Kon depicted in [[../perfect-blue][Perfect Blue]], heh), and the love of his own
+vision.
+
+Something many artists and filmmakers struggle with—how do you hear and
+understand your inner-self to the point of articulating it? David Lynch may be
+one of the most prominent speakers on this.
+
+Watching /Rose Hobart/ for the first time, just blindly without any background
+would be a bit tough. I wouldn't even blame anyone for clicking away after the
+first couple of seconds in stupor and confusion of what they just saw.
+
+Exactly—it's one of those works that don't over-chew the food before feeding
+you, leaving you enough space and room to breathe and make up your mind,
+whatever it may be. So many films nowadays leave you with nothing left to
+say—*not* because they were ``breathtaking'' or ``speechless'' in any good way, but
+simply, ``it exhausted itself.''
+
+Of course, it's not about the length either. You can have a very very long work,
+think of /War and Peace/ by Tolstoy and [[https://sandyuraz.com/blogs/bk/][/Brothers Karamazov/]] by Dostoevsky—they
+say A LOT, but there is much more left to be said and articulated by the reader
+himself. /Rose Hobart/ is similar. It says so little, because it doesn't have
+you. You come to it yourself.
+
+There is a sense of pleasure and satisfaction to be derived from learning how to
+enjoy these ``original'' kinds of works. Not in any elitist or "who knows, knows"
+way—but very much of really, training your perception. Joseph Cornell was
+himself a part of a big underground film scene, so the elitist tendencies that
+some might find in people enjoying these ``obscure'' works are truly
+unfounded. Maybe only founded in the lack of context and true interest.
+
+The coolest thing is that you can go and watch /Rose Hobart/ straight on YouTube,
+
+[[https://youtu.be/pQxtZlQlTDA][Rose Hobart]]

@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 345; 12023 H.E.
 * Foundation Series 🚀
 
 #+begin_export html

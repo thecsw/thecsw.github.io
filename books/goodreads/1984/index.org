@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 340; 12023 H.E.
 * 1984 👁️
 
 #+begin_export html

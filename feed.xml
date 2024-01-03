@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Mon, 01 Jan 2024 00:00:00 UTC</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 01:54:12 UTC</lastBuildDate>
+    <pubDate>Tue, 02 Jan 2024 00:00:00 UTC</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 04:28:05 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -15,9 +15,31 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/rose-hobart</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Rose Hobart</title>
+      <link>https://sandyuraz.com/drama/rose-hobart</link>
+      <description>I was talking to Quiller on Letterboxd and the closing thoughts of h... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/the-last-seduction</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) The Last Seduction</title>
+      <link>https://sandyuraz.com/drama/the-last-seduction</link>
+      <description>Quintessential erotic neo-noir of the 90s. Harrowing and can’t-look-away-op-let-me-rewind-that-scene-once-again-to-see-her performance by Linda F... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/drama/millennium-actress</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Millenium Actress</title>
+      <title>(Film)xb Millenium Actress</title>
       <link>https://sandyuraz.com/drama/millennium-actress</link>
       <description>films are more real than life itself or as someone told me once, “those who wander, realize it is in itself ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
@@ -28,18 +50,40 @@
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>sex, lies, and videotape</title>
+      <title>(Film) sex, lies, and videotape</title>
       <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
       <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 01 Jan 2024 00:00:00 UTC</pubDate>
     </item>
     <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Delicious in Dungeon 🥩</title>
+      <link>https://sandyuraz.com/books/goodreads/delicious-in-dungeon</link>
+      <description>Brings out the charm of more vintage RPGs and food wars style preparations of monster ingredients. Superb art style! I enjoyed reading the first volume, even though dungeon-crawling and fantasy settings are unfortunately not my preferred genre. Still, I would be interested to know how it goes, especially since TRIGGER is coming out with the anime adaptation of it pretty soon. I’ll try to stay up to date, maybe buy the manga, and read it when the time... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/high-and-low</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) High and Low</title>
+      <link>https://sandyuraz.com/drama/high-and-low</link>
+      <description>I’m lost for words. The supreme summit of filmmaking and taking the creation of art as one of the most serious embarks ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/drama/bullet-train</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Bullet Train</title>
+      <title>(Film) Bullet Train</title>
       <link>https://sandyuraz.com/drama/bullet-train</link>
       <description>john wick + lmf... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
@@ -48,11 +92,11 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/high-and-low</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/perfect-blue</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>High and Low</title>
-      <link>https://sandyuraz.com/drama/high-and-low</link>
-      <description>I’m lost for words. The supreme summit of filmmaking and taking the creation of art as one of the most serious embarks ... [ Continue reading... ]</description>
+      <title>(Film) Perfect Blue</title>
+      <link>https://sandyuraz.com/drama/perfect-blue</link>
+      <description>Brilliant. What an insight into not only Japanese, but overabundant consumer-based and generally pre-occupied contemporary societies. Satoshi Kon was a ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 00:00:00 UTC</pubDate>
     </item>
@@ -68,15 +112,37 @@
       <pubDate>Sat, 30 Dec 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/perfect-blue</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/fujimoto-22-26</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Perfect Blue</title>
-      <link>https://sandyuraz.com/drama/perfect-blue</link>
-      <description>Brilliant. What an insight into not only Japanese, but overabundant consumer-based and generally pre-occupied contemporary societies. Satoshi Kon was a ... [ Continue reading... ]</description>
+      <title>(Goodreads) 22-26: Tatsuki Fujimoto 🌊</title>
+      <link>https://sandyuraz.com/books/goodreads/fujimoto-22-26</link>
+      <description>I think I enjoyed this collection of stories a bit more than his selection from 17-21: Tatsuki Fujimoto, especially Nayuta of the Prophecy, where Nayuta is probably one my favorite characters that Fujimoto has come up with. The core themes felt to hit close home with family relationships and how we come to understand each other as relatives, brothers, sisters, and l... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/fujimoto-17-21</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) 17-21: Tatsuki Fujimoto 🌚</title>
+      <link>https://sandyuraz.com/books/goodreads/fujimoto-17-21</link>
+      <description>Those earlier stories are a bit rough around the edges—a sign of a growing author, who already secured his very own style of what many would call bizarre and even insane. This is a good read to familiarize yourself with Fujimoto’s early stories and inspiration for la... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/csm-buddy-stories</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Chainsaw Man: Buddy Stories 🕵️‍♀️</title>
+      <link>https://sandyuraz.com/books/goodreads/csm-buddy-stories</link>
+      <description>A nice stroll around the world of Chainsaw Man before Chainsaw Man. It was enjoyable to interact with already-known to us characters in a light novel form. Lo... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
@@ -86,6 +152,17 @@
       <title>Justice Neondroid 🥃</title>
       <link>https://sandyuraz.com/plastic/justice-neondroid</link>
       <description>Trying out to play with processing RAW under harsher... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/csm</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Chainsaw Man 🪚</title>
+      <link>https://sandyuraz.com/books/goodreads/csm</link>
+      <description>It was the July 30th, 2023. I adored the anime adaptation of Chainsaw Man and on an impulse, bought all available 11 volumes in English. The week at work was exhausting, so I was happy to have this gloomy and melancholic late evening all ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 27 Dec 2023 00:00:00 UTC</pubDate>
     </item>
@@ -101,6 +178,94 @@
       <pubDate>Tue, 26 Dec 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/sayonara-eri</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Sayonara Eri 📱</title>
+      <link>https://sandyuraz.com/books/goodreads/sayonara-eri</link>
+      <description>Art is the way to remember one’s subjectiv... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/omniscient-reader</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Omniscient Reader’s Viewpoint 📄</title>
+      <link>https://sandyuraz.com/books/goodreads/omniscient-reader</link>
+      <description>Second hardest drug I’ve e... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/abroad-in-japan</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Abroad in Japan 🇯🇵</title>
+      <link>https://sandyuraz.com/books/goodreads/abroad-in-japan</link>
+      <description>Pulls you in with sharp and witty writing, which feels just like Chris Broad from Abroad in Japan (haha). Atmospheric and personal. Loved the &#34;behind-the-curtains&#34; behind some of his big works he published throughout ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/zvezda</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) The Star with No Name ⭐️</title>
+      <link>https://sandyuraz.com/books/goodreads/zvezda</link>
+      <description>After seeing the Soviet adaptation of the play, directed by Mikhail Kozakov (playing Grig), and starring Anastasiya Vertinskaya (Mona) and Igor Kostolevsky (Marin Miroiu)—I decided to write a comparative analysis between the play and the picture for my graduate level f... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 23 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/year-zero</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Year Zero 👽</title>
+      <link>https://sandyuraz.com/books/goodreads/year-zero</link>
+      <description>It was a fun and an enjoyable read, for what it promised with its premise and what I got with my expectations of modern science fiction—it was good! It’s a nice light read and it does w... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Fri, 22 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/bk</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Brothers Karamazov 🍞</title>
+      <link>https://sandyuraz.com/books/goodreads/bk</link>
+      <description>Because I have spoken to them so much about Brothers Karamazov and Dostoevsky, I have definitely given all my close friends some sort of a trauma and a trigger that comes for free with it. There is so much to say that if I start, this time—it might never end. So, in what I ca... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/dead-souls</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Dead Souls 🐴</title>
+      <link>https://sandyuraz.com/books/goodreads/dead-souls</link>
+      <description>I cried laughing from beginning till the bitter end. No one is sharper with satire than Gogol. However, unfortunately, he does lack the ability to write philosophy—the digressions and pondering onto the Russian soul and the state of affairs of the nation do fall flat and get unbelievably boring, especially when they are sandwiched between what no one can even come close to replicating—Gogol... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/onegin</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Eugene Onegin 🔫</title>
+      <link>https://sandyuraz.com/books/goodreads/onegin</link>
+      <description>Encyclopedi... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/justice</guid>
@@ -110,6 +275,182 @@
       <description>Remember how I talked on and on about my absolute love for Helltaker? Justice is my everything. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 19 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/beowulf</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Beowulf ⛓️</title>
+      <link>https://sandyuraz.com/books/goodreads/beowulf</link>
+      <description>Any modern action movie, epic tales, anything really, can and will be tied back to Beowulf. It’s a bit of a tougher read, as contemporary readers—we aren’t used to tens and hundreds of pages worth of digressions into someone’s family trees and ballads of their greatness, when they’re simply being introduced at a din... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/overcoat</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) The Overcoat 🧥</title>
+      <link>https://sandyuraz.com/books/goodreads/overcoat</link>
+      <description>I mean... This is The Overcoat. As Dostoevsky put it, &#34;we all come from under Gogol’s The Overcoat,&#34; such as the entirety of Russian Literature can be deconstructed through Akaky A... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/the-gods-themselves</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) The Gods Themselves ☄️</title>
+      <link>https://sandyuraz.com/books/goodreads/the-gods-themselves</link>
+      <description>I love science fiction. Unfortunately, many of contemporary sci-fi works focus too heavily on some other-worldly tech, massive star energy collectors, colossal ships, etc. The science fiction that I grew up with, as in the works of Isaac Asimov, Alexander Belyaev, Stanislaw Lem, etc., which all primarily focused on people and treated science as a sociological... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/candide</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Candide 🐑</title>
+      <link>https://sandyuraz.com/books/goodreads/candide</link>
+      <description>I always like to say that Candide was centuries ahead of his time and this fact hasn’t changed even today. We aren’t ready yet, for the wit and sharpness of mind, to which Voltaire presents the absurdity of human condition. It is in fact, so tragic and irredeemably non-sensical that we can’t do anything in our right minds but to laugh and see it all as a comedy. Truly, &#34;God is a comedian playing to an audience too afraid... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/foundation-earth</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Foundation and Earth 🌏</title>
+      <link>https://sandyuraz.com/books/goodreads/foundation-earth</link>
+      <description>This is a weaker installment compared to previous foundations, especially the original trilogy. However, I will preface that I am biased towards this sequel part, primarily because I read it as one of my close companions during the very first days of covid, when everything around was shutting itself off from the world. ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/foundations-edge</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Foundation’s Edge 🦾</title>
+      <link>https://sandyuraz.com/books/goodreads/foundations-edge</link>
+      <description>I must confess—I don’t remember specifically the middle point between this and Foundation and Earth, but Asimov’s writing is always what I like to call, &#34;the perfect English.&#34; And this is a great companion to the original Foundation trilogy, as every civilization is doomed for the similar fate. If the history doesn’t repeat itself, it definite... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/prince-of-milk</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) The Prince of Milk 🥛</title>
+      <link>https://sandyuraz.com/books/goodreads/prince-of-milk</link>
+      <description>Similar to the Fifth Science, picked this one up as I was going through Exurb1a’s repertoire. Solid modern sci-fi with reincarnations, classic Exurb1a-ridden themes of existentialism, absurdism, all with a nice scenery of a relative quiet (weird) English co... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/foundation</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Foundation Series 🚀</title>
+      <link>https://sandyuraz.com/books/goodreads/foundation</link>
+      <description>One of my all-time favorites of science fiction and in all. Young Asimov’s novel technologically doesn’t hold up with the times, such as still using coal for rockets and no computers; yet it doesn’t have to. It is a detailed study of sociology and how people interact with each other. The focus is on the human aspect rather than shiny technical aspects, which many contemporary authors prioritize over the human touch. Beautiful! Early Asimov in a... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/fifth-science</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) The Fifth Science 🪐</title>
+      <link>https://sandyuraz.com/books/goodreads/fifth-science</link>
+      <description>I have fond memories reading this collection of stories somewhere around the Summer of 2020. It’s a solid list, one of the stories with the galactic empire’s and humanity’s downfall struck a cord somewher... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/pooh</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) The Tao of Pooh 🐻</title>
+      <link>https://sandyuraz.com/books/goodreads/pooh</link>
+      <description>It was my college sophomore year—I took a semester with really hard classes and found myself straight up in a not a good place. Doubted my every decisions, and doubts weren’t of the good kind, where you have the opportunity to reinforce your beliefs and become stronger—this was the debilitating kind of... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/dolls-house</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) A Doll’s House 🕰️</title>
+      <link>https://sandyuraz.com/books/goodreads/dolls-house</link>
+      <description>Something glorious is going ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/one-hundred-years-of-solitude</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) One Hundred Years of Solitude 🌿</title>
+      <link>https://sandyuraz.com/books/goodreads/one-hundred-years-of-solitude</link>
+      <description>One Hundred Years of Torture reading ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/1984</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) 1984 👁️</title>
+      <link>https://sandyuraz.com/books/goodreads/1984</link>
+      <description>Cartoonish levels of depicting oppressive governments with very little to no foresight and imagination to come up with something that has more meat to the matter, rooted deeper into a future that might be, all ending up reading as Orwell’s personal gripe with ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/kowloon</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Kowloon Generic Romance 🍉</title>
+      <link>https://sandyuraz.com/books/goodreads/kowloon</link>
+      <description>Melancholic, Gloomy, Yet Incredibly C... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/komi</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Komi Can’t Communicate ❤️</title>
+      <link>https://sandyuraz.com/books/goodreads/komi</link>
+      <description>I am biased towards this series, as it gave me support and warmth in times when I needed one the most. Impulsively buying the first 14-15 volumes at once from B&amp;N, bedridden a while later, Komi and friends were my trusty companions, with whom I shared time, which is so near and d... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/solo-leveling</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Solo Leveling 🔪</title>
+      <link>https://sandyuraz.com/books/goodreads/solo-leveling</link>
+      <description>Hardest drug I’ve e... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
@@ -334,22 +675,22 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/joker-neondroid</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika-neondroid</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Joker Neondroid ☕️</title>
-      <link>https://sandyuraz.com/plastic/joker-neondroid</link>
-      <description>My last year at college was the most grueling part of my life. Taking 21 credit hours, three majors, two jobs, not going to Ph.D. or graduate school in favor of going into corporate – it all weighs in on you. No one tells you this. One of the things that gave me immense comfort and an out was Joseph Anderson’s Persona 5 streams. I would watch them while falling asleep, working my jobs, and doing regular homework. A calming voice that was always there. It gave me peace. Very parasocial. ... [ Continue reading... ]</description>
+      <title>Ichika Neondroid 🕶️</title>
+      <link>https://sandyuraz.com/plastic/ichika-neondroid</link>
+      <description>Ichika looks so cute in her glasses! Mwah. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Thu, 05 Jan 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika-neondroid</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/joker-neondroid</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Ichika Neondroid 🕶️</title>
-      <link>https://sandyuraz.com/plastic/ichika-neondroid</link>
-      <description>Ichika looks so cute in her glasses! Mwah. ... [ Continue reading... ]</description>
+      <title>Joker Neondroid ☕️</title>
+      <link>https://sandyuraz.com/plastic/joker-neondroid</link>
+      <description>My last year at college was the most grueling part of my life. Taking 21 credit hours, three majors, two jobs, not going to Ph.D. or graduate school in favor of going into corporate – it all weighs in on you. No one tells you this. One of the things that gave me immense comfort and an out was Joseph Anderson’s Persona 5 streams. I would watch them while falling asleep, working my jobs, and doing regular homework. A calming voice that was always there. It gave me peace. Very parasocial. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Thu, 05 Jan 2023 00:00:00 UTC</pubDate>
     </item>
@@ -378,28 +719,6 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Darkness 🧤</title>
-      <link>https://sandyuraz.com/plastic/darkness-winter</link>
-      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Ichika 👜</title>
-      <link>https://sandyuraz.com/plastic/ichika</link>
-      <description>Ichika doesn’t need many angles to capture her beauty – she already i... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-ram</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Winter Ram 🧣</title>
@@ -411,11 +730,33 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Winter Darkness 🧤</title>
+      <link>https://sandyuraz.com/plastic/darkness-winter</link>
+      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-aqua</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Winter Aqua 🍶</title>
       <link>https://sandyuraz.com/plastic/winter-aqua</link>
       <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable – like at all. Sure, she is usually more trouble than she’s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Ichika 👜</title>
+      <link>https://sandyuraz.com/plastic/ichika</link>
+      <description>Ichika doesn’t need many angles to capture her beauty – she already i... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 00:00:00 UTC</pubDate>
     </item>
@@ -530,6 +871,17 @@
       <pubDate>Tue, 28 Jun 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/darkness</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>I love Darkness 🥬</title>
+      <link>https://sandyuraz.com/blogs/darkness</link>
+      <description>It doesn’t feel right anymore. Every time I write something for my website, I feel that I have to dance to the tune of pandoc and asciidoctor. Maybe the Ruby and Haskell Gods will take pity on me and my stuff will render as I want them to. Oh... they didn’t? Time to write a new sed script to... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 24 May 2022 00:00:00 UTC</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/writings">I write 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
@@ -552,17 +904,6 @@
       <pubDate>Tue, 24 May 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/darkness</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>I love Darkness 🥬</title>
-      <link>https://sandyuraz.com/blogs/darkness</link>
-      <description>It doesn’t feel right anymore. Every time I write something for my website, I feel that I have to dance to the tune of pandoc and asciidoctor. Maybe the Ruby and Haskell Gods will take pity on me and my stuff will render as I want them to. Oh... they didn’t? Time to write a new sed script to... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Tue, 24 May 2022 00:00:00 UTC</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/writings">I write 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/writings/ideal_love</guid>
@@ -576,22 +917,22 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/naked</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/deterrence</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The awkward moment of me being naked at a conference</title>
-      <link>https://sandyuraz.com/stories/naked</link>
-      <description>I can’t be late. I can’t be late. I cannot be late. Donald Knuth himself is coming to the presentation tonight; I want to see him and all the other special guests we are having. Jame and Ethan should already be there. Hopefully it doesn’t start... [ Continue reading... ]</description>
+      <title>What are leader’s ethics on nuclear deterrence?</title>
+      <link>https://sandyuraz.com/stories/deterrence</link>
+      <description>My assistant came running to me, looking all disturbed and worried. I wonder what could have gotten... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 03 May 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/deterrence</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/naked</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>What are leader’s ethics on nuclear deterrence?</title>
-      <link>https://sandyuraz.com/stories/deterrence</link>
-      <description>My assistant came running to me, looking all disturbed and worried. I wonder what could have gotten... [ Continue reading... ]</description>
+      <title>The awkward moment of me being naked at a conference</title>
+      <link>https://sandyuraz.com/stories/naked</link>
+      <description>I can’t be late. I can’t be late. I cannot be late. Donald Knuth himself is coming to the presentation tonight; I want to see him and all the other special guests we are having. Jame and Ethan should already be there. Hopefully it doesn’t start... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 03 May 2022 00:00:00 UTC</pubDate>
     </item>
@@ -664,11 +1005,11 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>WebP is such a goated format 🫐</title>
-      <link>https://sandyuraz.com/blogs/webp</link>
-      <description>Update: hi, this page got a little traction on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, AVIF (69.25%) and JPEG XL (0%) are not as nearly adopted as WebP is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released a... [ Continue reading... ]</description>
+      <title>What do I look like 🤳</title>
+      <link>https://sandyuraz.com/blogs/looks</link>
+      <description>I never intended for my website or persona on the internet to be hidden or anonymized. The online appearance I keep is pretty mainstream, yet predominantly isolated to sandyuraz.com. I have my real pictures scattered around from different platforms I used to have; allow me to share some... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
     </item>
@@ -686,11 +1027,11 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>What do I look like 🤳</title>
-      <link>https://sandyuraz.com/blogs/looks</link>
-      <description>I never intended for my website or persona on the internet to be hidden or anonymized. The online appearance I keep is pretty mainstream, yet predominantly isolated to sandyuraz.com. I have my real pictures scattered around from different platforms I used to have; allow me to share some... [ Continue reading... ]</description>
+      <title>WebP is such a goated format 🫐</title>
+      <link>https://sandyuraz.com/blogs/webp</link>
+      <description>Update: hi, this page got a little traction on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, AVIF (69.25%) and JPEG XL (0%) are not as nearly adopted as WebP is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released a... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 00:00:00 UTC</pubDate>
     </item>
@@ -783,17 +1124,6 @@
       <pubDate>Tue, 15 Mar 2022 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/friend2</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>We were once friends. What happened to us? Part II</title>
-      <link>https://sandyuraz.com/stories/friend2</link>
-      <description>‘Sergey, dear, how was your flight in? How is your family?’ her sweet motherly tone only softened over the years since I’ve last ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 14 Mar 2022 00:00:00 UTC</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/soul</guid>
@@ -801,28 +1131,6 @@
       <title>For your soul 💃</title>
       <link>https://sandyuraz.com/blogs/soul</link>
       <description>I wish to share this beautiful son... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 14 Mar 2022 00:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/web-legacy</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Building this website (Legacy) 🌐</title>
-      <link>https://sandyuraz.com/blogs/web-legacy</link>
-      <description>I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: LaTeX, groff, markdown, Org-Mode, asciidoctor, HTML, plain text. I had to decompress Word files and wrestle with raw XML files there, what a trip... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 14 Mar 2022 00:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/cheburashka</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Cheburashka, I seek your sociolinguistic wisdom</title>
-      <link>https://sandyuraz.com/stories/cheburashka</link>
-      <description>I wonder where he is. It’s already been more than half an hour and he is still not here. Everyone knows it. Everyone should know it. It is the unspoken rule in our society that you are never to be late to a tea party, especially to the one you are i... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 14 Mar 2022 00:00:00 UTC</pubDate>
     </item>
@@ -840,11 +1148,44 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/today</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/cheburashka</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Today must be the day when I get the courage</title>
-      <link>https://sandyuraz.com/stories/today</link>
-      <description>Today must be the day. How could it not? Tonight’s the night. Look at the stars, marvel at their beauty. The breeze is so fresh as if it came flying straight from the Mediterranean lands. On a quiet night such as this, it is no secret that the leaves of nearby trees are all singing of God. The Universe itself is singing a lullaby, preparing its subordinates to fall asleep before the new tomorrow. Must be a shame that it will all end for me today. It must... [ Continue reading... ]</description>
+      <title>Cheburashka, I seek your sociolinguistic wisdom</title>
+      <link>https://sandyuraz.com/stories/cheburashka</link>
+      <description>I wonder where he is. It’s already been more than half an hour and he is still not here. Everyone knows it. Everyone should know it. It is the unspoken rule in our society that you are never to be late to a tea party, especially to the one you are i... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/web-legacy</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Building this website (Legacy) 🌐</title>
+      <link>https://sandyuraz.com/blogs/web-legacy</link>
+      <description>I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: LaTeX, groff, markdown, Org-Mode, asciidoctor, HTML, plain text. I had to decompress Word files and wrestle with raw XML files there, what a trip... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/friend2</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>We were once friends. What happened to us? Part II</title>
+      <link>https://sandyuraz.com/stories/friend2</link>
+      <description>‘Sergey, dear, how was your flight in? How is your family?’ her sweet motherly tone only softened over the years since I’ve last ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/aristotle</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>That time I spoke with Aristotle about his virtue ethics and Sufism</title>
+      <link>https://sandyuraz.com/stories/aristotle</link>
+      <description>I went to a pub that recently opened in our town. Beautiful wooden floors, old-style lanterns hanging on the walls, and a rich atmosphere with interesting folk. A nice table caught my eye and while sitting, I noticed a strange man across the room. He wasn’t dancing or drinking, just sitting, as if he is very deep in his thoughts. Pondering about something. I wonder what. He looked familiar, I couldn’t pinpoint his features, but I recognize this mysterious figure from what feels like a million prior encounters. No need to bother a lonely patro... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 06 Mar 2022 00:00:00 UTC</pubDate>
     </item>
@@ -862,11 +1203,11 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/aristotle</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/today</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>That time I spoke with Aristotle about his virtue ethics and Sufism</title>
-      <link>https://sandyuraz.com/stories/aristotle</link>
-      <description>I went to a pub that recently opened in our town. Beautiful wooden floors, old-style lanterns hanging on the walls, and a rich atmosphere with interesting folk. A nice table caught my eye and while sitting, I noticed a strange man across the room. He wasn’t dancing or drinking, just sitting, as if he is very deep in his thoughts. Pondering about something. I wonder what. He looked familiar, I couldn’t pinpoint his features, but I recognize this mysterious figure from what feels like a million prior encounters. No need to bother a lonely patro... [ Continue reading... ]</description>
+      <title>Today must be the day when I get the courage</title>
+      <link>https://sandyuraz.com/stories/today</link>
+      <description>Today must be the day. How could it not? Tonight’s the night. Look at the stars, marvel at their beauty. The breeze is so fresh as if it came flying straight from the Mediterranean lands. On a quiet night such as this, it is no secret that the leaves of nearby trees are all singing of God. The Universe itself is singing a lullaby, preparing its subordinates to fall asleep before the new tomorrow. Must be a shame that it will all end for me today. It must... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 06 Mar 2022 00:00:00 UTC</pubDate>
     </item>

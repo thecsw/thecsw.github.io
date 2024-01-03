@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 342; 12023 H.E.
 * A Doll's House 🕰️
 
 #+begin_export html
