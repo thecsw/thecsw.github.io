@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 358; 12023 H.E.
 * Abroad in Japan 🇯🇵
 
 #+begin_export html

@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 338; 12023 H.E.
 * Komi Can’t Communicate ❤️
 
 #+begin_export html
