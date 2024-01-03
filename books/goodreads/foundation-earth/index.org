@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 348; 12023 H.E.
 * Foundation and Earth 🌏
 
 #+begin_export html

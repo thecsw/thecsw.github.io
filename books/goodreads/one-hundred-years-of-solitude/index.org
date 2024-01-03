@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 341; 12023 H.E.
 * One Hundred Years of Solitude 🌿
 
 #+begin_export html

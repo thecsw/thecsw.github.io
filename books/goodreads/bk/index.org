@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 355; 12023 H.E.
 * Brothers Karamazov 🍞
 
 #+begin_export html

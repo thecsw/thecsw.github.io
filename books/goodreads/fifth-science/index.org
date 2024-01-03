@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 344; 12023 H.E.
 * The Fifth Science 🪐
 
 #+begin_export html

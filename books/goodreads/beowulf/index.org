@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 352; 12023 H.E.
 * Beowulf ⛓️
 
 #+begin_export html

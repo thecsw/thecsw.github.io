@@ -1,4 +1,5 @@
-#+options: preview-generate:t
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 359; 12023 H.E.
 * Omniscient Reader's Viewpoint 📄
 
 #+begin_export html
