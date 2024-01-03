@@ -49,18 +49,24 @@ category = "Blog"
 [navigation]
 
 [navigation.1]
-link = "dossier"
+link = "/dossier"
 title = "Dossier 🖋"
 
 [navigation.2]
-link = "books"
+link = "/books"
 title = "Bookshelf 🔖"
 
 [navigation.3]
-link = "fortunes"
+link = "/fortunes"
 title = "Fortunes 🧧"
 
 [navigation.4]
-link = ""
+link = "../"
+title = "Go Up ☝️"
+hide = "/"
+hide_if = "/"
+
+[navigation.5]
+link = "/"
 title = "Home 🏠"
-hide = "."
+hide = "/"
