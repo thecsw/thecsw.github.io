@@ -47,6 +47,10 @@ tbody tr td:first-child {
         word-break: break-all;
 }
 
+tbody tr td {
+        line-height: 1.7rem;
+}
+
 @media all and (min-width: 550px) {
         thead tr th:nth-child(2),
         tbody tr td:nth-child(2) {
@@ -65,10 +69,6 @@ tbody tr td:first-child {
         thead tr th:nth-child(n + 4),
         tbody tr td:nth-child(n + 4) {
                 display: none;
-        }
-
-        tbody tr td {
-                line-height: 1.7rem;
         }
 
         thead tr th:nth-child(3),
