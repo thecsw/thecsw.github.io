@@ -1,0 +1,29 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 3; 12024 H.E.
+* Shin Godzilla
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+I adore the fact that the /biggest/ and /baddest/ monster in this entire movie isn't
+laser-beam-shooting-instantly-healing-born-from-radiation-made-out-of-pure-fear
+Godzilla, but the *bureaucracy* of the modern world; how would the government
+realistically respond to something as Earth-shattering and ``not in the book''
+calamity like a sea monster that levels cities with a swing of the arm or
+all-piercing beams?
+
+We know how. Moving from one conference room to another, trying to find
+``experts'' for their ``professional'' and ``timely'' opinion, most of all, of
+course---trying to see who's responsibility within the governmental apparatus it
+is to deal with this mess (of course, it's everyone's, but no one will say
+it). The endless title screens of introducing us to all different bureaucrats
+and officials with their full name, title, and division adds a whole level of
+appreciation for the commitment of Hideaki Anno's vision for the film.
+
+Thoroughly enjoyed and the official responses, how everyone was shuffling
+meetings---it did put a tear in my eye, as it reminds me of all the great things
+we do in the corporate world. Made with care, love, and most strict discipline.
