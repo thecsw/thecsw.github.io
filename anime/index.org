@@ -32,9 +32,11 @@ invest myself in what I'm about to watch.
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌────────────────────┐
- │   Zom 100: Bucket  │
- │  List of the Dead  │
+ │ SPY×FAMILY Season 2│
  ├────────────────────┼───────────────────┐
+ │   Zom 100: Bucket  │   Jujutsu Kaisen  │
+ │  List of the Dead  │      Season 2     │
+ ├────────────────────┼───────────────────┤
  │      Dr.STONE:     │   Scott Pilgrim   │
  │  NEW WORLD Part 2  │     Takes Off     │
  ├────────────────────┼───────────────────┤
