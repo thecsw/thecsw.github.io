@@ -1,0 +1,23 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+html_head: <link rel="stylesheet" type="text/css" href="./godzilla.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 5; 12024 H.E.
+* Godzilla Minus One
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+this might be just the perfect classic godzilla 
+
+Im so excited to see the b&w release of it in theaters in 2024
+
+see how *fantastic* this looks
+
+#+begin_export html
+<p class="pre-vid-skip"></p>
+#+end_export
+
+[[https://youtu.be/PShgB-ielBI][【モノクロ版特報】『ゴジラ-1.0／C』（1/12上映開始！）]]
