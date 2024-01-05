@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Wed, 03 Jan 2024 00:00:00 UTC</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2024 02:02:56 UTC</lastBuildDate>
+    <pubDate>Thu, 04 Jan 2024 00:00:00 UTC</pubDate>
+    <lastBuildDate>Fri, 05 Jan 2024 06:42:48 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -15,13 +15,13 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/shin-godzilla</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/blue-velvet</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Shin Godzilla</title>
-      <link>https://sandyuraz.com/drama/shin-godzilla</link>
-      <description>I adore the fact that the biggest and baddest monster in this entire movie isn’t laser-beam-shooting-instantly-healing-born-from-radiation-made-out-of-pure-fear Godzilla, but the bureaucracy of the modern world; how would the government realistically respond to something as Earth-shattering and “not in the book” calamity like a sea monster that levels cities with a swing of the arm or all-pierc... [ Continue reading... ]</description>
+      <title>(Film) Blue Velvet</title>
+      <link>https://sandyuraz.com/drama/blue-velvet</link>
+      <description>I have some sort of a personal connection to Blue Velvet and really, a story of how I first learned about Criterion and the trained virtue of respecting films. It was some time of Spring 2019 or Fall of 2019. A high time of me running around with whatever a freshman and sophomore worries about—grades, relationships, and wanting to get m... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 UTC</pubDate>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 UTC</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
@@ -31,6 +31,17 @@
       <title>(Film) Party Girl</title>
       <link>https://sandyuraz.com/drama/party-girl</link>
       <description>Good vibe and ambience of the rowdy 90s—unfortunately, didn’t strike a cord with me on the Criterion’s re... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/shin-godzilla</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Shin Godzilla</title>
+      <link>https://sandyuraz.com/drama/shin-godzilla</link>
+      <description>I adore the fact that the biggest and baddest monster in this entire movie isn’t laser-beam-shooting-instantly-healing-born-from-radiation-made-out-of-pure-fear Godzilla, but the bureaucracy of the modern world; how would the government realistically respond to something as Earth-shattering and “not in the book” calamity like a sea monster that levels cities with a swing of the arm or all-pierc... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 03 Jan 2024 00:00:00 UTC</pubDate>
     </item>
@@ -90,17 +101,6 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/fujimoto-22-26</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Goodreads) 22-26: Tatsuki Fujimoto 🌊</title>
-      <link>https://sandyuraz.com/books/goodreads/fujimoto-22-26</link>
-      <description>I think I enjoyed this collection of stories a bit more than his selection from 17-21: Tatsuki Fujimoto, especially Nayuta of the Prophecy, where Nayuta is probably one my favorite characters that Fujimoto has come up with. The core themes felt to hit close home with family relationships and how we come to understand each other as relatives, brothers, sisters, and l... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sat, 30 Dec 2023 00:00:00 UTC</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/drama/bullet-train</guid>
@@ -108,6 +108,17 @@
       <title>(Film) Bullet Train</title>
       <link>https://sandyuraz.com/drama/bullet-train</link>
       <description>john wick + lmf... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/fujimoto-22-26</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) 22-26: Tatsuki Fujimoto 🌊</title>
+      <link>https://sandyuraz.com/books/goodreads/fujimoto-22-26</link>
+      <description>I think I enjoyed this collection of stories a bit more than his selection from 17-21: Tatsuki Fujimoto, especially Nayuta of the Prophecy, where Nayuta is probably one my favorite characters that Fujimoto has come up with. The core themes felt to hit close home with family relationships and how we come to understand each other as relatives, brothers, sisters, and l... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 00:00:00 UTC</pubDate>
     </item>
@@ -167,17 +178,6 @@
       <pubDate>Thu, 28 Dec 2023 00:00:00 UTC</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/csm</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Goodreads) Chainsaw Man 🪚</title>
-      <link>https://sandyuraz.com/books/goodreads/csm</link>
-      <description>It was the July 30th, 2023. I adored the anime adaptation of Chainsaw Man and on an impulse, bought all available 11 volumes in English. The week at work was exhausting, so I was happy to have this gloomy and melancholic late evening all ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 27 Dec 2023 00:00:00 UTC</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/justice-neondroid</guid>
@@ -185,6 +185,17 @@
       <title>Justice Neondroid 🥃</title>
       <link>https://sandyuraz.com/plastic/justice-neondroid</link>
       <description>Trying out to play with processing RAW under harsher... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/csm</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Chainsaw Man 🪚</title>
+      <link>https://sandyuraz.com/books/goodreads/csm</link>
+      <description>It was the July 30th, 2023. I adored the anime adaptation of Chainsaw Man and on an impulse, bought all available 11 volumes in English. The week at work was exhausting, so I was happy to have this gloomy and melancholic late evening all ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 27 Dec 2023 00:00:00 UTC</pubDate>
     </item>
