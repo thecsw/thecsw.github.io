@@ -1,0 +1,83 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 4; 12024 H.E.
+* Blue Velvet
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+I have some sort of a personal connection to /Blue Velvet/ and really, a story of
+how I first learned about /Criterion/ and the trained virtue of respecting
+films. It was some time of Spring 2019 or Fall of 2019. A high time of me
+running around with whatever a freshman and sophomore worries about---grades,
+relationships, and wanting to get more sleep.
+
+I remember it distinctly. The room of my advisor. We will call him N.N. to
+preserve his privacy. He was and still is the biggest movie enjoyer I
+know. Anything. Ask him about /Pink Flamingos/, /Divine/, /The Asylum/, /Sleazoid
+Express/, /Something Weird Video/, /Bloody Pit of Horror/, and I shudder at thought
+of what the actual list would be like. He knows it all.
+
+Thanks to him, I took the [[https://sandyuraz.com/blogs/good_bad_movies/][Trash Cinema course]] during my first semester of
+college, which set me on the bright path that I followed ever since. One day at
+his office, after a semester of our active bonding---he told me with all the
+excitement in the world how much he's waiting for Criterion's /Blue Velvet/ to
+come out at the end of May in 2019.
+
+I have heard of /Blue Velvet/ because /Twin Peaks/ is my favorite show---I've done a
+great disservice to David lynch by never seeing his film. A while after, I
+finally watched /Blue Velvet/ on my little laptop screen in the middle of my dorm
+bedroom on my bunk bed. Let me make my confession---I did not understand what I
+really saw. The topics of the evil lurking beneath and how our environment
+corrupts were some of the big points I understood.
+
+#+drop_cap
+As time went on, almost 5 years later---I decided to give it a watch again. Of
+course, I got the /Criterion/'s [[https://www.criterion.com/films/29144-blue-velvet][edition]], so I can enjoy the newly restored
+picture, better audia, and *all* of the original extra documentaries and special
+edition features. The 120 minute runtime just went by like /this/. I wonder how
+many graduate papers were written and in how many film programs is /Blue Velvet/
+included as a required part of their curriculum.
+
+The idea of /Blue Velvet/ and not to over-analyze David Lynch's work as well---you
+have to feel it through, the idea that I see holds up just as it did from way
+back then. There is a great deal of mystery, evil, and potential for corruption
+within all of us. Who can truly know the true underbelly of the idyllic America
+we built with all the shiny bright colors---suffering a severe case of
+schizophrenia---the grand delusion with a mammoth lie at its core, which we all
+believe in so sheepishly like some complicit livestock.
+
+#+begin_quote
+``Don't look at it, it's not your responsibility.''
+#+end_quote
+
+Is what one says while living in fear of their carefully-constructed personas
+leaking the black goo, which oozes from the subconscious mind. There is some
+message, yet again, like in Akira Kurosawa's [[../high-and-low][/High and Low/]] and Dostoevksy's
+[[https://sandyuraz.com/writings/ideal_love/][/Brothers Karamazov/]]. More of a thought that in truth---we are all brothers,
+fundamentally carrying responsibility for one another, as we are humans---none
+of us live in isolation. To impact and affect someone is the biggest action of
+an immoral action that one can partake in. Recall Lord Henry,
+
+#+begin_quote
+“There is no such thing as a good influence, Mr. Gray. All influence is
+immoral-immoral from the scientific point of view.”\
+“Why?”\
+“Because to influence a person is to give him one’s own soul. He does not think
+his natural thoughts, or burn with his natural passions. His virtues are not
+real to him. His sins, if there are such things as sins, are borrowed. He
+becomes an echo of some one else’s music, an actor of a part that has not been
+written for him. The aim of life is self-development. To realize one’s nature
+perfectly—that is what each of us is here for. People are afraid of themselves
+nowadays. They have forgotten the highest of all duties, the duty that one owes
+to one’s self. [...]''
+#+end_quote
+
+#+drop_cap
+Somehow, deep down---American Dream of suburbia always felt /insanely/ dystopian
+in a malevolent kind of way. This is not paranoia or ``seeing things through
+projecting''. Can you not feel it? Can you not feel how hollow that dream is?
+/It's a strange world, isn't?/
