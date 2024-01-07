@@ -68,28 +68,28 @@
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p title="Sun, 03 Apr 2022">
 93; 12022 H.E.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 <strong>Update:</strong> hi, this page got a <a href="https://news.ycombinator.com/item?id=31010659" title="">little traction</a> on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, <a href="https://caniuse.com/avif" title="">AVIF</a> (69.25%) and <a href="https://caniuse.com/jpegxl" title="">JPEG XL</a> (0%) are not as nearly adopted as <a href="https://caniuse.com/webp" title="">WebP</a> is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released after 2013.
 </p>
 </div>
 <h1 id="motivation" class="section-2">Motivation</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 I have been toying around with <a href="https://en.wikipedia.org/wiki/WebP" title="">WebP</a> for a couple of weeks now. Convert this image into webp and try to use it instead of traditional png. It was pretty crazy for me to see an up to 10x image size reduction, yet very little to no visual difference with a naked human eye.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Some further reading led me to some pleasant discoveries, such as lossy and lossless compression, transparency with an alpha channel, metadata, animation (!) support, and a wide adoption by major browsers and graphics software over the past decade or so.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 This is truly some state-of-the-art stuff. Even as claiming an average of 45% reduction in file size with wild PNGs found on the web and a 28% reduction compared to PNGs that are recompressed with <a href="https://en.wikipedia.org/wiki/Pngcrush" title="">pngcrush</a> and <a href="https://en.wikipedia.org/wiki/PNGOUT" title="">PNGOUT</a>.
 <sup class="footnote"><a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">I</a></sup>
@@ -97,12 +97,12 @@ I should try this now!
 </p>
 </div>
 <h1 id="the-migration" class="section-2">The migration</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 The process of moving from PNG to WebP was painless. I rigged a quick <code>find</code> and <code>sed</code> script to go through all my directories and convert images with <a href="https://imagemagick.org" title="">ImageMagick</a>. Another quick regex to find corresponding file links and references in org files, and replace them with anew webp format. It all took no more than 15 to 20 minutes. I talked to Darkness to <a href="https://github.com/thecsw/darkness/commit/85a89d871bcb272b9c2b7b36d02af67132dac834" title="">support variable preview files</a> aaaannd <strong>push!</strong>
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Wow, <em>it just works</em>. Even GitHub Pages deploys it in about halftime now. Let me see if we got any file size gains. I’ll archive the whole website into two tar files: before and after webp changes (<code>.git</code> of course excluded).
 </p>
@@ -117,18 +117,18 @@ Wow, <em>it just works</em>. Even GitHub Pages deploys it in about halftime now.
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 <strong>This is very nice</strong>. It’s less than half of what it was before! Going through some of the pages, even my eye can’t spot any differences that would be noticeable. WebP is good for all the stuff on the web. Choose your image formats based on your needs and requirements. For now, WebP looks like a great alternative. Thank you!
 </p>
 </div>
 <h1 id="example" class="section-2">Example?</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Let’s try to grab a picture in PNG format, convert it to WebP and see how the file size and image quality differ between those two. I’ll have both examples from an amazing photographer <a href="https://mobile.twitter.com/shnimohus" title="">@shnimohus</a>, whose shots <strong>I adore</strong>.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Below is the ImageMagick version I will be using when simply running <code>convert source.png target.webp</code>
 </p>
@@ -146,12 +146,12 @@ Compiler: gcc (4.2)</code></pre>
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Let’s see an example!
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Here is a shot of a bus stop in PNG, weighing at around 2.4MB
 </p>
@@ -163,7 +163,7 @@ Here is a shot of a bus stop in PNG, weighing at around 2.4MB
 <hr>
 </div><div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 As a comparison, here is the WebP generated from it, which is only about 258KB
 </p>
@@ -175,12 +175,12 @@ As a comparison, here is the WebP generated from it, which is only about 258KB
 <hr>
 </div><div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 For the sake of the experiment, try to dowload both files and see if you can spot any differences.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Here is one more example!
 </p>
@@ -192,7 +192,7 @@ Here is one more example!
 <hr>
 </div><div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 With its counterpart generated with <code>convert town.png town.webp</code>
 </p>
@@ -204,12 +204,12 @@ With its counterpart generated with <code>convert town.png town.webp</code>
 <hr>
 </div><div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Is this experiment biased? Definitely. I could have used some PNG compression techniques, go through ImageMagick’s documentation to fine-tune the conversion. However, the big point here is that without doing any of that, WebP seems to keep the quality I prefer while also reducing the size (doesn’t matter to me whether it’s lossy or lossless).
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Thank you! <b style="color:var(--color-tomb)">◼︎</b>
 </p>

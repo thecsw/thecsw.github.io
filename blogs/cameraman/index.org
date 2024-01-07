@@ -11,6 +11,7 @@ by Dziga Vertov. After finishing the film, everyone knew they felt something and
 had ideas regarding it. One thing is for sure, it hasn't left anyone
 indifferent.
 
+#+html_tags: style="width:43rem";
 #+begin_center
 The film /Man with a Movie Camera/ represents \
 AN EXPERIMENTATION IN THE CINEMATIC COMMUNICATION \
