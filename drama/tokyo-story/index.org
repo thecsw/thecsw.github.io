@@ -1,0 +1,45 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 6; 12024 H.E.
+* Tokyo Story
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+What a debilitatingly saddening film. Has the cinema industry as a whole been
+able to produce something of this quality, depth, and observational insight into
+a human nature anywhere around the modern times? This. This is rightfully one of
+the greatest films of all time.
+
+I understand that children and relatives get driven apart as time
+goes. Especially when they start their own families—what Noriko told us about
+how disappointing life can be (and is). However, much like Kyoko—I couldn't get
+the nasty feeling of what all blood relatives (except Kyoko) did wasn't just
+cold—it was downright despicable.
+
+#+begin_quote
+``Even strangers would have been more considerate.''
+#+end_quote
+
+Lousy children. It may have been released over 70 years ago, yet the social
+critique that Yasujiro Ozu captured here remains the most human, and the most
+wrenching as ever. Can't look away for a single moment's time—what if I miss
+that single second in the long scene? You can't cut even a single second
+away. It's that tight.
+
+[mild spoiler below, don't read if you haven't seen] 
+
+The part that locked me in was the part where the Mother was staying at Noriko's
+for the night. With the scene of Noriko lying on the floor with her mother
+in-law sobbing in the background—surrounded by the total sinking and
+somewhat... oil-like darkness of her little apartment. As Martin Scorsese would
+say, "Now this is Cinema."
+
+What an overwhelming experience. I'm so happy I go t Criterion's box with all
+the supplementals and a commentary with Yasujiro Ozu scholar David
+Desser. Beautiful. Call your mother, father, siblings, people you care
+about—tell them that you love them. Simple human kindness, the most natural of
+its kind has been waning away in 1953—devastatingly so much today.
