@@ -69,7 +69,7 @@
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Go is great for setting up easy parallel jobs and processes, however, it is not easy when one starts confusing concurrency with parallelism and ending up endlessly fighting race conditions. <code>komi</code> is a generic pooling library that will satisfy your hunger.
 </p>
@@ -82,7 +82,7 @@ Go is great for setting up easy parallel jobs and processes, however, it is not 
 </div><div class="writing">
 
 <h1 id="usage" class="section-2">Usage</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Say you want to run a function <code>foo(v)</code> that performs some kind of work on parameter <code>v</code>, be it a database operation, a syscall, an IO operation, etc. (possibilities are endless!) Setting up a pool and sending jobs is as trivial as
 </p>
@@ -98,12 +98,12 @@ pool.Submit(v) // will block if pool is full</code></pre>
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Notice that <code>pool.Close()</code> will gracefully free all the resources and channels occupied by <code>pool</code> by waiting for final jobs to complete. <code>pool.Close(true)</code> will force pool closure.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 But what if you want to collect outputs of work performed on <code>v</code> with <code>foo(v) w</code>?
 </p>
@@ -125,7 +125,7 @@ pool.Submit(v) // will block if pool is full</code></pre>
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 But what if you want to collect errors as well? Consider <code>foo(v) error</code>
 </p>
@@ -142,7 +142,7 @@ pool.Submit(v) // will block if pool is full</code></pre>
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Or with <code>foo(v) (w, error)</code>!
 </p>
@@ -160,23 +160,23 @@ pool.Submit(v) // will block if pool is full</code></pre>
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 So, depending on what function you give, any work type is handled by the pool on the fly! If work given doesn’t produce outputs, <code>pool.Outputs()</code> will return <code>nil</code>, similarly, if work given doesn’t produce errors, <code>pool.Errors()</code> will return <code>nil</code>.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Note: if work produces outputs or errors, those activated channels <strong>need</strong> to be consumed by the user, otherwise, when reaching <code>size</code> number of elements in either (if active), work will be blocked until the destination channel is consumed.
 </p>
 </div>
 <h1 id="connectors" class="section-2">Connectors</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Unique feature of <code>komi</code> is that each pool can be connected with each other. Say you have two functions, where one opens file’s contents, <code>openFile(filename string) (string, error)</code>, and the other counts the number of words, <code>countWords(contents string) int</code>.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Two pools can be created,
 </p>
@@ -199,7 +199,7 @@ counter := komi.NewWithSettings(komi.Work(countWords), &amp;komi.Settings{
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 We can wire the outputs of <code>opener</code> to be automatically fed into <code>counter</code> with
 </p>
@@ -212,7 +212,7 @@ We can wire the outputs of <code>opener</code> to be automatically fed into <cod
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 So now, those two pools are &#34;connected&#34;. We would call this relationship as <code>opener</code> being the dependent (child) pool and <code>counter</code> being the connected (parent) pool.
 </p>
@@ -229,34 +229,34 @@ So now, those two pools are &#34;connected&#34;. We would call this relationship
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 <code>komi</code>’s pools are smart enough that only by calling <code>counter.Close()</code>, it will issue a shutdown command back to <code>opener</code> and wait until it’s closed. This closing logic procedure will happen with any number of connected pools.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 If you have pools <code>1,2,...,N-1,N</code> connected in form <code>1-&gt;2-&gt;...-&gt;N-1-&gt;N</code>, user <strong>can only call</strong> <code>.Close()</code> on pool <code>N</code>, as it would be responsible for sending a closure request to <code>N-1</code>, and so on until <code>2</code> sends the shutdown request to <code>1</code>. When <code>1</code> is closed, the closure will resume on <code>2</code>, up until <code>N-1</code> and <code>N</code>, where the latter will return from the original <code>Close()</code> call.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Please note that none of the pools <code>1,2,...,N-1</code> in the above will honor user’s closure request, as it should come from their connected (parent) pool.
 </p>
 </div>
 <h1 id="quirks" class="section-2">Quirks</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 When the parent-most pool is closing, it will wait for all the child pools to complete their jobs. This behavior can be overwritten by calling <code>.Close(true)</code>, which would skip any waiting of childrens’ queued jobs and skip any waiting of the parent-most pool’s queued jobs.
 </p>
 </div>
 <h1 id="operations" class="section-2">Operations</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Pools support waiting (blocking) until the pool has no jobs waiting for completion with <code>pool.Wait()</code>.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Some other quality of life operations are also provided,
 </p>
@@ -333,7 +333,7 @@ Some other quality of life operations are also provided,
 </div>
 
 <h1 id="settings" class="section-2">Settings</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 You can tune the performance and behavior of the pool with <code>komi.NewWithSetttings</code> by providing <code>*komi.Settings</code>,
 </p>
@@ -380,12 +380,12 @@ You can tune the performance and behavior of the pool with <code>komi.NewWithSet
 </div>
 
 <h1 id="stability" class="section-2">Stability</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 This is a brand new library I built for my <a href="https://github.com/thecsw/darkness" title="">static website generator</a>, where it’s used extensively and in production. However, there are no guarantees provided for this library, that is, until something like <code>v1.0</code> is out, in which case, I would promise to maintain backward compatibility.
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Here is how <a href="https://github.com/thecsw/darkness/blob/78d4821d3d36ecd4514af756eef560a9125e1069/ichika/build.go#L56" title="">Darkness 🥬</a> currently builds this website,
 </p>
@@ -409,13 +409,13 @@ Here is how <a href="https://github.com/thecsw/darkness/blob/78d4821d3d36ecd4514
 </div>
 <div class="writing">
 
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Please use it with knowing your risks. However, if you use a tagged version or a commit hash in your <code>go.mod</code>, you should be fine.
 </p>
 </div>
 <h1 id="future-work" class="section-2">Future work</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Some future items in mind:
 </p>
@@ -438,12 +438,12 @@ More tests
 </div>
 
 <h1 id="developers" class="section-2">Developers</h1>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 Please go to <code>komi</code>’s github page for more details and the code!
 </p>
 </div>
-<div class="paragraph">
+<div class="paragraph " >
 <p>
 -&gt; <a href="https://github.com/thecsw/komi" title="">Komi - subarashi go pooling 🍡</a>
 </p>
