@@ -35,3 +35,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 11 | [[file:shin-godzilla/poster.jpg][poster]] | [[shin-godzilla][*Shin Godzilla*]]            | Hideaki Anno\ Shinji Higuchi | Japan         | 2016 |
 | 12 | [[file:blue-velvet/poster.jpg][poster]] | [[blue-velvet][*Blue Velvet*]]              | David Lynch                  | United States | 1986 |
 | 13 | [[file:godzilla-minus-one/poster.jpg][poster]] | [[godzilla-minus-one][*Godzilla Minus One*]]       | Takashi Yamazaki             | Japan         | 2023 |
+| 14 | [[file:tokyo-story/poster.jpg][poster]] | [[tokyo-story][*Tokyo Story*]]              | Yasujiro Ozu                 | Japan         | 1953 |
