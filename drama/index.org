@@ -20,19 +20,20 @@ But you know, the damn thing is\
 
 The design here is of course inspired by [[https://www.criterion.com/shop/browse/list?sort=spine_number][Criterion]].
 
-|  № |        | Title                      | Director                     | Country       | Year |
-|----+--------+----------------------------+------------------------------+---------------+------|
-|  1 | [[file:high-and-low/poster.jpg][poster]] | [[high-and-low][*High and Low*]]             | Akira Kurosawa               | Japan         | 1963 |
-|  2 | [[file:solaris/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/solaris/][*Solaris*]]                  | Andrei Tarkovsky             | Soviet Union  | 1972 |
-|  3 | [[file:man-with-a-movie-camera/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/cameraman/][*Man with a Movie Camera*]]  | Dziga Vertov                 | Soviet Union  | 1929 |
-|  4 | [[file:bullet-train/poster.jpg][poster]] | [[bullet-train][*Bullet Train*]]             | David Leitch                 | United States | 2022 |
-|  5 | [[file:perfect-blue/poster.jpg][poster]] | [[perfect-blue][*Perfect Blue*]]             | Satoshi Kon                  | Japan         | 1997 |
-|  6 | [[file:sex-lies-videotape/poster.jpg][poster]] | [[sex-lies-videotape][*sex, lies, and videotape*]] | Steven Soderbergh            | United States | 1989 |
-|  7 | [[file:millennium-actress/poster.jpg][poster]] | [[millennium-actress][*Millennium Actress*]]       | Satoshi Kon                  | Japan         | 2001 |
-|  8 | [[file:the-last-seduction/poster.jpg][poster]] | [[the-last-seduction][*The Last Seduction*]]       | John Dahl                    | United States | 1994 |
-|  9 | [[file:rose-hobart/poster.jpg][poster]] | [[rose-hobart][*Rose Hobart*]]              | Joseph Cornell               | United States | 1936 |
-| 10 | [[file:party-girl/poster.jpg][poster]] | [[party-girl][*Party Girl*]]               | Daisy von Scherler Mayer     | United States | 1995 |
-| 11 | [[file:shin-godzilla/poster.jpg][poster]] | [[shin-godzilla][*Shin Godzilla*]]            | Hideaki Anno\ Shinji Higuchi | Japan         | 2016 |
-| 12 | [[file:blue-velvet/poster.jpg][poster]] | [[blue-velvet][*Blue Velvet*]]              | David Lynch                  | United States | 1986 |
-| 13 | [[file:godzilla-minus-one/poster.jpg][poster]] | [[godzilla-minus-one][*Godzilla Minus One*]]       | Takashi Yamazaki             | Japan         | 2023 |
-| 14 | [[file:tokyo-story/poster.jpg][poster]] | [[tokyo-story][*Tokyo Story*]]              | Yasujiro Ozu                 | Japan         | 1953 |
+|  № |        | Title                      | Director                     | Country             | Year |
+|----+--------+----------------------------+------------------------------+---------------------+------|
+|  1 | [[file:high-and-low/poster.jpg][poster]] | [[high-and-low][*High and Low*]]             | Akira Kurosawa               | Japan               | 1963 |
+|  2 | [[file:solaris/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/solaris/][*Solaris*]]                  | Andrei Tarkovsky             | Soviet Union        | 1972 |
+|  3 | [[file:man-with-a-movie-camera/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/cameraman/][*Man with a Movie Camera*]]  | Dziga Vertov                 | Soviet Union        | 1929 |
+|  4 | [[file:bullet-train/poster.jpg][poster]] | [[bullet-train][*Bullet Train*]]             | David Leitch                 | United States       | 2022 |
+|  5 | [[file:perfect-blue/poster.jpg][poster]] | [[perfect-blue][*Perfect Blue*]]             | Satoshi Kon                  | Japan               | 1997 |
+|  6 | [[file:sex-lies-videotape/poster.jpg][poster]] | [[sex-lies-videotape][*sex, lies, and videotape*]] | Steven Soderbergh            | United States       | 1989 |
+|  7 | [[file:millennium-actress/poster.jpg][poster]] | [[millennium-actress][*Millennium Actress*]]       | Satoshi Kon                  | Japan               | 2001 |
+|  8 | [[file:the-last-seduction/poster.jpg][poster]] | [[the-last-seduction][*The Last Seduction*]]       | John Dahl                    | United States       | 1994 |
+|  9 | [[file:rose-hobart/poster.jpg][poster]] | [[rose-hobart][*Rose Hobart*]]              | Joseph Cornell               | United States       | 1936 |
+| 10 | [[file:party-girl/poster.jpg][poster]] | [[party-girl][*Party Girl*]]               | Daisy von Scherler Mayer     | United States       | 1995 |
+| 11 | [[file:shin-godzilla/poster.jpg][poster]] | [[shin-godzilla][*Shin Godzilla*]]            | Hideaki Anno\ Shinji Higuchi | Japan               | 2016 |
+| 12 | [[file:blue-velvet/poster.jpg][poster]] | [[blue-velvet][*Blue Velvet*]]              | David Lynch                  | United States       | 1986 |
+| 13 | [[file:godzilla-minus-one/poster.jpg][poster]] | [[godzilla-minus-one][*Godzilla Minus One*]]       | Takashi Yamazaki             | Japan               | 2023 |
+| 14 | [[file:tokyo-story/poster.jpg][poster]] | [[tokyo-story][*Tokyo Story*]]              | Yasujiro Ozu                 | Japan               | 1953 |
+| 15 | [[file:dersu-uzala/poster.jpg][poster]] | [[dersu-uzala][*Dersu Uzala*]]              | Akira Kurosawa               | Soviet Union\ Japan | 1975 |

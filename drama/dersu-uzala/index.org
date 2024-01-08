@@ -1,0 +1,35 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 7; 12023 H.E.
+* Dersu Uzala
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Beautiful Soviet film directed by Akira Kurosawa on the indomitability of human
+spirit. The true, almost ``Russian'' kind of a male bonding---the kind of
+friendship that has almost been forgotten how to acquire---even that it
+existed.
+
+Воистину красивый фильм, конечно. Я его смотрел на Criterion, на русском
+языке. Меня конечно удивило что сам Акира Куросава решил снять советский фильм
+на иностранном для него языке. Дерсу Узала это знак достижения нашей как и
+внутренней, так и окружающей нас природы; глубочайшего и на-ипросту
+человеческого внимания и доброты, которую мы можем и должны проявлять друг
+другу, ибо как по-Достоевскому говорится, все мы братья.
+
+В современном мире, полном цинизма, глобализации, пере-потребления и туч
+поверхностных художественных картин—вот эта тонкая нить, что делает нас воистину
+людьми уже может и не потерялась, а посередине порвалась. Фильм, он как и
+сложный, так и простой. Как в любимых для меня картин—дело тут не в сюжете как в
+таком, а именно в переживаниях, эмоциях, и душевных чувствах всех наших
+героев.  Мне немного напомнил Дерсу Урсала даже Хемингвая в стиле Толстого, где
+первый в своем «Старик и море», писал
+
+#+begin_quote
+``But man is not made for defeat,'' he said. ``A man can be destroyed but not
+defeated.''
+#+end_quote
