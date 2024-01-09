@@ -11,7 +11,7 @@
 #+options: exclude-html-head:property="theme-color"
 
 # Attach our custom ryuko snow effect.
-#+html_head: <script async src="ryuko-snow.js"></script>
+#+html_head: <script src="ryuko-snow.js" defer></script>
 #+html_head: <meta name="theme-color" property="theme-color" content="#151515">
 
 * Ryuko 🐉
