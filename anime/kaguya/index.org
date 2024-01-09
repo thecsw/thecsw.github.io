@@ -12,8 +12,8 @@
 #+options: exclude-html-head:property="theme-color"
 
 # Attach our custom kaguya heart effect.
-#+html_head: <script async src="kaguya.js"></script>
-#+html_head: <script async src="love.js"></script>
+#+html_head: <script src="kaguya.js" defer></script>
+#+html_head: <script src="love.js" defer></script>
 #+html_head: <meta name="theme-color" property="theme-color" content="#ff4a68">
 
 # set the preview
