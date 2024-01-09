@@ -1,0 +1,27 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 9; 12024 H.E.
+* In the Mood for Love
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Russia's first and greatest poet's last hours.
+
+Alexander Pushkin, colloquially known in Russia as "nashe vse," which roughly
+translates to "our everything" is the founder of Russian Literature.
+
+Every writer of the later years, whom I love, think of Dostoevsky, Tolstoy,
+Gogol, Chekhov, Turgenev, and more—they all came out of Pushkin's prose.
+
+Phenomenal cast consisting of Alexander Kalyagin playing Zhukovskiy and Irina
+Kupchenko taking the role of Vyazemskaya. All in the style of the best Soviet
+films that were coming out in the 70s and 80s.
+
+Pushkin was constantly despised by the government as the spokesman for literary
+radicals. They killed Pushkin.
+
+Let me go and read Eugene Onegin for the Nth time. Nashe vse.
