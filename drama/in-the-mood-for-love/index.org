@@ -1,0 +1,32 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 8; 12023 H.E.
+* In the Mood for Love
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Now this is Cinema.
+
+Maman asked me to see it—feelings that are truly, one of a kind. Specially woke
+up around 6am to see it in the quiet darkness by myself before the day kicks
+in. Today was a good day.
+
+There isn't much I can say—what are my words even worth when trying to describe
+this masterpiece with so-called ``words.'' Sometimes, even a trained skill of
+articulation would fail you if it were never meant to be the right tool to
+communicate non-verbal nuances like Wong Kar-wai does in his
+picture. Love. Lust. Desire. 
+
+I have a massive weak spot for the Hong Kong and Kowloon-esque style of
+everything from the 1960s. ``Kowloon Generic Romance'' is a manga series that
+capitalizes on this as well. Let me tell you, Maggie Cheung and Tony Leung look
+stunningly gorgeous. You hear me. Stunningly. Gorgeous. My vocabulary had a
+short circuit throughout the film and the only coherent thought I could murmur
+out, /``stunningly... gorgeous...''/
+
+I'm thoroughly convinced that they do not make people like this. It is something
+truly beyond. You know cinema when you see it, as they say.
