@@ -51,6 +51,10 @@ tbody tr td {
         line-height: 1.7rem;
 }
 
+tbody tr {
+    height: 8.6rem;
+}
+
 @media all and (min-width: 550px) {
         thead tr th:nth-child(2),
         tbody tr td:nth-child(2) {
