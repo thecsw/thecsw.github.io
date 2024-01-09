@@ -38,3 +38,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 14 | [[file:tokyo-story/poster.jpg][poster]] | [[tokyo-story][*Tokyo Story*]]              | Yasujiro Ozu                 | Japan               | 1953 |
 | 15 | [[file:dersu-uzala/poster.jpg][poster]] | [[dersu-uzala][*Dersu Uzala*]]              | Akira Kurosawa               | Soviet Union\ Japan | 1975 |
 | 16 | [[file:in-the-mood-for-love/poster.jpg][poster]] | [[in-the-mood-for-love][*In the Mood for Love*]]     | Wong Kar-wai                 | Hong Kong\ France   | 2000 |
+| 17 | [[file:the-last-road/poster.jpg][poster]] | [[the-last-road][*The Last Road*]]            | Leonid Menaker               | Soviet Union        | 1986 |
