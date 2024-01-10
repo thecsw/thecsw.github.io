@@ -31,9 +31,10 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┐
- │ SPY×FAMILY Season 2│
- ├────────────────────┼───────────────────┐
+                      ┌───────────────────┐
+ ┌────────────────────┤    A Certain      │
+ │ SPY×FAMILY Season 2│ Scientific Railgun│
+ ├────────────────────┼───────────────────┤
  │   Zom 100: Bucket  │   Jujutsu Kaisen  │
  │  List of the Dead  │      Season 2     │
  ├────────────────────┼───────────────────┤
