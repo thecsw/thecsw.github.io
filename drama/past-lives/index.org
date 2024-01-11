@@ -1,0 +1,25 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 10; 12024 H.E.
+* Past Lives
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+A certified A24 classic. Honestly, I don't even have that much to say. Everyone
+in the movie is genuinely likable—will say that I did not expect the husband to
+be so tight, so that's one way to subvert expectations.
+
+Loved seeing Greta Lee; she was great. I missed her ever since I finished the
+third season of The Morning Show. Everything that happened was simply real,
+unfiltered in a sincere, human(e) kind of way, which I enjoyed very much.
+
+I'm happy that it stuck the landing so well and in my mind, the ending is
+exactly what it should have been. And it's also so easy to watch and go
+through—it might go on my rewatch list for some time in the future. Awh, what a
+great way to end the night.
+
+Also, starting your book's title with BONER is quite a move, Arthur.
