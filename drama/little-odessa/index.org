@@ -1,0 +1,22 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 11; 12024 H.E.
+* Little Odessa
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Surprised that this movie isn't more popular. I saw Tim Roth and forgive me, but
+I like Tim Roth; to confess clearly, I stayed through the film for Tim Roth as
+well.
+
+I thought it was a fair gangster story; with it being on more melancholic and
+slower notes than for example, your usual Scorsese work. The cinematography is
+indeed ``KINO.''
+
+Ultimately, not really my style—but if you are someone who: 1) likes Tim Roth 2)
+likes slower and grittier crime films and 3) likes Tim Roth, then this would be
+your cup of tea.
