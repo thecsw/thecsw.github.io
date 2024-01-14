@@ -1,0 +1,46 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 13; 12024 H.E.
+* Barbarella
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Perfection. So much to say about /Barbarella/. I think I saw it for the first time
+in my [[https://sandyuraz.com/blogs/good_bad_movies/][Trash Cinema course]] at university and now, many years after—I found out
+that it was released in restored Bluray 4K quality with all the extra
+commentaries, booklets, and special materials. Being weak for Jane Fonda then
+and now—how could I not immediately snatch one for myself?
+
+/Barbarella/ is the pinnacle of Kitsch. The science fiction of likes that we have
+rarely seen and now, it's all akin to a forgotten dream, which once warmed us in
+the shivers of the night. Fantastic Planet, 1973 might be the closest relative I
+know off top of my head in terms of style, pizzazz, and sheer comfort level of
+the film unapologetically being itself. Some would even mistake it for
+shamelessness.
+
+/Variety/ once compared Barbarella to "a beached whale." It represents everything
+the very best of the 60s. And my god. Jane Fonda. For years, and now confirmed
+once again—I hold her as the perfection of beauty, really. It's not even
+funny. How is it humanly possible? This is beyond my levels of
+comprehension. She sure proved be too much even for Durand Durand's Exexsive
+Machine.
+
+Space Odyssey, Star Wars, Dune, all step aside. Barbarella is what we need, but
+seemingly don't deserve. The aesthetics, the glassy and bulky props, crazy funky
+music, Jane Fonda (yet again), and quoting Véronique Bergen in her essay,
+``Barbarella, Ambassador of Peace and Love,''
+
+#+begin_quote
+Sixties girl becomes the ``Sexties'' girl: denouncing consumerism, systems of
+domination and puritan conservatism, she embodies women's liberation, the sexual
+revolution, unhindered pleasure, and political and ethical involvement to uphold
+peace and love.
+#+end_quote
+
+It's like a forgotten dream. What once could have been, now is lost. All left
+are distilled and sterile consumer-based science-fiction. /Barbarella/ will always
+stay fresh. As should your free-spirited sense of wonder.
