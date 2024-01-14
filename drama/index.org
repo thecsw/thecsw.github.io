@@ -41,3 +41,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 17 | [[file:the-last-road/poster.jpg][poster]] | [[the-last-road][*The Last Road*]]            | Leonid Menaker               | Soviet Union        | 1986 |
 | 18 | [[file:past-lives/poster.jpg][poster]] | [[past-lives][*Past Lives*]]               | Celine Song                  | United States       | 2023 |
 | 19 | [[file:little-odessa/poster.jpg][poster]] | [[little-odessa][*Little Odessa*]]            | James Gray                   | United States       | 1994 |
+| 20 | [[file:barbarella/poster.jpg][poster]] | [[barbarella][*Barbarella*]]               | Roger Vadim                  | France\ Italy       | 1968 |
