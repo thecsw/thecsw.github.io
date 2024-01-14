@@ -1,0 +1,455 @@
+<!--
+                 ,ae,
+                ,88888e
+ _____   ,a888b.9888888i   _____              _
+(_____)  888888888888888  (____ \            | |
+   _     88888888888888Y   _   \ \ ____  ____| |  _ ____   ____  ___  ___
+  | |    '8888888888888'  | |   | / _  |/ ___) | / )  _ \ / _  )/___)/___)
+ _| |_     "S888888888"   | |__/ ( ( | | |   | |< (| | | ( (/ /|___ |___ |
+(_____)      "7888888Y    |_____/ \_||_|_|   |_| \_)_| |_|\____|___/(___/
+                "e88j
+                  "Y
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/projects/komi" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="date" property="date" content="0; 12000 H.E.">
+<meta name="theme-color" property="theme-color" content="#fbebef">
+<meta name="description" property="description" content="Go is great for setting up easy parallel jobs and processes, however, it is not easy when one starts confusing concurrency with paralleli...">
+<meta name="og:title" property="og:title" content="Subarashii golang pooling 🍡">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/projects/komi">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https://sandyuraz.com/projects/komi/preview.jpg">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/jpg">
+<meta name="og:image:width" property="og:image:width" content="1200">
+<meta name="og:image:height" property="og:image:height" content="700">
+<meta name="og:description" property="og:description" content="Go is great for setting up easy parallel jobs and processes, however, it is not easy when one starts confusing concurrency with paralleli...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/projects/komi/preview.jpg">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/projects/komi">
+<meta name="twitter:title" property="twitter:title" content="Subarashii golang pooling 🍡">
+<meta name="twitter:description" property="twitter:description" content="Go is great for setting up easy parallel jobs and processes, however, it is not easy when one starts confusing concurrency with paralleli..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
+
+
+<link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css"><script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/highlight.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/go.min.js"></script>
+<script src="https://sandyuraz.com/scripts/highlight/languages/plaintext.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+<title>Subarashii golang pooling 🍡</title>
+</head>
+<body class="article">
+
+<div class="header">
+<h1 class="section-1"><img id="myface" src="https://sandyuraz.com/najimi.webp" alt="avatar"><em>Subarashii</em> golang pooling 🍡</h1>
+<div class="menu">
+<span><a href="/feed.xml" class="rss-link"><img src="/assets/rss.svg" class="rss-icon"></a></span><br>
+<span id="email" class="email">darkness [at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/projects">Go Up ☝️</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="menu"></div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+Go is great for setting up easy parallel jobs and processes, however, it is not easy when one starts confusing concurrency with parallelism and ending up endlessly fighting race conditions. <code>komi</code> is a generic pooling library that will satisfy your hunger.
+</p>
+</div></div>
+
+<div class="media" >
+<a class="image" ><img class="image" src="preview.jpg" title="Komi writes Go" alt="Komi writes Go"></a>
+<div class="title">Komi writes Go</div>
+<hr>
+</div><div class="writing">
+
+<h1 id="usage" class="section-2">Usage</h1>
+<div class="paragraph " >
+<p>
+Say you want to run a function <code>foo(v)</code> that performs some kind of work on parameter <code>v</code>, be it a database operation, a syscall, an IO operation, etc. (possibilities are endless!) Setting up a pool and sending jobs is as trivial as
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">pool := komi.New(komi.WorkSimple(foo))
+defer pool.Close()
+// other code...
+pool.Submit(v) // will block if pool is full</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+Notice that <code>pool.Close()</code> will gracefully free all the resources and channels occupied by <code>pool</code> by waiting for final jobs to complete. <code>pool.Close(true)</code> will force pool closure.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+But what if you want to collect outputs of work performed on <code>v</code> with <code>foo(v) w</code>?
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">pool := komi.New(komi.Work(foo))
+defer pool.Close()
+// collect outputs with pool.Outputs() channel
+go func() {
+	for output := range pool.Outputs() {
+		// output is the result of `foo(v)`
+	}
+}()
+// other code...
+pool.Submit(v) // will block if pool is full</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+But what if you want to collect errors as well? Consider <code>foo(v) error</code>
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">pool := komi.New(komi.WorkSimpleWithErrors(foo))
+defer pool.Close()
+// collect errors with with pool.Errors() channel...
+// other code...
+pool.Submit(v) // will block if pool is full</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+Or with <code>foo(v) (w, error)</code>!
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">pool := komi.New(komi.WorkWithErrors(foo))
+defer pool.Close()
+// collect outputs with pool.Outputs() channel
+// collect errors with pool.Errors() channel...
+// other code...
+pool.Submit(v) // will block if pool is full</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+So, depending on what function you give, any work type is handled by the pool on the fly! If work given doesn’t produce outputs, <code>pool.Outputs()</code> will return <code>nil</code>, similarly, if work given doesn’t produce errors, <code>pool.Errors()</code> will return <code>nil</code>.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+Note: if work produces outputs or errors, those activated channels <strong>need</strong> to be consumed by the user, otherwise, when reaching <code>size</code> number of elements in either (if active), work will be blocked until the destination channel is consumed.
+</p>
+</div>
+<h1 id="connectors" class="section-2">Connectors</h1>
+<div class="paragraph " >
+<p>
+Unique feature of <code>komi</code> is that each pool can be connected with each other. Say you have two functions, where one opens file’s contents, <code>openFile(filename string) (string, error)</code>, and the other counts the number of words, <code>countWords(contents string) int</code>.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+Two pools can be created,
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">opener := komi.NewWithSettings(komi.WorkWithErrors(openFile), &amp;komi.Settings{
+	Name:     &#34;Opener 📂 &#34;,
+	Laborers: 1,
+	Size:     4,
+})
+
+counter := komi.NewWithSettings(komi.Work(countWords), &amp;komi.Settings{
+	Name:     &#34;Counter 📚 &#34;,
+	Laborers: 10,
+	Size:     20,
+})</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+We can wire the outputs of <code>opener</code> to be automatically fed into <code>counter</code> with
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-go" data-lang="go">opener.Connect(counter)</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+So now, those two pools are &#34;connected&#34;. We would call this relationship as <code>opener</code> being the dependent (child) pool and <code>counter</code> being the connected (parent) pool.
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-plaintext" data-lang="">                Opener 📂                   Counter 📚
+  filenames  ┌─────────────┐  contents   ┌──────────────┐  word counts
+   ───────&gt;  │  openFile   │  ────────&gt;  │  countWords  │  ────────&gt;
+   .Submit   └─────────────┘  .Connect   └──────────────┘  .Outputs
+              pool: opener                 pool: counter</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+<code>komi</code>’s pools are smart enough that only by calling <code>counter.Close()</code>, it will issue a shutdown command back to <code>opener</code> and wait until it’s closed. This closing logic procedure will happen with any number of connected pools.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+If you have pools <code>1,2,...,N-1,N</code> connected in form <code>1-&gt;2-&gt;...-&gt;N-1-&gt;N</code>, user <strong>can only call</strong> <code>.Close()</code> on pool <code>N</code>, as it would be responsible for sending a closure request to <code>N-1</code>, and so on until <code>2</code> sends the shutdown request to <code>1</code>. When <code>1</code> is closed, the closure will resume on <code>2</code>, up until <code>N-1</code> and <code>N</code>, where the latter will return from the original <code>Close()</code> call.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+Please note that none of the pools <code>1,2,...,N-1</code> in the above will honor user’s closure request, as it should come from their connected (parent) pool.
+</p>
+</div>
+<h1 id="quirks" class="section-2">Quirks</h1>
+<div class="paragraph " >
+<p>
+When the parent-most pool is closing, it will wait for all the child pools to complete their jobs. This behavior can be overwritten by calling <code>.Close(true)</code>, which would skip any waiting of childrens’ queued jobs and skip any waiting of the parent-most pool’s queued jobs.
+</p>
+</div>
+<h1 id="operations" class="section-2">Operations</h1>
+<div class="paragraph " >
+<p>
+Pools support waiting (blocking) until the pool has no jobs waiting for completion with <code>pool.Wait()</code>.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+Some other quality of life operations are also provided,
+</p>
+</div>
+<div class="ulist">
+<ul class="">
+
+<li class="l1">
+<p>
+<code>Submit(v)</code> will submit job <code>v</code> to be performed by the pool.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Close()</code> will close the pool if and only if it’s disconnected or the parent-most pool.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Close(true)</code> will close the pool ignoring any pending jobs.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Outputs()</code> will return channel that the user should listen to for outputs (if work generated them).
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Errors()</code> will return channel that the user shoud listen to for errors (if work generates them).
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>IsConnected()</code> will return true if the pool is a child of another pool, thus sending its outputs.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>IsClosed()</code> will return true if the pool has gracefully shutdown.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>JobsCompleted()</code> will return the number of jobs this pool has completed.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>JobsWaiting()</code> will return the number of jobs waiting in queue and currently in-work.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>JobsSucceeded()</code> will return the number of jobs completed with a non-nil errors.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Name()</code> will return the pool’s name (defaults to <code>&#34;Komi 🍡 &#34;</code>).
+</p>
+</li>
+</ul>
+</div>
+
+<h1 id="settings" class="section-2">Settings</h1>
+<div class="paragraph " >
+<p>
+You can tune the performance and behavior of the pool with <code>komi.NewWithSetttings</code> by providing <code>*komi.Settings</code>,
+</p>
+</div>
+<div class="ulist">
+<ul class="">
+
+<li class="l1">
+<p>
+<code>Laborers</code> sets the number of pool’s laborers.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Size</code> sets the size of the pool (how many jobs can wait until <code>pool.Submit</code> is blocked).
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Ratio</code> sets the <code>ratio</code> in <code>size = ratio * number of laborers</code> equation (only if size has not been manually set).
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>LogLevel</code> sets the pool’s logging level to <code>level</code>.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Debug</code> sets the pool’s logging level to <code>DebugLevel</code>.
+</p>
+</li>
+
+<li class="l1">
+<p>
+<code>Name</code> sets the pool’s name as shown in logs.
+</p>
+</li>
+</ul>
+</div>
+
+<h1 id="stability" class="section-2">Stability</h1>
+<div class="paragraph " >
+<p>
+This is a brand new library I built for my <a href="https://github.com/thecsw/darkness" title="">static website generator</a>, where it’s used extensively and in production. However, there are no guarantees provided for this library, that is, until something like <code>v1.0</code> is out, in which case, I would promise to maintain backward compatibility.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+Here is how <a href="https://github.com/thecsw/darkness/blob/78d4821d3d36ecd4514af756eef560a9125e1069/ichika/build.go#L56" title="">Darkness 🥬</a> currently builds this website,
+</p>
+</div></div>
+
+<div class="coding" >
+<div class="listingblock">
+<pre class="highlight"><code class="language-plaintext" data-lang="">           Reading 📚                      Parsing 🧹
+   path  ┌───────────┐   file handler   ┌─────────────┐
+ ──────&gt; │ filesPool │ ───────────────&gt; │  parserPool │
+         └───────────┘                  └─────────────┘
+          log errors                          │
+                                              │    parsed files
+                                              │  aka yunyun pages
+                                              │
+   file  ┌────────────┐  exported data  ┌──────────────┐
+  &lt;───── │ writerPool │ &lt;────────────── │ exporterPool │
+         └────────────┘                 └──────────────┘
+           Writing 🎸                     Exporting 🥂</code></pre>
+</div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+Please use it with knowing your risks. However, if you use a tagged version or a commit hash in your <code>go.mod</code>, you should be fine.
+</p>
+</div>
+<h1 id="future-work" class="section-2">Future work</h1>
+<div class="paragraph " >
+<p>
+Some future items in mind:
+</p>
+</div>
+<div class="ulist">
+<ul class="">
+
+<li class="l1">
+<p>
+Adding an error handler to <code>komi</code> polls, which if given, will be invoked if non-nil errors are returned by work.
+</p>
+</li>
+
+<li class="l1">
+<p>
+More tests
+</p>
+</li>
+</ul>
+</div>
+
+<h1 id="developers" class="section-2">Developers</h1>
+<div class="paragraph " >
+<p>
+Please go to <code>komi</code>’s github page for more details and the code!
+</p>
+</div>
+<div class="paragraph " >
+<p>
+-&gt; <a href="https://github.com/thecsw/komi" title="">Komi - subarashi go pooling 🍡</a>
+</p>
+</div>
+</div>
+
+
+</body>
+</html>
