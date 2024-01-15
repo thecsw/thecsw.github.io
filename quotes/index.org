@@ -1893,7 +1893,7 @@ produce the most possible revenue for the Partnership.
 Zounds!  I was never so bethumped with words
 since I first called my brother's father dad.
 
-— William Shakespeare, "Kind John"
+— William Shakespeare, "King John"
 
 ** 281; 12020 H.E.
 
@@ -2163,3 +2163,4 @@ Most people do not really want freedom, because freedom involves responsibility,
     
     C++ is history repeated as tragedy. Java is history repeated as farce. 
     – Scott McKay
+    
