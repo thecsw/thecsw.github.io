@@ -46,7 +46,7 @@ default_author = "Sandy Urazayev"
 web_master = "sandy@sandyuraz.com (Sandy Urazayev)"
 category = "Blog"
 timezone = "America/Chicago"
-default_hour = 6
+default_hour = 18
 
 [navigation]
 
