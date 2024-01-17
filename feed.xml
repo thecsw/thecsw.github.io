@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Sun, 14 Jan 2024 00:00:00 UTC</pubDate>
-    <lastBuildDate>Mon, 15 Jan 2024 07:20:25 UTC</lastBuildDate>
+    <pubDate>Tue, 16 Jan 2024 00:00:00 UTC</pubDate>
+    <lastBuildDate>Wed, 17 Jan 2024 04:29:49 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>My friend, nothing exists here. Some would call this a “40...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/gurren-lagann-movie-1</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Gurren Lagann the Movie: Childhood’s End</title>
+      <link>https://sandyuraz.com/drama/gurren-lagann-movie-1</link>
+      <description>Went to the movie theater, which was rolling this classic. This masterpiece. This absolute magnum opus of anime as a fo... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 16 Jan 2024 18:00:00 CST</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
@@ -158,11 +169,11 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/millennium-actress</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Millenium Actress</title>
-      <link>https://sandyuraz.com/drama/millennium-actress</link>
-      <description>films are more real than life itself or as someone told me once, “those who wander, realize it is in itself ... [ Continue reading... ]</description>
+      <title>(Film) sex, lies, and videotape</title>
+      <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
+      <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -178,17 +189,6 @@
       <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) sex, lies, and videotape</title>
-      <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
-      <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
@@ -200,37 +200,15 @@
       <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/fujimoto-22-26</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Goodreads) 22-26: Tatsuki Fujimoto 🌊</title>
-      <link>https://sandyuraz.com/books/goodreads/fujimoto-22-26</link>
-      <description>I think I enjoyed this collection of stories a bit more than his selection from 17-21: Tatsuki Fujimoto, especially Nayuta of the Prophecy, where Nayuta is probably one my favorite characters that Fujimoto has come up with. The core themes felt to hit close home with family relationships and how we come to understand each other as relatives, brothers, sisters, and l... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/books">Sandy&#39;s Bookshelf 🔖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/wotakoi</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>WOTAKOI 💜</title>
-      <link>https://sandyuraz.com/books/wotakoi</link>
-      <description>Wotakoi is near and dear to my heart. It was somewhere around the start of the end of 2022, must have been early December. I got so sick that I’ll take calling me bedridden as a form of flattery. The mood was so special that I even slept in my living room for the entire week, moving all my bedsheets and bedroom-bound belongings over to my big comfy soft inviting w... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/bullet-train</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/millennium-actress</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Bullet Train</title>
-      <link>https://sandyuraz.com/drama/bullet-train</link>
-      <description>john wick + lmf... [ Continue reading... ]</description>
+      <title>(Film) Millenium Actress</title>
+      <link>https://sandyuraz.com/drama/millennium-actress</link>
+      <description>films are more real than life itself or as someone told me once, “those who wander, realize it is in itself ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
-      <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
+      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
@@ -246,11 +224,44 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/bullet-train</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Bullet Train</title>
+      <link>https://sandyuraz.com/drama/bullet-train</link>
+      <description>john wick + lmf... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/fujimoto-22-26</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) 22-26: Tatsuki Fujimoto 🌊</title>
+      <link>https://sandyuraz.com/books/goodreads/fujimoto-22-26</link>
+      <description>I think I enjoyed this collection of stories a bit more than his selection from 17-21: Tatsuki Fujimoto, especially Nayuta of the Prophecy, where Nayuta is probably one my favorite characters that Fujimoto has come up with. The core themes felt to hit close home with family relationships and how we come to understand each other as relatives, brothers, sisters, and l... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/drama/perfect-blue</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>(Film) Perfect Blue</title>
       <link>https://sandyuraz.com/drama/perfect-blue</link>
       <description>Brilliant. What an insight into not only Japanese, but overabundant consumer-based and generally pre-occupied contemporary societies. Satoshi Kon was a ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books">Sandy&#39;s Bookshelf 🔖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/wotakoi</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>WOTAKOI 💜</title>
+      <link>https://sandyuraz.com/books/wotakoi</link>
+      <description>Wotakoi is near and dear to my heart. It was somewhere around the start of the end of 2022, must have been early December. I got so sick that I’ll take calling me bedridden as a form of flattery. The mood was so special that I even slept in my living room for the entire week, moving all my bedsheets and bedroom-bound belongings over to my big comfy soft inviting w... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
     </item>
@@ -299,17 +310,6 @@
       <pubDate>Wed, 27 Dec 2023 18:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/komi</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Komi 🍡</title>
-      <link>https://sandyuraz.com/plastic/komi</link>
-      <description>Humanity as a whole has not been able to produce anything of higher quality than Komi Can’t Communicate. This is a statement that I have made before, and again, and once more for a goo... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Tue, 26 Dec 2023 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/sayonara-eri</guid>
@@ -317,6 +317,17 @@
       <title>(Goodreads) Sayonara Eri 📱</title>
       <link>https://sandyuraz.com/books/goodreads/sayonara-eri</link>
       <description>Art is the way to remember one’s subjectiv... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 26 Dec 2023 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/komi</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Komi 🍡</title>
+      <link>https://sandyuraz.com/plastic/komi</link>
+      <description>Humanity as a whole has not been able to produce anything of higher quality than Komi Can’t Communicate. This is a statement that I have made before, and again, and once more for a goo... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 26 Dec 2023 18:00:00 CST</pubDate>
     </item>

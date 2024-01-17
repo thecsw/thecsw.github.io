@@ -1,0 +1,24 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 16; 12024 H.E.
+* Gurren Lagann the Movie: Childhood’s End
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Went to the movie theater, which was rolling this classic. This
+masterpiece. This absolute magnum opus of anime as a form of art.
+
+They really don't make anything like this anymore. Masculinity did not exist
+before Gurren Lagann. If I ever could be the half of a man that Kamina is—I
+would be quite a man.
+
+It was great seeing Hiroyuki Imaishi giving an intro to the movie in theaters
+for the series' 15th anniversary. The whole theater was packed with eight true
+diggers.
+
+We even all took a picture doing a Kamina pose to commemorate TTGL. "Same time
+next week?—Absolutely."
