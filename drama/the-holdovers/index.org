@@ -1,0 +1,19 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 17; 12024 H.E.
+* The Holdovers
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Good movie just right for the Christmas spirit. Could very well be a new
+addition to many people's yearly catalogue of Winter movies.
+
+I love Paul Giamatti and it was personally great seeing him since my last
+rewatch of /Sideways/ and him playing Chuck Rhoades in /Billions/.
+
+Warm story wrapped up in a cozy atmosphere about people being people. My high
+school principal from years ago would have done the very same, I feel.
