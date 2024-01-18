@@ -43,3 +43,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 19 | [[file:little-odessa/poster.jpg][poster]] | [[little-odessa][*Little Odessa*]]                            | James Gray                   | United States       | 1994 |
 | 20 | [[file:barbarella/poster.jpg][poster]] | [[barbarella][*Barbarella*]]                               | Roger Vadim                  | France\ Italy       | 1968 |
 | 21 | [[file:gurren-lagann-movie-1/poster.jpg][poster]] | [[gurren-lagann-movie-1][*Gurren Lagann the Movie: Childhood’s End*]] | Hiroyuki Imaishi             | Japan               | 2008 |
+| 22 | [[file:the-holdovers/poster.jpg][poster]] | [[the-holdovers][*The Holdovers*]]                            | Alexander Payne              | United States       | 2023 |
