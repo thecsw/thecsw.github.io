@@ -8,6 +8,7 @@ nagito_export*
 
 # Ignore my emacs backup directory
 .saves
+.darkness
 # astrie's executables
 .astrie
 astrie
