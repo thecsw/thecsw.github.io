@@ -1,0 +1,55 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 20; 12024 H.E.
+* Scott Pilgrim vs. the World
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+WE ARE SEX BOB-OMB! ONE! TWO! THREE! FOUR!
+
+I couldn't believe my ears when one of my closest friends told me he has never
+seen Scott Pilgrim vs. the World. Just, Scott Pilgrim
+anything. Blew. My. Mind. Isn't that like borderline illegal, especially if you
+are a millennial or an older Gen Z? I knew that I had to fix him.
+
+We drove to the closest Barnes & Noble. I found a $4 DVD box for Scott Pilgrim
+vs. The World; on our drive back home, I was so excited to start the educational
+session on the anatomy of a good movie. Punch the disc into my bluray player,
+turn off the lights, turn on the project, and build that ``Somehow, heartbreak
+feels good in a place like this'' atmosphere that Nicole Kidman can't stop
+talking about every time you step foot in an ACM theater.
+
+About two hours later—we were weeping. What a class act
+masterpiece. Ramona..... if you can't find yourself someone like Ramon—why even
+try? The DVD I got also had a bunch of deleted footage, bloopers, and
+cast/director commentaries over the film reel. I NEVER knew that the original
+ending (called ``alternate'' in the DVD) was that Ramon leaves and Scott gets back
+together with Knives when she turns 18 in the final fight against Gideon. It
+felt so... wrong. More emotionally mature and overall adult? sure. But NOT IN MY
+UNITED STATES OF WHATEVER.
+
+What a charm. From the deleted scenes, I learned that Ramona apparently
+smokes. She is so cool. Like, fr fr, all we would chant together through the
+film was ``she is so cool.'' But you know who is as cool? Wallace Wells. Now
+that. The peak man, right here. I was flabbergasted when I learned that Kieren
+Culkin wasn't actually gay. Now that was one kind of a whiplash. Lucas Lee is
+Chris Evans' finest role. ``I wanna have his adopted babies.'' Touché Wallace,
+touché. I'd also watch all of Lucas Lee's movies, like /Let's Hope there is a
+Heaven/ or /Thrilled to be Here./
+
+The bloopers, documentaries, and commentaries I watched all indicate very
+strongly of how much respect and love all the actors, the cast, and the staff
+have for Edgar Wright (not unexpected). It's rare to find a movie that is
+enjoyed as much by the actors as does the audience. Crazy that they are
+apparently on the same email chain since 2009 and all have responded within
+three hours when asked to reprise their role in the anime adaptation.
+
+I wanted to give it 9/10 only because I think the recent anime, Scott Pilgrim
+Takes Off is EVEN better than the movie in some aspects (more Ramona and
+development, better suited medium)—it just DOES NOT feel right. Ramona is so
+cool. Wallace is so cool. Lucas Lee is so cool. Perfect film. 10/10. They really
+don't make 'em like they used to.
