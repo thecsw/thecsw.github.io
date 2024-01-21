@@ -1,0 +1,54 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 20; 12024 H.E.
+* Poor Things
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Barbie circa. 2024 and onward.
+
+Definitely a unique experience from all sorts of different angles. To get the
+obvious out of the way, the cinematography and filming is something I liked a
+lot. Very few to none of movies today would commit so hard to mainlining a b&w
+mode in 4:3 or 5:4 aspect ratio, all shot on a fish eye lens (at least a big
+portion of the final film).
+
+Colors, costume design, landscapes, makeup, and ambience—all wonderful, no
+questions asked. I saw the plot as a struggle between one's individuality versus
+the society's demands, or should we say, "how the polite society devours the
+soul?" Or how the childlike view of the world never goes unpunished? Or how the
+men feel possessive of womens' bodies and autonomies?
+
+All good topics explored in a dream-like way. It is a movie one should see in
+theaters—it even put me in a bit of a claustrophobia in how close most of the
+shots were and how "locked-in" the environments were. Did not expect to see Mark
+Ruffalo and William Dafoe. Both were fantastic, just as Emma Stone. Speaking of
+Emma Stone, what's up with all the sex scenes?
+
+I went with my good friend on a Saturday morning at 11am for the matinee
+screening and I personally don't have any kind of problem with sex or sexual
+content in movies. In fact, I studied erotic pictures in college film courses,
+so it's not a foreign idea to me. But the way it was depicted... felt simply
+revolting. I suppose that was the intended effect?
+
+Is it ethical to have sex with someone in an altered or non-fully
+consensual/understanding mindset? She *was* an infant, even in an adult woman's
+body. And the revolting effect of how disgusting those men were or how Mark
+Ruffalo played this run-of-the-mill sleazy already sealed the deal for me in
+first few nude scenes.
+
+But constantly seeing Emma Stone stark naked through and through, going from her
+finding the pleasure with an apple or a cucumber, to Mark Ruffalo piece of shit
+(I don't remember the character's name, it's just Mark Ruffalo), to the
+whorehouse in Paris, etc.—it all felt a little bit too excessive; surprisingly,
+even for me.
+
+I wouldn't say I know why or guess to what effect. It wasn't a turn-off, per se,
+but felt dragging at many moments, where even as an artistic liberty, it felt
+oversaturated. I realized that this isn't a rewatch material for me, but I
+respect the movie and the experience it gave me—that is something no one can
+take it away from it.
