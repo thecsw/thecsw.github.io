@@ -13,11 +13,11 @@ jobs:
 
       - name: Darkness 😳
         run: |
-          ./darkness.com build
+          ./darkness.com build -force
 
       - name: Gallery previews 🖼️
         run: |
-          ./darkness.com misa -gallery-previews
+          ./darkness.com misa -gallery-previews -force
 
       - name: Holoscene titles ✨
         run: |
