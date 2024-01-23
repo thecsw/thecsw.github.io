@@ -112,6 +112,9 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │         Yokohama Kaidashi Kikou       │
+ │        Deluxe Edition, Volume 2       │
+ ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 28   │
  ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 13       │
