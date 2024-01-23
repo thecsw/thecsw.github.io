@@ -20,29 +20,31 @@ But you know, the damn thing is\
 
 The design here is of course inspired by [[https://www.criterion.com/shop/browse/list?sort=spine_number][Criterion]].
 
-|  № |        | Title                                      | Director                     | Country                                | Year |
-|----+--------+--------------------------------------------+------------------------------+----------------------------------------+------|
-|  1 | [[file:high-and-low/poster.jpg][poster]] | [[high-and-low][*High and Low*]]                             | Akira Kurosawa               | Japan                                  | 1963 |
-|  2 | [[file:solaris/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/solaris/][*Solaris*]]                                  | Andrei Tarkovsky             | Soviet Union                           | 1972 |
-|  3 | [[file:man-with-a-movie-camera/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/cameraman/][*Man with a Movie Camera*]]                  | Dziga Vertov                 | Soviet Union                           | 1929 |
-|  4 | [[file:bullet-train/poster.jpg][poster]] | [[bullet-train][*Bullet Train*]]                             | David Leitch                 | United States                          | 2022 |
-|  5 | [[file:perfect-blue/poster.jpg][poster]] | [[perfect-blue][*Perfect Blue*]]                             | Satoshi Kon                  | Japan                                  | 1997 |
-|  6 | [[file:sex-lies-videotape/poster.jpg][poster]] | [[sex-lies-videotape][*sex, lies, and videotape*]]                 | Steven Soderbergh            | United States                          | 1989 |
-|  7 | [[file:millennium-actress/poster.jpg][poster]] | [[millennium-actress][*Millennium Actress*]]                       | Satoshi Kon                  | Japan                                  | 2001 |
-|  8 | [[file:the-last-seduction/poster.jpg][poster]] | [[the-last-seduction][*The Last Seduction*]]                       | John Dahl                    | United States                          | 1994 |
-|  9 | [[file:rose-hobart/poster.jpg][poster]] | [[rose-hobart][*Rose Hobart*]]                              | Joseph Cornell               | United States                          | 1936 |
-| 10 | [[file:party-girl/poster.jpg][poster]] | [[party-girl][*Party Girl*]]                               | Daisy von Scherler Mayer     | United States                          | 1995 |
-| 11 | [[file:shin-godzilla/poster.jpg][poster]] | [[shin-godzilla][*Shin Godzilla*]]                            | Hideaki Anno\ Shinji Higuchi | Japan                                  | 2016 |
-| 12 | [[file:blue-velvet/poster.jpg][poster]] | [[blue-velvet][*Blue Velvet*]]                              | David Lynch                  | United States                          | 1986 |
-| 13 | [[file:godzilla-minus-one/poster.jpg][poster]] | [[godzilla-minus-one][*Godzilla Minus One*]]                       | Takashi Yamazaki             | Japan                                  | 2023 |
-| 14 | [[file:tokyo-story/poster.jpg][poster]] | [[tokyo-story][*Tokyo Story*]]                              | Yasujiro Ozu                 | Japan                                  | 1953 |
-| 15 | [[file:dersu-uzala/poster.jpg][poster]] | [[dersu-uzala][*Dersu Uzala*]]                              | Akira Kurosawa               | Soviet Union\ Japan                    | 1975 |
-| 16 | [[file:in-the-mood-for-love/poster.jpg][poster]] | [[in-the-mood-for-love][*In the Mood for Love*]]                     | Wong Kar-wai                 | Hong Kong\ France                      | 2000 |
-| 17 | [[file:the-last-road/poster.jpg][poster]] | [[the-last-road][*The Last Road*]]                            | Leonid Menaker               | Soviet Union                           | 1986 |
-| 18 | [[file:past-lives/poster.jpg][poster]] | [[past-lives][*Past Lives*]]                               | Celine Song                  | United States                          | 2023 |
-| 19 | [[file:little-odessa/poster.jpg][poster]] | [[little-odessa][*Little Odessa*]]                            | James Gray                   | United States                          | 1994 |
-| 20 | [[file:barbarella/poster.jpg][poster]] | [[barbarella][*Barbarella*]]                               | Roger Vadim                  | France\ Italy                          | 1968 |
-| 21 | [[file:gurren-lagann-movie-1/poster.jpg][poster]] | [[gurren-lagann-movie-1][*Gurren Lagann the Movie: Childhood’s End*]] | Hiroyuki Imaishi             | Japan                                  | 2008 |
-| 22 | [[file:the-holdovers/poster.jpg][poster]] | [[the-holdovers][*The Holdovers*]]                            | Alexander Payne              | United States                          | 2023 |
-| 23 | [[file:poor-things/poster.jpg][poster]] | [[poor-things][*Poor Things*]]                              | Yorgos Lanthimos             | Ireland\ United Kingdom\ United States | 2023 |
-| 24 | [[file:scott-pilgrim/poster.jpg][poster]] | [[scott-pilgrim][*Scott Pilgrim vs. the World*]]              | Edgar Wright                 | United States\ United Kingdom\ Japan   | 2010 |
+|  № |        | Title                                      | Director                         | Country                                | Year |
+|----+--------+--------------------------------------------+----------------------------------+----------------------------------------+------|
+|  1 | [[file:high-and-low/poster.jpg][poster]] | [[high-and-low][*High and Low*]]                             | Akira Kurosawa                   | Japan                                  | 1963 |
+|  2 | [[file:solaris/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/solaris/][*Solaris*]]                                  | Andrei Tarkovsky                 | Soviet Union                           | 1972 |
+|  3 | [[file:man-with-a-movie-camera/poster.jpg][poster]] | [[https://sandyuraz.com/blogs/cameraman/][*Man with a Movie Camera*]]                  | Dziga Vertov                     | Soviet Union                           | 1929 |
+|  4 | [[file:bullet-train/poster.jpg][poster]] | [[bullet-train][*Bullet Train*]]                             | David Leitch                     | United States                          | 2022 |
+|  5 | [[file:perfect-blue/poster.jpg][poster]] | [[perfect-blue][*Perfect Blue*]]                             | Satoshi Kon                      | Japan                                  | 1997 |
+|  6 | [[file:sex-lies-videotape/poster.jpg][poster]] | [[sex-lies-videotape][*sex, lies, and videotape*]]                 | Steven Soderbergh                | United States                          | 1989 |
+|  7 | [[file:millennium-actress/poster.jpg][poster]] | [[millennium-actress][*Millennium Actress*]]                       | Satoshi Kon                      | Japan                                  | 2001 |
+|  8 | [[file:the-last-seduction/poster.jpg][poster]] | [[the-last-seduction][*The Last Seduction*]]                       | John Dahl                        | United States                          | 1994 |
+|  9 | [[file:rose-hobart/poster.jpg][poster]] | [[rose-hobart][*Rose Hobart*]]                              | Joseph Cornell                   | United States                          | 1936 |
+| 10 | [[file:party-girl/poster.jpg][poster]] | [[party-girl][*Party Girl*]]                               | Daisy von Scherler Mayer         | United States                          | 1995 |
+| 11 | [[file:shin-godzilla/poster.jpg][poster]] | [[shin-godzilla][*Shin Godzilla*]]                            | Hideaki Anno\ Shinji Higuchi     | Japan                                  | 2016 |
+| 12 | [[file:blue-velvet/poster.jpg][poster]] | [[blue-velvet][*Blue Velvet*]]                              | David Lynch                      | United States                          | 1986 |
+| 13 | [[file:godzilla-minus-one/poster.jpg][poster]] | [[godzilla-minus-one][*Godzilla Minus One*]]                       | Takashi Yamazaki                 | Japan                                  | 2023 |
+| 14 | [[file:tokyo-story/poster.jpg][poster]] | [[tokyo-story][*Tokyo Story*]]                              | Yasujiro Ozu                     | Japan                                  | 1953 |
+| 15 | [[file:dersu-uzala/poster.jpg][poster]] | [[dersu-uzala][*Dersu Uzala*]]                              | Akira Kurosawa                   | Soviet Union\ Japan                    | 1975 |
+| 16 | [[file:in-the-mood-for-love/poster.jpg][poster]] | [[in-the-mood-for-love][*In the Mood for Love*]]                     | Wong Kar-wai                     | Hong Kong\ France                      | 2000 |
+| 17 | [[file:the-last-road/poster.jpg][poster]] | [[the-last-road][*The Last Road*]]                            | Leonid Menaker                   | Soviet Union                           | 1986 |
+| 18 | [[file:past-lives/poster.jpg][poster]] | [[past-lives][*Past Lives*]]                               | Celine Song                      | United States                          | 2023 |
+| 19 | [[file:little-odessa/poster.jpg][poster]] | [[little-odessa][*Little Odessa*]]                            | James Gray                       | United States                          | 1994 |
+| 20 | [[file:barbarella/poster.jpg][poster]] | [[barbarella][*Barbarella*]]                               | Roger Vadim                      | France\ Italy                          | 1968 |
+| 21 | [[file:gurren-lagann-movie-1/poster.jpg][poster]] | [[gurren-lagann-movie-1][*Gurren Lagann the Movie: Childhood’s End*]] | Hiroyuki Imaishi                 | Japan                                  | 2008 |
+| 22 | [[file:the-holdovers/poster.jpg][poster]] | [[the-holdovers][*The Holdovers*]]                            | Alexander Payne                  | United States                          | 2023 |
+| 23 | [[file:poor-things/poster.jpg][poster]] | [[poor-things][*Poor Things*]]                              | Yorgos Lanthimos                 | Ireland\ United Kingdom\ United States | 2023 |
+| 24 | [[file:scott-pilgrim/poster.jpg][poster]] | [[scott-pilgrim][*Scott Pilgrim vs. the World*]]              | Edgar Wright                     | United States\ United Kingdom\ Japan   | 2010 |
+| 25 | [[file:fireball-werner-herzog/poster.jpg][poster]] | [[fireball-werner-herzog][*Fireball: Visitors from Darker Worlds*]]    | Werner Herzog\ Clive Oppenheimer | United States                          | 2020 |
+| 26 | [[file:mishima/poster.jpg][poster]] | [[mishima][*Mishima: A Life in Four Chapters*]]         | Paul Schrader                    | United States\ Japan                   | 1985 |

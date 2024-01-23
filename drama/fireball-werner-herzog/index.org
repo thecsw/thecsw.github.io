@@ -1,0 +1,26 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 21; 12024 H.E.
+* Fireball: Visitors from Darker Worlds
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+A Werner Herzog Documentary. That's kind of it. It evokes a similar feeling when
+someone hears, ``A Hideo Kojima Game.'' You know what you sign up for and if it's
+your style—you'll enjoy it. I have.
+
+I may not be the biggest fan of Werner Herzog, but I respect Werner Herzog
+immensely. Getting bits of his recent memoir through New York Review of Book,
+the title of which is absolutely brutal, ``Every Man for Himself and God Against
+All,'' I believe he is not only one of the most unique directors of all time, but
+a man who's name will outlive his own works.
+
+If you enjoy slower documentaries with Werner Herzog's peculiar Bavarian accent
+describing a place in Mexico as, ``so godforsaken it makes you want to cry;''
+panning over some dogs and saying, ``the dogs here, like all dogs on this
+planet, are just too dimwitted to understand that three quarters of all species
+were extinguished by the event that took place right here''---this is for you.
