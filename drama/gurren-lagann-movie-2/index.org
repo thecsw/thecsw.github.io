@@ -1,0 +1,52 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 23; 12024 H.E.
+* Gurren Lagann the Movie: The Lights in the Sky Are Stars
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+So this is the power of the spiral... Not bad, not bad at all...
+
+YES. YES. YES! THE SUPREME TESTAMENT TO THE INDOMITABILITY OF THE INFINITE HUMAN
+SPIRIT. DRILL YOURSELF THROUGH THE HEAVENS; CREATE THE HEAVENS; PUT YOUR SOUL
+INTO DRILLING YOUR PATH TOWARDS TOMORROW!!
+
+Tengen Toppa Gurren Lagann anything is an ode to what it means to be a
+human. Distilled down to its very core elements, present in such a pure,
+unadulterated, and Kamina-level masculine form that the form it has sends a bing
+bang explosion shockwave through your system. I always thought that if I could
+only keep one book with me for the rest of time, it would be Brothers
+Karamazov. If I could only keep one anime for the rest time of time, it WOULD BE
+TENGEN TOPPA GURREN LAGANN.
+
+Connecting to my recent watch of [[https://sandyuraz.com/drama/mishima/][Mishima: A Life in Four Chapters]]—we are in the
+presence of the what Hiroyuki Imaishi said in the opening sequence, "we didn't
+care then about market or money, we just wanted to make something that we would
+be proud of." Believe in yourself that believes in you. It't not reality
+defining your imagination, but the other way around. Your imagination shapes the
+world you know and the reality you live in. That's how a drill works!
+
+If Evangelion sends the message that wherever is good if you think so, then
+Gurren Lagann punches a hole in that, literally, through the Heaven of the
+Instrumentality Project, loudly, throwing galaxies, with the robots that just
+keep getting bigger and never stop getting bigger, the magma of our souls
+burning with a mighty flame—WE WILL FIGHT FOR THE BETTER TOMORROW. BECAUSE THAT
+IS THE WAY TEAM DAI-GURREN ROLLS!
+
+*WHO THE HELL DO YOU THINK WE ARE?!*
+
+-----
+
+Fantom Events were rolling the second part in ACM. Same random group of true
+drillers met for two weeks and we all took a picture in a Kamina pose to pay our
+due respects.
+
+I'm the fourth one from the left!
+
+#+begin_gallery
+- [[https://photos.sandyuraz.com/coy][TTGL AMC GURREN KAMINA SQUAD]] :flex 85
+#+end_gallery
