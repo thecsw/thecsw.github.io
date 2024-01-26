@@ -49,3 +49,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 25 | [[file:fireball-werner-herzog/poster.jpg][poster]] | [[fireball-werner-herzog][*Fireball: Visitors from Darker Worlds*]]                    | Werner Herzog\ Clive Oppenheimer | United States                          | 2020 |
 | 26 | [[file:mishima/poster.jpg][poster]] | [[mishima][*Mishima: A Life in Four Chapters*]]                         | Paul Schrader                    | United States\ Japan                   | 1985 |
 | 27 | [[file:gurren-lagann-movie-2/poster.jpg][poster]] | [[gurren-lagann-movie-2][*Gurren Lagann the Movie: The Lights in the Sky Are Stars*]] | Hiroyuki Imaishi                 | Japan                                  | 2009 |
+| 28 | [[file:the-cassandra-cat/poster.jpg][poster]] | [[the-cassandra-cat][*The Cassandra Cat*]]                                        | Vojtěch Jasný                    | Czechoslovakia                         | 1963 |
