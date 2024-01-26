@@ -1,0 +1,43 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 25; 12024 H.E.
+* The Cassandra Cat
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+One of the most impressive and unique color gradings I've seen for movies of this era.
+
+I'm always in awe with how good and almost magical a restoration can feel,
+especially when done from original negatives and what I imagine, a lot of time
+of fixing and cleaning up thousands of instances of dirt, grain, film tears, yet
+still keeping that balance of staying true to how the movie was supposed to feel
+and look when initially sculpted.
+
+Saw this listed on Criterion Channel as a ``Cat Movie,'' and I don't really
+watch a lot of Czech movies in the wild—seemed like a perfect match after a long
+Thursday. And you know what. It was so good! I liked the social commentary at
+heart, with revealing the people's true identities, painting their whole bodies
+as either liars (violet), cheaters (yellow), thieves (gray), and in loveee
+(red). The cat needs to look at someone for them to get colored.
+
+It felt somewhat similar to the play, ``The Star Without a Name'' from 1944 by
+Mihail Sebastian and later its Soviet adaptation, [[https://sandyuraz.com/writings/nameless_star/][``The Nameless Star,'']] directed
+by Mikhail Kozakov, starring Igor Kostolevsky as Marin Miroiu and Anastasiya
+Vertinskaya as Mona (totally go see it if you haven't). The provincial town
+lifestyle, of everyone constantly in each others' businesses. Speaking of Mona,
+one of the reasons I noticed the movie is just by how drop-dead stunningly
+coma-inducing ethereally soft gorgeous Emília Vášáryová is as Diana.
+
+Last but not least, I should make a full circle and praise the colors and how
+really, revolutionary it is at that time to go and paint entire sequences in
+solid colors, as if we were watching a theater play. Overall, I enjoyed it very
+much, probably given to the general comedic and at the same time, observational
+nature of the film!
+
+#+begin_gallery
+- [[https://photos.sandyuraz.com/cassandra-cat][STUNNING]] :flex 90 :no-zoom
+#+end_gallery
