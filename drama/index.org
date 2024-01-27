@@ -50,3 +50,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 26 | [[file:mishima/poster.jpg][poster]] | [[mishima][*Mishima: A Life in Four Chapters*]]                         | Paul Schrader                    | United States\ Japan                   | 1985 |
 | 27 | [[file:gurren-lagann-movie-2/poster.jpg][poster]] | [[gurren-lagann-movie-2][*Gurren Lagann the Movie: The Lights in the Sky Are Stars*]] | Hiroyuki Imaishi                 | Japan                                  | 2009 |
 | 28 | [[file:the-cassandra-cat/poster.jpg][poster]] | [[the-cassandra-cat][*The Cassandra Cat*]]                                        | Vojtěch Jasný                    | Czechoslovakia                         | 1963 |
+| 29 | [[file:le-samourai/poster.jpg][poster]] | [[le-samourai][*Le Samouraï*]]                                              | Jean-Pierre Melville             | France\ Italy                          | 1967 |

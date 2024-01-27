@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Thu, 25 Jan 2024 00:00:00 UTC</pubDate>
-    <lastBuildDate>Fri, 26 Jan 2024 05:51:20 UTC</lastBuildDate>
+    <pubDate>Fri, 26 Jan 2024 00:00:00 UTC</pubDate>
+    <lastBuildDate>Sat, 27 Jan 2024 22:41:00 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>My friend, nothing exists here. Some would call this a “40...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/le-samourai</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Le Samouraï</title>
+      <link>https://sandyuraz.com/drama/le-samourai</link>
+      <description>Now this is my kind of movie and tempo. A perfect blend of crime and police procedurals of the 1940s, absolute style of the 50s, and pop culture of the 60s. It’s slick, tense, and has a patience of a samurai when it comes to following the traces of gorgeous Al... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Fri, 26 Jan 2024 18:00:00 CST</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
@@ -213,22 +224,22 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/party-girl</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/shin-godzilla</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Party Girl</title>
-      <link>https://sandyuraz.com/drama/party-girl</link>
-      <description>Good vibe and ambience of the rowdy 90s—unfortunately, didn’t strike a cord with me on the Criterion’s re... [ Continue reading... ]</description>
+      <title>(Film) Shin Godzilla</title>
+      <link>https://sandyuraz.com/drama/shin-godzilla</link>
+      <description>I adore the fact that the biggest and baddest monster in this entire movie isn’t laser-beam-shooting-instantly-healing-born-from-radiation-made-out-of-pure-fear Godzilla, but the bureaucracy of the modern world; how would the government realistically respond to something as Earth-shattering and “not in the book” calamity like a sea monster that levels cities with a swing of the arm or all-pierc... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 03 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/shin-godzilla</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/party-girl</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Shin Godzilla</title>
-      <link>https://sandyuraz.com/drama/shin-godzilla</link>
-      <description>I adore the fact that the biggest and baddest monster in this entire movie isn’t laser-beam-shooting-instantly-healing-born-from-radiation-made-out-of-pure-fear Godzilla, but the bureaucracy of the modern world; how would the government realistically respond to something as Earth-shattering and “not in the book” calamity like a sea monster that levels cities with a swing of the arm or all-pierc... [ Continue reading... ]</description>
+      <title>(Film) Party Girl</title>
+      <link>https://sandyuraz.com/drama/party-girl</link>
+      <description>Good vibe and ambience of the rowdy 90s—unfortunately, didn’t strike a cord with me on the Criterion’s re... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 03 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -242,17 +253,6 @@
       <description>I was talking to Quiller on Letterboxd and the closing thoughts of h... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 02 Jan 2024 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Goodreads) Delicious in Dungeon 🥩</title>
-      <link>https://sandyuraz.com/books/goodreads/delicious-in-dungeon</link>
-      <description>Brings out the charm of more vintage RPGs and food wars style preparations of monster ingredients. Superb art style! I enjoyed reading the first volume, even though dungeon-crawling and fantasy settings are unfortunately not my preferred genre. Still, I would be interested to know how it goes, especially since TRIGGER is coming out with the anime adaptation of it pretty soon. I’ll try to stay up to date, maybe buy the manga, and read it when the time... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
@@ -288,6 +288,28 @@
       <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Delicious in Dungeon 🥩</title>
+      <link>https://sandyuraz.com/books/goodreads/delicious-in-dungeon</link>
+      <description>Brings out the charm of more vintage RPGs and food wars style preparations of monster ingredients. Superb art style! I enjoyed reading the first volume, even though dungeon-crawling and fantasy settings are unfortunately not my preferred genre. Still, I would be interested to know how it goes, especially since TRIGGER is coming out with the anime adaptation of it pretty soon. I’ll try to stay up to date, maybe buy the manga, and read it when the time... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/bullet-train</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Bullet Train</title>
+      <link>https://sandyuraz.com/drama/bullet-train</link>
+      <description>john wick + lmf... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/drama/high-and-low</guid>
@@ -310,17 +332,6 @@
       <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/books">Sandy&#39;s Bookshelf 🔖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/wotakoi</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>WOTAKOI 💜</title>
-      <link>https://sandyuraz.com/books/wotakoi</link>
-      <description>Wotakoi is near and dear to my heart. It was somewhere around the start of the end of 2022, must have been early December. I got so sick that I’ll take calling me bedridden as a form of flattery. The mood was so special that I even slept in my living room for the entire week, moving all my bedsheets and bedroom-bound belongings over to my big comfy soft inviting w... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/drama/perfect-blue</guid>
@@ -332,13 +343,13 @@
       <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <category domain="https://sandyuraz.com/books">Sandy&#39;s Bookshelf 🔖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/bullet-train</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/books/wotakoi</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Bullet Train</title>
-      <link>https://sandyuraz.com/drama/bullet-train</link>
-      <description>john wick + lmf... [ Continue reading... ]</description>
+      <title>WOTAKOI 💜</title>
+      <link>https://sandyuraz.com/books/wotakoi</link>
+      <description>Wotakoi is near and dear to my heart. It was somewhere around the start of the end of 2022, must have been early December. I got so sick that I’ll take calling me bedridden as a form of flattery. The mood was so special that I even slept in my living room for the entire week, moving all my bedsheets and bedroom-bound belongings over to my big comfy soft inviting w... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 18:00:00 CST</pubDate>
     </item>
@@ -475,17 +486,6 @@
       <pubDate>Wed, 20 Dec 2023 18:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/onegin</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Goodreads) Eugene Onegin 🔫</title>
-      <link>https://sandyuraz.com/books/goodreads/onegin</link>
-      <description>Encyclopedi... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Tue, 19 Dec 2023 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/justice</guid>
@@ -493,6 +493,17 @@
       <title>Justice 🥖</title>
       <link>https://sandyuraz.com/plastic/justice</link>
       <description>Remember how I talked on and on about my absolute love for Helltaker? Justice is my everything. ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 19 Dec 2023 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/onegin</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Goodreads) Eugene Onegin 🔫</title>
+      <link>https://sandyuraz.com/books/goodreads/onegin</link>
+      <description>Encyclopedi... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 19 Dec 2023 18:00:00 CST</pubDate>
     </item>
