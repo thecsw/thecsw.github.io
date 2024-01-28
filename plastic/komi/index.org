@@ -1,4 +1,4 @@
-#+date: 360; 12023 H.E.
+#+date: 360; 12023 H.E. 2000
 #+options: preview:preview.jpg preview-height:1000 preview-width:1317
 * Komi 🍡
 
