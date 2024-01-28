@@ -3,7 +3,7 @@
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <pubDate>Fri, 26 Jan 2024 14:00:00 UTC</pubDate>
-    <lastBuildDate>Sun, 28 Jan 2024 19:49:14 UTC</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2024 19:56:39 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -70,22 +70,22 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/poor-things</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/scott-pilgrim</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Poor Things</title>
-      <link>https://sandyuraz.com/drama/poor-things</link>
-      <description>Barbie circa. 2024 a... [ Continue reading... ]</description>
+      <title>(Film) Scott Pilgrim vs. the World</title>
+      <link>https://sandyuraz.com/drama/scott-pilgrim</link>
+      <description>WE ARE SEX BOB-OMB! ONE! TWO! TH... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 20 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/scott-pilgrim</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/poor-things</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Scott Pilgrim vs. the World</title>
-      <link>https://sandyuraz.com/drama/scott-pilgrim</link>
-      <description>WE ARE SEX BOB-OMB! ONE! TWO! TH... [ Continue reading... ]</description>
+      <title>(Film) Poor Things</title>
+      <link>https://sandyuraz.com/drama/poor-things</link>
+      <description>Barbie circa. 2024 a... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 20 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -277,17 +277,6 @@
       <pubDate>Mon, 01 Jan 2024 20:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) sex, lies, and videotape</title>
-      <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
-      <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
@@ -295,6 +284,17 @@
       <title>(Goodreads) Delicious in Dungeon 🥩</title>
       <link>https://sandyuraz.com/books/goodreads/delicious-in-dungeon</link>
       <description>Brings out the charm of more vintage RPGs and food wars style preparations of monster ingredients. Superb art style! I enjoyed reading the first volume, even though dungeon-crawling and fantasy settings are unfortunately not my preferred genre. Still, I would be interested to know how it goes, especially since TRIGGER is coming out with the anime adaptation of it pretty soon. I’ll try to stay up to date, maybe buy the manga, and read it when the time... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) sex, lies, and videotape</title>
+      <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
+      <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -950,33 +950,11 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-aqua</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Ichika 👜</title>
-      <link>https://sandyuraz.com/plastic/ichika</link>
-      <description>Ichika doesn’t need many angles to capture her beauty – she already i... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-rem</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Rem 🌸</title>
-      <link>https://sandyuraz.com/plastic/winter-rem</link>
-      <description>“When you said that you hate yourself, it made me want to tell you all the wonderful things I know about you... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Darkness 🧤</title>
-      <link>https://sandyuraz.com/plastic/darkness-winter</link>
-      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
+      <title>Winter Aqua 🍶</title>
+      <link>https://sandyuraz.com/plastic/winter-aqua</link>
+      <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable – like at all. Sure, she is usually more trouble than she’s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
     </item>
@@ -994,11 +972,11 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-aqua</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Aqua 🍶</title>
-      <link>https://sandyuraz.com/plastic/winter-aqua</link>
-      <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable – like at all. Sure, she is usually more trouble than she’s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
+      <title>Winter Darkness 🧤</title>
+      <link>https://sandyuraz.com/plastic/darkness-winter</link>
+      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
     </item>
@@ -1010,6 +988,28 @@
       <title>Winter Ram 🧣</title>
       <link>https://sandyuraz.com/plastic/winter-ram</link>
       <description>Re:Zero is probably on of the best animated shows ever made. Truly, the Brothers Karamazov of anime (or maybe Tengen Toppa Gurren Lagann? why not both..... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Ichika 👜</title>
+      <link>https://sandyuraz.com/plastic/ichika</link>
+      <description>Ichika doesn’t need many angles to capture her beauty – she already i... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-rem</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Winter Rem 🌸</title>
+      <link>https://sandyuraz.com/plastic/winter-rem</link>
+      <description>“When you said that you hate yourself, it made me want to tell you all the wonderful things I know about you... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
     </item>
@@ -1159,22 +1159,22 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/deterrence</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/naked</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>What are leader’s ethics on nuclear deterrence?</title>
-      <link>https://sandyuraz.com/stories/deterrence</link>
-      <description>My assistant came running to me, looking all disturbed and worried. I wonder what could have gotten... [ Continue reading... ]</description>
+      <title>The awkward moment of me being naked at a conference</title>
+      <link>https://sandyuraz.com/stories/naked</link>
+      <description>I can’t be late. I can’t be late. I cannot be late. Donald Knuth himself is coming to the presentation tonight; I want to see him and all the other special guests we are having. Jame and Ethan should already be there. Hopefully it doesn’t start... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 03 May 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/naked</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/deterrence</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The awkward moment of me being naked at a conference</title>
-      <link>https://sandyuraz.com/stories/naked</link>
-      <description>I can’t be late. I can’t be late. I cannot be late. Donald Knuth himself is coming to the presentation tonight; I want to see him and all the other special guests we are having. Jame and Ethan should already be there. Hopefully it doesn’t start... [ Continue reading... ]</description>
+      <title>What are leader’s ethics on nuclear deterrence?</title>
+      <link>https://sandyuraz.com/stories/deterrence</link>
+      <description>My assistant came running to me, looking all disturbed and worried. I wonder what could have gotten... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 03 May 2022 18:00:00 CDT</pubDate>
     </item>
@@ -1247,22 +1247,22 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/games</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>What do I look like 🤳</title>
-      <link>https://sandyuraz.com/blogs/looks</link>
-      <description>I never intended for my website or persona on the internet to be hidden or anonymized. The online appearance I keep is pretty mainstream, yet predominantly isolated to sandyuraz.com. I have my real pictures scattered around from different platforms I used to have; allow me to share some... [ Continue reading... ]</description>
+      <title>Video games are kinda boring 🕹</title>
+      <link>https://sandyuraz.com/blogs/games</link>
+      <description>I observe that video games just aren’t that fun. It is not my intention now to trivialize it down to oh cmon bro, it’s pixels changing on your monitor, but to discuss the effect of video games on us, the entertainment value, and its necessity (or its uselessness) in our lives. Nonetheless, prepare for a hot and a subjective take.... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/weird</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Don’t be weird about it 🥡</title>
-      <link>https://sandyuraz.com/blogs/weird</link>
-      <description>An alternative title I had for this essay was Embracing Yourself, embracing your interests, and staying true to yourself. I’m getting ahead of myself. Let’s walk through some of my thought processes more c... [ Continue reading... ]</description>
+      <title>What do I look like 🤳</title>
+      <link>https://sandyuraz.com/blogs/looks</link>
+      <description>I never intended for my website or persona on the internet to be hidden or anonymized. The online appearance I keep is pretty mainstream, yet predominantly isolated to sandyuraz.com. I have my real pictures scattered around from different platforms I used to have; allow me to share some... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 18:00:00 CDT</pubDate>
     </item>
@@ -1280,11 +1280,11 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/games</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/weird</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Video games are kinda boring 🕹</title>
-      <link>https://sandyuraz.com/blogs/games</link>
-      <description>I observe that video games just aren’t that fun. It is not my intention now to trivialize it down to oh cmon bro, it’s pixels changing on your monitor, but to discuss the effect of video games on us, the entertainment value, and its necessity (or its uselessness) in our lives. Nonetheless, prepare for a hot and a subjective take.... [ Continue reading... ]</description>
+      <title>Don’t be weird about it 🥡</title>
+      <link>https://sandyuraz.com/blogs/weird</link>
+      <description>An alternative title I had for this essay was Embracing Yourself, embracing your interests, and staying true to yourself. I’m getting ahead of myself. Let’s walk through some of my thought processes more c... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 18:00:00 CDT</pubDate>
     </item>
@@ -1377,17 +1377,6 @@
       <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/friend2</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>We were once friends. What happened to us? Part II</title>
-      <link>https://sandyuraz.com/stories/friend2</link>
-      <description>‘Sergey, dear, how was your flight in? How is your family?’ her sweet motherly tone only softened over the years since I’ve last ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/soul</guid>
@@ -1395,6 +1384,17 @@
       <title>For your soul 💃</title>
       <link>https://sandyuraz.com/blogs/soul</link>
       <description>I wish to share this beautiful son... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/friend2</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>We were once friends. What happened to us? Part II</title>
+      <link>https://sandyuraz.com/stories/friend2</link>
+      <description>‘Sergey, dear, how was your flight in? How is your family?’ her sweet motherly tone only softened over the years since I’ve last ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
     </item>
@@ -1423,11 +1423,11 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/tacobell</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/today</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Write a report? But I want to go to Taco Bell</title>
-      <link>https://sandyuraz.com/stories/tacobell</link>
-      <description>Nothing felt the same as it used to. I looked around the room, everything seems to be in place, but... this feeling. This feeling of uneasiness and doubts is sinking deeper and deeper into me. Stuff like this always happens for the wrong reasons, at the wrong times. I think to myself, why do I allow it to ... [ Continue reading... ]</description>
+      <title>Today must be the day when I get the courage</title>
+      <link>https://sandyuraz.com/stories/today</link>
+      <description>Today must be the day. How could it not? Tonight’s the night. Look at the stars, marvel at their beauty. The breeze is so fresh as if it came flying straight from the Mediterranean lands. On a quiet night such as this, it is no secret that the leaves of nearby trees are all singing of God. The Universe itself is singing a lullaby, preparing its subordinates to fall asleep before the new tomorrow. Must be a shame that it will all end for me today. It must... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 06 Mar 2022 18:00:00 CST</pubDate>
     </item>
@@ -1445,11 +1445,11 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/today</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/tacobell</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Today must be the day when I get the courage</title>
-      <link>https://sandyuraz.com/stories/today</link>
-      <description>Today must be the day. How could it not? Tonight’s the night. Look at the stars, marvel at their beauty. The breeze is so fresh as if it came flying straight from the Mediterranean lands. On a quiet night such as this, it is no secret that the leaves of nearby trees are all singing of God. The Universe itself is singing a lullaby, preparing its subordinates to fall asleep before the new tomorrow. Must be a shame that it will all end for me today. It must... [ Continue reading... ]</description>
+      <title>Write a report? But I want to go to Taco Bell</title>
+      <link>https://sandyuraz.com/stories/tacobell</link>
+      <description>Nothing felt the same as it used to. I looked around the room, everything seems to be in place, but... this feeling. This feeling of uneasiness and doubts is sinking deeper and deeper into me. Stuff like this always happens for the wrong reasons, at the wrong times. I think to myself, why do I allow it to ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 06 Mar 2022 18:00:00 CST</pubDate>
     </item>
@@ -1826,600 +1826,6 @@
       <description>I like Go and I think it’s a great language. I built memeinvestor_bot, which was one of the interactive reddit bots on the platform at the time. So you can imagine we used quite a bit of praw. About year and a half later, the python codebase became so disgusting and unmaintainable, where I decided to re-write the whole thing in Go. (The old &#34;let’s rewrite everything&#34; syndrome&#34;) Re-write would be too strong, re-build from scratch is what the... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 26 Mar 2019 18:00:00 CDT</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/darkness</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>A crusader builds your website 🗡</title>
-      <link>https://sandyuraz.com/projects/darkness</link>
-      <description>I built my own static website generator to use for sandyuraz.com. For years, I have tried building my website with Hugo, Asicidoctor, and finally this. However, it was never really what I was precisely looking for. One of the is too complex, other could be too restrictive, the last was simply cursed. I set out on making my own within a span of a couple of days during my last Spring Break of senior year in college. What a beaut she was, ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/shokugeki">Cooking together 🍜</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/shokugeki</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Cooking together 🍜</title>
-      <link>https://sandyuraz.com/shokugeki</link>
-      <description>I get excited at the idea that there are still flavors to discover. Find spices to our techniques. Most of all — cooking need... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/mira</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Reddit API wrapper for gophers 🎩</title>
-      <link>https://sandyuraz.com/projects/mira</link>
-      <description>I like Go and I think it’s a great language. I built memeinvestor_bot, which was one of the interactive reddit bots on the platform at the time. So you can imagine we used quite a bit of praw. About year and a half later, the python codebase became so disgusting and unmaintainable, where I decided to re-write the whole thing in Go. (The old &#34;let’s rewrite everything&#34; syndrome&#34;) Re-write would be too strong, re-build from scratch is what the... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>That’s drama.</title>
-      <link>https://sandyuraz.com/drama</link>
-      <description>Thank you, Alfred Hitchcock. Welcome to a collection of selected thoughts—they can be very long or very short. It only means that there was something left unsaid; the void I wante... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/art</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The Art of Computer Science ❤️</title>
-      <link>https://sandyuraz.com/projects/art</link>
-      <description>My name is Sandy Urazayev and I would like to invite you to my talk “The Art of Computer Science”. This talk has been sponsored by KU chapt... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Projectsss 🍥</title>
-      <link>https://sandyuraz.com/projects</link>
-      <description>What have I done? What do I do now? Ye shall not despair. Young boy, step forth and become ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/chores</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>I enjoy doing chores 🧽</title>
-      <link>https://sandyuraz.com/blogs/chores</link>
-      <description> [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/dream</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The Dream of a Ridiculous Man 💤</title>
-      <link>https://sandyuraz.com/books/goodreads/dream</link>
-      <description>If you don’t have the time, energy, or the right circumstances to dive deep and expose yourself to Dostoevsky’s larger novels, like Brothers Karamazov, The Idiot, Crime and Punishment, etc.—The Dream of a Ridiculous Man would be a perfect introduction to Fyodor Mikhailovich. I consider it to be the condensed version of Dostoevskian p... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/tired</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>I’m a little tired 🍙</title>
-      <link>https://sandyuraz.com/blogs/tired</link>
-      <description> [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/memepolice_bot</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Spot and Prosecute Bad Memes 👮‍♀️</title>
-      <link>https://sandyuraz.com/projects/memepolice_bot</link>
-      <description>I remember the days when r/PewdiepieSubmissions had fewer than 10 thousand members. I was among one of the first posters there and I thought the quality of some submissions was really bad. So what can a 17 year old high school computer scientist do? Make a bot that scans a reddit submission for stale memes. Call it the MemePolice_bot. More details in the ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/.">Are you lost?</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/.</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Are you lost?</title>
-      <link>https://sandyuraz.com/.</link>
-      <description>My friend, nothing exists here. Some would call this a “40... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/super</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Finding Meaning in the Void ✨</title>
-      <link>https://sandyuraz.com/projects/super</link>
-      <description>I was a part of the Summer Undergraduate Program for Engineering Research (SUPER) research internship program during the Summer of 2021. Absolutely loved working for NCAR at Earth Observing L... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/anime">Anime is dying 🍶</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/anime</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Anime is dying 🍶</title>
-      <link>https://sandyuraz.com/anime</link>
-      <description>Sandy is (no... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/kaylee</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Build a cheap self-driving car 🚗</title>
-      <link>https://sandyuraz.com/projects/kaylee</link>
-      <description>In the Fall of 2020 I was enrolled in EECS 388: Embedded Systems. It’s an introduction course into lower level things, such as RISC-V, Computer Architecture, CPU scheduling, and other fun stuff. The course itself was accompanied by a lab section, where we wrote some C+Assembly to control UART signals, some li... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/writings">I write 🥂</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/writings</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>I write 🥂</title>
-      <link>https://sandyuraz.com/writings</link>
-      <description>Well, I graduated. Woohoo! 🥳 Over the years, I wrote many different articles, essays, and random musings; it was fun. A realization came to me – there are some pieces I have that are too big for a blog, nor are they stories. Please enjoy some of my longer writings below. I intend to continue writing something more intriguing, flashier, and more flamboyant! 🎇... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/haruhi</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>HTTP just like SOS Brigade 🐰</title>
-      <link>https://sandyuraz.com/projects/haruhi</link>
-      <description>Welcome! This is Sandy’s take on making a simple yet powerful enough HTTP library. Inspired by python’s... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Plastic love 🥖</title>
-      <link>https://sandyuraz.com/plastic</link>
-      <description>“Don’t tell me the moon is shining; show me the glint of light on broken glass.” – Ant... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/crypto</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>I write crypto in python  🍾</title>
-      <link>https://sandyuraz.com/projects/crypto</link>
-      <description>In Spring 2020, the COVID semester, I was taking MATH 601: Cryptography that was at the time taught by Emily Witt. Probably one of the hardest undergraduate courses I ever had to take! And definitely the one I enjoyed the most. We basically covered a big chunk of Group and Ring theory as background material during our first week. I just learned the material for my separate Group Theory class from Professor Witt in a ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/doge</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Farm Clicks with Doge Clicker 🐶</title>
-      <link>https://sandyuraz.com/projects/doge</link>
-      <description>This is by far the oldest, yet most complete project I could find. I think I was a freshman in high school and made this doge farm clicker for some kind of a in-school programming competition (got the second place lol). This is yet another proof that I was into Doge before it was cool. Way back in ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/phantasos</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Phantasos - Goodbye, CS@KU 🥑</title>
-      <link>https://sandyuraz.com/projects/phantasos</link>
-      <description>In my senior year of Computer Science bachelors, we undertook a year-long team project, which is called to be our capstone. I worked in a fantastic team with Grant Holmes, Malena Schoeni, Carter Hurrod, and Rodrigo Figueroa! My role in the group was more of a manager, such as keeping up with our deliverables, communication, conflict resolution, and pro... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/books">Sandy&#39;s Bookshelf 🔖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Goodreads 📔</title>
-      <link>https://sandyuraz.com/books/goodreads</link>
-      <description>The short and sweet ones usually go to my Goodreads 📔, so check it out! Now, Behold! My goodread... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/lenna</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Compress images with PCA  🎱</title>
-      <link>https://sandyuraz.com/projects/lenna</link>
-      <description>MATH 596: Computational Data Science by Erik S. Van Vleck was quite a trip. The philosophy of the course was &#34;sink-or-swim&#34;, which means that you either succeed in the class and what’s expected or you just fail it completely. Never have I ever gone through a more brutal multivariate statistics crash course. I must admit that I met some wonderful people there that I never would have had a chance to make an acquaintance with, if it weren’t for t... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/morse</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Thinkpad Speaks in Morse Code 🆘</title>
-      <link>https://sandyuraz.com/projects/morse</link>
-      <description>Morse code powered thinklight. Use your thinkpad to spread the word of Morse! This is some simple script I finandled around during one beautiful morning when I woke too early. Super simple, it takes your command line input and turns your led into mors... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/monokuma</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Shortening URLs in style 🧸</title>
-      <link>https://sandyuraz.com/projects/monokuma</link>
-      <description>This is Sandy’s custom URL shortener that works through Redis. I wanted to learn how to use custom TLS Redis and I wanted to make a URL shortener. So I did both. ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/memeinvestor_bot</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Become a True Meme Investor 💸</title>
-      <link>https://sandyuraz.com/projects/memeinvestor_bot</link>
-      <description>Take yourself back to S... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/sentocks</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Sentocks or Sentimental stocks 💇‍♀️</title>
-      <link>https://sandyuraz.com/projects/sentocks</link>
-      <description>A group of my friends and I created a platform that continuously listens to tweets mentioning various publicly traded companies and we compare the general audience’s sentiment to companies’ stock value! It was a fun project we did for EECS 448: Software Engineering. The project is well-documented with some pretty pictures and results that we got. Answer? Well, after applying some signal processing techniques, filtering out bad data, matching timesets, we found that there is a very loose correlation. Sometimes it’s very good! Sometimes, it’s t... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/katya</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Katya or The Liberated Corpus 🙈</title>
-      <link>https://sandyuraz.com/projects/katya</link>
-      <description>The need for linguistic analysis has been increasing steadily over the past couple of decades. As the interest and the number of research questions increased, so did the demand for amount of language data and its observations. Unfortunately, one cannot spend his time meticulously searching for words and constructs in question, as such endeavor might take a lifetime or two to complete. Everyone should agree that human time should be spent more preciously, so we employ computers and automated systems to collect and analyze linguistic data... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/liking</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>I like it because I do 🥟</title>
-      <link>https://sandyuraz.com/blogs/liking</link>
-      <description> [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/diffeq</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Differential equations oracles 🧎‍♀️</title>
-      <link>https://sandyuraz.com/projects/diffeq</link>
-      <description>I also worked as a grader for Ordinary Differential Equations course (MATH 220), taught by Professor Van Vleck from the department of Mathematics at University of Kansas. Interestingly enough, one of my responsibilities was also typing up all the weekly homework solutions so that they can be used as &#34;oracles&#34;, i.e. &#34;source of truth&#34; when grading students’ su... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/nakano</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Nakano: Empower Your Peers 🍵</title>
-      <link>https://sandyuraz.com/projects/nakano</link>
-      <description>Hackathons are fun and our university, KU ACM chapter specifically hosts an MLH hackathon every year - HackKU (archive of 2022). I was always in a seat of a semi-organizer, so I could never participate. The last time I did when I was a freshman, I had to forfeit and leave the competition because the mother of all colds decided to strike me down at the end of the first day of the ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/senior</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Senior</title>
-      <link>https://sandyuraz.com/blogs/senior</link>
-      <description> [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/lhopital</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>L&#39;Hôpital’s Rule cheatsheet 🏥</title>
-      <link>https://sandyuraz.com/projects/lhopital</link>
-      <description>Before I became a tutor at the School of Engineering, as one of the support materials I made for Calculus II was a quick web presentation on L&#39;Hôpital’s Rule, its importance and the motivation ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/mips</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Build a MIPS Emulator in VHDL 💼</title>
-      <link>https://sandyuraz.com/projects/mips</link>
-      <description>For my EECS 645: Computer Architecture, the final project of the course involved us designining our very own CPU microarchitecture that accepts a subset of MIPS. It was quite fun learning the intricacies of how CPUs are built, with all the pipelines, hazards, etc. In many ways, after this course, I fear no assembly and reading it comes more naturally. The only caveat was that we were writing it all in a parallel programming paradigm in VHDL. I don’t really want to touch VHDL in the ne... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/sandissa</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Secure and cheap smart homes 🏠</title>
-      <link>https://sandyuraz.com/projects/sandissa</link>
-      <description>In the Spring of 2021, I was taking Professor Li’s EECS 700: IoT Security, which was a fantastic course over some basic and more advanced aspects of Internet of Things and their security considerations. We had a semester-long final project for the class. My beautiful partner, Anissa Khan and I built and documented a securite model of a smart home. Below is the abstract from our paper and rela... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/pid</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Daemonize your go programs 👹</title>
-      <link>https://sandyuraz.com/projects/pid</link>
-      <description>Daemonize your go programs by locking the process id file. Simply put the following at the top of ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/literate</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Literate sorting visualizer 😎</title>
-      <link>https://sandyuraz.com/projects/literate</link>
-      <description>I must disclose that I have been infected by the dream that Donald E. Knuth wanted to give us with the Literate Programming paradigm. Many decades have passed since his original papers and the book that archives all of those papers into a nice piece of l... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/tutor_sp21</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Sandy’s tutoring notes 📝</title>
-      <link>https://sandyuraz.com/projects/tutor_sp21</link>
-      <description>During Spring 2021 semester, I worked as a tutor for the School of Engineering. As one of the tutors, we held multiple a series of study sessions every week, on subjects and classes ranging from Calculus I/II/III to Phyics I/II and Chemi... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/.">Are you lost?</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/.</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Sandy’s Website ⛩️</title>
-      <link>https://sandyuraz.com/.</link>
-      <description>Visitor... Welcome to my Pink Lounge. This place exists between dream and reality, mind and matter. I hope you enjoy ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/rjokes</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Get Me the Best Reddit Jokes 🃏</title>
-      <link>https://sandyuraz.com/projects/rjokes</link>
-      <description>Telegram bot that queries subreddit r/jokes for the best jokes of the day (can be modified) and then sends these jokes via telegram chat wi... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/corporate</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>From School to Corporate 📞</title>
-      <link>https://sandyuraz.com/projects/corporate</link>
-      <description>On February 22nd, 2023, I gave my traditional annual spotlight talk at KU (University of Kansas) ACM (Association for Computing Machinery) chapte... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/quotes">Sandy&#39;s Fortunes 🧧</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/quotes</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Sandy’s Fortunes 🧧</title>
-      <link>https://sandyuraz.com/quotes</link>
-      <description>MARK MY WORDS...! This drill, will open a hole in the universe. And that hole will be a path for those behind us. The dreams of those who have fallen! The hopes of those who will follow! Those two sets of dreams weave together into a double helix, drilling a path towards tomorrow! And THAT&#39;S Tengen Toppa! That’s Gurren-Lagann! My drill is the drill, that creates th... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/prequelmemes_bot</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Find Movie Quotes from a Picture 🗡</title>
-      <link>https://sandyuraz.com/projects/prequelmemes_bot</link>
-      <description>When I was a wee lad in high school, I made a Reddit bot that listened to any new submissions on the r/prequelmemes, apply OCR, and it shows the exact timestamp of when any found quotes appear in the prequel trilogy of Star Wars. I really liked prequelmemes back in the day. This project has long been unmaintained and shut down after it successfully accumulated over ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/crona</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Write a compiler in C++ from nil 🍺</title>
-      <link>https://sandyuraz.com/projects/crona</link>
-      <description>C-rona is a general-purpose, procedural, imperative, and statically-typed programming language written in C++. Our final project contains a fully working compiler for x86_64 machines, which itself was a semester long project for EECS 665: Compiler Construction, where we learned the art of building compilers from scratch and this is t... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Musings 🍯</title>
-      <link>https://sandyuraz.com/stories</link>
-      <description>This is an (incomplete) collection of short stories that I wrote here and there. Some of them were for fun. Some of them were for a gag. Some of them for assignments that never asked for it. Ple... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/algo560</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Cool pure C++ data structures 🏛</title>
-      <link>https://sandyuraz.com/projects/algo560</link>
-      <description>EECS 560: Data Structures taught by Dr. Suzanne M. Shontz has been a fun class! A lot of reading and on-paper-algorithm-analysis and dry running. The course itself was also accompanied by a series of labs, where we would implement various data structures that we learned in class. Such a list includes but not limited to: Binary Search Trees, Priority Queues (Leftist trees, min heaps, max heaps, min-max heaps), Linked Lists, Hash Tables (various sorts of addressing and hash conflict resolution functi... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/vmagi</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Write an Emulator in 24 hours 🥃</title>
-      <link>https://sandyuraz.com/projects/vmagi</link>
-      <description>Welcome! VMAGI is a small emulator/interpreter my friend Matthew and I challenged each other to build in 24 hours. This includes both the implementation of the interpreter and creating your own ISA/3ac/IR for it that it will run on top of. If you want to see Matthew’s implementation, go to his r... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/quash</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Writing a Unix shell in Go 🐚</title>
-      <link>https://sandyuraz.com/projects/quash</link>
-      <description>For my EECS 678: Operating Systems course, one of the projects we have to do is build our own Unix shell, which would be able to interpret commands and execute them accordingly. We support basic features, such as subprocess execution, background processes, PATH lookups, arbitrary number of pipes, shell built-in commands, and a nice command line experience with arrow keys wit... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/komi</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Subarashii golang pooling 🍡</title>
-      <link>https://sandyuraz.com/projects/komi</link>
-      <description>Go is great for setting up easy parallel jobs and processes, however, it is not easy when one starts confusing concurrency with parallelism and ending up endlessly fighting race conditions. komi is a generic pooling library that will satisfy yo... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Cozy blog 🍣</title>
-      <link>https://sandyuraz.com/blogs</link>
-      <description>I can’t fall asleep if I don’t write. I wake up in the morning; I need to tell a story. Are my eyes too innocent to see the future we have been des... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/certificates</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Creating custom TLS certs 🏔️</title>
-      <link>https://sandyuraz.com/projects/certificates</link>
-      <description>There are many modern ways (Caddy, certbot) of acquiring yourself a nice TLS/SSL certificate for your services, all issued by titans such as Let’s Encrypt and ZeroSSL. Boom, you get a certificate that can be recognized and verified during a handshake by almost any user, browser, an [[https://www.chromium.org/H... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/dossier">Sandy&#39;s Dossier 🖋</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/dossier</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Sandy’s Dossier 🖋</title>
-      <link>https://sandyuraz.com/dossier</link>
-      <description>Call me Sandy. Some moons ago - no clue how or when exactly - having no last-minute assignments left to do, and projects, in particular, to obsess with, I thought I would make a simple website and explore the world of writing. It is a way I use to interact with the world and express myself. Whenever I find myself needing to share something; whenever it is good a time, revolutionary March in my soul; whenever I find myself trying out new tech; and especially whenever my curiosity overshadows the other me, that it requires an Aristotelian virtu... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/books">Sandy&#39;s Bookshelf 🔖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Sandy’s Bookshelf 🔖</title>
-      <link>https://sandyuraz.com/books</link>
-      <description>If I’m about to explode because I need to talk about a book I’ve read then I consider it to be a good time for posting a piece... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/chelovek</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Счастье маленького человека 🧥</title>
-      <link>https://sandyuraz.com/projects/chelovek</link>
-      <description>In the Spring of 2021, I took one of the best courses ever! This was RUSS 712, a graduate class in Russian Literature. We read all the beautiful short stories by such masters like Pushkin (Blizzard), Gogol (The Overcoat) Tolstoy (Blizzard), Chekhov (The Lady with the Dog), Dostoevsky (The Dream of a Ridiculous Man), and dozens more. We would progress ourselves into modern times, so starting from 19th century and ending up somewhere... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/projects/collatz</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Make Collatz Conjecture Graphs 📉</title>
-      <link>https://sandyuraz.com/projects/collatz</link>
-      <description>In high school I became interested in Collatz conjecture and thought the stopping time graphs are quite pretty, like the one below shows the steps 27 has to take to reach the t... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Fri, 31 Dec 1999 18:00:00 CST</pubDate>
     </item>
     <ttl>60</ttl>
   </channel>
