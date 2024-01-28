@@ -5,7 +5,7 @@
 #+options: exclude-html-head:property="theme-color"
 #+html_head: <meta name="theme-color" property="theme-color" content="#151515">
 
-#+date: 353; 12023 H.E.
+#+date: 353; 12023 H.E. 2200
 * Justice 🥖
 
 Remember how I talked on and on about [[https://sandyuraz.com/plastic/lucifer/][my *absolute* love]] for Helltaker?
