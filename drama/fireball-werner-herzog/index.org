@@ -2,7 +2,7 @@
 #+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
 #+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
 #+options: preview-generate:t rss-prefix:(Film)
-#+date: 21; 12024 H.E.
+#+date: 21; 12024 H.E. 1400
 * Fireball: Visitors from Darker Worlds
 
 #+begin_export html

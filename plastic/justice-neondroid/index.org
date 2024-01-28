@@ -1,4 +1,4 @@
-#+date: 361; 12023 H.E.
+#+date: 361; 12023 H.E. 1700
 #+options: preview:preview.jpg preview-height:1000 preview-width:1317
 #+html_head: <link rel="stylesheet" type="text/css" href="justice.css">
 
