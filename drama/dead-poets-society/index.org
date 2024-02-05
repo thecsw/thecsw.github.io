@@ -1,0 +1,68 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 32; 12024 H.E. 2359
+* Dead Poets Society
+
+I received this picture over the iMessage wire and realized that this was my
+cue to rewatch /Dead Poets Society/, which I haven't seen in such a long time that
+I have forgotton almost if not all of it. This was the right choice, as the
+selective amnesia allowed me to enjoy the film anew.
+
+#+html_tags: style="width:34rem";
+[[alive.jpeg][``What we stay alive for.'']]
+
+As many discussions as I have had with my friends and family members about
+it---I respect it very much so. Even more, do I respect the core idea, the theme
+of the movie, which I hold dearly. Uncover your free spirit, do not live someone
+else's life, aspiring to someone else's dreams, founding ideals on a
+quotation. We need not more engineers, lawyers, medics, or endless STEM
+graduates---we need more free thinkers.
+
+My mother and I spoke on whether it was a sound decision on John Keating's side
+to open this small little door to all of those kids locked in a cage made out
+of gold; even though, they might never get to see that door again, therefore,
+quite possibly, ending their time on Earth just the way Neil has done, played by
+the great Robert Sean Leonard. Well, I think it absolutely is. Even if they
+never reach out for the door (not a guarantee that they never will)---knowing
+that the door exists and can be one day opened---worth every struggle and pain,
+compared to the version of reality, where one doesn't even know there is a way
+out. That, would be tragic.
+
+I have had multiple teachers and professors who reminded me of Mr. Keating. I
+will mension one---Estela Gavosto. She was my phenomenal professor in my
+[[https://sandyuraz.com/blogs/freshman#calculus-iii--honors][freshman year of Calculus III]]. I remember she would enter the class every
+morning (our class was Mo-Fr, 9am, sharp), talking so enthusiastically about how
+everything is going, where in the process, the fresh cup of coffee she has just
+brewed herself a moment ago in the faculty kitchen had already spilled all over
+the floor of the little, even, claustrophobic classroom we had in the basement
+area of the math department's building. Those were, simpler times, indeed.
+
+When we would teach us three-dimensional math, Professor Gavosto would bring in
+a loaf of pumpkin bread or different pasta noodles and start plotting them up in
+Cartesian, cylindrical, spherical, and all sorts of coordinates; using a variety
+of techniques---she showed us how it all relates and connects together, making
+the class more of an event to look forward too. She of course, was very hard on
+us---the material was one of the toughest out of all professors and years, yet,
+it flowed through and connected even with the laziest or least-interested
+students, who would somehow still, find such hard material pretty
+straightforward to grasp.
+
+One of the liberties she granted me, well, two. But I'll start with the first
+one---Professor Gavosto showed that math is all about having fun; all of those
+old and rigid traditions that we speak of, say, naming your variables $a$ or $b$
+or $\gamma$---she would start writing down equations and formulas with variables
+like 🙂 or ❤️---it can be anything you want, as long as you get your idea
+across. This was such a liberation from the norms and standards we thought we
+had to follow for no reason known to us that immediately after finishing the
+semester, I declared a second major, pursuing Bachelor of Arts in
+Mathematics. Thanked her profusely ever since.
+
+Yet again,
+
+#+begin_quote
+Medicine, law, business, engineering,
+these are noble pursuits and necessary to sustain life.\
+But poetry, beauty, romance, love, these are what we stay alive for.
+#+end_quote
