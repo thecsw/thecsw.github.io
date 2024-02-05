@@ -52,3 +52,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 28 | [[file:the-cassandra-cat/poster.jpg][poster]] | [[the-cassandra-cat][*The Cassandra Cat*]]                                        | Vojtěch Jasný                    | Czechoslovakia                         | 1963 |
 | 29 | [[file:le-samourai/poster.jpg][poster]] | [[le-samourai][*Le Samouraï*]]                                              | Jean-Pierre Melville             | France\ Italy                          | 1967 |
 | 30 | [[file:the-passion-of-joan-of-arc/poster.jpg][poster]] | [[the-passion-of-joan-of-arc][*The Passion of Joan of Arc*]]                               | Carl Theodor Dreyer              | France                                 | 1928 |
+| 31 | [[file:dead-poets-society/poster.jpg][poster]] | [[dead-poets-society][*Dead Poets Society*]]                                       | Peter Weir                       | United States                          | 1989 |
