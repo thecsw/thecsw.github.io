@@ -112,6 +112,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │         Chainsaw Man, Volume 14       │
+ ├───────────────────────────────────────┤
  │         Yokohama Kaidashi Kikou       │
  │        Deluxe Edition, Volume 2       │
  ├───────────────────────────────────────┤
