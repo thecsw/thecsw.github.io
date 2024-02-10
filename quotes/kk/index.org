@@ -1,4 +1,5 @@
-* K.K. Fortunes 🦋
+#+options: preview-generate:t
+* K.K.'s Fortunes 🦋
 ** 41; 12024 H.E.
  
 omg miso soup!
