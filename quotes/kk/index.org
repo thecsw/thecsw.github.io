@@ -1,5 +1,8 @@
 #+options: preview-generate:t
 ** 42; 12024 H.E.
+ "When I consider the short duration of my life, swallowed up in the eternity before and after, the little space which I fill, and even can see, engulfed in the infinite immensity of spaces of which I am ignorant, and which know me not, I am frightened, and am astonished at being here rather than there; for there is no reason why here rather than there, why now rather than then. Who has put me here? By whose order and direction have this place and time been allotted to me?" –Blaise Pascal
+
+** 42; 12024 H.E.
  "you scooped out my nose" -S.
 
 ** 41; 12024 H.E.
