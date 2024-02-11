@@ -1,4 +1,7 @@
 #+options: preview-generate:t
+** 42; 12024 H.E.
+ "you scooped out my nose" -S.
+
 ** 41; 12024 H.E.
  Everytime I find the meaning of life, they change it.
 
