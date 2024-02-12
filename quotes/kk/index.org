@@ -1,5 +1,12 @@
 #+options: preview-generate:t
 ** 42; 12024 H.E.
+
+
+ /lights down./
+
+/end of act./
+
+** 42; 12024 H.E.
  *stranger:* You believe... that there are people out there... People like us.
 
 *marin*  I don't know about people. And I doubt they're like us. But maybe some kind of lighter, more luminous beings, less burdened... (Looking up at her, in a different tone)  When I first saw you tonight, walking into that smoky train station – so bright, so clear, shining – for a moment I thought that you came from another world.
