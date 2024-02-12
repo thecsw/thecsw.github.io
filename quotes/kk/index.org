@@ -1,6 +1,6 @@
-#+options: preview-generate:t
+* K.K.'s Fortunes 🦋
 ** 43; 12024 H.E.
- "/–Do be, do be, do./" –*Scooby-Doo.
+ /``–Do be, do be, do.''/ –*Scooby-Doo.
 
 ** 42; 12024 H.E.
 
@@ -40,7 +40,6 @@
 ** 41; 12024 H.E.
  Everytime I find the meaning of life, they change it.
 
-* K.K.'s Fortunes 🦋
 ** 41; 12024 H.E.
  
 omg miso soup!
