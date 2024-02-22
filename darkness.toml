@@ -63,12 +63,16 @@ link = "/fortunes"
 title = "Fortunes 🧧"
 
 [navigation.4]
+link = "/fortunes/kk"
+title = "K.K.’s Fortunes 🦋"
+
+[navigation.5]
 link = "../"
 title = "Go Up ☝️"
 hide = "/"
 hide_if = "/"
 
-[navigation.5]
+[navigation.6]
 link = "/"
 title = "Home 🏠"
 hide = "/"
