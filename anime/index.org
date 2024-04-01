@@ -31,9 +31,9 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┐
- │    Toaru Kagaku    │
- │    no Raligun S    ├───────────────────┐
+ ┌────────────────────┬───────────────────┐
+ │    Toaru Kagaku    │   Solo Leveling   │
+ │    no Raligun S    ├───────────────────┤
  ├────────────────────┤    Toaru Kagaku   │
  │ SPY×FAMILY Season 2│     no Railgun    │
  ├────────────────────┼───────────────────┤
