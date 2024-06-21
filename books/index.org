@@ -112,6 +112,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │        Akane-banashi, Volume 5        │
+ ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 15       │
  ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 6   │
