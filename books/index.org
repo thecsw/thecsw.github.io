@@ -112,6 +112,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │   Komi Can't Communicate, Volume 30   │
+ ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 6        │
  ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 7   │
@@ -119,6 +121,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
  │        Akane-banashi, Volume 5        │
  ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 15       │
+ ├───────────────────────────────────────┤
+ │   Komi Can't Communicate, Volume 29   │
  ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 6   │
  ├───────────────────────────────────────┤
