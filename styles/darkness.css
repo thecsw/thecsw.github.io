@@ -1101,13 +1101,17 @@ kbd {
 .movie-poster,
 .book-cover {
         position: absolute;
-        /* width: 10rem; */
         width: 14rem;
-        /* margin-left: -31rem; */
         margin-left: -37rem;
         margin-top: 1rem;
         top: 0.6rem;
         filter: drop-shadow(2px 2px 3px gray);
+}
+
+/* I like book covers being a bit smaller than movie posters */
+.book-cover {
+        width: 10rem;
+        margin-left: -31rem;
 }
 
 .media:has(.avatar) {
