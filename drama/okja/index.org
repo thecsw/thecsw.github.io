@@ -1,0 +1,34 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 224; 12024 H.E. 2337
+* Okja
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Highly recommended to me by my partner and what an interesting film this is. The
+message and purpose is so loud and clear that stating it would be nothing short
+of superfluous.
+
+It's good. Very good. Even more, I'm reassured of our decision not to eat pork,
+as they are so genetically close to humans (you can put a pig's heart in a
+human) that eating them could be considered akin to eating one of our own kind
+(not good).
+
+I much enjoyed the beginning of the movie of showing how Okja spent her days in
+the wild and the whole showcasing of what a psycho Jake Gyllenhaal is (his
+character was quite extreme).
+
+However, I do feel the second half of the film dragged on a bit with a
+superhero-esque turns of fate, very much, how would I say... pompous? For
+something of this sort, I expected or wanted it go deeper into exploration of
+relationship we have with our animal brothers.
+
+Something more hard-hitting than what felt like an over-trivilazation of the
+story to make it more digestable if we add more goofy characters, deus ex
+machinas, and an elite secret society of animal lovers. Not to say comedy isn't
+needed, it lacked some of the gut punch I was hoping it to deliver (the finale
+does it somewhat well).
