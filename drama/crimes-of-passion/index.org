@@ -1,0 +1,21 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 224; 12024 H.E. 2315
+* Crimes of Passion
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+Watching Crimes of Passion is akin to drinking a concoction made up by mixing
+oil and water. The rowdy sex scenes with one helluva smooth tune, a crumbling
+marriage with surprising authenticity in its delivery, a dildo killer priest
+(absolutely stunning and show-stealing performance by Anthony Perkins), and an
+exploration of one's sexuality and dark places it can take.
+
+I don't know, it was such a whiplash watching it middle of the night by myself,
+a mix and match of so many different genres in one that kind of clicked, but not
+really? However, is it unique and scratch the very specific itch I had for
+something of this style? Absolutely.
