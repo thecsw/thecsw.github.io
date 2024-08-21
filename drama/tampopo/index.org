@@ -1,0 +1,21 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 228; 12024 H.E. 2359
+* Tampopo
+
+A +spaghetti+ *ramen* western set in Japan! Surprisingly enough, /Tampopo/ is made of
+even finer stuff than its original American counterparts that it is so
+skillfully playing off of. Every element ranging from the main storyline of a
+lone truck driver guiding a woman with her failing noodle shop through the art
+and business of ramen business---to all the wonderful vignettes capturing the
+soul of being human through the lens of how we interact with food.
+
+It really is a perfect film. There really isn't anything to add and more
+importantly, nor is there anything to shave off. I vaguely remembering watching
+it when I was a tiny boy, who knows when---it has that way of making you feel at
+home. Whether it be with a great cast of characters, wholesome story, uplifting
+music, or a combination of all of those.
+
+Go enjoy and appreciate some good ramen out there!
