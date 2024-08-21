@@ -5,6 +5,10 @@
 #+date: 228; 12024 H.E. 2359
 * Tampopo
 
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
 A +spaghetti+ *ramen* western set in Japan! Surprisingly enough, /Tampopo/ is made of
 even finer stuff than its original American counterparts that it is so
 skillfully playing off of. Every element ranging from the main storyline of a
