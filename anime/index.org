@@ -31,7 +31,10 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┬───────────────────┐
+ ┌────────────────────┐
+ │     Bartender:     │
+ │   Kami no Glass    │
+ ├────────────────────┼───────────────────┐
  │    Toaru Kagaku    │   Solo Leveling   │
  │    no Raligun S    ├───────────────────┤
  ├────────────────────┤    Toaru Kagaku   │
