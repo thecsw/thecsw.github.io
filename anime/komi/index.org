@@ -64,6 +64,6 @@ I am obsessed with good YT edits, so please enjoy some of them below.
 
 /Najimi Osana adapts to things./
 
-#+begin_gallery
-- [[osana.gif][Tadano-kun]] :flex 70
+#+begin_gallery 
+- [[osana.gif][Tadano-kun]] :flex 70 :no-preview
 #+end_gallery
