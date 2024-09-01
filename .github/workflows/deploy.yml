@@ -17,7 +17,7 @@ jobs:
 
       - name: Gallery previews 🖼️
         run: |
-          ./darkness.com misa -gallery-previews -force
+          ./darkness.com misa -gallery-previews
 
       - name: Holoscene titles ✨
         run: |
