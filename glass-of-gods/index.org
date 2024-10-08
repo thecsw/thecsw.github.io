@@ -1,0 +1,12 @@
+#+options: author-image:nil tomb:nil preview:glass-of-gods.jpg
+#+optios: preview-width:1317 preview-height:1000
+#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+#+html_head: <link rel="stylesheet" type="text/css" href="glass-of-gods.css">
+#+options: tomb:nil
+* The Glass of Gods 🍸
+
+/Welcome---we run a full bar service---please take a seat/
+
+#+begin_gallery
+- [[https://photos.sandyuraz.com/sidecar2][``Do you know what a real sidecar is, son?'']] [[sidecar][<-- sidecar]]
+#+end_gallery
