@@ -56,4 +56,3 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 32 | [[file:crimes-of-passion/poster.jpg][poster]] | [[crimes-of-passion][*Crimes of Passion*]]                                        | Ken Russel                       | United States                          | 1984 |
 | 33 | [[file:okja/poster.jpg][poster]] | [[okja][*Okja*]]                                                     | Bong Joon-ho                     | South Korea\ United States             | 2017 |
 | 34 | [[file:tampopo/poster.jpg][poster]] | [[tampopo][*Tampopo*]]                                                  | Juzo Itami                       | Japan                                  | 1985 |
-# | 35 | [[file:crazy-rich-asians/poster.jpg][poster]] | [[crazy-rich-asians][*Crazy Rich Asians*]]                                        | Jon M. Chu                       | United States                          | 2018 |
