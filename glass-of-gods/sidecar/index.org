@@ -1,0 +1,19 @@
+#+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
+#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+#+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
+#+options: preview-generate:t rss-prefix:(Cocktails)
+#+date: 281; 12024 H.E. 2319
+* Sidecar 🍊
+
+I simply love it. Something about it. I always had a soft spot for cognacs,
+since my parents are Hennessy believers. With my lower than regular sugar levels,
+I like all stuff sour and tart. Can't go wrong with this.
+
+- 1 1/2 ounces of /Courvoisier VS/ cognac (from the freezer)
+- 1 ounce of /Cointreau/
+- 3/4 ounces of fresh lemon juice
+
+Shake well and strain into a /Nick & Nora/ glass. *Voila.* It will drive itself
+towards the person you're most fond of.
+
+/Enjoy./
