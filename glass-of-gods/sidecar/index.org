@@ -1,4 +1,5 @@
 #+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
+#+options: preview-generate-bg:#151515 preview-generate-fg:#ffffff
 #+html_head: <meta name="theme-color" property="theme-color" content="#151515">
 #+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
 #+options: preview-generate:t rss-prefix:(Cocktails)
