@@ -7,6 +7,12 @@
 
 /Welcome---we run a full bar service---please take a seat/
 
+^{{psst... try clicking on a cock-tail you like!}}
+
+#+begin_export html
+<p style="margin-top:-3.7rem"></p>
+#+end_export
+
 #+begin_gallery
 - [[mark-twain/mark-twain.jpg][who knew that a scotch sour would be so good?]] [[mark-twain][<-- mark-twain]]
 - [[sidecar/sidecar.jpg][``Do you know what a real sidecar is, son?'']] [[sidecar][<-- sidecar]]
