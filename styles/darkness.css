@@ -385,10 +385,10 @@ a:not(.image):not(.gallery-item):hover {
 
 /* Now, we have to do this ugly manual phone version */
 @media all and (max-width: 428px) {
-    .quote {
-        font-size: var(--quote-size-mobile);
-        line-height: var(--quote-line-height-mobile);
-}
+        .quote {
+                font-size: var(--quote-size-mobile);
+                line-height: var(--quote-line-height-mobile);
+        }
 }
 
 /*
@@ -1099,7 +1099,9 @@ kbd {
 }
 
 .movie-poster,
-.book-cover {
+.book-cover,
+.cocktail,
+.cockflip {
         position: absolute;
         width: 14rem;
         margin-left: -37rem;
@@ -1112,6 +1114,23 @@ kbd {
 .book-cover {
         width: 10rem;
         margin-left: -31rem;
+}
+
+/* This will appear on the left */
+.cocktail {
+        width: 18rem;
+        margin-left: -40rem;
+        filter: drop-shadow(2px 2px 3px black);
+}
+
+/* and this will appear on the right */
+.cockflip {
+        width: 18rem;
+        margin-left: 22rem;
+        filter: drop-shadow(2px 2px 3px black);
+        /* Thanks to K.K., the flipped effect is hella cool */
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
 }
 
 .media:has(.avatar) {
