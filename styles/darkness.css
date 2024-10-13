@@ -1133,6 +1133,13 @@ kbd {
         transform: scaleX(-1);
 }
 
+@media all and (max-width: 900px) {
+        .cocktail,
+        .cockflip {
+                display: none;
+        }
+}
+
 .media:has(.avatar) {
         margin-bottom: -1.2rem;
 }
