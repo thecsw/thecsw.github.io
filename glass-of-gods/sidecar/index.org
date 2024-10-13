@@ -6,6 +6,11 @@
 #+date: 281; 12024 H.E. 2319
 * Sidecar 🍊
 
+#+begin_export html
+<img class="image cocktail" src="https://photos.sandyuraz.com/sidecar2">
+<img class="image cockflip" src="https://photos.sandyuraz.com/sidecar2">
+#+end_export
+
 I simply love it. Something about it. I always had a soft spot for cognacs,
 since my parents are Hennessy believers. With my lower than regular sugar levels,
 I like all stuff sour and tart. Can't go wrong with this.
