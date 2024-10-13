@@ -1,0 +1,30 @@
+#+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
+#+options: preview-generate-bg:#151515 preview-generate-fg:#ffffff
+#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+#+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
+#+options: preview-generate:t rss-prefix:(Cocktails)
+#+date: 286; 12024 H.E. 2319
+* Mark Twain 🍬
+
+#+begin_export html
+<img class="image cocktail" src="https://photos.sandyuraz.com/mark-twain-cocktail">
+<img class="image cockflip" src="https://photos.sandyuraz.com/mark-twain-cocktail">
+#+end_export
+
+What a simple and delightful scotch sour with a [[https://drunkardsalmanac.com/mark-twain-cocktail/][nice history]] behind it.
+
+- 1 1/2 oz of /Dewar's ``White Label''/ blended scotch whiskey
+- 3/4 oz of simple syrup
+- 3/4 oz of fresh lemon juice
+- 2-3 dashes of /Angostura/ bitters
+
+I like the absence of an emulsified egg white or a cocktail foam, which gives it
+a cleaner look. /K.K./ liked it without the bitters more, whereas I enjoy it with a
+bit of the familiar herbal touch.
+
+There is a dozen of [[https://sandyuraz.com/fortunes/][Mark Twain quote]]s on the website, here is one that I read
+recently,
+
+#+begin_quote
+``Always do what is right. It will gratify half of mankind and astound the other.''
+#+end_quote
