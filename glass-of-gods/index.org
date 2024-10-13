@@ -8,6 +8,6 @@
 /Welcome---we run a full bar service---please take a seat/
 
 #+begin_gallery
-- [[https://photos.sandyuraz.com/mark-twain-cocktail][who knew that a scotch sour would be so good?]] [[mark-twain][<-- mark-twain]]
-- [[https://photos.sandyuraz.com/sidecar2][``Do you know what a real sidecar is, son?'']] [[sidecar][<-- sidecar]]
+- [[mark-twain/mark-twain.jpg][who knew that a scotch sour would be so good?]] [[mark-twain][<-- mark-twain]]
+- [[sidecar/sidecar.jpg][``Do you know what a real sidecar is, son?'']] [[sidecar][<-- sidecar]]
 #+end_gallery

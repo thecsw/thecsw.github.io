@@ -7,8 +7,8 @@
 * Mark Twain 🍬
 
 #+begin_export html
-<img class="image cocktail" src="https://photos.sandyuraz.com/mark-twain-cocktail">
-<img class="image cockflip" src="https://photos.sandyuraz.com/mark-twain-cocktail">
+<img class="image cocktail scroll-image" src="mark-twain.jpg">
+<img class="image cockflip scroll-image" src="mark-twain.jpg">
 #+end_export
 
 What a simple and delightful scotch sour with a [[https://drunkardsalmanac.com/mark-twain-cocktail/][nice history]] behind it.
