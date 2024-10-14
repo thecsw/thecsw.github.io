@@ -2,6 +2,7 @@
 #+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
 #+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
 #+options: preview-generate:t rss-prefix:(Film)
+#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
 #+date: 11; 12024 H.E.
 * Little Odessa
 
