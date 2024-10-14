@@ -1,0 +1,15 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 286; 12024 H.E. 2210
+* Wolfs
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+dad’s movie—it was good
+
+I did like and laugh at the the unnecessarily long slow-mo with the kid getting
+narrowly hit by George Clooney only to land straight back on his feet.
