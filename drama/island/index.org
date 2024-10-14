@@ -1,0 +1,19 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+date: 287; 12024 H.E. 1150
+* The Island
+
+#+begin_export html
+<img class="image movie-poster" src="poster.jpg">
+#+end_export
+
+A bit of a tough watch if experienced in its original form. In the style of its
+prose, it was more of Tolstoy's moral lectures than what I feel closer to, which
+is Dostoevskyian priest, Father Zosima from /Brothers Karamazov/. Beautifully shot
+and masterfully acted by Pyotr Mamonov, who himself has walked the path of
+enhancing one's faith. Some moments are heavy-handed as the purpose of what is
+happening on the screen is already perfectly clear and instead, the telling
+lacks a certain heart and warmth I would want to see from a telling of a
+religious repentance.
