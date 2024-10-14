@@ -7,8 +7,8 @@
 * Sidecar 🍊
 
 #+begin_export html
-<img class="image cocktail" src="sidecar.jpg">
-<img class="image cockflip" src="sidecar.jpg">
+<img class="image cocktail" src="sidecar.webp">
+<img class="image cockflip" src="sidecar.webp">
 #+end_export
 
 I simply love it. Something about it. I always had a soft spot for cognacs,
