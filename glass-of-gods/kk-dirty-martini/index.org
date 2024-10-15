@@ -1,0 +1,31 @@
+#+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
+#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+#+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
+#+options: preview-generate:t rss-prefix:(Cocktails)
+#+options: preview-generate-bg:#151515 preview-generate-fg:#ffffff
+#+date: 288; 12024 H.E. 2354
+* K.K.'s Extra Dirty Martini 🫒
+
+#+begin_export html
+<img class="image cocktail scroll-image" src="kk-dirty-martini.webp">
+<img class="image cockflip scroll-image" src="kk-dirty-martini.webp">
+#+end_export
+
+K.K. likes her martini extra dirty. When I say extra dirty, I mean /extra/
+*dirty*. Her tastes fluctuate as making an extra dirty Upside-Down martini---it
+would be too briney and taste like soup---bear in mind, she likes it but
+sometimes it even too could be too much.
+
+After trying out a series of flavors spanning several months filled with the art
+of deduction, experimenting, playing with a variety of ingredients---I like to
+think we found something of value here.
+
+- 1 1/2 oz of /Suntory Roku 6/ gin (/Fords/ gin would also do)
+- 1 oz of /Noilly Prat/ Extra Dry Vermouth
+- 3/4 oz of /Dirty Sue/ olive brine (from the jar of olives)
+- 3 /Dirty Sue/ olives for garnish
+
+Shake all the ingredients well (except garnish) and strain into a chilled
+cocktail glass. Garnish with all three olives on a stick on top of the glass.
+
+Enjoy.

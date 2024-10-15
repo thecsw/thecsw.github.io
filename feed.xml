@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Sun, 13 Oct 2024 11:50:00 UTC</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2024 02:24:47 UTC</lastBuildDate>
+    <pubDate>Mon, 14 Oct 2024 23:54:00 UTC</pubDate>
+    <lastBuildDate>Tue, 15 Oct 2024 05:04:17 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>Visitor... Welcome to my Pink Lounge. This place exists between dream and reality, mind and matter. I hope you enjoy ...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/glass-of-gods">The Glass of Gods 🍸</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/glass-of-gods/kk-dirty-martini</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Cocktails) K.K.’s Extra Dirty Martini 🫒</title>
+      <link>https://sandyuraz.com/glass-of-gods/kk-dirty-martini</link>
+      <description>K.K. likes her martini extra dirty. When I say extra dirty, I mean extra dirty. Her tastes fluctuate as making an extra dirty Upside-Down martini—it would be too briney and taste like soup—bear in mind, she likes it but sometimes it even too could be... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 14 Oct 2024 23:54:00 CDT</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
