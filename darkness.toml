@@ -48,6 +48,10 @@ category = "Blog"
 timezone = "America/Chicago"
 default_hour = 18
 
+[external]
+search_engines = ["bing.com"] #, "naver.com", "Seznam.cz", "yandex.ru", "yep.com"] # none of these work for some reason
+
+
 [navigation]
 
 [navigation.1]
