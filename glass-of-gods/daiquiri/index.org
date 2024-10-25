@@ -1,0 +1,25 @@
+#+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
+#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+#+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
+#+options: preview-generate:t rss-prefix:(Cocktails)
+#+options: preview-generate-bg:#151515 preview-generate-fg:#ffffff
+#+date: 299; 12024 H.E. 1848
+* Simple Daiquiri 🍋‍🟩
+
+#+begin_export html
+<img class="image cocktail scroll-image" src="https://photos.sandyuraz.com/daiquiri2">
+<img class="image cockflip scroll-image" src="https://photos.sandyuraz.com/daiquiri2">
+#+end_export
+
+Back to basics! When there is nothing around but a trusty rum, some lime and
+sugar---what are you gonna do? We could make this Hemingway style with double
+the rum and no sugar---but I thought of doing a classic to recall on how simple
+the greatest ways are.
+
+- 2 ounces of /Bacardi Superior/ rum
+- 3/4 ounces of simple syrup
+- 3/4 ounces of freshly squeezed lime juice
+
+Shake well with ice and strain into a chilled cocktail glass---clean and yummy.
+
+/Enjoy./

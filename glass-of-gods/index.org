@@ -15,6 +15,7 @@
 #+end_export
 
 #+begin_gallery
+- [[https://photos.sandyuraz.com/daiquiri2][The basics of mixing]] [[daiquiri][<-- daiquiri]]
 - [[kk-dirty-martini/kk-dirty-martini.webp][This is K.K.'s favorite martini---extra dirty]] [[kk-dirty-martini][<-- kk-dirty-martini]]
 - [[mark-twain/mark-twain.webp][who knew that a scotch sour would be so good?]] [[mark-twain][<-- mark-twain]]
 - [[sidecar/sidecar.webp][``Do you know what a real sidecar is, son?'']] [[sidecar][<-- sidecar]]
