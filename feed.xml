@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Fri, 25 Oct 2024 18:48:00 UTC</pubDate>
-    <lastBuildDate>Fri, 25 Oct 2024 23:49:35 UTC</lastBuildDate>
+    <pubDate>Sat, 26 Oct 2024 11:38:00 UTC</pubDate>
+    <lastBuildDate>Sun, 27 Oct 2024 04:45:49 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>Visitor... Welcome to my Pink Lounge. This place exists between dream and reality, mind and matter. I hope you enjoy ...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/ikiru</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Ikiru</title>
+      <link>https://sandyuraz.com/drama/ikiru</link>
+      <description>It doesn’t really get more perfect and contained than this. A Dostoevskian-style narrative of a life so busy, dull, and boring that it is functionally no different from being dead. A bureaucrat surrounded by fellow bureaucrats, grinded out by their daily minutia, and finally hollowed out into a living carcass—devoid of any purpose or meaning behind it all. Not that it is the most important facet of life, but there is nothing else the... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 26 Oct 2024 11:38:00 CDT</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/glass-of-gods">The Glass of Gods 🍸</category>
       <enclosure url="" type="" length="0"></enclosure>
