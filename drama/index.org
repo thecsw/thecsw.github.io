@@ -58,3 +58,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 34 | [[file:tampopo/poster.jpg][poster]] | [[tampopo][*Tampopo*]]                                                  | Juzo Itami                       | Japan                                  | 1985 |
 | 35 | [[file:wolfs/poster.jpg][poster]] | [[wolfs][*Wolfs*]]                                                    | Jon Watts                        | United States                          | 2024 |
 | 36 | [[file:island/poster.jpg][poster]] | [[island][*The Island*]]                                               | Pavel Lungin                     | Russia                                 | 2006 |
+| 37 | [[file:ikiru/poster.jpg][poster]] | [[ikiru][*Ikiru*]]                                                    | Akira Kurosawa                   | Japan                                  | 1952 |
