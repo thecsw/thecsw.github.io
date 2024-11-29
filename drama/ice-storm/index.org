@@ -1,0 +1,81 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+date: 333; 12024 H.E. 2040
+* The Ice Storm
+
+#+begin_export html
+<img class="image movie-poster" src="poster.webp">
+#+end_export
+
+Bleak America—exactly how it is. All these people may live in the same house,
+share a last name, and spend the night in more or less within each other's
+vicinities, but that is really about it. If you are looking for anything deeper
+than a surface-level pat—you won't find it here, not in this film, nor in the
+real thing. Strangers living together, ever more growing emotionally distant
+from each other to the point, where they don't know the first thing about each
+other. What is worse, they don't even know the first thing about
+themselves. Ever so poignant and relevant to this day, Ang Lee provides this by
+all means, as they said in their director's commentary, "a total market flop,"
+but a brutally honest view of how cold it has become within American families. I
+don't even know if "family" is the right term here. Suburbia? Nasty word, but it
+works very well in this context.
+
+K.K. selected this movie during Criterion's flash sale. I had never heard of it
+before, but the short description at the back of the disc box intrigued us, so
+we saved it for viewing until later. We could not have chosen a better time to
+watch "The Ice Storm" than on Thanksgiving night. Speaking of Thanksgiving, to
+me, who has had the immense opportunity to grow up all around the world and
+experience different ways of living, the very idea of the holiday always seemed
+somewhat odd. Should you not be thankful for what you have every day? I do not
+mean merely material possessions, though these play an important part in one's
+life, they are (hopefully) far from the core requirements of being human. In the
+film, the "thank you" speech involves specifically material possessions and
+well-being, rather than focusing on the more intangible things, not something
+you can put a dollar value on, but fulfilling in ways like nothing else. And of
+course, for the very root of Thanksgiving, how can one cherish a holiday so
+deeply when it is soaked and marinated in the blood, tears, and suffering of
+Native Americans who came before?
+
+I will say it again—bleak. Initially, I couldn't find the word to describe the
+whole mood of the setting. "Sadness" was the first that came to mind, but you
+see, to be sad requires some level of introspection and feeling of something
+amiss, such that the sad emotions have a way of triggering and being let out. In
+the American story, there is no such conspiracy, there is nobody "behind it
+all." It is exactly what people want, what they made their country and nation to
+march towards, and precisely what they got. Ultimately, there isn't some "big
+bad guy" to punch or someone or something to fight and prevail. It's rotten to
+the foundation that everything is built on. However, in this case, imagine it
+not really becoming brittle and collapsing the whole structure—but more of
+becoming super soggy, slimy, icky, like a rotten fruit, where the rot travels
+upwards and infects everything on its way, only then starting to sag slowly,
+such that every inch that the structure falls down takes time and merely
+unnoticeable, until it's all gone and done.
+
+This is how I see the picture. The true "American Tragedy," which I cannot say
+the nation may ever survive. Well, the notion of a "nation" is too strong of a
+word in this context; when you alienate yourself from your neighbors, friends,
+spouse, kids, and yourself—what have you truly got? None. The talks of having
+even a resemblance of a nation cannot be started if all of those critical
+components are missing. It sounds rather dystopian but look around. One of the
+biggest movie influences I had regarding the topic of American society was
+"American Beauty." It focused so heavily and intimately on a single
+dysfunctional family's disaster, only to zoom out in the very end to a
+bird's-eye view of hundreds, no, thousands of houses in some suburbia, where the
+same story repeats itself from one house to another, one generation to another,
+and one "family" to another. Morally and ethically bankrupt society, where
+almost everything it does and all of its attempts to salvage its sorry state are
+truly revolting. Adoption of an ancient way to justify adultery is cheating and
+covering it up as "swingers" is the same as regular, run-of-the-mill, dirty
+adultery and cheating. Kids discovering sexuality at an age too young to really
+do anything of substance, because that is their only way of easily recovering a
+portion of emotional stability, which is lost in the jungles of American
+suburbia. The list goes on.
+
+Nothing really left to say here. Cinematography was superbly fitting the mood
+and atmosphere, completely selling the dreary setup of it all. Only if their
+situation were actively bad, something could have been done—but by being
+actively engaged in a passive mediocrity—nothing is felt, nothing is found,
+nothing is talked, and of course, nothing is fixed. Happy Thanksgiving!
