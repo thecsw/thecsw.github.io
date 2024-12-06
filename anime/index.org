@@ -31,10 +31,11 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┐
- │     Bartender:     │
- │   Kami no Glass    │
- ├────────────────────┼───────────────────┐
+                      ┌───────────────────┐
+ ┌────────────────────┤  Kono Subarashii  │
+ │     Bartender:     │     Sekai ni      │
+ │   Kami no Glass    │  Shukufuku wo! 3  │
+ ├────────────────────┼───────────────────┤
  │    Toaru Kagaku    │   Solo Leveling   │
  │    no Raligun S    ├───────────────────┤
  ├────────────────────┤    Toaru Kagaku   │
