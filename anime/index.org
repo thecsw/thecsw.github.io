@@ -31,8 +31,14 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
-                      ┌───────────────────┐
- ┌────────────────────┤  Kono Subarashii  │
+ ┌────────────────────┐
+ │   Rascal Does Not  │
+ │  Dream of a Sister │
+ │    Venturing Out   │
+ ├────────────────────┼───────────────────┐
+ │     SPY×FAMILY     │     Look Back     │
+ │    CODE: White     ├───────────────────┤
+ ├────────────────────┤  Kono Subarashii  │
  │     Bartender:     │     Sekai ni      │
  │   Kami no Glass    │  Shukufuku wo! 3  │
  ├────────────────────┼───────────────────┤
