@@ -1,0 +1,36 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+date: 344; 12024 H.E. 2150
+* Gladiator II
+
+#+begin_export html
+<img class="image movie-poster" src="poster.webp">
+#+end_export
+
+An aggressively mediocre rendition of the original, quite enjoyable for its
+visual effects, yet wholly lacking in anything substantial or even shallow to
+say when it comes to its story, message, and legacy. I enjoy thinking about the
+Roman Empire as much as the next guy---``Think about the Dream of the Roman
+Empire!'' is such a great meme---but this movie felt like a series of scenes and
+shots optimized to become viral tiktok reels for years to come.
+
+There isn't much to say. I'm adding it to my list to prove that I do watch
+contemporary stuff, but rarely find the energy or desire to write anything
+about them. I suppose when they did the GLADIIATOR---that was pretty cool. It's
+a good forgettable watch to go to with friends to the movie theaters, especially
+after a long work Monday, which was us. Ultimately, it does crush under its own
+weight and importance. Surprisingly heavy-handed and treating its viewers as
+toddlers who have not seen the first part nor have any idea of what theater they
+walked into.
+
+Riddley Scott is scraping the bottom of the barrel that he might have scratched
+a hole there---cannot recall any of his recent works that were even passable
+when compared to his earlier works. Unimaginative, predictable, and has
+absolutely nothing to say nor a leg to stand on. Actors were okay choices. Pity
+we didn't get to see more of Pedro Pascal, a wasted opportunity. Denzel
+Washington stole the show. I got a free and sick ass poster at my local B&B
+theater after the screening, so I felt pretty good. Wouldn't give /Gladiator II/
+more than 4.5/10 (the +0.5 is thanks to the poster).

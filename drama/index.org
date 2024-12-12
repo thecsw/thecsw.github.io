@@ -60,3 +60,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 36 | [[file:island/poster.jpg][poster]] | [[island][*The Island*]]                                               | Pavel Lungin                     | Russia                                 | 2006 |
 | 37 | [[file:ikiru/poster.jpg][poster]] | [[ikiru][*Ikiru*]]                                                    | Akira Kurosawa                   | Japan                                  | 1952 |
 | 38 | [[file:ice-storm/poster.webp][poster]] | [[ice-storm][*The Ice Storm*]]                                            | Ang Lee                          | United States                          | 1997 |
+| 39 | [[file:gladiator-2/poster.webp][poster]] | [[gladiator-2][*Gladiator II*]]                                             | Ridley Scott                     | United Kingdom\ United States          | 2024 |
