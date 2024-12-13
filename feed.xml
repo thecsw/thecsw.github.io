@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Mon, 09 Dec 2024 21:50:00 UTC</pubDate>
-    <lastBuildDate>Thu, 12 Dec 2024 06:08:37 UTC</lastBuildDate>
+    <pubDate>Fri, 13 Dec 2024 11:57:00 UTC</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2024 06:53:08 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>My friend, nothing exists here. Some would call this a “40...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/interstella-5555</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Interstella 5555: The 5tory of the 5ecret 5tar 5ystem</title>
+      <link>https://sandyuraz.com/drama/interstella-5555</link>
+      <description>I just came back from a special screening of Interstella 5555 that was remastered with AI. It was bad. Real bad. This specific critique will cover the re-release and the original release by Mr. Matsumoto, as I have never had a chance to really cover Interstella 5555 nor Daft Punk specifically anywhere around these parts of town. It should be no secret to anyone here—nobody before or after has ever come close to what Daft Punk were able to achieve and unlock with their mastery over the ethereal quality... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Fri, 13 Dec 2024 11:57:00 CST</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
@@ -235,22 +246,22 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/scott-pilgrim</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/poor-things</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Scott Pilgrim vs. the World</title>
-      <link>https://sandyuraz.com/drama/scott-pilgrim</link>
-      <description>WE ARE SEX BOB-OMB! ONE! TWO! TH... [ Continue reading... ]</description>
+      <title>(Film) Poor Things</title>
+      <link>https://sandyuraz.com/drama/poor-things</link>
+      <description>Barbie circa. 2024 a... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 20 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/poor-things</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/scott-pilgrim</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Poor Things</title>
-      <link>https://sandyuraz.com/drama/poor-things</link>
-      <description>Barbie circa. 2024 a... [ Continue reading... ]</description>
+      <title>(Film) Scott Pilgrim vs. the World</title>
+      <link>https://sandyuraz.com/drama/scott-pilgrim</link>
+      <description>WE ARE SEX BOB-OMB! ONE! TWO! TH... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 20 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -488,22 +499,22 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/high-and-low</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/perfect-blue</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) High and Low</title>
-      <link>https://sandyuraz.com/drama/high-and-low</link>
-      <description>I’m lost for words. The supreme summit of filmmaking and taking the creation of art as one of the most serious embarks ... [ Continue reading... ]</description>
+      <title>(Film) Perfect Blue</title>
+      <link>https://sandyuraz.com/drama/perfect-blue</link>
+      <description>Brilliant. What an insight into not only Japanese, but overabundant consumer-based and generally pre-occupied contemporary societies. Satoshi Kon was a ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 20:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/perfect-blue</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/high-and-low</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Perfect Blue</title>
-      <link>https://sandyuraz.com/drama/perfect-blue</link>
-      <description>Brilliant. What an insight into not only Japanese, but overabundant consumer-based and generally pre-occupied contemporary societies. Satoshi Kon was a ... [ Continue reading... ]</description>
+      <title>(Film) High and Low</title>
+      <link>https://sandyuraz.com/drama/high-and-low</link>
+      <description>I’m lost for words. The supreme summit of filmmaking and taking the creation of art as one of the most serious embarks ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 20:00:00 CST</pubDate>
     </item>

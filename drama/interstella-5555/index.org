@@ -1,0 +1,66 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+date: 348; 12024 H.E. 1157
+* Interstella 5555: The 5tory of the 5ecret 5tar 5ystem
+
+#+begin_export html
+<img class="image movie-poster" src="poster.webp">
+#+end_export
+
+I just came back from a special screening of /Interstella 5555/ that was
+remastered with AI. It was bad. Real bad. This specific critique will cover the
+re-release and the original release by Mr. Matsumoto, as I have never had a
+chance to really cover /Interstella 5555/ nor /Daft Punk/ specifically anywhere
+around these parts of town. It should be no secret to anyone here---nobody
+before or after has ever come close to what /Daft Punk/ were able to achieve and
+unlock with their mastery over the ethereal quality of music.
+
+It was a long time I watched /Interstella 5555/, where at the time, I didn't even
+know who Leiji Matsumoto was; all happened way before I got to know his magnum
+opus works such as /Space Battleship Yamato/ and /Galaxy Express 999/ (of which I
+have a massive original release poster from Japan in a wooden frame from my
+friend). Somehow I happened to see it around the time when /Random Access
+Memories/ had juts come out and it left some very special sort of imprint within
+me that I have never really been able to scrub off---not that I ever wanted to.
+
+As much as I am hopelessly obsessed over /Random Access Memories/, nothing really
+beats /Discovery/ when it comes something calling my heart its home so
+effortlessly. I will wholly blame it on the movie. Speaking of it, seeing it in
+theaters on the big screen was a real treat. I have actually forgotten the
+nuances of the story---which ended up being literally 1000x better than whatever
+was coming out in recent times, like /Gladiator 2/, I suppose. The music, just
+like /Interstella 5555/ showed is something otherworldly. Unbelievable, almost,
+that we have this caliber of soul striking hot in today's times.
+
+The most unfortunate part of the whole 4K screening, which was sold as a ``the
+only day in December when you can watch it'' was the utter and sheer lack of
+quality and disrespect to the source material. Some artifacts of AI-upscaling
+were straight out of horror movies. One guy's mouth in the audience looked all
+stitched up, some sort of a torturous scene to look at. EVERY single background
+character, god, even whenever ANY of the main focus characters moved a little
+bit into the background---their faces would become all smudged, eyes melting
+into their cheeks, glasses taking over their entire faces, and other unpleasant
+things that take you out of the once-in-a-lifetime experience.
+
+``Look what they did to my boy'' is the best way I can describe the absolute
+massacre we all witnessed together, in a sold out theater. The 90s-style
+animation---even if the original came out in 2003---had that inexplicable yet
+soft and inviting charm, just like /Galaxy Express 999/, where it would have been
+better to play the movie as is, in its 240p quality; I would not have asked for
+anything more than that. The whole experience left me puzzled. Outerwordly music
+and story paired with awful and distracting visuals left an unidentified taste
+in my mouth, which I wouldn't want anybody else getting exposed to.
+
+A nice surprise after the screening was a reel of all their classic music
+videos, such as: /Da Funk/, /Around the World/, /Burnin'/, /Fresh/, and /Infinity
+Repeating/ (one of my all-time favorites, crazy to think it was a Demo just
+chilling on someone's desk for the better part of the decade). Seeing all their
+hits on the big screen was such a nice and an unexpected treat that I left happy
+and eager to talk to my friends about the whole experience. That's the world I
+like to use for /Daft Punk/---experience. /Something About Us/ is my transformation,
+as I lived through my first big and real heartbreak whilst listening to it at
+night in my dark college room, only to be lit by a tiny lamp---living through
+the feelings that have never come to be. Memories that never got a chance to live. 
