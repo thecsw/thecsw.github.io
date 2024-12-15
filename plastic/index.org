@@ -12,7 +12,7 @@ glass.'' -- Anton Chekhov
 #+end_export
 
 #+begin_gallery
-- [[https://photos.sandyuraz.com/bvE][Ao Nanjo 🩱]] [[ai-nanjo][<-- ao-nanjo]]
+- [[https://photos.sandyuraz.com/bvE][Ao Nanjo 🩱]] [[ao-nanjo][<-- ao-nanjo]]
 - [[https://photos.sandyuraz.com/TYK][Justice Neondroid 🥃]] [[justice-neondroid][<-- justice-neondroid]]
 - [[https://photos.sandyuraz.com/cea][Komi 🍡]] [[komi][<-- komi]]
 - [[https://photos.sandyuraz.com/Oqt][Justice 🥖]] [[justice][<-- justice]]
