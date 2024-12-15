@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Fri, 13 Dec 2024 11:57:00 UTC</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2024 20:18:12 UTC</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 17:27:00 UTC</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 23:47:54 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>My friend, nothing exists here. Some would call this a “40...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ao-nanjo</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Ao Nanjo 🩱</title>
+      <link>https://sandyuraz.com/plastic/ao-nanjo</link>
+      <description>I’m in love with Kaoming’s works and characters they bring to life so effortlessly. So much so that I pre-ordered their Ao Nanjo bathing suit figure almost a year and a half in advance—it was almost a complete and total disappointment. Do not believe the pictures, as they are not accurate—with the bathing suit not being as translucent as shown—with hair made in too simple shapes—with the plastic on the eyes b... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 15 Dec 2024 17:27:00 CST</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
@@ -453,17 +464,6 @@
       <pubDate>Mon, 01 Jan 2024 20:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) sex, lies, and videotape</title>
-      <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
-      <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
@@ -471,6 +471,17 @@
       <title>(Goodreads) Delicious in Dungeon 🥩</title>
       <link>https://sandyuraz.com/books/goodreads/delicious-in-dungeon</link>
       <description>Brings out the charm of more vintage RPGs and food wars style preparations of monster ingredients. Superb art style! I enjoyed reading the first volume, even though dungeon-crawling and fantasy settings are unfortunately not my preferred genre. Still, I would be interested to know how it goes, especially since TRIGGER is coming out with the anime adaptation of it pretty soon. I’ll try to stay up to date, maybe buy the manga, and read it when the time... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) sex, lies, and videotape</title>
+      <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
+      <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -1093,22 +1104,22 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika-neondroid</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/joker-neondroid</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Ichika Neondroid 🕶️</title>
-      <link>https://sandyuraz.com/plastic/ichika-neondroid</link>
-      <description>Ichika looks so cute in her glasses! Mwah. ... [ Continue reading... ]</description>
+      <title>Joker Neondroid ☕️</title>
+      <link>https://sandyuraz.com/plastic/joker-neondroid</link>
+      <description>My last year at college was the most grueling part of my life. Taking 21 credit hours, three majors, two jobs, not going to Ph.D. or graduate school in favor of going into corporate – it all weighs in on you. No one tells you this. One of the things that gave me immense comfort and an out was Joseph Anderson’s Persona 5 streams. I would watch them while falling asleep, working my jobs, and doing regular homework. A calming voice that was always there. It gave me peace. Very parasocial. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Thu, 05 Jan 2023 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/joker-neondroid</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika-neondroid</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Joker Neondroid ☕️</title>
-      <link>https://sandyuraz.com/plastic/joker-neondroid</link>
-      <description>My last year at college was the most grueling part of my life. Taking 21 credit hours, three majors, two jobs, not going to Ph.D. or graduate school in favor of going into corporate – it all weighs in on you. No one tells you this. One of the things that gave me immense comfort and an out was Joseph Anderson’s Persona 5 streams. I would watch them while falling asleep, working my jobs, and doing regular homework. A calming voice that was always there. It gave me peace. Very parasocial. ... [ Continue reading... ]</description>
+      <title>Ichika Neondroid 🕶️</title>
+      <link>https://sandyuraz.com/plastic/ichika-neondroid</link>
+      <description>Ichika looks so cute in her glasses! Mwah. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Thu, 05 Jan 2023 18:00:00 CST</pubDate>
     </item>
@@ -1122,6 +1133,17 @@
       <description>I just finished the two volumes of Ryuko by Eldo Yoshimizu. Before going in-depth into why this might be one of my all-time favorite crime fiction stories (and stylish mangas), I ha... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 24 Dec 2022 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Winter Darkness 🧤</title>
+      <link>https://sandyuraz.com/plastic/darkness-winter</link>
+      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
@@ -1148,6 +1170,17 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-rem</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Winter Rem 🌸</title>
+      <link>https://sandyuraz.com/plastic/winter-rem</link>
+      <description>“When you said that you hate yourself, it made me want to tell you all the wonderful things I know about you... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Ichika 👜</title>
@@ -1159,33 +1192,11 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Darkness 🧤</title>
-      <link>https://sandyuraz.com/plastic/darkness-winter</link>
-      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-ram</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Winter Ram 🧣</title>
       <link>https://sandyuraz.com/plastic/winter-ram</link>
       <description>Re:Zero is probably on of the best animated shows ever made. Truly, the Brothers Karamazov of anime (or maybe Tengen Toppa Gurren Lagann? why not both..... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-rem</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Rem 🌸</title>
-      <link>https://sandyuraz.com/plastic/winter-rem</link>
-      <description>“When you said that you hate yourself, it made me want to tell you all the wonderful things I know about you... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
     </item>
@@ -1289,6 +1300,17 @@
       <pubDate>Tue, 28 Jun 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/darkness</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>I love Darkness 🥬</title>
+      <link>https://sandyuraz.com/blogs/darkness</link>
+      <description>It doesn’t feel right anymore. Every time I write something for my website, I feel that I have to dance to the tune of pandoc and asciidoctor. Maybe the Ruby and Haskell Gods will take pity on me and my stuff will render as I want them to. Oh... they didn’t? Time to write a new sed script to... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 24 May 2022 18:00:00 CDT</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/writings">I write 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
@@ -1307,17 +1329,6 @@
       <title>Politeness is Dead</title>
       <link>https://sandyuraz.com/writings/politeness</link>
       <description>Politeness theory was proposed by P. Brown and S. Levinson in the late 70s. It focuses on the original notion of politeness, which Mary Henningsen describes as „efforts on redressing the affronts to a person’s self-esteem of effectively claiming positive social values .&#34; The central concept of the theory is based on the idea of the face, understood in terms of sociology. “Face” is something that can be lost, maintained, or enhanced. &#34;Every person lives in a world of social encounters, involving him either in face-to-face or mediated conta... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Tue, 24 May 2022 18:00:00 CDT</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/darkness</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>I love Darkness 🥬</title>
-      <link>https://sandyuraz.com/blogs/darkness</link>
-      <description>It doesn’t feel right anymore. Every time I write something for my website, I feel that I have to dance to the tune of pandoc and asciidoctor. Maybe the Ruby and Haskell Gods will take pity on me and my stuff will render as I want them to. Oh... they didn’t? Time to write a new sed script to... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 24 May 2022 18:00:00 CDT</pubDate>
     </item>
@@ -1355,17 +1366,6 @@
       <pubDate>Tue, 03 May 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/haste</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Haste slowly, my friend 🧸</title>
-      <link>https://sandyuraz.com/blogs/haste</link>
-      <description>I need to do this, I can’t miss that, and more is what we tell ourselves every day, trying to accomplish tasks and fill our “productivity meters` throughout the day. We hurry so much onto doing as many things as possible that no time is being left out to enjoy doing the things we... enjoy doing. You of course can like the things you do throughout the day, however, that time you spend just with yourself is as equally important. I ask myself, is this modern busyness needed or is its necessity something that we made ourselves b... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sat, 16 Apr 2022 18:00:00 CDT</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/anime">Anime is dying 🍶</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/anime/sao</guid>
@@ -1373,6 +1373,17 @@
       <title>Sword Art Online ⚔️</title>
       <link>https://sandyuraz.com/anime/sao</link>
       <description>“I like Sword Art Online” is something you would hear rarely if you ask someone about their opinions on it. It’s such a popular series, as of 12021, the series has 26 million copies in print. However, it received some rather harsh united criticism from the Western audiences. Some of the top kitsu reviews include “Self-indulgent power fantasy about a soulless husk in black savin... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 16 Apr 2022 18:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/haste</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Haste slowly, my friend 🧸</title>
+      <link>https://sandyuraz.com/blogs/haste</link>
+      <description>I need to do this, I can’t miss that, and more is what we tell ourselves every day, trying to accomplish tasks and fill our “productivity meters` throughout the day. We hurry so much onto doing as many things as possible that no time is being left out to enjoy doing the things we... enjoy doing. You of course can like the things you do throughout the day, however, that time you spend just with yourself is as equally important. I ask myself, is this modern busyness needed or is its necessity something that we made ourselves b... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 16 Apr 2022 18:00:00 CDT</pubDate>
     </item>
@@ -1423,6 +1434,17 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>WebP is such a goated format 🫐</title>
+      <link>https://sandyuraz.com/blogs/webp</link>
+      <description>Update: hi, this page got a little traction on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, AVIF (69.25%) and JPEG XL (0%) are not as nearly adopted as WebP is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released a... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 03 Apr 2022 18:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/weird</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Don’t be weird about it 🥡</title>
@@ -1439,17 +1461,6 @@
       <title>Video games are kinda boring 🕹</title>
       <link>https://sandyuraz.com/blogs/games</link>
       <description>I observe that video games just aren’t that fun. It is not my intention now to trivialize it down to oh cmon bro, it’s pixels changing on your monitor, but to discuss the effect of video games on us, the entertainment value, and its necessity (or its uselessness) in our lives. Nonetheless, prepare for a hot and a subjective take.... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sun, 03 Apr 2022 18:00:00 CDT</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/webp</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>WebP is such a goated format 🫐</title>
-      <link>https://sandyuraz.com/blogs/webp</link>
-      <description>Update: hi, this page got a little traction on HackerNews. I want to note that there are formats that are meant to supersede WebP, such as AVIF and JPEG XL, however, AVIF (69.25%) and JPEG XL (0%) are not as nearly adopted as WebP is (91.38%). Usage taken on April 13th, 2022. Also, get a browser released a... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 18:00:00 CDT</pubDate>
     </item>
@@ -1542,13 +1553,24 @@
       <pubDate>Tue, 15 Mar 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
+      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/cheburashka</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Cheburashka, I seek your sociolinguistic wisdom</title>
+      <link>https://sandyuraz.com/stories/cheburashka</link>
+      <description>I wonder where he is. It’s already been more than half an hour and he is still not here. Everyone knows it. Everyone should know it. It is the unspoken rule in our society that you are never to be late to a tea party, especially to the one you are i... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/soul</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/web-legacy</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>For your soul 💃</title>
-      <link>https://sandyuraz.com/blogs/soul</link>
-      <description>I wish to share this beautiful son... [ Continue reading... ]</description>
+      <title>Building this website (Legacy) 🌐</title>
+      <link>https://sandyuraz.com/blogs/web-legacy</link>
+      <description>I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: LaTeX, groff, markdown, Org-Mode, asciidoctor, HTML, plain text. I had to decompress Word files and wrestle with raw XML files there, what a trip... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
     </item>
@@ -1575,37 +1597,15 @@
       <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/cheburashka</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Cheburashka, I seek your sociolinguistic wisdom</title>
-      <link>https://sandyuraz.com/stories/cheburashka</link>
-      <description>I wonder where he is. It’s already been more than half an hour and he is still not here. Everyone knows it. Everyone should know it. It is the unspoken rule in our society that you are never to be late to a tea party, especially to the one you are i... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/web-legacy</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/soul</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Building this website (Legacy) 🌐</title>
-      <link>https://sandyuraz.com/blogs/web-legacy</link>
-      <description>I love typesetting tools. In my experience, I have used and written articles and papers using the following list of tools: LaTeX, groff, markdown, Org-Mode, asciidoctor, HTML, plain text. I had to decompress Word files and wrestle with raw XML files there, what a trip... [ Continue reading... ]</description>
+      <title>For your soul 💃</title>
+      <link>https://sandyuraz.com/blogs/soul</link>
+      <description>I wish to share this beautiful son... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 14 Mar 2022 18:00:00 CDT</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/tacobell</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Write a report? But I want to go to Taco Bell</title>
-      <link>https://sandyuraz.com/stories/tacobell</link>
-      <description>Nothing felt the same as it used to. I looked around the room, everything seems to be in place, but... this feeling. This feeling of uneasiness and doubts is sinking deeper and deeper into me. Stuff like this always happens for the wrong reasons, at the wrong times. I think to myself, why do I allow it to ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sun, 06 Mar 2022 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
@@ -1615,6 +1615,17 @@
       <title>That time I spoke with Aristotle about his virtue ethics and Sufism</title>
       <link>https://sandyuraz.com/stories/aristotle</link>
       <description>I went to a pub that recently opened in our town. Beautiful wooden floors, old-style lanterns hanging on the walls, and a rich atmosphere with interesting folk. A nice table caught my eye and while sitting, I noticed a strange man across the room. He wasn’t dancing or drinking, just sitting, as if he is very deep in his thoughts. Pondering about something. I wonder what. He looked familiar, I couldn’t pinpoint his features, but I recognize this mysterious figure from what feels like a million prior encounters. No need to bother a lonely patro... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 06 Mar 2022 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/tacobell</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Write a report? But I want to go to Taco Bell</title>
+      <link>https://sandyuraz.com/stories/tacobell</link>
+      <description>Nothing felt the same as it used to. I looked around the room, everything seems to be in place, but... this feeling. This feeling of uneasiness and doubts is sinking deeper and deeper into me. Stuff like this always happens for the wrong reasons, at the wrong times. I think to myself, why do I allow it to ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 06 Mar 2022 18:00:00 CST</pubDate>
     </item>
