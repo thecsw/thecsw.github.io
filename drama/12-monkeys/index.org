@@ -1,0 +1,25 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+date: 353; 12024 H.E. 2234
+* 12 Monkeys
+
+#+begin_export html
+<img class="image movie-poster" src="poster.webp">
+#+end_export
+
+Classic of the times---I think it must have been more than a decade since the
+last time I saw this movie. Good thing I haven't remembered much---nothing
+really---about the plot nor even the actors. Did not recall initially that
+Madeleine Stowe was in it and I myself just found out that there is a TV show
+based on the film, which is kinda lame. However, let's get back to the
+substance.
+
+It's a good movie and Bruce Willis actually cares about whatever he's doing
+throughout the story, which is a rare sight. However, Brad Pitt totally stole
+the show every time he appeared on the screen. Solid story straight from the 90s
+and it's one of those ``they don't make'em like they used to'' with all the
+bloom and camera angles and the grimey feel of the streets---a bygone era. An
+honest 6/10 if I had to give it a numeric score.
