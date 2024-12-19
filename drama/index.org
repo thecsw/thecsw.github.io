@@ -62,3 +62,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 38 | [[file:ice-storm/poster.webp][poster]] | [[ice-storm][*The Ice Storm*]]                                            | Ang Lee                              | United States                          | 1997 |
 | 39 | [[file:gladiator-2/poster.webp][poster]] | [[gladiator-2][*Gladiator II*]]                                             | Ridley Scott                         | United Kingdom\ United States          | 2024 |
 | 40 | [[file:interstella-5555/poster.webp][poster]] | [[interstella-5555][*Interstella 5555: The 5tory of the 5ecret 5tar 5ystem*]]    | Kazuhisa Takenouchi\ Leiji Matsumoto | France\ Japan                          | 2003 |
+| 41 | [[file:12-monkeys/poster.webp][poster]] | [[12-monkeys][*12 Monkeys*]]                                               | Terry Gilliam                        | United States                          | 1995 |
