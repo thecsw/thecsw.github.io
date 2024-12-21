@@ -91,3 +91,9 @@ tbody tr {
                 color: dimgray;
         }
 }
+
+@media all and (min-width: 550px) {
+    .pre-vid-skip {
+        margin-bottom: 9rem;
+    }
+}
