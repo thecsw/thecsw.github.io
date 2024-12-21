@@ -16,3 +16,7 @@ me as ``whatever is popular now'' and I would move on with whatever else I was
 doing. She's good! An innuendo Christmas special, where every shot is candy for
 the eyes, especially with how fine Sabrina Carpenter looks. I think my favorite
 song was /Cindy Lou Who/ and the very last ``fuck.''
+
+#+begin_export html
+<p class="pre-vid-skip"></p>
+#+end_export
