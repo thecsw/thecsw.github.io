@@ -32,10 +32,10 @@ invest myself in what I'm about to watch.
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌────────────────────┐
- │   Rascal Does Not  │
- │  Dream of a Sister │
- │    Venturing Out   │
- ├────────────────────┼───────────────────┐
+ │   Rascal Does Not  ├───────────────────┐
+ │  Dream of a Sister │    Kyokou Suiri   │
+ │    Venturing Out   │      Season 2     │
+ ├────────────────────┼───────────────────┤
  │     SPY×FAMILY     │     Look Back     │
  │    CODE: White     ├───────────────────┤
  ├────────────────────┤  Kono Subarashii  │
