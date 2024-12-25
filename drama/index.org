@@ -64,3 +64,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 40 | [[file:interstella-5555/poster.webp][poster]] | [[interstella-5555][*Interstella 5555: The 5tory of the 5ecret 5tar 5ystem*]]    | Kazuhisa Takenouchi\ Leiji Matsumoto | France\ Japan                          | 2003 |
 | 41 | [[file:12-monkeys/poster.webp][poster]] | [[12-monkeys][*12 Monkeys*]]                                               | Terry Gilliam                        | United States                          | 1995 |
 | 42 | [[file:nonsense-christmas/poster.webp][poster]] | [[nonsense-christmas][*A Nonsense Christmas with Sabrina Carpenter*]]              | Sam Wrench                           | United States                          | 2024 |
+| 43 | [[file:daytrippers/poster.webp][poster]] | [[daytrippers][*The Daytrippers*]]                                          | Greg Mottola                         | United States                          | 1996 |
