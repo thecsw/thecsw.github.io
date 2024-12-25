@@ -1,0 +1,83 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+date: 360; 12024 H.E. 1421
+* The Daytrippers
+
+#+begin_export html
+<img class="image movie-poster" src="poster.webp">
+#+end_export
+
+This really had no reason to be this good. Met with an utmost difficult task
+with choosing a movie to watch on a plane on Christmas Eve that is shorter than
+two-ish hours---to my surprise, I will confess--Delta had a catalogue of
+Criterion movies you could choose from their in-flight infotainment screen. I
+recall having /The Daytrippers/ in my watchlist for a while, so the choice was
+pretty clear. I will repeat; this really had *no* business being this good. Like,
+what?
+
+Every hero in the story is such an epitome, such a distillation of characters
+you meet throughout life or have to share said life with them. Harboring both
+the likable and dislikable traits at the same time is what makes us human in the
+first place. /The Daytrippers/ combines all these different people in a story that
+we all know too well; if not the exact story of hunting down your husband in
+suspicion of infidelity, but in the story of spending supremely uncomfortable
+time in the same car or throughout the day with your in-laws, disagreeable
+people, crooks, liars, and whoever.
+
+The scenes where the mother Rita, played by Anne Meara was talking to her
+daughter's boyfriend Carl, played by wow-I-have-never-seen-him-this-young Liev
+Schreiber about his novel about the dog and the way she smiles, looks at him, in
+absolute and pure politeness with ``Carl, I'm not an educated woman,'' when
+asked about /Master and Margarita/ or /Animal Farm/ and the ``very Kafka-esque''
+nature of Carl's novel triggered something primal in me. I have known that look
+and situation all too well that I knew this movie is for me.
+
+Just like a German Shorthaired Pointer would, this film focuses sharply on its
+core theme and commits in telling the boutique story intimately. All
+interactions between characters are relatable and poignant. As the film
+concludes, you build a mental picture of the entire dynamics of this family. At
+the core of it, I see an extremely overbearing mother, who forced her eldest
+daughter Eliza, played by Hope Davis---she's very pretty---into marrying Louis,
+played by Stanley Tucci---so handsome and I don't think I've seen him this young
+before---all exploding in unfortunately predictable troubles when a marriage
+is not built on love.
+
+Rita, the mother, is forcing the same kind of situation onto her youngest
+daughter Jo, played by Parker Posey---I couldn't recall what movie I watched
+with her recently, but it was [[../party-girl][Party Girl]]---where it ends up errupting in flames
+right back into her (mother's) face. Carl and Jo are not a good match, since
+Carl is much more worldly, educated, and curious than Jo and it pisses her
+off. Not a good combination, if you ask me. Primarily because of this dichotomy
+in characters, the mother sees him as a ``he's good for her and will take care
+of her, probably best thing that will ever happen to her'' token of
+luck. Saddest thing of all, Rita is doing it out of good intentions, but we all
+know that it serves as a great pavement on the road to Hell.
+
+Carl, on the other hand, is just a nice guy with great style. He's quick on his
+feet when finding a place for Rita to rest after she's passed out on the
+street. He's harsh but observant on the corruption of American education,
+morals, and ideals by consumerism-driven impulses and the forces that feed them.
+
+#+begin_quote
+I mean, it's the fate of the middle class. Everything about middle-class
+life---you know, cars, suburbs, strip malls, tabloid television---It's all
+designed to keep people from having meaningful interactions. The average
+American knows more about the latest maniac who keeps human heads in their
+freezer than they do about their own spouse.
+#+end_quote
+
+On whether it's a sign of failing democracy and its inevitable decline towards
+the middle, into mediocrity and that we would be better off in aristocracy
+because they had more class and ``walked into guillotines with class'' as Carl
+notes, that is up for another debate another day. It's a bit of a redditor take,
+so Carl has his own wins and fails. But the very heart of his arguments resonates
+strong and true.
+
+It's a Christmas afternoon and my eyes are having a hard time focusing on this
+already zoomed-in text on the screen, which I'll take as my cue to go and lie
+down a bit before a feast that my in-laws have for us. So, to wrap up this quick
+critique I had for /The Daytrippers/---it's a wonderful indie film about the
+modern America with the kind of people it produces and that you should see it.
