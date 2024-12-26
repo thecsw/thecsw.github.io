@@ -1,0 +1,72 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+date: 360; 12024 H.E. 2233
+* Ferris Bueller's Day Off
+
+#+begin_export html
+<img class="image movie-poster" src="poster.webp">
+#+end_export
+
+My partner's entire family has shocked me because they have never seen /Ferris
+Bueller's Day Off/. With this being a chill Christmas Day's evening, knowing
+what everyone's tastes are like---I had no choice but to recommend this timeless
+classic. To my delight, it is as good as I have always remembered it to be. The
+cast, the music, the story, how pathetic Ed Rooney was, how cool Ferris is, how
+charming Sloane is, an what a great character arc Cameron goes
+through---starting off as a (truly) sickly kid, depressed, in fear of his
+parents, especially the dad, to someone who has made a decision to stand up to
+him for once in his life.
+
+Wonderful. It is no secret that Cameron is the core protagonist of the film, as
+he is the one that goes through a real transformation; everybody else kind of
+stays static---with a small exception of Ferris' sister. God, Charlie Sheen
+looks so fine in that ghostly makeup. My partner may have not liked him, but I
+think he is the epitome of a hot troublesome guy. But, I digress. Bringing us
+back to the narrative, let's talk about Ferris Bueller himself.
+
+When I first saw the movie and this must have been a decade or two ago---I
+remember how I took him as my role model. Not to some crazy or obsessive extent,
+but I would think to myself, especially in early high school---``how would
+Ferris Bueller deal with this situation and get out of it spotless?'' I kid you
+not, it has gotten me out of a pickle and a number of awkward situations
+unscathed.
+
+I see around the sentiment that he's the asshole or the antagonist of the
+story---my partner said the same. To the extent that he is ruining lives of the
+people around him and doesn't take their feelings into consideration whenever
+he's proposing to do anything. Or maybe, Ferris Bueller simply reminds them of
+somebody they used to know. Some harsh criticism I found [[https://boxd.it/1aN5N][on letterboxd]] goes as
+far as to call him ``one of the most obnoxious, self-centered, egotistical,
+douchy, horrendous, repulsive, selfish, vile, repugnant, greedy, narcissistic,
+uncaring, and hideous characters ever in the history of film.``
+
+That is crazy to me. This review right next to some perfect score post saying
+it's the best thing since sliced bread. I understand where the criticism comes
+from and let me just say fuck off lol. The misreading that some can do is truly
+baffling. The whole point is that Ferris gets Cameron /out of his shell/, getting
+him to explore the wider world, muster up the courage to finally stand up for
+himself, to his father, to rebel against his parents (who hate each other) on
+why do they not love him as much as they do themselves or random material
+possessions like a sports car.
+
+In total honesty, when somebody complains about Ferris Bueller as being the
+bully and/or ``ruining lives around him'' are either projecting some real bad
+experiences and people they had in their own lives onto the movie or they have
+never lived or have this mediocre desire to feel special by bashing onto an
+archetype, which they have not attempted to understand or try to extract the
+positives out of onto their own day to day lives. It's really ironic and
+laughable (browsing them haters' top films---I know we would not get along.)
+
+Well, we shouldn't spend too much time talking about the meek and gullible. I
+mean, /life moves pretty fast---if you don't stop and look around once in a
+while, you could miss it./ If you have never seen this film, go watch it! It's
+what I would consider to be a /perfect movie/. Nothing to take out of it and
+nothing to add to it either. Go commandeer a float and sing your heart out. Go
+spoof a restaurant reservation. Go encourage your friend to see how full life
+can feel. Go smooch your partner. Go marry your partner. Go skip school and do
+something you are actually interested in (my entire year of college).
+
+*Go and live a little, for God's sake*.
