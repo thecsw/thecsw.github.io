@@ -7,7 +7,7 @@ Sistine Chapel. All it took was an amazon basics paint scraper, a steady hand,
 and a *lot* of patience. But hey, looks great in my living room!
 
 #+begin_gallery :num 2 :path .
-- [[https://photos.sandyuraz.com/SHE][View from the right "I don't know why colors are so off from the second one"]]
-- [[https://photos.sandyuraz.com/vvu][View from the left "it looks so vibrant here also *majestic*"]]
-- [[https://photos.sandyuraz.com/XXb][Biblical]] :flex 1
+- [[lfs:/lfs/blogs/adam/resized/adam1_x1000.jpeg][View from the right "I don't know why colors are so off from the second one"]]
+- [[lfs:/lfs/blogs/adam/resized/adam2_x1000.jpeg][View from the left "it looks so vibrant here also *majestic*"]]
+- [[lfs:/lfs/blogs/adam/resized/adam3_x1000.jpeg][Biblical]] :flex 1
 #+end_gallery
