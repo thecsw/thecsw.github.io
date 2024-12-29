@@ -115,6 +115,7 @@ quickly I'll reach the 50GB on random pages I onboarded to LFS.
 *sandy* ^{{8:56pm}} \
 Something is aggressively crawling my website.
 
+#+html_tags: style="width:47rem";
 [[almost10gb_used.webp][Another 2GB of bandwidth gone in just 16 minutes.]]
 
 The usage is going up crazy, like 1GB every 10 minutes.
@@ -219,6 +220,7 @@ What makes zone 3 so good?
 #+end_export
 
 *sandy* ^{{9:02pm}} \
+
 - Zone 1—North America, Europe, Middle East and Africa
 - Zone 2—Asia Pacific (including Japan)
 - Zone 3—South America
