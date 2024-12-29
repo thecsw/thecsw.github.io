@@ -13,6 +13,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 #+end_center
 
 ** Software
+- [[lfs-cdn][Git LFS is (not) CDN 🍓]]
 - [[oop][On OOP 🚬]]
 - [[configs][My tools and my colors 🍬]]
 - [[darkness][I love Darkness 🥬]]
@@ -85,5 +86,3 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[best_web][My favorite stuff on the web 🌍]]
 - [[sqrt2irrational][$\sqrt{2}$ is irrational ◻]]
 - [[mini_jenni][Mini Jenni - my new best friend 👯‍♀️]]
-
-  

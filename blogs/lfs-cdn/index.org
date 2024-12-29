@@ -1,0 +1,329 @@
+#+html_head: <link rel="stylesheet" type="text/css" href="/css/discord.css">
+#+options: author-image:nil tomb:nil
+# # Detach any other snow javascript effects.
+# #+options: exclude-html-head:/scripts/snowstorm-min.js
+# #+options: exclude-html-head:property="theme-color"
+#+options: preview-generate:t math:nil
+#+options: preview-generate-bg:#140f08 preview-generate-fg:#ffffff
+#+date: 361; 12024 H.E.
+* Git LFS is (not) CDN 🍓
+
+I have been using OneDrive as my CDN, where I would mask their big and ugly
+embed URLs with my custom-rolled [[https://sandyuraz.com/projects/monokuma/][=monokuma= url shortener]]. What has been
+bothering me for a hot moment was the fact that the sources for the website
+itself (a bunch of orgmode files) live on github and the rest of ``heavy
+content'' lives on OneDrive. What's a better way to marry them than using the
+``heavy content'' of git?
+
+It's called [[https://git-lfs.com/][Git Large File Storage]] and to save you some time, this is not story
+of a successful pivot to LFS, but a story of how this endeavor was fun to
+implement but ultimately failed to become practical. The core reason is pretty
+simple---pricing. Follow this string of raw and real discord messages, or not,
+but I'm too lazy to write it up and I like the style of unedited discord
+messages popping up here on the website.
+
+-----
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{2:17pm}} \
+Im learning about git lfs. It's so money. Because of my big galleries, where
+each picture weighs a few MBs, I can't commit them to git, so I moved everything
+over to OneDrive, which stores full files and does real-time resizing but then,
+finally playing more with LFS, I'm moving everything back into my big 
+website repo where all the big files are stored in LFS but tracked through git.
+I also wrote a script that automatically creates various sized versions of each
+picture are all stored in LFS and tracked through git as well. It's like that
+the git file itself just tracks a pointer to the actual object in LFS, but it's
+all native.
+
+/... later in the day .../
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{7:39pm}} \
+[[https://github.com/thecsw/thecsw.github.io/commit/76a151bc48792811ef0b31f5445297fb318c2213][https://github.com/thecsw/thecsw.github.io/commit/76a151bc48792811ef0b31f5445297fb318c2213]]
+
+This is what the new LFS galleries/images look like, no even need for me to
+maintain a separate url shortener installation all contained in the same
+repository, which makes me quite happy. I even wrote a fish script that would
+generate different sizes for each picture for me to choose if the target image
+is too big, like over 4-5MB some are even 15MBs.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{8:02pm}} \
+The problem with LFS though is that they charge for bandwidth, so $5/mo gets you
+50GB/mo, which is nothing.
+
+#+begin_quote
+If you push a 500 MB file to Git LFS, you'll use 500 MB of your allotted storage
+and none of your bandwidth. If you make a 1 byte change and push the file again,
+you'll use another 500 MB of storage and no bandwidth, bringing your total usage
+for these two pushes to 1 GB of storage and zero bandwidth.
+#+end_quote
+
+So, if you have say a 1GB file, don't you dare make a single-byte
+change---you'll kill your entire free storage of 1GB.
+
+#+begin_quote
+If you download a 500 MB file that's tracked with LFS, you'll use 500 MB of the
+repository owner's allotted bandwidth. If a collaborator pushes a change to the
+file and you pull the new version to your local repository, you'll use another
+500 MB of bandwidth, bringing the total usage for these two downloads to 1 GB of
+bandwidth.
+#+end_quote
+
+Hmmmmm. I might not fully pivot to LFS yet, it seems to be hella expensive. If I
+have 50GB of bandwidth rn and say I have 10 1MB files, then you can kill my
+bandwidth by loading the website 5,000 times or if 5,000 users open the website,
+which is nothing.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{8:11pm}} \
+How hard is it to serve a picture? Azure does $0.081/GB/mo
+[[https://azure.microsoft.com/en-us/pricing/details/cdn/][https://azure.microsoft.com/en-us/pricing/details/cdn/]].
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{8:40pm}} \
+I know for a fact that I'm not using this bandwidth.
+
+#+html_tags: style="width:47rem";
+[[7gb_used.webp][7.35GB of the bandwidth used up in the first hour.]]
+
+So some bots and crawlers are killing my lfs allowance I'm already paying
+for. Project probably folded, this is literally only like 5/200 images. In the
+last 3 minutes, it went up by another 500MB. This is wonderful. I wonder how
+quickly I'll reach the 50GB on random pages I onboarded to LFS.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{8:56pm}} \
+Something is aggressively crawling my website.
+
+[[almost10gb_used.webp][Another 2GB of bandwidth gone in just 16 minutes.]]
+
+The usage is going up crazy, like 1GB every 10 minutes.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+james ^{{8:57pm}} \
+maybe something related to index now?
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{8:58pm}} \
+All pages that turned to LFS only serve maybe ~10MB each and indexnow will
+probably get with a delay, the fact it's rising aggressively means there is
+something else.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{8:59pm}} \
+hmmmmmm interesting
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{8:59pm}} \
+Yeah, I wonder if I run out of the 50GBs tomorrow morning when I wake up.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{8:59pm}} \
+So the LFS allowance is like total bandwidth?
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{8:59pm}} \
+Yeah; Onedrive at least gives me unlimited bandwidth lol.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{9:00pm}} \
+So you only get 50GB of total data transfers per month? Both serve and commit?
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:00pm}} \
+Serve only, commit/uploads don't count towards that.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{9:00pm}} \
+Ahhh; I see, I see. Interesting; Yeah that is kind of a rip as a cdn---esp since
+azure is so cheap.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:00pm}} \
+Azure is actually same price. Cheapest is $0.08/GB/mo, so 50GB is $4.00/mo. Not
+too far from $5/mo.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{9:01}} \
+Abhhhh; I miscalculated.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:02pm}} \
+The most expensive option in zone 3 is $0.2/GB/mo, so it's a whopping $10/mo for
+50GB/mo.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{9:02pm}} \
+What makes zone 3 so good?
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:02pm}} \
+- Zone 1—North America, Europe, Middle East and Africa
+- Zone 2—Asia Pacific (including Japan)
+- Zone 3—South America
+- Zone 4—Australia
+- Zone 5—India
+  
+Just regions have different prices, probably based on availabilities.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{9:08pm}} \
+That makes sense. I see, I see. What about just use compressed images on the
+site and then link to the full res hosted somewhere else like google photos or
+some other service that just hosts the photos as files that way you save on cdn
+costs?
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:10pm}} \
+Already doing it.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{9:10pm}} \
+lol nice
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:10pm}} \
+Even then it's already getting out of hand. I suppose I'm just not a fan of
+bandwidth billing, I'd much rather pay for costs only because it can get out of
+control real quick. The user doesn't pay to retrieve your pictures but you pay
+every time serving them.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+#+end_export
+
+*jame* ^{{9:11pm}} \
+Yeah that’s tough.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:11pm}} \
+So, for CDN, I recommend OneDrive. You pay for storage and you just get a
+sharing embed HTML link no questions asked.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/ephin2.webp">
+#+end_export
+
+*ephin* ^{{9:16pm}} \
+Its time I tell you Ive been aggressively refreshing your website for 3 hours.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:17pm}} \
+lmaooooo \
+Noooooooo
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:30pm}} \
+Pls stop refreshing. It's already past 10GB. There are only like 3 pages that
+have LFS. I haven't done another 50!
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/ephin2.webp">
+#+end_export
+
+*ephin* ^{{9:30pm}} \
+But I gotta see every single change.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:31pm}} \
+I'll have to revert those tomorrow.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+#+end_export
+
+*sandy* ^{{9:31pm}} \
+lol
+
+
+I guess I could switch to gitea [[https://about.gitea.com/pricing/][https://about.gitea.com/pricing/]] and gitlab,
+which don't talk about bandwidth in their LFS, but I'm also pretty set on using
+github, since it's already hosting the website itself.
+
+It would be kinda cringe to have the same repo across git services and serve
+different files from a different service and paying for all of them.
