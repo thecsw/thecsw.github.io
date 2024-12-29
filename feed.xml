@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Thu, 26 Dec 2024 00:00:00 UTC</pubDate>
-    <lastBuildDate>Sun, 29 Dec 2024 19:06:53 UTC</lastBuildDate>
+    <pubDate>Sun, 29 Dec 2024 12:30:00 UTC</pubDate>
+    <lastBuildDate>Sun, 29 Dec 2024 19:55:20 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -21,7 +21,7 @@
       <link>https://sandyuraz.com/blogs/lfs-cdn</link>
       <description>I have been using OneDrive as my CDN, where I would mask their big and ugly embed URLs with my custom-rolled monokuma url shortener. What has been bothering me for a hot moment was the fact that the sources for the website itself (a bunch of orgmode files) live on github and the rest of “heavy content” lives on OneDrive. What’s a better way to marry them than using the “heavy content... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
-      <pubDate>Thu, 26 Dec 2024 18:00:00 CST</pubDate>
+      <pubDate>Sun, 29 Dec 2024 12:30:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
