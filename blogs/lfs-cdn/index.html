@@ -1,0 +1,571 @@
+<!--
+                 ,ae,
+                ,88888e
+ _____   ,a888b.9888888i   _____              _
+(_____)  888888888888888  (____ \            | |
+   _     88888888888888Y   _   \ \ ____  ____| |  _ ____   ____  ___  ___
+  | |    '8888888888888'  | |   | / _  |/ ___) | / )  _ \ / _  )/___)/___)
+ _| |_     "S888888888"   | |__/ ( ( | | |   | |< (| | | ( (/ /|___ |___ |
+(_____)      "7888888Y    |_____/ \_||_|_|   |_| \_)_| |_|\____|___/(___/
+                "e88j
+                  "Y
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://sandyuraz.com/blogs/lfs-cdn" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/assets/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://sandyuraz.com/assets/apple-touch-icon.png" type="image/png"/>
+<link rel="image_src" href="https://sandyuraz.com/assets/android-chrome-512x512.png" type="image/png"/>
+<link rel="icon" href="https://sandyuraz.com/assets/favicon.ico" type=""/><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="index, follow">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="sandy">
+<meta name="date" property="date" content="361; 12024 H.E.">
+<meta name="theme-color" property="theme-color" content="#fbebef">
+<meta name="description" property="description" content="I have been using OneDrive as my CDN, where I would mask their big and ugly embed URLs with my custom-rolled [[https://sandyuraz.com/proj...">
+<meta name="og:title" property="og:title" content="Git LFS is (not) CDN 🍓">
+<meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/blogs/lfs-cdn">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https://sandyuraz.com/blogs/lfs-cdn/preview.jpg">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/jpg">
+<meta name="og:image:width" property="og:image:width" content="1200">
+<meta name="og:image:height" property="og:image:height" content="700">
+<meta name="og:description" property="og:description" content="I have been using OneDrive as my CDN, where I would mask their big and ugly embed URLs with my custom-rolled [[https://sandyuraz.com/proj...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/lfs-cdn/preview.jpg">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/lfs-cdn">
+<meta name="twitter:title" property="twitter:title" content="Git LFS is (not) CDN 🍓">
+<meta name="twitter:description" property="twitter:description" content="I have been using OneDrive as my CDN, where I would mask their big and ugly embed URLs with my custom-rolled [[https://sandyuraz.com/proj..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script><script async defer src="/scripts/snowstorm-min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/discord.css">
+<title>Git LFS is (not) CDN 🍓</title>
+</head>
+<body class="article">
+
+<div class="header">
+<h1 class="section-1">Git LFS is (not) CDN 🍓</h1>
+<div class="menu">
+<span><a href="/feed.xml" class="rss-link"><img src="/assets/rss.svg" class="rss-icon"></a></span><br>
+<span id="email" class="email">darkness [at] sandyuraz [dot] com</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/dossier">Dossier 🖋</a> | <a href="https://sandyuraz.com/books">Bookshelf 🔖</a> | <a href="https://sandyuraz.com/fortunes">Fortunes 🧧</a> | <a href="https://sandyuraz.com/fortunes/kk">K.K.’s Fortunes 🦋</a> | <a href="https://sandyuraz.com/blogs">Go Up ☝️</a> | <a href="https://sandyuraz.com/">Home 🏠</a></span>
+</div>
+<div id="hetime" class="menu"></div>
+</div>
+<div class="writing">
+
+<div class="paragraph " >
+<p>
+I have been using OneDrive as my CDN, where I would mask their big and ugly embed URLs with my custom-rolled <a href="https://sandyuraz.com/projects/monokuma/" title=""><code>monokuma</code> url shortener</a>. What has been bothering me for a hot moment was the fact that the sources for the website itself (a bunch of orgmode files) live on github and the rest of “heavy content” lives on OneDrive. What’s a better way to marry them than using the “heavy content” of git?
+</p>
+</div>
+<div class="paragraph " >
+<p>
+It’s called <a href="https://git-lfs.com/" title="">Git Large File Storage</a> and to save you some time, this is not story of a successful pivot to LFS, but a story of how this endeavor was fun to implement but ultimately failed to become practical. The core reason is pretty simple—pricing. Follow this string of raw and real discord messages, or not, but I’m too lazy to write it up and I like the style of unedited discord messages popping up here on the website.
+</p>
+</div></div>
+<center>
+<hr>
+</center>
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>2:17pm</sup><br>Im learning about git lfs. It’s so money. Because of my big galleries, where each picture weighs a few MBs, I can’t commit them to git, so I moved everything over to OneDrive, which stores full files and does real-time resizing but then, finally playing more with LFS, I’m moving everything back into my big website repo where all the big files are stored in LFS but tracked through git. I also wrote a script that automatically creates various sized versions of each picture are all stored in LFS and tracked through git as well. It’s like that the git file itself just tracks a pointer to the actual object in LFS, but it’s all native.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+<em>... later in the day ...</em>
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>7:39pm</sup><br><a href="https://github.com/thecsw/thecsw.github.io/commit/76a151bc48792811ef0b31f5445297fb318c2213" title="">https://github.com/thecsw/thecsw.github.io/commit/76a151bc48792811ef0b31f5445297fb318c2213</a>
+</p>
+</div>
+<div class="paragraph " >
+<p>
+This is what the new LFS galleries/images look like, no even need for me to maintain a separate url shortener installation all contained in the same repository, which makes me quite happy. I even wrote a fish script that would generate different sizes for each picture for me to choose if the target image is too big, like over 4-5MB some are even 15MBs.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>8:02pm</sup><br>The problem with LFS though is that they charge for bandwidth, so $5/mo gets you 50GB/mo, which is nothing.
+</p>
+</div>
+<div class="paragraph quote" >
+<p>
+If you push a 500 MB file to Git LFS, you’ll use 500 MB of your allotted storage and none of your bandwidth. If you make a 1 byte change and push the file again, you’ll use another 500 MB of storage and no bandwidth, bringing your total usage for these two pushes to 1 GB of storage and zero bandwidth.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+So, if you have say a 1GB file, don’t you dare make a single-byte change—you’ll kill your entire free storage of 1GB.
+</p>
+</div>
+<div class="paragraph quote" >
+<p>
+If you download a 500 MB file that’s tracked with LFS, you’ll use 500 MB of the repository owner’s allotted bandwidth. If a collaborator pushes a change to the file and you pull the new version to your local repository, you’ll use another 500 MB of bandwidth, bringing the total usage for these two downloads to 1 GB of bandwidth.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+Hmmmmm. I might not fully pivot to LFS yet, it seems to be hella expensive. If I have 50GB of bandwidth rn and say I have 10 1MB files, then you can kill my bandwidth by loading the website 5,000 times or if 5,000 users open the website, which is nothing.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>8:11pm</sup><br>How hard is it to serve a picture? Azure does $0.081/GB/mo <a href="https://azure.microsoft.com/en-us/pricing/details/cdn/" title="">https://azure.microsoft.com/en-us/pricing/details/cdn/</a>.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>8:40pm</sup><br>I know for a fact that I’m not using this bandwidth.
+</p>
+</div></div>
+
+<div class="media" style="width:47rem";>
+<a class="image" ><img class="image" src="7gb_used.webp" title="7.35GB of the bandwidth used up in the first hour." alt="7.35GB of the bandwidth used up in the first hour."></a>
+<div class="title">7.35GB of the bandwidth used up in the first hour.</div>
+<hr>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+So some bots and crawlers are killing my lfs allowance I’m already paying for. Project probably folded, this is literally only like 5/200 images. In the last 3 minutes, it went up by another 500MB. This is wonderful. I wonder how quickly I’ll reach the 50GB on random pages I onboarded to LFS.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>8:56pm</sup><br>Something is aggressively crawling my website.
+</p>
+</div></div>
+
+<div class="media" >
+<a class="image" ><img class="image" src="almost10gb_used.webp" title="Another 2GB of bandwidth gone in just 16 minutes." alt="Another 2GB of bandwidth gone in just 16 minutes."></a>
+<div class="title">Another 2GB of bandwidth gone in just 16 minutes.</div>
+<hr>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+The usage is going up crazy, like 1GB every 10 minutes.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+james <sup>8:57pm</sup><br>maybe something related to index now?
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>8:58pm</sup><br>All pages that turned to LFS only serve maybe ~10MB each and indexnow will probably get with a delay, the fact it’s rising aggressively means there is something else.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>8:59pm</sup><br>hmmmmmm interesting
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>8:59pm</sup><br>Yeah, I wonder if I run out of the 50GBs tomorrow morning when I wake up.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>8:59pm</sup><br>So the LFS allowance is like total bandwidth?
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>8:59pm</sup><br>Yeah; Onedrive at least gives me unlimited bandwidth lol.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>9:00pm</sup><br>So you only get 50GB of total data transfers per month? Both serve and commit?
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:00pm</sup><br>Serve only, commit/uploads don’t count towards that.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>9:00pm</sup><br>Ahhh; I see, I see. Interesting; Yeah that is kind of a rip as a cdn—esp since azure is so cheap.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:00pm</sup><br>Azure is actually same price. Cheapest is $0.08/GB/mo, so 50GB is $4.00/mo. Not too far from $5/mo.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>9:01</sup><br>Abhhhh; I miscalculated.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:02pm</sup><br>The most expensive option in zone 3 is $0.2/GB/mo, so it’s a whopping $10/mo for 50GB/mo.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>9:02pm</sup><br>What makes zone 3 so good?
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:02pm</sup><br>
+</p>
+</div>
+<div class="ulist">
+<ul class="">
+
+<li class="l1">
+<p>
+Zone 1—North America, Europe, Middle East and Africa
+</p>
+</li>
+
+<li class="l1">
+<p>
+Zone 2—Asia Pacific (including Japan)
+</p>
+</li>
+
+<li class="l1">
+<p>
+Zone 3—South America
+</p>
+</li>
+
+<li class="l1">
+<p>
+Zone 4—Australia
+</p>
+</li>
+
+<li class="l1">
+<p>
+Zone 5—India
+</p>
+</li>
+</ul>
+</div>
+
+<div class="paragraph " >
+<p>
+Just regions have different prices, probably based on availabilities.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>9:08pm</sup><br>That makes sense. I see, I see. What about just use compressed images on the site and then link to the full res hosted somewhere else like google photos or some other service that just hosts the photos as files that way you save on cdn costs?
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:10pm</sup><br>Already doing it.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>9:10pm</sup><br>lol nice
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:10pm</sup><br>Even then it’s already getting out of hand. I suppose I’m just not a fan of bandwidth billing, I’d much rather pay for costs only because it can get out of control real quick. The user doesn’t pay to retrieve your pictures but you pay every time serving them.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/jame2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>jame</strong> <sup>9:11pm</sup><br>Yeah that’s tough.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:11pm</sup><br>So, for CDN, I recommend OneDrive. You pay for storage and you just get a sharing embed HTML link no questions asked.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/ephin2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>ephin</strong> <sup>9:16pm</sup><br>Its time I tell you Ive been aggressively refreshing your website for 3 hours.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:17pm</sup><br>lmaooooo<br>Noooooooo
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:30pm</sup><br>Pls stop refreshing. It’s already past 10GB. There are only like 3 pages that have LFS. I haven’t done another 50!
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/ephin2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>ephin</strong> <sup>9:30pm</sup><br>But I gotta see every single change.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:31pm</sup><br>I’ll have to revert those tomorrow.
+</p>
+</div></div>
+
+<div class="media" >
+<img class="image avatar" src="/shared/avatars/blush2.webp">
+
+<div class="title"></div>
+</div><div class="writing">
+
+<div class="paragraph " >
+<p>
+<strong>sandy</strong> <sup>9:31pm</sup><br>lol
+</p>
+</div>
+<div class="paragraph " >
+<p>
+I guess I could switch to gitea <a href="https://about.gitea.com/pricing/" title="">https://about.gitea.com/pricing/</a> and gitlab, which don’t talk about bandwidth in their LFS, but I’m also pretty set on using github, since it’s already hosting the website itself.
+</p>
+</div>
+<div class="paragraph " >
+<p>
+It would be kinda cringe to have the same repo across git services and serve different files from a different service and paying for all of them.
+</p>
+</div>
+</div>
+
+
+</body>
+</html>

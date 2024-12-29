@@ -21,7 +21,7 @@
 }
 
 hr {
-    display: none;
+        display: none;
 }
 
 @media all and (min-width: 1300px) {
