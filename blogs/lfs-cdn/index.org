@@ -5,7 +5,7 @@
 # #+options: exclude-html-head:property="theme-color"
 #+options: preview-generate:t math:nil
 #+options: preview-generate-bg:#140f08 preview-generate-fg:#ffffff
-#+date: 361; 12024 H.E.
+#+date: 364; 12024 H.E. 1230
 * Git LFS is (not) CDN 🍓
 
 I have been using OneDrive as my CDN, where I would mask their big and ugly
