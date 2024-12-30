@@ -19,7 +19,10 @@ Here is a stack of books I liked and recommend for reading
 
 #+html_tags: style="width:25rem";
 #+begin_src
-           ┌─────────────────┐
+      ┌────────────────────────────┐
+      │    Смерть Ивана Ильича     │
+      │ (The Death of Ivan Ilyich) │
+      └────┬─────────────────┬─────┘
            │ Abroad in Japan │
            │  by Chris Broad │
         ┌──┴─────────────────┴──┐
@@ -154,7 +157,7 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
  │         Chainsaw Man, Volume 13       │
  ├───────────────────────────────────────┤
  │    Delicious in Dungeon, Volume 1     │
- ├───────────────────────────────────────┤ 
+ ├───────────────────────────────────────┤
  │         Insufficient Direction        │
  ├───────────────────────────────────────┤
  │        22-26: Tatsuki Fujimoto        │
