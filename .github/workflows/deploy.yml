@@ -27,9 +27,11 @@ jobs:
         run: |
           ./scripts/rss.sh
 
-      - name: Notify search engines 🕵️
+      # This has been disabled on December 30th, 2024, as I for some time don't want
+      # bing or any other bots/AI crawlers to index my website.
+      - name: Notify search engines 🕵️ (disabled)
         run: |
-          ./darkness.com misa --index-now-key ac3069446553e9cf7c02daa6a19528e4.txt
+          ./darkness.com misa --index-now-key ac3069446553e9cf7c02daa6a19528e4.txt --dry-run
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
