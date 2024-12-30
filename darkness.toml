@@ -22,6 +22,8 @@ extra_head = [
            '<script async defer src="/scripts/snowstorm-min.js"></script>'
            ]
 
+robots_meta = "noindex, nofollow"
+
 [project]
 input = ".org"
 output = ".html"
