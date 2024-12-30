@@ -1,8 +1,7 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="/css/discord.css">
 #+options: author-image:nil tomb:nil
-# # Detach any other snow javascript effects.
-# #+options: exclude-html-head:/scripts/snowstorm-min.js
-# #+options: exclude-html-head:property="theme-color"
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#140f08">
 #+options: preview-generate:t math:nil
 #+options: preview-generate-bg:#140f08 preview-generate-fg:#ffffff
 #+date: 364; 12024 H.E. 1230
