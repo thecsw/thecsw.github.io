@@ -122,7 +122,7 @@ The usage is going up crazy, like 1GB every 10 minutes.
 #+begin_export html
 <img class="image avatar" src="/shared/avatars/jame2.webp">
 #+end_export
-james ^{{8:57pm}} \
+*james* ^{{8:57pm}} \
 maybe something related to index now?
 
 #+begin_export html
