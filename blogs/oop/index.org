@@ -1,18 +1,9 @@
-# unplug global darkness.css and plug the one from July 12th, 2023
-# to prevent any headaches in the future
-
 #+html_head: <link rel="stylesheet" type="text/css" href="/css/discord.css">
-
 #+options: author-image:nil tomb:nil
-
-# Detach any other snow javascript effects.
-#+options: exclude-html-head:/scripts/snowstorm-min.js
 #+options: exclude-html-head:property="theme-color"
-
+#+html_head: <meta name="theme-color" property="theme-color" content="#140f08">
 #+options: preview:7.jpeg preview-width:1170 preview-height:864
-
 #+date: 232; 12023 H.E.
-
 * On OOP 🚬
 
 #+begin_export html
@@ -20,24 +11,24 @@
 #+end_export
 
 *jame* \
-oop is cool\
-its all about what tools best fit the job\
+oop is cool \
+its all about what tools best fit the job \
 
 #+begin_export html
 <img class="image avatar" src="/shared/avatars/sandy.jpg">
 #+end_export
 
 *sandy* \
-oop has a need in this world\
-it's the necessary evil\
+oop has a need in this world \
+it's the necessary evil \
 
 #+begin_export html
 <img class="image avatar" src="/shared/avatars/jame.jpg">
 #+end_export
 
 *jame* \
-kinda like abstract algebra\
-many problems are naturally object oriented\
+kinda like abstract algebra \
+many problems are naturally object oriented \
 
 #+begin_export html
 <img class="image avatar" src="/shared/avatars/sandy.jpg">
