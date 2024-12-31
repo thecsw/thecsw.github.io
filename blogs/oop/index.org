@@ -1,9 +1,7 @@
 # unplug global darkness.css and plug the one from July 12th, 2023
 # to prevent any headaches in the future
 
-#+options: exclude-html-head:darkness.css
-#+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
-#+html_head: <link rel="stylesheet" type="text/css" href="oop.css">
+#+html_head: <link rel="stylesheet" type="text/css" href="/css/discord.css">
 
 #+options: author-image:nil tomb:nil
 
@@ -78,7 +76,7 @@ the parallels between this and algebra are crazy lol\
 
 *sandy* \
 
-#+html_tags: style="width:35.5rem;margin-top:-1.2rem;margin-bottom:-2rem";
+#+html_tags: style="width:35.5rem;margin-top:-0.2rem;margin-bottom:-2rem";
 [[1.jpeg]]
 
 The vibes are so strong with this one
