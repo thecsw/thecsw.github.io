@@ -125,6 +125,8 @@ McKay
 
 -----
 
+# By default, "hr" class is set to display none, because we use it to display
+# image captions and it turns ugly if we don't have a caption provided.
 #+begin_export html
 <hr style="display: block;">
 #+end_export

@@ -328,3 +328,28 @@ github, since it's already hosting the website itself.
 
 It would be kinda cringe to have the same repo across git services and serve
 different files from a different service and paying for all of them.
+
+# By default, "hr" class is set to display none, because we use it to display
+# image captions and it turns ugly if we don't have a caption provided.
+#+begin_export html
+<hr style="display: block;">
+#+end_export
+
+After I have already repointed everything away from LFS back onto OneDrive,
+fronted by my URL shortener---5 days later, I got an email that my usage is
+/somehow/ near limit. Checking on it, I'm 94.76% at capacity for my bandwidth,
+days after I stopped using LFS completely (staggering ~70% jump). Where does the
+usage come from? Beats me. Github does not provide any sort of analytics that
+could tell me whether this came from direct LFS pulls, through media, forks,
+other? What a shame.
+
+#+begin_export html
+<img class="image avatar" src="/shared/avatars/ephin2.webp">
+#+end_export
+
+*ephin* \
+Github found a free momey glitch where if they just use up your bandwidth
+themselves they can charge you
+
+#+html_tags: style="width:47rem";
+[[near_full.webp][I'm tapped out and they won't tell me how or why.]]
