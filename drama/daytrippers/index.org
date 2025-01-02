@@ -1,7 +1,7 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 360; 12024 H.E. 1421
 * The Daytrippers
-
+#+drop_cap
 This really had no reason to be this good. Met with an utmost difficult task
 with choosing a movie to watch on a plane on Christmas Eve that is shorter than
 two-ish hours---to my surprise, I will confess--Delta had a catalogue of
@@ -27,6 +27,7 @@ asked about /Master and Margarita/ or /Animal Farm/ and the ``very Kafka-esque''
 nature of Carl's novel triggered something primal in me. I have known that look
 and situation all too well that I knew this movie is for me.
 
+#+drop_cap
 Just like a German Shorthaired Pointer would, this film focuses sharply on its
 core theme and commits in telling the boutique story intimately. All
 interactions between characters are relatable and poignant. As the film
@@ -61,6 +62,7 @@ American knows more about the latest maniac who keeps human heads in their
 freezer than they do about their own spouse.
 #+end_quote
 
+#+drop_cap
 On whether it's a sign of failing democracy and its inevitable decline towards
 the middle, into mediocrity and that we would be better off in aristocracy
 because they had more class and ``walked into guillotines with class'' as Carl

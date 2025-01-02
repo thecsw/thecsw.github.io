@@ -1,7 +1,6 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 2; 12024 H.E.
 * Rose Hobart
-
 I was talking to [[https://letterboxd.com/tryavna/][Quiller]] on [[https://letterboxd.com/tryavna/film/rose-hobart/][Letterboxd]] and the closing thoughts of his review,
 
 #+begin_quote
