@@ -1,15 +1,6 @@
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
-#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
-#+options: preview-generate:t rss-prefix:(Film)
-#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+setupfile: ../00_film_skipthis.org
 #+date: 26; 12024 H.E. 1400
 * Le Samouraï
-
-#+begin_export html
-<img class="image movie-poster" src="poster.jpg">
-#+end_export
-
 Now this is my kind of movie and tempo. A perfect blend of crime and police
 procedurals of the 1940s, absolute style of the 50s, and pop culture of the
 60s. It's slick, tense, and has the patience of a samurai when it comes to

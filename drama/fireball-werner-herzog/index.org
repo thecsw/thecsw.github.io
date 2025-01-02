@@ -1,14 +1,6 @@
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
-#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
-#+options: preview-generate:t rss-prefix:(Film)
-#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+setupfile: ../00_film_skipthis.org
 #+date: 21; 12024 H.E. 1400
 * Fireball: Visitors from Darker Worlds
-
-#+begin_export html
-<img class="image movie-poster" src="poster.jpg">
-#+end_export
 
 A Werner Herzog Documentary. That's kind of it. It evokes a similar feeling when
 someone hears, ``A Hideo Kojima Game.'' You know what you sign up for and if it's
