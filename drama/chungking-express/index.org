@@ -1,6 +1,7 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 365; 12024 H.E. 2247
 * Chungking Express
+#+drop_cap
 Exquisitely shot and directed film built on vibes and loneliness. Pure
 cinema. Having watched [[https://sandyuraz.com/drama/in-the-mood-for-love/][/In the Mood for Love/]] for the tenth+ time---I wanted to
 experience Wong Kar-Wai's earlier works and wow this was a pleasant ride. No
@@ -17,6 +18,7 @@ them into something else, something unintended nor desired; all of this, rather
 than enjoying them exactly for what they are in the form and shape presented to
 us. /Chungking Express/ is a perfect case study just for that.
 
+#+drop_cap
 Simply put, it's pure vibes. It's erotic. It's exhilarating. It's
 scandalous. It's unapologetic. It's impish. It's daft. It's relentless. It's to
 capture that very special feeling of loneliness. That excruciatingly embarassing,

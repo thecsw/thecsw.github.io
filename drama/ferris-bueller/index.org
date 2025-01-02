@@ -1,7 +1,7 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 360; 12024 H.E. 2233
 * Ferris Bueller's Day Off
-
+#+drop_cap
 My partner's entire family has shocked me because they have never seen /Ferris
 Bueller's Day Off/. With this being a chill Christmas Day's evening, knowing
 what everyone's tastes are like---I had no choice but to recommend this timeless
@@ -35,6 +35,7 @@ far as to call him ``one of the most obnoxious, self-centered, egotistical,
 douchy, horrendous, repulsive, selfish, vile, repugnant, greedy, narcissistic,
 uncaring, and hideous characters ever in the history of film.``
 
+#+drop_cap
 That is crazy to me. This review right next to some perfect score post saying
 it's the best thing since sliced bread. I understand where the criticism comes
 from and let me just say fuck off lol. The misreading that some can do is truly
@@ -61,4 +62,5 @@ spoof a restaurant reservation. Go encourage your friend to see how full life
 can feel. Go smooch your partner. Go marry your partner. Go skip school and do
 something you are actually interested in (my entire year of college).
 
+#+drop_cap
 *Go and live a little, for God's sake*.
