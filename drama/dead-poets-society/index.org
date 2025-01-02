@@ -1,15 +1,6 @@
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
-#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
-#+options: preview-generate:t rss-prefix:(Film)
-#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+setupfile: ../00_film_skipthis.org
 #+date: 32; 12024 H.E. 2359
 * Dead Poets Society
-
-#+begin_export html
-<img class="image movie-poster" src="poster.jpg">
-#+end_export
-
 I received this picture over the iMessage wire and realized that this was my
 cue to rewatch /Dead Poets Society/, which I haven't seen in such a long time that
 I have forgotten almost if not all of it. This was the right choice, as the

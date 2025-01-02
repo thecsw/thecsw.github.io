@@ -1,15 +1,6 @@
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
-#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
-#+options: preview-generate:t rss-prefix:(Film)
-#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+setupfile: ../00_film_skipthis.org
 #+date: 8; 12024 H.E.
 * In the Mood for Love
-
-#+begin_export html
-<img class="image movie-poster" src="poster.jpg">
-#+end_export
-
 Now this is Cinema.
 
 Maman asked me to see it—feelings that are truly, one of a kind. Specially woke
@@ -34,8 +25,34 @@ truly beyond. You know cinema when you see it, as they say.
 
 -----
 
+*August 25th, 2024* \
 Whenever the entirety of human race is long extinct, close to nil of anything
 remaining that proves our existence but ashes and dust of what was once great—I
 wish this picture perseveres through time, such that whoever finds it after
 we're far gone can see that we did at once exist and lived to the standards of
 what makes us human in the first place.
+
+-----
+
+*December 27th, 2024* \
+Introducing this film to my partner's grandpa---what a real treat. Yet again,
+/In the Mood for Love/ is an all-time masterpiece. Absolute magnum opus of what
+cinema should strive to be. An experimentation with art and style to such an
+extreme extent that the end product results in something so wholly unique that
+it captures the hearts of millions throughout all time.
+
+-----
+
+*January 1st, 2025* \
+Watching /In the Mood for Love/ again four days later to introduce it to my
+partner's sister. God. What a beauty. I've seen this film so many times already,
+yet every time, there are a few moments, where without even really consciously
+thinking on anything---I get such a jolt of electricity throughout my body,
+goosebumps on my back, and tears involuntarily leaving my tear ducts.
+
+Grandpa was so taken by the showing we organized for him a few days prior---he's
+gotten me and himself included into the deep rabbithole of Criterion's bag of
+extras for the film. We watched all the deleted scenes, interviews with Tony
+Rayns, interviews with Wong Kar-Wai himself, documentaries on making the
+movie. Grandpa surprised me by his sheer interest in consuming everything about
+/In the Mood for Love/, which once again cements its timeless status.

@@ -1,15 +1,6 @@
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
-#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
-#+options: preview-generate:t rss-prefix:(Film)
-#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+setupfile: ../00_film_skipthis.org
 #+date: 228; 12024 H.E. 2359
 * Tampopo
-
-#+begin_export html
-<img class="image movie-poster" src="poster.jpg">
-#+end_export
-
 A +spaghetti+ *ramen* western set in Japan! Surprisingly enough, /Tampopo/ is made of
 even finer stuff than its original American counterparts that it is so
 skillfully playing off of. Every element ranging from the main storyline of a
@@ -25,3 +16,15 @@ music, or a combination of all of those.
 
 Go enjoy and appreciate some good ramen out there!\
 ^{{and pass a yolk to your loved one from mouth to mouth}}
+
+-----
+
+*January 1st, 2025* \
+What a better film to follow up after /In the Mood for Love/ with family during
+the winter holidays? Tampopo! Ah, what a wonderful ramen western. It's cozy,
+wholesome, and has a special way of saying what it wants to. The little stories
+told through bizarre vignettes and multiplexed with a cute ramen western
+story---all united through every hero's absolute love and desire for good food.
+I need to watch the bazillion extras that Criterion has. Our grandpa is a huge
+fan that just found out about the rabbit hole that Criterion Channel is with
+their extras---the future is bright. Happy 2025!
