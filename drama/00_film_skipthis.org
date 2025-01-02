@@ -1,0 +1,11 @@
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
+#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
+#+options: preview-generate:t rss-prefix:(Film)
+#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+date: 14; 12001 H.E. 2247
+* FILM TEMPLATE
+
+#+begin_export html
+<img class="image movie-poster" src="poster.webp">
+#+end_export

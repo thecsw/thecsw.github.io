@@ -1,15 +1,6 @@
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
-#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
-#+options: preview-generate:t rss-prefix:(Film)
-#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+setupfile: ../00_film_skipthis.org
 #+date: 13; 12024 H.E.
 * Barbarella
-
-#+begin_export html
-<img class="image movie-poster" src="poster.jpg">
-#+end_export
-
 Perfection. So much to say about /Barbarella/. I think I saw it for the first time
 in my [[https://sandyuraz.com/blogs/good_bad_movies/][Trash Cinema course]] at university and now, many years after—I found out
 that it was released in restored Bluray 4K quality with all the extra

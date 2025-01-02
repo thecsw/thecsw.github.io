@@ -1,17 +1,8 @@
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
-#+html_head: <link rel="stylesheet" type="text/css" href="../drama.css">
-#+options: preview-generate:t rss-prefix:(Film)
-#+options: preview-generate-bg:#ffffff preview-generate-fg:#000000
+#+setupfile: ../00_film_skipthis.org
 #+date: 29; 12024 H.E. 2350
 * The Passion of Joan of Arc
-
-#+begin_export html
-<img class="image movie-poster" src="poster.jpg">
-#+end_export
-
-"Hey, want to watch this 2 hour long French silent film from 1928 about the
-court proceedings of Joan of Arc of 1431?" Miracles in the world must exist, as
+``Hey, want to watch this 2 hour long French silent film from 1928 about the
+court proceedings of Joan of Arc of 1431?'' Miracles in the world must exist, as
 I have found the special someone who wanted to watch it with me, even with the
 glowing review I gave above.
 
