@@ -1,7 +1,6 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 1; 12024 H.E. 2000
 * The Last Seduction
-
 Quintessential erotic neo-noir of the 90s. Harrowing and
 can’t-look-away-op-let-me-rewind-that-scene-once-again-to-see-her performance by
 Linda Fiorentino.
