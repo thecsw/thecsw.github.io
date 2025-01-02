@@ -1,9 +1,4 @@
-#+html_head: <link rel="stylesheet" type="text/css" href="/css/discord.css">
-#+options: author-image:nil tomb:nil
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#140f08">
-#+options: preview-generate:t math:nil
-#+options: preview-generate-bg:#140f08 preview-generate-fg:#ffffff
+#+setupfile: ../../shared/setupfiles/00_discord_skipthis.org
 #+date: 364; 12024 H.E. 1230
 * Git LFS is (not) CDN 🍓
 
@@ -23,11 +18,7 @@ messages popping up here on the website.
 
 -----
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{2:17pm}} \
+{{{blush2(2:17pm)}}}
 Im learning about git lfs. It's so money. Because of my big galleries, where
 each picture weighs a few MBs, I can't commit them to git, so I moved everything
 over to OneDrive, which stores full files and does real-time resizing but then,
@@ -40,11 +31,7 @@ all native.
 
 /... later in the day .../
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{7:39pm}} \
+{{{blush2(7:39pm)}}}
 [[https://github.com/thecsw/thecsw.github.io/commit/76a151bc48792811ef0b31f5445297fb318c2213][https://github.com/thecsw/thecsw.github.io/commit/76a151bc48792811ef0b31f5445297fb318c2213]]
 
 This is what the new LFS galleries/images look like, no even need for me to
@@ -53,11 +40,7 @@ repository, which makes me quite happy. I even wrote a fish script that would
 generate different sizes for each picture for me to choose if the target image
 is too big, like over 4-5MB some are even 15MBs.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{8:02pm}} \
+{{{blush2(8:02pm)}}}
 The problem with LFS though is that they charge for bandwidth, so $5/mo gets you
 50GB/mo, which is nothing.
 
@@ -84,19 +67,11 @@ have 50GB of bandwidth rn and say I have 10 1MB files, then you can kill my
 bandwidth by loading the website 5,000 times or if 5,000 users open the website,
 which is nothing.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{8:11pm}} \
+{{{blush2(8:11pm)}}}
 How hard is it to serve a picture? Azure does $0.081/GB/mo
 [[https://azure.microsoft.com/en-us/pricing/details/cdn/][https://azure.microsoft.com/en-us/pricing/details/cdn/]].
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{8:40pm}} \
+{{{blush2(8:40pm)}}}
 I know for a fact that I'm not using this bandwidth.
 
 #+html_tags: style="width:47rem";
@@ -107,11 +82,7 @@ for. Project probably folded, this is literally only like 5/200 images. In the
 last 3 minutes, it went up by another 500MB. This is wonderful. I wonder how
 quickly I'll reach the 50GB on random pages I onboarded to LFS.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{8:56pm}} \
+{{{blush2(8:56pm)}}}
 Something is aggressively crawling my website.
 
 #+html_tags: style="width:47rem";
@@ -119,106 +90,51 @@ Something is aggressively crawling my website.
 
 The usage is going up crazy, like 1GB every 10 minutes.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-*james* ^{{8:57pm}} \
+{{{jame2(8:57pm)}}}
 maybe something related to index now?
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{8:58pm}} \
+{{{blush2(8:58pm)}}}
 All pages that turned to LFS only serve maybe ~10MB each and indexnow will
 probably get with a delay, the fact it's rising aggressively means there is
 something else.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{8:59pm}} \
+{{{jame2(8:59pm)}}}
 hmmmmmm interesting
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{8:59pm}} \
+{{{blush2(8:59pm)}}}
 Yeah, I wonder if I run out of the 50GBs tomorrow morning when I wake up.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{8:59pm}} \
+{{{jame2(8:59pm)}}}
 So the LFS allowance is like total bandwidth?
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{8:59pm}} \
+{{{blush2(8:59pm)}}}
 Yeah; Onedrive at least gives me unlimited bandwidth lol.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{9:00pm}} \
+{{{jame2(9:00pm)}}}
 So you only get 50GB of total data transfers per month? Both serve and commit?
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:00pm}} \
+{{{blush2(9:00pm)}}}
 Serve only, commit/uploads don't count towards that.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{9:00pm}} \
+{{{jame2(9:00pm)}}}
 Ahhh; I see, I see. Interesting; Yeah that is kind of a rip as a cdn---esp since
 azure is so cheap.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:00pm}} \
+{{{blush2(9:00pm)}}}
 Azure is actually same price. Cheapest is $0.08/GB/mo, so 50GB is $4.00/mo. Not
 too far from $5/mo.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{9:01}} \
+{{{jame2(9:01pm)}}}
 Abhhhh; I miscalculated.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:02pm}} \
+{{{blush2(9:02pm)}}}
 The most expensive option in zone 3 is $0.2/GB/mo, so it's a whopping $10/mo for
 50GB/mo.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{9:02pm}} \
+{{{jame2(9:02pm)}}}
 What makes zone 3 so good?
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:02pm}} \
+{{{blush2(9:02pm)}}}
 
 - Zone 1—North America, Europe, Middle East and Africa
 - Zone 2—Asia Pacific (including Japan)
@@ -228,97 +144,49 @@ What makes zone 3 so good?
   
 Just regions have different prices, probably based on availabilities.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{9:08pm}} \
+{{{jame2(9:08pm)}}}
 That makes sense. I see, I see. What about just use compressed images on the
 site and then link to the full res hosted somewhere else like google photos or
 some other service that just hosts the photos as files that way you save on cdn
 costs?
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:10pm}} \
+{{{blush2(9:10pm)}}}
 Already doing it.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{9:10pm}} \
+{{{jame2(9:10pm)}}}
 lol nice
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:10pm}} \
+{{{blush2(9:10pm)}}}
 Even then it's already getting out of hand. I suppose I'm just not a fan of
 bandwidth billing, I'd much rather pay for costs only because it can get out of
 control real quick. The user doesn't pay to retrieve your pictures but you pay
 every time serving them.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/jame2.webp">
-#+end_export
-
-*jame* ^{{9:11pm}} \
+{{{jame2(9:11pm)}}}
 Yeah that’s tough.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:11pm}} \
+{{{blush2(9:11pm)}}}
 So, for CDN, I recommend OneDrive. You pay for storage and you just get a
 sharing embed HTML link no questions asked.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/ephin2.webp">
-#+end_export
-
-*ephin* ^{{9:16pm}} \
+{{{ephin2(9:16pm)}}}
 Its time I tell you Ive been aggressively refreshing your website for 3 hours.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:17pm}} \
+{{{blush2(9:17pm)}}}
 lmaooooo \
 Noooooooo
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:30pm}} \
+{{{blush2(9:30pm)}}}
 Pls stop refreshing. It's already past 10GB. There are only like 3 pages that
 have LFS. I haven't done another 50!
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/ephin2.webp">
-#+end_export
-
-*ephin* ^{{9:30pm}} \
+{{{ephin2(9:30pm)}}}
 But I gotta see every single change.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:31pm}} \
+{{{blush2(9:31pm)}}}
 I'll have to revert those tomorrow.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/blush2.webp">
-#+end_export
-
-*sandy* ^{{9:31pm}} \
+{{{blush2(9:31pm)}}}
 lol
 
 
@@ -343,11 +211,7 @@ usage come from? Beats me. Github does not provide any sort of analytics that
 could tell me whether this came from direct LFS pulls, through media, forks,
 other? What a shame.
 
-#+begin_export html
-<img class="image avatar" src="/shared/avatars/ephin2.webp">
-#+end_export
-
-*ephin* \
+{{{ephin2(5 days later)}}}
 Github found a free momey glitch where if they just use up your bandwidth
 themselves they can charge you
 
