@@ -68,3 +68,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 44 | [[file:ferris-bueller/poster.webp][poster]] | [[ferris-bueller][*Ferris Bueller’s Day Off*]]                                 | John Hughes                          | United States                          | 1986 |
 | 45 | [[file:chungking-express/poster.webp][poster]] | [[chungking-express][*Chungking Express*]]                                        | Wong Kar-Wai                         | Hong Kong                              | 1994 |
 | 46 | [[file:six-triple-eight/poster.webp][poster]] | [[six-triple-eight][*The Six Triple Eight*]]                                     | Tyler Perry                          | United States                          | 2024 |
+| 47 | [[file:eyes-wide-shut/poster.webp][poster]] | [[eyes-wide-shut][*Eyes Wide Shut*]]                                           | Stanley Kubrick                      | United Kingdom\ United States          | 1999 |
