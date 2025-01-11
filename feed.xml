@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Fri, 03 Jan 2025 23:50:00 UTC</pubDate>
-    <lastBuildDate>Fri, 10 Jan 2025 05:41:08 UTC</lastBuildDate>
+    <pubDate>Thu, 09 Jan 2025 22:50:00 UTC</pubDate>
+    <lastBuildDate>Sat, 11 Jan 2025 17:48:04 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>Visitor... Welcome to my Pink Lounge. This place exists between dream and reality, mind and matter. I hope you enjoy ...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/farewell-my-concubine</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Farewell My Concubine</title>
+      <link>https://sandyuraz.com/drama/farewell-my-concubine</link>
+      <description>Mesmerizing, breathtaking, and ruthless in slicing your heart into the tiniest of pieces. What would the changing political and cultural landscape do to the bond between two brothers—stressed to its limit with jealousy andbetrayal? Farewell My Concubine is a testament to the ideals that every film, director, writer should strive to reach for, or, at the very least, be intimately aware of. Similar to what I think of In the Mood for Love, this is a perfect film, where you cannot add nor subtract anything, otherwise, it would not ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Thu, 09 Jan 2025 22:50:00 CST</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
@@ -552,17 +563,6 @@
       <pubDate>Mon, 01 Jan 2024 20:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) sex, lies, and videotape</title>
-      <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
-      <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
@@ -570,6 +570,17 @@
       <title>(Goodreads) Delicious in Dungeon 🥩</title>
       <link>https://sandyuraz.com/books/goodreads/delicious-in-dungeon</link>
       <description>Brings out the charm of more vintage RPGs and food wars style preparations of monster ingredients. Superb art style! I enjoyed reading the first volume, even though dungeon-crawling and fantasy settings are unfortunately not my preferred genre. Still, I would be interested to know how it goes, especially since TRIGGER is coming out with the anime adaptation of it pretty soon. I’ll try to stay up to date, maybe buy the manga, and read it when the time... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) sex, lies, and videotape</title>
+      <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
+      <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
