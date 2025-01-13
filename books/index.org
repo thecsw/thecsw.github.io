@@ -115,6 +115,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │         Chainsaw Man, Volume 17       │
+ ├───────────────────────────────────────┤
  │             Gamma Draconis            │
  ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 8   │
