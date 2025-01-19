@@ -70,7 +70,7 @@
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Daemonize your go programs by locking the <a href="https://www.baeldung.com/linux/pid-file" title="">process id file</a>. Simply put the following at the top of your <code>main</code>,
 </p>
@@ -86,12 +86,12 @@ Daemonize your go programs by locking the <a href="https://www.baeldung.com/linu
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 This will create a <code>monokuma.pid</code> file in <code>/tmp</code> with the process id (pid) of the go program when loaded by your operating system. When your `main` exits, the file will be cleaned up.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 This will prevent any other instances of your program running at the same time (say running a web server or overloading some resources). Say, when I run
 </p>
@@ -104,7 +104,7 @@ This will prevent any other instances of your program running at the same time (
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 I can find the PID of it with (no line feed at the end),
 </p>
@@ -118,7 +118,7 @@ I can find the PID of it with (no line feed at the end),
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 If I try to start the same program, I will be greeted by
 </p>
@@ -133,7 +133,7 @@ If I try to start the same program, I will be greeted by
 <div class="writing">
 
 <h1 id="development" class="section-2">Development</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 -&gt; See more in <a href="https://github.com/thecsw/pid" title=""><code>pid</code> github repository</a>
 </p>

@@ -69,9 +69,9 @@
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" id="date-section">
 <p title="Tue, 24 May 2022">
-144; 12022 H.E.
+144; 12022 H.E. <sup>(at least 971 days ago)</sup>
 </p>
 </div>
 <div class="admonitionblock note">
@@ -87,29 +87,29 @@ Darkness v2.0 got released on December 23rd, 12022 H.E. 🥳 Please go and check
 </table>
 </div>
 <h1 id="this-is-no-life" class="section-2">This is no life</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 It doesn’t feel right anymore. Every time I write something for my website, I feel that I have to dance to the tune of <code>pandoc</code> and <code>asciidoctor</code>. Maybe the Ruby and Haskell Gods will take pity on me and my stuff will render as I want them to. Oh... they didn’t? Time to write a new <code>sed</code> script to fix that.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 This is no life. Instead of fixing an issue at its root, I’ve been writing <a href="https://github.com/thecsw/thecsw.github.io/blob/legacy-source/sed/html.sed" title="">fixes</a>, <a href="https://github.com/thecsw/thecsw.github.io/blob/legacy-source/sed/adoc.sed" title="">patches</a>, and <a href="https://github.com/thecsw/thecsw.github.io/blob/legacy-source/Makefile" title="">this</a>. It was fun in the beginning! Mastering sed and awk, the forbidden tools echoed from the past. However, as time went on and I wanted to add more content and get more freedom, <a href="https://sandyuraz.com/blogs/web-legacy/" title="">this pipeline</a> felt limiting.
 </p>
 </div>
 <h1 id="a-hero-emerges" class="section-2">A hero emerges</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 It is my honor and pleasure to introduce you to <a href="https://github.com/thecsw/Darkness" title="">Darkness</a>! The noblest, static website generator. The website you are on right now is built by her, with all the images, styling, embeds, and more! The big advantage of Darkness is that she is general enough (with a config file), so she can build any website for what their heart desires.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Darkness currently takes a subset of org-mode files and creates an HTML file for them. Org-mode is a markup language used by emacs, though it’s very similar to markdown. There is a getting started portion further! It will get you everything you need to get comfortable with the process. Also, darkness is more agnostic than just org-&gt;html. One just has to write a parser/exporter for a markup language, enable it, and now we have multiple supported types!
 </p>
 </div>
 <h1 id="plethora-of-features" class="section-2">Plethora of features</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Darkness supports a vast array of features and cool tricks, such as
 </p>
@@ -228,7 +228,7 @@ Open-source code, PRs, and contributions are welcome!
 </div>
 
 <h1 id="not-only-noble-but-also-super-fast" class="section-2">Not only noble but also super fast</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Darkness is also lightning fast! With the old pipeline, it would take around 15-20 seconds to build my website. Darkness <strong>only takes ~120ms</strong> to do the same, with IO and memory syscall times included.
 <sup class="footnote"><a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">I</a></sup>
@@ -246,7 +246,7 @@ farewell</code></pre>
 <div class="writing">
 
 <h1 id="getting-started" class="section-2">Getting started</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Want to try out darkness but don’t know org-mode? You are at the very start of something beautiful, my friend! If you have go 1.18+ installed, run the command below to get the latest version of her (you can also grab a suitable binary from the <a href="https://github.com/thecsw/darkness/releases" title="">releases</a> page)
 </p>
@@ -259,7 +259,7 @@ Want to try out darkness but don’t know org-mode? You are at the very start of
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Next, go to the place, where you would like to house your next website. Call her with a <code>new</code> command followed by any name that feeds your soul (<code>ishmael</code> is an example here)
 </p>
@@ -272,18 +272,18 @@ Next, go to the place, where you would like to house your next website. Call her
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Voilà! You have a new darkness project initiated. Change into that new directory with <code>cd ishmael</code> and type in <code>darkness build</code>. You’ll find an <code>index.html</code> in the root, go open it! After that, look into <code>darkness.toml</code>, which shows you the number of things you can play with to change the looks and feel.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Here is <a href="https://sandyuraz.com/ishmael" title="">Ishmael’s website</a> that shows the formatting in action with many other cool things! It’s the template website that we just made above. I do hope you find it fun here
 </p>
 </div>
 <h1 id="niche-features" class="section-2">Niche features</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 See this cool trick of cleaning up the project with <code>megumin</code>!
 </p>
@@ -298,7 +298,7 @@ See this cool trick of cleaning up the project with <code>megumin</code>!
 </div><div class="writing">
 
 <h1 id="why--darkness" class="section-2">Why <em>Darkness</em>?</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Her name is based on one of the characters I love from <a href="https://en.wikipedia.org/wiki/KonoSuba" title="">KonoSuba</a>
 </p>

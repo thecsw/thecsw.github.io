@@ -1143,3 +1143,8 @@ kbd {
 .media:has(.avatar) {
         margin-bottom: -1.2rem;
 }
+
+#date-section {
+    margin-bottom: -1rem;
+    margin-top: -1rem;
+}

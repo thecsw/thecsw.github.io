@@ -1,7 +1,6 @@
 #+options: tomb:nil toc:nil
+#+date: 80; 12022 H.E.
 * How I worked on my design 🥐
-
-80; 12022 H.E.
 
 This website has gone through many different iterations, looks, tools, and
 contents. I thought it would be a nice exercise to quickly, yet cleanly outline

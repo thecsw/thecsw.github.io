@@ -25,7 +25,7 @@
 <meta name="author" property="author" content="sandy">
 <meta name="date" property="date" content="129; 12020 H.E.">
 <meta name="theme-color" property="theme-color" content="#fbebef">
-<meta name="description" property="description" content="May 8th, 2020...">
+<meta name="description" property="description" content="Booting up emacs can be a challenging task for your terminal emulator and the rock that you tricked into thinking. This is a quick guide...">
 <meta name="robots" content="noindex, nofollow">
 <meta name="og:title" property="og:title" content="Setting up an emacs server 😈">
 <meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
@@ -37,14 +37,14 @@
 <meta name="og:image:type" property="og:image:type" content="image/jpg">
 <meta name="og:image:width" property="og:image:width" content="1200">
 <meta name="og:image:height" property="og:image:height" content="700">
-<meta name="og:description" property="og:description" content="May 8th, 2020...">
+<meta name="og:description" property="og:description" content="Booting up emacs can be a challenging task for your terminal emulator and the rock that you tricked into thinking. This is a quick guide...">
 <meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/emacsd/preview.jpg">
 <meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/emacsd">
 <meta name="twitter:title" property="twitter:title" content="Setting up an emacs server 😈">
-<meta name="twitter:description" property="twitter:description" content="May 8th, 2020..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
+<meta name="twitter:description" property="twitter:description" content="Booting up emacs can be a challenging task for your terminal emulator and the rock that you tricked into thinking. This is a quick guide..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
 
 
 <link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css"><script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
@@ -69,18 +69,18 @@
 </div>
 <div class="writing">
 
-<div class="paragraph " >
-<p>
-May 8th, 2020
+<div class="paragraph" id="date-section">
+<p title="Fri, 08 May 2020">
+129; 12020 H.E. <sup>(at least 1,717 days ago)</sup>
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Booting up emacs can be a challenging task for your terminal emulator and the rock that you tricked into thinking. This is a quick guide with some pointers on speeding up your emacs interactions 100x. No joke.
 </p>
 </div>
 <h1 id="emacs-daemon" class="section-2">Emacs daemon</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Starting the emacs daeman cannot be even simpler, just type this in your favorite shell
 </p>
@@ -93,13 +93,13 @@ Starting the emacs daeman cannot be even simpler, just type this in your favorit
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 It should build all your .el config scripts and boot up your own emacs server.
 </p>
 </div>
 <h1 id="emacsclient" class="section-2">Emacsclient</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Now to access and open your emacs daemon, just type in
 </p>
@@ -112,13 +112,13 @@ Now to access and open your emacs daemon, just type in
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 <em>I really prefer terminal client</em> and you’re done! Notice that the load was almost instantaneous. Instead of loading your whole emacs config, it just redraws the screen.
 </p>
 </div>
 <h1 id="killing-daemon" class="section-2">Killing daemon</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Who doesn’t want to slaughter a daemon in cold blood? That’s a rhetorical question. <code>emaclient</code> can execute a kill command for the daemon
 </p>
@@ -132,7 +132,7 @@ Who doesn’t want to slaughter a daemon in cold blood? That’s a rhetorical qu
 <div class="writing">
 
 <h1 id="shell-aliases" class="section-2">Shell aliases</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 <code>emacsclient</code> can get old real quick. I like adding super simple aliases for faster opening
 </p>
@@ -155,7 +155,7 @@ Who doesn’t want to slaughter a daemon in cold blood? That’s a rhetorical qu
 </div>
 
 <h1 id="systemd-daemon" class="section-2">Systemd daemon</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 You can also set emacs daemon to start automatically by adding systemctl symlinks. More information on <a href="https://www.emacswiki.org/emacs/EmacsAsDaemon" title="">emacswiki</a>. <b style="color:var(--color-tomb)">◼︎</b>
 </p>

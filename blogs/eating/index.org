@@ -1,6 +1,5 @@
+#+date: 105; 12022 H.E.
 * You are what you eat 🍚
-
-105; 12022 H.E.
 
 #+drop_cap
 Eating is *important*. Eating well is *crucial*. For years, I have seen myself

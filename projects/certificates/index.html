@@ -64,22 +64,22 @@
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 There are many modern ways (<a href="https://caddyserver.com/docs/automatic-https" title="">Caddy</a>, <a href="https://certbot.eff.org/" title="">certbot</a>) of acquiring yourself a nice TLS/SSL certificate for your services, all issued by titans such as <a href="https://letsencrypt.org/" title="">Let’s Encrypt</a> and <a href="https://zerossl.com/" title="">ZeroSSL</a>. Boom, you get a certificate that can be recognized and verified during a handshake by almost any <a href="https://support.apple.com/en-us/HT209143" title="">user</a>, <a href="https://wiki.mozilla.org/CA/Included_Certificates" title="">browser</a>, an <a href="https://www.chromium.org/Home/chromium-security/root-ca-policy/" title="">operating system</a>. However, what do you do if you want to try and create your own trust chain and/or need to use the encryption schemes in an isolated network/environment?
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 I have always found <a href="https://wiki.openssl.org/index.php/Command_Line_Utilities" title=""><code>openssl</code> command</a> with its million utilities to be awful. At the very least, I could never remember off top of my head how to use it and what flags to pass whenever I want to self-sign or create a chain. So for that, I created a couple of scripts, which will make you your very own Certificate Authority (self-signed), server certificates (with <a href="https://en.wikipedia.org/wiki/Subject_Alternative_Name" title="">SAN extensions</a>), and client certificates.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 I use it for my dev infrastructure, like <code>redis.sandyuraz.com</code>, which requires a two-way TLS handshake (both the server’s and client’s certificate needs to be vetted by the CA, which is just me). This can give you a better control over your system, however, it does pose additional challenges such as renewals, creating intermediate CAs, etc. But you will figure it out if needed, won’t you?
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 -&gt; <a href="https://github.com/thecsw/certificates" title=""><code>certificates</code> github repository</a> with scripts and configs
 </p>

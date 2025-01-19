@@ -8,8 +8,6 @@
 #+date: 133; 12020 H.E.
 * Differential equations 🔥
 
-May 12th, 2020
-
 [[index.pdf][(PDF Version)]]
 
 ** Abstract

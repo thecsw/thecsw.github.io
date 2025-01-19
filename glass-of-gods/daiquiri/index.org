@@ -23,3 +23,11 @@ the greatest ways are.
 Shake well with ice and strain into a chilled cocktail glass---clean and yummy.
 
 /Enjoy./
+
+#+begin_export html
+<p class="pre-vid-skip"></p>
+#+end_export
+
+#+begin_export html
+<p class="pre-vid-skip"></p>
+#+end_export

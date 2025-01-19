@@ -1,7 +1,6 @@
 #+options: draft:t
+#+date: 50; 12023 H.E.
 * In Pursuit of Happyness 🧸
-
-50; 12023 H.E.
 
 Wake up in the morning to that god-awful alarm clock ringtone you set who knows
 when. It's early enough, so you won't be late for work but too late to get a bit
