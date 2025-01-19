@@ -1,6 +1,5 @@
+#+date: 84; 12022 H.E.
 * How to start a story 🪝
-
-84; 12022 H.E.
 
 #+drop_cap
 My toilet is clogged and the cold weather outside is making me cruelly feel all

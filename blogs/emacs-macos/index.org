@@ -1,6 +1,5 @@
+#+date: 312; 12021 H.E.
 * Using emacs on macOS (M1) 🍎
-
-312; 12021 H.E.
 
 Emacs is like a drug. You get on it once, feel the bliss, and never look
 back. This already happened to me many years ago. I don't even recommend it for

@@ -1,6 +1,5 @@
+#+date: 77; 12022 H.E.
 * Profiling should be ur friend ⛹️‍♀️
-
-77; 12022 H.E.
 
 If you write a program with everything you've got, you will never be able to
 debug or maintain it, as the latter takes 10x amount of time and effort to put

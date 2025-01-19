@@ -1,6 +1,5 @@
+#+date: 73; 12022 H.E.
 * Building this website (Legacy) 🌐
-
-73; 12022 H.E.
 
 NOTE: Everything below is the legacy version of the website that has been
 building up for good two to three years. On the night of March 13th, [[https://github.com/thecsw/darkness][darkness]]

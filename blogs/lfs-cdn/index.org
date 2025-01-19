@@ -135,7 +135,6 @@ The most expensive option in zone 3 is $0.2/GB/mo, so it's a whopping $10/mo for
 What makes zone 3 so good?
 
 {{{blush2(9:02pm)}}}
-
 - Zone 1—North America, Europe, Middle East and Africa
 - Zone 2—Asia Pacific (including Japan)
 - Zone 3—South America

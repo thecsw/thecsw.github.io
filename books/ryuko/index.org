@@ -13,11 +13,9 @@
 # Attach our custom ryuko snow effect.
 #+html_head: <script src="ryuko-snow.js" defer></script>
 #+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+#+date: 358; 12022 H.E.
 
 * Ryuko 🐉
-
-358; 12022 H.E.
-
 I just finished the two volumes of /Ryuko/ by Eldo Yoshimizu. Before going
 in-depth into why this might be one of my all-time favorite crime fiction
 stories (and stylish mangas), I have to say,

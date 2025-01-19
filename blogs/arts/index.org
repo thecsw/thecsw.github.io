@@ -1,6 +1,5 @@
+#+date: 142; 12021 H.E.
 * L'Esthétique 🎨
-
-142; 12021 H.E.
 
 #+drop_cap
 I wish to talk here with you about aesthetics and fine art. Some things we might
