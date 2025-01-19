@@ -1,7 +1,6 @@
 #+options: preview:congratulations.gif preview-height:258 preview-width:498
+#+date: 189; 12023 H.E.
 * Eva TV ending is great! ☁️
-
-189; 12023 H.E.
 
 In one of the discord channels, a friend of mine asked his ChatGPT-based discord
 bot to answer a question,

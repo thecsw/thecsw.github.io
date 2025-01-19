@@ -69,7 +69,7 @@
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Welcome! This is Sandy’s take on making a simple yet powerful enough HTTP library. Inspired by <a href="https://github.com/psf/requests" title="">python’s requests</a>.
 </p>
@@ -82,7 +82,7 @@ Welcome! This is Sandy’s take on making a simple yet powerful enough HTTP libr
 </div><div class="writing">
 
 <h1 id="motivation" class="section-2">Motivation</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 When it comes to making network requests, I find myself writing a lot of repetitive go code, you know the gist of getting a json response,
 </p>
@@ -113,18 +113,18 @@ if err != json.NewDecoder(resp.Body).Decode(ans); err != nil { /*... */ }
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 This is still a condensed version! The example above skips a couple of steps for brevity, like setting timeouts, deadlines, proper reading, buffering, progress, etc.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 You can end up making something of your own, but repeating the same code has many issues, such as forgetting to close the response body or set proper contexts with plenty more.
 </p>
 </div>
 <h1 id="examples" class="section-2">Examples</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 What if instead, all you had to write was
 </p>
@@ -143,7 +143,7 @@ err := haruhi.URL(URLpath).
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 and it did everything for you? You can even simplify it with haruhi’s sensible defaults, such as running a <code>GET</code> request by default, etc, so you could even do
 </p>
@@ -156,29 +156,29 @@ and it did everything for you? You can even simplify it with haruhi’s sensible
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Haruhi of course, supports more funtionality that is aimed to be simple and straight-forward. Entire codebase is documented, so head on to <a href="https://pkg.go.dev/github.com/thecsw/haruhi" title="">go docs</a> to see what else she can do.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Have fun requesting!
 </p>
 </div>
 <h1 id="why-haruhi" class="section-2">Why Haruhi?</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Because <a href="https://letterboxd.com/thecsw/film/the-melancholy-of-haruhi-suzumiya/" title="">Endless Eight is a cinematic masterpiece</a> and <a href="https://haruhi.fandom.com/wiki/Haruhi_Suzumiya" title="">Haruhi is life itself</a>.
 </p>
 </div>
 <h1 id="development" class="section-2">Development</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Please visit the github page and let me know through issues or PRs if you have any questions!
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 -&gt; <a href="https://github.com/thecsw/haruhi" title="">HTTP just like SOS Brigade 🐰</a>
 </p>

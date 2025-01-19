@@ -1,6 +1,5 @@
+#+date: 218; 12020 H.E.
 * Essential toolbox for the web 🧰
-
-218; 12020 H.E.
 
 ** Abstract
    Internet is a great place for content and cat videos, but also really bad

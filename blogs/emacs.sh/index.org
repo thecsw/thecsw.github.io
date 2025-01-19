@@ -1,6 +1,5 @@
+#+date: 212; 12020 H.E.
 * Getting Sandy's .emacs.d 🤺
-
-212; 12020 H.E.
 
 After years of carefully cultivating and taking care of my =.emacs.d= config
 files, I thought it may be time to try and share it, maybe someone will like it 

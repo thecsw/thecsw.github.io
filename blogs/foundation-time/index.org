@@ -1,6 +1,5 @@
+#+date: 197; 12020 H.E.
 * Using Foundation-style Time 💫
-
-197; 12020 H.E.
 
 Just recently, I've finally finished the original Foundation trilogy by Isaac
 Asimov. I've probably read the first book about three times in the last four

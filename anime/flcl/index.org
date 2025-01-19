@@ -1,6 +1,5 @@
+#+date: 52; 12022 H.E.
 * FLCL 🎸 
-
-52; 12022 H.E.
 
 #+drop_cap
 One time I heard someone describe /FLCL/ as a fever dream of an anime. I think

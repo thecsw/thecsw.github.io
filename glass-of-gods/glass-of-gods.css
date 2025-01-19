@@ -40,3 +40,9 @@ hr {
 /*                 margin-top: 6rem; */
 /*         } */
 /* } */
+
+@media all and (min-width: 550px) {
+    .pre-vid-skip {
+        margin-bottom: 9rem;
+    }
+}

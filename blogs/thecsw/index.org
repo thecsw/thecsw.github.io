@@ -1,6 +1,5 @@
+#+date: 96; 12022 H.E.
 * The evolution of /thecsw/ 🧋
-
-96; 12022 H.E.
 
 Many have asked me about my tag /thecsw/ that I have used for the past ten-ish
 years. I thought it would be nice to write up a quick summary of how it came to

@@ -1,8 +1,7 @@
 #+options: preview-width:1920 preview-height:1097
 #+html_head: <link rel="stylesheet" type="text/css" href="index.css">
+#+date: 336; 12023 H.E.
 * My Spotify Wrapped for 2023 🗼
-
-336; 12023 H.E.
 
 Hello there! [[../wrapped][Again]] and [[../wrapped-2][again]]. I'm happy you're here with me on the third year of
 sharing my embarassing taste in music. I am *not* like the other girls.

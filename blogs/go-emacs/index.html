@@ -25,7 +25,7 @@
 <meta name="author" property="author" content="sandy">
 <meta name="date" property="date" content="128; 12020 H.E.">
 <meta name="theme-color" property="theme-color" content="#fbebef">
-<meta name="description" property="description" content="May 7th, 2020...">
+<meta name="description" property="description" content="UPDATE: Emacs LSP is the way to go now. Please do not follow instructions below and use the...">
 <meta name="robots" content="noindex, nofollow">
 <meta name="og:title" property="og:title" content="Becoming an emacs gopher 🐗">
 <meta name="og:site_name" property="og:site_name" content="Sandy’s Website ⛩️">
@@ -37,14 +37,14 @@
 <meta name="og:image:type" property="og:image:type" content="image/jpg">
 <meta name="og:image:width" property="og:image:width" content="1200">
 <meta name="og:image:height" property="og:image:height" content="700">
-<meta name="og:description" property="og:description" content="May 7th, 2020...">
+<meta name="og:description" property="og:description" content="UPDATE: Emacs LSP is the way to go now. Please do not follow instructions below and use the...">
 <meta name="twitter:card" property="twitter:card" content="summary_large_image">
 <meta name="twitter:site" property="twitter:site" content="Sandy’s Website ⛩️">
 <meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
 <meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/blogs/go-emacs/preview.jpg">
 <meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/blogs/go-emacs">
 <meta name="twitter:title" property="twitter:title" content="Becoming an emacs gopher 🐗">
-<meta name="twitter:description" property="twitter:description" content="May 7th, 2020..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
+<meta name="twitter:description" property="twitter:description" content="UPDATE: Emacs LSP is the way to go now. Please do not follow instructions below and use the..."><link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/darkness.css">
 
 
 <link rel="stylesheet" href="https://sandyuraz.com/scripts/highlight/styles/sandy.min.css"><script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
@@ -70,28 +70,28 @@
 </div>
 <div class="writing">
 
-<div class="paragraph " >
-<p>
-May 7th, 2020
+<div class="paragraph" id="date-section">
+<p title="Thu, 07 May 2020">
+128; 12020 H.E. <sup>(at least 1,718 days ago)</sup>
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 <strong>UPDATE:</strong> <a href="https://emacs-lsp.github.io/lsp-mode/" title="">Emacs LSP</a> is the way to go now. Please do not follow instructions below and use the more powerful lsp. It’s <strong>so good</strong>.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 I have been a full-time emacs user for the past 4 years and I have been working in Golang professionally for about 2 years now. Combining those two beauties is quite a task with so many different modules and addons available. This is a comfortable setup I found for myself and I wish to share it. <em>Demo below!</em>
 </p>
 </div>
 <h1 id="getting-dependencies" class="section-2">Getting dependencies</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 One of many great things about Go is its tooling environment. You can write any tools and implement your ideas with ease.
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 First tool you need is usually <a href="https://golang.org/" title="">Go itself</a>. After that, install some of the go tools dependencies below:
 </p>
@@ -106,12 +106,12 @@ First tool you need is usually <a href="https://golang.org/" title="">Go itself<
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Next we need to install some of the emacs dependencies through <a href="https://melpa.org" title="">MELPA</a>. This is gonna be big, prep your <code>.emacs.d</code> for some fun time compiling elisp. Refresh your local repo of packages by running <kbd>M-x package-refresh-contents</kbd>. You can install packages by running <kbd>M-x package-install PACKAGE-NAME</kbd>
 </p>
 </div>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 Here is the list:
 </p>
@@ -152,7 +152,7 @@ Here is the list:
 </div>
 
 <h1 id="config" class="section-2">Config</h1>
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 You can just put this in your <code>.emacs</code> or whatever init file you’re using. The following config is all you need to get yourself started with automatic code formatting, code completion, parenthesis matching, dot completion (!), and jump to definition.
 </p>
@@ -187,7 +187,7 @@ You can just put this in your <code>.emacs</code> or whatever init file you’re
 </div>
 <div class="writing">
 
-<div class="paragraph " >
+<div class="paragraph" >
 <p>
 After that, just reload your emacs and you should have full go environment installed! <b style="color:var(--color-tomb)">◼︎</b>
 </p>
