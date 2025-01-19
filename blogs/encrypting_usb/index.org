@@ -1,8 +1,6 @@
 #+date: 102; 12020 H.E.
 * Encrypting your drive with LUKS 🗝
 
-April 11th, 2020
-
 ** Abstract
 
 The Linux Unified Key Setup (LUKS) is a disk encryption specification created by

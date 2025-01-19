@@ -1,6 +1,5 @@
+#+date: 190; 12021 H.E.
 * Write a game with Copilot 🎱
-
-190; 12021 H.E.
 
 This morning while at work, I received an email from Github, letting me know
 that I got access to Copilot's technical preview. Of course, I immediately

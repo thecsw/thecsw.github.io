@@ -1,6 +1,5 @@
+#+date: 50; 12022 H.E. 
 * Switching to dvorak layout 🎹
-
-50; 12022 H.E. 
 
 I switched to Dvorak layout in the summer of 2018. That was a very important
 time for me, as a couple of months after, I would start my first year in

@@ -1,8 +1,6 @@
 #+date: 128; 12020 H.E.
 * Becoming an emacs gopher 🐗
 
-May 7th, 2020
-
 *UPDATE:* [[https://emacs-lsp.github.io/lsp-mode/][Emacs LSP]] is the way to go now. Please do not follow instructions below
 and use the more powerful lsp. It's *so good*.
 

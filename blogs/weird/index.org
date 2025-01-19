@@ -1,6 +1,5 @@
+#+date: 93; 12022 H.E.
 * Don't be weird about it 🥡
-
-93; 12022 H.E.
 
 #+drop_cap
 An alternative title I had for this essay was /Embracing Yourself/, embracing your

@@ -1,6 +1,5 @@
+#+date: 144; 12022 H.E.
 * I love Darkness 🥬
-
-144; 12022 H.E.
 
 NOTE: Darkness v2.0 got released on December 23rd, 12022 H.E. 🥳 Please go and
 check out the updated instructions and samples on [[https://github.com/thecsw/darkness][her GitHub]]. This page was kept

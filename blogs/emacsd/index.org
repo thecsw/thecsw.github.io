@@ -1,8 +1,6 @@
 #+date: 129; 12020 H.E.
 * Setting up an emacs server 😈
 
-May 8th, 2020
-
 Booting up emacs can be a challenging task for your terminal emulator and the
 rock that you tricked into thinking. This is a quick guide with some pointers on
 speeding up your emacs interactions 100x. No joke.

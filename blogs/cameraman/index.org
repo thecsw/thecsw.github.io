@@ -1,6 +1,5 @@
+#+date: 87; 12022 H.E.
 * Man with a Movie Camera 🎥
-
-87; 12022 H.E.
 
 #+drop_cap
 Lights are dimming down, small chair creaks are getting ever louder in a quieter

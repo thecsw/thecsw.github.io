@@ -1,8 +1,6 @@
 #+date: 42; 12020 H.E.
 * $\sqrt{2}$ is irrational ◻
 
-February 11th, 2020
-
 $\mathbf{Theorem}$
    
 $\sqrt{2}$ is irrational.

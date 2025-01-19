@@ -1,6 +1,5 @@
+#+date: 74; 12022 H.E.
 * My favorite latex template 🦆
-
-74; 12022 H.E.
 
 There hasn't been a single instance that I haven't typed latex code for any
 assignments, proposals, documents, receipts, invoices, resumes, (more?) that I

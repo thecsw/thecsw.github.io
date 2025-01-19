@@ -2,8 +2,6 @@
 #+date: 122; 12019 H.E.
 * Installing glorious arch linux ☄️
 
-May 2nd, 2019
-
 NOTE: This blog is a /little/ bit outdated. I just went through a new arch
 installation in about 2-3 years. Many things were changed, like no more
 =wifi-menu=, =rankmirrors=, etc. In general, instructions below would give you
