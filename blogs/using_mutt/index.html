@@ -214,7 +214,7 @@
 
 <div class="paragraph" id="date-section">
 <p>
-🍌 133; 12019 H.E. <sup>(at least 2,093 days ago)</sup>
+🍈 133; 12019 H.E. <sup>(at least 2,093 days ago)</sup>
 </p>
 </div>
 <h1 id="abstract" class="section-2">Abstract</h1>
@@ -394,6 +394,7 @@ That should get you a fresh copy of <code>offlineimap</code>.
 ----------------
 [general]
 metadata = ~/.offlineimap
+# You can change mymail to something else
 accounts = mymail
 socktimeout = 60
 
@@ -491,7 +492,9 @@ Just to get you started, the drill is the same as the last time, but now it woul
 
 <div class="coding" >
 <div class="listingblock">
-<pre class="highlight"><code class="language-plaintext" data-lang="">set folder=&#34;~/.mail/mymail&#34;
+<pre class="highlight"><code class="language-plaintext" data-lang=""># This should go to ~/.muttrc
+# Set up all the folders
+set folder=&#34;~/.mail/mymail&#34;
 mailboxes = +INBOX
 mailboxes = +&#39;Sent Items&#39;
 mailboxes = +&#39;Deleted Items&#39;
@@ -500,30 +503,38 @@ set trash = +&#39;Deleted Items&#39;
 set postponed = +&#39;Drafts&#39;
 set record = +&#39;Sent Items&#39;
 
+# Sort by reverse date
 set sleep_time = 0
 set sort = &#39;reverse-date&#39;
 
+# Default sending charset
 set send_charset=&#34;utf-8&#34;
 
+# SMTP FOR SENDING EMAIL
 set realname=&#34;Big Lebowski&#34; # edit this
 set my_user=myusername # edit this
 set my_pass=mypassword # edit this
 set from = myaddress@example.com # edit this
 set smtp_url=smtp://$my_user:$my_pass@authsmtp.site.com:587 # edit this
 
+# Sending mail options
 set edit_headers=yes
 set use_from = yes
 set fast_reply=yes
 set include=no
 
+# SSL options
 set ssl_force_tls = yes
 set ssl_starttls = yes
 
+# Default text editor
 set editor = $EDITOR
 
+# Ways to open the mail messages
 auto_view text/html
 alternative_order text/plain text/html
 
+# Headers
 my_hdr X-Info: Keep It Simple, Stupid.
 my_hdr X-Operating-System: `uname -s`, kernel `uname -r`
 my_hdr User-Agent: Every email client sucks, this one just sucks less.
@@ -542,6 +553,7 @@ auto_view application/pgp-encrypted
 alternative_order text/plain text/enriched text/html
 set rfc2047_parameters = yes
 
+# Date and index formatting styles
 set date_format=&#34;%m-%d-%y %T&#34;
 set index_format=&#34;%2C | %Z [%d] %-30.30F (%-4.4c) %s&#34;# -*-muttrc-*-</code></pre>
 </div>
