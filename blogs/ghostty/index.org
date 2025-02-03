@@ -1,0 +1,58 @@
+#+options: preview-generate:t
+#+date: 34; 12025 H.E.
+* Ghostty is pretty cool 👻
+
+Having tried using [[https://alacritty.org/][Alacritty]] for a few months a few years ago left a bit of a
+bitter aftertaste with shoddy multi-monitor support, custom fonts, lack of macos
+compatibility (the app icon would behave erratically), and the ``Rewrite in
+Rust'' stench. Seeing the news of [[https://ghostty.org/][Ghostty]] [[https://news.ycombinator.com/item?id=42517447][going 1.0]], why not give it a try? This
+would be the first time of giving a shot to a terminal in maybe two years' time.
+
+This one, however, feels like holding a good sturdy piece of hardware that you
+know is of high quality and will serve you for many years to come. Sensible
+defaults with a [[https://ghostty.org/docs/config/reference][friendly way]] to configure it to your liking---even with some
+[[https://ghostty.zerebos.com][very nice tooling]] available at your disposal. I like it! I'm intending on using
+it for the foreseeable future, so I'll treat this page as a living page to store
+my configuration as it breathes.
+
+#+begin_src bash
+font-family = Monaco
+font-size = 13
+
+# Brutalist-style.
+bold-is-bright = true
+# Maybe too brutalist
+# font-thicken = true
+
+# Simple and to the point.
+theme = CutiePro
+#theme = "3024 Night"
+foreground = #f7d146
+background = #000000
+
+working-directory = home
+window-inherit-working-directory = false
+
+cursor-color = #f7d146
+cursor-opacity = 1
+cursor-style = bar
+cursor-style-blink = false
+
+# Doesn't really work with fish and other shells that have
+# their own blinking integrations, even if we pass no-cursor.
+# Have to disable it manually in shells.
+shell-integration-features = no-cursor
+mouse-hide-while-typing = true
+shell-integration = fish
+
+window-height = 30
+window-width = 105
+
+mouse-scroll-multiplier = 2
+
+macos-auto-secure-input = true
+macos-icon = official
+macos-titlebar-style = native
+#+end_src
+
+Until next time!
