@@ -7,7 +7,15 @@
  │ │_│  \___/│_│ │_│\__│___/  │
  └────────────────────────────┘ */
 
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+/* Instead of calling google for fonts, provision them ourselves. */
+@font-face {
+        font-family: "EB Garamond";
+        src: url("fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.woff2"),
+                url("fonts/EB_Garamond/EBGaramond-VariableFont_wght.woff2");
+        font-display: swap;
+        font-style: normal;
+}
+
 @font-face {
         font-family: "Fantasque Sans Mono";
         src: url("fonts/FantasqueSansMono-Regular.woff2") format("woff2");
@@ -26,7 +34,6 @@
  └────────────────────────────────────────────────┘ */
 
 :root {
-        /* --font-main: Lora, "Lora Serif", serif; */
         --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
         --paragraph-size: 1.42rem;
@@ -1046,8 +1053,12 @@ kbd {
         border: 1px solid #ccc;
         -webkit-border-radius: 2px;
         border-radius: 2px;
-        -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset;
-        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em #fff inset;
+        -webkit-box-shadow:
+                0 1px 0 rgba(0, 0, 0, 0.2),
+                0 0 0 0.1em white inset;
+        box-shadow:
+                0 1px 0 rgba(0, 0, 0, 0.2),
+                0 0 0 0.1em #fff inset;
         margin: 0 0.1em;
         padding: 0.1em 0.5em;
         vertical-align: middle;
@@ -1145,6 +1156,6 @@ kbd {
 }
 
 #date-section {
-    margin-bottom: -1rem;
-    margin-top: -1rem;
+        margin-bottom: -1rem;
+        margin-top: -1rem;
 }
