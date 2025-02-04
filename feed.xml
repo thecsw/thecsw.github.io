@@ -3,7 +3,7 @@
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <pubDate>Mon, 03 Feb 2025 00:00:00 UTC</pubDate>
-    <lastBuildDate>Tue, 04 Feb 2025 05:32:02 UTC</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 06:31:19 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -19,7 +19,7 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Ghostty is pretty cool 👻</title>
       <link>https://sandyuraz.com/blogs/ghostty</link>
-      <description>Having tried using Alacritty for a few months a few years ago left a bit of a bitter aftertaste with shoddy multi-monitor support, custom fonts, lack of macos compatibility (the app icon would behave erratically), and the “Rewrite in Rust” stench. Seeing the news of Ghostty going 1.0, why not give it a try? This would be the first time of giving a shot to a terminal in maybe two ye... [ Continue reading... ]</description>
+      <description>Having tried using Alacritty for a few months a few years ago left a bit of a bitter aftertaste with shoddy multi-monitor support, custom fonts, lack of macos compatibility (the app icon would behave erratically), and the “Rewrite in Rust” stench. Seeing the news of Ghostty going 1.0, why not give it a try? This would be the first time of me giving a shot to a new terminal emulator in two ye... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 03 Feb 2025 18:00:00 CST</pubDate>
     </item>
