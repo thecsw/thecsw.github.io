@@ -6,14 +6,15 @@ Having tried using [[https://alacritty.org/][Alacritty]] for a few months a few 
 bitter aftertaste with shoddy multi-monitor support, custom fonts, lack of macos
 compatibility (the app icon would behave erratically), and the ``Rewrite in
 Rust'' stench. Seeing the news of [[https://ghostty.org/][Ghostty]] [[https://news.ycombinator.com/item?id=42517447][going 1.0]], why not give it a try? This
-would be the first time of giving a shot to a terminal in maybe two years' time.
+would be the first time of me giving a shot to a new terminal emulator in two
+years' time.
 
 This one, however, feels like holding a good sturdy piece of hardware that you
 know is of high quality and will serve you for many years to come. Sensible
 defaults with a [[https://ghostty.org/docs/config/reference][friendly way]] to configure it to your liking---even with some
-[[https://ghostty.zerebos.com][very nice tooling]] available at your disposal. I like it! I'm intending on using
-it for the foreseeable future, so I'll treat this page as a living page to store
-my configuration as it breathes.
+[[https://ghostty.zerebos.com][slick tooling]]. I intend on using it for the foreseeable future, so I'll treat
+this page as a living document to store my configuration as it breathes and
+changes throughout time.
 
 #+begin_src bash
 font-family = Monaco
