@@ -8,13 +8,7 @@
  └────────────────────────────┘ */
 
 /* Instead of calling google for fonts, provision them ourselves. */
-@font-face {
-        font-family: "EB Garamond";
-        src: url("fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.woff2"),
-                url("fonts/EB_Garamond/EBGaramond-VariableFont_wght.woff2");
-        font-display: swap;
-        font-style: normal;
-}
+@import url("fonts/EB_Garamond/EBGaramond.css");
 
 @font-face {
         font-family: "Fantasque Sans Mono";
