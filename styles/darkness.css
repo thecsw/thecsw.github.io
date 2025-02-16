@@ -9,14 +9,8 @@
 
 /* Instead of calling google for fonts, provision them ourselves. */
 @import url("fonts/EB_Garamond/EBGaramond.css");
-
-@font-face {
-        font-family: "Fantasque Sans Mono";
-        src: url("fonts/FantasqueSansMono-Regular.woff2") format("woff2");
-        /* Chrome < 4, Legacy iOS */
-        font-weight: 400;
-        font-style: normal;
-}
+@import url("fonts/Lateef/Lateef.css");
+@import url("fonts/FantasqueSansMono/FantasqueSansMono.css");
 
 /*
  ┌────────────────────────────────────────────────┐
@@ -1150,6 +1144,9 @@ kbd {
 }
 
 #date-section {
-        margin-bottom: -1rem;
+        font-family: "Lateef";
+        font-variant: small-caps;
+        font-size: 120%;
+        margin-bottom: -0.5rem;
         margin-top: -1rem;
 }
