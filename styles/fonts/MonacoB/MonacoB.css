@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "MonacoB";
+    src: url("src/MonacoB/MonacoB.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "MonacoB";
+    font-weight: bold;
+    src: url("src/MonacoB/MonacoB-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "MonacoB2";
+    src: url("src/MonacoB2/MonacoB2.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "MonacoB2";
+    font-weight: bold;
+    src: url("src/MonacoB2/MonacoB2-Bold.otf") format("opentype");
+}
