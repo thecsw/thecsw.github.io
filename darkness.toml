@@ -7,7 +7,12 @@ color = "#fbebef"
 twitter = "@sandyuraz"
 styles = ["css/darkness.css"]
 tombs = ["blogs", "anime", "arts", "books"]
+
 preview = "preview.jpg"
+preview_gen_title_font = "styles/fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf"
+preview_gen_name_font = "styles/fonts/EB_Garamond/static/EBGaramond-Medium.ttf"
+preview_gen_time_font = "styles/fonts/EB_Garamond/static/EBGaramond-Italic.ttf"
+
 description_length = 137
 roman_footnotes = true
 footnote_brackets = false
