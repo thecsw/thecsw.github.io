@@ -25,3 +25,5 @@ existed.
 ``But man is not made for defeat,'' he said. ``A man can be destroyed but not
 defeated.''
 #+end_quote
+
+{{{four}}}
