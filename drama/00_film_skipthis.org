@@ -21,3 +21,9 @@
 #+begin_export html
 <img class="image movie-poster" src="poster.webp">
 #+end_export
+
+#+macro: one _/Sandy awards/_ ★☆☆☆☆
+#+macro: two _/Sandy awards/_ ★★☆☆☆
+#+macro: three _/Sandy awards/_ ★★★☆☆
+#+macro: four _/Sandy awards/_ ★★★★☆
+#+macro: five _/Sandy awards/_ ★★★★★
