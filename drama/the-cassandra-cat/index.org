@@ -30,6 +30,8 @@ solid colors, as if we were watching a theater play. Overall, I enjoyed it very
 much, probably given to the general comedic and at the same time, observational
 nature of the film!
 
+{{{three}}}
+
 #+begin_gallery
 - [[https://photos.sandyuraz.com/cassandra-cat][STUNNING]] :flex 90 :no-zoom
 #+end_gallery
