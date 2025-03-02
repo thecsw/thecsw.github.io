@@ -6,6 +6,4 @@ procedurals of the 1940s, absolute style of the 50s, and pop culture of the
 60s. It's slick, tense, and has the patience of a samurai when it comes to
 following the traces of gorgeous Alain Delon.
 
-#+begin_export html
-<p class="pre-vid-skip"></p>
-#+end_export
+{{{four}}}
