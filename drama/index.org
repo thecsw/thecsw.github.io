@@ -72,3 +72,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 48 | [[file:farewell-my-concubine/poster.webp][poster]] | [[farewell-my-concubine][*Farewell My Concubine*]]                                    | Chen Kaige                           | China                                  | 1993 |
 | 49 | [[file:brutalist/poster.webp][poster]] | [[brutalist][*The Brutalist*]]                                            | Brady Corbet                         | United States\ Hungary\ United Kingdom | 2025 |
 | 50 | [[file:mulholland-drive/poster.webp][poster]] | [[mulholland-drive][*Mulholland Drive*]]                                         | David Lynch                          | United States\ France                  | 2001 |
+| 51 | [[file:8½/poster.webp][poster]] | [[8½][*8½*]]                                                       | Federico Fellini                     | Italy\ France                          | 1963 |
