@@ -115,11 +115,15 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │        Akane-banashi, Volume 10       │
+ ├───────────────────────────────────────┤
  │          Bartender, Volume 14         │
  ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 9   │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 9        │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 13         │
  ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 32   │
  ├───────────────────────────────────────┤
@@ -131,33 +135,57 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
  ├───────────────────────────────────────┤
  │           Stupid Love Comedy          │
  ├───────────────────────────────────────┤
+ │          Bartender, Volume 12         │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 11         │
+ ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 31   │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 8        │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 10         │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 9          │
  ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 16       │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 7        │
  ├───────────────────────────────────────┤
+ │          Bartender, Volume 8          │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 7          │
+ ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 30   │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 6        │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 6          │
  ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 7   │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 5        │
  ├───────────────────────────────────────┤
+ │          Bartender, Volume 5          │
+ ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 15       │
  ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 29   │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 4          │
  ├───────────────────────────────────────┤
  │   Kowloon Generic Romance, Volume 6   │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 4        │
  ├───────────────────────────────────────┤
+ │          Bartender, Volume 3          │
+ ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 14       │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 3        │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 2          │
+ ├───────────────────────────────────────┤
+ │          Bartender, Volume 1          │
  ├───────────────────────────────────────┤
  │         Yokohama Kaidashi Kikou       │
  │        Deluxe Edition, Volume 2       │
