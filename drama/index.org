@@ -75,3 +75,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 51 | [[file:8½/poster.webp][poster]] | [[8½][*8½*]]                                                       | Federico Fellini                     | Italy\ France                          | 1963 |
 | 52 | [[file:dune-part-one/poster.webp][poster]] | [[dune-part-one][*Dune*]]                                                     | Denis Villeneuve                     | United States                          | 2021 |
 | 53 | [[file:dune-part-two/poster.webp][poster]] | [[dune-part-two][*Dune: Part Two*]]                                           | Denis Villeneuve                     | United States                          | 2024 |
+| 54 | [[file:black-bag/poster.webp][poster]] | [[black-bag][*Black Bag*]]                                                | Steven Soderbergh                    | United States                          | 2025 |
