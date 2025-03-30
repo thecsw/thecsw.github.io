@@ -31,8 +31,11 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┐
- │   Rascal Does Not  ├───────────────────┐
+                      ┌───────────────────┐
+                      │   Solo Leveling   │
+                      │  Season 2 ─Arise  │
+ ┌────────────────────┤  from the Shadow─ │
+ │   Rascal Does Not  ├───────────────────┤
  │  Dream of a Sister │    Kyokou Suiri   │
  │    Venturing Out   │      Season 2     │
  ├────────────────────┼───────────────────┤
