@@ -1,0 +1,32 @@
+#+options: preview-generate:t rss-prefix:(Goodreads)
+#+date: 89; 12025 H.E.
+* The Death of Ivan Ilyich 🖼️
+
+#+begin_export html
+<img class="image book-cover" src="cover.jpg">
+#+end_export
+
+What a harrowing read. Tolstoy has never been as close to my heard as Dostoevsky
+is, but this might be my favorite work of his. I have decided to finally read it
+after watching Akira Kurosawa's ``Ikiru,'' which was loosely based on ``The
+Death of Ivan Ilyich.''
+
+This is a tale of what a seemingly perfect life can unravel into when the very
+foundation of this perfect facade is hiding a treasure trove of shallowness,
+materialism, and severe lack of true feelings of love, passion, and genuine
+happiness.
+
+The most telling part of all of this was the fact that Ivan Ilyich, the
+eponymous character of the story was not a bad man. Not at all, nothing even
+close. He was an everyday man that you will see throughout your entire life and
+very will might be one.
+
+When life pushes you to an extreme, revealing all missed opportunities,
+revealing all real feelings that before had been hidden behind layers of
+politeness and civility—when all of it is gone—there is nothing left but a pile
+of regrets, anguish, and desperation, which all turn a man into a beast with
+nothing to lose nor care about.
+
+Harrowing experience. This is the most mundane turn of events that can and will
+happen to anybody, even and especially to the most regular and respectable
+person. The question is, how do you live?
