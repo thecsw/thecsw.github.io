@@ -23,3 +23,11 @@ Shake well and strain into a /Nick & Nora/ glass. *Voila.* It will drive itself
 towards the person you're most fond of.
 
 /Enjoy./
+
+#+begin_export html
+<p class="pre-vid-skip"></p>
+#+end_export
+
+#+begin_export html
+<p class="pre-vid-skip"></p>
+#+end_export
