@@ -1,0 +1,16 @@
+#+options: preview-generate:t
+#+html_head: <link rel="stylesheet" type="text/css" href="nine-rules.css">
+#+date: 109; 12025 H.E. 1924
+* 9 rules for a programmer 👯‍♀️
+
+1. Write a lot of code
+2. Listen carefully
+3. Sleep with your eyes open
+4. Walk with your right feet and hop with your left
+5. Enjoy taking care of problems
+6. Play hard
+7. Drink hard
+8. Have sex
+9. Love and hate, live colorfully
+
+/Addendum/: *make computers suffer.*

@@ -802,7 +802,9 @@ hr {
 └─────────────────────────────┘ */
 
 ul > li p,
-.ulist .ulist {
+ol > li p,
+.ulist .ulist,
+.olist .olist {
         margin-bottom: -0.4rem;
 }
 
