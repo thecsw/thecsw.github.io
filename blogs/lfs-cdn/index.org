@@ -216,3 +216,49 @@ themselves they can charge you
 
 #+html_tags: style="width:47rem";
 [[near_full.webp][I'm tapped out and they won't tell me how or why.]]
+
+# By default, "hr" class is set to display none (only in discord-like pages),
+# because we use it to display image captions and it turns ugly if we don't
+# have a caption provided.
+#+begin_export html
+<hr style="display: block;">
+#+end_export
+
+{{{blush2(about 3 months later)}}}
+bro\
+never use LFS\
+what a scam\
+[[https://docs.github.com/en/repositories/working-with-files/managing-large-files/removing-files-from-git-large-file-storage][https://docs.github.com/en/repositories/working-with-files/managing-large-files/removing-files-from-git-large-file-storage]]\
+
+#+begin_quote
+After you remove files from Git LFS, the Git LFS objects still exist on the
+remote storage and will continue to count toward your Git LFS storage quota.
+
+To remove Git LFS objects from a repository, delete and recreate the
+repository. When you delete a repository, any associated issues, stars, and
+forks are also deleted.
+#+end_quote
+
+You can never remove LFS objects from remote, which continue counting towards
+your bill, unless you delete the repository and recreate it---so I have to drop
+my github pages repo and recreate it.
+
+#+html_tags: style="width:37rem";
+[[ticket.webp][Opening a ticket with Github to get the LFS objects pruned.]]
+
+I'm creating a ticket for github to remove LFS objects without dropping the repo
+and copilot interjected as a way to stop me from opening a ticket only to say,
+
+#+begin_quote
+GitHub does not currently provide a self-service method to purge Git LFS objects
+from the remote storage without deleting and recreating the repository. *However,
+since you want to retain your repository and its history while removing all LFS
+objects, you will need to contact GitHub Support directly for assistance.*
+#+end_quote
+
+I know!!! That's why I'm opening it manually.
+
+#+html_tags: style="width:37rem";
+[[copilot.webp][Copilot, you are not being helpful!]]
+
+A few hours later, I was free from the dangling LFS objects.
