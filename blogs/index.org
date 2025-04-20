@@ -13,6 +13,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 #+end_center
 
 ** Software
+- [[nine-rules][9 rules for a programmer 👯‍♀️]]
 - [[ghostty][Ghostty is pretty cool 👻]]
 - [[lfs-cdn][Git LFS is (not) CDN 🍓]]
 - [[oop][On OOP 🚬]]

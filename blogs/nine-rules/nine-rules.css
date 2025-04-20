@@ -1,0 +1,9 @@
+.olist {
+    font-family:Lateef;
+    font-variant: small-caps;
+    font-size:150%;
+}
+
+.olist li {
+    margin-bottom: -1.5rem;
+}
