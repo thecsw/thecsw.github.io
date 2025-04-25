@@ -77,3 +77,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 53 | [[file:dune-part-two/poster.webp][poster]] | [[dune-part-two][*Dune: Part Two*]]                                           | Denis Villeneuve                     | United States                          | 2024 |
 | 54 | [[file:black-bag/poster.webp][poster]] | [[black-bag][*Black Bag*]]                                                | Steven Soderbergh                    | United States                          | 2025 |
 | 55 | [[file:days-of-being-wild/poster.webp][poster]] | [[days-of-being-wild][*Days of Being Wild*]]                                       | Wong Kar-Wai                         | Hong Kong                              | 1990 |
+| 56 | [[file:flowers-of-shanghai/poster.webp][poster]] | [[flowers-of-shanghai][*Flowers of Shanghai*]]                                      | Hou Hsiao-hsien                      | Taiwan                                 | 1998 |

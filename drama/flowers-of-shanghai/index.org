@@ -1,0 +1,11 @@
+#+setupfile: ../00_film_skipthis.org
+#+date: 94; 12025 H.E. 2250
+* Flowers of Shanghai
+
+This felt more like a theater or a play than a film. Walking from one room to
+another only to witness personal tragedies of our characters unfolding one after
+another in rapid succession. There isn't much to say, as all we have done is get
+but a glimpse into those lives, almost as an idle passerby. Ultimately, nothing
+happens, just life; and we leave them to it as if we were never here.
+
+{{{four}}}
