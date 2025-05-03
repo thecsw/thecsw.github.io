@@ -1,6 +1,6 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 111; 12025 H.E. 2150
-* Tokyo-ga
+* Tokyo-Ga
 
 My family saw this right after we finished ``Paris, Texas'' and as we all like Wim
 Wenders' films—Japan is also a cool topic—see this little treat on the Criterion
