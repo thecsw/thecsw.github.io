@@ -78,3 +78,5 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 54 | [[file:black-bag/poster.webp][poster]] | [[black-bag][*Black Bag*]]                                                | Steven Soderbergh                    | United States                          | 2025 |
 | 55 | [[file:days-of-being-wild/poster.webp][poster]] | [[days-of-being-wild][*Days of Being Wild*]]                                       | Wong Kar-Wai                         | Hong Kong                              | 1990 |
 | 56 | [[file:flowers-of-shanghai/poster.webp][poster]] | [[flowers-of-shanghai][*Flowers of Shanghai*]]                                      | Hou Hsiao-hsien                      | Taiwan                                 | 1998 |
+| 57 | [[file:paris-texas/poster.webp][poster]] | [[paris-texas][*Paris, Texas*]]                                             | Wim Wenders                          | West Germany\ France                   | 1984 |
+| 58 | [[file:tokyo-ga/poster.webp][poster]] | [[tokyo-ga][*Tokyo-Ga*]]                                                 | Wim Wenders                          | United States\ West Germany            | 1985 |
