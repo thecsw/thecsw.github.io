@@ -12,10 +12,8 @@ feel and edges looking rough; it was a bust. Unfortunately, an oversell on the
 sculptor's and marketing's side---it's only OK.
 
 #+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/vyJ][The back part looks especially cheap---you can see the extra sharp plastic
-  edges]] :flex 30 :no-zoom
+- [[https://photos.sandyuraz.com/vyJ][The back part looks especially cheap---you can see the extra sharp plastic edges]] :flex 30 :no-zoom
 - [[https://photos.sandyuraz.com/XyM][From the bottom part, it looks fine, but could have been better]] :flex 35 :no-zoom
-- [[https://photos.sandyuraz.com/qdO][Overall, a general lack of love and attention to details and the promised look
-  & feel]] :flex 30 :no-zoom
+- [[https://photos.sandyuraz.com/qdO][Overall, a general lack of love and attention to details and the promised look & feel]] :flex 30 :no-zoom
 #+end_gallery
 
