@@ -276,11 +276,6 @@ Some other quality of life operations are also provided,
 <code>Close()</code> will close the pool if and only if it’s disconnected or the parent-most pool.
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
@@ -293,33 +288,18 @@ Some other quality of life operations are also provided,
 <code>Outputs()</code> will return channel that the user should listen to for outputs (if work generated them).
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
 <code>Errors()</code> will return channel that the user shoud listen to for errors (if work generates them).
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
 <code>IsConnected()</code> will return true if the pool is a child of another pool, thus sending its outputs.
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
@@ -338,22 +318,12 @@ Some other quality of life operations are also provided,
 <code>JobsWaiting()</code> will return the number of jobs waiting in queue and currently in-work.
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
 <code>JobsSucceeded()</code> will return the number of jobs completed with a non-nil errors.
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
@@ -383,22 +353,12 @@ You can tune the performance and behavior of the pool with <code>komi.NewWithSet
 <code>Size</code> sets the size of the pool (how many jobs can wait until <code>pool.Submit</code> is blocked).
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
 <code>Ratio</code> sets the <code>ratio</code> in <code>size = ratio * number of laborers</code> equation (only if size has not been manually set).
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
@@ -469,11 +429,6 @@ Some future items in mind:
 Adding an error handler to <code>komi</code> polls, which if given, will be invoked if non-nil errors are returned by work.
 </p>
 </li>
-</ul>
-</div>
-
-<div class="ulist" >
-<ul class="">
 
 <li class="l1">
 <p>
