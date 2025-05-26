@@ -33,6 +33,7 @@ td {
 
 table .image {
         width: 5.5rem;
+        filter: drop-shadow(1px 1px 1px gray);
 }
 
 tbody tr:hover {
@@ -52,7 +53,7 @@ tbody tr td {
 }
 
 tbody tr {
-    height: 8.6rem;
+        height: 8.6rem;
 }
 
 @media all and (min-width: 550px) {
@@ -93,11 +94,11 @@ tbody tr {
 }
 
 #date-section {
-    margin-bottom: -2rem;
+        margin-bottom: -2rem;
 }
 
 @media all and (min-width: 550px) {
-    .pre-vid-skip {
-        margin-bottom: 9rem;
-    }
+        .pre-vid-skip {
+                margin-bottom: 9rem;
+        }
 }
