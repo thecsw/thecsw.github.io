@@ -55,4 +55,18 @@ changes throughout time.
   macos-titlebar-style = native
 #+end_src
 
+#+begin_details fish config
+You would need to add this in your =~/.config/fish/config.fish= to fix the
+blinking issue.
+
+#+begin_quote
+Even setting ALL cursor-blinking options off in ghostty does nothing to the
+cursor, which continues blinking unbothered. The reason for this is fish_shell
+forcing the cursor to blink under the assumption that it's in vi mode, when it
+in fact is not. So, forcing this config in fish resolves the issue.
+#+end_quote
+
+=set fish_cursor_unknown block= <- put this
+#+end_details
+
 Until next time!

@@ -71,7 +71,7 @@
 
 <div class="paragraph" id="date-section" title="Mon, 03 Feb 2025">
 <p>
-🍉 At least 3 months and 22 days ago
+🍓 At least 3 months and 22 days ago
 </p>
 </div>
 <div class="paragraph" >
@@ -126,7 +126,24 @@ macos-titlebar-style = native</code></pre>
 </div>
 </div>
 <div class="writing">
-
+<details>
+<summary>fish config</summary>
+<hr>
+<div class="paragraph" >
+<p>
+You would need to add this in your <code>~/.config/fish/config.fish</code> to fix the blinking issue.
+</p>
+</div>
+<div class="paragraph quote" >
+<p>
+Even setting ALL cursor-blinking options off in ghostty does nothing to the cursor, which continues blinking unbothered. The reason for this is fish_shell forcing the cursor to blink under the assumption that it’s in vi mode, when it in fact is not. So, forcing this config in fish resolves the issue.
+</p>
+</div>
+<div class="paragraph" >
+<p>
+<code>set fish_cursor_unknown block</code> &lt;- put this
+</p>
+</div></details>
 <div class="paragraph" >
 <p>
 Until next time! <b style="color:var(--color-tomb)">◼︎</b>
