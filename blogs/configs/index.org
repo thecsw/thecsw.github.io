@@ -92,6 +92,15 @@ schemes and called it [[https://github.com/thecsw/najimi-jetbrains][najimi-jetbr
 The color scheme is currently meant for Java codebases. I might add other
 languages if I feel like it one morning.
 
+** VSCode
+
+On June 9th, 2025, I have also added VSCode version of the theme, created wholly
+by AI and product-managed by me. It was cool, saved me a bunch of time from
+finding out all the token names and stuff. You can find it on its own
+[[https://github.com/thecsw/najimi-vscode][github]]. It's not as good as emacs' or jetbrains' versions; pending refinements.
+
+[[najimi-vscode.webp][The VSCode theme ``Lush Najimi'']]
+
 ** Other 
 
 I love pink, purple, and all the adjacent colors. So for my macOS colors, I use
