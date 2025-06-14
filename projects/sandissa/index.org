@@ -15,4 +15,7 @@ a security analysis of the whole system and put security controls in
 place. In doing so, we demonstrate ways in which the general IoT smart home
 system can be secured.
 
--> [[https://github.com/thecsw/sandissa-dev/blob/master/sandissa.pdf][Go to the project's final paper]]
+-> [[https://github.com/thecsw/sandissa-dev][See the core repository]]
+
+#+html_tags: style="--pdf-aspect-ratio: var(--aspect-portrait);"
+[[sandissa.pdf][The paper]]
