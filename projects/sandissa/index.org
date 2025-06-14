@@ -17,5 +17,7 @@ system can be secured.
 
 -> [[https://github.com/thecsw/sandissa-dev][See the core repository]]
 
+See the paper below, [[sandissa.pdf][click here if it doesn't load]],
+
 #+html_tags: style="--pdf-aspect-ratio: var(--aspect-portrait);"
 [[sandissa.pdf][The paper]]
