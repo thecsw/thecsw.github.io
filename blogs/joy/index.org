@@ -1,3 +1,4 @@
+#+options: preview-generate:t
 #+date: 165; 12025 H.E.
 * Crafting Joy in the Digital Age 🍀
 
