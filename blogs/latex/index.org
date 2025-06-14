@@ -17,7 +17,8 @@ over the past 2-3 years that has my favorite dimensions, fonts, margins,
 macros. Should be pretty self-explanatory. As one of my close friends looked at
 one of my files and simply said - /*sex*/
 
-Here is an example [[math.pdf][document with math]] and [[aristotle.pdf][another with text and references]].
+Here is an example [[math.pdf][document with math]] and [[aristotle.pdf][another with text and references]]
+(scroll to the bottom of the page to get the embeds)
 
 NOTE: You will have to run tex files with this template with the =-shell-escape=
 flag, because it's using [[http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf][minted]] for source code blocks and nice syntax
@@ -92,3 +93,15 @@ highlighting.
 #+end_src
 
 This should be it! Let me know if you have any questions.
+
+-----
+
+So, as promised, here is the math document embed,
+
+#+html_tags: style="--pdf-aspect-ratio: var(--aspect-portrait);"
+[[math.pdf][The typed math document.]]
+
+And here is just some regular text---I think it looks pretty *sexy*.
+
+#+html_tags: style="--pdf-aspect-ratio: var(--aspect-portrait);"
+[[aristotle.pdf][Aristotle example document]]

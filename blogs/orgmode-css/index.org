@@ -21,6 +21,7 @@ how you can control your org html output. I update that org.css quite frequently
 
 *Before* and *after* (click to enlarge)
 
+#+html_tags: style="width:85rem";
 [[example.webp][Before and After]]
 
 Thank you
