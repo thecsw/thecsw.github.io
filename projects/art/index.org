@@ -11,7 +11,7 @@ revelations of our own and the future that awaits.
 
 [[https://youtu.be/JjN-eE4kti8][Youtube: The Art of Computer Science]]
 
-The presentation deck from the video is below,
+The presentation deck from the video is below, [[deck.pdf][click here if it doesn't load]],
 
 #+begin_export html
 <style>

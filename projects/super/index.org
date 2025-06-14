@@ -17,4 +17,7 @@ Engineering Research (SUPER) at the National Center for Atmospheric Research’s
 
 -> [[https://www.eol.ucar.edu/content/summer-undergraduate-program-engineering-research-super][Go to the SUPER website]]
 
+See the final poster I presented at NCAR and if the embed doesn't load, [[2021_Sandy_Urazayev.pdf][click
+here to open the file]]!
+
 [[2021_Sandy_Urazayev.pdf][Go to my final research poster]]
