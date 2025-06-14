@@ -1,6 +1,7 @@
 #+date: 165; 12025 H.E.
 * Crafting Joy in the Digital Age 🍀
 
+#+drop_cap
 We have these widespread series at work, where speakers are invited to present
 on any topic they find interesting---does not have to be related to anything one
 is working on nor does it even have to be about tech. Some talk about their
@@ -22,6 +23,7 @@ the embed below doesn't work, you can open [[Crafting Joy in the Digital Age.pdf
 #+html_tags: style="--pdf-aspect-ratio: var(--aspect-wide);"
 [[Crafting Joy in the Digital Age.pdf][This is the embed for "Crafting Joy in the Digital Age.pdf"]]
 
+#+drop_cap
 It feels as if very few to none question or discuss the current state of
 computing and the entire situation is only exacerbated by the break-neck speed
 at which the whole AI world moves at. If we keep moving in a direction that we
@@ -36,6 +38,7 @@ it's immune to bad code review and the code self-documents'' that rounds up into
 ``I will never have time for documentation because I just need to write code to
 ship the next deliverable don't waste my time'' sort of feedback.
 
+#+drop_cap
 Which is real unfortunate, since I don't even want anyone to sit down and change
 the entire course of their lives or how they do regular programming, but at the
 very least, spark a discussion, albeit an internal one, then dismissing all this

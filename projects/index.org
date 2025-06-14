@@ -3,7 +3,6 @@
 What have I done? What do I do now? Ye shall not despair. Young boy, step forth
 and become legendary.
 
-- [[joy][Crafting Joy in the Digital Age 🍀]]
 - [[monokuma][Shortening URLs in style 🧸]]
 - [[certificates][Creating custom TLS certs 🏔️]]
 - [[pid][Daemonize your go programs 👹]]

@@ -417,7 +417,8 @@ a:not(.image):not(.gallery-item):hover {
  │                 │_│             │_│      │
  └──────────────────────────────────────────┘ */
 
-.dropcap::first-letter {
+.dropcap::first-letter,
+.dropcap > p::first-letter {
         float: left !important;
         font-size: 3.4rem !important;
         font-style: normal !important;
