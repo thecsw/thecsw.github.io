@@ -761,6 +761,9 @@ details {
         padding-bottom: calc(100% / var(--pdf-aspect-ratio));
         height: 0;
         overflow: hidden;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
 }
 
 .pdf-container iframe,
