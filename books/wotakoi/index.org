@@ -1,6 +1,7 @@
 #+html_head: <script async src="wotakoi.js"></script>
 #+html_head: <link rel="stylesheet" type="text/css" href="wotakoi.css">
 #+options: tomb:nil preview:preview.jpeg preview-width:1333 preview-height:1000
+#+html_head: <meta name="theme-color" property="theme-color" content="white">
 #+date: 364; 12023 H.E. 1400
 * WOTAKOI 💜
 
