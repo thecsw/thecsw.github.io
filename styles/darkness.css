@@ -61,6 +61,14 @@
         --math-size: 1.37rem;
         --list-margin-left: 2rem;
 
+        --pdf-aspect-ratio: var(--aspect-academy);
+        --aspect-academy: 1.375;
+        --aspect-wide: 1.778;   /* this is 16:9 */
+        --aspect-cinemascope: 2.35;
+        --aspect-square: 1;
+        --aspect-portrait: 0.707;
+
+
         --section-one-font-size: 3.7rem;
         --section-two-font-size: 2.2rem;
         --section-three-font-size: 1.7rem;
@@ -743,6 +751,26 @@ details {
         .image {
                 border-radius: 0;
         }
+}
+
+.pdf-container {
+        max-width: 100%;
+        width: var(--media-width);
+        position: relative;
+        text-align: center;
+        padding-bottom: calc(100% / var(--pdf-aspect-ratio));
+        height: 0;
+        overflow: hidden;
+}
+
+.pdf-container iframe,
+.pdf-container object,
+.pdf-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
 }
 
 /*
