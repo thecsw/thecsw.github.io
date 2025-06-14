@@ -1,0 +1,52 @@
+#+date: 165; 12025 H.E.
+* Crafting Joy in the Digital Age 🍀
+
+#+drop_cap
+We have these widespread series at work, where speakers are invited to present
+on any topic they find interesting---does not have to be related to anything one
+is working on nor does it even have to be about tech. Some talk about their
+gardens, others about financial planning, etc. And what a surprise, I got an
+invitation to become a speaker at the end of one of the major cycles.
+
+All of the preparation and work for this one had been done in my own free time,
+on my personal laptop, without any reliance on anything from work, as this is a
+topic that had captivated me for some time and hadn't really let go ever
+since---how do we stay conscious in the fast-moving and unforgiving environment
+that wants to take us for a ride by having us surrender any sense of control of
+what we use and what we rely on in our day to day lives?
+
+I cannot share the talk itself as that would be locked behind the gates that
+shall never be opened, but please enjoy the walking deck below that by reading
+through will give the first impression of what I am passionate about today. If
+the embed below doesn't work, you can open [[Crafting Joy in the Digital Age.pdf][the deck through this link]].
+
+#+html_tags: style="--pdf-aspect-ratio: var(--aspect-wide);"
+[[Crafting Joy in the Digital Age.pdf][This is the embed for "Crafting Joy in the Digital Age.pdf"]]
+
+#+drop_cap
+It feels as if very few to none question or discuss the current state of
+computing and the entire situation is only exacerbated by the break-neck speed
+at which the whole AI world moves at. If we keep moving in a direction that we
+never question nor challenge the foundation it stands on, then we have no hope
+of leading conscious lives with full understanding of ourselves and why do we do
+what we do every day.
+
+The feedback from a talk like this was expectedly controversial, where some saw
+this as an impossible paradigm and a waste of time with verbatim ``why would I
+waste my time on documentation'' with ``just use strongly typed languages then
+it's immune to bad code review and the code self-documents'' that rounds up into
+``I will never have time for documentation because I just need to write code to
+ship the next deliverable don't waste my time'' sort of feedback.
+
+#+drop_cap
+Which is real unfortunate, since I don't even want anyone to sit down and change
+the entire course of their lives or how they do regular programming, but at the
+very least, spark a discussion, albeit an internal one, then dismissing all this
+voodoo ``Literate Programming` thing Sandy mentioned and keeping to the same way
+is totally valid, at least now, doing it so consciously.
+
+Some though had a welcoming look in their eyes and shared with me that they felt
+the same way, as if the craft is being lost and the certain magical joy of what
+makes programming fun in the first place had been eradicating away chip by
+chip. Feeling more powerless with the over-abstraction of the world, we must
+think more, build more, write more, and live with our eyes open.
