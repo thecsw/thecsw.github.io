@@ -115,6 +115,11 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │   Komi Can't Communicate, Volume 34   │
+ ├───────────────────────────────────────┤
+ │         Yokohama Kaidashi Kikou       │
+ │        Deluxe Edition, Volume 3       │
+ ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 18       │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 11       │
