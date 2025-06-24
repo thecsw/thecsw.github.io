@@ -21,11 +21,9 @@ the work is fine only after you've enjoyed the original body of work.
 *I. Absolutely. Loved. It. With. All. My. Heart.*
 #+end_center
 
-#+begin_gallery
-# - [[https://photos.sandyuraz.com/NJh][Pink looks fantastic on men---we should embrace it more]] :no-zoom
-- [[https://photos.sandyuraz.com/lHD][They look so cool]] :flex 60
-- [[https://photos.sandyuraz.com/qHx][Narumi on the train dozed off]] :flex 30
-# - [[https://photos.sandyuraz.com/xmc][Narumi is so real.]] :no-zoom
+#+begin_gallery :path /yokohama/books/wotakoi/artbook
+- [[wotakoi_real - 8.jpeg][They look so cool]] :flex 60
+- [[wotakoi_real - 4.jpeg][Narumi on the train dozed off]] :flex 30
 #+end_gallery
 
 There is a certain inexplicable charm of /Wotakoi/; seeing all the nerdy adults
@@ -42,9 +40,9 @@ Somehow, even being deathly ill (not really /deathly/), and now, more than a yea
 later---modus operandi of our daily modern lives became just a little bit more
 /Wotakoi/.
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/diy][This is the 🥹 emoji]] :flex 30
-- [[https://photos.sandyuraz.com/ugu][The main cast together]] :flex 65
+#+begin_gallery :path /yokohama/books/wotakoi/artbook
+- [[wotakoi_real - 3.jpeg][This is the 🥹 emoji]] :flex 30
+- [[wotakoi_real - 1.jpeg][The main cast together]] :flex 65
 #+end_gallery
 
 This was a quick word I wanted to put out and at the same time without touching
@@ -56,9 +54,9 @@ liked /Wotakoi/ or anything else, really---getting an artbook is another way of
 supporting the author and appreciate all the work that has gone into creating
 your special something.
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/NJh][Pink looks fantastic on men---we should embrace it more]] :no-zoom :flex 45
-- [[https://photos.sandyuraz.com/xmc][Narumi is so real.]] :no-zoom :flex 45
+#+begin_gallery :path /yokohama/books/wotakoi/artbook
+- [[wotakoi_real - 5.jpeg][Pink looks fantastic on men---we should embrace it more]] :no-zoom :flex 45
+- [[wotakoi_real - 6.jpeg][Narumi is so real.]] :no-zoom :flex 45
 #+end_gallery
 
 
