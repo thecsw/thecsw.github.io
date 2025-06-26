@@ -24,8 +24,8 @@ stories (and stylish mangas), I have to say,
 /*It is violently brilliant.*/
 #+end_center
 
-#+begin_gallery :num 1
-- [[https://photos.sandyuraz.com/rpH][Ryuko]] :flex 90 :no-zoom
+#+begin_gallery :num 1 :path /yokohama/books/ryuko
+- [[front.jpeg][Ryuko]] :flex 90 :no-zoom
 #+end_gallery
 
 A confession must be made -- I have never heard of /Ryuko/ or Eldo Yoshimizu
@@ -42,8 +42,8 @@ comment says on the back of the book,
 ``/Ryuko/ is a raw blast of babes, bullets, and blood!''\ -- SYFY WIRE
 #+end_quote
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/PBb][Grenade Launcher]] :flex 80
+#+begin_gallery :path /yokohama/books/ryuko
+- [[grenades.jpeg][Grenade Launcher]] :flex 80
 #+end_gallery
 
 What I adore, /Ryuko/ is all that and much more. From my
@@ -58,9 +58,9 @@ wall somewhere in my apartment.
 
 Here are some pages retrieved from Eldo Yoshimizu's [[https://twitter.com/ryukoyoshimizu][official Twitter]],
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/kYy][North Kamakura]] :flex 45
-- [[https://photos.sandyuraz.com/yjR][Flower]] :flex 45
+#+begin_gallery :num 3 :path /yokohama/books/ryuko
+- [[snow.jpeg][North Kamakura]] :flex 45
+- [[flower.jpeg][Flower]] :flex 45
 #+end_gallery
 
 I do not know what it is about the style and class, but whenever I go and
@@ -75,8 +75,8 @@ characters, plotlines, twists, and knobs overstay their welcome. On the
 contrary, I want more, yet I immediately realize I need to restrain myself for
 my own good.
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/Dtt][Volume II cover]] :flex 80 :no-zoom
+#+begin_gallery :path /yokohama/books/ryuko
+- [[vol2.jpeg][Volume II cover]] :flex 80 :no-zoom
 #+end_gallery
 
 Some works leave you empty, and some leave you frustrated, hungry, or feeling
@@ -94,8 +94,8 @@ same thoughts repeatedly. If any of the above intrigues you, go and find /Ryuko/
 in your local bookstores or grab the whole boxed set (all two volumes) at [[https://www.barnesandnoble.com/w/ryuko-vol-1-2-boxed-set-eldo-yoshimizu/1138741914][Barnes
 & Noble]]. Here is the bundle they can get you (with cards!) 
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/Gjd][My bundle]] :flex 55
+#+begin_gallery :path /yokohama/books/ryuko
+- [[books.jpeg][My bundle]] :flex 55
 #+end_gallery
 
 Absolutely go and check out [[https://www.eldoyoshimizu.com/][Eldo Yoshimizu's website]] and his
@@ -109,23 +109,23 @@ Mr. Yoshimizu's website and Twitter.
 Eldo Yoshimizu reserves all rights, so please go to his platforms for more.\
 Thank you.
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/JNA][Ryuko Left]] :flex 35
-- [[https://photos.sandyuraz.com/FtQ][Ryuko Central]] :flex 60
+#+begin_gallery :path /yokohama/books/ryuko
+- [[back.jpeg][Ryuko Left]] :flex 35
+- [[butt.jpeg][Ryuko Central]] :flex 60
 #+end_gallery
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/VJF][Ryuko Central]] :flex 60
-- [[https://photos.sandyuraz.com/riN][Ryuko Right]] :flex 35
+#+begin_gallery :path /yokohama/books/ryuko
+- [[standing.jpeg][Ryuko Central]] :flex 60
+- [[lines.jpeg][Ryuko Right]] :flex 35
 #+end_gallery
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/kIt][Ryuko standing]] :flex 40
-- [[https://photos.sandyuraz.com/Dfi][Ryuko laying]] :flex 55
+#+begin_gallery :path /yokohama/books/ryuko
+- [[gorgeous.jpeg][Ryuko standing]] :flex 40
+- [[hair.jpeg][Ryuko laying]] :flex 55
 #+end_gallery
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/hAU][Ryuko ending "I want this in my apartment"]] :flex 95 :no-zoom
+#+begin_gallery :path /yokohama/books/ryuko
+- [[incredible.jpeg][Ryuko ending "I want this in my apartment"]] :flex 95 :no-zoom
 #+end_gallery
 
 *Update*: Mr. Yoshimizu read this review and commented on it!
