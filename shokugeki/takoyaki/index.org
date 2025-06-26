@@ -1,9 +1,9 @@
 #+date: 22; 12023 H.E.
 * Takoyaki 🐙
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/oxN][vert]] :flex 40
-- [[https://photos.sandyuraz.com/ePp][sq]] :flex 50
+#+begin_gallery :path /yokohama/shokugeki
+- [[takoyaki3.jpeg][vert]] :flex 40
+- [[takoyaki2.jpeg][sq]] :flex 50
 #+end_gallery
 
 Big thanks to [[https://www.justonecookbook.com/][JUST ONE COOKBOOK]] for this [[https://www.justonecookbook.com/takoyaki-recipe/][great recipe]]!
