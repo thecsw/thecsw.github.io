@@ -162,7 +162,7 @@ So... enjoy some snow on the website using [[https://github.com/scottschiller][S
 
 #+html_tags: style="width:46rem";
 #+attr_darkness: image
-[[https://photos.sandyuraz.com/LtS][Let it snow! (we are running a modified version of the snowstorm)]]
+[[snow.webp][Let it snow! (we are running a modified version of the snowstorm)]]
 
 ** Tighter design
 

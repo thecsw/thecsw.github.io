@@ -33,5 +33,5 @@ nature of the film!
 {{{three}}}
 
 #+begin_gallery
-- [[https://photos.sandyuraz.com/cassandra-cat][STUNNING]] :flex 90 :no-zoom
+- [[cassandra.jpeg][STUNNING]] :flex 90 :no-zoom
 #+end_gallery
