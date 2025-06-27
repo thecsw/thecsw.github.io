@@ -279,7 +279,6 @@ invest myself in what I'm about to watch.
 
 A little peek into what a shelf above would look like...
 
-#+begin_gallery
-# - [[https://photos.sandyuraz.com/Vof][Living Room]] :flex 90 :no-zoom
-- [[https://photos.sandyuraz.com/UGT][Living Room]] :flex 90 :no-zoom
+#+begin_gallery /yokohama/whatever
+- [[living_room_raw.jpg][Living Room]] :flex 90 :no-zoom
 #+end_gallery
