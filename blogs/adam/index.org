@@ -5,7 +5,7 @@ This was tough to pull off, but I successfully got /The Creation of Adam/ from t
 Sistine Chapel. All it took was an amazon basics paint scraper, a steady hand,
 and a *lot* of patience. But hey, looks great in my living room!
 
-#+begin_gallery :num 2 :path /yokohama/blogs/adam
+#+begin_gallery :num 2
 - [[adam1.jpeg][View from the right "I don't know why colors are so off from the second one"]]
 - [[adam2.jpeg][View from the left "it looks so vibrant here also *majestic*"]]
 - [[adam3.jpeg][Biblical]] :flex 1
