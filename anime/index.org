@@ -280,5 +280,5 @@ invest myself in what I'm about to watch.
 A little peek into what a shelf above would look like...
 
 #+begin_gallery /yokohama/whatever
-- [[living_room_raw.jpg][Living Room]] :flex 90 :no-zoom
+- [[living_room_raw.webp][Living Room]] :flex 90 :no-zoom
 #+end_gallery

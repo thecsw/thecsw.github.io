@@ -7,8 +7,8 @@
 * Simple Daiquiri 🍋‍🟩
 
 #+begin_export html
-<img class="image cocktail scroll-image" src="https://photos.sandyuraz.com/daiquiri2">
-<img class="image cockflip scroll-image" src="https://photos.sandyuraz.com/daiquiri2">
+<img class="image cocktail scroll-image" src="daiquiri.webp">
+<img class="image cockflip scroll-image" src="daiquiri.webp">
 #+end_export
 
 Back to basics! When there is nothing around but a trusty rum, some lime and
