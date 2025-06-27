@@ -1,14 +1,14 @@
 #+date: 5; 12023 H.E.
 * Joker Neondroid ☕️
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/FNx][Arsène! "Arsene's design is so cool like omg"]]
-- [[https://photos.sandyuraz.com/moO][rei joker "Persona 5 and Evangelion crossover??"]]
-- [[https://photos.sandyuraz.com/RXY][phantoms "I like this pose with red eyes and holding 'fake' gun"]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Joker-neondroid
+- [[Joker neondroid - 3.jpeg][Arsène! "Arsene's design is so cool like omg"]]
+- [[Joker neondroid - 5.jpeg][rei joker "Persona 5 and Evangelion crossover??"]]
+- [[Joker neondroid - 2.jpeg][phantoms "I like this pose with red eyes and holding 'fake' gun"]]
 #+end_gallery
 
-#+begin_gallery :num 1
-- [[https://photos.sandyuraz.com/maJ][my colleagues "Where have you been? Been searching all along..."]]
+#+begin_gallery :num 1 :path /yokohama/plastic/Joker-neondroid
+- [[Joker neondroid - 6.jpeg][my colleagues "Where have you been? Been searching all along..."]]
 #+end_gallery
 
 My last year at college was the most grueling part of my life. Taking 21 credit

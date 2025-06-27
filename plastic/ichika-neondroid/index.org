@@ -1,8 +1,8 @@
 #+date: 5; 12023 H.E.
 * Ichika Neondroid 🕶️
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/lIL][Ichika "still best girl"]] :flex 50
+#+begin_gallery :path /yokohama/plastic/Ichika-neondroid
+- [[Ichika neondroid - 1.jpeg][Ichika "still best girl"]] :flex 50
 #+end_gallery
 
 #+begin_center

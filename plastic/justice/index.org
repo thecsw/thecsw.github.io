@@ -11,7 +11,7 @@
 Remember how I talked on and on about [[https://sandyuraz.com/plastic/lucifer/][my *absolute* love]] for Helltaker?
 [[https://noaharbre.booth.pm/items/4443626][Justice]] is my everything. That's _it_.
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/qsq][frontal]] :flex 40
-- [[https://photos.sandyuraz.com/hwM][back]] :flex 40
+#+begin_gallery :path /yokohama/plastic/Justice
+- [[justice - 1.jpeg][frontal]] :flex 40
+- [[justice - 2.jpeg][back]] :flex 40
 #+end_gallery

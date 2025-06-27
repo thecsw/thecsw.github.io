@@ -1,10 +1,10 @@
 #+date: 40; 12023 H.E.
 * Lucifer 😈
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/CLg][The tail]]
-- [[https://photos.sandyuraz.com/oFX][Top view]]
-- [[https://photos.sandyuraz.com/ZeA][From the back]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Lucifer
+- [[Lucifer - 6.jpeg][The tail]]
+- [[Lucifer - 5.jpeg][Top view]]
+- [[Lucifer - 4.jpeg][From the back]]
 #+end_gallery
 
 Helltaker by [[https://twitter.com/vanripperart][vanripper]] was my gateway anime. I /was/ [[https://sandyuraz.com/blogs/anime/][into anime]] way before when I
