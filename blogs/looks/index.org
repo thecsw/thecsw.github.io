@@ -10,30 +10,30 @@ NOTE: June 1st, 2023!
 
 #+attr_darkness: image
 #+html_tags: style="width:var(--in-text-media-width)";
-[[/yokohama/blogs/looks/me/noise.jpeg][i finally touched grass]]
+[[me/noise.jpeg][i finally touched grass]]
 
 NOTE: Added a new (new) picture on March 1st, 2023! Gotten older.
 
 #+attr_darkness: image
 #+html_tags: style="width:var(--in-text-media-width)";
-[[/yokohama/blogs/looks/me/sandy.jpeg][longer hair]]
+[[me/sandy.jpeg][longer hair]]
 
 NOTE: Added a new picture! I finally found a good stylist that *gets me*.
 
 #+attr_darkness: image
 #+html_tags: style="width:var(--in-text-media-width)";
-[[/yokohama/blogs/looks/newphone.webp][I got a new phone here]]
+[[newphone.webp][I got a new phone here]]
 
 ** Older pics
 
 #+attr_darkness: image
 #+html_tags: style="width:var(--in-text-media-width)";
-[[/yokohama/blogs/looks/gilet.webp][This gilet is too light-colored]]
+[[gilet.webp][This gilet is too light-colored]]
 
 I've been growing out my hair for some time, gotta get them [[https://sandyuraz.com/anime/horimiya/][Miyamura]] strands.
 
 #+attr_darkness: image
 #+html_tags: style="width:var(--in-text-media-width)";
-[[/yokohama/blogs/looks/tie.webp][Acne is my foe by blood]]
+[[tie.webp][Acne is my foe by blood]]
 
 Instagram always felt kinda meh.

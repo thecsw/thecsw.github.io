@@ -5,8 +5,8 @@ Something about stickers and plastering them on everything gets me all
 excited. I go to such lengths that my laptop have literal *layers* on them.
 
 #+begin_gallery :num 2
-- [[https://photos.sandyuraz.com/IWP][My macbook "I got my m1 mbpro day 1 in 2020"]]
-- [[https://photos.sandyuraz.com/gFC][Beloved T420 "blaze it -- best laptops to run linux on and be a haxor"]]
+- [[mania.jpeg][My macbook "I got my m1 mbpro day 1 in 2020"]]
+- [[thinkpad.jpeg][Beloved T420 "blaze it -- best laptops to run linux on and be a haxor"]]
 #+end_gallery
 
 During my sophomore public speaking course in college, the professor called my
@@ -14,8 +14,8 @@ blue laptop on the left the ``ugliest laptop he has ever seen''. He also did it
 right in front of the whole class 💀
 
 #+begin_gallery :num 2
-- [[https://photos.sandyuraz.com/scQ][ugliest laptop he has ever seen "I lived with this 32GB hp stream for three years"]]
-- [[https://photos.sandyuraz.com/SNg][wife "my every day laptop -- simplicity is the key"]]
+- [[stream.jpeg][ugliest laptop he has ever seen "I lived with this 32GB hp stream for three years"]]
+- [[hyoizaburo.jpeg][wife "my every day laptop -- simplicity is the key"]]
 #+end_gallery
 
 However, laptops aren't the only thing you can put stickers on!
@@ -23,16 +23,17 @@ However, laptops aren't the only thing you can put stickers on!
 /Vacuum cleaners???/
 
 #+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/Ewy][zero two is wife "I got this pot (custom built!) at a local Christmas bazaar"]]
-- [[https://photos.sandyuraz.com/QdR][cuisanart electric kettle is great "I thought stickers would lose adhesion, but they seem fine 🤞"]]
-- [[https://photos.sandyuraz.com/ZcK][shark vacuum cleaners "Jame asked me why it's so wet -- I was riding it"]]
+- [[flower.jpeg][zero two is wife "I got this pot (custom built!) at a local Christmas bazaar"]]
+- [[alone.jpeg][cuisanart electric kettle is great "I thought stickers would lose adhesion, but they seem fine 🤞"]]
+- [[shark.jpeg][shark vacuum cleaners "Jame asked me why it's so wet -- I was riding it"]]
 #+end_gallery
 
 And just for fun, here is a, no *the* proof of how mad in love I am with Zero
 Two...
 
 #+begin_gallery :num 1
-- [[https://photos.sandyuraz.com/pZs][part one of my stickers "I think my favorite one is the bw one that says 'WAIFU'"]]
-- [[https://photos.sandyuraz.com/YKs][part two of my stickers "DARLING -- how did Darkness get in there? (I got it at Naka-Kon 2022)"]]
-- [[https://photos.sandyuraz.com/WWL][part three of my stickers "that central pink sticker has the 02 look that KILLS"]]
+- [[stickers-1.jpeg][part one of my stickers "I think my favorite one is the bw one that says 'WAIFU'"]]
+- [[stickers-2.jpeg][part two of my stickers "DARLING -- how did Darkness get in there? (I got it at Naka-Kon 2022)"]]
+- [[stickers-3.jpeg][part three of my stickers "that central pink sticker has the 02 look that KILLS"]]
 #+end_gallery
+* mania.jpeg
