@@ -1,14 +1,14 @@
 #+date: 17; 12023 H.E.
 * Rem sitting 🪑
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/Vte][From above "the way the tshirt texture falls off is pleasant"]]
-- [[https://photos.sandyuraz.com/dwF][Frontal shot "Rem's scene with Subaru... she be real for that"]]
-- [[https://photos.sandyuraz.com/rFl][Full height "what a great pose and sculpting done on this figure"]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Rem-sitting
+- [[Rem Sitting New - 3.jpeg][From above "the way the tshirt texture falls off is pleasant"]]
+- [[Rem Sitting New - 1.jpeg][Frontal shot "Rem's scene with Subaru... she be real for that"]]
+- [[Rem Sitting New - 4.jpeg][Full height "what a great pose and sculpting done on this figure"]]
 #+end_gallery
 
-#+begin_gallery :num 1
-- [[https://photos.sandyuraz.com/LLs][Fancy sitting "this is where the two Rems actually are, see adam's post"]]
+#+begin_gallery :num 1 :path /yokohama/plastic/Rem-sitting
+- [[rems.jpeg][Fancy sitting "this is where the two Rems actually are, see adam's post"]]
 #+end_gallery
 
 #+begin_center

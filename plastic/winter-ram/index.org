@@ -1,27 +1,27 @@
 #+date: 355; 12022 H.E.
 * Winter Ram 🧣
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/neI][second coming of the Oni God "I never liked how much Ram is into Roswaal L
+#+begin_gallery :num 3 :path /yokohama/plastic/Winter-Ram
+- [[Winter Ram - 6.jpeg][second coming of the Oni God "I never liked how much Ram is into Roswaal L
   Mathers but given their history and the witch cult's attack when they were
-  kids -- I understand"]] 
-- [[https://photos.sandyuraz.com/BbO][Ram "Clairvoyance"]]
+  kids -- I understand"]]
+- [[Winter Ram - 15.jpeg][Ram "Clairvoyance"]]
 #+end_gallery
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/tsS][Oni clan "I would love to get to know Ram irl"]] :flex 95
+#+begin_gallery :path /yokohama/plastic/Winter-Ram
+- [[Winter Ram - 9.jpeg][Oni clan "I would love to get to know Ram irl"]] :flex 95
 #+end_gallery
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/YxX][Birthday "According to the author, Ram's birthday is February 2, the same as her twin sister Rem."]]
-- [[https://photos.sandyuraz.com/PKw][Bamboozle "Ram guessed Subaru hailed from the upper class of a small kingdom
+#+begin_gallery :num 3 :path /yokohama/plastic/Winter-Ram
+- [[Winter Ram - 12.jpeg][Birthday "According to the author, Ram's birthday is February 2, the same as her twin sister Rem."]]
+- [[Winter Ram - 14.jpeg][Bamboozle "Ram guessed Subaru hailed from the upper class of a small kingdom
   due to not knowing his origins."]]
-- [[https://photos.sandyuraz.com/CHQ][what "After Subaru taught her Hiragana, Ram noted she felt like she saw that type of writing somewhere before."]]
+- [[Winter Ram - 13.jpeg][what "After Subaru taught her Hiragana, Ram noted she felt like she saw that type of writing somewhere before."]]
 #+end_gallery
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/hAB][A little closer]] :flex 95
-- [[https://photos.sandyuraz.com/TTw][Up close close]] :flex 95
+#+begin_gallery :path /yokohama/plastic/Winter-Ram
+- [[Winter Ram - 11.jpeg][A little closer]] :flex 95
+- [[Winter Ram - 10.jpeg][Up close close]] :flex 95
 #+end_gallery
 
 Re:Zero is probably on of the best animated shows *ever made*. Truly, the Brothers

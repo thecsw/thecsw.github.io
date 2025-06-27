@@ -1,9 +1,9 @@
 #+date: 16; 12023 H.E.
 * 𝓕𝓪𝓷𝓬𝔂 𝓡𝓮𝓶 🌺
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/YFT][Rem's Glory "the stand is cut off, but it says 𝓡𝓮𝓶"]] :flex 45
-- [[https://photos.sandyuraz.com/RjQ][quality "Taito's figures are what could be called 'goated and throated'"]] :flex 45
+#+begin_gallery :path /yokohama/plastic/Rem-fancy
+- [[Rem Fancy New - 4.jpeg][Rem's Glory "the stand is cut off, but it says 𝓡𝓮𝓶"]] :flex 45
+- [[Rem Fancy New - 3.jpeg][quality "Taito's figures are what could be called 'goated and throated'"]] :flex 45
 #+end_gallery
 
 This one was probably one of the least expensive figures I got (~$20), but the

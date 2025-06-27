@@ -12,15 +12,15 @@ Komi, *I live for Najimi ❤️‍🔥*, and Chadano
 
 ---magnum opus of character writing.
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/kNe][Excited Komi with cat ears and big eyes]] :flex 40 :no-zoom
-- [[https://photos.sandyuraz.com/igT][Blushing Komi holding her notebook with them bedroom (?) eyes]] :flex 40 :no-zoom
+#+begin_gallery :path /yokohama/plastic/Komi
+- [[IMG_8225.jpg][Excited Komi with cat ears and big eyes]] :flex 40 :no-zoom
+- [[IMG_8229.jpg][Blushing Komi holding her notebook with them bedroom (?) eyes]] :flex 40 :no-zoom
 #+end_gallery
 
 I've been playing with [[https://halide.cam/][Halide]], which allows me to shoot RAW pictures out of my
 phone's camera. After that, I can process those pictures using [[https://www.darktable.org/][Darktable]] and the
 level of control you get with the original camera shots are [[https://www.lux.camera/iphone-13-pro-camera-app-intelligent-photography/][is cool]].
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/Vyl][Stoic Komi holding her school bag in front of my komi manga collection]] :flex 90 :no-zoom
+#+begin_gallery :path /yokohama/plastic/Komi
+- [[IMG_8231.jpg][Stoic Komi holding her school bag in front of my komi manga collection]] :flex 90 :no-zoom
 #+end_gallery

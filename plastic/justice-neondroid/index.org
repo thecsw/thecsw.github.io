@@ -13,14 +13,14 @@ Trying out to play with processing [[https://sandyuraz.com/plastic/komi/][RAW]] 
 all for [[https://sandyuraz.com/plastic/justice/][my girl]]
 #+end_center
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/QeV][I glass of Hennessy before bed makes me sleep very well]] :flex 30 :no-zoom
-- [[https://photos.sandyuraz.com/zSH][So, what are you looking for? Justice looking down very cooly]] :flex 35 :no-zoom
-- [[https://photos.sandyuraz.com/Tun][Justice has as good of a taste in scotch as I do]] :flex 30 :no-zoom
+#+begin_gallery :path /yokohama/plastic/Justice-neondroid
+- [[IMG_8276_framed.jpg][I glass of Hennessy before bed makes me sleep very well]] :flex 30 :no-zoom
+- [[IMG_8253_framed.jpg][So, what are you looking for? Justice looking down very cooly]] :flex 35 :no-zoom
+- [[IMG_8258_framed.jpg][Justice has as good of a taste in scotch as I do]] :flex 30 :no-zoom
 #+end_gallery
 
 Man... I could only wish to be an iota of a spirit that Justice is.
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/WtS][Wide shot of Justice looking VERY VERY cool (i could only wish)]] :flex 95 :no-zoom
+#+begin_gallery :path /yokohama/plastic/Justice-neondroid
+- [[IMG_8249_01.jpg][Wide shot of Justice looking VERY VERY cool (i could only wish)]] :flex 95 :no-zoom
 #+end_gallery

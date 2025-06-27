@@ -1,14 +1,14 @@
 #+date: 6; 12023 H.E.
 * Rei Holding the Baby 🍼
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/xpP][rei baby one "my friend Ethan called it the 'tumor baby'"]]
-- [[https://photos.sandyuraz.com/vhv][rei baby two "how can people forget this scene from the end of 3+1?"]]
-- [[https://photos.sandyuraz.com/omw][rei baby three "something about rei and her character feels real"]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Rei-holding-baby
+- [[Rem holding baby - 7.jpeg][rei baby one "my friend Ethan called it the 'tumor baby'"]]
+- [[Rem holding baby - 1.jpeg][rei baby two "how can people forget this scene from the end of 3+1?"]]
+- [[Rem holding baby - 5.jpeg][rei baby three "something about rei and her character feels real"]]
 #+end_gallery
 
-#+begin_gallery :num 1
-- [[https://photos.sandyuraz.com/pvn][My sweet work buddies "I wonder if they get lonely over the weekends"]]
+#+begin_gallery :num 1 :path /yokohama/plastic/Joker-neondroid
+- [[Joker neondroid - 4.jpeg][My sweet work buddies "I wonder if they get lonely over the weekends"]]
 #+end_gallery
 
 There is too much written and spoken about Evangelion in the world. Who am I to

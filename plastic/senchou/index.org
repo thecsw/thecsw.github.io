@@ -1,21 +1,21 @@
 #+date: 18; 12023 H.E.
 * Houshou Marine 🏴‍☠️
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/sHZ][Up close]]
-- [[https://photos.sandyuraz.com/ZXG][Left view]]
-- [[https://photos.sandyuraz.com/mce][Top right]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Marine
+- [[Marine - 1.jpeg][Up close]]
+- [[Marine - 3.jpeg][Left view]]
+- [[Marine - 4.jpeg][Top right]]
 #+end_gallery
 
-#+begin_gallery
-- [[https://photos.sandyuraz.com/hOR][Eva from left]] :flex 45
-- [[https://photos.sandyuraz.com/Nov][Eva from right]] :flex 45
+#+begin_gallery :path /yokohama/plastic/Marine
+- [[Marine - 13.jpeg][Eva from left]] :flex 45
+- [[Marine - 15.jpeg][Eva from right]] :flex 45
 #+end_gallery
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/EhO][Full height]]
-- [[https://photos.sandyuraz.com/VEx][my bt]]
-- [[https://photos.sandyuraz.com/hRO][Back]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Marine
+- [[Marine - 10.jpeg][Full height]]
+- [[Marine - 14.jpeg][my bt]]
+- [[Marine - 9.jpeg][Back]]
 #+end_gallery
 
 I never got into vtubers -- never became my vibe or something I crave for. Not

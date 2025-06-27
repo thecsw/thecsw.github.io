@@ -6,15 +6,15 @@
 wonderful things I know about you.'' -- Rem
 #+end_quote
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/FqD][My Rem "I'm super proud of how this picture of Rem turned out"]]
-- [[https://photos.sandyuraz.com/DMx][Bright Rem "something happened when I 'slipped' on the RGB curve"]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Winter-Rem
+- [[Winter Rem - 3.jpeg][My Rem "I'm super proud of how this picture of Rem turned out"]]
+- [[Winter Rem - 1.jpeg][Bright Rem "something happened when I 'slipped' on the RGB curve"]]
 #+end_gallery
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/CoJ][new Winter Rem photoshoot "SHE LOOKS INCREDIBLE HERE"]]
-- [[https://photos.sandyuraz.com/HvA][Winter Rem from below "yes, please."]]
-- [[https://photos.sandyuraz.com/QAu][My favorite Christmas Tree "Rem looks SUPA cute here <3"]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Winter-Ram
+- [[Winter Ram - 1.jpeg][new Winter Rem photoshoot "SHE LOOKS INCREDIBLE HERE"]]
+- [[Winter Ram - 5.jpeg][Winter Rem from below "yes, please."]]
+- [[Winter Ram - 4.jpeg][My favorite Christmas Tree "Rem looks SUPA cute here <3"]]
 #+end_gallery
 
 See more [[../winter-ram][Winter Rem with Winter Ram]]!

@@ -1,9 +1,9 @@
 #+date: 355; 12022 H.E.
 * Winter Aqua 🍶
 
-#+begin_gallery :num 3
-- [[https://photos.sandyuraz.com/ERH][Full height Aqua "she is my goddess"]]
-- [[https://photos.sandyuraz.com/utx][Close-up on Aqua "filters are fun to play with"]]
+#+begin_gallery :num 3 :path /yokohama/plastic/Winter-Aqua
+- [[Winter Aqua - 2.jpeg][Full height Aqua "she is my goddess"]]
+- [[Winter Aqua - 3.jpeg][Close-up on Aqua "filters are fun to play with"]]
 #+end_gallery
 
 I never understood why people hate on Aqua from Konosuba. Sure, she always
