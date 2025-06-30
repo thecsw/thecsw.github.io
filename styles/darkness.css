@@ -66,6 +66,7 @@
         --aspect-wide: 1.778;   /* this is 16:9 */
         --aspect-cinemascope: 2.35;
         --aspect-square: 1;
+        --aspect-portrait-short: 0.84;
         --aspect-portrait: 0.707;
 
 

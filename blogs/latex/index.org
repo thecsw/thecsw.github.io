@@ -98,10 +98,10 @@ This should be it! Let me know if you have any questions.
 
 So, as promised, here is the math document embed,
 
-#+html_tags: style="--pdf-aspect-ratio: var(--aspect-portrait);"
+#+html_tags: style="--pdf-aspect-ratio: var(--aspect-portrait-short);"
 [[math.pdf][The typed math document.]]
 
 And here is just some regular text---I think it looks pretty *sexy*.
 
-#+html_tags: style="--pdf-aspect-ratio: var(--aspect-portrait);"
+#+html_tags: style="--pdf-aspect-ratio: var(--aspect-portrait-short);"
 [[aristotle.pdf][Aristotle example document]]
