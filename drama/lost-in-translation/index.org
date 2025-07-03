@@ -1,0 +1,20 @@
+#+setupfile: ../00_film_skipthis.org
+
+#+options: preview-generate:nil preview:lost-in-translation.jpeg
+
+#+html_head: <link rel="stylesheet" type="text/css" href="lost-in-translation.css">
+
+# update the theme color for phones and fancy browsers
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+
+#+date: 184; 12025 H.E. 0924
+* Lost in Translation
+My office has a monitor that plays Sofia Coppola's /Lost in Translation/
+around-the-clock every day---I never get tired seeing throughout the day,
+watching it while doing my chores, thinking about it randomly, or feeling it
+when I need it the most---that about sums up my relationship with this
+film. Roger Ebert said it perfectly.
+
+#+html_tags: style="width:40rem";
+[[lost-in-translation.jpeg][Lost in Translation on film.]]

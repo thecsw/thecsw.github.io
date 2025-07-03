@@ -87,3 +87,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 63 | [[file:life-of-chuck/poster.webp][poster]] | [[life-of-chuck][*The Life of Chuck*]]                                        | Mike Flanagan                        | United States                          | 2025 |
 | 64 | [[file:materialists/poster.webp][poster]] | [[materialists][*Materialists*]]                                             | Celine Song                          | United States                          | 2025 |
 | 65 | [[file:ballerina/poster.webp][poster]] | [[ballerina][*Ballerina*]]                                                | Len Wiseman                          | United States                          | 2025 |
+| 66 | [[file:lost-in-translation/poster.webp][poster]] | [[lost-in-translation][*Lost in Translation*]]                                      | Sofia Coppola                        | United States\ Japan                   | 2003 |
