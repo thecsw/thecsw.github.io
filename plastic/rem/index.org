@@ -1,17 +1,17 @@
 #+date: 355; 12022 H.E.
 * Rem Summer RELAX 🍦
 
-#+begin_gallery :num 3 :path /yokohama/plastic/rem
+#+begin_gallery :num 3 :path /yokohama/plastic/Rem
 - [[Rem - 6.jpeg][Frontal "She got that laid-back feel that I strive to have one day"]]
 - [[Rem - 7.jpeg][Rem one "I never realized how similar Rem and Rei look here. EVEN THEIR
   NAMES!!"]]
 #+end_gallery
 
-#+begin_gallery :path /yokohama/plastic/rem
+#+begin_gallery :path /yokohama/plastic/Rem
 - [[Rem - nov 15.jpeg][The gang "Rem and the gang (they are yet to come!!)"]] :flex 90
 #+end_gallery
 
-#+begin_gallery :num 2 :path /yokohama/plastic/rem
+#+begin_gallery :num 2 :path /yokohama/plastic/Rem
 - [[Rem - 3.jpeg][wife]] :flex 45
 #+end_gallery
 
