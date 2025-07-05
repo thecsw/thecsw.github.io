@@ -1,6 +1,8 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 185; 12025 H.E. 1459
 * A Story of Floating Weeds
+
+#+drop_cap
 My father once told me, ``Only if the new generations are better off than the
 last, then that is progress. That is why you must be better than I am.'' I have
 never forgotten those words as they guide me on what it means to move forward,
@@ -17,6 +19,7 @@ humility, strength, and courage it takes to come to a realization and sacrifice
 that must follow is a tale spanning time for as long as human dignity and pride
 were around for.
 
+#+drop_cap
 Absolutely cannot miss the sublime composition in every single one of Ozu's
 frames. Always the same height—near the ground. Always the same
 lens—50mm. Always evoking the same feeling—a sense of still beauty. It is such a
