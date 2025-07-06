@@ -31,9 +31,10 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┐
- │  Rascal Does Not   │
- │     Dream of a     ├───────────────────┐
+                      ┌───────────────────┐
+ ┌────────────────────┤    Toaru Kagaku   │
+ │  Rascal Does Not   │    no Railgun S   │
+ │     Dream of a     ├───────────────────┤
  │    Knapsack Kid    │   The Apothecary  │
  ├────────────────────┤  Diaries Season 2 │
  │  Hunter x Hunter   ├───────────────────┤
