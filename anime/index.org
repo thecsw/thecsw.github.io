@@ -32,7 +32,11 @@ invest myself in what I'm about to watch.
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌────────────────────┐
- │  Hunter x Hunter   ├───────────────────┐
+ │  Rascal Does Not   │
+ │     Dream of a     ├───────────────────┐
+ │    Knapsack Kid    │   The Apothecary  │
+ ├────────────────────┤  Diaries Season 2 │
+ │  Hunter x Hunter   ├───────────────────┤
  ├────────────────────┤    Re:Zero kara   │
  │   The Apothecary   │  Hajimeru Isekai  │
  │      Diaries       │     Seikatsu 3    │
