@@ -115,6 +115,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │         Dogs and Punching Bags        │
+ ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 34   │
  ├───────────────────────────────────────┤
  │         Yokohama Kaidashi Kikou       │
