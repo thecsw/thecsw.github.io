@@ -1,15 +1,8 @@
-#+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
-#+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
-#+options: preview-generate:t rss-prefix:(Cocktails)
-#+options: preview-generate-bg:#151515 preview-generate-fg:#ffffff
+#+setupfile: ../00_sasakura_skipthis.org
 #+date: 299; 12024 H.E. 1848
 * Simple Daiquiri 🍋‍🟩
 
-#+begin_export html
-<img class="image cocktail scroll-image" src="daiquiri.webp">
-<img class="image cockflip scroll-image" src="daiquiri.webp">
-#+end_export
+{{{pics(daiquiri.webp)}}}
 
 Back to basics! When there is nothing around but a trusty rum, some lime and
 sugar---what are you gonna do? We could make this Hemingway style with double

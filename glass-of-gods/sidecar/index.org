@@ -1,15 +1,8 @@
-#+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
-#+options: preview-generate-bg:#151515 preview-generate-fg:#ffffff
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
-#+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
-#+options: preview-generate:t rss-prefix:(Cocktails)
+#+setupfile: ../00_sasakura_skipthis.org
 #+date: 281; 12024 H.E. 2319
 * Sidecar 🍊
 
-#+begin_export html
-<img class="image cocktail" src="sidecar.webp">
-<img class="image cockflip" src="sidecar.webp">
-#+end_export
+{{{pics(sidecar.webp)}}}
 
 I simply love it. Something about it. I always had a soft spot for cognacs,
 since my parents are Hennessy believers. With my lower than regular sugar levels,

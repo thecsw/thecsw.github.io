@@ -1,15 +1,8 @@
-#+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
-#+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
-#+options: preview-generate:t rss-prefix:(Cocktails)
-#+options: preview-generate-bg:#151515 preview-generate-fg:#ffffff
+#+setupfile: ../00_sasakura_skipthis.org
 #+date: 288; 12024 H.E. 2354
 * K.K.'s Extra Dirty Martini 🫒
 
-#+begin_export html
-<img class="image cocktail scroll-image" src="kk-dirty-martini.webp">
-<img class="image cockflip scroll-image" src="kk-dirty-martini.webp">
-#+end_export
+{{{pics(kk-dirty-martini.webp)}}}
 
 K.K. likes her martini extra dirty. When I say extra dirty, I mean /extra/
 *dirty*. Her tastes fluctuate as making an extra dirty Upside-Down martini---it
