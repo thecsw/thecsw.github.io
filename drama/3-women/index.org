@@ -1,6 +1,7 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 198; 12025 H.E. 0938
 * 3 Women
+#+drop_cap
 Pre-Lynchian nightmare decanted straight out of Robert Altman's mind. I
 genuinely hated the first half of the movie---either the mood was not right or I
 was too tired or simply not in the space to see it for what it is. The second
