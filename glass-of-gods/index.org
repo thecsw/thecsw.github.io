@@ -15,6 +15,7 @@
 #+end_export
 
 #+begin_gallery
+- [[sazerac/sazerac.jpg][Grapefruit Sazerac]] [[sazerac][<-- sazerac]]
 - [[manhattan/manhattan.jpg][Sandy's Manhattan]] [[manhattan][<-- manhattan]]
 - [[daiquiri/daiquiri.webp][The basics of mixing]] [[daiquiri][<-- daiquiri]]
 - [[kk-dirty-martini/kk-dirty-martini.webp][This is K.K.'s favorite martini---extra dirty]] [[kk-dirty-martini][<-- kk-dirty-martini]]
