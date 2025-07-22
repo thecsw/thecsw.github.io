@@ -24,6 +24,10 @@ hr {
     display: none;
 }
 
+#date-section {
+        margin-bottom: -2rem;
+}
+
 /* @media all and (min-width: 1300px) { */
 /*         :root { */
 /*                 --header-width: 50.25rem; */

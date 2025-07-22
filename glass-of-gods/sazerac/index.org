@@ -1,0 +1,51 @@
+#+setupfile: ../00_sasakura_skipthis.org
+#+date: 202; 12025 H.E. 2250
+* Sazerac 🍊
+
+{{{pics(sazerac.jpg)}}}
+
+iPhones are so bad in low-light shooting that the all kinds of chroma and luma
+noise get so bad to the point that I simply cannot edit them in any shape of
+form that could be presentable to the public. Especially since I also like the
+look of 50mm lens by having all my pictures taken in 2x mode---the actual canvas
+turns out to be a random sample of pixels each with a random color of your
+choosing. BLARGH.
+
+But whatever. Here is a /Sazerac/! I've always thought of it as America's first
+cocktail, where combining any (by that time) nasty base spirit with its super
+harsh bite with some sugar and bitters would have the world go round and society
+functioning for one more day. Most of the liquor we have today got modernized and
+mechanized to extents that we might never know what the spirits actually tasted
+back in the day, but we can make a pretty good guess by the amount of sugar that
+needed to counteract it.
+
+- 2 dashes of absinthe (I used /Pernod/)
+- 1 sugar cube
+- 3 dashes of /Peychaud's Bitters/ (more on that)
+- 2 ounces of /Old Forester 100 Proof Rye Whiskey/
+- 1 nicely cut lemon peel
+
+The traditional way would be to use two old-fashioned glasses, but I'll stick to
+my trusty mixing glass. Rinse your old-fashioned glass with absinthe or in my
+case, /Pernod/ and discard any excess liquid. I have absinthe in the pipeline, but
+I always forget to strain it---it might be super bitter, I'll have to check up
+on it later. Then in a mixing glass muddle the sugar with
+bitters. Unfortunately, /Peychaud's/ has red#40 that gives it that extra red
+color. Such a shame, since none of these concoctions used artificial coloring
+back in the day. Instead, in one of my local bars, I have actually found a
+credible replacement that is New Orleans Style by /All the Bitter/. It's
+alcohol-free, but the closest one I could find that could match the flavor, even
+though nothing really comes close to a genuine /Peychaud's/.
+
+#+html_tags: style="width:27rem";
+[[all_the_bitter.jpg][New Orleans Style bitters by /All the Bitter/]]
+
+As the bitters and sugars have become one---as much as that is possible---pour
+in the rye---the OG version would call for a cognac, which would make sense
+because of the floral profile, but I like the higher proof /Old Forester/ I have
+thta wouldn't drown in bitters and sugars. Fill the mixing glas with ice and
+stir for a 20-25 seconds until chilled. Strain into the absinthe-rinsed glass
+with a /julep/ strainer. Express a lemon peel over the glass and decorate it so it
+looks real nice---I only had flesh grapefruits, which also worked out well!
+
+Please enjoy this proto cocktail!
