@@ -27,3 +27,5 @@
 #+macro: three _/Sandy awards/_ ★★★☆☆
 #+macro: four _/Sandy awards/_ ★★★★☆
 #+macro: five _/Sandy awards/_ ★★★★★
+
+#+macro: vid-skip #+begin_export html \n<p class="pre-vid-skip"></p>\n #+end_export
