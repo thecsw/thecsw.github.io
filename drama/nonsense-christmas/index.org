@@ -11,6 +11,4 @@ song was /Cindy Lou Who/ and the very last ``fuck'' was funny.
 
 {{{two}}}
 
-#+begin_export html
-<p class="pre-vid-skip"></p>
-#+end_export
+{{{vid-skip}}}
