@@ -92,3 +92,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 68 | [[file:3-women/poster.webp][poster]] | [[3-women][*3 Women*]]                                                  | Robert Altman                        | United States                          | 1977 |
 | 69 | [[file:sexy-beast/poster.webp][poster]] | [[sexy-beast][*Sexy Beast*]]                                               | Jonathan Glazer                      | United Kingdom\ Spain                  | 2000 |
 | 70 | [[file:kpop-demonhunters/poster.webp][poster]] | [[kpop-demonhunters][*KPop Demon Hunters*]]                                       | Maggie Kang\ Chris Appelhans         | United States                          | 2025 |
+| 71 | [[file:anora/poster.webp][poster]] | [[anora][*Anora*]]                                                    | Sean Baker                           | United States                          | 2024 |
