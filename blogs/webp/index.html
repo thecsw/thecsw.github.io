@@ -72,7 +72,7 @@
 
 <div class="paragraph" id="date-section" title="Sun, 03 Apr 2022">
 <p>
-🥑 At least 3 years, 5 months, and 22 days ago
+🍒 At least 3 years, 5 months, and 23 days ago
 </p>
 </div>
 <div class="paragraph" >
@@ -99,17 +99,11 @@ I should try this now!
 </p>
 </div>
 <h1 id="the-migration" class="section-2">The migration</h1>
-<div class="olist" >
-<ol class="">
-
-<li class="l1">
+<div class="paragraph" >
 <p>
-to 20 minutes. I talked to Darkness to <a href="https://github.com/thecsw/darkness/commit/85a89d871bcb272b9c2b7b36d02af67132dac834" title="">support variable preview files</a> aaaannd <strong>push!</strong>
+The process of moving from PNG to WebP was painless. I rigged a quick <code>find</code> and <code>sed</code> script to go through all my directories and convert images with <a href="https://imagemagick.org" title="">ImageMagick</a>. Another quick regex to find corresponding file links and references in org files, and replace them with anew webp format. It all took no more than 15 to 20 minutes. I talked to Darkness to <a href="https://github.com/thecsw/darkness/commit/85a89d871bcb272b9c2b7b36d02af67132dac834" title="">support variable preview files</a> aaaannd <strong>push!</strong>
 </p>
-</li>
-</ol>
 </div>
-
 <div class="paragraph" >
 <p>
 Wow, <em>it just works</em>. Even GitHub Pages deploys it in about halftime now. Let me see if we got any file size gains. I’ll archive the whole website into two tar files: before and after webp changes (<code>.git</code> of course excluded).
