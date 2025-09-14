@@ -1,3 +1,31 @@
+@import url("/styles/fonts/Anton_SC/Anton.css");
+
 :root {
     --paragraph-width: 45rem;
+    --color-bg: white;
+
+    --color-red: #cd191a;
+}
+
+.header > .section-1:first-child {
+    font-family: 'Anton SC';
+    font-size: 10rem;
+    color: var(--color-red);
+    line-height: 9.5rem;
+}
+
+.section-2 {
+    font-family: 'Anton SC';
+    font-size: 5rem;
+    color: var(--color-red);
+    margin-bottom: 3rem;
+    line-height: 4.5rem;
+}
+
+.ulist {
+    line-height: 1.55rem;
+}
+
+ul {
+    list-style: url('kill_la_kill.png');
 }
