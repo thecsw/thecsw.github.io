@@ -1,20 +1,172 @@
 #+options: preview-generate:t tomb:nil
 #+html_head: <link rel="stylesheet" type="text/css" href="own.css">
-* Book lover's kingdom
+* MY BOOKS
+
+I remember growing up next to shelves filled with books of all widths and
+genres. My parents gave me the taste of collecting books such that one day, when
+their time comes, someone will read them. It kick-started my love for literature
+and where I am now. In 2016, while I was living in Armenia, I went to a small
+(literal hole in the wall) indie bookstore in one of their underground malls
+near the main theater.
+
+Perusing through the books I saw beautiful yellow softcovers of Asimov's
+/Foundation/ series. Having had an avid appetite for science fiction, as I have
+had it for a number of years prior since my middle school teacher had introduced
+me to Stanisław Lem's /Golem XIV/.. I did not second guess myself on buying the entire
+trilogy and one of the novels. In that moment, I had no idea of what those books
+were about nor in what order I should read them or what they present of
+themselves.
+
+No matter where I went, those books were always with me. Whether I traveled back
+home, seeing friends, or going on a little trip to a nearby town, /Foundation/
+books were always with me and they remained untouched. Only when covid had
+struck in 2020 and freed me from any and all obligations to what was ``normal''
+university life, I decided it was time to pick up reading for pleasure
+again. (The real reason is that there was not much else to do in my shoe
+box-sized dorm).
+
+The trilogy first. Then the sequels. Then the endless ``quick'' runs over to my
+town's local library to borrow and buy any and all science fiction books I could
+get my hands on. Shortly after, maybe about a year or so, I gave a heart attack
+to my engineering advisor by letting them know that I had enrolled in a
+literature major. I was quickly disowned in the eyes of academic advising and
+left on my own (not really, I had /other/ staff I could talk to) to figure out 
+how to jungle the three majors I got myself in. The rest is history. Welcome!
 
 #+begin_quote
 *``Look, Sandy. Everything the light touches is our kingdom (of books).''*
 #+end_quote
 
-I have probably read about 50-60% of them, maybe fewer---the future is bright.
+What you see below is a collection of books that I could write down on this
+page. There is no rhythm, harmony, or strategy to the ordering of these
+books; nor does it show which ones I had completed reading vs. the ones that are
+waiting for their turn to. They're loosely correlated by their physical location
+on my shelves.
 
-*September 7th, 2025*: This page is actively developed.
+#+noindex
+*** Selected Genres
+#+toc
+
+-----
+
+** Science Fiction
+
+- /The Gods Themselves/ by Isaac Asimov
+- /Foundation/ by Isaac Asimov
+- /Foundation and Empire/ by Isaac Asimov
+- /Second Foundation/ by Isaac Asimov
+- /Foundation's Edge/ by Isaac Asimov
+- /Foundation and Earth/ by Isaac Asimov
+- /Pebble in the Sky/ by Isaac Asimov
+- /Nemesis/ by Isaac Asimov
+- /The Winds of Change...and Other Stories/ by Isaac Asimov
+- /His Master's Voice/ by Stanisław Lem
+- /Golem XIV/ by Stanisław Lem
+- /Asimov on Astronomy/ by Isaac Asimov
+- /Dune/ by Frank Herbert
+- /Magic/ by Isaac Asimov
+- /Gold/ by Isaac Asimov
+- /The End of Eternity/ by Isaac Asimov
+- /Microcosmic Tales/, selected by Isaac Asimov, Martin H. Greenberg, and Joseph
+  D. Olander
+- /Poems for the Lost Because I'm Lost Too/ by Exurb1a
+- /Fantastic Voyage/ by Isaac Asimov
+- /Nineteen Eighty-four/ by George Orwell
+- /The Prince of Milk/ by Exurb1a
+- /The Fifth Science/ by Exurb1a
+- /I, Robot/ by Isaac Asimov
+- /The Rest of the Robots/ by Isaac Asimov
+- /The Robots of Dawn/ by Isaac Asimov
+- /The Caves of Steel/ by Isaac Asimov
+- /The Naked Sun/ by Isaac Asimov
+- /Robots and Empire/ by Isaac Asimov
+
+** Computer Science
+
+- /Literate Programming/ by Donald Knuth
+- /Hypermedia Systems/ by Carson Gross, Adam Stepinski, and Deniz Akşimşek
+- /LaTeX/ by Leslie Lamport
+- /Common Lisp: a tutorial/ by Wendy L. Milner
+- /Introduction to the X Window System/ by Oliver Jones
+- /The UNIX Programming Environment/ by Brian Kernighan and Rob Pike
+- /The C Programming Language/ (Original Edition) by Brian W. Kernighan and Dennis
+  M. Ritchie
+- /The C Programming Language: ANSI C/ by Brian Kernighan and Dennis M. Ritchie
+- /The Go Programming Language/ by Alan A. A. Donovan and Brian. W. Kernighan
+- /The Design and Evolution of C++/ by Bjarne Stroustrup
+- /100 Go Mistakes and How to Avoid Them/ by Teiva Harsanyi
+- /Java Software Structures/ by John Lewis and Joseph Chase
+- /Objects First with Java/ by David Barnes and Michael Kölling
+- /Test-Driven Development in Go/ by Adelina Simion
+- /UNIX: A History and a Memoir/ by Brian Kernighan
+- /Effective Java: Third Edition/ by Joshua Bloch
+- /Coders at Work/ by Peter Seibel
+- /C++ Pocket Reference/ by Kyle Loudon
+- /The Tao of Programming/ by Geoffrey James
+
+** Fiction
+
+- /The Call of the Wild & White Fang/ by Jack London
+- /Four Great Plays/ by Henrik Ibsen
+- /Hedda Gabler and Other Plays/ by Henrik Ibsen
+- /The Star with No Name/ by Mihail Sebastian
+
+** Non Fiction
+
+- /The Facts About Shakespeare/ by William Allan Neilson, Ph.D. and Ashley Horace
+  Thorndike, Ph.D., L.H.D.
+
+** Mathematics
+
+- /The Art of Computer Programming, Fundamental Algorithms/ by Donald Knuth
+- /How to Solve It/ by G. Polya
+- /Instructor's Manual for Statistics/ by David Freedman, Robert Pisani, and Roger
+  Purves
 
 ** Manga
 
-- /Komi Can't Communicate/, Vol. 1--34 by Tomohito Oda
+- /Komi Can't Communicate/, Vol. 1--35 by Tomohito Oda
 - /Chainsaw Man/, Vol. 1--18 by Tatsuki Fujimoto
 - /Kowloon Generic Romance/, Vol. 1--9, by Jun Mayuzuki
 # This is Summer Time Rendering, but mine are in Japanese, so...
 - /サマータイムレンダ/, Vol. 1--13, by Yasuki Tanaka
 - /Wotakoi: Love Is Hard for Otaku/, Vol. 1--6 (Complete), by Fujita
+- /Darling in the FranXX/, Vol. 1--8, by Kentaro Yabuki
+- /Akane-Banashi/, Vol. 1--11 by Yuki Suenaga and Takamasa Moue
+- /Goodbye, Eri/ by Tatsuki Fujimoto
+- /Delicious in Dungeon/, Vol. 1, by Ryoko Kui
+- /Look Back/ by Tatsuki Fujimoto
+- /Fire Punch/, Vol. 1, by Tatsuji Fujimoto
+- /Pride and Prejudice/ (Manga Classics) by Stacy King and Po Tse
+- /Dogs and Punching Bags/ by Kaori Ozaki
+- /Yokohama Kaidashi Kikou/ (Deluxe Edition), Vol. 1--5, by Hitoshi Ashinano
+- /Hen Kai Pan/ by Eldo Yoshimizu
+- /Gamma Draconis/ by Eldo Yoshimizu
+- /Uzumaki/ by Junji Ito
+- /A Certain Scientific Railgun/, Vol. 1--7, 9, by Kazuma Kamachi adn Motoi Fuyukawa
+- /Smoking Behind the Supermarket with You/, Vol. 1--2, by Jinushi
+- /五等分の花嫁, 「五つ子たちの4年間の学園生活を完全解説！」/, Vol. 1 by Haruba Negi
+- /Gunsmith Cats/ (Omnibus), Vol. 1-2, by Kenichi Sonoda
+
+** Light Novels
+
+- /Spy Classroom/, Vol. 1--4, 6, by Takemachi
+
+** Russian Literature
+
+- /Плаха/ by Чингиз Айтматов
+- /Эхо Мира/ by Чингиз Айтматов
+- /Коронация/ by Борис Акунин
+- /Рудин, Дворянское Гнездо/ by И. С. Тургенев
+- /Вчерашний Мир, Воспоминания Европейца, Статьи, Эссе/ by Стефван Цвейг
+
+** Dostoevsky
+
+** Picture Books
+
+- /David Lynch: SOMEONE IS IN MY HOUSE/, edited by Stijn Huijts
+- /In the Russian Style/, edited by Jacqueline Onassis
+- /On the Hill: A Photographic History of the University of Kansas/, compiled by
+  Virginia Adams, Katie Armitage, Donna Butler, Carol Shankel, and Barbara Watkins
+
+** Rare
