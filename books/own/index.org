@@ -1,4 +1,4 @@
-#+options: preview-generate:t tomb:nil
+#+options: preview-generate:nil tomb:nil
 #+options: exclude-html-head:property="theme-color"
 #+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
 #+html_head: <link rel="stylesheet" type="text/css" href="own.css">
@@ -42,133 +42,312 @@ how to jungle the three majors I got myself in. The rest is history. Welcome!
 What you see below is a collection of books that I could write down on this
 page. There is no rhythm, harmony, or strategy to the ordering of these
 books; nor does it show which ones I had completed reading vs. the ones that are
-waiting for their turn to. They're loosely correlated by their physical location
-on my shelves.
+waiting for their turn to be read. However, they are loosely correlated by their
+physical location on my shelves.
 
 #+noindex
 *** Selected Genres
 #+toc
 
+#+begin_gallery
+- [[wide.jpg][One of the many bookshelves.]] :flex 95 :no-zoom
+#+end_gallery
+
 -----
 
 ** Science Fiction
 
-- /The Gods Themselves/ by Isaac Asimov
-- /Foundation/ by Isaac Asimov
-- /Foundation and Empire/ by Isaac Asimov
-- /Second Foundation/ by Isaac Asimov
-- /Foundation's Edge/ by Isaac Asimov
-- /Foundation and Earth/ by Isaac Asimov
-- /Pebble in the Sky/ by Isaac Asimov
-- /Nemesis/ by Isaac Asimov
-- /The Winds of Change...and Other Stories/ by Isaac Asimov
-- /His Master's Voice/ by Stanisław Lem
-- /Golem XIV/ by Stanisław Lem
-- /Asimov on Astronomy/ by Isaac Asimov
-- /Dune/ by Frank Herbert
-- /Magic/ by Isaac Asimov
-- /Gold/ by Isaac Asimov
-- /The End of Eternity/ by Isaac Asimov
+- /The Gods Themselves/ by Isaac Asimov.
+- /Foundation/ by Isaac Asimov.
+- /Foundation and Empire/ by Isaac Asimov.
+- /Second Foundation/ by Isaac Asimov.
+- /Foundation's Edge/ by Isaac Asimov.
+- /Foundation and Earth/ by Isaac Asimov.
+- /Pebble in the Sky/ by Isaac Asimov.
+- /Nemesis/ by Isaac Asimov.
+- /The Winds of Change...and Other Stories/ by Isaac Asimov.
+- /His Master's Voice/ by Stanisław Lem.
+- /Golem XIV/ by Stanisław Lem.
+- /Asimov on Astronomy/ by Isaac Asimov.
+- /Dune/ by Frank Herbert.
+- /Magic/ by Isaac Asimov.
+- /Gold/ by Isaac Asimov.
+- /The End of Eternity/ by Isaac Asimov.
 - /Microcosmic Tales/, selected by Isaac Asimov, Martin H. Greenberg, and Joseph
-  D. Olander
-- /Poems for the Lost Because I'm Lost Too/ by Exurb1a
-- /Fantastic Voyage/ by Isaac Asimov
-- /Nineteen Eighty-four/ by George Orwell
-- /The Prince of Milk/ by Exurb1a
-- /The Fifth Science/ by Exurb1a
-- /I, Robot/ by Isaac Asimov
-- /The Rest of the Robots/ by Isaac Asimov
-- /The Robots of Dawn/ by Isaac Asimov
-- /The Caves of Steel/ by Isaac Asimov
-- /The Naked Sun/ by Isaac Asimov
-- /Robots and Empire/ by Isaac Asimov
+  D. Olander.
+- /Poems for the Lost Because I'm Lost Too/ by Exurb1a.
+- /Fantastic Voyage/ by Isaac Asimov.
+- /Nineteen Eighty-four/ by George Orwell.
+- /The Prince of Milk/ by Exurb1a.
+- /The Fifth Science/ by Exurb1a.
+- /I, Robot/ by Isaac Asimov.
+- /The Rest of the Robots/ by Isaac Asimov.
+- /The Robots of Dawn/ by Isaac Asimov.
+- /The Caves of Steel/ by Isaac Asimov.
+- /The Naked Sun/ by Isaac Asimov.
+- /Robots and Empire/ by Isaac Asimov.
+- /Stranger in a Strange Land: The Original Uncut/ by Robert A. Heinlein.
 
 ** Computer Science
 
-- /Literate Programming/ by Donald Knuth
-- /Hypermedia Systems/ by Carson Gross, Adam Stepinski, and Deniz Akşimşek
-- /LaTeX/ by Leslie Lamport
-- /Common Lisp: a tutorial/ by Wendy L. Milner
-- /Introduction to the X Window System/ by Oliver Jones
-- /The UNIX Programming Environment/ by Brian Kernighan and Rob Pike
+- /Literate Programming/ by Donald Knuth.
+- /Hypermedia Systems/ by Carson Gross, Adam Stepinski, and Deniz Akşimşek.
+- /LaTeX/ by Leslie Lamport.
+- /Common Lisp: a tutorial/ by Wendy L. Milner.
+- /Introduction to the X Window System/ by Oliver Jones.
+- /The UNIX Programming Environment/ by Brian Kernighan and Rob Pike.
 - /The C Programming Language/ (Original Edition) by Brian W. Kernighan and Dennis
-  M. Ritchie
-- /The C Programming Language: ANSI C/ by Brian Kernighan and Dennis M. Ritchie
-- /The Go Programming Language/ by Alan A. A. Donovan and Brian. W. Kernighan
-- /The Design and Evolution of C++/ by Bjarne Stroustrup
-- /100 Go Mistakes and How to Avoid Them/ by Teiva Harsanyi
-- /Java Software Structures/ by John Lewis and Joseph Chase
-- /Objects First with Java/ by David Barnes and Michael Kölling
-- /Test-Driven Development in Go/ by Adelina Simion
-- /UNIX: A History and a Memoir/ by Brian Kernighan
-- /Effective Java: Third Edition/ by Joshua Bloch
-- /Coders at Work/ by Peter Seibel
-- /C++ Pocket Reference/ by Kyle Loudon
-- /The Tao of Programming/ by Geoffrey James
+  M. Ritchie.
+- /The C Programming Language: ANSI C/ by Brian Kernighan and Dennis M. Ritchie.
+- /The Go Programming Language/ by Alan A. A. Donovan and Brian. W. Kernighan.
+- /The Design and Evolution of C++/ by Bjarne Stroustrup.
+- /100 Go Mistakes and How to Avoid Them/ by Teiva Harsanyi.
+- /Java Software Structures/ by John Lewis and Joseph Chase.
+- /Objects First with Java/ by David Barnes and Michael Kölling.
+- /Test-Driven Development in Go/ by Adelina Simion.
+- /UNIX: A History and a Memoir/ by Brian Kernighan.
+- /Effective Java: Third Edition/ by Joshua Bloch.
+- /Coders at Work/ by Peter Seibel.
+- /C++ Pocket Reference/ by Kyle Loudon.
 
 ** Fiction
 
-- /The Call of the Wild & White Fang/ by Jack London
-- /Four Great Plays/ by Henrik Ibsen
-- /Hedda Gabler and Other Plays/ by Henrik Ibsen
-- /The Star with No Name/ by Mihail Sebastian
+- /The Call of the Wild & White Fang/ by Jack London.
+- /Four Great Plays/ by Henrik Ibsen.
+- /Hedda Gabler and Other Plays/ by Henrik Ibsen.
+- /The Star with No Name/ by Mihail Sebastian.
+- /The Picture of Dorian Gray/ by Oscar Wilde.
+- /The Complete Poems of Emily Dickinson/, edited by Thomas H. Johnson.
+- /A Constellation of Vital Phenomena/ by Anthony Marra.
+- /Technicions of the Sacred/, edited with Commentaries by Jerome Rothenberg.
+- /Candide and L’Ingénu/ by Voltaire.
+- /Thus Spoke Zarathustra/ by Friedrich Nietzsche.
+- /The Absinthe Forger/ by Evan Rail.
+- /The Adventures of Tom Sawyer/ by Mark Twain.
+- /The Old Man and the Sea/ by Ernest Hemingway.
+- /The Adventures of Huckleberry Finn/ by Mark Twain.
+- /Dr. Faustaus/ by Christopher Marlowe.
+- /Death of a Salesman/ by Arthur Miller.
+- /The Castle/ by Franz Kafka.
+- /The Trial/ by Franz Kafka.
+- /The Sound of Waves/ by Yukio Mishima.
+- /Confessions of a Mask/ by Yukio Mishima.
+- /The Sailor Who Fell from Grace with the Sea/ by Yukio Mishima.
+- /Life for Sale/ by Yukio Mishima.
+- /The Plague/ by Albert Camus.
+- /The Stranger/ by Albert Camus.
+- /Exile and the Kingdom/ by Albert Camus.
+- /A Happy Death/ by Albert Camus.
+- /The Myth of Sisyphus/ by Albert Camus.
+- /Julius Caesar/ by Shakespeare.
+- /A Doll's House/ by Henrik Ibsen.
+- /Create Dangerously/ by Edwidge Danticat.
+- /The Great Gatsby/ by F. Scott. Fitzgerald.
+- /Ulysses/ by James Joyce.
+- /Moby Dick/ by Herman Melville.
+- /Pride and Prejudice/ by Jane Austen.
+- /Memoirs of a Geisha/ by Arthur Golden.
+- /The Reader/ by Bernhard Schlink.
+- /The Divine Comedy: Vol. II: Purgatory/ by Dante, Translated by Mark Musa.
+- /Paradise Lost/ by John Milton, Edited with an Introduction and Notes by John Leonard.
+- /The Hound of the Baskervilles/ by Arthur Conan Doyle.
+- /Gone with the Wind/ by Margaret Mitchell.
+- /Oedipus the King/ by Sophocles.
+- /The Count of Monte Cristo/ by Alexander Dumas.
+- /A Portrait of the Artist as a Young Man/ by James Joyce.
+- /The Portrait of a Lady/ by Henry James.
+- /Days at the Morisaki Bookshop/ by Satoshi Yagisawa.
 
 ** Non Fiction
 
-- /The Facts About Shakespeare/ by William Allan Neilson, Ph.D. and Ashley Horace
-  Thorndike, Ph.D., L.H.D.
+- /The Facts About Shakespeare/ by William Allan Neilson, Ph.D. and Ashley Horace.
+  Thorndike, Ph.D., L.H.D..
+- /Catching the Big Fish/ by David Lynch.
+- /Ethics/ by Aristotle.
+- /Against Interpretation and Other Essays/ by Susan Sontag.
+- /Groundwork of the Metaphysic of Morals/ by Immanuel Kant.
+- /The Enlightened Mind: An Antology of Sacred Prose/, edited by Stephen Mitchell.
+- /Norm Macdonald: Based on a True Story (Not a Memoir)/ by Norm Macdonald.
+- /The Grand Chessboard/ by Zbigniew Brzezinski.
+- /Republic/ by Plato.
+- /Training of the Samurai Mind/ by Thomas Cleary.
+- /Wabi-Sabi for Artists, Designers, Poets & Philosophers/ by Leonard Koren.
+- /Abroad in Japan/ by Chris Broad.
+- /Literary Theory, Second Edition/ by Terry Eagleton.
+- /The Anarchist Handbook/ by Michael Malice.
+- /Poverty, by America/ by Matthew Desmond.
+- /Interaction of Color/ by Josef Albers.
+- /The White Pill/ by Michael Malice.
+- /Never Split the Difference/ by Chris Voss.
+- /The Canceling of the American Mind/ by Greg Lukianoff and Rikki Schlott.
+- /The Choice/ by Dr. Edith Eva Eger.
+- /Strange Rebels/ by Christian Caryl.
+- /The Anxious Generation/ by Jonathan Haidt.
+- /The Art of War/ by Sun Tzu.
+- /Heliocentric Thoughts/ by Kendall Davis.
+- /tao te ching/, Translated by Stephen Mitchell.
 
 ** Mathematics
 
-- /The Art of Computer Programming, Fundamental Algorithms/ by Donald Knuth
-- /How to Solve It/ by G. Polya
-- /Instructor's Manual for Statistics/ by David Freedman, Robert Pisani, and Roger
+- /The Art of Computer Programming, Fundamental Algorithms/ by Donald Knuth.
+- /How to Solve It/ by G. Polya.
+- /Instructor's Manual for Statistics/ by David Freedman, Robert Pisani, and Roger.
   Purves
 
 ** Manga
 
-- /Komi Can't Communicate/, Vol. 1--35 by Tomohito Oda
-- /Chainsaw Man/, Vol. 1--18 by Tatsuki Fujimoto
-- /Kowloon Generic Romance/, Vol. 1--9, by Jun Mayuzuki
+- /Komi Can't Communicate/, Vol. 1--35 by Tomohito Oda.
+- /Chainsaw Man/, Vol. 1--18 by Tatsuki Fujimoto.
+- /Kowloon Generic Romance/, Vol. 1--9, by Jun Mayuzuki.
 # This is Summer Time Rendering, but mine are in Japanese, so...
-- /サマータイムレンダ/, Vol. 1--13, by Yasuki Tanaka
-- /Wotakoi: Love Is Hard for Otaku/, Vol. 1--6 (Complete), by Fujita
-- /Darling in the FranXX/, Vol. 1--8, by Kentaro Yabuki
-- /Akane-Banashi/, Vol. 1--11 by Yuki Suenaga and Takamasa Moue
-- /Goodbye, Eri/ by Tatsuki Fujimoto
-- /Delicious in Dungeon/, Vol. 1, by Ryoko Kui
-- /Look Back/ by Tatsuki Fujimoto
-- /Fire Punch/, Vol. 1, by Tatsuji Fujimoto
-- /Pride and Prejudice/ (Manga Classics) by Stacy King and Po Tse
-- /Dogs and Punching Bags/ by Kaori Ozaki
-- /Yokohama Kaidashi Kikou/ (Deluxe Edition), Vol. 1--5, by Hitoshi Ashinano
-- /Hen Kai Pan/ by Eldo Yoshimizu
-- /Gamma Draconis/ by Eldo Yoshimizu
-- /Uzumaki/ by Junji Ito
-- /A Certain Scientific Railgun/, Vol. 1--7, 9, by Kazuma Kamachi adn Motoi Fuyukawa
-- /Smoking Behind the Supermarket with You/, Vol. 1--2, by Jinushi
-- /五等分の花嫁, 「五つ子たちの4年間の学園生活を完全解説！」/, Vol. 1 by Haruba Negi
-- /Gunsmith Cats/ (Omnibus), Vol. 1-2, by Kenichi Sonoda
-
+- /サマータイムレンダ/, Vol. 1--13, by Yasuki Tanaka.
+- /Wotakoi: Love Is Hard for Otaku/, Vol. 1--6 (Complete), by Fujita.
+- /Darling in the FranXX/, Vol. 1--8, by Kentaro Yabuki.
+- /Akane-Banashi/, Vol. 1--11 by Yuki Suenaga and Takamasa Moue.
+- /Goodbye, Eri/ by Tatsuki Fujimoto.
+- /Delicious in Dungeon/, Vol. 1, by Ryoko Kui.
+- /Look Back/ by Tatsuki Fujimoto.
+- /Fire Punch/, Vol. 1, by Tatsuji Fujimoto.
+- /Pride and Prejudice/ (Manga Classics) by Stacy King and Po Tse.
+- /Dogs and Punching Bags/ by Kaori Ozaki.
+- /Yokohama Kaidashi Kikou/ (Deluxe Edition), Vol. 1--5, by Hitoshi Ashinano.
+- /Hen Kai Pan/ by Eldo Yoshimizu.
+- /Gamma Draconis/ by Eldo Yoshimizu.
+- /Uzumaki/ by Junji Ito.
+- /A Certain Scientific Railgun/, Vol. 1--7, 9, by Kazuma Kamachi adn Motoi Fuyukawa.
+- /Smoking Behind the Supermarket with You/, Vol. 1--2, by Jinushi.
+- /五等分の花嫁, 「五つ子たちの4年間の学園生活を完全解説！」/, Vol. 1 by Haruba Negi.
+- /Gunsmith Cats/ (Omnibus), Vol. 1-2, by Kenichi Sonoda.
+- /the gods lie./ by kaori ozaki.
+- /In Clothes Called Fat/ by Moyoco Anno.
+- /Insufficient Direction/ by Moyoco Anno.
+- /Stupid Love Comedy/ by Shushushu Sakurai.
+- /After the Rain/, Vol. 1, by Jun Mayuzuki.
+- /Re: Examtaker Justice Fanzine/ by noah.
+- /Tatsuki Fujimoto Before Chainsaw Man: 17-21/ by Tatsuki Fujimoto.
+- /Tatsuki Fujimoto Before Chainsaw Man: 22-26/ by Tatsuki Fujimoto.
+- /Nana/, Vol. 1, by Ai Yazawa.
+- /The Crater/ by Osamu Tezuka.
+- /Neon Genesis Evangelion: The Shinji Ikari Raising Project/ (Omnibus),
+  Vol. 1--6, by Osamu Takahashi and /khara/.
+  
 ** Light Novels
 
-- /Spy Classroom/, Vol. 1--4, 6, by Takemachi
-
+- /Spy Classroom/, Vol. 1--4, 6, by Takemachi.
+- /Is It Wrong to Try to Pick Up Girls in a Dungeon?/, Vol. 1--2, by Fujino Omori.
+- /The Intrigues of Haruhi Suzumiya/ by Nagaru Tanigawa.
+- /The Intuition of Haruhi Suzumiya/ by Nagaru Tanigawa.
+- /Higehiro: After Being Rejected, I shaved and Took in a High School Runaway/ by
+  Shimesaba.
+- /Alya Sometimes Hides Her Feelings in Russian/ by Sunsunsun.
+- /Banished from the Hero's Party, I Decided to Live a Quiet Life in the
+  Countryside/, Vol 1--3, by Zappon.
+- /WorldEnd: What do you do at the End of the World? Are You Busy? Will You Save
+  Us?/, Vol. 1, by Akira Kareno.
+- /Evangelion: Anima/, Vol. 1, by Ikuto Yamashita.
+- /Kizumonogatari: Wound Tale/ by Nisioisin.
+- /Bakemonagatari/, Vol. 1--3 by Nisioisin.
+- /Nisemonogatari/, Vol. 1--2 by Nisioisin.
+- /Nekomonogatari/ (Black) by Nisioisin.
+  
 ** Russian Literature
 
-- /Плаха/ by Чингиз Айтматов
-- /Эхо Мира/ by Чингиз Айтматов
-- /Коронация/ by Борис Акунин
-- /Рудин, Дворянское Гнездо/ by И. С. Тургенев
-- /Вчерашний Мир, Воспоминания Европейца, Статьи, Эссе/ by Стефван Цвейг
+- /Плаха/ by Чингиз Айтматов.
+- /Эхо Мира/ by Чингиз Айтматов.
+- /Коронация/ by Борис Акунин.
+- /Рудин, Дворянское Гнездо/ by И. С. Тургенев.
+- /Вчерашний Мир, Воспоминания Европейца, Статьи, Эссе/ by Стефван Цвейг.
+- /Евгений Онегин/ by Alexander Pushkin.
+- /Chekhov: The Comic Stories/, chosen and translated by Harvey Pitcher.
+- /Chekhov, Plays/ by Anton Chekhov, Translated and with an Introduction by
+  Elisaveta Fen.
+- /Анна Каренина/ by Лев Толстой.
+- Мертвые Души by Н. В. Гоголь.
+- /Исповедь о Жизни, Что Такое Искусство?/ by Лев Толстой.
+- /Eugene Onegin/ by Tchaikovsky
 
 ** Dostoevsky
 
+- /Dostoevsky: The Mantle of the Prophet/ by Joseph Frank.
+- /White Nights/ by Dostoevsky, Translated by Ronald Meyer.
+- /Братья Карамазовы/ by Ф. М. Достоевский.
+- /Униженные и Оскорбленные/ by Ф. М. Достоевский.
+- /Преступление и Наказание/ by Ф. М. Достоевский.
+- /Идиот/ by Ф. М. Достоевский.
+- /Записки из Подполья Повести и рассказы/ by Ф. М. Достоевский.
+- /Подросток/ by Ф. М. Достоевский.
+- /Бедные Люди/ by Ф. М. Достоевский.
+- /Fyodor Dosteyevsky: A Writer's Life/ by Geir Kjetsaa.
+- /The Gambler Wife/ by Andrew D. Kaufman.
+- /The Brothers Karamazov/ by Fyodor Dostoevsky, Translated by Richard Pevear and
+  Larissa Volokhonsky.
+- /The Idiot/ by Fyodor Dostoevsky, Translated by Richard Pevear and Larissa
+  Volokhonsky.
+- /The Grand Inquisitor/ by Fyodor Dostoevsky, Edited, with an Introduction, by
+  Charles B. Guignon
+- /White Nights/ by Fyodor Dostoevsky, Translated by Constance Garnett
+- /A Bad Business: Essential Stories/ by Fyodor Dostoevsky, Translated from the
+  Russian by Nicolas Pasternak and Maya Slater.
+
 ** Picture Books
 
-- /David Lynch: SOMEONE IS IN MY HOUSE/, edited by Stijn Huijts
-- /In the Russian Style/, edited by Jacqueline Onassis
+- /David Lynch: SOMEONE IS IN MY HOUSE/, edited by Stijn Huijts.
+- /In the Russian Style/, edited by Jacqueline Onassis.
 - /On the Hill: A Photographic History of the University of Kansas/, compiled by
-  Virginia Adams, Katie Armitage, Donna Butler, Carol Shankel, and Barbara Watkins
+  Virginia Adams, Katie Armitage, Donna Butler, Carol Shankel, and Barbara Watkins.
+- /Russian Houses/ by Elizabeth Gaynor and Kari Haavisto with essays by Darra Goldstein.
+- /Groundwork of EVANGELION: The Movie DIGEST/ by /khara/.
+- /MikaPikaZo/, Illustrated by Mika Pikazo.
+- /A History of Modern Manga/ by Matthieu Pinon and Laurent Lefebvre.
+- /Visions 2021 Illustrators Book/ by /pixiv/.
+- /Banned Book/ by noah.
+- /AIKYO/, Published by KADOKAWA, Presented by Ogipote.
+- /When Marnie Was There: Movie Art Book/.
+- /Kaoming Art Book/ by Kaoming.
+- /jonsun/ by /jonsun/, Published by KADOKAWA.
 
 ** Rare
+
+- /The Sensuos Dirty Old Man/ by Dr. ``A'' (Isaac Asimov).
+- /The Tao of Programming/ by Geoffrey James.
+- /Death of Iván Ilich, Dramatic Works, The Kreutzer Sonata/ by Count Lev
+  N. Tolstóy, Translated from the Original Russian and edited by Leo Wiener.
+  (Published in 1904, I have the original book!)
+
+** Bar
+
+- /Doctors and Distillers/ by Camper English.
+- /Cocktail Techniques/ by Kazuo Uyeda.
+- /Tokyo Cocktails/ by Nicholas Coldicott.
+- /Spirited: Cocktails from Around the World/ by Adrienne Stillman.
+- /The New Craft of the Cocktail/ by Dale DeGroff.
+- /Liquid Intelligence: The Art and Science of the Perfect Cocktail/ by Dave
+  Arnold.
+- /The Joy of Mixology/ by Gary Regan.
+- /The Book of Tea/ by Okakura Kakuzō.
+- /The Bartender's Bible/ by Gary Regan.
+- /The Field Guide of Whiskey/ by Hans Offringa.
+- /The Art of Fermentation/ by Katz and Chelsea Green.
+- /Foods of the World: Wines and Spirits/ by Alec Waugh and the Editors of
+  TIME-LIFE BOOKS, Photographed by Arie deZanger.
+- /The Art and Craft of Tea/ by Joseph Wesley Uhl.
+- /Bitters/ by Brad Thomas Parsons.
+
+** Food
+
+- /Crazy Sweet Creations/ by Ann Reardon.
+- /The Food Lab/ by J. Kenji López-Alt.
+- /On Food and Cooking: The Science and Lore of the Kitchen/ by Harold McGee.
+- /The Hungry Student Cookbook/ by /An Hachette UK Company/.
+- /Onigiri/ by Al Watanabe and Samuel Trifot.
+- /5 Ingredients/ by Jamie Oliver.
+- /The Elements of Baking/ by Katarina Cermelj.
+- /Les Halles Cookbook/ by Anthony Bourdain.
+- /What to Drink with What you Eat/ by Andrew Dornenburg and Karen Page.
+- /World Travel/ by Anthony Bourdain.
+- /Dinners for Two/ by Sharon O’Connor's.
+- /Japan/ by Nancy Singleton Hachisu.
+
+-----
+
+Farewell!
