@@ -1,4 +1,5 @@
 #+options: preview-generate:nil tomb:nil
+#+options: preview-height:750 preview-width:1000
 #+options: exclude-html-head:property="theme-color"
 #+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
 #+html_head: <link rel="stylesheet" type="text/css" href="own.css">
