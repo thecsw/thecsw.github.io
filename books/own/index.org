@@ -2,6 +2,7 @@
 #+options: exclude-html-head:property="theme-color"
 #+html_head: <meta name="theme-color" property="theme-color" content="#ffffff">
 #+html_head: <link rel="stylesheet" type="text/css" href="own.css">
+#+date: 257; 12025 H.E.
 * MY BOOKS
 
 I remember growing up next to shelves filled with books of all widths and
