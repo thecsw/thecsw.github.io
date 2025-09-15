@@ -57,6 +57,7 @@ physical location on my shelves.
 
 -----
 
+
 ** Science Fiction
 
 - /The Gods Themselves/ by Isaac Asimov.
@@ -111,7 +112,11 @@ physical location on my shelves.
 - /Effective Java: Third Edition/ by Joshua Bloch.
 - /Coders at Work/ by Peter Seibel.
 - /C++ Pocket Reference/ by Kyle Loudon.
-
+- /The Art of Computer Programming, Fundamental Algorithms/ by Donald Knuth.
+- /How to Solve It/ by G. Polya.
+- /Instructor's Manual for Statistics/ by David Freedman, Robert Pisani, and Roger.
+  Purves
+  
 ** Fiction
 
 - /The Call of the Wild & White Fang/ by Jack London.
@@ -189,13 +194,6 @@ physical location on my shelves.
 - /Heliocentric Thoughts/ by Kendall Davis.
 - /tao te ching/, Translated by Stephen Mitchell.
 
-** Mathematics
-
-- /The Art of Computer Programming, Fundamental Algorithms/ by Donald Knuth.
-- /How to Solve It/ by G. Polya.
-- /Instructor's Manual for Statistics/ by David Freedman, Robert Pisani, and Roger.
-  Purves
-
 ** Manga
 
 - /Komi Can't Communicate/, Vol. 1--35 by Tomohito Oda.
@@ -264,12 +262,9 @@ physical location on my shelves.
 - /Chekhov, Plays/ by Anton Chekhov, Translated and with an Introduction by
   Elisaveta Fen.
 - /Анна Каренина/ by Лев Толстой.
-- Мертвые Души by Н. В. Гоголь.
+- /Мертвые Души/ by Н. В. Гоголь.
 - /Исповедь о Жизни, Что Такое Искусство?/ by Лев Толстой.
 - /Eugene Onegin/ by Tchaikovsky
-
-** Dostoevsky
-
 - /Dostoevsky: The Mantle of the Prophet/ by Joseph Frank.
 - /White Nights/ by Dostoevsky, Translated by Ronald Meyer.
 - /Братья Карамазовы/ by Ф. М. Достоевский.
@@ -308,14 +303,6 @@ physical location on my shelves.
 - /Kaoming Art Book/ by Kaoming.
 - /jonsun/ by /jonsun/, Published by KADOKAWA.
 
-** Rare
-
-- /The Sensuos Dirty Old Man/ by Dr. ``A'' (Isaac Asimov).
-- /The Tao of Programming/ by Geoffrey James.
-- /Death of Iván Ilich, Dramatic Works, The Kreutzer Sonata/ by Count Lev
-  N. Tolstóy, Translated from the Original Russian and edited by Leo Wiener.
-  (Published in 1904, I have the original book!)
-
 ** Bar
 
 - /Doctors and Distillers/ by Camper English.
@@ -335,7 +322,7 @@ physical location on my shelves.
 - /The Art and Craft of Tea/ by Joseph Wesley Uhl.
 - /Bitters/ by Brad Thomas Parsons.
 
-** Food
+** Cooking
 
 - /Crazy Sweet Creations/ by Ann Reardon.
 - /The Food Lab/ by J. Kenji López-Alt.
@@ -349,6 +336,15 @@ physical location on my shelves.
 - /World Travel/ by Anthony Bourdain.
 - /Dinners for Two/ by Sharon O’Connor's.
 - /Japan/ by Nancy Singleton Hachisu.
+
+** Rare
+
+- /The Sensuos Dirty Old Man/ by Dr. ``A'' (Isaac Asimov).
+- /The Tao of Programming/ by Geoffrey James.
+- /Death of Iván Ilich, Dramatic Works, The Kreutzer Sonata/ by Count Lev
+  N. Tolstóy, Translated from the Original Russian and edited by Leo Wiener.
+  (Published in 1904, I have the original book!)
+
 
 -----
 
