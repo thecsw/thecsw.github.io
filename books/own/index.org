@@ -16,7 +16,7 @@ near the main theater.
 Perusing through the books I saw beautiful yellow softcovers of Asimov's
 /Foundation/ series. Having had an avid appetite for science fiction, as I have
 had it for a number of years prior since my middle school teacher had introduced
-me to Stanisław Lem's /Golem XIV/.. I did not second guess myself on buying the entire
+me to Stanisław Lem's /Golem XIV/. I did not second guess myself on buying the entire
 trilogy and one of the novels. In that moment, I had no idea of what those books
 were about nor in what order I should read them or what they present of
 themselves.
@@ -60,6 +60,24 @@ physical location on my shelves.
 
 ** Science Fiction
 
+My adoration for science fiction has a specific point in time that I use as my
+frame of reference for B.S.F. (Before Science Fiction) and A.S.F (After Science
+Fiction). At the ripe age of 14, my dear teacher of all things computer, Yerken,
+had recommended me that I read some new books he thinks I would be interested
+in. I am sure this unsolicited recommendation had come after I talked to him at
+length of how great Harry Potter books were.
+
+He didn't cheat on me by giving some easy literature or ``best-known'' to get me
+started. The very first book he put in my hands was /Golem XIV/ by Stanisław
+Lem. To this day I don't know how I got through it all and how lucky I must have
+been to have him feed me all the greatest sci-fi one after another. Starting off
+on such a high note, my appetite had only risen for many years to come.
+
+Each summer after that, I recall, I would ``lock'' myself in my parents'
+basement with nothing but those 1,000-page sci-fi antologies; spending the
+entire day reading from the moment I woke up until I would be told that it was
+time to go to bed. Well, the rest is history.
+
 - /The Gods Themselves/ by Isaac Asimov.
 - /Foundation/ by Isaac Asimov.
 - /Foundation and Empire/ by Isaac Asimov.
@@ -91,7 +109,7 @@ physical location on my shelves.
 - /Robots and Empire/ by Isaac Asimov.
 - /Stranger in a Strange Land: The Original Uncut/ by Robert A. Heinlein.
 
-** Computer Science
+** Technical
 
 - /Literate Programming/ by Donald Knuth.
 - /Hypermedia Systems/ by Carson Gross, Adam Stepinski, and Deniz Akşimşek.
@@ -99,8 +117,6 @@ physical location on my shelves.
 - /Common Lisp: a tutorial/ by Wendy L. Milner.
 - /Introduction to the X Window System/ by Oliver Jones.
 - /The UNIX Programming Environment/ by Brian Kernighan and Rob Pike.
-- /The C Programming Language/ (Original Edition) by Brian W. Kernighan and Dennis
-  M. Ritchie.
 - /The C Programming Language: ANSI C/ by Brian Kernighan and Dennis M. Ritchie.
 - /The Go Programming Language/ by Alan A. A. Donovan and Brian. W. Kernighan.
 - /The Design and Evolution of C++/ by Bjarne Stroustrup.
@@ -115,7 +131,7 @@ physical location on my shelves.
 - /The Art of Computer Programming, Fundamental Algorithms/ by Donald Knuth.
 - /How to Solve It/ by G. Polya.
 - /Instructor's Manual for Statistics/ by David Freedman, Robert Pisani, and Roger.
-  Purves
+  Purves.
   
 ** Fiction
 
@@ -223,7 +239,6 @@ physical location on my shelves.
 - /Insufficient Direction/ by Moyoco Anno.
 - /Stupid Love Comedy/ by Shushushu Sakurai.
 - /After the Rain/, Vol. 1, by Jun Mayuzuki.
-- /Re: Examtaker Justice Fanzine/ by noah.
 - /Tatsuki Fujimoto Before Chainsaw Man: 17-21/ by Tatsuki Fujimoto.
 - /Tatsuki Fujimoto Before Chainsaw Man: 22-26/ by Tatsuki Fujimoto.
 - /Nana/, Vol. 1, by Ai Yazawa.
@@ -302,6 +317,11 @@ physical location on my shelves.
 - /When Marnie Was There: Movie Art Book/.
 - /Kaoming Art Book/ by Kaoming.
 - /jonsun/ by /jonsun/, Published by KADOKAWA.
+- /Shigenori Soejima & P-STUDIO Art Unit Art Works: 2004-2010/ by ATLUS.
+- /Shigenori Soejima & P-STUDIO Art Unit Art Works 2: 2010-2017/ by ATLUS.
+- /WOTAKOI: Love is Hard for Otaku. Artificial Art Works./ by Fujita.
+- /Evangelion Illustrations: 2007-2017/ by /khara/.
+- /The Art of Simz/ by Simz.
 
 ** Bar
 
@@ -321,6 +341,8 @@ physical location on my shelves.
   TIME-LIFE BOOKS, Photographed by Arie deZanger.
 - /The Art and Craft of Tea/ by Joseph Wesley Uhl.
 - /Bitters/ by Brad Thomas Parsons.
+- /The Ideal Bartender: Cocktails and Mixed Drinks from the Years of the First
+  World War. A Pre-Prohibition Cocktail Book/ by Tom Bullock.
 
 ** Cooking
 
@@ -337,6 +359,10 @@ physical location on my shelves.
 - /Dinners for Two/ by Sharon O’Connor's.
 - /Japan/ by Nancy Singleton Hachisu.
 
+** Fanzines
+
+- /Re: Examtaker Justice Fanzine/ by noah.
+
 ** Rare
 
 - /The Sensuos Dirty Old Man/ by Dr. ``A'' (Isaac Asimov).
@@ -344,8 +370,13 @@ physical location on my shelves.
 - /Death of Iván Ilich, Dramatic Works, The Kreutzer Sonata/ by Count Lev
   N. Tolstóy, Translated from the Original Russian and edited by Leo Wiener.
   (Published in 1904, I have the original book!)
-
-
+- /История строительства господоского дома Мельниковых-Пушкиных в усадьбе
+  Маркутье в Вильнюсе/ by Литературный музей А. Пушкина.
+- /Путевая тетрадь Льва Николаевича Павлищева Маркутье (1909--1912)/ by
+  Литературный музей А. Пушкина.
+- /The C Programming Language/ (Original Edition) by Brian W. Kernighan and Dennis
+  M. Ritchie.
+  
 -----
 
 Farewell!
