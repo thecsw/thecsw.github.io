@@ -13,6 +13,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 #+end_center
 
 ** Software
+- [[my-dear-emacs][My dear Emacs 🐂]]
 - [[nine-rules][9 rules for a programmer 👯‍♀️]]
 - [[ghostty][Ghostty is pretty cool 👻]]
 - [[lfs-cdn][Git LFS is (not) CDN 🍓]]
@@ -65,6 +66,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[year_12019][Welcome to year 12,019 📅]]
 
 ** Random
+- [[daft-punk][Experiencing Daft Punk 🤖]]
 - [[wrapped-4][My Spotify Wrapped for 2024 👧]]
 - [[wrapped-3][My Spotify Wrapped for 2023 🗼]]
 - [[drive-thru][The drive-thru challenge 🍔]]

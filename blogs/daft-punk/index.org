@@ -1,0 +1,43 @@
+#+html_head: <link rel="stylesheet" type="text/css" href="index.css">
+#+options: tomb:nil preview:love.jpg preview-height:1778 preview-width:2370
+#+date: 268; 12025 H.E.
+* My Alive 2007 🤖
+
+I went to a life-changing concert---well, a club---that gave me the closest
+experience I could ever hope to get to Alive 2007. It's been almost a week since
+then, but my calves and quads hurt pleasantly from all the jumping and dancing.
+
+#+begin_gallery
+- [[blue.jpg][The start of the show.]] :flex 50 :no-zoom
+- [[bright_purple.jpg][The lights.]] :flex 45 :no-zoom
+#+end_gallery
+
+The start was a little slow, since we didn't know that we would have to
+awkwardly stand through a one and a half hour long performance that could never
+really hit. Nothing personally against the opener, but the vibes were
+straightforward---everyone was waiting for /them/ to come.
+
+#+begin_gallery
+- [[green.jpg][And their suits had the entire RGB range to change into.]] :flex 40 :no-zoom
+- [[dark-blue.jpg][The colors were just incredible.]] :flex 55 :no-zoom
+#+end_gallery
+
+None of us expected them to come out with the entire getup. The suits, the
+helmets, even their LED strips across their bodies switched colors all across
+the RGB range---sending all of us into an uncontrollable flow state of just
+doing it one more time.
+
+#+begin_gallery
+- [[closeup.jpg][I GOT SO CLOSE.]] :flex 35 :no-zoom
+- [[colors.jpg][Life was bursting with colors.]] :flex 60 :no-zoom
+#+end_gallery
+
+Thank you, Daft Punk. For all the memories of reaching the state of total
+transcendence when listening to /Within/ alone in a dark room. For the memories of
+the first bittersweet first love in the sea of /Something About Us/. For the
+courage granted by the loop of file in /Infinity Repeating/. See you forever.
+
+#+begin_gallery
+- [[love.jpg][This was my alive 2007.]] :flex 45 :no-zoom
+- [[one-more-time.jpg][GIVE IT TO ME ONE MORE TIME!]] :flex 50 :no-zoom
+#+end_gallery
