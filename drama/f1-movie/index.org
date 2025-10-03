@@ -1,6 +1,6 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 233; 12025 H.E. 2000
-* F1: The Movie
+* F1
 It would be hard to imagine a movie that is more formulaic and predictable than
 /F1: The Movie/, yet retains its /Top Gun/-style charm led by Brad Pitt's affable
 performance and the story so inoffensive and straightforward that the total
