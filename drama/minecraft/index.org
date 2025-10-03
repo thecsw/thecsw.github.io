@@ -1,6 +1,6 @@
 #+setupfile: ../00_film_skipthis.org
 #+date: 273; 12025 H.E. 2359
-* Minecraft Movie
+* A Minecraft Movie
 /Minecraft Movie/ is probably one of the worst movies I have ever had the
 displeasure of seeing. It's just straight-up bad, man. I studied films in
 college, took classes, even did a whole graduate-level course on trash films
