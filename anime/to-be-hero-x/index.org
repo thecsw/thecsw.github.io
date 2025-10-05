@@ -1,0 +1,52 @@
+#+options: tomb:nil preview:preview.jpg preview-height:1080 preview-width:1920
+#+options:  author-image:nil
+
+#+html_head: <link rel="stylesheet" type="text/css" href="x.css">
+
+# update the theme color for phones and fancy browsers
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
+
+#+date: 278; 12025 H.E. 0143
+* To Be Hero X 😎
+They had no reason to cook /this/ hard. I believe this must have been a sting
+operation of some sort, since when I found out about this show, /nobody/ was
+talking about it and even the most hardcore anime-watching-following-all-seasons
+friends I have, nobody had heard of this Chinese show. Only seeing the [[https://youtu.be/08kp3Cs31Ow][original
+trailer]] of the show had ignited our curiosity from nil to over elevent in a few
+moments' time that we called /everybody/ for an emergency council meeting, every
+two weeks, where we would sit down and witness /To Be Hero X/ unfold, waiting for
+our hero /X/ to finally appear.
+
+[[x.webp][「TO BE HERO X」コンセプトムービー（Long ver.）]]
+
+It is the only show who's opening goes so hard that we had not dared to skip the
+opening nor the ending even once, since the /Comission/ would have broken down the
+door into our place and indicted everyone for solitary in an auraless room as a
+punishment for disrespecting our one and only true God,
+/X/. Just. What. A. Banger.
+
+[[can.webp][This frame literally appears just once.]]
+
+You /must/ go and watch it. There isn't much I want to say, as I have probably
+spoken at length about everything right this show had done to everybody that had
+seen the show. Regurgitating it again here would be reductionary to what I have
+had already expressed /and/ it would be repeating the plot, where the writers had
+done a job better than I ever could. But, I will say, I have not seen a show yet
+like this that flips my view and understanding of scenes shown before as much as
+/To Be Hero X/, where episode 23 changes /everything/ we know about episode 1 and so
+much more in between.
+
+[[inf.webp][I have to step frame-by-frame to find something I'd missed.]]
+
+This is a pure 10/10 show that is nothing but distilled aura-farming straight to
+the veins and must be enjoyed in the way it was intended. If somebody is good
+with a specific art style, when the Japanese shows at large suffer from the
+repetitiveness of ``generic anime'' feel, /To Be Hero X/ flexes the mastery of so
+many styles and attaching their importance to the plot is simply flexing on
+their part. The music and soundtrack are too addicting. Hardest drug. They had
+absolutely no business cooking /this/ hard.
+
+#+begin_quote
+*/Ain't never seen something quite like it./*
+#+end_quote
