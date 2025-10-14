@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Tue, 14 Oct 2025 00:00:00 UTC</pubDate>
-    <lastBuildDate>Tue, 14 Oct 2025 06:07:52 UTC</lastBuildDate>
+    <pubDate>Tue, 14 Oct 2025 23:59:00 UTC</pubDate>
+    <lastBuildDate>Tue, 14 Oct 2025 06:23:59 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -21,7 +21,7 @@
       <link>https://sandyuraz.com/blogs/mini-library</link>
       <description>I built this over the course of two days and it had taken me more time than I have ever originally anticipated for it to take. In part, since it requires every single book to be individually wrapped—this set is a great teacher in patience that I might be just that much more of a holier m... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
-      <pubDate>Tue, 14 Oct 2025 18:00:00 CDT</pubDate>
+      <pubDate>Tue, 14 Oct 2025 23:59:00 CDT</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/anime">Anime is dying 🍶</category>
