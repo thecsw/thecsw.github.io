@@ -1,0 +1,33 @@
+#+date: 287; 12025 H.E.
+#+html_head: <link rel="stylesheet" type="text/css" href="index.css">
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#150804">
+#+options: preview:butterfly.jpg preview-height:1778 preview-width:2370
+* Library I Want to Live In 📚
+I built this over the course of two days and it had taken me more time than I
+have ever originally anticipated for it to take. In part, since it requires
+every single book to be individually wrapped---this set is a great teacher in
+patience that I might be just that much more of a holier man myself.
+
+#+begin_gallery :no-zoom
+- [[full.jpg][Full frontal view.]] :flex 35 :no-zoom
+- [[butterfly.jpg][Look at this butterfly.]] :flex 60 :no-zoom
+#+end_gallery
+
+Even though it is such a cliché thing to say so---but I wish to live and breathe
+in a library, in a space, if not /just/ like this, but the /vibes/ *must* be the
+same. I could describe it even akin to Ghibli or cottage witch repertoire. Feel
+free to pinch in to zoom in.
+
+#+begin_gallery
+- [[top.jpg][The top view is quite something---you can see all the stuff on top.]] :flex 30 :no-zoom
+- [[high.jpg][What it looks like in its glory.]] :flex 35 :no-zoom
+- [[immersive.jpg][Give me that lowshot too.]] :flex 30 :no-zoom
+#+end_gallery
+
+Makes me want to build more of these. In the nights after work when the dinner
+is ready, I realized to have this warm obsession with watching youtube videos of
+small Japanese businesses, where the owners, may they be retirees running a
+bakery or an ex-caregiver running an Okonomiyaki shop---they are all dedicated
+to their craft---giving their all; putting themselves into the smallest minute
+details. I'm always sitting in admiration and inspired to live consciously.
