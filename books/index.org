@@ -121,6 +121,10 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │        Akane-banashi, Volume 13       │
+ ├───────────────────────────────────────┤
+ │        Akane-banashi, Volume 12       │
+ ├───────────────────────────────────────┤
  │         Chainsaw Man, Volume 19       │
  ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 35   │
