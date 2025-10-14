@@ -1,0 +1,9 @@
+:root {
+        --color-bg: #150804;
+        --color-red: #cd191a;
+
+        --color-text: white;
+        --color-title: white;
+        --color-header: var(--color-red);
+        --color-header-hover: #a53221;
+}
