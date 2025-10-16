@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 272; 12025 H.E. 2230
 * The Family Man
 My first memory of seeing this film comes from college, when my mother

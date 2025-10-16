@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 165; 12025 H.E. 
 * The Life of Chuck
 This felt like eating a nice dessert, not too heavy, but light and leaves you

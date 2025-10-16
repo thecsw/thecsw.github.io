@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 224; 12024 H.E. 2315
 * Crimes of Passion
 Watching Crimes of Passion is akin to drinking a concoction made up by mixing

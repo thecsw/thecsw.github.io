@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 364; 12023 H.E. 2300
 * Bullet Train
 john wick + lmfao + japan

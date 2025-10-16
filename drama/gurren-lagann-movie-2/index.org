@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 23; 12024 H.E.
 * Gurren Lagann the Movie: The Lights in the Sky Are Stars
 So this is the power of the spiral... Not bad, not bad at all...

@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 166; 12025 H.E. 
 * Materialists
 Bubble gum with the flavor of ``/The Devil Wears Prada/'' and I love ``/The Devil

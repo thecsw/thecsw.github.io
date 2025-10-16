@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 333; 12024 H.E. 2040
 * The Ice Storm
 

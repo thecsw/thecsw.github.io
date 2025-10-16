@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 1; 12024 H.E. 2330
 * Millenium Actress
 Films are more real than life itself or as someone told me once, ``those who

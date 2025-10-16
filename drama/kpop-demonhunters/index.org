@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 210; 12025 H.E.
 * KPop Demon Hunters
 Since I fell asleep during the final ten or so minutes and have no intentions of

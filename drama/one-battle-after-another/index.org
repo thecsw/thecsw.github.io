@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 274; 12025 H.E. 2350
 * One Battle After Another
 Man. What a ride.

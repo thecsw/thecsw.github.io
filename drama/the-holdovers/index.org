@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 17; 12024 H.E.
 * The Holdovers
 Good movie just right for the Christmas spirit. Could very well be a new

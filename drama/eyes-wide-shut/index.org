@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 3; 12025 H.E. 2350
 * Eyes Wide Shut
 It actually didn't impress me that much. I recall seeing it many years ago, so

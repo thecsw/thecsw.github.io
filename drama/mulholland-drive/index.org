@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 38; 12025 H.E. 2333
 * Mulholland Drive
 
