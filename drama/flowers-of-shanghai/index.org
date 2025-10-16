@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 94; 12025 H.E. 2250
 * Flowers of Shanghai
 

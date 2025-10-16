@@ -1,4 +1,4 @@
-#+setupfile: ../_sasakura.org
+{{{sasakura}}}
 #+date: 202; 12025 H.E. 2250
 * Sazerac 🍊
 

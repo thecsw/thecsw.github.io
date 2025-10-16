@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 348; 12024 H.E. 1157
 * Interstella 5555: The 5tory of the 5ecret 5tar 5ystem
 

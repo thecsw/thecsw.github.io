@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 233; 12025 H.E. 2000
 * F1
 It would be hard to imagine a movie that is more formulaic and predictable than

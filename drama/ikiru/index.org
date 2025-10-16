@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 300; 12024 H.E. 1138
 * Ikiru
 

@@ -1,4 +1,4 @@
-#+setupfile: ../_sasakura.org
+{{{sasakura}}}
 #+date: 299; 12024 H.E. 1848
 * Simple Daiquiri 🍋‍🟩
 

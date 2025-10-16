@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 344; 12024 H.E. 2150
 * Gladiator II
 

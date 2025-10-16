@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 
 #+options: preview-generate:nil preview:lost-in-translation.jpeg
 

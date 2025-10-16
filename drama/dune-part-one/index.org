@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 66; 12025 H.E. 2333
 * Dune
 It was fine. Frank Herbert was never near and dear to me as Isaac Asimov was, so

@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 274; 12025 H.E. 2350
 * One Battle After Another
 Man. What a ride.

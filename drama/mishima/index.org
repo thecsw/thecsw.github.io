@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 21; 12024 H.E. 2300
 * Mishima: A Life in Four Chapters
 I felt so frustrated with myself. Paul Schrader, what have you done. How can one

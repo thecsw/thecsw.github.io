@@ -1,9 +1,13 @@
+# ----- ORG OPTIONS BELOW ------
+
 #+html_head: <link rel="stylesheet" type="text/css" href="/css/discord.css">
 #+options: author-image:nil tomb:nil
 #+options: exclude-html-head:property="theme-color"
 #+html_head: <meta name="theme-color" property="theme-color" content="#140f08">
 #+options: preview-generate:t math:nil
 #+options: preview-generate-bg:#140f08 preview-generate-fg:#ffffff
+
+# ----- PAGE CONTENT BELOW -----
 
 #+macro: blush2 #+begin_export html\n <img class="image avatar" src="/shared/avatars/blush2.webp">\n #+end_export \n\n *sandy* ^{{$1}} \
 

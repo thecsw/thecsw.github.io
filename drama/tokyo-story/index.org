@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 6; 12024 H.E.
 * Tokyo Story
 What a debilitatingly saddening film. Has the cinema industry as a whole been

@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 176; 12025 H.E. 2150
 * Ballerina
 I am a lifetime John Wick customer. Show me anything made by the same people or

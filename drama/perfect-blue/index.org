@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 364; 12023 H.E. 2000
 * Perfect Blue
 Brilliant. What an insight into not only Japanese, but overabundant

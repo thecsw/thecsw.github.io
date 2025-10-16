@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 8; 12024 H.E.
 * In the Mood for Love
 Now this is Cinema.

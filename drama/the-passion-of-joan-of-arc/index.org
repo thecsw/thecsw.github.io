@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 29; 12024 H.E. 2350
 * The Passion of Joan of Arc
 ``Hey, want to watch this 2 hour long French silent film from 1928 about the

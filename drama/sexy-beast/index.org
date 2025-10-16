@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 209; 12025 H.E.
 * Sexy Beast
 Scrolling through the home page of my Criterion Channel, /Sexy Beast/ was not my

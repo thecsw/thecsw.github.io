@@ -1,0 +1,8 @@
+# This is the setupfile for defining a discord styled page.
+#+macro: discord #+setupfile: /shared/setupfiles/_discord.org
+
+# All films in /drama must call this macro.
+#+macro: film #+setupfile: /shared/setupfiles/_film.org
+
+# And of course for the cocktails.
+#+macro: sasakura #+setupfile: /shared/setupfiles/_sasakura.org

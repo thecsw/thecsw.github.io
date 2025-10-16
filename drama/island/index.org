@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 287; 12024 H.E. 1150
 * The Island
 

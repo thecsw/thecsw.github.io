@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 71; 12025 H.E. 1950
 * Black Bag
 Black Bag goes down like a glass of clean sharp martini—no brine, no olives, and

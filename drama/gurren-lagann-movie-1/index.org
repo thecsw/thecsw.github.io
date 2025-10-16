@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 16; 12024 H.E.
 * Gurren Lagann the Movie: Childhood’s End
 Went to the movie theater, which was rolling this classic. This

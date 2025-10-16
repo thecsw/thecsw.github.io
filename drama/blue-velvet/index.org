@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 4; 12024 H.E.
 * Blue Velvet
 I have some sort of a personal connection to /Blue Velvet/ and really, a story of

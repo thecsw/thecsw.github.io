@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 364; 12023 H.E. 2300
 * Bullet Train
 john wick + lmfao + japan

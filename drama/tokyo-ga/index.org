@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 111; 12025 H.E. 2150
 * Tokyo-Ga
 

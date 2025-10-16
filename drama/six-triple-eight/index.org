@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 366; 12024 H.E.
 * The Six Triple Eight
 It has a good story to tell but wholly lacks in imagination, discipline,

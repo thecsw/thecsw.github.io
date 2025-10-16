@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 11; 12024 H.E.
 * Little Odessa
 Surprised that this movie isn't more popular. I saw Tim Roth and forgive me, but
