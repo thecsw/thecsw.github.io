@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 53; 12025 H.E. 2333
 * 8½
 Ahead of its time. I think the magic behind /8½/ lies in knowing the whole story

@@ -1,4 +1,4 @@
-#+setupfile: ../00_sasakura_skipthis.org
+#+setupfile: ../_sasakura.org
 #+date: 249; 12025 H.E. 2313
 * Old Pal 🍎
 

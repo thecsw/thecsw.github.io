@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 198; 12025 H.E. 0938
 * 3 Women
 #+drop_cap

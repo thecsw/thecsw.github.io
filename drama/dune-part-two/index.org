@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 69; 12025 H.E. 2359
 * Dune: Part Two
 What a disappointment. Cartoon villains with psychopathic tendencies in goofy

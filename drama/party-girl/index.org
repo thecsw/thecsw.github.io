@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 3; 12024 H.E. 2100
 * Party Girl
 Good vibe and ambience of the rowdy 90s—unfortunately, didn't strike a cord with

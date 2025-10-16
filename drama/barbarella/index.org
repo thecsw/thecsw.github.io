@@ -1,4 +1,4 @@
-#+setupfile: ../00_film_skipthis.org
+#+setupfile: ../_film.org
 #+date: 13; 12024 H.E.
 * Barbarella
 Perfection. So much to say about /Barbarella/. I think I saw it for the first time
