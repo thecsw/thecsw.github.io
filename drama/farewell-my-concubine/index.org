@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 9; 12025 H.E. 2250
 * Farewell My Concubine
 Mesmerizing, breathtaking, and ruthless in slicing your heart into the tiniest

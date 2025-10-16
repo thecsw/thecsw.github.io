@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 10; 12024 H.E.
 * Past Lives
 A certified A24 classic. Honestly, I don't even have that much to say. Everyone

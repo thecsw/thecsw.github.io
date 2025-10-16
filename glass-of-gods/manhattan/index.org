@@ -1,4 +1,4 @@
-#+setupfile: ../_sasakura.org
+{{{sasakura}}}
 #+date: 197; 12025 H.E. 2254
 * Manhattan 🍒
 

@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 286; 12024 H.E. 2210
 * Wolfs
 dad’s movie—it was good

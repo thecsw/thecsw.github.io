@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 123; 12025 H.E. 2150
 * Supermarket Woman
 Juzo Itami did it again---a wonderful story, a Western story of ambition,

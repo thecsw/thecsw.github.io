@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 223; 12025 H.E.
 * Anora
 I was a little surprised to see the movie that I had just seen airing in my

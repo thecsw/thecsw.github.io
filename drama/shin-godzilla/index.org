@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 3; 12024 H.E.
 * Shin Godzilla
 I adore the fact that the /biggest/ and /baddest/ monster in this entire movie isn't

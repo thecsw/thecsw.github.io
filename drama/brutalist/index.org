@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 36; 12025 H.E. 2359
 * The Brutalist
 

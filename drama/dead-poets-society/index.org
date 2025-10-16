@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 32; 12024 H.E. 2359
 * Dead Poets Society
 I received this picture over the iMessage wire and realized that this was my

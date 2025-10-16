@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 364; 12023 H.E. 2000
 * High and Low
 I'm lost for words. The supreme summit of filmmaking and taking the creation of

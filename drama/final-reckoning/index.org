@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 151; 12025 H.E. 
 * Mission: Impossible -- Final Reckoning
 

@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 1; 12024 H.E. 2000
 * The Last Seduction
 Quintessential erotic neo-noir of the 90s. Harrowing and

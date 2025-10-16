@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 7; 12024 H.E.
 * Dersu Uzala
 Beautiful Soviet film directed by Akira Kurosawa on the indomitability of human

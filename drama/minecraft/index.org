@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 273; 12025 H.E. 2359
 * A Minecraft Movie
 /Minecraft Movie/ is probably one of the worst movies I have ever had the

@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 38; 12025 H.E. 2333
 * Mulholland Drive
 

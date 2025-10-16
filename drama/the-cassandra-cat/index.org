@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 25; 12024 H.E.
 * The Cassandra Cat
 One of the most impressive and unique color gradings I've seen for movies of this era.

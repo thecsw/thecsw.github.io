@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 144; 12025 H.E. 2150
 * A Taxing Woman
 Going through Juzo Itami's filmography in an almost random-like order offers one

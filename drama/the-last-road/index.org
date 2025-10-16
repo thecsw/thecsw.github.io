@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 9; 12024 H.E.
 * The Last Road
 Russia's first and greatest poet's last hours.

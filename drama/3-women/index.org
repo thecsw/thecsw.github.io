@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 198; 12025 H.E. 0938
 * 3 Women
 #+drop_cap

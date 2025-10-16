@@ -1,4 +1,4 @@
-#+setupfile: ../_film.org
+{{{film}}}
 #+date: 360; 12024 H.E. 1421
 * The Daytrippers
 #+drop_cap
