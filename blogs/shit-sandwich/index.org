@@ -1,0 +1,59 @@
+#+options: preview-generate:t
+#+date: 338; 12025 H.E. 2133 PST
+* Against shit sandwiches 🥙
+
+#+begin_quote
+You did a fantastic, really, phenomenal job on this. Simply, incredible. This piece
+though is a hot pile of garbage, it sucks ass, and it stinks. I'm sure it's no
+big deal though. I mean, listen, whatever we can get to, it would be amazing.
+#+end_quote
+
+Great. Thanks. I *love* eating shit sandwiches. Nothing better than getting
+buttered up, coddled with, given a somewhat real but pent-up with a sprinkle of
+self-righteousness feedback, immediately followed by a softening of the
+blow---since, who wants to lose face---and settle on some of the most mediocre
+compromise possible, because everybody has to be happy. No. Matter. What.
+
+Having lived in a corporate environment---I promise, this is not coming from my
+current work, but through some other fruitful avenues---you get handed at least
+one of those every day. The resulting product ends up being total garbage that
+no side of the bread wants, but everybody is now stuck with it. In the realm of
+the good ideas on both sides, those who wager wars, always find themselves right
+in the middle of it, where nobody is happy and the decisions made could not have
+come from a worse parallel universe that birthed them into existence.
+
+Scrolling through Goodreads one day, I stumbled upon a review from an old
+acquaintance on a book that I have never heard of, never read, and never
+planning to. However, the writing and thoughts expressed were so bland
+that I simply had to say something about it. It irked me in such a way
+that shaking it off proved to be an annoying exercise of an itself. So, to
+protect the identities of everyone involved, I present a heavily redacted and
+abridged version, but the one that keeps the general spirit of it.
+
+#+begin_quote
+It was *incredible* to gain an inside perspective on the workings of
+=[company]=. The narrative somitemes leans into personal grudges than being
+presented with balanced perspective on the events that occurred. The author
+frequently portrays themselves as being on the “right” side of history, which at
+times made it feel like they have not gone enough in depth into the
+=[company]=. In conclusion, while the book offers some worthwhile observations, I
+found myself wanting for a more balanced and and introspective approach overall.
+#+end_quote
+
+Thinking about it, the whole thing presents no strong ideas about anything,
+lukewarming all the way through. Nothing specific, no claims, but presented with
+an air of authority. Boring flowery language that renders the core message
+flat. Emotions as eloquently expressed as meeting would in a conference
+room. With a shit sandwich to finish the meal, virtue signaling ``taste.''
+
+Even for the kicks of it, giving it to AI with ``what are your thoughts on
+this,'' which it promptly described as (emphasis not mine),
+
+#+begin_quote
+No metaphors, no punchy lines, no attitude, no rhythm, no wit. You could swap in
+any other reviewer and nothing would change. The review has no
+fingerprint. *Effect*: It reads like AI wrote it... even though it's just someone
+trying too hard to sound measured.
+#+end_quote
+
+Yikes. Okay, that's all. GO HAVE SEX or EAT CHINESE FOOD

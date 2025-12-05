@@ -97,3 +97,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 73 | [[file:family-man/poster.webp][poster]] | [[family-man][*The Family Man*]]                                           | Brett Ratner                         | United States                          | 2000 |
 | 74 | [[file:minecraft/poster.webp][poster]] | [[minecraft][*A Minecraft Movie*]]                                        | Jared Hess                           | United States                          | 2025 |
 | 75 | [[file:one-battle-after-another/poster.webp][poster]] | [[one-battle-after-another][*One Battle After Another*]]                                 | Paul Thomas Anderson                 | United States                          | 2025 |
+| 76 | [[file:angels-egg/poster.webp][poster]] | [[angels-egg][*Angel's Egg*]]                                              | Mamoru Oshii                         | Japan                                  | 1985 |
