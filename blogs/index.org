@@ -39,6 +39,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[installing_arch][Installing glorious arch linux ☄️]]
 
 ** Thoughts
+- [[shit-sandwich][Against shit sandwiches 🥙]]
 - [[feelings][Feeling ☕️]]
 - [[joy][Crafting Joy in the Digital Age 🍀]]
 - [[against-interpretation][Against Interpretation 🤔]]
