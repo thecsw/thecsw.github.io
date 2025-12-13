@@ -37,7 +37,7 @@ findings.
 python commoncrawl_search.py "https://li.st/Bourdain*" --all --download
 #+end_src
 
-NOTE: Images *have been lost*. Other avenus had struck no luck. I'll try again later.
+NOTE: Images *have been lost*. Other avenues had struck no luck. I'll try again later.
 
 Any and all emphasis, missing punctuation, cool grammar is all by Anthony
 Bourdain. The only modifications I have made is to the layout, to represent
