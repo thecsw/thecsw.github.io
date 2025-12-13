@@ -152,6 +152,8 @@ body::before {
         body::before {
                 inset: 0rem;
                 display: none;
+                border: none;
+                box-shadow: none;
         }
 }
 
