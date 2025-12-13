@@ -515,7 +515,8 @@ a:not(.image):not(.gallery-item):hover {
 
 /* Makes for a nice effect of natural framing. */
 .gallery div {
-        border-style: double;
+    /* TODO: Hey, Sandy, sometimes, the border looks AMAZING and sometimes, it's poopoo */
+        /* border-style: double; */
         border-color: var(--color-text);
         z-index: 20; /* so it's above the border frame */
 }
