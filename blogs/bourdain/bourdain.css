@@ -1,0 +1,28 @@
+@import url("/styles/fonts/Anton_SC/Anton.css");
+
+:root {
+    --paragraph-width: 60rem;
+    --color-bg: white;
+
+    --color-red: #cd191a;
+}
+
+.admonitionblock table {
+    margin-top: 0.2rem;
+}
+
+.ulist {
+    line-height: 1.55rem;
+}
+
+.section-3 {
+    color: black;
+    font-weight: bold;
+}
+
+.section-3::before {
+    content: "";
+    display: block;
+    border-top: 1px solid #ccc; /* customize */
+    margin: 2rem 0 0.75rem 0;   /* space above/below divider */
+}
