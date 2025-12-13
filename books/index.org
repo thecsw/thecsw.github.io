@@ -121,6 +121,10 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │   Kowloon Generic Romance, Volume 10  │
+ ├───────────────────────────────────────┤
+ │        Akane-banashi, Volume 14       │
+ ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 13       │
  ├───────────────────────────────────────┤
  │        Akane-banashi, Volume 12       │
