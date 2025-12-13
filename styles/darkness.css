@@ -147,10 +147,10 @@ body::before {
         inset: 0.4rem 0.6rem 0.4rem 0.8rem;
 }
 
+/* On phones, this whole framing effect is claustrophobic */
 @media (max-width: 600px) {
         body::before {
-                inset: 0.6rem;
-                border-color: rgba(0, 0, 0, 0.12);
+                inset: 0rem;
         }
 }
 
