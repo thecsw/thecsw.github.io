@@ -126,6 +126,34 @@ html {
         scroll-behavior: smooth;
 }
 
+body {
+        position: relative;
+}
+
+body::before {
+        content: "";
+        position: fixed;
+        inset: 0.45rem;
+        pointer-events: none;
+
+        border: 1px solid rgba(0, 0, 0, 0.22);
+        box-shadow:
+                inset 0 0 0 1px rgba(255, 255, 255, 0.35),
+                0 0 0 0.5px rgba(0, 0, 0, 0.06);
+        z-index: 10;
+}
+
+body::before {
+        inset: 0.4rem 0.6rem 0.4rem 0.8rem;
+}
+
+@media (max-width: 600px) {
+        body::before {
+                inset: 0.6rem;
+                border-color: rgba(0, 0, 0, 0.12);
+        }
+}
+
 .article {
         background: var(--color-bg);
         color: var(--color-text);
@@ -143,7 +171,7 @@ html {
         margin-bottom: 3rem;
 
         background-image: radial-gradient(
-                rgba(0, 0, 0, 0.012) 1px,
+                rgba(0, 0, 0, 0.014) 1px,
                 transparent 1px
         );
         background-size: 4px 4px;
@@ -483,6 +511,13 @@ a:not(.image):not(.gallery-item):hover {
 
 .ease-transition {
         transition: all 300ms ease-in-out;
+}
+
+/* Makes for a nice effect of natural framing. */
+.gallery div {
+        border-style: double;
+        border-color: var(--color-text);
+        z-index: 20; /* so it's above the border frame */
 }
 
 .gallery-item .item {
