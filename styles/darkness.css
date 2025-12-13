@@ -63,12 +63,11 @@
 
         --pdf-aspect-ratio: var(--aspect-academy);
         --aspect-academy: 1.375;
-        --aspect-wide: 1.778;   /* this is 16:9 */
+        --aspect-wide: 1.778; /* this is 16:9 */
         --aspect-cinemascope: 2.35;
         --aspect-square: 1;
         --aspect-portrait-short: 0.84;
         --aspect-portrait: 0.707;
-
 
         --section-one-font-size: 3.7rem;
         --section-two-font-size: 2.2rem;
@@ -78,18 +77,32 @@
         --section-six-font-size: 1.2rem;
 
         /* Colors, duh */
-        --color-text: #3a1616;
+
+        /* This looks like japanese warm paper */
+        --paper-base: #f7f3ee;
+        --paper-light: #f8f5f0;
+        --paper-hover: #f3eee8;
+
+        --ink-primary: #2b2b2b;
+        --ink-secondary: #55514d;
+        --ink-muted: #7a746e;
+
+        --rule-light: rgba(0, 0, 0, 0.06);
+        --rule-softer: rgba(0, 0, 0, 0.035);
+
+        /* --color-text: #3a1616; */
+        --color-text: var(--ink-primary);
         --color-link-text: var(--color-text);
         --color-title: black;
         --color-header: #c31585;
         --color-header-hover: #a53221;
-        --color-bg: #fbebef;
+        --color-bg: var(--paper-base);
         --color-white: #fff;
         --color-selection: #ff7ab15c;
         --color-link: #ff50a2;
         --color-link-visited: #5e416d;
         --color-subtitle: #7a2518;
-        --code-bg: #fff7f7;
+        --code-bg: #fffff9;
         --color-tomb: #ba3925;
         --color-divider: #d7bbbb;
 
@@ -128,6 +141,12 @@ html {
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 3rem;
+
+        background-image: radial-gradient(
+                rgba(0, 0, 0, 0.012) 1px,
+                transparent 1px
+        );
+        background-size: 4px 4px;
 }
 
 .katex-html {
@@ -916,8 +935,9 @@ table {
         border-collapse: collapse;
         margin-left: auto;
         margin-right: auto;
-        border: solid 1px var(--color-text);
         max-width: 100%;
+        border-style: double;
+        border-color: var(--color-text);
 }
 
 th {
@@ -934,8 +954,33 @@ td {
         border-left: 1px solid var(--color-text);
 }
 
-.admonitionblock table {
-        margin-top: 2rem;
+.admonitionblock {
+        position: relative;
+}
+
+.admonitionblock::before {
+        content: "";
+        position: absolute;
+
+        left: -0.75rem;
+        top: 0.4rem;
+        bottom: 0.1rem;
+
+        width: 1.5px;
+        background: rgba(0, 0, 0, 0.35);
+}
+
+.admonition-content {
+        color: var(--ink-primary);
+        line-height: 1.25;
+        font-size: 85%;
+}
+
+.admonition-label {
+        font-variant: small-caps;
+        letter-spacing: 0.12em;
+        font-size: 0.72em;
+        color: var(--ink-muted);
 }
 
 @media all and (max-width: 460px) {
@@ -968,6 +1013,8 @@ td {
         padding-top: 0;
         padding-bottom: 0;
         text-align: left;
+
+        border-style: double;
 }
 
 .listingblock > pre {
