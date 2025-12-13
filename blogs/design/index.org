@@ -215,3 +215,39 @@ consent). Now, with some clever CSS and Darkness' html export, we get
 
 #+html_tags: style="width:44rem";
 [[avatars.webp][I love the 3AM version of people\ Honest, vulnerable, real.]]
+
+** Japanese Paper
+
+Coming back with all sorts of paper merch from Japan---I realized that what I
+always felt lacking in web design was the sense of texture---the pages have to
+FEEL as if you can TOUCH them. HOLD them. LOVE them. TEAR them.
+
+A lot of examples I looked through during my search were very much
+uninspired. Any combination of ``fancy font'' plus vomit-inducing sepia plus
+some weird JS-driven effects and wasteful animations.
+
+NO. NO. NO. We don't want to recreate the VISUAL or the IDEA of paper but the
+TACTILE feeling of it on the web. HAPTIC vs. OPTIC. What if you could put your
+hand through the screen and rub your fingers against the surface of the page?
+
+That's what I want. Having worked in AI for a long time---I thought to ask it,
+how could I? And it gave this great idea of putting little almost invisible
+circles as background image, which immediately felt right.
+
+Tweaking some of my colors here and there and trying to remember some CSS quirks
+resulted in a style I much prefer.
+
+#+html_tags: style="width:40rem";
+[[washi.jpg][These circles for the texture are /tiinnyyy/.]]
+
+The admonition blocks (i.e., coming from way back when of asciidoctor times),
+the author's interruptions are simply delightful now.
+
+#+html_tags: style="width:40rem";
+[[admonition.jpg][It feels more like a print.]]
+
+And more improvements here and there. So, let's see where this takes us, ey?
+
+I've been itching to do this redesign for a month now, but I got married between
+then and now, so life has been a bit busy. I hope you can find forgiveness
+within yourself (for me).
