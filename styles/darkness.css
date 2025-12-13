@@ -151,6 +151,7 @@ body::before {
 @media (max-width: 600px) {
         body::before {
                 inset: 0rem;
+                display: none;
         }
 }
 
@@ -515,7 +516,7 @@ a:not(.image):not(.gallery-item):hover {
 
 /* Makes for a nice effect of natural framing. */
 .gallery div {
-    /* TODO: Hey, Sandy, sometimes, the border looks AMAZING and sometimes, it's poopoo */
+        /* TODO: Hey, Sandy, sometimes, the border looks AMAZING and sometimes, it's poopoo */
         /* border-style: double; */
         border-color: var(--color-text);
         z-index: 20; /* so it's above the border frame */
