@@ -1,10 +1,5 @@
-#+html_head: <link rel="stylesheet" type="text/css" href="index.css">
+{{{soot_darker}}}
 #+options: tomb:nil preview:love.jpg preview-height:1778 preview-width:2370
-
-# update the theme color for phones and fancy browsers
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
-
 #+date: 268; 12025 H.E.
 * My Alive 2007 🤖
 

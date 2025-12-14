@@ -1,7 +1,5 @@
 #+date: 287; 12025 H.E. 2359
-#+html_head: <link rel="stylesheet" type="text/css" href="index.css">
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#150804">
+{{{library}}}
 #+options: preview:butterfly.jpg preview-height:1778 preview-width:2370
 * Library I Want to Live In 📚
 I built this over the course of two days and it had taken me more time than I

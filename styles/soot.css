@@ -1,0 +1,36 @@
+@import url("dark_frame.css");
+
+:root {
+        /* This is like library.css, but darker, but not black. Soot-like.
+           Get the reference? Go and see "Sexy Beast"*/
+        --color-bg: #140f08;
+
+        --color-text: var(--paper-light);
+        --color-text-muted: var(--paper-base);
+        --color-subtitle: var(--color-text-muted);
+        --color-title: white;
+        --color-header: var(--paper-base);
+        --color-header-hover: var(--ink-red);
+        --color-selection: var(--ink-red);
+        --code-bg: var(--paper-base);
+        --color-snow: white;
+        --section-one-font-size: 5rem;
+}
+
+/* TODO: thought about doing this if section-one is bigger than 5rem */
+/* @media all and (min-width: 1300px) { */
+/*         :root { */
+/*                 --header-width: 50.25rem; */
+/*                 --section-one-font-size: 6.3rem; */
+/*         } */
+
+/*         .section-1 { */
+/*                 margin-left: -2rem; */
+/*                 margin-right: -5rem; */
+/*         } */
+
+/*         .header > .section-1:first-child { */
+/*                 margin-bottom: 1.9rem; */
+/*                 margin-top: 6rem; */
+/*         } */
+/* } */

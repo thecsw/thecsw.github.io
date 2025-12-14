@@ -1,8 +1,6 @@
+{{{sasakura}}}
 #+options: author-image:nil tomb:nil preview:glass-of-gods.jpg
-#+options: exclude-html-head:property="theme-color"
 #+optios: preview-width:1317 preview-height:1000
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
-#+html_head: <link rel="stylesheet" type="text/css" href="glass-of-gods.css">
 #+options: tomb:nil
 * The Glass of Gods 🍸
 

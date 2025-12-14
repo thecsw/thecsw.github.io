@@ -1,11 +1,6 @@
 {{{film}}}
-
+{{{soot}}}
 #+options: preview-generate:nil preview:lost-in-translation.jpeg
-
-#+html_head: <link rel="stylesheet" type="text/css" href="lost-in-translation.css">
-
-# update the theme color for phones and fancy browsers
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
 
 #+date: 184; 12025 H.E. 0924
 * Lost in Translation

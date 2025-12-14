@@ -1,11 +1,6 @@
+{{{soot_darker}}}
 #+options: author-image:nil tomb:nil preview:cabin.jpg
-#+options: exclude-html-head:darkness.css
-#+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
 #+html_head: <link rel="stylesheet" type="text/css" href="aot.css">
-
-# update the theme color for phones and fancy browsers
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
 
 #+title: Attack on Titan: Final Final 🗡️
 #+date: 330; 12023 H.E.

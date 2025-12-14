@@ -1,0 +1,34 @@
+:root {
+        --color-bg: #150804;
+
+        --color-text: var(--paper-light);
+        --color-text-muted: var(--paper-base);
+        --color-subtitle: var(--color-text-muted);
+
+        --color-title: white;
+        --color-header: var(--paper-base);
+        --color-header-hover: var(--ink-red);
+
+        --color-selection: var(--ink-red);
+}
+
+/* The dots need the alpha channel to feel like a dark washi paper */
+.article {
+        background-image: radial-gradient(
+                        rgba(255, 220, 180, 0.018) 1px,
+                        transparent 1px
+                ),
+                linear-gradient(rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.08));
+
+        background-size:
+                4px 4px,
+                100% 100%;
+}
+
+/* The framing around the corner should feel ink-pressed. */
+body::before {
+        border: 1px solid var(--rule-dark);
+        box-shadow:
+                inset 0 0 0 1px rgba(0, 0, 0, 0.85),
+                inset 0 0 12px rgba(0, 0, 0, 0.8);
+}
