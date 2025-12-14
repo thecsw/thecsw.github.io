@@ -15,7 +15,9 @@ the access nor permission to use the proprietary storages---I thought we might b
 to find something from publicly available crawl archives.
 
 All of the code and examples lead to the [[https://github.com/thecsw/bourdain][source git repository]]. This article has
-also been discussed on [[https://news.ycombinator.com/item?id=46258163][hackernews]].
+also been discussed on [[https://news.ycombinator.com/item?id=46258163][hackernews]]. Also, a week before I published this,
+/mirandom/ had the same idea as me and published [[https://mirandrom.github.io/bourdain-lists/][their findings]]---go check them
+out.
 
 ** Common Crawl
 
