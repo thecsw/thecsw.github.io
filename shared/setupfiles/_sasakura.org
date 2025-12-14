@@ -2,7 +2,7 @@
 
 #+options: exclude-html-head:property="theme-color" author-image:nil tomb:nil
 #+html_head: <meta name="theme-color" property="theme-color" content="#151515">
-#+html_head: <link rel="stylesheet" type="text/css" href="../glass-of-gods.css">
+#+html_head: <link rel="stylesheet" type="text/css" href="/css/sasakura.css">
 #+options: preview-generate:t rss-prefix:(Cocktails)
 #+options: preview-generate-bg:#151515 preview-generate-fg:#ffffff
 

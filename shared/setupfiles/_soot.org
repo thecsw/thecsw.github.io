@@ -1,0 +1,8 @@
+# ----- ORG OPTIONS BELOW ------
+
+#+html_head: <link rel="stylesheet" type="text/css" href="/css/soot.css">
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#140f08">
+#+options: preview-generate:t preview-generate-bg:#140f08 preview-generate-fg:#f8f5f0
+
+# ----- PAGE CONTENT BELOW -----

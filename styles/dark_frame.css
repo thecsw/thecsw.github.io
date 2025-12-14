@@ -1,0 +1,22 @@
+/* The dots need the alpha channel to feel like a dark washi paper */
+/* But for discord, since it's a pure web app, we don't want to make it
+ feel like TOO MUCH paper---so, I set the alpha all the way down here */
+.article {
+        background-image: radial-gradient(
+                        rgba(255, 235, 210, 0.018) 1px,
+                        transparent 1px
+                ),
+                linear-gradient(rgba(255, 255, 255, 0.015), rgba(0, 0, 0, 0.25));
+
+        background-size:
+                4px 4px,
+                100% 100%;
+}
+
+/* The framing around the corner should feel ink-pressed. */
+body::before {
+        border: 1px solid var(--rule-ink);
+        box-shadow:
+                inset 0 0 0 1px rgba(0, 0, 0, 0.55),
+                inset 0 0 18px rgba(0, 0, 0, 0.65);
+}

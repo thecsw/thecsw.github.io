@@ -1,0 +1,8 @@
+# ----- ORG OPTIONS BELOW ------
+
+#+html_head: <link rel="stylesheet" type="text/css" href="/css/library.css">
+#+options: exclude-html-head:property="theme-color"
+#+html_head: <meta name="theme-color" property="theme-color" content="#150804">
+#+options: preview-generate:t preview-generate-bg:#150804 preview-generate-fg:#f8f5f0
+
+# ----- PAGE CONTENT BELOW -----

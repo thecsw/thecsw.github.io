@@ -9,7 +9,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 #+end_export
 
 #+begin_center
-[[#software][Software]] <>  [[#thoughts][Thoughts]] <> [[#random][Random]]
+[[#software][Software]] ⟨ะ⟩  [[#thoughts][Thoughts]] ⟨ะ⟩ [[#random][Random]]
 #+end_center
 
 ** Software
@@ -67,6 +67,7 @@ story. Are my eyes too innocent to see the future we have been destined for?
 - [[year_12019][Welcome to year 12,019 📅]]
 
 ** Random
+# - [[wrapped-5][My Spotify Wrapped for 2025 🏎️]]
 - [[bourdain][Anthony Bourdain's Li.st's 🎸]]
 - [[mini-library][Library I Want to Live In 📚]]
 - [[daft-punk][My Alive 2007 🤖]]

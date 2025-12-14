@@ -1,10 +1,7 @@
+{{{soot}}}
 #+date: 361; 12023 H.E. 1700
 #+options: preview:preview.jpg preview-height:1000 preview-width:1317
 #+html_head: <link rel="stylesheet" type="text/css" href="justice.css">
-
-# update the theme color for phones and fancy browsers
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
 * Justice Neondroid 🥃
 
 Trying out to play with processing [[https://sandyuraz.com/plastic/komi/][RAW]] under harsher lighting.

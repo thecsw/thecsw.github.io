@@ -6,3 +6,10 @@
 
 # And of course for the cocktails.
 #+macro: sasakura #+setupfile: /shared/setupfiles/_sasakura.org
+
+# On Dec 13th, added a new library CSS with dark washi feel
+#+macro: library #+setupfile: /shared/setupfiles/_library.org
+
+# On Dec 13th, added a new library CSS, even darker, soot-like
+#+macro: soot #+setupfile: /shared/setupfiles/_soot.org
+#+macro: soot_darker #+setupfile: /shared/setupfiles/_soot_darker.org

@@ -1,12 +1,6 @@
 #+options: tomb:nil preview:preview.jpg preview-height:1080 preview-width:1920
 #+options:  author-image:nil
-
-#+html_head: <link rel="stylesheet" type="text/css" href="x.css">
-
-# update the theme color for phones and fancy browsers
-#+options: exclude-html-head:property="theme-color"
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
-
+{{{soot}}}
 #+date: 278; 12025 H.E. 0143
 * To Be Hero X 😎
 They had no reason to cook /this/ hard. I believe this must have been a sting
