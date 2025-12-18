@@ -1,18 +1,10 @@
-# unplug global darkness.css and plug the one from July 12th, 2023
-# to prevent any headaches in the future
-#+options: exclude-html-head:darkness.css
-#+html_head: <link rel="stylesheet" type="text/css" href="darkness.css">
+{{{soot_darker}}}
 #+html_head: <link rel="stylesheet" type="text/css" href="ryuko.css">
 
 #+options: author-image:nil tomb:nil
 
-# Detach any other snow javascript effects.
-#+options: exclude-html-head:/scripts/snowstorm-min.js
-#+options: exclude-html-head:property="theme-color"
-
 # Attach our custom ryuko snow effect.
 #+html_head: <script src="ryuko-snow.js" defer></script>
-#+html_head: <meta name="theme-color" property="theme-color" content="#151515">
 #+date: 358; 12022 H.E.
 
 * Ryuko 🐉
