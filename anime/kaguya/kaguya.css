@@ -6,9 +6,6 @@
         --media-width: 69rem;
 }
 
-.ss {
-}
-
 @media all and (min-width: 1000px) {
         :root {
                 --header-width: 50.25rem;
