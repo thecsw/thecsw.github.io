@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 348; 12023 H.E.
 * Foundation and Earth 🌏
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 This is a weaker installment compared to previous foundations, especially the
 original trilogy. However, I will preface that I am biased towards this sequel

@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 354; 12023 H.E.
 * Dead Souls 🐴
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 I cried laughing from beginning till the bitter end. No one is sharper with
 satire than Gogol. However, unfortunately, he does lack the ability to write

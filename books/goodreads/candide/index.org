@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 349; 12023 H.E.
 * Candide 🐑
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 I always like to say that Candide was centuries ahead of his time and this fact
 hasn't changed even today. We aren't ready yet, for the wit and sharpness of

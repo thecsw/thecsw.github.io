@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 363; 12023 H.E.
 * 17-21: Tatsuki Fujimoto 🌚
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 Those earlier stories are a bit rough around the edges—a sign of a growing
 author, who already secured his very own style of what many would call bizarre

@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 343; 12023 H.E.
 * The Tao of Pooh 🐻
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 It was my college sophomore year—I took a semester with really hard classes and
 found myself straight up in a not a good place. Doubted my every decisions, and

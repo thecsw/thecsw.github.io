@@ -1,9 +1,5 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 337; 12023 H.E.
 * Solo Leveling 🔪
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 Hardest drug I've ever taken.

@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 338; 12023 H.E.
 * Komi Can’t Communicate ❤️
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 I am biased towards this series, as it gave me support and warmth in times when
 I needed one the most. Impulsively buying the first 14-15 volumes at once from

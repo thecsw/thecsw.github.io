@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 347; 12023 H.E.
 * Foundation's Edge 🦾
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 I must confess—I don't remember specifically the middle point between this and
 Foundation and Earth, but Asimov's writing is always what I like to call, "the

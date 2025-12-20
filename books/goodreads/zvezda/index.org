@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 357; 12023 H.E.
 * The Star with No Name ⭐️
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 After seeing the Soviet adaptation of the play, directed by Mikhail Kozakov
 (playing Grig), and starring Anastasiya Vertinskaya (Mona) and Igor Kostolevsky

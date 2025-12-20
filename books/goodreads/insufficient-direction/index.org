@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 365; 12023 H.E.
 * Insufficient Direction 🍺
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 This was a great and what felt like, a deeply personal read, which it definitely
 is. To get a peek into what it must be like to see legendary Hideaki Anno behind

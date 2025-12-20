@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 361; 12023 H.E.
 * Chainsaw Man 🪚
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 It was the July 30th, 2023. I adored the anime adaptation of Chainsaw Man and on
 an impulse, bought all available 11 volumes in English. The week at work was

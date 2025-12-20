@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 352; 12023 H.E.
 * Beowulf ⛓️
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 Any modern action movie, epic tales, anything really, can and will be tied back
 to Beowulf. It's a bit of a tougher read, as contemporary readers—we aren't used

@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 89; 12025 H.E.
 * The Death of Ivan Ilyich 🖼️
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 What a harrowing read. Tolstoy has never been as close to my heard as Dostoevsky
 is, but this might be my favorite work of his. I have decided to finally read it
