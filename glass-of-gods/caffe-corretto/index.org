@@ -1,0 +1,26 @@
+{{{sasakura}}}
+#+date: 354; 12025 H.E. 1402
+* Caffè corretto ☕️
+
+{{{pics(caffe-corretto.jpg)}}}
+
+Not only is this the ``corrected'' way to drink espresso, but the true and only
+way I want to drink it from now on. Having its roots from some time of the early
+1920s---there is no better way to feel like a working class Italian of that time
+having a lunch break before getting back to work with the slight buzz of the
+infamous grappa.
+
+- Espresso shot
+- 1/2 ounces of grappa
+
+We like having it on the side, /ammazzacaffè/ style, where if desired, you can
+ratio and correct the coffee with small and gentle drips and then pours of
+grappa. Wikipedia says,
+
+#+begin_quote
+It is also known (outside Italy) as an espresso corretto. It is ordered as un
+caffè corretto /alla grappa, ... alla sambuca, ... al cognac, or corretto di
+Spadino/, depending on the desired liquor.
+#+end_quote
+
+I'll have to try it!
