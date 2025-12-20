@@ -1,9 +1,5 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 341; 12023 H.E.
 * One Hundred Years of Solitude 🌿
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 One Hundred Years of Torture reading this book.

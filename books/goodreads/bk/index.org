@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 355; 12023 H.E.
 * Brothers Karamazov 🍞
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 Because I have spoken to them so much about Brothers Karamazov and Dostoevsky, I
 have definitely given all my close friends some sort of a trauma and a trigger

@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 364; 12023 H.E. 1600
 * 22-26: Tatsuki Fujimoto 🌊
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 I think I enjoyed this collection of stories a bit more than his selection from
 /17-21: Tatsuki Fujimoto/, especially /Nayuta of the Prophecy/, where Nayuta is

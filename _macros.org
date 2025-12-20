@@ -4,6 +4,9 @@
 # All films in /drama must call this macro.
 #+macro: film #+setupfile: /shared/setupfiles/_film.org
 
+# Used for goodreads and book reviews.
+#+macro: book #+setupfile: /shared/setupfiles/_book.org
+
 # And of course for the cocktails.
 #+macro: sasakura #+setupfile: /shared/setupfiles/_sasakura.org
 

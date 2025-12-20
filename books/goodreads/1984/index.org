@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 340; 12023 H.E.
 * 1984 👁️
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 Cartoonish levels of depicting oppressive governments with very little to no
 foresight and imagination to come up with something that has more meat to the

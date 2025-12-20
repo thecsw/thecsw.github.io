@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 353; 12023 H.E.
 * Eugene Onegin 🔫
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 *Encyclopedia of life.*
 

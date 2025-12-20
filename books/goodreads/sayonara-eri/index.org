@@ -1,9 +1,4 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
 #+date: 360; 12023 H.E.
 * Sayonara Eri 📱
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 Art is the way to remember one's subjective reality.

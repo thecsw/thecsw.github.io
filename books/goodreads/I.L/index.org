@@ -1,0 +1,27 @@
+{{{book}}}
+#+date: 354; 12025 H.E.
+* I.L
+
+I rarely ever open goodreads but when I do, I have a flaming desire to share
+something either of a magnificent and of an unforgettable read, or something so
+vile that my dissatisfaction cannot be contained. I am beyond happy to report
+that today is the day for me to share the former.
+
+Never heard of Osamu Tezuka's /I.L/ and now I will not forget it. Reading through
+a couple reviews on this site, I'll spare the boring wikipedia
+paraphrasing. Usually, I tend to be biased against political artwork, since it
+being such a low-hanging fruit that it is almost lazy to tackle.
+
+Something about the dichotomy between the atrocities committed by humans and
+Alucard being cute, the classical manga art style and the minutely drawn details
+of absolute horrors depicted, the complete absence of the notion that things
+have to have a closure or a happy ending vs. to today's taste palette. How
+effortless it all is.
+
+Read it.
+
+{{{five}}}
+
+#+begin_gallery :num 1
+- [[I.L.jpg][Taken from https://tezukaosamu.net/en/manga/1.html]] :flex 85 :no-zoom
+#+end_gallery

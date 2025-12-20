@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 350; 12023 H.E.
 * The Gods Themselves ☄️
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 I love science fiction. Unfortunately, many of contemporary sci-fi works focus
 too heavily on some other-worldly tech, massive star energy collectors, colossal

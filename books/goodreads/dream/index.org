@@ -1,9 +1,5 @@
-#+options: preview-generate:t
+{{{book}}}
 * The Dream of a Ridiculous Man 💤
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 If you don't have the time, energy, or the right circumstances to dive deep and
 expose yourself to Dostoevsky's larger novels, like Brothers Karamazov, The

@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 366; 12023 H.E.
 * Delicious in Dungeon 🥩
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 Brings out the charm of more vintage RPGs and food wars style preparations of
 monster ingredients. Superb art style! I enjoyed reading the first volume, even

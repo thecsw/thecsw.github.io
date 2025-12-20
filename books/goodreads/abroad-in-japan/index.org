@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 358; 12023 H.E.
 * Abroad in Japan 🇯🇵
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 Pulls you in with sharp and witty writing, which feels just like Chris Broad
 from Abroad in Japan (haha). Atmospheric and personal. Loved the

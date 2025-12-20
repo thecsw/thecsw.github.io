@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 351; 12023 H.E.
 * The Overcoat 🧥
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 I mean... This is *The Overcoat*. As Dostoevsky put it, "we all come from under
 Gogol's The Overcoat," such as the entirety of Russian Literature can be

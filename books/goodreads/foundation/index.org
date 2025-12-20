@@ -1,10 +1,6 @@
-#+options: preview-generate:t rss-prefix:(Goodreads)
+{{{book}}}
 #+date: 345; 12023 H.E.
 * Foundation Series 🚀
-
-#+begin_export html
-<img class="image book-cover" src="cover.jpg">
-#+end_export
 
 One of my all-time favorites of science fiction and in all. Young Asimov's novel
 technologically doesn't hold up with the times, such as still using coal for
