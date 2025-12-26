@@ -400,8 +400,7 @@ a:not(.image):not(.gallery-item):hover {
 
 .media:has(iframe) + .writing,
 .media:has(video) + .writing,
-.gallery-container + .writing,
-.coding + .writing {
+.gallery-container + .writing {
         padding-top: 1.2rem;
 }
 
