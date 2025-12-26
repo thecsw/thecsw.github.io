@@ -7,6 +7,9 @@ contents. I thought it would be a nice exercise to quickly, yet cleanly outline
 some of the inspirations I took from other blogs/websites and where does the
 current style comes from.  
 
+
+#+toc
+
 ** The beginning 
 
 I looked up sandyuraz.com on the [[https://web.archive.org/web/*/sandyuraz.com][Wayback Machine]] and there are a couple of
@@ -251,3 +254,12 @@ And more improvements here and there. So, let's see where this takes us, ey?
 I've been itching to do this redesign for a month now, but I got married between
 then and now, so life has been a bit busy. I hope you can find forgiveness
 within yourself (for me).
+
+** Better typography
+
+Reading [[https://en.wikipedia.org/wiki/Gary_Regan][Gary Regan's]] famous book [[https://www.barnesandnoble.com/w/the-joy-of-mixology-gary-regan/1103427788][/Joy of Mixology/]]---the typography felt so
+tight and the letters in the book are so nice to look at that I must understand
+in how it was possible to be both aesthetically pleasing and practical. Going
+around it and feeling it through a bit more, the typography on this website was
+updated to use a smaller font size, =1.37rem= instead of =1.42rem= and tighter line
+heights and spacing in between, which gave it a better printed look.

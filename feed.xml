@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Sat, 20 Dec 2025 14:02:00 UTC</pubDate>
-    <lastBuildDate>Thu, 25 Dec 2025 22:04:07 UTC</lastBuildDate>
+    <pubDate>Thu, 25 Dec 2025 00:00:00 UTC</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2025 08:04:15 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>Visitor... Welcome to my Pink Lounge. This place exists between dream and reality, mind and matter. I hope you enjoy ...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/wrapped-5</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>My Spotify Wrapped for 2025 🏎️</title>
+      <link>https://sandyuraz.com/blogs/wrapped-5</link>
+      <description>Wecome back. It is great seeing after all this time since our encounters four years ago, and three years ago, and two years ago, and even last year—wait for it—this year we will be doing the same! However, there will be a big difference for the simple reason of that whenever I drive, it is my spotify that gets connected to the car’s infotainment system and my wife is ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Thu, 25 Dec 2025 18:00:00 CST</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/glass-of-gods">The Glass of Gods 🍸</category>
       <enclosure url="" type="" length="0"></enclosure>
@@ -42,17 +53,6 @@
       <title>(Film) Runaway Bride</title>
       <link>https://sandyuraz.com/drama/runaway-bride</link>
       <description>Didn’t know much about it but that my mom loves Richard Gere and after seeing it—I understand why. That’s it. Not to oversimplify, but following a story of a girl that is scared of commitment, where dumping three guys at the altar in succession and continuing to live in the same small town middle of nowhere is crazy. I liked the twist and the general feel of the movie, but nothing much to hold on to or to th... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sat, 13 Dec 2025 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/wrapped-5</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>My Spotify Wrapped for 2025 🏎️</title>
-      <link>https://sandyuraz.com/blogs/wrapped-5</link>
-      <description>Wecome back. It is great seeing after all this time since our encounters four years ago, and three years ago, and two years ago, and even last year—wait for it—this year we will be doing... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 13 Dec 2025 18:00:00 CST</pubDate>
     </item>
@@ -404,7 +404,7 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>(Film) Tokyo-Ga</title>
       <link>https://sandyuraz.com/drama/tokyo-ga</link>
-      <description>My family saw this right after we finished “Paris, Texas” and as we all like Wim Wenders’ films—Japan is also a cool topic—see this little treat on the Criterion Channel? What a treat it w... [ Continue reading... ]</description>
+      <description>My family saw this right after we finished “Paris, Texas’&#39; and as we all like Wim Wenders’ films—Japan is also a cool topic—see this little treat on the Criterion Channel? What a treat it w... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 21 Apr 2025 21:50:00 CDT</pubDate>
     </item>

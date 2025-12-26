@@ -24,11 +24,11 @@
 :root {
         --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
-        --paragraph-size: 1.42rem;
+        --paragraph-size: 1.37rem;
         --paragraph-size-mobile: 1.24rem;
         --paragraph-width: 40rem;
         --paragraph-width-max: 100%;
-        --paragraph-line-height: 1.95rem;
+        --paragraph-line-height: 1.83rem;
         --paragraph-line-height-mobile: 1.9rem;
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
@@ -43,11 +43,10 @@
         --subtitle-size: 1.3rem;
         --quote-size: 1.3rem;
         --quote-size-mobile: 1.1rem;
-        --quote-line-height: 1.9rem;
+        --quote-line-height: 1.65rem;
         --quote-line-height-mobile: 1.4rem;
         --quote-width: 34.375rem;
         --toc-size: var(--quote-size);
-        --toc-line-height: 1.3rem;
         --toc-width: var(--paragraph-width);
         /* this is around 640px, and @media queries should follow */
         --media-width: 55.125rem;
@@ -284,14 +283,18 @@ body::before {
         line-height: var(--paragraph-line-height);
         font-family: inherit;
         font-weight: var(--paragraph-font-weight);
-        line-height: var(--paragraph-line-height);
-        margin-top: 1rem;
-        margin-bottom: 0.625rem;
+        /* TODO: Margins to make pages more compact */
+        /* margin-top: 1rem; */
+        /* margin-bottom: 0.625rem; */
         text-rendering: inherit;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         -webkit-hyphens: auto;
         hyphens: auto;
+}
+
+.header + .writing {
+        margin-top: 1rem;
 }
 
 /* Now, we have to do this ugly manual phone version */
@@ -356,7 +359,7 @@ a:not(.image):not(.gallery-item):hover {
 }
 
 .paragraph + .paragraph {
-        margin-top: 2rem;
+        margin-top: 1rem;
 }
 
 .section-2:first-of-type {
@@ -395,8 +398,18 @@ a:not(.image):not(.gallery-item):hover {
         }
 }
 
+.media:has(iframe) + .writing,
+.media:has(video) + .writing,
+.gallery-container + .writing {
+        padding-top: 1.2rem;
+}
+
+.writing + .media > video {
+        padding-top: 1rem;
+}
+
 .section-2 {
-        padding-top: 2.7rem;
+        padding-top: 2rem;
         font-size: var(--section-two-font-size);
 }
 
@@ -479,7 +492,7 @@ a:not(.image):not(.gallery-item):hover {
         font-style: normal !important;
         font-weight: 500 !important;
         line-height: 2rem !important;
-        margin: -0.5rem 0 0 !important;
+        margin: -0.85rem 0 0 !important;
 }
 
 /*
@@ -765,8 +778,9 @@ details {
 .media {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        /* TODO: Margins to make pages more compact */
+        /* margin-top: 1rem; */
+        /* margin-bottom: 1rem; */
         width: var(--media-width);
         max-width: 100%;
         position: relative;
@@ -776,8 +790,9 @@ details {
 .coding {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        /* TODO: Margins to make pages more compact */
+        /* margin-top: 1rem; */
+        /* margin-bottom: 1rem; */
         width: var(--code-width);
         max-width: 100%;
         position: relative;
@@ -898,9 +913,20 @@ hr {
 
 ul > li p,
 ol > li p,
-.ulist .ulist,
-.olist .olist {
+.ulist,
+.olist {
+        line-height: calc(var(--paragraph-line-height) * 0.9);
         margin-bottom: -0.4rem;
+}
+
+.toc > li p,
+.toc > li p,
+.ulist .toc,
+.olist .toc {
+        list-style: circle;
+        line-height: calc(var(--quote-line-height) * 0.75);
+        font-size: var(--toc-size);
+        max-width: var(--toc-width);
 }
 
 .l1 {
@@ -917,13 +943,6 @@ ol > li p,
 
 .l4 {
         margin-left: calc(3 * var(--list-margin-left));
-}
-
-.toc {
-        list-style: circle;
-        font-size: var(--toc-size);
-        line-height: var(--toc-line-height);
-        max-width: var(--toc-width);
 }
 
 /*
@@ -1219,9 +1238,9 @@ kbd {
 .avatar {
         position: absolute;
         width: 3rem;
-        border-radius: 100px;
+        border-radius: 999px;
         margin-left: -23rem;
-        top: 0.6rem;
+        top: 3rem;
 }
 
 .movie-poster,
