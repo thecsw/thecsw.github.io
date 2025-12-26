@@ -35,8 +35,3 @@ hr {
         padding-top: 0rem;
 }
 
-/* Adjustment needed because of the above padding scrapings */
-.avatar {
-        top: 1rem;
-}
-
