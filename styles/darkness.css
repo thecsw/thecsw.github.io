@@ -28,7 +28,7 @@
         --paragraph-size-mobile: 1.24rem;
         --paragraph-width: 40rem;
         --paragraph-width-max: 100%;
-        --paragraph-line-height: 1.8rem;
+        --paragraph-line-height: 1.83rem;
         --paragraph-line-height-mobile: 1.9rem;
         --paragraph-font-weight: 500;
         --paragraph-font-bold-weight: 700;
@@ -47,7 +47,6 @@
         --quote-line-height-mobile: 1.4rem;
         --quote-width: 34.375rem;
         --toc-size: var(--quote-size);
-        --toc-line-height: 1.3rem;
         --toc-width: var(--paragraph-width);
         /* this is around 640px, and @media queries should follow */
         --media-width: 55.125rem;
@@ -360,7 +359,7 @@ a:not(.image):not(.gallery-item):hover {
 }
 
 .paragraph + .paragraph {
-        margin-top: 2rem;
+        margin-top: 1rem;
 }
 
 .section-2:first-of-type {
@@ -399,12 +398,14 @@ a:not(.image):not(.gallery-item):hover {
         }
 }
 
-.media + .writing,
+.media:has(iframe) + .writing,
+.media:has(video) + .writing,
+.gallery-container + .writing,
 .coding + .writing {
         padding-top: 1.2rem;
 }
 
-.writing + .media {
+.writing + .media > video {
         padding-top: 1rem;
 }
 
@@ -913,10 +914,20 @@ hr {
 
 ul > li p,
 ol > li p,
-.ulist .ulist,
-.olist .olist {
+.ulist,
+.olist {
         line-height: calc(var(--paragraph-line-height) * 0.9);
         margin-bottom: -0.4rem;
+}
+
+.toc > li p,
+.toc > li p,
+.ulist .toc,
+.olist .toc {
+        list-style: circle;
+        line-height: calc(var(--quote-line-height) * 0.75);
+        font-size: var(--toc-size);
+        max-width: var(--toc-width);
 }
 
 .l1 {
@@ -933,13 +944,6 @@ ol > li p,
 
 .l4 {
         margin-left: calc(3 * var(--list-margin-left));
-}
-
-.toc {
-        list-style: circle;
-        font-size: var(--toc-size);
-        line-height: var(--toc-line-height);
-        max-width: var(--toc-width);
 }
 
 /*
