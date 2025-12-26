@@ -26,33 +26,17 @@ hr {
         display: none;
 }
 
+.media + .writing,
+.coding + .writing {
+        padding-top: 0rem;
+}
+
+.writing + .media {
+        padding-top: 0rem;
+}
+
+/* Adjustment needed because of the above padding scrapings */
 .avatar {
-        position: absolute;
-        width: 3rem;
-        border-radius: 100px;
-        /* left: 6.1rem; */
-        margin-left: -23rem;
-        top: 0.84rem;
+        top: 1rem;
 }
 
-.media:has(.avatar) {
-        margin-bottom: -1.2rem;
-}
-
-@media all and (max-width: 640px) {
-        .section-1 {
-                font-size: 4rem;
-        }
-
-        .avatar {
-                position: absolute;
-                width: 2.6rem;
-                border-radius: 100px;
-                margin-left: 0rem;
-                left: 0.5rem;
-        }
-
-        .writing {
-                padding-left: 3.7rem;
-        }
-}
