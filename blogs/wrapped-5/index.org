@@ -1,4 +1,5 @@
 {{{soot_darker}}}
+#+options: preview-generate:nil preview-height:640 preview-width:1280
 #+date: 360; 12025 H.E. 0209
 * My Spotify Wrapped for 2025 🏎️
 
