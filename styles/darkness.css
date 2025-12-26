@@ -676,10 +676,10 @@ a:not(.image):not(.gallery-item):hover {
                 flex-basis: var(--flex-two);
         }
         .flex-4 {
-                flex-basis: var(--flex-three);
+                flex-basis: var(--flex-two);
         }
         .flex-5 {
-                flex-basis: var(--flex-four);
+                flex-basis: var(--flex-three);
         }
         .flex-95,
         .flex-90,
