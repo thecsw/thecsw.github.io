@@ -1,3 +1,4 @@
+{{{soot_darker}}}
 #+date: 359; 12025 H.E.
 * My Spotify Wrapped for 2025 🏎️
 
@@ -6,4 +7,123 @@ years ago]], and [[https://sandyuraz.com/blogs/wrapped-2/][three years ago]], an
 it---this year we will be doing the same! However, there will be a big
 difference for the simple reason of that whenever I drive, it is my spotify that
 gets connected to the car's infotainment system and my wife is the DJ, where I'm
-not allowed to touch the music in any way, so, there has been a massive external influence
+not allowed to touch the music in any way, so, there has been a massive external
+influence that shaped this year's /Wrapped/. Strap yourself in. #indiecore
+
+Starting off with the basic stuff---I beat my last year's record of minutes
+listened by almost 5,000 minutes. Woah. And thanks to my wife, my taste had
+actually taken a walk outside and I have had the chance to finally branch out of
+never-ending loop of anime soundtracks and Japanese alternative rock into more
+``modern'' flavors of music.
+
+#+begin_gallery :num 4
+- [[1-welcome.jpeg][The race car theme goes vroom vroom.]] :no-zoom
+- [[2-minutes.jpeg][19,622 minutes is just crazy, dude.]] :no-zoom
+- [[3-genres.jpeg][I don't think I've ever done this many genres, whole 377 of them.]] :no-zoom
+- [[4-top-genres.jpeg][Anime is still supreme, though.]] :no-zoom
+#+end_gallery
+
+This year's /Wrapped/ was a reimagining of what it could be, since last year's had
+gotten so much backlash from using /too much/ AI, especially after laying off
+large swaths of their staff. It was not a good look, since telling me that my
+music taste is like ``/Mcbling Catwalk Pop/'' does not mean a single thing to
+me---it was just lazy, which made the whole fiasco rather lame, since it had
+gone the most mediocre route. So, can it guess my age based on my track record?
+
+#+begin_gallery :num 4
+- [[5-age-is-just-a-number.jpeg][Is it really just a number? I think so.]] :no-zoom
+- [[6-at-least-im-not-135.jpeg][The algorithm to deduce this feels rather simple.]] :no-zoom
+- [[7-is-it-a-big-number.jpeg][Is 1,800+ unique songs in a year a large number?]] :no-zoom
+- [[8-my-top-songs.jpeg][Can you guess my top song?]] :no-zoom
+#+end_gallery
+
+I fucking love /About You/ by /The 1975/. I had actually found the song through a
+[[https://youtu.be/iqGAW57EudQ?list=RDiqGAW57EudQ][fan AMV]] featuring the song with a cut-up and full of spoilers collection of
+clips from /18×2 Beyond Youthful Days/. After I had discovered the song I'd tell
+myself that I'm going to see the actual movie but I never got around to it and
+don't know if I will, since I kind of know the whole story. Of course, texture
+to me is more important, but I don't feel such a draw, especially with my
+collection of physical Criterion and others discs that I haven't (yet) seen
+growing at an alarming pace.
+
+#+begin_gallery :num 3
+- [[9-about-you.jpeg][About You]] :no-zoom
+- [[10-about-you-top.jpeg][The 54 times doesn't show the true count.]] :no-zoom
+- [[11-top-songs.jpeg][Very different top songs from last year.]] :no-zoom
+#+end_gallery
+
+When it comes to albums and say I've listened to 13 of them... do they mean like
+front-to-back sort of deal or simply ``touched an album''? I'm sure it's the
+former, because there is no way 1,800+ songs reduce down to measely 13 albums,
+otherwise, those would have been some massive releases. Okay, this one is
+simple. I go weak for Chapell Roan's /After Midnight/. That one progression and
+note that she hits on the
+
+#+begin_quote
+/'Cause After Midniighttt/ \
+/I'm feeling kinda freaky,/ \
+/maybe it's the club lights/ ---
+#+end_quote
+
+I'm not the biggest club go-er. In actuality, I think the biggest number of them
+that are easily available to go to are kinda trashy. I can explain. They are TOO
+loud. The music is TOO generic. And there is no charm or grace to drinking in
+these places. But the vibe that /After Midnight/ the song has, which I imagine as
+a more desolate, emptier club, but where the vibes are just right---then yes,
+please sign me up.
+
+#+begin_gallery :num 4
+- [[12-albums.jpeg][I guess I liked 13 albums start to finish.]] :no-zoom
+- [[13-top-album.jpeg][Every song in this albums fucks.]] :no-zoom
+- [[14-top-albums.jpeg][I'm a new man with this album selection.]] :no-zoom
+- [[15-this-many-artists.jpeg][This is my record, for sure---thanks to Spotify's radio.]] :no-zoom
+#+end_gallery
+
+And then after Chapell, we have all the ``indie'' and that modern soft music
+style universe artists. Of course, we have Sabrina, Marias, love them jazz
+anime, and Clairo.
+
+#+begin_gallery :num 5
+- [[16-sabrina.jpeg][Busy Woman is the best.]] :no-zoom
+- [[17-clairo.jpeg][Sofia.]] :no-zoom
+- [[18-platina.jpeg][It all comes tumbling down with champagne.]] :no-zoom
+- [[19-chapell.jpeg][CAUSE AFTER MIDNIGHT IM FEELING KINDA FREAKY]] :no-zoom
+- [[20-marias.jpeg][Her favorite.]] :no-zoom
+#+end_gallery
+
+And all of this new-found music taste is what they call the /Cloud Society/. I did
+try to make it to Chapell's concert but all the tickets were completely sold
+out. I had to go to an Oktoberfest event nearby the stadium and saw the line
+extending more than a mile in bitter cold---I was never more happier to /not/ be
+standing in some line for hours before the doors had even opened.
+
+#+begin_gallery :num 4
+- [[21-chapell-top.jpeg][She was in my city, but the tickets were sold out.]] :no-zoom
+- [[22-top-artists.jpeg][Pretty accurate.]] :no-zoom
+- [[23-cloud-society.jpeg][Yes, I am a collector.]] :no-zoom
+- [[24-is-this-who-i-am.jpeg][All of these suggestions are correct.]] :no-zoom
+#+end_gallery
+
+They also gave a breakdown on some anomalous days, where AI had done the heavy
+lifting to write up a summary on what transpired on the day of. Pretty fun, I
+guess? I can't tell what I was doing that day to warrant it, but seeing these
+and trying to recollect the memories was pretty fun.
+
+#+begin_gallery :num 5
+- [[25-feb11.jpeg][I might have been drinking this day.]] :no-zoom
+- [[26-may27.jpeg][ABBA and Eurobeat---can you ask for more?]] :no-zoom
+- [[27-jul8.jpeg][Yes, I like CSM and Bartender anime.]] :no-zoom
+- [[28-oct10.jpeg][Felt cute and anime that day.]] :no-zoom
+- [[29-nov3.jpeg][To Be Hero X is a perfect show.]] :no-zoom
+#+end_gallery
+
+Okay, that's it! I've been procrastinating on this one, but I like to keep up
+with the tradition and look back onto these recaps in the years to come. See ya
+later and Merry Christmas!
+
+#+begin_gallery :num 4
+- [[30-yellow.jpeg][Yellow.]] :no-zoom
+- [[31-purple.jpeg][Purple.]] :no-zoom
+- [[32-red.jpeg][Red.]] :no-zoom
+- [[33-green.jpeg][Green.]] :no-zoom
+#+end_gallery
