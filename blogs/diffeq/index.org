@@ -8,7 +8,7 @@
 #+date: 133; 12020 H.E.
 * Differential equations 🔥
 
-[[index.pdf][(PDF Version)]]
+There is also the [[index.pdf][original .pdf]] version available.
 
 ** Abstract
 When I got first introduced to differential equations, I had a love-hate

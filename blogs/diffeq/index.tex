@@ -1,4 +1,4 @@
-% Created 2022-03-16 Wed 18:41
+% Created 2025-12-26 Fri 15:07
 % Intended LaTeX compiler: xelatex
 \documentclass[12pt]{article}
 \usepackage{graphicx}
@@ -77,35 +77,30 @@
 \onehalfspace
 \usemintedstyle{bw}
 \author{Sandy Urazayev\thanks{thecsw@Mania.local}}
-\date{\today}
+\date{133; 12020 H.E.}
 \title{}
 \hypersetup{
  pdfauthor={Sandy Urazayev},
  pdftitle={},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 28.0.90 (Org mode 9.5.2)}, 
+ pdfcreator={Emacs 30.2 (Org mode 9.7.39)}, 
  pdflang={English}}
 \begin{document}
 
-\section*{Differential equations cookbook 🔥}
-\label{sec:orgaf454c9}
-
-May 12th, 2020
-
-\href{./index.pdf}{(PDF Version)}
+\section*{Differential equations 🔥}
+\label{sec:org263adf3}
 
 \subsection*{Abstract}
-\label{sec:org4e916c7}
+\label{sec:orgafc7326}
 When I got first introduced to differential equations, I had a love-hate
 relationship with it. Mainly due to some back-of-the-book problems we were given
 and never-ending projects we were assigned to. After some time, differential
 equations is a way to truly understand physics and the foundations of gravity,
 fields, and everything. This articles is merely an intro on manually solving
 common forms of differential equations. Hope you enjoy
-
 \subsubsection*{Quick notes}
-\label{sec:org25d3dfd}
+\label{sec:org63cb0a1}
 \begin{itemize}
 \item \(f_x \iff \partial_x f\)
 \item \(A,B,C\) are usually constants
@@ -114,9 +109,8 @@ common forms of differential equations. Hope you enjoy
 \item If you found a typo or want to comment, feel free to email me. Email on top of
 the page.
 \end{itemize}
-
 \subsubsection*{First-order, linear}
-\label{sec:org5d76057}
+\label{sec:org89736ad}
 Those equations have the form
 \begin{align*}
 	y' + p(t) y = q(t)
@@ -130,9 +124,8 @@ Then
 	\frac{d}{dt}(\mu(t)y) & = q(t) \mu(t)                        \\
 	\implies y            & = \frac{\int q(t) \mu(t) dt}{\mu(t)}
 \end{align*}
-
 \subsubsection*{First-order, separable}
-\label{sec:org472ee4b}
+\label{sec:orgc817fa5}
 Those equations have the form:
 
 \begin{align*}
@@ -147,9 +140,8 @@ Find the solution by solving
 
 
 Solve for exact (explicit) values of \(y\)
-
 \subsubsection*{Exact equations}
-\label{sec:org71db26e}
+\label{sec:org2e2fb54}
 They have the form
 
 \begin{align*}
@@ -183,9 +175,8 @@ Find
 multiply both by \(M\) \textbf{and} \(N\),
 so the condition \(M_y = N_y\) is satisfied. Go to \((\xi)\) and proceed with
 finding \(F(x,y)\)
-
 \subsubsection*{Second-order, linear, constant-coefficient equations}
-\label{sec:orgf20234e}
+\label{sec:orgd59fad3}
 They have the form
 
 \begin{align*}
@@ -211,13 +202,12 @@ Find roots, solution (general) will be
 \item if \(r = \alpha \pm i \beta\) \(\implies y=c_1 \cos(\beta t)e^{\alpha t} + c_2
   \sin(\beta t) e^{\alpha t}\)
 \end{itemize}
-
 \begin{itemize}
 \item Solving for particular solution \(y_p(t)\)
-\label{sec:orge98f139}
+\label{sec:org1119ae2}
 \begin{itemize}
 \item Undetermined coefficients (superpositioned) for \(f(t)\)
-\label{sec:org6d262b2}
+\label{sec:orgf54bf1f}
 Whatever is in \(f(t)\), start adding up the corresponding coefficients into
 \(y_p(t)\)
 
@@ -231,9 +221,8 @@ Whatever is in \(f(t)\), start adding up the corresponding coefficients into
 
 NOTE: should not be linearly dependent with the general solution. If it
 is, multiply by \(t\) until it is linearly independent.
-
 \item Variation of parameters
-\label{sec:org1a42dee}
+\label{sec:org0a0c98e}
 Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where
 
 \begin{align*}
@@ -243,9 +232,8 @@ Seek \(y_p(t) = v_1(t)y_1(t)+v_2(t)y_2(t)\), where
 So the final solution is \(y(t)=c_1 y_1(t) + c_2 y_2(t) + y_p(t)\)
 \end{itemize}
 \end{itemize}
-
 \subsubsection*{Second-order, linear, variable-coefficient equations}
-\label{sec:org51373a6}
+\label{sec:orgc0ac45f}
 Equations have the form 
 
 \begin{itemize}
@@ -284,16 +272,14 @@ then \(y=t^r \implies ar^2+(b-a)r+c=0\)
 \(y_2=t^{\alpha}\sin(\beta ln|t|)\)
 
 Generally, solution has the form \(y=c_1t^{r_1}+c_2t^{r_2}\)
-
 \subsubsection*{Higher-order, linear equations}
-\label{sec:org49301f3}
+\label{sec:org883564b}
 \begin{align*}
 	a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\ldots+a_1(t)y'+a_0(t)y=g(t)
 \end{align*}
 All second-order methods above extend to \(n^{th}\) order.
-
 \subsubsection*{Laplace transform}
-\label{sec:org459359c}
+\label{sec:orga9381e5}
 Laplace is a holy grail of solving differential equations with initial
 values defined. Laplace is the same kind of Bible to engineers like Taylor
 Series is. 
@@ -302,9 +288,9 @@ Series is.
 \end{align*}
 assuming \(f\) is piecewise continuous and of exponential order.
 
-Table of common transformations:
-
-\begin{center}
+\begin{table}[htbp]
+\caption{Table of common Laplace transformations}
+\centering
 \begin{tabular}{ll}
 \(f(t)\) & \(\mathcal{L}\{f\}(s)\)\\
 \hline
@@ -315,7 +301,7 @@ Table of common transformations:
 \(u(t-a)\) & \(\frac{e^{-as}}{s}\)\\
 \(\delta(t-a)\) & \(e^{-as}\)\\
 \end{tabular}
-\end{center}
+\end{table}
 
 Where \(u(t)\) is the \href{https://en.wikipedia.org/wiki/Heaviside\_step\_function}{Heaviside step function} and \(\delta(t)\) is the \href{https://en.wikipedia.org/wiki/Dirac\_delta\_function}{Dirac
 delta function}.
@@ -363,9 +349,8 @@ so
 \begin{align*}
 	\mathcal{L}\{\Pi_{a,b}(t)\}(s)=\frac{e^{-sa}-e^{-sb}}{s}
 \end{align*}
-
 \subsubsection*{Constant-coefficient, homogeneous systems of ODE}
-\label{sec:orgbddd9e7}
+\label{sec:org858e0e0}
 \begin{align*}
 	\vec{x}' = A \vec{x}, \quad \text{where } A\in\mathbb{R}^{n\times n},\quad x\in\mathbb{R}^n
 \end{align*}
@@ -421,7 +406,8 @@ identity matrix.
 	                  & =e^{\lambda_jt}(\vec{u_j}^i+t(A-\lambda_jI)\vec{u_j}^i+\cdots+\frac{t^{m_j-1}}{(m_j-1)!}(A-\lambda_jI)^{m_j-1}\vec{u_j}^i)
 \end{align*}
 \subsubsection*{Linear systems of ODE}
-\label{sec:orgf8fe1d3}
+\label{sec:orgd3424aa}
+
 \begin{align*}
 	\vec{x}' = A(t)\vec{x} + \vec{f}(t), \quad \text{where } A\in\mathbb{R}^{n\times n},
 	x\in\mathbb{R}^n, \quad f\in\mathbb{R}^n
@@ -430,34 +416,36 @@ identity matrix.
 If \(X(t)\) is a matrix whose columns are made up of n linearly independent
 homogeneous solutions (\(X(t)\) is the fundamental matrix), then a general
 solution may be written as \(\vec{x}(t_0)=\vec{x_0}\)
+
 \begin{align*}
 	\vec{x}(t) = X(t)X^{-1}(t_0)\vec{x_0}+X(t)\int_{t_0}^{t}X^{-1}(s)f(s)ds
 \end{align*}
+
 If \(A(t)\) is constant-coefficient, then we recover Duhamel's formula:
+
 \begin{align*}
 	\vec{x}(t) = e^{A(t-t_0)}x_0 + \int_{t_0}^{t}e^{A(t-s)}f(s)ds
 \end{align*}
-
 \subsubsection*{Applications}
-\label{sec:orgeff0768}
+\label{sec:orgfb61024}
 There are many applications of differential equations in classical
 mechanics, fields, etc. Below you will find just a snippet of some very
 common Physics 1/2 scenarios
 \begin{itemize}
 \item Falling object
-\label{sec:orgcd7a095}
+\label{sec:org4d11597}
 \begin{align*}
 	m\frac{dv}{dt}=mg-bv
 \end{align*}
 
 where \(b\) is the air resistance
 \item Fluid mix, define \(R_{in}\) and \(R_{out}\)
-\label{sec:orge7c1c2f}
+\label{sec:org3f4bfda}
 \begin{align*}
 	\frac{dx}{dt}=R_{in}-R_{out}
 \end{align*}
 \item Mass-Spring System
-\label{sec:org2204344}
+\label{sec:orgb8d4dd8}
 \begin{itemize}
 \item Vertical spring (direction of gravity)
 \end{itemize}
@@ -474,9 +462,8 @@ assume \(KL=mg\), where \(b\) is dumping, and \(k\) is stiffness
 \end{align*}
 where \(b\) is dumping, and \(k\) is stiffness
 \end{itemize}
-
 \subsubsection*{Conclusion}
-\label{sec:org837610a}
+\label{sec:org4705c60}
 This is as much as I can recover from my initial experience with differential
 equations. This article is not as much to teach you how to solve them but
 provide a quick lookup cheatsheet if needed or glance at different forms that we

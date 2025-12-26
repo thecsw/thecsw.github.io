@@ -3,7 +3,7 @@
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
     <pubDate>Fri, 26 Dec 2025 02:09:00 UTC</pubDate>
-    <lastBuildDate>Fri, 26 Dec 2025 08:18:45 UTC</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 21:11:53 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -2461,7 +2461,7 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Differential equations 🔥</title>
       <link>https://sandyuraz.com/blogs/diffeq</link>
-      <description>When I got first introduced to differential equations, I had a love-hate relationship with it. Mainly due to some back-of-the-book problems we were given and never-ending projects we were assigned to. After some time, differential equations is a way to truly understand physics and the foundations of gravity, fields, and everything. This articles is merely an intro on manually solving common forms of differential equations. Hope... [ Continue reading... ]</description>
+      <description>There is also the original .pdf version ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 12 May 2020 18:00:00 CDT</pubDate>
     </item>

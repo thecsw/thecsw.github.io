@@ -408,6 +408,10 @@ a:not(.image):not(.gallery-item):hover {
         padding-top: 1rem;
 }
 
+.writing + .coding {
+        padding-top: 1rem;
+}
+
 .section-2 {
         padding-top: 2rem;
         font-size: var(--section-two-font-size);
