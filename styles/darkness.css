@@ -38,7 +38,7 @@
         --code-line-height: 1.37rem;
         --header-width: 50rem;
         --header-width-max: 100%;
-        --header-font-weight: 500;
+        --header-font-weight: 600;
         --header-text-rendering: antialiased;
         --subtitle-size: 1.3rem;
         --quote-size: 1.3rem;
@@ -377,9 +377,6 @@ a:not(.image):not(.gallery-item):hover {
         font-weight: var(--header-font-weight);
         color: var(--color-header);
         text-rendering: var(--header-text-rendering);
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-        padding-bottom: 0.5rem;
 }
 
 .section-1 {
@@ -388,6 +385,14 @@ a:not(.image):not(.gallery-item):hover {
         line-height: calc(var(--section-one-font-size) + 0.2rem);
         font-weight: 500;
         letter-spacing: -0.01rem;
+}
+
+.section-2 + .paragraph,
+.section-3 + .paragraph,
+.section-4 + .paragraph,
+.section-5 + .paragraph,
+.section-6 + .paragraph {
+    margin-top: -0.5rem;
 }
 
 @media all and (max-width: 428px) {
@@ -401,15 +406,19 @@ a:not(.image):not(.gallery-item):hover {
 .media:has(iframe) + .writing,
 .media:has(video) + .writing,
 .gallery-container + .writing {
-        padding-top: 1.2rem;
+        margin-top: 1.2rem;
 }
 
 .writing + .media > video {
-        padding-top: 1rem;
+        margin-top: 1rem;
 }
 
-.writing + .coding {
-        padding-top: 1rem;
+.writing:has(.admonitionblock:last-child) + .coding {
+        margin-top: 1rem;
+}
+
+.coding + .writing .admonitionblock {
+        margin-top: 1rem;
 }
 
 .section-2 {
@@ -1244,7 +1253,7 @@ kbd {
         width: 3rem;
         border-radius: 999px;
         margin-left: -23rem;
-        top: 3rem;
+        top: 1.2rem;
 }
 
 .movie-poster,
