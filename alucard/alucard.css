@@ -1,0 +1,30 @@
+.gallery-container + .writing {
+    font-size: calc(var(--paragraph-size) * 0.90);
+    font-style: italic;
+    font-optical-sizing: auto;
+    color: var(--paper-hover);
+    margin-top: -2.6rem;
+    text-align: center;
+    /* padding-left: 4rem; */
+}
+
+.gallery-container {
+    margin-top: 4rem;
+}
+
+hr {
+    border: solid var(--ink-secondary);
+    border-width: 1px;
+}
+
+.gallery-container + .writing p {
+    line-height: 1.4;
+    color: var(--ink-caption);
+}
+
+.gallery-container + .writing strong {
+    display: block;
+    margin-top: 0.2rem;
+    color: var(--paper-hover);
+    font-size: calc(var(--paragraph-size) * 0.95);
+}

@@ -1,0 +1,3 @@
+#+macro: img #+begin_gallery\n\n- [[$1][$2]] :flex $3 :no-zoom\n\n#+end_gallery
+
+#+macro: date ◊ $1 ◊ \
