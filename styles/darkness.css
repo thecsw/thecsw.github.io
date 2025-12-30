@@ -24,6 +24,7 @@
 :root {
         --font-main: "EB Garamond", serif;
         --font-code: "Fantasque Sans Mono", monospace;
+
         --paragraph-size: 1.37rem;
         --paragraph-size-mobile: 1.24rem;
         --paragraph-width: 40rem;
@@ -85,6 +86,8 @@
         --ink-primary: #2b2b2b;
         --ink-secondary: #55514d;
         --ink-muted: #7a746e;
+
+        --ink-caption: #b8b1a9;
 
         --ink-red: #9e2a2b;
         --ink-indigo: #2f3e46;
@@ -942,9 +945,9 @@ ol > li p,
         max-width: var(--toc-width);
 }
 
-.l1 {
-        /* empty because level 1 list items have no shifts */
-}
+/* .l1 { */
+/*         /\* empty because level 1 list items have no shifts *\/ */
+/* } */
 
 .l2 {
         margin-left: calc(1 * var(--list-margin-left));
