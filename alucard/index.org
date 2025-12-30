@@ -1,0 +1,31 @@
+{{{soot_darker}}}
+#+setupfile: _alucard.org
+#+html_head: <link rel="stylesheet" type="text/css" href="alucard.css">
+* Let us dream instead.
+
+/Let me explain. The Moon used to represent the world of fantasy and dreams. Now
+even the Moon has been conquered and become mundane. In today's world, all of
+it's legends and mysteries have been exposed, explained, and rendered plain and
+boring in the harsh light of day! We lament such trends. We've gathered here to
+resist./
+
+#+html_tags: style="text-align:right";
+--- Count Alucard from /I.L/
+
+I've taken some pictures throughout the years, which I've been meaning to
+publish for a long long while. The time had finally come. Many are shot on my
+iPhone 13 Mini in raw with Halide.
+
+-----
+
+{{{img(2024/2024-02-04 kitchen.webp | Tea, Sweets, and Ink. | 60)}}}
+{{{date(Sunday, February 4th, 12024 H.E.)}}}
+*This is how I like to write my heart out.*
+
+{{{img(2024/2024-01-16 najimi.webp | I just love their spunk and energy. | 35)}}}
+{{{date(Tuesday, January 16th, 12024 H.E.)}}}
+*I love them Najimi notebooks---got enough for a lifetime.*
+
+{{{img(2024/2024-01-11 snow.webp | I thought this looked so cool. | 70)}}}
+{{{date(Thursday, January 11th, 12024 H.E.)}}}
+*It was snowing that day and with nobody out---it was cold.*
