@@ -33,7 +33,11 @@ invest myself in what I'm about to watch.
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌────────────────────┐
- │    To Be Hero X    ├───────────────────┐
+ │   One Punch Man 3  │
+ ├────────────────────┼───────────────────┐
+ │SPY×FAMILY Season 3 │   Chainsaw Man:   │
+ ├────────────────────┤     Reze-hen      │
+ │    To Be Hero X    ├───────────────────┤
  ├────────────────────┤    Toaru Kagaku   │
  │  Rascal Does Not   │    no Railgun S   │
  │     Dream of a     ├───────────────────┤
