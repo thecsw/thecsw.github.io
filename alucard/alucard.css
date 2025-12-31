@@ -11,7 +11,7 @@
 /* Only on larger screens, make the gap wider */
 @media all and (min-width: 900px) {
         .gallery-container {
-                margin-top: 3rem;
+                margin-top: 3.7rem;
         }
 }
 
