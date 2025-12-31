@@ -18,6 +18,18 @@ iPhone 13 Mini in raw with Halide.
 
 -----
 
+{{{img(2024/2024-08-05 beach.webp | It was cold this morning. | 90)}}}
+{{{date(Monday, August 5th, 12024 H.E.)}}}
+*What a better way to start the birthday?*
+
+{{{img(2024/2024-03-21 desert.webp | The Jungle Dome. | 65)}}}
+{{{date(Friday, March 21st, 12024 H.E.)}}}
+*Mitchell Park Domes Horticulture Conservatory in Milwaukee.*
+
+{{{img(2024/2024-02-17 the house.webp | Home sweet home. | 40)}}}
+{{{date(Monday, February 17th, 12024 H.E.)}}}
+*This was Heaven to me.*
+
 {{{img(2024/2024-02-04 kitchen.webp | Tea, Sweets, and Ink. | 60)}}}
 {{{date(Sunday, February 4th, 12024 H.E.)}}}
 *This is how I like to write my heart out.*
