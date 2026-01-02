@@ -18,6 +18,14 @@ iPhone 13 Mini in raw with Halide.
 
 -----
 
+{{{img(2024/2024-08-05 bitch in heat.webp | BITCH IN HEAT | 40 )}}}
+{{{date(Monday, August 5th, 12024 H.E.)}}}
+*Friend's lighter was pretty cool.*
+
+{{{img(2024/2024-08-05 beach the sun.webp | Oh, the water was gorge. | 80 )}}}
+{{{date(Monday, August 5th, 12024 H.E.)}}}
+*The air smells different.*
+
 {{{img(2024/2024-08-05 beach.webp | It was cold this morning. | 90)}}}
 {{{date(Monday, August 5th, 12024 H.E.)}}}
 *What a better way to start the birthday?*
