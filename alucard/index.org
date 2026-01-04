@@ -20,6 +20,10 @@ resist./
 
 -----
 
+{{{img(2024/2024-11-12 bouquet of wheat.webp | Coffee and wheat. | 40 )}}}
+{{{date(Tuesday, November 12th, 12024 H.E.)}}}
+*Found this bouquet of wheat at a coffee shop and thought it looked cute.*
+
 {{{img(2024/2024-11-09 matcha.webp | Matcha! | 75)}}}
 {{{date(Saturday, November 9th, 12024 H.E.)}}}
 *The creation of matcha.*
