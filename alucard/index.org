@@ -18,6 +18,10 @@ iPhone 13 Mini in raw with Halide.
 
 -----
 
+{{{img(2024/2024-08-16 swordfish toms.webp | Swordfish Tom's | 40)}}}
+{{{date(Friday, August 16th, 12024 H.E.)}}}
+*Nothing to see here but the best bar in Kansas City.*
+
 {{{img(2024/2024-08-05 bitch in heat.webp | BITCH IN HEAT | 40 )}}}
 {{{date(Monday, August 5th, 12024 H.E.)}}}
 *Friend's lighter was pretty cool.*
