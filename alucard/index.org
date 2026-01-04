@@ -18,6 +18,14 @@ iPhone 13 Mini in raw with Halide.
 
 -----
 
+{{{img(2024/2024-09-14 charcuterie.webp | It was delicious. | 70)}}}
+{{{date(Saturday, September 14th, 12024 H.E.)}}}
+*She makes the most delicious food---this is how we greet guests.*
+
+{{{img(2024/2024-09-14 bartending.webp | My old setup. | 75)}}}
+{{{date(Saturday, September 14th, 12024 H.E.)}}}
+*This is how I started to hone my bartending skills.*
+
 {{{img(2024/2024-08-16 swordfish toms.webp | Swordfish Tom's | 40)}}}
 {{{date(Friday, August 16th, 12024 H.E.)}}}
 *Nothing to see here but the best bar in Kansas City.*
