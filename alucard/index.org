@@ -12,11 +12,113 @@ resist./
 #+html_tags: style="text-align:right";
 --- Count Alucard from /I.L/
 
-I've taken some pictures throughout the years, which I've been meaning to
-publish for a long long while. The time had finally come. Many are shot on my
-iPhone 13 Mini in raw with Halide.
+-----
+
+** Special exhibits
+
+/Coming soon!/
 
 -----
+
+{{{img(2024/2024-11-03 the plane.webp | A little dramatic. | 70)}}}
+{{{date(Sunday, November 3rd, 12024 H.E.)}}}
+*A little drama to boarding the plane.*
+
+{{{img(2024/2024-11-03 portland morning.webp | The trees! | 40)}}}
+{{{date(Sunday, November 3rd, 12024 H.E.)}}}
+*Oh to wake up to these Portland trees.*
+
+{{{img(2024/2024-10-31 italian restaurante.webp | Italian spot in Seattle. | 75)}}}
+{{{date(Thursday, October 31st, 12024 H.E.)}}}
+*This (truly) Italian spot in Seattle had fantastic cheese and bar.*
+
+{{{img(2024/2024-10-24 the sky.webp | The sky that day. | 85)}}}
+{{{date(Thursday, October 24th, 12024 H.E.)}}}
+*Walking around and seeing this view gave me an idea.*
+
+{{{img(2024/2024-10-13 the painting.webp | The boat at peace. | 70)}}}
+{{{date(Sunday, October 13th, 12024 H.E.)}}}
+*The little boat in our bedroom is at peace.*
+
+{{{img(2024/2024-09-29 last day.webp | Our last day in Duluth. | 90 )}}}
+{{{date(Sunday, September 29th, 12024 H.E.)}}}
+*Got to see this view on our last day in Duluth.*
+
+{{{img(2024/2024-09-28 the dinner.webp | The reception dinner. | 40)}}}
+{{{date(Saturday, September 28th, 12024 H.E.)}}}
+*Even got a stone named after me at the reception!*
+
+{{{img(2024/2024-09-28 borgir.webp | Borgir at the new scenic cafe. | 65)}}}
+{{{date(Saturday, September 28th, 12024 H.E.)}}}
+*This burger was just perfect to look at and enjoy the flavors of.*
+
+{{{img(2024/2024-09-28 the water.webp | The water by the cliff. | 70)}}}
+{{{date(Saturday, September 28th, 12024 H.E.)}}}
+*The water feels so fresh.*
+
+{{{img(2024/2024-09-28 the cliff.webp | The wedding place. | 70)}}}
+{{{date(Saturday, September 28th, 12024 H.E.)}}}
+*Wedding on a cliff---just gorgeous!*
+
+{{{img(2024/2024-09-28 coffee community.webp | Community in the area. | 35)}}}
+{{{date(Saturday, September 28th, 12024 H.E.)}}}
+*It's always warming to see small communities in travels.*
+
+{{{img(2024/2024-09-28 cute coffee shop.webp | Cute coffee shop. | 70)}}}
+{{{date(Saturday, September 28th, 12024 H.E.)}}}
+*Stopped at this real cute coffee shop somewhere in Minnesota.*
+
+{{{img(2024/2024-09-28 the morning.webp | The cliff to Heaven. | 40)}}}
+{{{date(Saturday, September 28th, 12024 H.E.)}}}
+*Little cliff in the morning before wedding.*
+
+{{{img(2024/2024-09-27 random carshow.webp | I don't understand cars. | 65)}}}
+{{{date(Friday, September 27th, 12024 H.E.)}}}
+*Random carshow by the gas station on our way back to airbnb.*
+
+{{{img(2024/2024-09-27 the day before.webp | I had the black manhattan. | 40)}}}
+{{{date(Friday, September 27th, 12024 H.E.)}}}
+*The cocktail menu for the night before our friends' wedding.*
+
+{{{img(2024/2024-09-26 hi.webp | A little creek. | 35)}}}
+{{{date(Thursday, September 26th, 12024 H.E.)}}}
+*Saying hi from a little random creek we found!*
+
+{{{img(2024/2024-09-26 directions.webp | Duluth directions | 40 )}}}
+{{{date(Thursday, September 26th, 12024 H.E.)}}}
+*Where do I go here?*
+
+{{{img(2024/2024-09-26 russ kendall.webp | Russ Kendall's | 75 )}}}
+{{{date(Thursday, September 26th, 12024 H.E.)}}}
+*Russ Kendall's has the smoked salmon to die for.*
+
+{{{img(2024/2024-09-26 3 new scenic cafe.webp | New Scenic Café | 40 )}}}
+{{{date(Thursday, September 26th, 12024 H.E.)}}}
+*New Scenic Café is a place borrowed from a fairy tale.*
+
+{{{img(2024/2024-09-26 duluth firetruck.webp | Cute firetruck. | 65 )}}}
+{{{date(Thursday, September 26th, 12024 H.E.)}}}
+*Surprising to see the ratio of these massive fire trucks in a small town.*
+
+{{{img(2024/2024-09-26 duluth coffee.webp | This massive roasting machine. | 40 )}}}
+{{{date(Thursday, September 26th, 12024 H.E.)}}}
+*I rarely see these big roasters out and about like this!*
+
+{{{img(2024/2024-09-26 remarkable.webp | My remarkable had that shadow. | 40)}}}
+{{{date(Thursday, September 26th, 12024 H.E.)}}}
+*I still love putting my anime stickers on my stuff.*
+
+{{{img(2024/2024-09-25 objects in mirror.webp | Objects in mirror are closer than they appear | 45 )}}}
+{{{date(Wednesday, September 25th, 12024 H.E.)}}}
+*The day is ending---let's ride into the night.*
+
+{{{img(2024/2024-09-25 joice kensett.webp | Joice Kensett | 70 )}}}
+{{{date(Wednesday, September 25th, 12024 H.E.)}}}
+*Who knows where in Iowa.*
+
+{{{img(2024/2024-09-21 woodford.webp | Good value bourbon. | 35 )}}}
+{{{date(Saturday, September 21st, 12024 H.E.)}}}
+*Woodford Reselve is some good bourbon---like candy when on the rocks.*
 
 {{{img(2024/2024-09-14 charcuterie.webp | It was delicious. | 70)}}}
 {{{date(Saturday, September 14th, 12024 H.E.)}}}
