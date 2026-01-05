@@ -20,9 +20,29 @@ resist./
 
 -----
 
+{{{img(2024/2024-12-29 about you.webp | About You. | 70)}}}
+{{{date(Sunday, December 29th, 12024 H.E.)}}}
+*Thinking about you.*
+
+{{{img(2024/2024-12-15 savoy.webp | Savoy... | 65)}}}
+{{{date(Sunday, December 15th, 12024 H.E.)}}}
+*I really miss this place; too bad the owners took a wrong direction.*
+
 {{{img(2024/2024-11-12 bouquet of wheat.webp | Coffee and wheat. | 40 )}}}
 {{{date(Tuesday, November 12th, 12024 H.E.)}}}
 *Found this bouquet of wheat at a coffee shop and thought it looked cute.*
+
+{{{img(2024/2024-11-09 onion martini.webp | Onion martini? | 50)}}}
+{{{date(Saturday, November 9th, 12024 H.E.)}}}
+*This was a very potent onion-jabanero-pickled martini?*
+
+{{{img(2024/2024-11-09 culinaria.webp | Culinaria. | 55 )}}}
+{{{date(Saturday, November 9th, 12024 H.E.)}}}
+*This was a nice spot.*
+
+{{{img(2024/2024-11-09 random anime figure.webp | Who is this? | 50)}}}
+{{{date(Saturday, November 9th, 12024 H.E.)}}}
+*Random anime figure I saw.*
 
 {{{img(2024/2024-11-09 matcha.webp | Matcha! | 75)}}}
 {{{date(Saturday, November 9th, 12024 H.E.)}}}
