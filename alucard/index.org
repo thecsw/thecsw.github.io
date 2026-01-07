@@ -10,7 +10,7 @@ boring in the harsh light of day! We lament such trends. We've gathered here to
 resist./
 
 #+html_tags: style="text-align:right";
---- Count Alucard from /I.L/
+--- Count Alucard from /[[https://sandyuraz.com/books/goodreads/I.L][I.L]]/
 
 -----
 
