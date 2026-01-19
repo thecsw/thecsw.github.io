@@ -1,3 +1,4 @@
+{{{book}}}
 #+date: 360; 12023 H.E.
 * Sayonara Eri 📱
 
