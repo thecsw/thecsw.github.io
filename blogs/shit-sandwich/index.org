@@ -1,4 +1,4 @@
-#+options: preview-generate:t
+#+options: preview-generate:t tomb:nil
 #+date: 338; 12025 H.E. 2133 PST
 * Against shit sandwiches 🥙
 
@@ -26,22 +26,22 @@ Scrolling through Goodreads one day, I stumbled upon a review from an old
 acquaintance on a book that I have never heard of, never read, and never
 planning to. However, the writing and thoughts expressed were so bland
 that I simply had to say something about it. It irked me in such a way
-that shaking it off proved to be an annoying exercise of an itself. So, to
+that shaking it off proved to be an annoying exercise of in itself. So, to
 protect the identities of everyone involved, I present a heavily redacted and
 abridged version, but the one that keeps the general spirit of it.
 
 #+begin_quote
 It was *incredible* to gain an inside perspective on the workings of
-=[company]=. The narrative somitemes leans into personal grudges than being
+=[company]=. The narrative sometimes leans into personal grudges than being
 presented with balanced perspective on the events that occurred. The author
 frequently portrays themselves as being on the “right” side of history, which at
 times made it feel like they have not gone enough in depth into the
 =[company]=. In conclusion, while the book offers some worthwhile observations, I
-found myself wanting for a more balanced and and introspective approach overall.
+found myself wanting for a more balanced and introspective approach overall.
 #+end_quote
 
 Thinking about it, the whole thing presents no strong ideas about anything,
-lukewarming all the way through. Nothing specific, no claims, but presented with
+lukewarm all the way through. Nothing specific, no claims, but presented with
 an air of authority. Boring flowery language that renders the core message
 flat. Emotions as eloquently expressed as meeting would in a conference
 room. With a shit sandwich to finish the meal, virtue signaling ``taste.''
@@ -56,4 +56,4 @@ fingerprint. *Effect*: It reads like AI wrote it... even though it's just someon
 trying too hard to sound measured.
 #+end_quote
 
-Yikes. Okay, that's all. GO HAVE SEX or EAT CHINESE FOOD
+Lose your character, and the candle stays dark.
