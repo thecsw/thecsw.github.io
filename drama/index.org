@@ -106,3 +106,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 82 | [[file:boogie-nights/poster.webp][poster]] | [[boogie-nights][*Boogie Nights*]]                                            | Paul Thomas Anderson                 | United States                          | 1997 |
 | 83 | [[file:no-other-choice/poster.webp][poster]] | [[no-other-choice][*No Other Choice*]]                                          | Park Chan-wook                       | South Korea                            | 2025 |
 | 84 | [[file:garlic/poster.webp][poster]] | [[garlic][*Garlic Is as Good as Ten Mothers*]]                         | Les Blank                            | United States                          | 1980 |
+| 85 | [[file:chloe/poster.webp][poster]] | [[chloe][*Chloe*]]                                                    | Atom Egoyan                          | United States\ Canada\ France          | 2009 |
