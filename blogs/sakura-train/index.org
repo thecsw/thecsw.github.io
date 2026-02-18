@@ -1,5 +1,6 @@
 {{{soot}}}
-#+options: tomb:nil preview:back.jpg preview-height:721 preview-width:960
+#+options: tomb:nil preview-generate:nil
+#+options: preview:back.jpg preview-height:721 preview-width:960
 #+date: 49; 12026 H.E. 0443.35
 * Sakura Train and me 🌸
 In the brief happy periods that I get to reunite with my besto friendo who had
