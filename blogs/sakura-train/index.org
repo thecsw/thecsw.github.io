@@ -1,0 +1,43 @@
+{{{soot}}}
+#+options: tomb:nil preview:back.jpg preview-height:721 preview-width:960
+#+date: 49; 12026 H.E. 0443.35
+* Sakura Train and me 🌸
+In the brief happy periods that I get to reunite with my besto friendo who had
+just visited me, here, in the land that he had moved away from in pursuit of
+greatness, he nerd-sniped me with a /rolife/ building set---oh boy I [[https://sandyuraz.com/blogs/mini-library/][love]]
+those---where after grueling four or five hours, when I found myself awake at
+three in the morning before a weekday, still building it, let me introduce you,
+my dear reader, to some pictures I took.
+
+#+begin_gallery
+- [[full.webp][The full view in its total glory.]] :flex 50 :no-zoom
+- [[driver.webp][The guy in front is such a nice touch. All the people inside are!]] :flex 45 :no-zoom
+#+end_gallery
+
+My satisfaction with the pictures I've taken recently has been somewhat
+varied. I think I had reached a point due to multiple growing pains; the first
+one is my /13 mini/ dying on me in real time, glitching, freezing, and losing my
+what I thought to be perfect shots. And the other is trying to find and play
+with different styles and feelings I want to convey in my photos, so it's a work
+in progress.
+
+#+begin_gallery
+- [[front.webp][I broke one of the rails and spent half an hour gluing.]] :flex 45 :no-zoom
+- [[back.webp][I thought of taking this shot from the POV of a passenger.]] :flex 50 :no-zoom
+#+end_gallery
+
+#+begin_gallery
+- [[inside.webp][The little guys are inside!]] :flex 50 :no-zoom
+- [[side.webp][Feels magical.]] :flex 45 :no-zoom
+#+end_gallery
+
+Giving the /Sakura Train/ a little LED strip inside was such a nice touch by the
+designer of the kit. Taking some pictures right after I had finished building it
+gave some strong /Spirited Away/ vibes.
+
+How about we take the train home? It should be here soon.
+
+#+begin_gallery
+- [[mung.webp][Mung and the train.]] :flex 45 :no-zoom
+- [[night.webp][Could the vibes be any stronger?]] :flex 50 :no-zoom
+#+end_gallery
