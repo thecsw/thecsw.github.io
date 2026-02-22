@@ -33,7 +33,15 @@ invest myself in what I'm about to watch.
 #+html_tags: style="width:25rem";
 #+begin_src
                       ┌───────────────────┐
- ┌────────────────────┤  Is It Wrong to   │
+                      │   Shimoneta to    │
+ ┌────────────────────┤     Iu Gainen     │
+ │      5─toubun      │ ga Sonzai Shinai  │
+ │    no Hanayome*    │ Taikutsu na Sekai │
+ ├────────────────────┼───────────────────┤
+ │   Kaguya─sama wa   │     5─toubun      │
+ │    Kokurasetai:    │   no Hanayome∽    │
+ │ Otona e no Kaidan  ├───────────────────┤
+ ├────────────────────┤  Is It Wrong to   │
  │   Rascal Does Not  │   Try to Pick     │
  │Dream of Santa Claus│    Up Girls in a  │
  ├────────────────────┤Dungeon? V: Goddess│
