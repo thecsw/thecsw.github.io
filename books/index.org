@@ -121,6 +121,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
  ┌───────────────────────────────────────┐
+ │       The Drops of God, Volume 2      │
+ ├───────────────────────────────────────┤
  │   Komi Can't Communicate, Volume 36   │
  ├───────────────────────────────────────┤
  │             The Gods Lie.             │
