@@ -32,9 +32,9 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
-                      ┌───────────────────┐
-                      │   Shimoneta to    │
- ┌────────────────────┤     Iu Gainen     │
+ ┌────────────────────┬───────────────────┐
+ │  Vampire Hunter D  │   Shimoneta to    │
+ ├────────────────────┤     Iu Gainen     │
  │      5─toubun      │ ga Sonzai Shinai  │
  │    no Hanayome*    │ Taikutsu na Sekai │
  ├────────────────────┼───────────────────┤
