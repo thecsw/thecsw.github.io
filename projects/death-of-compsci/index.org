@@ -1,1 +1,20 @@
 * The Death of the Art of Computer Science 🪽
+
+Even the scent of my engineering department's hallways hadn't changed. All these
+years, the physical sensation is the same, but I am emotionally distant. What a
+familiar place with such unfamiliar faces. It is
+an honor to get invited every year to host a lecture and get the opportunity to
+part knowledge on the soon-to-be-graduates with everything that I wish I had
+known when I sat where they are sitting now. Starting with the more practical
+subjects such as offer letters, negotiations, and even how shares work, the
+focus of questions I would get every year started shifting more and more towards
+AI. If four years ago it was a /maybe/ a question, then last year almost all were
+just about the elephant in the room, which I did not cover then in earnest. This
+year is going to be different. I will say what I must say. Following my---what I
+consider my finest talk---[[https://sandyuraz.com/projects/art/][The Art of Computer Science ❤️]], we know must talk about
+this brave new world we found ourselves in. It has no empathy and the gap is
+only getting wider.
+
+→ You can see the [[The Death of The Art of Computer Science.pdf][presented deck slide]].
+
+→ The [[death-of-compsci.pdf][speech itself]] has been typed in LaTeX for old time's sake.
