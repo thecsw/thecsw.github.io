@@ -32,7 +32,11 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
- ┌────────────────────┬───────────────────┐
+ ┌────────────────────┐
+ │   EVANGELION:30+;  ├───────────────────┐
+ │   Evangelion 30th  │  Vampire Hunter D:│
+ │ Anniversary Special│     Bloodlust     │
+ ├────────────────────┼───────────────────┤
  │  Vampire Hunter D  │   Shimoneta to    │
  ├────────────────────┤     Iu Gainen     │
  │      5─toubun      │ ga Sonzai Shinai  │

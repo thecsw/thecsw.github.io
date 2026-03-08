@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Wed, 18 Feb 2026 04:43:00 UTC</pubDate>
-    <lastBuildDate>Sun, 08 Mar 2026 20:00:04 UTC</lastBuildDate>
+    <pubDate>Sun, 08 Mar 2026 00:00:00 UTC</pubDate>
+    <lastBuildDate>Sun, 08 Mar 2026 20:29:44 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -12,6 +12,17 @@
     <language>en-us</language>
     <description>Visitor... Welcome to my Pink Lounge. This place exists between dream and reality, mind and matter. I hope you enjoy ...</description>
     <link>https://sandyuraz.com/</link>
+    <item>
+      <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/projects/death-of-compsci</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>The Death of the Art of Computer Science 🪽</title>
+      <link>https://sandyuraz.com/projects/death-of-compsci</link>
+      <description>Even the scent of my engineering department’s hallways hadn’t changed. All these years, the physical sensation is the same, but I am emotionally distant. What a familiar place with such unfamiliar faces. It is an honor to get invited every year to host a lecture and get the opportunity to part knowledge on the soon-to-be-graduates with everything that I wish I had known when I sat where they are sitting now. Starting with the more practical subjects such as offer letters, negotiations, and even how shares work, the focus of questions I would... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 08 Mar 2026 18:00:00 CDT</pubDate>
+    </item>
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
@@ -431,17 +442,6 @@
       <pubDate>Sun, 15 Jun 2025 18:00:00 CDT</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/life-of-chuck</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) The Life of Chuck</title>
-      <link>https://sandyuraz.com/drama/life-of-chuck</link>
-      <description>This felt like eating a nice dessert, not too heavy, but light and leaves you satisfied in the moment. There is a good message of the sheer scale of one’s inner Universe and the absolutely minuscule importance of one’s life in the grand scheme of the surrounding Universe. It’s a good contrast shown by the reverse chronological telling of Chuck’s life. Since I also happen to like Tom Hiddleston a bunch and went it to see the film on my birthday, it was a good treat for ... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Sat, 14 Jun 2025 18:00:00 CDT</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/joy</guid>
@@ -449,6 +449,17 @@
       <title>Crafting Joy in the Digital Age 🍀</title>
       <link>https://sandyuraz.com/blogs/joy</link>
       <description>We have these widespread series at work, where speakers are invited to present on any topic they find interesting—does not have to be related to anything one is working on nor does it even have to be about tech. Some talk about their gardens, others about financial planning, etc. And what a surprise, I got an invitation to become a speaker at the end of one of the maj... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 14 Jun 2025 18:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/life-of-chuck</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) The Life of Chuck</title>
+      <link>https://sandyuraz.com/drama/life-of-chuck</link>
+      <description>This felt like eating a nice dessert, not too heavy, but light and leaves you satisfied in the moment. There is a good message of the sheer scale of one’s inner Universe and the absolutely minuscule importance of one’s life in the grand scheme of the surrounding Universe. It’s a good contrast shown by the reverse chronological telling of Chuck’s life. Since I also happen to like Tom Hiddleston a bunch and went it to see the film on my birthday, it was a good treat for ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 14 Jun 2025 18:00:00 CDT</pubDate>
     </item>
@@ -466,22 +477,22 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/woman-in-witness-protection</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/taxing-woman</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Woman in Witness Protection</title>
-      <link>https://sandyuraz.com/drama/woman-in-witness-protection</link>
-      <description>Torpedoing ourselves back from the late 80s to late 90s, a perfect decade, I find myself in the same situation of seeing all the familiar faces maturing yet again with age as we come out of A Taxing Woman. Not much is different; Nobuko Miyamoto is the star that will steal the show, but in ways I could not have foreseen. Her acting was absolutely superb and it was the first for me in seeing the range she can pull between scenes and within the same scene as well. Going from a ramen chef to a tax inspector to a supermarket manager to an actor-... [ Continue reading... ]</description>
+      <title>(Film) A Taxing Woman</title>
+      <link>https://sandyuraz.com/drama/taxing-woman</link>
+      <description>Going through Juzo Itami’s filmography in an almost random-like order offers one of the more jarring experiences I have had with any other director’s portfolios. The one anchor that is impossible to remove from any of his films, to the point where it would not be a moving picture made by Juzo Itami—Nobuko Miyamoto starring as the central character, as the heroine of the story, the star that constantly steals the show. One cannot forget the recurring acting staff that pops in and out of his movies at a regula... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 24 May 2025 21:50:00 CDT</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/taxing-woman</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/woman-in-witness-protection</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) A Taxing Woman</title>
-      <link>https://sandyuraz.com/drama/taxing-woman</link>
-      <description>Going through Juzo Itami’s filmography in an almost random-like order offers one of the more jarring experiences I have had with any other director’s portfolios. The one anchor that is impossible to remove from any of his films, to the point where it would not be a moving picture made by Juzo Itami—Nobuko Miyamoto starring as the central character, as the heroine of the story, the star that constantly steals the show. One cannot forget the recurring acting staff that pops in and out of his movies at a regula... [ Continue reading... ]</description>
+      <title>(Film) Woman in Witness Protection</title>
+      <link>https://sandyuraz.com/drama/woman-in-witness-protection</link>
+      <description>Torpedoing ourselves back from the late 80s to late 90s, a perfect decade, I find myself in the same situation of seeing all the familiar faces maturing yet again with age as we come out of A Taxing Woman. Not much is different; Nobuko Miyamoto is the star that will steal the show, but in ways I could not have foreseen. Her acting was absolutely superb and it was the first for me in seeing the range she can pull between scenes and within the same scene as well. Going from a ramen chef to a tax inspector to a supermarket manager to an actor-... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 24 May 2025 21:50:00 CDT</pubDate>
     </item>
@@ -983,22 +994,22 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/scott-pilgrim</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/poor-things</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Scott Pilgrim vs. the World</title>
-      <link>https://sandyuraz.com/drama/scott-pilgrim</link>
-      <description>WE ARE SEX BOB-OMB! ONE! TWO! TH... [ Continue reading... ]</description>
+      <title>(Film) Poor Things</title>
+      <link>https://sandyuraz.com/drama/poor-things</link>
+      <description>Barbie circa. 2024 a... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 20 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/poor-things</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/scott-pilgrim</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Poor Things</title>
-      <link>https://sandyuraz.com/drama/poor-things</link>
-      <description>Barbie circa. 2024 a... [ Continue reading... ]</description>
+      <title>(Film) Scott Pilgrim vs. the World</title>
+      <link>https://sandyuraz.com/drama/scott-pilgrim</link>
+      <description>WE ARE SEX BOB-OMB! ONE! TWO! TH... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 20 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -1830,22 +1841,22 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/joker-neondroid</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika-neondroid</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Joker Neondroid ☕️</title>
-      <link>https://sandyuraz.com/plastic/joker-neondroid</link>
-      <description>My last year at college was the most grueling part of my life. Taking 21 credit hours, three majors, two jobs, not going to Ph.D. or graduate school in favor of going into corporate – it all weighs in on you. No one tells you this. One of the things that gave me immense comfort and an out was Joseph Anderson’s Persona 5 streams. I would watch them while falling asleep, working my jobs, and doing regular homework. A calming voice that was always there. It gave me peace. Very parasocial. ... [ Continue reading... ]</description>
+      <title>Ichika Neondroid 🕶️</title>
+      <link>https://sandyuraz.com/plastic/ichika-neondroid</link>
+      <description>Ichika looks so cute in her glasses! Mwah. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Thu, 05 Jan 2023 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika-neondroid</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/joker-neondroid</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Ichika Neondroid 🕶️</title>
-      <link>https://sandyuraz.com/plastic/ichika-neondroid</link>
-      <description>Ichika looks so cute in her glasses! Mwah. ... [ Continue reading... ]</description>
+      <title>Joker Neondroid ☕️</title>
+      <link>https://sandyuraz.com/plastic/joker-neondroid</link>
+      <description>My last year at college was the most grueling part of my life. Taking 21 credit hours, three majors, two jobs, not going to Ph.D. or graduate school in favor of going into corporate – it all weighs in on you. No one tells you this. One of the things that gave me immense comfort and an out was Joseph Anderson’s Persona 5 streams. I would watch them while falling asleep, working my jobs, and doing regular homework. A calming voice that was always there. It gave me peace. Very parasocial. ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Thu, 05 Jan 2023 18:00:00 CST</pubDate>
     </item>
@@ -1863,17 +1874,6 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/rem</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Rem Summer RELAX 🍦</title>
-      <link>https://sandyuraz.com/plastic/rem</link>
-      <description>I don’t remember, but this figure must have been my first. It’s so cl... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/ichika</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Ichika 👜</title>
@@ -1885,11 +1885,11 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-aqua</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Darkness 🧤</title>
-      <link>https://sandyuraz.com/plastic/darkness-winter</link>
-      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
+      <title>Winter Aqua 🍶</title>
+      <link>https://sandyuraz.com/plastic/winter-aqua</link>
+      <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable – like at all. Sure, she is usually more trouble than she’s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
     </item>
@@ -1907,6 +1907,17 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/darkness-winter</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Winter Darkness 🧤</title>
+      <link>https://sandyuraz.com/plastic/darkness-winter</link>
+      <description>I might have lied in the previous page – I must have bought the Summer Rem figure and Winter Darkness at the same time! It is possible I saw both of them and decided to break bank (I was still just a university stu... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-rem</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Winter Rem 🌸</title>
@@ -1918,11 +1929,11 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-aqua</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/rem</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Winter Aqua 🍶</title>
-      <link>https://sandyuraz.com/plastic/winter-aqua</link>
-      <description>I never understood why people hate on Aqua from Konosuba. Sure, she always complains. Sure, she is not reliable – like at all. Sure, she is usually more trouble than she’s worth. But hey, hard to imagine life wi... [ Continue reading... ]</description>
+      <title>Rem Summer RELAX 🍦</title>
+      <link>https://sandyuraz.com/plastic/rem</link>
+      <description>I don’t remember, but this figure must have been my first. It’s so cl... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
     </item>
@@ -2028,11 +2039,11 @@
     <item>
       <category domain="https://sandyuraz.com/writings">I write 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/writings/politeness</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Politeness is Dead</title>
-      <link>https://sandyuraz.com/writings/politeness</link>
-      <description>Politeness theory was proposed by P. Brown and S. Levinson in the late 70s. It focuses on the original notion of politeness, which Mary Henningsen describes as „efforts on redressing the affronts to a person’s self-esteem of effectively claiming positive social values .&#34; The central concept of the theory is based on the idea of the face, understood in terms of sociology. “Face” is something that can be lost, maintained, or enhanced. &#34;Every person lives in a world of social encounters, involving him either in face-to-face or mediated conta... [ Continue reading... ]</description>
+      <title>The Star with No Name</title>
+      <link>https://sandyuraz.com/writings/nameless_star</link>
+      <description>Did you know Romania has a railway line between Bucharest and Sinaia, a mountain resort popular with high society thanks to its gambling and hotel scene? An express train hurriedly runs from its point of departure to its destination. Passengers on the train are either excited to get a lucky gambling streak at a casino or return to business as usual. Interestingly, none of the people on board would know a small provincial town on the railway. But we also must ask ourselves, how would they know? It’s not like the train ever bothers to stop ther... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 24 May 2022 18:00:00 CDT</pubDate>
     </item>
@@ -2050,11 +2061,11 @@
     <item>
       <category domain="https://sandyuraz.com/writings">I write 🥂</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/writings/politeness</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The Star with No Name</title>
-      <link>https://sandyuraz.com/writings/nameless_star</link>
-      <description>Did you know Romania has a railway line between Bucharest and Sinaia, a mountain resort popular with high society thanks to its gambling and hotel scene? An express train hurriedly runs from its point of departure to its destination. Passengers on the train are either excited to get a lucky gambling streak at a casino or return to business as usual. Interestingly, none of the people on board would know a small provincial town on the railway. But we also must ask ourselves, how would they know? It’s not like the train ever bothers to stop ther... [ Continue reading... ]</description>
+      <title>Politeness is Dead</title>
+      <link>https://sandyuraz.com/writings/politeness</link>
+      <description>Politeness theory was proposed by P. Brown and S. Levinson in the late 70s. It focuses on the original notion of politeness, which Mary Henningsen describes as „efforts on redressing the affronts to a person’s self-esteem of effectively claiming positive social values .&#34; The central concept of the theory is based on the idea of the face, understood in terms of sociology. “Face” is something that can be lost, maintained, or enhanced. &#34;Every person lives in a world of social encounters, involving him either in face-to-face or mediated conta... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 24 May 2022 18:00:00 CDT</pubDate>
     </item>
@@ -2072,17 +2083,6 @@
     <item>
       <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/stories/naked</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The awkward moment of me being naked at a conference</title>
-      <link>https://sandyuraz.com/stories/naked</link>
-      <description>I can’t be late. I can’t be late. I cannot be late. Donald Knuth himself is coming to the presentation tonight; I want to see him and all the other special guests we are having. Jame and Ethan should already be there. Hopefully it doesn’t start... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Tue, 03 May 2022 18:00:00 CDT</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
-      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/stories/deterrence</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>What are leader’s ethics on nuclear deterrence?</title>
@@ -2092,15 +2092,15 @@
       <pubDate>Tue, 03 May 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/anime">Anime is dying 🍶</category>
+      <category domain="https://sandyuraz.com/stories">Musings 🍯</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/anime/sao</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/stories/naked</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Sword Art Online ⚔️</title>
-      <link>https://sandyuraz.com/anime/sao</link>
-      <description>“I like Sword Art Online” is something you would hear rarely if you ask someone about their opinions on it. It’s such a popular series, as of 12021, the series has 26 million copies in print. However, it received some rather harsh united criticism from the Western audiences. Some of the top kitsu reviews include “Self-indulgent power fantasy about a soulless husk in black savin... [ Continue reading... ]</description>
+      <title>The awkward moment of me being naked at a conference</title>
+      <link>https://sandyuraz.com/stories/naked</link>
+      <description>I can’t be late. I can’t be late. I cannot be late. Donald Knuth himself is coming to the presentation tonight; I want to see him and all the other special guests we are having. Jame and Ethan should already be there. Hopefully it doesn’t start... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
-      <pubDate>Sat, 16 Apr 2022 18:00:00 CDT</pubDate>
+      <pubDate>Tue, 03 May 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
@@ -2110,6 +2110,17 @@
       <title>Haste slowly, my friend 🧸</title>
       <link>https://sandyuraz.com/blogs/haste</link>
       <description>I need to do this, I can’t miss that, and more is what we tell ourselves every day, trying to accomplish tasks and fill our “productivity meters` throughout the day. We hurry so much onto doing as many things as possible that no time is being left out to enjoy doing the things we... enjoy doing. You of course can like the things you do throughout the day, however, that time you spend just with yourself is as equally important. I ask myself, is this modern busyness needed or is its necessity something that we made ourselves b... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sat, 16 Apr 2022 18:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/anime">Anime is dying 🍶</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/anime/sao</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Sword Art Online ⚔️</title>
+      <link>https://sandyuraz.com/anime/sao</link>
+      <description>“I like Sword Art Online” is something you would hear rarely if you ask someone about their opinions on it. It’s such a popular series, as of 12021, the series has 26 million copies in print. However, it received some rather harsh united criticism from the Western audiences. Some of the top kitsu reviews include “Self-indulgent power fantasy about a soulless husk in black savin... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 16 Apr 2022 18:00:00 CDT</pubDate>
     </item>
@@ -2182,22 +2193,22 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/weird</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>What do I look like 🤳</title>
-      <link>https://sandyuraz.com/blogs/looks</link>
-      <description>I never intended for my website or persona on the internet to be hidden or anonymized. The online appearance I keep is pretty mainstream, yet predominantly isolated to sandyuraz.com. I have my real pictures scattered around from different platforms I used to have; allow me to share some... [ Continue reading... ]</description>
+      <title>Don’t be weird about it 🥡</title>
+      <link>https://sandyuraz.com/blogs/weird</link>
+      <description>An alternative title I had for this essay was Embracing Yourself, embracing your interests, and staying true to yourself. I’m getting ahead of myself. Let’s walk through some of my thought processes more c... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/weird</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/looks</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Don’t be weird about it 🥡</title>
-      <link>https://sandyuraz.com/blogs/weird</link>
-      <description>An alternative title I had for this essay was Embracing Yourself, embracing your interests, and staying true to yourself. I’m getting ahead of myself. Let’s walk through some of my thought processes more c... [ Continue reading... ]</description>
+      <title>What do I look like 🤳</title>
+      <link>https://sandyuraz.com/blogs/looks</link>
+      <description>I never intended for my website or persona on the internet to be hidden or anonymized. The online appearance I keep is pretty mainstream, yet predominantly isolated to sandyuraz.com. I have my real pictures scattered around from different platforms I used to have; allow me to share some... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 03 Apr 2022 18:00:00 CDT</pubDate>
     </item>

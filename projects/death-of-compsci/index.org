@@ -1,3 +1,4 @@
+#+date: 67; 12026 H.E.
 * The Death of the Art of Computer Science 🪽
 
 Even the scent of my engineering department's hallways hadn't changed. All these
