@@ -4,10 +4,12 @@
 #+email: sandy@sandyuraz.com
 #+options: toc:nil email:t
 #+title: The Death of the Art of Computer Science
+#+subtitle: EECS 582 Guest Lecture
 
 #+begin_quote
 /Written and delivered as a speech on February 25th, 2026, and left here, exactly as
-is, for the future to keep it honest./
+is, for the future to keep it honest. Not proofread. No AI used. None here is a
+representation of my employer's opinions./
 #+end_quote
 
 When it comes to AI, I quite dislike it. You could even say hate it. On every
@@ -84,7 +86,7 @@ for a stealth AI company. Stealth means that we are working away from the
 public's eye, pre-GA product, GA stands for General Availability, meaning
 whatever we sell is for you to buy.
 
-Working at an AI-first company, even from Microsoft, who had reach $4T market
+Working at an AI-first company, even from Microsoft, who had reached $4T market
 valuation, in only thanks to the massive AI push and OpenAI partnership,
 essentially, selling shovels in this gold rush, what we do know is moving so
 fast that in a week we collectively do more than we could at Microsoft in half a
@@ -130,7 +132,7 @@ one admires it intensely./
 
 #+begin_export latex
 \begin{flushright}
-\textit{All art is quite useless.}
+  \textit{All art is quite useless.}
 \end{flushright}
 #+end_export
 

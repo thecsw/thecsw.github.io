@@ -3,6 +3,7 @@
 What have I done? What do I do now? Ye shall not despair. Young boy, step forth
 and become legendary.
 
+- [[death-of-compsci][The Death of the Art of CompSci 🪽]]
 - [[monokuma][Shortening URLs in style 🧸]]
 - [[certificates][Creating custom TLS certs 🏔️]]
 - [[pid][Daemonize your go programs 👹]]

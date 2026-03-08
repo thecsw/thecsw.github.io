@@ -3,6 +3,7 @@ darkness_vendor
 .darkness/vendored
 darkness-stuff/vendored
 index.json
+_minted
 
 # nagito export files
 nagito_export*
