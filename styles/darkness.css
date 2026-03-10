@@ -179,6 +179,7 @@ body::before {
         margin-right: 0;
         margin-bottom: 3rem;
 
+        min-height: 100vh;
         background-image: radial-gradient(
                 rgba(0, 0, 0, 0.014) 1px,
                 transparent 1px

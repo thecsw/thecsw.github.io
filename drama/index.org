@@ -109,3 +109,4 @@ The design here is of course inspired by [[https://www.criterion.com/shop/browse
 | 85 | [[file:chloe/poster.webp][poster]] | [[chloe][*Chloe*]]                                                    | Atom Egoyan                            | United States\ Canada\ France          | 2009 |
 | 86 | [[file:innocents-abroad/poster.webp][poster]] | [[innocents-abroad][*Innocents Abroad*]]                                         | Les Blank\ Vikram Jayanti\ Chris Simon | United States                          | 1991 |
 | 87 | [[file:wild-at-heart/poster.webp][poster]] | [[wild-at-heart][*Wild at Heart*]]                                            | David Lynch                            | United States                          | 1990 |
+| 88 | [[file:eva-30/poster.webp][poster]] | [[eva-30][*Evangelion:30+;*]]                                          | Hideaki Anno                           | Japan                                  | 2026 |
