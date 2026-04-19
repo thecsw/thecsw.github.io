@@ -14,7 +14,7 @@
 
 #+begin_gallery
 - [[caffe-corretto/caffe-corretto.jpg][Caffè corretto]] [[caffe-corretto][<-- caffe-corretto]]
-- [[old-pal/old-pal.jpg][Grapefruit Sazerac]] [[old-pal][<-- old-pal]]
+- [[old-pal/old-pal.jpg][Old Pal]] [[old-pal][<-- old-pal]]
 - [[sazerac/sazerac.jpg][Grapefruit Sazerac]] [[sazerac][<-- sazerac]]
 - [[manhattan/manhattan.jpg][Sandy's Manhattan]] [[manhattan][<-- manhattan]]
 - [[daiquiri/daiquiri.webp][The basics of mixing]] [[daiquiri][<-- daiquiri]]

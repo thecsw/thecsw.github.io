@@ -2,8 +2,8 @@
   <channel>
     <copyright>Copyright 2023, Sandy Urazayev</copyright>
     <managingEditor>sandy@sandyuraz.com (Sandy Urazayev)</managingEditor>
-    <pubDate>Sun, 08 Mar 2026 00:00:00 UTC</pubDate>
-    <lastBuildDate>Sat, 18 Apr 2026 22:09:32 UTC</lastBuildDate>
+    <pubDate>Sun, 19 Apr 2026 11:27:00 UTC</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2026 16:36:11 UTC</lastBuildDate>
     <category>Blog</category>
     <generator>Darkness (sandyuraz.com/darkness)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -13,6 +13,17 @@
     <description>Visitor... Welcome to my Pink Lounge. This place exists between dream and reality, mind and matter. I hope you enjoy ...</description>
     <link>https://sandyuraz.com/</link>
     <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/lost-highway</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Lost Highway</title>
+      <link>https://sandyuraz.com/drama/lost-highway</link>
+      <description>Yes. There is no need for discussion or explaining... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 19 Apr 2026 11:27:00 CDT</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/projects">Projectsss 🍥</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/projects/death-of-compsci</guid>
@@ -20,6 +31,17 @@
       <title>The Death of the Art of Computer Science 🪽</title>
       <link>https://sandyuraz.com/projects/death-of-compsci</link>
       <description>Even the scent of my engineering department’s hallways hadn’t changed. All these years, the physical sensation is the same, but I am emotionally distant. What a familiar place with such unfamiliar faces. It is an honor to get invited every year to host a lecture and get the opportunity to part knowledge on the soon-to-be-graduates with everything that I wish I had known when I sat where they are sitting now. Starting with the more practical subjects such as offer letters, negotiations, and even how shares work, the focus of questions I would... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Sun, 08 Mar 2026 18:00:00 CDT</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/casino</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Film) Casino</title>
+      <link>https://sandyuraz.com/drama/casino</link>
+      <description>As the casinos and mob-controlled enterprises had met their demise, so had the “good ol&#39; America,” which compared to today’s faceless enterprises that know no bounds to their greed, had character, and some personality, which we can see in full bloom in Martin Scorsese’s Casino topped to the brim with Joe Pesci’s violence—man, I would not want to be near that person ever, you know something had gone wrong that some decisions had led to him—with De Niro’s elegance, and my, Sharon Stone’s absolute femme fatale energy. Casino occupies t... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 08 Mar 2026 18:00:00 CDT</pubDate>
     </item>
@@ -525,7 +547,7 @@
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>(Film) Tokyo-Ga</title>
       <link>https://sandyuraz.com/drama/tokyo-ga</link>
-      <description>My family saw this right after we finished “Paris, Texas’&#39; and as we all like Wim Wenders’ films—Japan is also a cool topic—see this little treat on the Criterion Channel? What a treat it w... [ Continue reading... ]</description>
+      <description>My family saw this right after we finished “Paris, Texas” and as we all like Wim Wenders’ films—Japan is also a cool topic—see this little treat on the Criterion Channel? What a treat it w... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 21 Apr 2025 21:50:00 CDT</pubDate>
     </item>
@@ -1005,22 +1027,22 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/scott-pilgrim</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/poor-things</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Scott Pilgrim vs. the World</title>
-      <link>https://sandyuraz.com/drama/scott-pilgrim</link>
-      <description>WE ARE SEX BOB-OMB! ONE! TWO! TH... [ Continue reading... ]</description>
+      <title>(Film) Poor Things</title>
+      <link>https://sandyuraz.com/drama/poor-things</link>
+      <description>Barbie circa. 2024 a... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 20 Jan 2024 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/poor-things</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/scott-pilgrim</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Poor Things</title>
-      <link>https://sandyuraz.com/drama/poor-things</link>
-      <description>Barbie circa. 2024 a... [ Continue reading... ]</description>
+      <title>(Film) Scott Pilgrim vs. the World</title>
+      <link>https://sandyuraz.com/drama/scott-pilgrim</link>
+      <description>WE ARE SEX BOB-OMB! ONE! TWO! TH... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 20 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -1212,17 +1234,6 @@
       <pubDate>Mon, 01 Jan 2024 20:00:00 CST</pubDate>
     </item>
     <item>
-      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Books) Delicious in Dungeon 🥩</title>
-      <link>https://sandyuraz.com/books/goodreads/delicious-in-dungeon</link>
-      <description>Brings out the charm of more vintage RPGs and food wars style preparations of monster ingredients. Superb art style! I enjoyed reading the first volume, even though dungeon-crawling and fantasy settings are unfortunately not my preferred genre. Still, I would be interested to know how it goes, especially since TRIGGER is coming out with the anime adaptation of it pretty soon. I’ll try to stay up to date, maybe buy the manga, and read it when the time... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
-    </item>
-    <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/drama/sex-lies-videotape</guid>
@@ -1230,6 +1241,17 @@
       <title>(Film) sex, lies, and videotape</title>
       <link>https://sandyuraz.com/drama/sex-lies-videotape</link>
       <description>an exercise in film truth telling that I haven’t seen in a while, long while—viscerally real and bravely vulnerable on everything we won’t be shown in the landscape of the modern ... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
+    </item>
+    <item>
+      <category domain="https://sandyuraz.com/books/goodreads">Goodreads 📔</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/books/goodreads/delicious-in-dungeon</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>(Books) Delicious in Dungeon 🥩</title>
+      <link>https://sandyuraz.com/books/goodreads/delicious-in-dungeon</link>
+      <description>Brings out the charm of more vintage RPGs and food wars style preparations of monster ingredients. Superb art style! I enjoyed reading the first volume, even though dungeon-crawling and fantasy settings are unfortunately not my preferred genre. Still, I would be interested to know how it goes, especially since TRIGGER is coming out with the anime adaptation of it pretty soon. I’ll try to stay up to date, maybe buy the manga, and read it when the time... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Mon, 01 Jan 2024 18:00:00 CST</pubDate>
     </item>
@@ -1258,22 +1280,22 @@
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/perfect-blue</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/high-and-low</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) Perfect Blue</title>
-      <link>https://sandyuraz.com/drama/perfect-blue</link>
-      <description>Brilliant. What an insight into not only Japanese, but overabundant consumer-based and generally pre-occupied contemporary societies. Satoshi Kon was a ... [ Continue reading... ]</description>
+      <title>(Film) High and Low</title>
+      <link>https://sandyuraz.com/drama/high-and-low</link>
+      <description>I’m lost for words. The supreme summit of filmmaking and taking the creation of art as one of the most serious embarks ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 20:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/drama">That&#39;s drama.</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/drama/high-and-low</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/drama/perfect-blue</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>(Film) High and Low</title>
-      <link>https://sandyuraz.com/drama/high-and-low</link>
-      <description>I’m lost for words. The supreme summit of filmmaking and taking the creation of art as one of the most serious embarks ... [ Continue reading... ]</description>
+      <title>(Film) Perfect Blue</title>
+      <link>https://sandyuraz.com/drama/perfect-blue</link>
+      <description>Brilliant. What an insight into not only Japanese, but overabundant consumer-based and generally pre-occupied contemporary societies. Satoshi Kon was a ... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sat, 30 Dec 2023 20:00:00 CST</pubDate>
     </item>
@@ -1896,17 +1918,6 @@
     <item>
       <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/plastic/rem</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>Rem Summer RELAX 🍦</title>
-      <link>https://sandyuraz.com/plastic/rem</link>
-      <description>I don’t remember, but this figure must have been my first. It’s so cl... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
-      <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/plastic/winter-rem</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
       <title>Winter Rem 🌸</title>
@@ -1949,6 +1960,17 @@
       <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
     </item>
     <item>
+      <category domain="https://sandyuraz.com/plastic">Plastic love 🥖</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/plastic/rem</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>Rem Summer RELAX 🍦</title>
+      <link>https://sandyuraz.com/plastic/rem</link>
+      <description>I don’t remember, but this figure must have been my first. It’s so cl... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Wed, 21 Dec 2022 18:00:00 CST</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/stickers</guid>
@@ -1962,22 +1984,22 @@
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/wrapped-2</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/adam</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>My Spotify Wrapped for 2022 👩‍🎤</title>
-      <link>https://sandyuraz.com/blogs/wrapped-2</link>
-      <description>Well, well, well, here we are again! Almost a year later. World goes round, chaos happens, but we all patiently await for when Spotify drops new Wrapped. To get sentimental just for one fleeting moment – this was a tough year with its many downs and thankfully, many more ups. Let us see what music got us through those try... [ Continue reading... ]</description>
+      <title>The Creation of Adam 🧠</title>
+      <link>https://sandyuraz.com/blogs/adam</link>
+      <description>This was tough to pull off, but I successfully got The Creation of Adam from the Sistine Chapel. All it took was an amazon basics paint scraper, a steady hand, and a lot of patience. But hey, looks great in my li... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 04 Dec 2022 18:00:00 CST</pubDate>
     </item>
     <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/blogs/adam</guid>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/wrapped-2</guid>
       <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The Creation of Adam 🧠</title>
-      <link>https://sandyuraz.com/blogs/adam</link>
-      <description>This was tough to pull off, but I successfully got The Creation of Adam from the Sistine Chapel. All it took was an amazon basics paint scraper, a steady hand, and a lot of patience. But hey, looks great in my li... [ Continue reading... ]</description>
+      <title>My Spotify Wrapped for 2022 👩‍🎤</title>
+      <link>https://sandyuraz.com/blogs/wrapped-2</link>
+      <description>Well, well, well, here we are again! Almost a year later. World goes round, chaos happens, but we all patiently await for when Spotify drops new Wrapped. To get sentimental just for one fleeting moment – this was a tough year with its many downs and thankfully, many more ups. Let us see what music got us through those try... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Sun, 04 Dec 2022 18:00:00 CST</pubDate>
     </item>
@@ -2048,6 +2070,17 @@
       <pubDate>Tue, 28 Jun 2022 18:00:00 CDT</pubDate>
     </item>
     <item>
+      <category domain="https://sandyuraz.com/writings">I write 🥂</category>
+      <enclosure url="" type="" length="0"></enclosure>
+      <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
+      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
+      <title>The Star with No Name</title>
+      <link>https://sandyuraz.com/writings/nameless_star</link>
+      <description>Did you know Romania has a railway line between Bucharest and Sinaia, a mountain resort popular with high society thanks to its gambling and hotel scene? An express train hurriedly runs from its point of departure to its destination. Passengers on the train are either excited to get a lucky gambling streak at a casino or return to business as usual. Interestingly, none of the people on board would know a small provincial town on the railway. But we also must ask ourselves, how would they know? It’s not like the train ever bothers to stop ther... [ Continue reading... ]</description>
+      <author>Sandy Urazayev</author>
+      <pubDate>Tue, 24 May 2022 18:00:00 CDT</pubDate>
+    </item>
+    <item>
       <category domain="https://sandyuraz.com/blogs">Cozy blog 🍣</category>
       <enclosure url="" type="" length="0"></enclosure>
       <guid isPermaLink="true">https://sandyuraz.com/blogs/darkness</guid>
@@ -2066,17 +2099,6 @@
       <title>Politeness is Dead</title>
       <link>https://sandyuraz.com/writings/politeness</link>
       <description>Politeness theory was proposed by P. Brown and S. Levinson in the late 70s. It focuses on the original notion of politeness, which Mary Henningsen describes as „efforts on redressing the affronts to a person’s self-esteem of effectively claiming positive social values .&#34; The central concept of the theory is based on the idea of the face, understood in terms of sociology. “Face” is something that can be lost, maintained, or enhanced. &#34;Every person lives in a world of social encounters, involving him either in face-to-face or mediated conta... [ Continue reading... ]</description>
-      <author>Sandy Urazayev</author>
-      <pubDate>Tue, 24 May 2022 18:00:00 CDT</pubDate>
-    </item>
-    <item>
-      <category domain="https://sandyuraz.com/writings">I write 🥂</category>
-      <enclosure url="" type="" length="0"></enclosure>
-      <guid isPermaLink="true">https://sandyuraz.com/writings/nameless_star</guid>
-      <source url="https://sandyuraz.com/">Sandy’s Website ⛩️</source>
-      <title>The Star with No Name</title>
-      <link>https://sandyuraz.com/writings/nameless_star</link>
-      <description>Did you know Romania has a railway line between Bucharest and Sinaia, a mountain resort popular with high society thanks to its gambling and hotel scene? An express train hurriedly runs from its point of departure to its destination. Passengers on the train are either excited to get a lucky gambling streak at a casino or return to business as usual. Interestingly, none of the people on board would know a small provincial town on the railway. But we also must ask ourselves, how would they know? It’s not like the train ever bothers to stop ther... [ Continue reading... ]</description>
       <author>Sandy Urazayev</author>
       <pubDate>Tue, 24 May 2022 18:00:00 CDT</pubDate>
     </item>

@@ -1,0 +1,13 @@
+{{{film}}}
+{{{soot_darker}}}
+#+date: 109; 12026 H.E. 1127
+* Lost Highway
+*Yes.* There is no need for discussion or explaining anything.
+
+#+begin_center
+*/We've met before, haven't we?/*
+#+end_center
+
+/Lost Highway/ should be required reading before [[https://sandyuraz.com/drama/mulholland-drive/][/Mulholland Drive/]].
+
+{{{five}}}
