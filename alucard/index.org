@@ -16,7 +16,7 @@ resist./
 
 *** /we lay in peace.../
 
-#+html_tags: style="font-size: calc(var(--paragraph-size) * 1.8)";
+#+html_tags: style="font-size: calc(var(--paragraph-size) * 1.5)";
 🫳 [[her-painted-hands][/``Her Painted Hands''/]]
 
 -----
