@@ -3,8 +3,8 @@
 #+options: preview-generate:nil preview-width:750 preview-height:1000
 * ``/Her Painted Hands/''
 
-My dear reader, and one day, I hope, to call each other friends---welcome to the
-little corner I call my home. It's not much, it's not grandiose, it may not even
+My /dear reader/, and one day, I hope, to call each other /friends/---welcome to the
+little corner I call my home. It's not much; it's not grandiose; it may not even
 be comfortable for some.
 
 #+begin_gallery
@@ -13,7 +13,7 @@ be comfortable for some.
 #+end_gallery
 
 And I try, I do try, to make it home for all, but how can I if there is a
-universe sitting between a man and a man. Inasmuch you are still here, let me
+universe sitting between fellow men. Inasmuch you are still here, let me
 share with you one of my first collections of what I find fascinating.
 
 #+begin_gallery
@@ -22,7 +22,7 @@ share with you one of my first collections of what I find fascinating.
 #+end_gallery
 
 Whether be the great works of art or the lesser known or the ones known at most
-to their authors---the human touch and gentleness they radiate intoxicates me.
+to their authors---the human touch and gentleness they radiate intoxicate me.
 
 #+begin_gallery
 - [[her type.webp][her type]] :no-zoom :flex 45
