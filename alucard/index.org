@@ -9,16 +9,19 @@ it's legends and mysteries have been exposed, explained, and rendered plain and
 boring in the harsh light of day! We lament such trends. We've gathered here to
 resist./
 
-#+html_tags: style="text-align:right";
+#+html_tags: style="text-align:right"
 --- Count Alucard from /[[https://sandyuraz.com/books/goodreads/I.L][I.L]]/
 
 -----
 
-** Special exhibits
+*** /we lay in peace.../
 
-/Coming soon!/
+#+html_tags: style="font-size: calc(var(--paragraph-size) * 1.8)";
+🫳 [[her-painted-hands][/``Her Painted Hands''/]]
 
 -----
+
+*** /...and we dream on./
 
 {{{img(2024/2024-12-29 about you.webp | About You. | 70)}}}
 {{{date(Sunday, December 29th, 12024 H.E.)}}}
