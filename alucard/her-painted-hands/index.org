@@ -17,16 +17,16 @@ universe sitting between fellow men. Inasmuch you are still here, let me
 share with you one of my first collections of what I find fascinating.
 
 #+begin_gallery
-- [[the piano.webp][The piano]] :no-zoom :flex 50
-- [[her violin.webp][her violin]] :no-zoom :flex 45
+- [[the piano.webp][``The Sonata'' by Frederick Childe Hassam]] :no-zoom :flex 50
+- [[her violin.webp][``The Sonata'' by Irving Ramsay Wiles]] :no-zoom :flex 45
 #+end_gallery
 
 Whether be the great works of art or the lesser known or the ones known at most
 to their authors---the human touch and gentleness they radiate intoxicate me.
 
 #+begin_gallery
-- [[her type.webp][her type]] :no-zoom :flex 45
-- [[the ring.webp][the ring]] :no-zoom :flex 50
+- [[her type.webp][``Italian Woman at the Fountain'' by William Adolphe Bouguereau]] :no-zoom :flex 45
+- [[the ring.webp][``Caroline de Bassano, Marquise d'Espeuilles'' by John Singer Sargent]] :no-zoom :flex 50
 #+end_gallery
 
 A hand, a lip, the veins running down their arms, or be strand  of hair
@@ -34,8 +34,8 @@ seemingly out of place, but in the most attractive way; all the imperfections
 that make us perfect---that is what I want to discover.
 
 #+begin_gallery
-- [[piano fingers.webp][piano fingers]] :no-zoom :flex 50
-- [[ the rose.webp][the rose]] :no-zoom :flex 45
+- [[piano fingers.webp][``The Sonata'' by Irving Ramsay Wiles]] :no-zoom :flex 50
+- [[the rose.webp][unknown]] :no-zoom :flex 45
 #+end_gallery
 
 Please join me on small adventures of what I want to share, selfishly, for
@@ -43,7 +43,7 @@ myself, but if it brings joy to you, and that is more than I can ask, so I'm
 grateful.
 
 #+begin_gallery
-- [[the urn.webp][the urn]] :no-zoom :flex 35
+- [[the urn.webp][``Iris Carrying the Water of the River Styx to Olympus for the Gods to Swear By'' by Guy Head]] :no-zoom :flex 35
 - [[cecil wade.webp][Mrs. Cecil Wade]] :no-zoom :flex 60
 #+end_gallery
 
