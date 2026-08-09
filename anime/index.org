@@ -32,11 +32,24 @@ invest myself in what I'm about to watch.
 
 #+html_tags: style="width:25rem";
 #+begin_src
-                        ┌───────────────────┐
-                        │  Jujutsu Kaisen   │
-                        │     Season 3:     │
-                        │  The Culling Game │
-   ┌────────────────────┤       Part 1      │
+   ┌────────────────────┐
+   │  Eden of the East: │
+   │    Paradise Lost   ├───────────────────┐
+   ├────────────────────┤ Eden of the East: │
+   │  Eden of the East  │ The King of Eden  │
+   ├────────────────────┼───────────────────┤
+   │      Takopi's      │    Dr. STONE:     │
+   │    Original Sin    │   SCIENCE FUTURE  │
+   ├────────────────────┤      Part 3       │
+   │  Kono Subarashii   ├───────────────────┤
+   │      Sekai ni      │    Dr. STONE:     │
+   │   Shukufuku wo! 3  │   SCIENCE FUTURE  │
+   │   ─ BONUS STAGE ─  │      Part 2       │
+   ├────────────────────┼───────────────────┤
+   │ Terror in Resonance│  Jujutsu Kaisen   │
+   ├────────────────────┤     Season 3:     │
+   │  Samurai Champloo  │  The Culling Game │
+   ├────────────────────┤       Part 1      │
    │   EVANGELION:30+;  ├───────────────────┤
    │   Evangelion 30th  │  Vampire Hunter D:│
    │ Anniversary Special│     Bloodlust     │
