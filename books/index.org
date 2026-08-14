@@ -123,6 +123,8 @@ I'm also fond of manga, manhwa, and light novels! See the second bookshelf below
 #+html_tags: style="width:25rem";
 #+begin_src
    ┌───────────────────────────────────────┐
+   │       The Drops of God, Volume 4      │
+   ├───────────────────────────────────────┤
    │         Trillion Game, Volume 10      │
    ├───────────────────────────────────────┤
    │         Trillion Game, Volume 9       │
