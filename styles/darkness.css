@@ -538,6 +538,28 @@ a:not(.image):not(.gallery-item):hover {
         margin-bottom: 2rem;
 }
 
+.gallery-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: var(--gallery-gap);
+        align-self: stretch;
+}
+
+.gallery-row {
+        flex: 0 1 var(--v-flex);
+        min-height: 0;
+}
+
+.gallery-row-link {
+        display: block;
+        height: 100%;
+}
+
+.gallery-row-image {
+        object-fit: contain;
+}
+
 .no-gap {
         gap: 0;
 }
@@ -556,6 +578,11 @@ a:not(.image):not(.gallery-item):hover {
         /* border-style: double; */
         border-color: var(--color-text);
         z-index: 20; /* so it's above the border frame */
+}
+
+.gallery-item {
+        background-position: center;
+        background-repeat: no-repeat;
 }
 
 .gallery-item .item {
@@ -711,11 +738,11 @@ a:not(.image):not(.gallery-item):hover {
 
 @media all and (max-width: 600px) {
         .gallery-column {
-                display: contents !important;
+                display: contents;
         }
 
-        .gallery-column > .v-flex {
-                flex: 0 0 var(--flex-one) !important;
+        .gallery-column > .gallery-row {
+                flex: 0 0 var(--flex-one);
         }
 
         .flex-60,
@@ -1325,7 +1352,9 @@ kbd {
 
 /* This is apparently how lazysizes can control its loading animation */
 .item {
-        transition: transform 700ms ease-in-out, opacity 180ms ease-out;
+        transition:
+                transform 700ms ease-in-out,
+                opacity 180ms ease-out;
 }
 
 .item.lazyload,
