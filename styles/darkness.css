@@ -1325,7 +1325,7 @@ kbd {
 
 /* This is apparently how lazysizes can control its loading animation */
 .item {
-        transition: opacity 180ms ease-out;
+        transition: transform 700ms ease-in-out, opacity 180ms ease-out;
 }
 
 .item.lazyload,
