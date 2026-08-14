@@ -52,7 +52,7 @@ I'd call myself a coffee addict. Not a caffeine addict. I remember this guy in
 college that would just casually pop the biggest pills you have ever seen, he
 said he ``needed that caffeine in him to deal with his physics classes,'' which
 is not at all that surprising once someone gets to learn the absolute horrors of
-KU Physics education (deragotary).
+KU Physics education (derogatory).
 
 #+begin_gallery :path pics
 - [[window_coffee.webp][I prefer the darker roasts]] :flex 55 :no-zoom
