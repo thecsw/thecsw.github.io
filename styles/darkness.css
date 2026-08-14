@@ -396,7 +396,7 @@ a:not(.image):not(.gallery-item):hover {
 .section-4 + .paragraph,
 .section-5 + .paragraph,
 .section-6 + .paragraph {
-    margin-top: -0.5rem;
+        margin-top: -0.5rem;
 }
 
 @media all and (max-width: 428px) {
@@ -710,6 +710,14 @@ a:not(.image):not(.gallery-item):hover {
 }
 
 @media all and (max-width: 600px) {
+        .gallery-column {
+                display: contents !important;
+        }
+
+        .gallery-column > .v-flex {
+                flex: 0 0 var(--flex-one) !important;
+        }
+
         .flex-60,
         .flex-55,
         .flex-50,
@@ -1313,4 +1321,24 @@ kbd {
         font-size: 120%;
         margin-bottom: -0.5rem;
         margin-top: -1rem;
+}
+
+/* This is apparently how lazysizes can control its loading animation */
+.item {
+        transition: opacity 180ms ease-out;
+}
+
+.item.lazyload,
+.item.lazyloading {
+        opacity: 0.6;
+}
+
+.item.lazyloaded {
+        opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+        .item {
+                transition: none;
+        }
 }

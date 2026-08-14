@@ -1,0 +1,96 @@
+#+options: tomb:nil preview-generate:nil
+#+options: preview:preview.jpg preview-height:750 preview-width:1000
+#+html_head: <link rel="stylesheet" type="text/css" href="cafe.css">
+#+date: 225; 12026 H.E. 1823
+* Damn fine tiny cafe ☕️
+
+I love them miniatures. It started off with /Rolife/ series, where the first hit
+had come from a [[https://sandyuraz.com/blogs/mini-library/][tiny library]], followed by a [[https://sandyuraz.com/blogs/sakura-train/][sakura train]], and then some---well,
+it's this one---most surely one of the longest ones to build. What I was used to
+was a series of poppable pieces of wood that would definitely break off a piece
+when the smallest and most proper technique was applied, forcing me to attach
+the tiny piece back in; it was all accompanied with a muttering stream of
+first-grade curses that JJK writing staff needs to seek me out for.
+
+This was one of those that would have me sit down and focus whilst I would watch
+hours' worth of streamers playing the new 007 video game and even more of what
+it feels to be like never-ending stream of /Warhammer/ lore content, because, for
+the /Glory of the Emperor/, of course. And on that one, I had just bought my first
+ever sets of 40k figures---no intentions of building a 2k army, not even a 1k,
+really, not even playing the game at all---of /Adepta Sororitas/ and /Black Templar
+Crusade Ancient/. Wish me luck!
+
+I have rambled for long enough and thank you, so, BEHOLD before my new tiny
+cafe---which if it were anywhere near---would be forced to see me as their
+new top 1 customer by spend in both the money and in time. Rest in Peace,
+/Savoy/. Even if the new is /neat/, you are missed.
+
+#+begin_gallery :path pics
+- [[right_full.webp][The table view gives a serene look]] :flex 40 :no-zoom
+- [[central_full.webp][So many details that we are yet to dive into!]] :flex 55 :no-zoom
+#+end_gallery
+
+They had even printed out the tiny text to put on the table with a pen
+paperweight that you have to snip off its base. Every tulip was also
+individually assembled, glued, and glued at the base, so that they never fall
+out of the vase ever again.
+
+#+begin_gallery :path pics
+- [[the_table.webp][Just absurd the detailing and the time it goes into it]] :flex 55 :no-zoom
+- [[behind.webp][Only the Chinese media, like Wong Kar Wai LOVE these blocking shots]] :flex 40 :no-zoom
+#+end_gallery
+
+See the more artsy blocking shots from across the different points of the shop
+to capture that special /Je Ne Sais Quoi/.
+
+#+begin_gallery :path pics
+- [[more_coffee.webp][Almost real, right?]] :flex 40 :no-zoom
+- [[coffee.webp][I wonder what a Freddo is?]] :flex 55 :no-zoom
+#+end_gallery
+
+I'd call myself a coffee addict. Not a caffeine addict. I remember this guy in
+college that would just casually pop the biggest pills you have ever seen, he
+said he ``needed that caffeine in him to deal with his physics classes,'' which
+is not at all that surprising once someone gets to learn the absolute horrors of
+KU Physics education (deragotary).
+
+#+begin_gallery :path pics
+- [[window_coffee.webp][I prefer the darker roasts]] :flex 55 :no-zoom
+- [[milk.webp][Anything is better than skim milk]] :flex 40 :no-zoom
+#+end_gallery
+
+My wife calls me a creature of habits. Every morning, I'd make us a pour over
+with whatever beans that are found in the little corner of the kitchen that I
+have the utmost joy and opportunity to call mine; it is known in the wide and
+prosperous universe within the confines of our dwelling as /``Sandy's coffee
+station.''/
+
+#+begin_gallery :path pics
+- [[togo_cups.webp][Get some beans to go to support your local coffee shops]] :flex 45 :no-zoom
+- [[window_kettle.webp][I have them goose neck kettles, highly recommend one!]] :flex 45 :no-zoom :v-flex 50
+- [[from_below.webp][The chairs ended up getting glued as well]] :no-zoom :v-flex 95
+#+end_gallery
+
+My to-go order is /always/ *just* an Americano. Nothing better had been
+invented. Well, that is my test for any coffee shop. Think of it as a mirror to
+my bar test, where you could tell the experience of a bartender by their
+Martini, since the simpler the recipe is, the more the ingredients need to shine
+with the skill of their master.
+
+#+begin_gallery :path pics
+- [[final.webp][One final look, as if we are leaving this place]] :flex 45 :no-zoom :v-flex 55
+- [[buns.webp][Bagels, croissants, danish, turkey sandwich, burrito---it's a good morning]]
+  :flex 45 :no-zoom :v-flex 100
+- [[newspaper.webp][Oh how I would wish FT could deliver their paper editions, but alas]] :no-zoom
+  :flex 45 :flex-break
+#+end_gallery
+
+Appalling it is in how many places the beans are just not good; sometimes they
+are nothing short of repulsive. I appreciate the places where they can give an
+honest answer to my question, ``how are your beans?'' My local coffee shop
+roasts their own and my god it's like drinking /ambrosia/. The recipe is so
+secretive that even nobody on the staff, except for the owner, know everything
+that goes into their espresso.
+
+Something tells me, this miniature cafe would have a secret or two to keep it
+interesting. Ciao!
