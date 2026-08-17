@@ -1,0 +1,9 @@
+{{{soot}}}
+* Milwaukee River
+
+#+begin_gallery
+- [[2025-05-10 tiny house full.webp][What's there in the wall I see?]] :flex 45 :no-zoom
+- [[2025-05-10 tiny house front.webp][It's a tiny mouse in the wall!]] :flex 50 :no-zoom :v-flex 50
+- [[2025-05-10 tiny house right.webp][That is some pretty cool wall art]] :no-zoom :v-flex 95
+#+end_gallery
+

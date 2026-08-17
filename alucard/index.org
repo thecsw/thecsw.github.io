@@ -16,12 +16,65 @@ resist./
 
 *** /we lay in peace.../
 
-#+html_tags: style="font-size: calc(var(--paragraph-size) * 1.5)";
+#+html_tags: style="font-size: calc(var(--paragraph-size) * 1.5); line-height: 3.7rem;";
+# 🚤 [[milwaukee][/Milwaukee River/]] \
 🫳 [[her-painted-hands][/``Her Painted Hands''/]]
 
 -----
 
 *** /...and we dream on./
+
+{{{img(2025/2025-04-27 bookshelf.webp | Perfect Bookshelf | 55)}}}
+{{{date(Sunday, April 27th, 12025 H.E.)}}}
+*It's like that bookshelf from /Perfect Days/, low to the ground---perfect.*
+
+{{{img(2025/2025-04-22 factory.webp | The Factory | 70)}}}
+{{{date(Tuesday, April 22nd, 12025 H.E.)}}}
+*These make me think of David Lynch. I miss him.*
+
+{{{img(2025/2025-04-22 america.webp | Earth and Heaven | 70)}}}
+{{{date(Tuesday, April 22nd, 12025 H.E.)}}}
+*There is some peace to this, but I don't feel it.*
+
+{{{img(2025/2025-04-06 KU Posters.webp | KU Eng posters | 70)}}}
+{{{date(Sunday, April 6th, 12025 H.E.)}}}
+*Endearing to see all these clubs and stuff happening at KU.*
+
+{{{img(2025/2025-04-03 prime social bar view.webp | Prime View | 40)}}}
+{{{date(Thursday, April 3rd, 12025 H.E.)}}}
+*The decor is pleasant to the eye but man it's loud out there.*
+
+{{{img(2025/2025-04-03 prime social bar.webp | Prime Social | 70)}}}
+{{{date(Thursday, April 3rd, 12025 H.E.)}}}
+*Prime Social doesn't have the best drinks, but the view is worth it.*
+
+{{{img(2025/2025-03-27 vital cashier.webp | Old school cashier | 55)}}}
+{{{date(Thursday, March 27th, 12025 H.E.)}}}
+*The old school way of doing business.*
+
+{{{img(2025/2025-03-27 vital woman.webp | The back wall of vital tea leaf | 70)}}}
+{{{date(Thursday, March 27th, 12025 H.E.)}}}
+*One should not be surprised to be refused service when asking for a boba or chai tea.*
+
+{{{img(2025/2025-03-27 vital.webp | Vital Tea Leaf | 65)}}}
+{{{date(Thursday, March 27th, 12025 H.E.)}}}
+*A true hole in the wall kind of a place to get tea at.*
+
+{{{img(2025/2025-03-25 amtrak to sf 4.webp | Snowy peaks | 70)}}}
+{{{date(Tuesday, March 25th, 12025 H.E.)}}}
+*Sometimes I think to myself what it would be like to live in these lands.*
+
+{{{img(2025/2025-03-25 amtrak to sf 3.webp | Bluer than hey eyes | 75)}}}
+{{{date(Tuesday, March 25th, 12025 H.E.)}}}
+*John Ford would call this scene boring, but I like it.*
+
+{{{img(2025/2025-03-25 amtrak to sf 2.webp | Americana | 70)}}}
+{{{date(Tuesday, March 25th, 12025 H.E.)}}}
+*It's like in /Blue Velvet/, when the camera pans out to the blue sky from the green grass.*
+
+{{{img(2025/2025-03-25 amtrak to sf 1.webp | House Somewhere near Amtrak | 85)}}}
+{{{date(Tuesday, March 25th, 12025 H.E.)}}}
+*I keep coming back to this picture from our Seattle to SF Amtrak adventures.*
 
 {{{img(2025/2025-03-19 umi jjk.webp | JJK patches | 50)}}}
 {{{date(Wednesday, March 19th, 12025 H.E.)}}}
