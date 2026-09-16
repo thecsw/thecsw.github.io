@@ -100,7 +100,7 @@ jazzy soundtrack accompanied video (what I think is a trailer) with excerpts
 from /Ryuko/. I will link the video below with some extra art pieces taken from
 Mr. Yoshimizu's website and Twitter.
 
-[[https://youtu.be/9mC_7BnJYXQ][RYUKO Eldo YOSHIMIZU Le Lézard Noir]]
+{{{youtube_embed(ryuko-eldo-yoshimizu-le-lézard-noir.toml)}}}
 
 Eldo Yoshimizu reserves all rights, so please go to his platforms for more.\
 Thank you.

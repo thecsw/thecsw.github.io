@@ -71,7 +71,7 @@ The art is unique. I’m amazed how they found the perfect soundtrack for the
 show. I cannot ignore one of the most remarkable opening songs to date, one of
 the top 3 of my anime music collection.
 
-[[https://open.spotify.com/track/7jEwBMtA7gM43NxiuvfF3h][spotify track]]
+{{{spotify_embed(君のせい.toml)}}}
 
 Most of all, *protect Kaede at all costs.*
 

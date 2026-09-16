@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "7dEGgbP5Ld5mQfbpiwDjoe"
+url = "https://open.spotify.com/track/7dEGgbP5Ld5mQfbpiwDjoe?si=02fb6d8940484609"
+title = "Jungle (Radio Edit)"
+creator = "Tash Sultana"
+artwork = "jungle-radio-edit.jpg"
+duration_ms = 236876
+
+[colors]
+  background = "#535353"
+  background_tinted = "#333333"
+  text = "#ffffff"
+  text_subdued = "#cdcdcd"

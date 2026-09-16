@@ -27,7 +27,7 @@ would not witness anywhere else, not even close. /FLCL/ is accompanied by fabulo
 [[http://pillows.jp][The Pillows]], whose songs go so hard that it almost feels like they came from outer
 space. Please give the one below a good listen.
 
-[[https://youtu.be/acrLRi7juX8 ][acrLRi7juX8 ]]
+{{{youtube_embed(カーニバル-the-pillows.toml)}}}
 
 Have you ever seen a [[https://youtu.be/qmYt-zAW2aY?list=PLWyV9Ojt6_BlwTmnDtvHTCtq1cpUTz5Hr&t=656][scene animated]] as if it were a manga? I’m not talking about
 /Yakuza Turned Housewife/, a PowerPoint with voice-over. I’m talking about a fully

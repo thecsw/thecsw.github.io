@@ -1,0 +1,188 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-playlist"
+id = "59bal0ZSNOlRC6jwhu0ocw"
+url = "https://open.spotify.com/playlist/59bal0ZSNOlRC6jwhu0ocw"
+title = "Best of 12021"
+creator = "thecsw"
+artwork = "best-of-12021.jpg"
+
+[colors]
+  background = "#962800"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbfa0"
+
+[[tracks]]
+  id = "54BW4qpq5ms4bnzBgiWVOo"
+  url = "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo"
+  title = "NIGHT RUNNING"
+  artist = "Shin Sakiura, AAAMYYY"
+  duration_ms = 233666
+
+[[tracks]]
+  id = "4i0oGvIIrkoTLNCYJWnMvh"
+  url = "https://open.spotify.com/track/4i0oGvIIrkoTLNCYJWnMvh"
+  title = "Vitality"
+  artist = "Mittsies"
+  duration_ms = 227208
+
+[[tracks]]
+  id = "0E9W4ZDAl2ceQSJI8TOgOS"
+  url = "https://open.spotify.com/track/0E9W4ZDAl2ceQSJI8TOgOS"
+  title = "MISATO"
+  artist = "Shiro SAGISU"
+  duration_ms = 92066
+
+[[tracks]]
+  id = "6o97UuQmaxccF95fdt9PPR"
+  url = "https://open.spotify.com/track/6o97UuQmaxccF95fdt9PPR"
+  title = "FLY ME TO THE MOON - YOKO TAKAHASHI Acid Bossa Version"
+  artist = "Shiro SAGISU, Yoko Takahashi"
+  duration_ms = 230681
+
+[[tracks]]
+  id = "2zWivfUQjnXyUozQOrSCVc"
+  url = "https://open.spotify.com/track/2zWivfUQjnXyUozQOrSCVc"
+  title = "What A Life - Bonus Track"
+  artist = "Scarlet Pleasure"
+  duration_ms = 185942
+  explicit = true
+
+[[tracks]]
+  id = "4EkbGJChszyxhEP0bIwBSZ"
+  url = "https://open.spotify.com/track/4EkbGJChszyxhEP0bIwBSZ"
+  title = "空色デイズ"
+  artist = "Shoko Nakagawa"
+  duration_ms = 252173
+
+[[tracks]]
+  id = "0DI3WNmIyfi2GZLQwhYDQC"
+  url = "https://open.spotify.com/track/0DI3WNmIyfi2GZLQwhYDQC"
+  title = "KOMM, SUSSER TOD - M-10 Director's Edit Version"
+  artist = "Arianne"
+  duration_ms = 466481
+
+[[tracks]]
+  id = "0oCP1Vu9LGVP88atKzOswC"
+  url = "https://open.spotify.com/track/0oCP1Vu9LGVP88atKzOswC"
+  title = "ambiguous"
+  artist = "GARNiDELiA"
+  duration_ms = 272480
+
+[[tracks]]
+  id = "56dvEv8PIWFuc5vJQLPM0L"
+  url = "https://open.spotify.com/track/56dvEv8PIWFuc5vJQLPM0L"
+  title = "FLY ME TO THE MOON - 2020 Version"
+  artist = "Yoko Takahashi"
+  duration_ms = 272294
+
+[[tracks]]
+  id = "3eltl3hwhMakKmc2K7flgY"
+  url = "https://open.spotify.com/track/3eltl3hwhMakKmc2K7flgY"
+  title = "Ready to"
+  artist = "影森みちる(CV:諸星すみれ)"
+  duration_ms = 200160
+
+[[tracks]]
+  id = "7olMFQZhjN2EHf7ra2PjE7"
+  url = "https://open.spotify.com/track/7olMFQZhjN2EHf7ra2PjE7"
+  title = "Fly Away"
+  artist = "TeddyLoid"
+  duration_ms = 263826
+
+[[tracks]]
+  id = "3lQCsg0VaUkUYRhIK8JFY0"
+  url = "https://open.spotify.com/track/3lQCsg0VaUkUYRhIK8JFY0"
+  title = "ごめんね、いいコじゃいられない。"
+  artist = "Miku Sawai"
+  duration_ms = 283520
+
+[[tracks]]
+  id = "61QbfdMKmgCgGwWIdEeHNb"
+  url = "https://open.spotify.com/track/61QbfdMKmgCgGwWIdEeHNb"
+  title = "CHOCOLAT feat. Mariya Ise"
+  artist = "TCY FORCE, Mariya Ise"
+  duration_ms = 246805
+
+[[tracks]]
+  id = "1QFPI3slA71XOdiBV5qti1"
+  url = "https://open.spotify.com/track/1QFPI3slA71XOdiBV5qti1"
+  title = "The Cruel Angel's Thesis"
+  artist = "Yoko Takahashi"
+  duration_ms = 246362
+
+[[tracks]]
+  id = "6JXAzCUM0Drgc4FgVA6mGC"
+  url = "https://open.spotify.com/track/6JXAzCUM0Drgc4FgVA6mGC"
+  title = "Fallen Angel feat. Aimee B"
+  artist = "Mitsunori Ikeda, Aimee B"
+  duration_ms = 267600
+
+[[tracks]]
+  id = "6ft9PAgNOjmZ2kFVP7LGqb"
+  url = "https://open.spotify.com/track/6ft9PAgNOjmZ2kFVP7LGqb"
+  title = "Can't Take My Eyes off You"
+  artist = "Frankie Valli"
+  duration_ms = 203240
+
+[[tracks]]
+  id = "4DVlDXcA2SCgniIO5fz02B"
+  url = "https://open.spotify.com/track/4DVlDXcA2SCgniIO5fz02B"
+  title = "Darling."
+  artist = "ancient heiakim"
+  duration_ms = 163753
+
+[[tracks]]
+  id = "1cCiA83gJdLxSK4xumbPrK"
+  url = "https://open.spotify.com/track/1cCiA83gJdLxSK4xumbPrK"
+  title = "Carnival"
+  artist = "the pillows"
+  duration_ms = 97533
+
+[[tracks]]
+  id = "30kpqo2lUMRZcn9CwRXNPR"
+  url = "https://open.spotify.com/track/30kpqo2lUMRZcn9CwRXNPR"
+  title = "D City Rock feat. Debra Zeer"
+  artist = "TeddyLoid, Debra Zeer"
+  duration_ms = 272400
+
+[[tracks]]
+  id = "3DNRdudZ2SstnDCVKFdXxG"
+  url = "https://open.spotify.com/track/3DNRdudZ2SstnDCVKFdXxG"
+  title = "Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 - \"Moonlight Sonata\": I. Adagio sostenuto"
+  artist = "Ludwig van Beethoven, Paul Lewis"
+  duration_ms = 315426
+
+[[tracks]]
+  id = "0ekGJQiqn1DzeZ3w5AsBoH"
+  url = "https://open.spotify.com/track/0ekGJQiqn1DzeZ3w5AsBoH"
+  title = "KISS OF DEATH（Produced by HYDE）"
+  artist = "Mika Nakashima"
+  duration_ms = 248426
+
+[[tracks]]
+  id = "0pj90Ajg2NmdZalF67DfOF"
+  url = "https://open.spotify.com/track/0pj90Ajg2NmdZalF67DfOF"
+  title = "Ride on Shooting Star"
+  artist = "the pillows"
+  duration_ms = 141106
+
+[[tracks]]
+  id = "4MxL1VijbxrUGBu39TgzMY"
+  url = "https://open.spotify.com/track/4MxL1VijbxrUGBu39TgzMY"
+  title = "Pipo Password"
+  artist = "TeddyLoid, Bonjour Suzuki"
+  duration_ms = 265000
+
+[[tracks]]
+  id = "7rU6Iebxzlvqy5t857bKFq"
+  url = "https://open.spotify.com/track/7rU6Iebxzlvqy5t857bKFq"
+  title = "Plastic Love"
+  artist = "Mariya Takeuchi"
+  duration_ms = 294493

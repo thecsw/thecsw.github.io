@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "7jEwBMtA7gM43NxiuvfF3h"
+url = "https://open.spotify.com/track/7jEwBMtA7gM43NxiuvfF3h"
+title = "君のせい"
+creator = "the peggies"
+artwork = "君のせい.jpg"
+duration_ms = 263066
+
+[colors]
+  background = "#005b67"
+  background_tinted = "#003742"
+  text = "#ffffff"
+  text_subdued = "#72dcea"

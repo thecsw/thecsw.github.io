@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "3O30ywyRk6EKT68sBvVqOP"
+url = "https://open.spotify.com/track/3O30ywyRk6EKT68sBvVqOP?si=8e0ab38c66724c4e"
+title = "Hollywood Forever Cemetery Sings"
+creator = "Father John Misty"
+artwork = "hollywood-forever-cemetery-sings.jpg"
+duration_ms = 190613
+
+[colors]
+  background = "#9f0000"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbeb1"

@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4l0HxP8wm5iWHqo9myvFsm"
+url = "https://open.spotify.com/track/4l0HxP8wm5iWHqo9myvFsm?si=45f089de95424bc4"
+title = "Deceptacon"
+creator = "Le Tigre"
+artwork = "deceptacon.jpg"
+duration_ms = 184686
+explicit = true
+
+[colors]
+  background = "#335b43"
+  background_tinted = "#113924"
+  text = "#ffffff"
+  text_subdued = "#acd8bb"

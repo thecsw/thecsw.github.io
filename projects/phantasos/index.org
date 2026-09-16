@@ -17,4 +17,4 @@ been significantly inspired by [[https://sandyuraz.com/anime/sao/][Sword Art Onl
 
 Please see the final demo video below.
 
-[[https://youtu.be/cZjmoUuXd9k][Phantasos Final Demo]]
+{{{youtube_embed(phantasos-final-demo.toml)}}}

@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "6gijbGNDNNJgT60Aj7UCyc"
+url = "https://open.spotify.com/track/6gijbGNDNNJgT60Aj7UCyc"
+title = "Living in the Shadows"
+creator = "Matthew Perryman Jones"
+artwork = "living-in-the-shadows.jpg"
+duration_ms = 212386
+
+[colors]
+  background = "#535353"
+  background_tinted = "#333333"
+  text = "#ffffff"
+  text_subdued = "#cdcdcd"

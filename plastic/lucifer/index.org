@@ -23,4 +23,4 @@ imported and shipped from Japan Helltaker artbooks and doujinshi. You can even
 find in my [[https://sandyuraz.com/blogs/wrapped/][Wrapped 2021]] that /Vitality/ by Mittsies ranked at the very top of my
 all-time listens and still lingers there even two years later.
 
-[[https://open.spotify.com/track/4i0oGvIIrkoTLNCYJWnMvh][Vitality]]
+{{{spotify_embed(vitality.toml)}}}

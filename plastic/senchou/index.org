@@ -32,4 +32,4 @@ still lovely to look at). However, having one resembling a regular human's body
 (especially with its sweet imperfections) reveals a person's vulnerability or
 character, which makes it so endearing.
 
-[[https://open.spotify.com/track/7gl0IJpIHu1TtNT4hNiv9H?si=0bb28c0d9f024c97][Ahoy!!]]
+{{{spotify_embed(ahoy-我ら宝鐘海賊団.toml)}}}

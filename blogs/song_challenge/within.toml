@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "7Bxv0WL7UC6WwQpk9TzdMJ"
+url = "https://open.spotify.com/track/7Bxv0WL7UC6WwQpk9TzdMJ"
+title = "Within"
+creator = "Daft Punk"
+artwork = "within.jpg"
+duration_ms = 228506
+
+[colors]
+  background = "#455370"
+  background_tinted = "#26334d"
+  text = "#ffffff"
+  text_subdued = "#bdceef"

@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4YMqbFcDIFiCBd02PzUBcM"
+url = "https://open.spotify.com/track/4YMqbFcDIFiCBd02PzUBcM"
+title = "Thrift Shop (feat. Wanz)"
+creator = "Macklemore & Ryan Lewis, Wanz"
+artwork = "thrift-shop-feat-wanz.jpg"
+duration_ms = 235613
+explicit = true
+
+[colors]
+  background = "#404040"
+  background_tinted = "#5e5e5e"
+  text = "#ffffff"
+  text_subdued = "#cdcdcd"

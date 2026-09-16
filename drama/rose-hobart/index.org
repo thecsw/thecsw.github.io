@@ -51,6 +51,6 @@ unfounded. Maybe only founded in the lack of context and true interest.
 
 The coolest thing is that you can go and watch /Rose Hobart/ straight on YouTube,
 
-[[https://youtu.be/pQxtZlQlTDA][Rose Hobart]]
+{{{youtube_embed(rose-hobart-1936-by-joseph-cornell.toml)}}}
 
 {{{five}}}

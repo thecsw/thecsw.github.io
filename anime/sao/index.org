@@ -55,7 +55,7 @@ The whole reason I wanted to write this small blurb is to make a contrarian take
 that SAO is good, despite all of its ``shounen'' and power fantasy elements. No
 one would disagree that openings are absolute fire.
 
-[[https://youtu.be/KId6eunoiWk][Sword art Online Opening 1 - Crossing Field]]
+{{{youtube_embed(lisa-crossing-field.toml)}}}
 
 #+drop_cap
 This summarizes my opinion of not only the [[https://www.swordart-onlineusa.com/aincrad/][first season]] (dope website), but the
@@ -69,4 +69,4 @@ wants to go through all 100 levels and clear the game the way it was intended to
 be. With one movie released a year, I hope I can live to see the end, as they
 only cleared the very first level by the movie's finale.
 
-[[https://open.spotify.com/track/4y0y7mkWykv2pfOATQhkrB?si=2a5b1ef900ef4200][To see the future]]
+{{{spotify_embed(to-see-the-future-ed.toml)}}}

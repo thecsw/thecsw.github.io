@@ -9,7 +9,7 @@ that make us to be? Are we engineers, scientists, or artists?
 Let us talk and ponder on something that no one else does. We will come to
 revelations of our own and the future that awaits.
 
-[[https://youtu.be/JjN-eE4kti8][Youtube: The Art of Computer Science]]
+{{{youtube_embed(the-art-of-computer-science.toml)}}}
 
 The presentation deck from the video is below, [[deck.pdf][click here if it doesn't load]],
 

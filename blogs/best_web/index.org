@@ -6,77 +6,77 @@ with links! The list is completely biased
 
 *** Abba The Day Before You Came*
 
-[[https://youtu.be/SGZc72g_aPI][Abba The Day Before You Came]]
+{{{youtube_embed(day-before-you-came.toml)}}}
 
 *** Waiting with Makoto Shinkai 新海 誠
 
-[[https://youtu.be/vdORGV6_iPc][Waiting with Makoto Shinkai 新海 誠]]
+{{{youtube_embed(waiting-with-makoto-shinkai-新海-誠.toml)}}}
 
 *** SiM - The Rumbling
-[[https://youtu.be/OBqw818mQ1E][SiM - The Rumbling]]
+{{{youtube_embed(sim-the-rumbling-official-video.toml)}}}
 
 *** Aqua is my Waifu
-[[https://youtu.be/QJSBSPrS3gs][Aqua is my Waifu]]
+{{{youtube_embed(aqua-is-my-waifu.toml)}}}
 
 *** VanAnimation - Pink hair girl animation
-[[https://youtu.be/K9MCOhRx7i4][VanAnimation - Pink hair girl animation]]
+{{{youtube_embed(vananimation-pink-hair-girl-animation.toml)}}}
 
 *** Oh these?
-[[https://youtu.be/DczHdNwooY4][DczHdNwooY4]]
+{{{youtube_embed(oh-these.toml)}}}
 
 *** let down your hair, girl
-[[https://youtu.be/9r-rAW0gm0s][9r-rAW0gm0s]]
+{{{youtube_embed(273-let-down-your-hair-girl.toml)}}}
 
 *** Hot enough to fry an egg
-[[https://youtu.be/5fmRXFbFRr4][5fmRXFbFRr4]]
+{{{youtube_embed(222-hot-enough-to-fry-an-egg.toml)}}}
 
 *** Sour
-[[https://youtu.be/x19HCw64J7s][x19HCw64J7s]]
+{{{youtube_embed(sour.toml)}}}
 
 *** The gift of creation
-[[https://youtu.be/hFztL7tnk-s][hFztL7tnk-s]]
+{{{youtube_embed(39-the-gift-of-creation.toml)}}}
 
 *** Duality
-[[https://youtu.be/11eMV_yJXZw][11eMV_yJXZw]]
+{{{youtube_embed(duality.toml)}}}
 
 *** Damn, boy
-[[https://youtu.be/j5gDiXNjhEc][j5gDiXNjhEc]]
+{{{youtube_embed(damn-boy.toml)}}}
 
 *** Improvisational Comedy
-[[https://youtu.be/huJ81Mq2y34][huJ81Mq2y34]]
+{{{youtube_embed(improvisational-comedy.toml)}}}
 
 *** Me and the boys
-[[https://youtu.be/Kk6pw-PHiK0][Kk6pw-PHiK0]]
+{{{youtube_embed(me-and-the-boys.toml)}}}
 
 *** D City Rock - We are Angels [Anarchy]
-[[https://youtu.be/5KN0_-HgWNo][5KN0_-HgWNo]]
+{{{youtube_embed(d-city-rock-we-are-angels-anarchy.toml)}}}
 
 *** Gendo's paradise
-[[https://youtu.be/lP9DKGhUiaY][lP9DKGhUiaY]]
+{{{youtube_embed(gendo-s-paradise.toml)}}}
 
 *** The prophecy is true
-[[https://youtu.be/uwmeH6Rnj2E][uwmeH6Rnj2E]]
+{{{youtube_embed(cat-transcendence-limitless.toml)}}}
 
 *** Why is the milk gone
-[[https://youtu.be/KjeKiIa7XEk][KjeKiIa7XEk]]
+{{{youtube_embed(why-is-the-milk-gone.toml)}}}
 
 *** Scent Of A Woman - Tango scene
-[[https://youtu.be/0V0bMhYWz48][0V0bMhYWz48]]
+{{{youtube_embed(scent-of-a-woman-tango-scene.toml)}}}
 
 *** 009 Sound System
-[[https://youtu.be/GsWFMgzdfoE][GsWFMgzdfoE]]
+{{{youtube_embed(009-sound-system-shooting-youtube-tutorials.toml)}}}
 
 *** Scrabble story
-[[https://youtu.be/9czoezm2vqw][9czoezm2vqw]]
+{{{youtube_embed(norm-s-scrabble-story.toml)}}}
 
 *** Ferris Bueller's Parade
-[[https://youtu.be/tRcv4nokK50][tRcv4nokK50]]
+{{{youtube_embed(ferris-bueller-s-parade.toml)}}}
 
 *** Sharpest stand-up
-[[https://youtu.be/kyBH5oNQOS0][kyBH5oNQOS0]]
+{{{youtube_embed(george-carlin-7-words-you-can-t-say-on-tv.toml)}}}
 
 *** Best functional programming 
-[[https://youtu.be/a9xAKttWgP4][a9xAKttWgP4]]
+{{{youtube_embed(conway-s-game-of-life-in-apl.toml)}}}
 
 Here is an APL keyboard in unicode characters as a bonus:
 

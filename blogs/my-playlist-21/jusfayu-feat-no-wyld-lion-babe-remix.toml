@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "1EMvMRpG2uNX74ImDnrn3u"
+url = "https://open.spotify.com/track/1EMvMRpG2uNX74ImDnrn3u?si=943f15ff0c7643dd"
+title = "Jusfayu (feat. No Wyld) - Lion Babe Remix"
+creator = "KAMAUU, No Wyld, LION BABE"
+artwork = "jusfayu-feat-no-wyld-lion-babe-remix.jpg"
+duration_ms = 217863
+
+[colors]
+  background = "#8b3537"
+  background_tinted = "#600914"
+  text = "#ffffff"
+  text_subdued = "#ffbdb9"

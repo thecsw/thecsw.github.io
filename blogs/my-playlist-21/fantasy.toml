@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4IGAyCC3w5Io6CZEhaGUH2"
+url = "https://open.spotify.com/track/4IGAyCC3w5Io6CZEhaGUH2?si=f4cd8462b57844c3"
+title = "Fantasy"
+creator = "Eternity Forever"
+artwork = "fantasy.jpg"
+duration_ms = 210893
+
+[colors]
+  background = "#4e554e"
+  background_tinted = "#2e352e"
+  text = "#ffffff"
+  text_subdued = "#c8d0c8"

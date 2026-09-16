@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "3lGBvPUgO7MJltUnBlOpe9"
+url = "https://open.spotify.com/track/3lGBvPUgO7MJltUnBlOpe9?si=d050189578114e26"
+title = "Mass Appeal"
+creator = "Gang Starr"
+artwork = "mass-appeal.jpg"
+duration_ms = 221026
+explicit = true
+
+[colors]
+  background = "#9f0000"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbeb1"

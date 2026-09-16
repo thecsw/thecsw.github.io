@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "6DgvomZko5Rxpxh3V6RfGg"
+url = "https://open.spotify.com/track/6DgvomZko5Rxpxh3V6RfGg"
+title = "Por una Cabeza"
+creator = "Horacio Rivera"
+artwork = "por-una-cabeza.jpg"
+duration_ms = 137933
+
+[colors]
+  background = "#780808"
+  background_tinted = "#a1372e"
+  text = "#ffffff"
+  text_subdued = "#ffbeb2"

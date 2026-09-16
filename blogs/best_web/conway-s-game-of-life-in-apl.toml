@@ -1,0 +1,13 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "a9xAKttWgP4"
+url = "https://youtu.be/a9xAKttWgP4"
+title = "Conway's Game Of Life in APL"
+creator = "Dyalog"
+artwork = "conway-s-game-of-life-in-apl.jpg"

@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+locked = true
+needs_manual = true
+provider = "Spotify"
+kind = "spotify-track"
+id = "4y6Lpn5EVSMoiAW9q42RO4"
+url = "https://open.spotify.com/track/4y6Lpn5EVSMoiAW9q42RO4"
+title = "Stayin' Alive"
+creator = "Bee Gees"
+
+[colors]
+  background = "#6f1d1b"
+  background_tinted = "#2b0d0c"
+  text = "#fff8ef"
+  text_subdued = "#e7b9a8"

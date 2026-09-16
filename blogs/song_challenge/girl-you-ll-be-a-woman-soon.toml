@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5u6Woby9oKAF8LhhuxykH1"
+url = "https://open.spotify.com/track/5u6Woby9oKAF8LhhuxykH1"
+title = "Girl, You'll Be a Woman Soon"
+creator = "Urge Overkill"
+artwork = "girl-you-ll-be-a-woman-soon.jpg"
+duration_ms = 189626
+
+[colors]
+  background = "#303840"
+  background_tinted = "#505861"
+  text = "#ffffff"
+  text_subdued = "#c5cfd9"

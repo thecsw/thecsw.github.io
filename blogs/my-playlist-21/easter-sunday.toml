@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5aDZOMeCa6VuKJSENFsuGx"
+url = "https://open.spotify.com/track/5aDZOMeCa6VuKJSENFsuGx?si=d83ac1ac77e54c85"
+title = "Easter Sunday"
+creator = "Zelooperz, Earl Sweatshirt"
+artwork = "easter-sunday.jpg"
+duration_ms = 122737
+explicit = true
+
+[colors]
+  background = "#843c35"
+  background_tinted = "#5c1813"
+  text = "#ffffff"
+  text_subdued = "#ffbeb3"

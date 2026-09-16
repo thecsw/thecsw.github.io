@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4kSIqv25W9sPsfG45rt9kh"
+url = "https://open.spotify.com/track/4kSIqv25W9sPsfG45rt9kh?si=4577fb31cfd949fa"
+title = "Artificial Red"
+creator = "Mad Season"
+artwork = "artificial-red.jpg"
+duration_ms = 375666
+
+[colors]
+  background = "#535353"
+  background_tinted = "#333333"
+  text = "#ffffff"
+  text_subdued = "#cdcdcd"

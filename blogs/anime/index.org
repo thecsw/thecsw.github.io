@@ -103,6 +103,6 @@ day-to-day lives and routine already suffice for that.
 
 Anime music is also *incredible*. Here is my playlist with the ones I like a lot
 
-[[https://open.spotify.com/playlist/6P7ksZ5uGpVp4qq9gDhFlj ][spotify track]]
+{{{spotify_embed(amelia.toml)}}}
 
 Thank you for reading! Take care 

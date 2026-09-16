@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4JokCGmfIuyfSh0uV8fKcP"
+url = "https://open.spotify.com/track/4JokCGmfIuyfSh0uV8fKcP?si=58dc4cd4180d48d2"
+title = "Float On"
+creator = "Good Tiger"
+artwork = "float-on.jpg"
+duration_ms = 215506
+
+[colors]
+  background = "#794345"
+  background_tinted = "#542225"
+  text = "#ffffff"
+  text_subdued = "#febdbd"

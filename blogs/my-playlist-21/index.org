@@ -9,7 +9,7 @@ Oh yeah, how about that /My playlist #21/? hi, zuul🤠
 
 ** /Them Changes/ by Thundercat
 
-[[https://open.spotify.com/track/7CH99b2i1TXS5P8UUyWtnM?si=d1616c65f7124621][song]]
+{{{spotify_embed(them-changes.toml)}}}
 
 I'm in a small, funky bar, somewhere midtown. I don't know how I ended up. Did I
 drink too much? Where are my friends? Why am I alone? I have so many questions
@@ -18,7 +18,7 @@ I'm doing pretty good. This is a solid jam.
 
 ** /Show Me the Right/ by NEIL FRANCES
 
-[[https://open.spotify.com/track/7iaTCBWqabZxPhb1HgndsN?si=35c29f387e754b37][song]]
+{{{spotify_embed(show-me-the-right.toml)}}}
 
 Oooh, a nice pop. Feels like I need a refreshing, cool drink (definitely pour
 some alcohol in it), play it through a speaker, while I'm lounging on a
@@ -28,7 +28,7 @@ surroundings and music make you go, ``Everything is alright.''
 
 ** /Doomsday/ by MF DOOM
 
-[[https://open.spotify.com/track/7EQvdUJqZ2i7SWvSB2VqGA?si=d21ac6b084af4a12][song]]
+{{{spotify_embed(doomsday.toml)}}}
 
 Fire artist name, *MF DOOM*. Doo-doo-doo-doo-doo!. I had to re-listen to this a
 couple of times with the lyrics on to catch what the meaning is. Apparently,
@@ -50,7 +50,7 @@ I can see it!
 
 ** /Coco Mango/ by MF DOOM
 
-[[https://open.spotify.com/track/1JZW4KLFdvnpUfw3zSvsIl?si=7d52ae5d5ff24033][song]]
+{{{spotify_embed(coco-mango-flofilz-remix.toml)}}}
 
 Good opportunity to learn more about MF DOOM! I love these like 50s and 60s TV
 ads, whatever trans atlantic voice bits used as base drops. Goes hard. Similar
@@ -58,7 +58,7 @@ thoughts like on the above! That last 20 seconds were groovy
 
 ** /Their13/ by JGrrey
 
-[[https://open.spotify.com/track/63kj5bCib1ovmtty6OllEt?si=509df69b08bb42d2][song]]
+{{{spotify_embed(theirs13.toml)}}}
 
 Already love the opening. Kind of a bossa nova feeling with early 2000s, jazzy
 feeling to it. Hmmmmmm. The lyrics are sweet!! I believe this is about
@@ -67,7 +67,7 @@ finding yourself and who you are when entering a romantic relationship?
 
 ** /Gorilla/ by Little Simz
 
-[[https://open.spotify.com/track/0pJO1tc1GpnxFyQp6Zp82r?si=2fe7f236bf76402b][song]]
+{{{spotify_embed(gorilla.toml)}}}
 
 That drawl she has at the end of some lines is pretty sick. It's an interesting
 choice, which I like, to separate the song into section by using fanfares as the
@@ -82,7 +82,7 @@ From the same cloth as my dear ancestors''
 
 ** /I Hate Everything/ by The Alchemist
 
-[[https://open.spotify.com/track/67eqrRkxp2ED26CEqvqbDv?si=57c648d4d87844a5][song]]
+{{{spotify_embed(i-hate-everything-feat-action-bronson.toml)}}}
 
 Welcome back, fanfares! This one is kinda straightforward. Finding yourself.
 
@@ -90,7 +90,7 @@ Welcome back, fanfares! This one is kinda straightforward. Finding yourself.
 
 ** /Self/ from noname
 
-[[https://open.spotify.com/track/5rNqaOOSNGrYtMo4sLDXU6?si=0f51f1847c034192][song]]
+{{{spotify_embed(self.toml)}}}
 
 That line reading goes slapping. Super short and based. Pretty clean and shoots
 straight to the point. Gotta have that yin and yan.
@@ -98,7 +98,7 @@ straight to the point. Gotta have that yin and yan.
 
 ** /Easter Sunday/ by Zelooperz
 
-[[https://open.spotify.com/track/5aDZOMeCa6VuKJSENFsuGx?si=d83ac1ac77e54c85][song]]
+{{{spotify_embed(easter-sunday.toml)}}}
 
 I think I'm yet to get used to this style of rapping---it's using tunes and
 notes I'm not super familiar with, which is spinning my head a bit, but in a
@@ -106,14 +106,14 @@ good way. Can't really say what it's about yet... The backdrop rhythm is catchy!
 
 ** /kometostai.aintreallynootherwaytoputtitro/ by Knxwledge
 
-[[https://open.spotify.com/track/7oeNO6HoCTIHIuoNUp2Ur4?si=adac060251144b2d][song]]
+{{{spotify_embed(kometostai-aintreallynootherwaytoputitro.toml)}}}
 
 Love this aesthetic. And the cover is stylish too. That was a bit of a dreamy,
 hallucinatory experience. Solid
 
 ** /Hold My Head/ by Kenny Beats
 
-[[https://open.spotify.com/track/4eSZUNz2flCKs7zESV50kW?si=49a390e4ce3a4b61][song]]
+{{{spotify_embed(hold-my-head.toml)}}}
 
 Their opening line is cool,
 
@@ -127,7 +127,7 @@ intermitten drops are good
 
 ** /Deceptacon/ by Le Tigre
 
-[[https://open.spotify.com/track/4l0HxP8wm5iWHqo9myvFsm?si=45f089de95424bc4][song]]
+{{{spotify_embed(deceptacon.toml)}}}
 
 Kind of /le/ 80s style of a song. Ahhh, because it's like 80s, hard to say what it
 reminds me of, but the whole genre. The rebellious, punk-ish, a little bit of
@@ -135,7 +135,7 @@ daft on top when it comes to the melody.
 
 ** /One Night with The Valet/ by Tennis
 
-[[https://open.spotify.com/track/16aHQF9UlwO1JmwKBpCe2N?si=4cd3d42187b543d3][song]]
+{{{spotify_embed(one-night-with-the-valet.toml)}}}
 
 That's a charming title lol. Very... California? I can definitely imagine
 playing this while riding across the Bay, seeing the palm trees, and a warm cali
@@ -143,7 +143,7 @@ sun, while we talk about whatever---this is a great mood setter for that occasio
 
 ** /Charmed/ by Σtella
 
-[[https://open.spotify.com/track/6DYLWAdxEJvwWmT7EkeDkX?si=0c5d67f8478e4914][song]]
+{{{spotify_embed(charmed.toml)}}}
 
 Also a bit of a dreamy song... I think this would be a great selection to play
 in the background somewhere between 8-10pm on a warm Saturday evening. While the
@@ -161,7 +161,7 @@ Would you stay\
 
 ** /Je ne Te connais pas/ by Prototypes
 
-[[https://open.spotify.com/track/1N7ClAuAUHOvYjJeZbZ519?si=4446e6340d31458f][song]]
+{{{spotify_embed(je-ne-te-connais-pas.toml)}}}
 
 Hi, I don't know you either, the French version of /The Strokes/. hah. Ah, it's
 been a while since my high school French A2, but it definitely got that dog in
@@ -169,7 +169,7 @@ it, with boutique-esque lyrics, and the revolutionary spirit ✊
 
 ** /1 4 2/ by Inner Wave
 
-[[https://open.spotify.com/track/69Tf2qK9sYOi1ncnXrfIUV?si=36da326d12b54a8f][song]]
+{{{spotify_embed(1-4-2.toml)}}}
 
 I've got a problem too. If only I could show her. All the things I want to.
 
@@ -189,7 +189,7 @@ We fall in love and fall apart again\
 
 ** /Rockstar/ by N.E.R.D.
 
-[[https://open.spotify.com/track/2OQfyddAKv4FyelDJjGNHH?si=fc67f00a729b498c][song]]
+{{{spotify_embed(rockstar.toml)}}}
 
 The cooler version of a N.E.E.T. Dam that started strong, just no dinner, and
 straight to the line. Oh my, this is heavy, heavy on the ears and it dam knows
@@ -199,7 +199,7 @@ used to it, that's how it was with my starting into heavier metal and rock.
 
 ** /Rapp Snitch Knishes/ by MF DOOM
 
-[[https://open.spotify.com/track/4xz7WX28IkmcaHv06lCezR?si=b6be7ded33094aa4][song]]
+{{{spotify_embed(rapp-snitch-knishes-feat-mr-fantastik.toml)}}}
 
 MF DOOM!!! Welcome back to the programming. Your style stays consistent. I don't
 really know what's going on, but you are most certainly living up to your name
@@ -207,7 +207,7 @@ and I'm feeling it.
 
 ** /Rock Co.Kane Flow/ by De La Soul
 
-[[https://open.spotify.com/track/6RBMpENxbx74lTdR5SBcaF?si=a1c93b3211a946c4][song]]
+{{{spotify_embed(rock-co-kane-flow-feat-mf-doom.toml)}}}
 
 That beatttttttttttt. I see MF DOOM is also in it---I'm just here for the beats
 and that rap flow. I guess maybe I'm just built... wrong? Or maybe lack of
@@ -216,7 +216,7 @@ song in full before I form an opinion.
 
 ** /Put Your Records On/ by Ritt Momney
 
-[[https://open.spotify.com/track/6AGOKlMZWLCaEJGnaROtF9?si=ce39a5bff5b0491c][song]]
+{{{spotify_embed(put-your-records-on.toml)}}}
 
 Ritt Momney... why does that sound familiar? Oh my god, because it's [[https://en.wikipedia.org/wiki/Mitt_Romney][Mitt Romney]]
 lmao. This is a nice change of pace from the rap-style to something more pop and
@@ -228,7 +228,7 @@ keeps slamming harder and like... more... humongously as the song progresses.
 
 ** /Ridin Round/ by Kali Uchis
 
-[[https://open.spotify.com/track/4i7QbO97jhQWihsVIIQF3s?si=e5fcd1867c464ee0][song]]
+{{{spotify_embed(ridin-round.toml)}}}
 
 Cool cover. Call me crazy, but I've never heard of Kali Uchis. I feel so
 under-cultured and like I'm living under a rock, not knowing these huge artists
@@ -238,7 +238,7 @@ This is a clean, like 2021-2023 style pop. The lyrics is also straight---u go gi
 
 ** /This Must Be The Place/ by Sure Sure
 
-[[https://open.spotify.com/track/6PuoZT4kgw5DrUEdnQ6e01?si=2f409be31b704160][song]]
+{{{spotify_embed(this-must-be-the-place.toml)}}}
 
 OH YES! I FORGET WHERE THIS TUNE AND THE LYRICS STYLE IS FROM. It's from a super
 popular song that I'm definitely sinning right now by not recalling. Good vibes
@@ -246,7 +246,7 @@ with this piece---perfect for a cool afternoon ride across town and just vibing.
 
 ** /Holywood Forever Cemetery Sings/ by Father John Misty
 
-[[https://open.spotify.com/track/3O30ywyRk6EKT68sBvVqOP?si=8e0ab38c66724c4e][song]]
+{{{spotify_embed(hollywood-forever-cemetery-sings.toml)}}}
 
 Now, this... this is some combination of a title and artist's name.
 
@@ -255,7 +255,7 @@ her American back at the cemetery 😳
 
 ** /L.E.S. Artistes/ by Santigold
 
-[[https://open.spotify.com/track/4dmCLAZbWYT0qtcG7GVMdb?si=2d6af92244c245f3][song]]
+{{{spotify_embed(l-e-s-artistes.toml)}}}
 
 Don't have to say much, but it's not healthy eating that much
 glitter. Especially with them getting outlawed for sale in Europe
@@ -264,27 +264,27 @@ glitter. Especially with them getting outlawed for sale in Europe
 
 ** /Where Is My Mind?/ by Pixies
 
-[[https://open.spotify.com/track/0KzAbK6nItSqNh8q70tb0K?si=26940f7b1c29493b][song]]
+{{{spotify_embed(where-is-my-mind.toml)}}}
 
 Hah! I know I'm cultured for at least 0.01% when I recognize this song. What
 more could be said? I always had a weak spot for solo guitars. 
 
 ** /Smack a Bitch/ by Rico Nasty
 
-[[https://open.spotify.com/track/7hTCHEP1eqydVwD2NMU5fK?si=e72a714ee7174b17][song]]
+{{{spotify_embed(smack-a-bitch.toml)}}}
 
 Hmmmm, it's very specific for a specific mood. If you're there, you're there,
 and it's gonna slap
 
 ** /Float On/ by Good Tiger
 
-[[https://open.spotify.com/track/4JokCGmfIuyfSh0uV8fKcP?si=58dc4cd4180d48d2][song]]
+{{{spotify_embed(float-on.toml)}}}
 
 First, /Le Tiger/, now, /Good Tiger/. Another classic, that ``AHHHHHH'' is iconic.
 
 ** /Fantasy/ by Eternity Forever
 
-[[https://open.spotify.com/track/4IGAyCC3w5Io6CZEhaGUH2?si=f4cd8462b57844c3][song]]
+{{{spotify_embed(fantasy.toml)}}}
 
 Sheeeeshh. Smooth opening. This might be one of my favorites with /Them Changes/
 as an example---it's a sweet love song with a dog in it and the delivery.
@@ -295,21 +295,21 @@ I'll take you to the front row
 
 ** /Covet/ by Basement
 
-[[https://open.spotify.com/track/1AMADyXgIWayh5vXLZo2qF?si=c1f002191e4c46ae][song]]
+{{{spotify_embed(covet.toml)}}}
 
 Oh yeah. Oh yeah. Gives off a bit more punk-ish /The Strokes/ vibes with early 00s
 and maybe very late 90s. They'll be good Romeo and Juliet duo
 
 ** /Wasted Nun/ by Cherry Glazerr
 
-[[https://open.spotify.com/track/5xGSJpiaTlId1EjPxaWS4t?si=4e5b30b691534c90][song]]
+{{{spotify_embed(wasted-nun.toml)}}}
 
 Now this! This is a banger name, a /Wasted Nun/. I always loved contradictions
 like those. Forgotten Gods, Sinful Nuns, etc. Nice song.
 
 ** /Jungle (Radio Edit)/ by Tash Sultana
 
-[[https://open.spotify.com/track/7dEGgbP5Ld5mQfbpiwDjoe?si=02fb6d8940484609][song]]
+{{{spotify_embed(jungle-radio-edit.toml)}}}
 
 smewth pop. Maybe because it's explicitly says /(Radio Edit)/, but I feel as if I
 would hear this on the radio on my way to school in the morning. Probably every
@@ -318,13 +318,13 @@ it's their sacred duty to replay the same song every day, every time lol
 
 ** /Jusfayu/ by KAMAUU
 
-[[https://open.spotify.com/track/1EMvMRpG2uNX74ImDnrn3u?si=943f15ff0c7643dd][song]]
+{{{spotify_embed(jusfayu-feat-no-wyld-lion-babe-remix.toml)}}}
 
 yo, u know who this whole page is written for? jusfayu
 
 ** /Desperate/ by Kurt Travis
 
-[[https://open.spotify.com/track/2U8ZaBpp2UWgvrzDflE2mU?si=6fc59a0935be4d0a][song]]
+{{{spotify_embed(desperate.toml)}}}
 
 spooky cover, this is good---maybe I'm getting worn off---the high pitch is a
 bit much for me, but whenever that electric guitar solo just riffs it---oh yeah,
@@ -332,7 +332,7 @@ gimme more of that!
 
 ** /Artificial Red/ by Mad Season
 
-[[https://open.spotify.com/track/4kSIqv25W9sPsfG45rt9kh?si=4577fb31cfd949fa][song]]
+{{{spotify_embed(artificial-red.toml)}}}
 
 This is more of my style, I think. A slow burn rock, reminds me a bit of
 /French Fries w Pepper/ by Morphine. This has a spunk, but then goes down, until
@@ -340,7 +340,7 @@ the next hit. I like this!
 
 ** /Mass Appeal/ by Gang Starr
 
-[[https://open.spotify.com/track/3lGBvPUgO7MJltUnBlOpe9?si=d050189578114e26][song]]
+{{{spotify_embed(mass-appeal.toml)}}}
 
 Last but from least. This is like prime 90s---I remember seeing or hearing
 something about it on [[https://en.wikipedia.org/wiki/Mass_Appeal_(song)][the grapevine]]. That distortian and replays in the

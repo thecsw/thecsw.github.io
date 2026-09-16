@@ -1,0 +1,720 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-playlist"
+id = "1HdHrnnWB97IMN6xGpgzWz"
+url = "https://open.spotify.com/playlist/1HdHrnnWB97IMN6xGpgzWz?si=fd35929cd22e41bd"
+title = "Best of 12024"
+creator = "thecsw"
+artwork = "best-of-12024.jpg"
+
+[colors]
+  background = "#802830"
+  background_tinted = "#430006"
+  text = "#ffffff"
+  text_subdued = "#ffbdbd"
+
+[[tracks]]
+  id = "1wQBI2DEYltF2XlKs07D7G"
+  url = "https://open.spotify.com/track/1wQBI2DEYltF2XlKs07D7G"
+  title = "Girl"
+  artist = "Men I Trust"
+  duration_ms = 211200
+
+[[tracks]]
+  id = "32zqrDpYvNr8BuOClDpavD"
+  url = "https://open.spotify.com/track/32zqrDpYvNr8BuOClDpavD"
+  title = "Absolute Territory"
+  artist = "Ken Ashcorp"
+  duration_ms = 268571
+
+[[tracks]]
+  id = "4i0oGvIIrkoTLNCYJWnMvh"
+  url = "https://open.spotify.com/track/4i0oGvIIrkoTLNCYJWnMvh"
+  title = "Vitality"
+  artist = "Mittsies"
+  duration_ms = 227208
+
+[[tracks]]
+  id = "0gm8BFdrQjg5KwcTg3sDrS"
+  url = "https://open.spotify.com/track/0gm8BFdrQjg5KwcTg3sDrS"
+  title = "Blues in Velvet Room"
+  artist = "ATLUS Sound Team"
+  duration_ms = 195280
+
+[[tracks]]
+  id = "54BW4qpq5ms4bnzBgiWVOo"
+  url = "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo"
+  title = "NIGHT RUNNING"
+  artist = "Shin Sakiura, AAAMYYY"
+  duration_ms = 233666
+
+[[tracks]]
+  id = "79t0exFoQU0jlcpBLJrqes"
+  url = "https://open.spotify.com/track/79t0exFoQU0jlcpBLJrqes"
+  title = "Do It"
+  artist = "Tuxedo"
+  duration_ms = 258502
+
+[[tracks]]
+  id = "0DI3WNmIyfi2GZLQwhYDQC"
+  url = "https://open.spotify.com/track/0DI3WNmIyfi2GZLQwhYDQC"
+  title = "KOMM, SUSSER TOD - M-10 Director's Edit Version"
+  artist = "Arianne"
+  duration_ms = 466481
+
+[[tracks]]
+  id = "2eZa48N3neAiEyN4WUKDBG"
+  url = "https://open.spotify.com/track/2eZa48N3neAiEyN4WUKDBG"
+  title = "Save Me"
+  artist = "Annerley"
+  duration_ms = 294262
+
+[[tracks]]
+  id = "4EkbGJChszyxhEP0bIwBSZ"
+  url = "https://open.spotify.com/track/4EkbGJChszyxhEP0bIwBSZ"
+  title = "空色デイズ"
+  artist = "Shoko Nakagawa"
+  duration_ms = 252173
+
+[[tracks]]
+  id = "7oOEFDLSQscl0uGulnIEmG"
+  url = "https://open.spotify.com/track/7oOEFDLSQscl0uGulnIEmG"
+  title = "Love & Hate"
+  artist = "Michael Kiwanuka"
+  duration_ms = 427093
+
+[[tracks]]
+  id = "0oCP1Vu9LGVP88atKzOswC"
+  url = "https://open.spotify.com/track/0oCP1Vu9LGVP88atKzOswC"
+  title = "ambiguous"
+  artist = "GARNiDELiA"
+  duration_ms = 272480
+
+[[tracks]]
+  id = "7oaEjLP2dTJLJsITbAxTOz"
+  url = "https://open.spotify.com/track/7oaEjLP2dTJLJsITbAxTOz"
+  title = "Touch (feat. Paul Williams)"
+  artist = "Daft Punk, Paul Williams"
+  duration_ms = 498960
+
+[[tracks]]
+  id = "0muntSMuAZzcwYBBMZj6sf"
+  url = "https://open.spotify.com/track/0muntSMuAZzcwYBBMZj6sf"
+  title = "Fine On The Outside"
+  artist = "Priscilla Ahn"
+  duration_ms = 252466
+
+[[tracks]]
+  id = "6o97UuQmaxccF95fdt9PPR"
+  url = "https://open.spotify.com/track/6o97UuQmaxccF95fdt9PPR"
+  title = "FLY ME TO THE MOON - YOKO TAKAHASHI Acid Bossa Version"
+  artist = "Shiro SAGISU, Yoko Takahashi"
+  duration_ms = 230681
+
+[[tracks]]
+  id = "2zWivfUQjnXyUozQOrSCVc"
+  url = "https://open.spotify.com/track/2zWivfUQjnXyUozQOrSCVc"
+  title = "What A Life - Bonus Track"
+  artist = "Scarlet Pleasure"
+  duration_ms = 185942
+  explicit = true
+
+[[tracks]]
+  id = "73SpzrcaHk0RQPFP73vqVR"
+  url = "https://open.spotify.com/track/73SpzrcaHk0RQPFP73vqVR"
+  title = "No Time To Die"
+  artist = "Billie Eilish"
+  duration_ms = 242265
+
+[[tracks]]
+  id = "6JXAzCUM0Drgc4FgVA6mGC"
+  url = "https://open.spotify.com/track/6JXAzCUM0Drgc4FgVA6mGC"
+  title = "Fallen Angel feat. Aimee B"
+  artist = "Mitsunori Ikeda, Aimee B"
+  duration_ms = 267600
+
+[[tracks]]
+  id = "5KAI6nfg3wQRmtwJ0PPaEW"
+  url = "https://open.spotify.com/track/5KAI6nfg3wQRmtwJ0PPaEW"
+  title = "KISS OF DEATH（Produced by HYDE）"
+  artist = "Mika Nakashima"
+  duration_ms = 250200
+
+[[tracks]]
+  id = "4L321mZADfO4S04ICSIrwR"
+  url = "https://open.spotify.com/track/4L321mZADfO4S04ICSIrwR"
+  title = "Give Up"
+  artist = "Low Roar"
+  duration_ms = 186600
+
+[[tracks]]
+  id = "0MaM0yE9EdQEJwDfs6EAZ9"
+  url = "https://open.spotify.com/track/0MaM0yE9EdQEJwDfs6EAZ9"
+  title = "タイム・リミット"
+  artist = "CASIOPEA"
+  duration_ms = 187200
+
+[[tracks]]
+  id = "6O4t5H68WJNd8RQjZcu2Oj"
+  url = "https://open.spotify.com/track/6O4t5H68WJNd8RQjZcu2Oj"
+  title = "RIDE ON SHOOTING STAR"
+  artist = "the pillows"
+  duration_ms = 142733
+
+[[tracks]]
+  id = "0IM4J8XbrTKxe6xMiHYEFD"
+  url = "https://open.spotify.com/track/0IM4J8XbrTKxe6xMiHYEFD"
+  title = "I NEED YOUR LOVE"
+  artist = "Dave Simon"
+  duration_ms = 286566
+
+[[tracks]]
+  id = "30kpqo2lUMRZcn9CwRXNPR"
+  url = "https://open.spotify.com/track/30kpqo2lUMRZcn9CwRXNPR"
+  title = "D City Rock feat. Debra Zeer"
+  artist = "TeddyLoid, Debra Zeer"
+  duration_ms = 272400
+
+[[tracks]]
+  id = "3dDZFJSvdT9N2nNAdsE9j2"
+  url = "https://open.spotify.com/track/3dDZFJSvdT9N2nNAdsE9j2"
+  title = "残酷な天使のテーゼ"
+  artist = "Yoko Takahashi"
+  duration_ms = 245826
+
+[[tracks]]
+  id = "66tkDkPsznE5zIHNt4QkXB"
+  url = "https://open.spotify.com/track/66tkDkPsznE5zIHNt4QkXB"
+  title = "Tieduprightnow"
+  artist = "Parcels"
+  duration_ms = 249956
+
+[[tracks]]
+  id = "3lOpMY6bWG9ePWca1D0DQZ"
+  url = "https://open.spotify.com/track/3lOpMY6bWG9ePWca1D0DQZ"
+  title = "ドリーム・ヒル"
+  artist = "CASIOPEA"
+  duration_ms = 339640
+
+[[tracks]]
+  id = "7olMFQZhjN2EHf7ra2PjE7"
+  url = "https://open.spotify.com/track/7olMFQZhjN2EHf7ra2PjE7"
+  title = "Fly Away"
+  artist = "TeddyLoid"
+  duration_ms = 263826
+
+[[tracks]]
+  id = "61QbfdMKmgCgGwWIdEeHNb"
+  url = "https://open.spotify.com/track/61QbfdMKmgCgGwWIdEeHNb"
+  title = "CHOCOLAT feat. Mariya Ise"
+  artist = "TCY FORCE, Mariya Ise"
+  duration_ms = 246805
+
+[[tracks]]
+  id = "6ZZPjYECelIeOGGf1OGiHs"
+  url = "https://open.spotify.com/track/6ZZPjYECelIeOGGf1OGiHs"
+  title = "Just a Habit"
+  artist = "Low Roar"
+  duration_ms = 208173
+
+[[tracks]]
+  id = "7oO8KQn9fBsA1G4bRSg6he"
+  url = "https://open.spotify.com/track/7oO8KQn9fBsA1G4bRSg6he"
+  title = "ファー・アウェイ"
+  artist = "CASIOPEA"
+  duration_ms = 236840
+
+[[tracks]]
+  id = "37hfUPuxBBXCxK9M6Zo0SO"
+  url = "https://open.spotify.com/track/37hfUPuxBBXCxK9M6Zo0SO"
+  title = "BE MY BABE"
+  artist = "Jilly"
+  duration_ms = 285400
+
+[[tracks]]
+  id = "3lQCsg0VaUkUYRhIK8JFY0"
+  url = "https://open.spotify.com/track/3lQCsg0VaUkUYRhIK8JFY0"
+  title = "ごめんね、いいコじゃいられない。"
+  artist = "Miku Sawai"
+  duration_ms = 283520
+
+[[tracks]]
+  id = "4MxL1VijbxrUGBu39TgzMY"
+  url = "https://open.spotify.com/track/4MxL1VijbxrUGBu39TgzMY"
+  title = "Pipo Password"
+  artist = "TeddyLoid, Bonjour Suzuki"
+  duration_ms = 265000
+
+[[tracks]]
+  id = "2H5wRJv2e6j8Q0SAHfI8Vm"
+  url = "https://open.spotify.com/track/2H5wRJv2e6j8Q0SAHfI8Vm"
+  title = "Heartbeat - Extended mix"
+  artist = "Nathalie, Bratt Sinclaire"
+  duration_ms = 305388
+
+[[tracks]]
+  id = "4tiYkAFS1blxUy85lYhPfu"
+  url = "https://open.spotify.com/track/4tiYkAFS1blxUy85lYhPfu"
+  title = "Patience"
+  artist = "Low Roar"
+  duration_ms = 345306
+
+[[tracks]]
+  id = "56dvEv8PIWFuc5vJQLPM0L"
+  url = "https://open.spotify.com/track/56dvEv8PIWFuc5vJQLPM0L"
+  title = "FLY ME TO THE MOON - 2020 Version"
+  artist = "Yoko Takahashi"
+  duration_ms = 272294
+
+[[tracks]]
+  id = "4DVlDXcA2SCgniIO5fz02B"
+  url = "https://open.spotify.com/track/4DVlDXcA2SCgniIO5fz02B"
+  title = "Darling."
+  artist = "ancient heiakim"
+  duration_ms = 163753
+
+[[tracks]]
+  id = "7vcKbYEM5MMohOttO2N0rf"
+  url = "https://open.spotify.com/track/7vcKbYEM5MMohOttO2N0rf"
+  title = "Remember me"
+  artist = "Leslie Parrish"
+  duration_ms = 325366
+
+[[tracks]]
+  id = "2HHu1fK5BNvg16uzOJJcPf"
+  url = "https://open.spotify.com/track/2HHu1fK5BNvg16uzOJJcPf"
+  title = "Nobody Else"
+  artist = "Low Roar"
+  duration_ms = 297440
+
+[[tracks]]
+  id = "5OrpABBsBq9cm74gByQENk"
+  url = "https://open.spotify.com/track/5OrpABBsBq9cm74gByQENk"
+  title = "LOVE IS IN DANGER"
+  artist = "Priscilla"
+  duration_ms = 290233
+
+[[tracks]]
+  id = "0E9W4ZDAl2ceQSJI8TOgOS"
+  url = "https://open.spotify.com/track/0E9W4ZDAl2ceQSJI8TOgOS"
+  title = "MISATO"
+  artist = "Shiro SAGISU"
+  duration_ms = 92066
+
+[[tracks]]
+  id = "0yc6Gst2xkRu0eMLeRMGCX"
+  url = "https://open.spotify.com/track/0yc6Gst2xkRu0eMLeRMGCX"
+  title = "Apocalypse"
+  artist = "Cigarettes After Sex"
+  duration_ms = 290616
+
+[[tracks]]
+  id = "1PmzEt6a77dRdFtjLD2ZrW"
+  url = "https://open.spotify.com/track/1PmzEt6a77dRdFtjLD2ZrW"
+  title = "Low Roar"
+  artist = "Low Roar"
+  duration_ms = 135453
+
+[[tracks]]
+  id = "68iBgZVknsGYpr2RWe51tg"
+  url = "https://open.spotify.com/track/68iBgZVknsGYpr2RWe51tg"
+  title = "CARNIVAL"
+  artist = "the pillows"
+  duration_ms = 97533
+
+[[tracks]]
+  id = "7E6VM4eg8ADYdgbMnXO97d"
+  url = "https://open.spotify.com/track/7E6VM4eg8ADYdgbMnXO97d"
+  title = "Komm, süsser Tod"
+  artist = "Astrophysics, Marina Rios"
+  duration_ms = 335250
+
+[[tracks]]
+  id = "3DNRdudZ2SstnDCVKFdXxG"
+  url = "https://open.spotify.com/track/3DNRdudZ2SstnDCVKFdXxG"
+  title = "Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 - \"Moonlight Sonata\": I. Adagio sostenuto"
+  artist = "Ludwig van Beethoven, Paul Lewis"
+  duration_ms = 315426
+
+[[tracks]]
+  id = "0h3CnJ0DLrVcxggoDBDcNR"
+  url = "https://open.spotify.com/track/0h3CnJ0DLrVcxggoDBDcNR"
+  title = "Friends Make Garbage (Good Friends Take It Out)"
+  artist = "Low Roar"
+  duration_ms = 334053
+
+[[tracks]]
+  id = "152unnv8fuahIUyVnHJutJ"
+  url = "https://open.spotify.com/track/152unnv8fuahIUyVnHJutJ"
+  title = "KILLING MY LOVE"
+  artist = "Leslie Parrish"
+  duration_ms = 294466
+
+[[tracks]]
+  id = "0ZfgY9lz8Qg33pR268Rj9F"
+  url = "https://open.spotify.com/track/0ZfgY9lz8Qg33pR268Rj9F"
+  title = "Prayer - Extended mix"
+  artist = "Ducky Chix, Bratt Sinclaire"
+  duration_ms = 291520
+
+[[tracks]]
+  id = "6CRtIYDga4VKW5sV5rfAL3"
+  url = "https://open.spotify.com/track/6CRtIYDga4VKW5sV5rfAL3"
+  title = "DEJA VU"
+  artist = "dave rodgers"
+  duration_ms = 260555
+
+[[tracks]]
+  id = "2AQf4hJ1pVqFa32a7DHN2Q"
+  url = "https://open.spotify.com/track/2AQf4hJ1pVqFa32a7DHN2Q"
+  title = "The Painter"
+  artist = "Low Roar"
+  duration_ms = 285040
+
+[[tracks]]
+  id = "1c7IRPoWNIMLGrFgit8QXk"
+  url = "https://open.spotify.com/track/1c7IRPoWNIMLGrFgit8QXk"
+  title = "Night of Fire - Extended mix"
+  artist = "Niko, Bratt Sinclaire"
+  duration_ms = 318392
+
+[[tracks]]
+  id = "3eltl3hwhMakKmc2K7flgY"
+  url = "https://open.spotify.com/track/3eltl3hwhMakKmc2K7flgY"
+  title = "Ready to"
+  artist = "影森みちる(CV:諸星すみれ)"
+  duration_ms = 200160
+
+[[tracks]]
+  id = "5CMjjywI0eZMixPeqNd75R"
+  url = "https://open.spotify.com/track/5CMjjywI0eZMixPeqNd75R"
+  title = "Lose Yourself to Dance (feat. Pharrell Williams)"
+  artist = "Daft Punk, Pharrell Williams"
+  duration_ms = 353893
+
+[[tracks]]
+  id = "7rU6Iebxzlvqy5t857bKFq"
+  url = "https://open.spotify.com/track/7rU6Iebxzlvqy5t857bKFq"
+  title = "Plastic Love"
+  artist = "Mariya Takeuchi"
+  duration_ms = 294493
+
+[[tracks]]
+  id = "1YXot2MLAG9sttepCtBRM7"
+  url = "https://open.spotify.com/track/1YXot2MLAG9sttepCtBRM7"
+  title = "踊り子"
+  artist = "Vaundy"
+  duration_ms = 229328
+
+[[tracks]]
+  id = "6W26h4KbGUnEaav5VWIyJm"
+  url = "https://open.spotify.com/track/6W26h4KbGUnEaav5VWIyJm"
+  title = "The Day Before You Came"
+  artist = "ABBA"
+  duration_ms = 349080
+
+[[tracks]]
+  id = "28Ymf40EoJ6776juQZNPoY"
+  url = "https://open.spotify.com/track/28Ymf40EoJ6776juQZNPoY"
+  title = "All They Wanted"
+  artist = "Panchiko"
+  duration_ms = 127875
+
+[[tracks]]
+  id = "7jEwBMtA7gM43NxiuvfF3h"
+  url = "https://open.spotify.com/track/7jEwBMtA7gM43NxiuvfF3h"
+  title = "君のせい"
+  artist = "the peggies"
+  duration_ms = 263066
+
+[[tracks]]
+  id = "7tgjj32giZoZUf7QMP8WaO"
+  url = "https://open.spotify.com/track/7tgjj32giZoZUf7QMP8WaO"
+  title = "Deep Inside My Heart"
+  artist = "Priscilla Ahn"
+  duration_ms = 223213
+
+[[tracks]]
+  id = "0UNIPFUn2MnhpKp7VJiYAH"
+  url = "https://open.spotify.com/track/0UNIPFUn2MnhpKp7VJiYAH"
+  title = "Fukashigi no Carte"
+  artist = "Selphius"
+  duration_ms = 235897
+
+[[tracks]]
+  id = "7oRB1KvYJD4oZAHWyQMaV7"
+  url = "https://open.spotify.com/track/7oRB1KvYJD4oZAHWyQMaV7"
+  title = "Beautiful Day"
+  artist = "Yuinishio"
+  duration_ms = 191733
+
+[[tracks]]
+  id = "2BlDX1yfT0ea5wo0vjCKKa"
+  url = "https://open.spotify.com/track/2BlDX1yfT0ea5wo0vjCKKa"
+  title = "光るなら"
+  artist = "Goose house"
+  duration_ms = 252133
+
+[[tracks]]
+  id = "4cPnNnTMkJ6soUOUzEtmcp"
+  url = "https://open.spotify.com/track/4cPnNnTMkJ6soUOUzEtmcp"
+  title = "Last Surprise"
+  artist = "Lyn, ATLUS Sound Team, ATLUS GAME MUSIC"
+  duration_ms = 235546
+
+[[tracks]]
+  id = "7Bxv0WL7UC6WwQpk9TzdMJ"
+  url = "https://open.spotify.com/track/7Bxv0WL7UC6WwQpk9TzdMJ"
+  title = "Within"
+  artist = "Daft Punk"
+  duration_ms = 228506
+
+[[tracks]]
+  id = "2IjCPzLLoHgt2c6RxcLIAw"
+  url = "https://open.spotify.com/track/2IjCPzLLoHgt2c6RxcLIAw"
+  title = "Wings Of Fire - Extended Mix"
+  artist = "MAKO & SAYUKI, SAYUKI"
+  duration_ms = 253133
+
+[[tracks]]
+  id = "5HZzpDN7X3Z5s8iUwe0CQu"
+  url = "https://open.spotify.com/track/5HZzpDN7X3Z5s8iUwe0CQu"
+  title = "Love Vigilantes"
+  artist = "Iron & Wine"
+  duration_ms = 206733
+
+[[tracks]]
+  id = "5BWUhb5fg3yXJLddvjwXDo"
+  url = "https://open.spotify.com/track/5BWUhb5fg3yXJLddvjwXDo"
+  title = "99"
+  artist = "MOB CHOIR"
+  duration_ms = 237386
+
+[[tracks]]
+  id = "4J0e4gEqaLQlG5EM0wws1K"
+  url = "https://open.spotify.com/track/4J0e4gEqaLQlG5EM0wws1K"
+  title = "An der schönen blauen Donau, Waltz, Op. 314"
+  artist = "Johann Strauss II, Berliner Philharmoniker, Herbert von Karajan"
+  duration_ms = 707173
+
+[[tracks]]
+  id = "2BHj31ufdEqVK5CkYDp9mA"
+  url = "https://open.spotify.com/track/2BHj31ufdEqVK5CkYDp9mA"
+  title = "Mayonaka no Door / Stay With Me"
+  artist = "Miki Matsubara"
+  duration_ms = 312293
+
+[[tracks]]
+  id = "1wYdWiqpdr8OvyRItGGLFM"
+  url = "https://open.spotify.com/track/1wYdWiqpdr8OvyRItGGLFM"
+  title = "Rolling Over"
+  artist = "Low Roar"
+  duration_ms = 307853
+
+[[tracks]]
+  id = "7jXoUqjqJVQGHDBs9ZGy08"
+  url = "https://open.spotify.com/track/7jXoUqjqJVQGHDBs9ZGy08"
+  title = "我愛你"
+  artist = "Cody・Lee(李)"
+  duration_ms = 296119
+
+[[tracks]]
+  id = "5LYAuItJcXH06adHkebOmf"
+  url = "https://open.spotify.com/track/5LYAuItJcXH06adHkebOmf"
+  title = "The Blue Danube"
+  artist = "Johann Strauss II, Eugene Ormandy"
+  duration_ms = 527400
+
+[[tracks]]
+  id = "4UvfjzLmFls3J4K7FMJqiI"
+  url = "https://open.spotify.com/track/4UvfjzLmFls3J4K7FMJqiI"
+  title = "ハレ晴レユカイ"
+  artist = "涼宮ハルヒ (CV.平野 綾)"
+  duration_ms = 217866
+
+[[tracks]]
+  id = "6J8bdMEPyAuNfCWj00DU9G"
+  url = "https://open.spotify.com/track/6J8bdMEPyAuNfCWj00DU9G"
+  title = "Help Me"
+  artist = "Low Roar"
+  duration_ms = 231533
+
+[[tracks]]
+  id = "6n9yCXvLhnYMgJIiIcMu7D"
+  url = "https://open.spotify.com/track/6n9yCXvLhnYMgJIiIcMu7D"
+  title = "Rockstar"
+  artist = "Nickelback"
+  duration_ms = 252040
+
+[[tracks]]
+  id = "5Nd7SCLElXjJA04TExqujl"
+  url = "https://open.spotify.com/track/5Nd7SCLElXjJA04TExqujl"
+  title = "Mad Desire - Extended Remastered"
+  artist = "Stephy Martini"
+  duration_ms = 394537
+
+[[tracks]]
+  id = "2cGxRwrMyEAp8dEbuZaVv6"
+  url = "https://open.spotify.com/track/2cGxRwrMyEAp8dEbuZaVv6"
+  title = "Instant Crush (feat. Julian Casablancas)"
+  artist = "Daft Punk, Julian Casablancas"
+  duration_ms = 337560
+
+[[tracks]]
+  id = "5XLXrm5JVMdOus1fWmTOFw"
+  url = "https://open.spotify.com/track/5XLXrm5JVMdOus1fWmTOFw"
+  title = "Beneath the Mask"
+  artist = "Lyn, ATLUS Sound Team, ATLUS GAME MUSIC"
+  duration_ms = 277880
+
+[[tracks]]
+  id = "2rk8hnBWF0zZDFIVoeE16O"
+  url = "https://open.spotify.com/track/2rk8hnBWF0zZDFIVoeE16O"
+  title = "Hedgehog's Dilemma"
+  artist = "Shiro SAGISU"
+  duration_ms = 167306
+
+[[tracks]]
+  id = "2qEIVphvwMEkE35CXxdWAT"
+  url = "https://open.spotify.com/track/2qEIVphvwMEkE35CXxdWAT"
+  title = "Deal with the devil"
+  artist = "Tia"
+  duration_ms = 282546
+
+[[tracks]]
+  id = "0dEIca2nhcxDUV8C5QkPYb"
+  url = "https://open.spotify.com/track/0dEIca2nhcxDUV8C5QkPYb"
+  title = "Give Life Back to Music"
+  artist = "Daft Punk"
+  duration_ms = 275386
+
+[[tracks]]
+  id = "05zDB03E1WxCLyraJJ2I2r"
+  url = "https://open.spotify.com/track/05zDB03E1WxCLyraJJ2I2r"
+  title = "ラブ・ドラマティック (Funky Flag Version)"
+  artist = "Masayuki Suzuki, 伊原六花"
+  duration_ms = 262946
+
+[[tracks]]
+  id = "6ic8OlLUNEATToEFU3xmaH"
+  url = "https://open.spotify.com/track/6ic8OlLUNEATToEFU3xmaH"
+  title = "Gimme More"
+  artist = "Britney Spears"
+  duration_ms = 251244
+  explicit = true
+
+[[tracks]]
+  id = "0laYHRpNTS6i8FXdupHkJ4"
+  url = "https://open.spotify.com/track/0laYHRpNTS6i8FXdupHkJ4"
+  title = "Love You Like A Love Song"
+  artist = "Selena Gomez & The Scene"
+  duration_ms = 188453
+
+[[tracks]]
+  id = "4jBP7osLIsutlsMAHSEsPK"
+  url = "https://open.spotify.com/track/4jBP7osLIsutlsMAHSEsPK"
+  title = ""
+  artist = ""
+
+[[tracks]]
+  id = "0oks4FnzhNp5QPTZtoet7c"
+  url = "https://open.spotify.com/track/0oks4FnzhNp5QPTZtoet7c"
+  title = "Giorgio by Moroder"
+  artist = "Daft Punk"
+  duration_ms = 544626
+
+[[tracks]]
+  id = "3VPBPBZKxQu3bqeuzz8gRm"
+  url = "https://open.spotify.com/track/3VPBPBZKxQu3bqeuzz8gRm"
+  title = "Last Train At 25 O'clock"
+  artist = "Lamp"
+  duration_ms = 263840
+
+[[tracks]]
+  id = "37NPLfEZQQ0rZTa9SRqWBL"
+  url = "https://open.spotify.com/track/37NPLfEZQQ0rZTa9SRqWBL"
+  title = "midnight cruisin'"
+  artist = "Kingo Hamada"
+  duration_ms = 283000
+
+[[tracks]]
+  id = "1teZxQMiVKDhB7VCiOthBo"
+  url = "https://open.spotify.com/track/1teZxQMiVKDhB7VCiOthBo"
+  title = "I See You"
+  artist = "Priscilla Ahn"
+  duration_ms = 238920
+
+[[tracks]]
+  id = "3ctALmweZBapfBdFiIVpji"
+  url = "https://open.spotify.com/track/3ctALmweZBapfBdFiIVpji"
+  title = "The Game of Love"
+  artist = "Daft Punk"
+  duration_ms = 322146
+
+[[tracks]]
+  id = "2ZT6eELxeETGamaiXu6vmk"
+  url = "https://open.spotify.com/track/2ZT6eELxeETGamaiXu6vmk"
+  title = "more than words"
+  artist = "Hitsujibungaku"
+  duration_ms = 289720
+
+[[tracks]]
+  id = "73yXCwINoNqUBJRAgPJPsY"
+  url = "https://open.spotify.com/track/73yXCwINoNqUBJRAgPJPsY"
+  title = "Fly-day Chinatown"
+  artist = "Yasuha"
+  duration_ms = 210240
+
+[[tracks]]
+  id = "3FRuPxshzgnPoOzsmFap7b"
+  url = "https://open.spotify.com/track/3FRuPxshzgnPoOzsmFap7b"
+  title = "Marnie"
+  artist = "Priscilla Ahn"
+  duration_ms = 187493
+
+[[tracks]]
+  id = "3QzqvwO7eIIgd4dbbT4N8F"
+  url = "https://open.spotify.com/track/3QzqvwO7eIIgd4dbbT4N8F"
+  title = "Puzzle"
+  artist = "Low Roar"
+  duration_ms = 198680
+
+[[tracks]]
+  id = "6ft9PAgNOjmZ2kFVP7LGqb"
+  url = "https://open.spotify.com/track/6ft9PAgNOjmZ2kFVP7LGqb"
+  title = "Can't Take My Eyes off You"
+  artist = "Frankie Valli"
+  duration_ms = 203240
+
+[[tracks]]
+  id = "3qY12xfdjw5TToomM5CH4B"
+  url = "https://open.spotify.com/track/3qY12xfdjw5TToomM5CH4B"
+  title = "エイリアンズ - 2018 Remaster"
+  artist = "KIRINJI"
+  duration_ms = 364803
+
+[[tracks]]
+  id = "2wtHQG5dh5xKLO29wCE0st"
+  url = "https://open.spotify.com/track/2wtHQG5dh5xKLO29wCE0st"
+  title = "Pretty Dress"
+  artist = "Priscilla Ahn"
+  duration_ms = 143893
+
+[[tracks]]
+  id = "5RtsmtLsEnwa96TEf56tJQ"
+  url = "https://open.spotify.com/track/5RtsmtLsEnwa96TEf56tJQ"
+  title = "GIRI GIRI"
+  artist = "Masayuki Suzuki, すぅ"
+  duration_ms = 258765
+
+[[tracks]]
+  id = "5ivhfpfnoHhD8rUI2t3aJG"
+  url = "https://open.spotify.com/track/5ivhfpfnoHhD8rUI2t3aJG"
+  title = "IGNITE"
+  artist = "Eir Aoi"
+  duration_ms = 244173

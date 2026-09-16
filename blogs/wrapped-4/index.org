@@ -60,7 +60,7 @@ none have grasped or understood before nor after.
 I made a separate immutable spotify playlist with top 100 songs of the year,
 hopefully the embed keeps on living here for a while.
 
-[[https://open.spotify.com/playlist/1HdHrnnWB97IMN6xGpgzWz?si=fd35929cd22e41bd][Best of 12024]]
+{{{spotify_embed(best-of-12024.toml)}}}
 
 Thanks for joining my on my /Wrapped/ journey once again. Fourth year and
 counting. Hopefully, here is to many more in the future. /Adieu!/

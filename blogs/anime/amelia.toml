@@ -1,0 +1,720 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-playlist"
+id = "6P7ksZ5uGpVp4qq9gDhFlj"
+url = "https://open.spotify.com/playlist/6P7ksZ5uGpVp4qq9gDhFlj"
+title = "amelia"
+creator = "thecsw"
+artwork = "amelia.jpg"
+
+[colors]
+  background = "#334aa9"
+  background_tinted = "#172381"
+  text = "#ffffff"
+  text_subdued = "#b7ceff"
+
+[[tracks]]
+  id = "0UNIPFUn2MnhpKp7VJiYAH"
+  url = "https://open.spotify.com/track/0UNIPFUn2MnhpKp7VJiYAH"
+  title = "Fukashigi no Carte"
+  artist = "Selphius"
+  duration_ms = 235897
+
+[[tracks]]
+  id = "7E6VM4eg8ADYdgbMnXO97d"
+  url = "https://open.spotify.com/track/7E6VM4eg8ADYdgbMnXO97d"
+  title = "Komm, süsser Tod"
+  artist = "Astrophysics, Marina Rios"
+  duration_ms = 335250
+
+[[tracks]]
+  id = "3DpnZMnlXIVWVB8RWFjuAI"
+  url = "https://open.spotify.com/track/3DpnZMnlXIVWVB8RWFjuAI"
+  title = "君のせい"
+  artist = "the peggies"
+  duration_ms = 263066
+
+[[tracks]]
+  id = "2qEIVphvwMEkE35CXxdWAT"
+  url = "https://open.spotify.com/track/2qEIVphvwMEkE35CXxdWAT"
+  title = "Deal with the devil"
+  artist = "Tia"
+  duration_ms = 282546
+
+[[tracks]]
+  id = "2BlDX1yfT0ea5wo0vjCKKa"
+  url = "https://open.spotify.com/track/2BlDX1yfT0ea5wo0vjCKKa"
+  title = "光るなら"
+  artist = "Goose house"
+  duration_ms = 252133
+
+[[tracks]]
+  id = "5XLXrm5JVMdOus1fWmTOFw"
+  url = "https://open.spotify.com/track/5XLXrm5JVMdOus1fWmTOFw"
+  title = "Beneath the Mask"
+  artist = "Lyn, ATLUS Sound Team, ATLUS GAME MUSIC"
+  duration_ms = 277880
+
+[[tracks]]
+  id = "5RhWszHMSKzb7KiXk4Ae0M"
+  url = "https://open.spotify.com/track/5RhWszHMSKzb7KiXk4Ae0M"
+  title = "One Last Kiss"
+  artist = "Hikaru Utada"
+  duration_ms = 252026
+
+[[tracks]]
+  id = "61QbfdMKmgCgGwWIdEeHNb"
+  url = "https://open.spotify.com/track/61QbfdMKmgCgGwWIdEeHNb"
+  title = "CHOCOLAT feat. Mariya Ise"
+  artist = "TCY FORCE, Mariya Ise"
+  duration_ms = 246805
+
+[[tracks]]
+  id = "63kFDNdZtAcOw2o8UQqD0D"
+  url = "https://open.spotify.com/track/63kFDNdZtAcOw2o8UQqD0D"
+  title = "Hedgehog's Dilemma"
+  artist = "Shiro SAGISU"
+  duration_ms = 167306
+
+[[tracks]]
+  id = "30kpqo2lUMRZcn9CwRXNPR"
+  url = "https://open.spotify.com/track/30kpqo2lUMRZcn9CwRXNPR"
+  title = "D City Rock feat. Debra Zeer"
+  artist = "TeddyLoid, Debra Zeer"
+  duration_ms = 272400
+
+[[tracks]]
+  id = "6JXAzCUM0Drgc4FgVA6mGC"
+  url = "https://open.spotify.com/track/6JXAzCUM0Drgc4FgVA6mGC"
+  title = "Fallen Angel feat. Aimee B"
+  artist = "Mitsunori Ikeda, Aimee B"
+  duration_ms = 267600
+
+[[tracks]]
+  id = "7olMFQZhjN2EHf7ra2PjE7"
+  url = "https://open.spotify.com/track/7olMFQZhjN2EHf7ra2PjE7"
+  title = "Fly Away"
+  artist = "TeddyLoid"
+  duration_ms = 263826
+
+[[tracks]]
+  id = "1cCiA83gJdLxSK4xumbPrK"
+  url = "https://open.spotify.com/track/1cCiA83gJdLxSK4xumbPrK"
+  title = "Carnival"
+  artist = "the pillows"
+  duration_ms = 97533
+
+[[tracks]]
+  id = "4MxL1VijbxrUGBu39TgzMY"
+  url = "https://open.spotify.com/track/4MxL1VijbxrUGBu39TgzMY"
+  title = "Pipo Password"
+  artist = "TeddyLoid, Bonjour Suzuki"
+  duration_ms = 265000
+
+[[tracks]]
+  id = "0MUQtVlIkuMeDfZFm5xKRq"
+  url = "https://open.spotify.com/track/0MUQtVlIkuMeDfZFm5xKRq"
+  title = "TSUBASA WO KUDASAI"
+  artist = "Megumi Hayashibara"
+  duration_ms = 294521
+
+[[tracks]]
+  id = "6o97UuQmaxccF95fdt9PPR"
+  url = "https://open.spotify.com/track/6o97UuQmaxccF95fdt9PPR"
+  title = "FLY ME TO THE MOON - YOKO TAKAHASHI Acid Bossa Version"
+  artist = "Shiro SAGISU, Yoko Takahashi"
+  duration_ms = 230681
+
+[[tracks]]
+  id = "7rU6Iebxzlvqy5t857bKFq"
+  url = "https://open.spotify.com/track/7rU6Iebxzlvqy5t857bKFq"
+  title = "Plastic Love"
+  artist = "Mariya Takeuchi"
+  duration_ms = 294493
+
+[[tracks]]
+  id = "0pj90Ajg2NmdZalF67DfOF"
+  url = "https://open.spotify.com/track/0pj90Ajg2NmdZalF67DfOF"
+  title = "Ride on Shooting Star"
+  artist = "the pillows"
+  duration_ms = 141106
+
+[[tracks]]
+  id = "3lQCsg0VaUkUYRhIK8JFY0"
+  url = "https://open.spotify.com/track/3lQCsg0VaUkUYRhIK8JFY0"
+  title = "ごめんね、いいコじゃいられない。"
+  artist = "Miku Sawai"
+  duration_ms = 283520
+
+[[tracks]]
+  id = "0oCP1Vu9LGVP88atKzOswC"
+  url = "https://open.spotify.com/track/0oCP1Vu9LGVP88atKzOswC"
+  title = "ambiguous"
+  artist = "GARNiDELiA"
+  duration_ms = 272480
+
+[[tracks]]
+  id = "0DI3WNmIyfi2GZLQwhYDQC"
+  url = "https://open.spotify.com/track/0DI3WNmIyfi2GZLQwhYDQC"
+  title = "KOMM, SUSSER TOD - M-10 Director's Edit Version"
+  artist = "Arianne"
+  duration_ms = 466481
+
+[[tracks]]
+  id = "4DVlDXcA2SCgniIO5fz02B"
+  url = "https://open.spotify.com/track/4DVlDXcA2SCgniIO5fz02B"
+  title = "Darling."
+  artist = "ancient heiakim"
+  duration_ms = 163753
+
+[[tracks]]
+  id = "3eltl3hwhMakKmc2K7flgY"
+  url = "https://open.spotify.com/track/3eltl3hwhMakKmc2K7flgY"
+  title = "Ready to"
+  artist = "影森みちる(CV:諸星すみれ)"
+  duration_ms = 200160
+
+[[tracks]]
+  id = "54BW4qpq5ms4bnzBgiWVOo"
+  url = "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo"
+  title = "NIGHT RUNNING"
+  artist = "Shin Sakiura, AAAMYYY"
+  duration_ms = 233666
+
+[[tracks]]
+  id = "2jdezHlpt5r5hDjVC7hOpU"
+  url = "https://open.spotify.com/track/2jdezHlpt5r5hDjVC7hOpU"
+  title = "空色デイズ"
+  artist = "Shoko Nakagawa"
+  duration_ms = 253760
+
+[[tracks]]
+  id = "1QFPI3slA71XOdiBV5qti1"
+  url = "https://open.spotify.com/track/1QFPI3slA71XOdiBV5qti1"
+  title = "The Cruel Angel's Thesis"
+  artist = "Yoko Takahashi"
+  duration_ms = 246362
+
+[[tracks]]
+  id = "56dvEv8PIWFuc5vJQLPM0L"
+  url = "https://open.spotify.com/track/56dvEv8PIWFuc5vJQLPM0L"
+  title = "FLY ME TO THE MOON - 2020 Version"
+  artist = "Yoko Takahashi"
+  duration_ms = 272294
+
+[[tracks]]
+  id = "6Zyizxfz4NXdCgVLwhuBNw"
+  url = "https://open.spotify.com/track/6Zyizxfz4NXdCgVLwhuBNw"
+  title = "雪の華"
+  artist = "Mika Nakashima"
+  duration_ms = 341973
+
+[[tracks]]
+  id = "0ekGJQiqn1DzeZ3w5AsBoH"
+  url = "https://open.spotify.com/track/0ekGJQiqn1DzeZ3w5AsBoH"
+  title = "KISS OF DEATH（Produced by HYDE）"
+  artist = "Mika Nakashima"
+  duration_ms = 248426
+
+[[tracks]]
+  id = "1cwxwLgxuSNPirOeytcyzp"
+  url = "https://open.spotify.com/track/1cwxwLgxuSNPirOeytcyzp"
+  title = "Torikago (From \"Darling in the FranXX\")"
+  artist = "Fonzi M"
+  duration_ms = 218772
+
+[[tracks]]
+  id = "23yCX0t6DKunV8Q72JDlKh"
+  url = "https://open.spotify.com/track/23yCX0t6DKunV8Q72JDlKh"
+  title = "New World Symphony - 2019 Remaster"
+  artist = "Sayonara Ponytail"
+  duration_ms = 282423
+
+[[tracks]]
+  id = "6RdYQlaMCcs27y4f5uQYfZ"
+  url = "https://open.spotify.com/track/6RdYQlaMCcs27y4f5uQYfZ"
+  title = "Don't Lose Your Way (Feat. NoneLikeJoshua)"
+  artist = "Sapphire, None Like Joshua"
+  duration_ms = 247800
+
+[[tracks]]
+  id = "2TEGXugJI8V8rbcTgdGxxo"
+  url = "https://open.spotify.com/track/2TEGXugJI8V8rbcTgdGxxo"
+  title = "サンビカ"
+  artist = "Eir Aoi"
+  duration_ms = 289880
+
+[[tracks]]
+  id = "7CVRVck7AVnvoi9jP1ctc8"
+  url = "https://open.spotify.com/track/7CVRVck7AVnvoi9jP1ctc8"
+  title = "シリウス"
+  artist = "Eir Aoi"
+  duration_ms = 266213
+
+[[tracks]]
+  id = "1KvWQVn90Zfa1KdSuZXYxV"
+  url = "https://open.spotify.com/track/1KvWQVn90Zfa1KdSuZXYxV"
+  title = "Blumenkranz"
+  artist = "Sawano Hiroyuki"
+  duration_ms = 258786
+
+[[tracks]]
+  id = "1FvZeK3MgmGldxeYDvzanR"
+  url = "https://open.spotify.com/track/1FvZeK3MgmGldxeYDvzanR"
+  title = "Before my body is dry"
+  artist = "Sawano Hiroyuki"
+  duration_ms = 248266
+
+[[tracks]]
+  id = "2m1UUNdKBX7fdXDZgcbSZK"
+  url = "https://open.spotify.com/track/2m1UUNdKBX7fdXDZgcbSZK"
+  title = "Voyager - Gravestone Without Date"
+  artist = "Shiro SAGISU"
+  duration_ms = 295093
+
+[[tracks]]
+  id = "5iUjWA0lGW4TXr6KJs6Y0r"
+  url = "https://open.spotify.com/track/5iUjWA0lGW4TXr6KJs6Y0r"
+  title = "Shiawasenomonosashi"
+  artist = "Mariya Takeuchi"
+  duration_ms = 327146
+
+[[tracks]]
+  id = "1avPyXJHD18axywh7vG3zc"
+  url = "https://open.spotify.com/track/1avPyXJHD18axywh7vG3zc"
+  title = "Plastic Love - English Version"
+  artist = "Lizz Robinett, L-Train"
+  duration_ms = 374920
+
+[[tracks]]
+  id = "2vjY3jGKElvqXoaGNEuYef"
+  url = "https://open.spotify.com/track/2vjY3jGKElvqXoaGNEuYef"
+  title = "怪物"
+  artist = "YOASOBI"
+  duration_ms = 205480
+
+[[tracks]]
+  id = "6Za2rCpQhZrRXldgz1MFAk"
+  url = "https://open.spotify.com/track/6Za2rCpQhZrRXldgz1MFAk"
+  title = "Theme for Scanty & Knee Socks"
+  artist = "TeddyLoid"
+  duration_ms = 254053
+
+[[tracks]]
+  id = "3mScGCzxiXA9OaHdBeuk7O"
+  url = "https://open.spotify.com/track/3mScGCzxiXA9OaHdBeuk7O"
+  title = "crossing field"
+  artist = "LiSA"
+  duration_ms = 248946
+
+[[tracks]]
+  id = "0N63llGavaESfPRIZkDkvL"
+  url = "https://open.spotify.com/track/0N63llGavaESfPRIZkDkvL"
+  title = "INNOCENCE"
+  artist = "Eir Aoi"
+  duration_ms = 277320
+
+[[tracks]]
+  id = "5ivhfpfnoHhD8rUI2t3aJG"
+  url = "https://open.spotify.com/track/5ivhfpfnoHhD8rUI2t3aJG"
+  title = "IGNITE"
+  artist = "Eir Aoi"
+  duration_ms = 244173
+
+[[tracks]]
+  id = "4MfoLQHieTdWlwPwuXcFNs"
+  url = "https://open.spotify.com/track/4MfoLQHieTdWlwPwuXcFNs"
+  title = "Startear"
+  artist = "Luna Haruna"
+  duration_ms = 301800
+
+[[tracks]]
+  id = "4QH5Dw1Rmzf3czMvsHRD7B"
+  url = "https://open.spotify.com/track/4QH5Dw1Rmzf3czMvsHRD7B"
+  title = "courage"
+  artist = "Haruka Tomatsu"
+  duration_ms = 253160
+
+[[tracks]]
+  id = "4cDm9C5jhBiIyYxVhQmMwB"
+  url = "https://open.spotify.com/track/4cDm9C5jhBiIyYxVhQmMwB"
+  title = "往け"
+  artist = "LiSA"
+  duration_ms = 228275
+
+[[tracks]]
+  id = "0qMip0B2D4ePEjBJvAtYre"
+  url = "https://open.spotify.com/track/0qMip0B2D4ePEjBJvAtYre"
+  title = "紅蓮華"
+  artist = "LiSA"
+  duration_ms = 237586
+
+[[tracks]]
+  id = "2spKNLGFUsscxyHaNS932n"
+  url = "https://open.spotify.com/track/2spKNLGFUsscxyHaNS932n"
+  title = "シルシ"
+  artist = "LiSA"
+  duration_ms = 287053
+
+[[tracks]]
+  id = "3A4Najtnflk9RIdkM34Njs"
+  url = "https://open.spotify.com/track/3A4Najtnflk9RIdkM34Njs"
+  title = "forget-me-not"
+  artist = "ReoNa"
+  duration_ms = 266560
+
+[[tracks]]
+  id = "3ISBmcdNPprA32RCm3tx50"
+  url = "https://open.spotify.com/track/3ISBmcdNPprA32RCm3tx50"
+  title = "ANIMA"
+  artist = "ReoNa"
+  duration_ms = 267177
+
+[[tracks]]
+  id = "3Bl9pbEgCoSnm50nG93bvL"
+  url = "https://open.spotify.com/track/3Bl9pbEgCoSnm50nG93bvL"
+  title = "アイリス"
+  artist = "Eir Aoi"
+  duration_ms = 247426
+
+[[tracks]]
+  id = "4y0y7mkWykv2pfOATQhkrB"
+  url = "https://open.spotify.com/track/4y0y7mkWykv2pfOATQhkrB"
+  title = "To see the future (ED)"
+  artist = "Ryoko Inagaki"
+  duration_ms = 254233
+
+[[tracks]]
+  id = "08qU2grYIu0XldcJZ7jEOb"
+  url = "https://open.spotify.com/track/08qU2grYIu0XldcJZ7jEOb"
+  title = "流星"
+  artist = "Eir Aoi"
+  duration_ms = 252426
+
+[[tracks]]
+  id = "4IuiAmZd248MLAntebZFKo"
+  url = "https://open.spotify.com/track/4IuiAmZd248MLAntebZFKo"
+  title = "息を吸う ここで吸う 生きてく"
+  artist = "Yuinishio"
+  duration_ms = 191066
+
+[[tracks]]
+  id = "5ZrONMaSQ9TTTLNOcPI8cp"
+  url = "https://open.spotify.com/track/5ZrONMaSQ9TTTLNOcPI8cp"
+  title = "All the Same - Short Ver."
+  artist = "JYOCHO"
+  duration_ms = 89533
+
+[[tracks]]
+  id = "0cSkn2l67csUljEy0EEBPn"
+  url = "https://open.spotify.com/track/0cSkn2l67csUljEy0EEBPn"
+  title = "炎"
+  artist = "LiSA"
+  duration_ms = 275000
+
+[[tracks]]
+  id = "30o2KEcg82vJJRC8Q6hSLL"
+  url = "https://open.spotify.com/track/30o2KEcg82vJJRC8Q6hSLL"
+  title = "Kamado Tanjirou no Uta (From \"Demon Slayer: Kimetsu no Yaiba\")"
+  artist = "Akano"
+  duration_ms = 147852
+
+[[tracks]]
+  id = "7v8wKvNQQIxkugCFFjrkaO"
+  url = "https://open.spotify.com/track/7v8wKvNQQIxkugCFFjrkaO"
+  title = "残響散歌"
+  artist = "Aimer"
+  duration_ms = 184898
+
+[[tracks]]
+  id = "0zvN9oq95bIEQjvfcdeZlX"
+  url = "https://open.spotify.com/track/0zvN9oq95bIEQjvfcdeZlX"
+  title = "Red Swan"
+  artist = "YOSHIKI, HYDE"
+  duration_ms = 263720
+
+[[tracks]]
+  id = "3KhwEuqLNjHfsKaBDo1yVh"
+  url = "https://open.spotify.com/track/3KhwEuqLNjHfsKaBDo1yVh"
+  title = "Boku no Sensou"
+  artist = "Shinsei Kamattechan"
+  duration_ms = 280466
+
+[[tracks]]
+  id = "64LMCa7fkdfHYLtCm0kGTR"
+  url = "https://open.spotify.com/track/64LMCa7fkdfHYLtCm0kGTR"
+  title = "サラマンダー"
+  artist = "DECO*27"
+  duration_ms = 155647
+
+[[tracks]]
+  id = "7ANDXcz3rVfPjFcIZeVVbL"
+  url = "https://open.spotify.com/track/7ANDXcz3rVfPjFcIZeVVbL"
+  title = "So Ist Es Immer"
+  artist = "Sawano Hiroyuki"
+  duration_ms = 289680
+
+[[tracks]]
+  id = "2LYhS0VbCzbE6alAI3Q7Ot"
+  url = "https://open.spotify.com/track/2LYhS0VbCzbE6alAI3Q7Ot"
+  title = "Call Your Name"
+  artist = "Sawano Hiroyuki"
+  duration_ms = 268333
+
+[[tracks]]
+  id = "5uraJqtCBvLpwt3VeomZdq"
+  url = "https://open.spotify.com/track/5uraJqtCBvLpwt3VeomZdq"
+  title = "Shinzo wo Sasageyo !"
+  artist = "Linked Horizon"
+  duration_ms = 341413
+
+[[tracks]]
+  id = "0KCSJzsQVxkloxoT7dyrqV"
+  url = "https://open.spotify.com/track/0KCSJzsQVxkloxoT7dyrqV"
+  title = "The Rumbling (TV Size)"
+  artist = "SiM"
+  duration_ms = 90265
+
+[[tracks]]
+  id = "1p8B91IjEd9fjOPOSsEN75"
+  url = "https://open.spotify.com/track/1p8B91IjEd9fjOPOSsEN75"
+  title = "RISE"
+  artist = "MADKID"
+  duration_ms = 206213
+
+[[tracks]]
+  id = "44lKrkOoVAfim3282BcnUc"
+  url = "https://open.spotify.com/track/44lKrkOoVAfim3282BcnUc"
+  title = "FAITH"
+  artist = "MADKID"
+  duration_ms = 203506
+
+[[tracks]]
+  id = "2oYIgqmZwuQjXTmbMolw9v"
+  url = "https://open.spotify.com/track/2oYIgqmZwuQjXTmbMolw9v"
+  title = "Atashiga Tonarini Iru Uchini"
+  artist = "Chiai Fujikawa"
+  duration_ms = 355466
+
+[[tracks]]
+  id = "4cPnNnTMkJ6soUOUzEtmcp"
+  url = "https://open.spotify.com/track/4cPnNnTMkJ6soUOUzEtmcp"
+  title = "Last Surprise"
+  artist = "Lyn, ATLUS Sound Team, ATLUS GAME MUSIC"
+  duration_ms = 235546
+
+[[tracks]]
+  id = "7hdw8bTP5VDL9mPrAdRIry"
+  url = "https://open.spotify.com/track/7hdw8bTP5VDL9mPrAdRIry"
+  title = "Animal"
+  artist = "DECO*27"
+  duration_ms = 152266
+
+[[tracks]]
+  id = "5Atjzvg5qZcWZhXwZkHqPO"
+  url = "https://open.spotify.com/track/5Atjzvg5qZcWZhXwZkHqPO"
+  title = "The Vampire"
+  artist = "DECO*27"
+  duration_ms = 178235
+
+[[tracks]]
+  id = "47IJAEuqiu4r1dEoEExfMA"
+  url = "https://open.spotify.com/track/47IJAEuqiu4r1dEoEExfMA"
+  title = "空想メソロギヰ"
+  artist = "Yousei Teikoku"
+  duration_ms = 243226
+
+[[tracks]]
+  id = "0fQqX91TqzMU6MKwAeF08y"
+  url = "https://open.spotify.com/track/0fQqX91TqzMU6MKwAeF08y"
+  title = "犬Kあ３L"
+  artist = "Sawano Hiroyuki"
+  duration_ms = 273573
+
+[[tracks]]
+  id = "0NsMgzCzCuedQKqIWSOF34"
+  url = "https://open.spotify.com/track/0NsMgzCzCuedQKqIWSOF34"
+  title = "Kamado Tanjirou no Uta (From \"Demon Slayer: Kimetsu no Yaiba\") [Full Version]"
+  artist = "Akano"
+  duration_ms = 328548
+
+[[tracks]]
+  id = "5JTpBM6ogvVYqmYx8cQKbG"
+  url = "https://open.spotify.com/track/5JTpBM6ogvVYqmYx8cQKbG"
+  title = "The Vampire - TeddyLoid Remix"
+  artist = "DECO*27, TeddyLoid"
+  duration_ms = 210731
+
+[[tracks]]
+  id = "5n7Sp2uHvRWbKYU1KIqaNA"
+  url = "https://open.spotify.com/track/5n7Sp2uHvRWbKYU1KIqaNA"
+  title = "シンデレラ"
+  artist = "Cidergirl"
+  duration_ms = 213053
+
+[[tracks]]
+  id = "4WtqjjSiGYHORMr6VX3td1"
+  url = "https://open.spotify.com/track/4WtqjjSiGYHORMr6VX3td1"
+  title = "Hikare Inochi"
+  artist = "Kitri"
+  duration_ms = 322146
+
+[[tracks]]
+  id = "4o8ZA7sEHawMmnBtW34B8W"
+  url = "https://open.spotify.com/track/4o8ZA7sEHawMmnBtW34B8W"
+  title = "巣立ちの歌"
+  artist = "アネモネリア"
+  duration_ms = 195573
+
+[[tracks]]
+  id = "06OZFbsU0VgrWAaZlesmWf"
+  url = "https://open.spotify.com/track/06OZFbsU0VgrWAaZlesmWf"
+  title = "Bran-New Lovesong"
+  artist = "the pillows"
+  duration_ms = 120466
+
+[[tracks]]
+  id = "5JJKkuYGj99dfws5MiiJSR"
+  url = "https://open.spotify.com/track/5JJKkuYGj99dfws5MiiJSR"
+  title = "The Rumbling"
+  artist = "SiM"
+  duration_ms = 220799
+
+[[tracks]]
+  id = "4re8kXgENW5wqmW2AazeIZ"
+  url = "https://open.spotify.com/track/4re8kXgENW5wqmW2AazeIZ"
+  title = "Parasite"
+  artist = "DECO*27"
+  duration_ms = 165706
+
+[[tracks]]
+  id = "2ZwFlWbX8PsVsDIw0U24Y7"
+  url = "https://open.spotify.com/track/2ZwFlWbX8PsVsDIw0U24Y7"
+  title = "Elegy for Rem (Re:zero Original Soundtrack)"
+  artist = "Theishter"
+  duration_ms = 180824
+
+[[tracks]]
+  id = "2ZP1nDCbIZDUy6fBKiRCoK"
+  url = "https://open.spotify.com/track/2ZP1nDCbIZDUy6fBKiRCoK"
+  title = "Redo"
+  artist = "Konomi Suzuki"
+  duration_ms = 258426
+
+[[tracks]]
+  id = "1JC0r7pvdrdbdJQBYfRc19"
+  url = "https://open.spotify.com/track/1JC0r7pvdrdbdJQBYfRc19"
+  title = "Paradisus-Paradoxum"
+  artist = "MYTH & ROID"
+  duration_ms = 231106
+
+[[tracks]]
+  id = "376H9fw1l6spwIfiNSDBmJ"
+  url = "https://open.spotify.com/track/376H9fw1l6spwIfiNSDBmJ"
+  title = "STYX HELIX"
+  artist = "MYTH & ROID"
+  duration_ms = 289573
+
+[[tracks]]
+  id = "3lDrPPF07YL0hbjr5xqD68"
+  url = "https://open.spotify.com/track/3lDrPPF07YL0hbjr5xqD68"
+  title = "Memento"
+  artist = "nonoc"
+  duration_ms = 304483
+
+[[tracks]]
+  id = "4htwmkMxTLhVxEZiKUA5GD"
+  url = "https://open.spotify.com/track/4htwmkMxTLhVxEZiKUA5GD"
+  title = "HENTAI"
+  artist = "Selphius"
+  duration_ms = 187400
+  explicit = true
+
+[[tracks]]
+  id = "1p9VRiwyy2NsBSoNcGs9kP"
+  url = "https://open.spotify.com/track/1p9VRiwyy2NsBSoNcGs9kP"
+  title = "Long shot"
+  artist = "前島麻由"
+  duration_ms = 255132
+
+[[tracks]]
+  id = "4dvWchb4P8bNqeO0UsHoEc"
+  url = "https://open.spotify.com/track/4dvWchb4P8bNqeO0UsHoEc"
+  title = "REAL-EYES"
+  artist = "Inori Minase"
+  duration_ms = 247599
+
+[[tracks]]
+  id = "1Qoc5qy57rdeffyrom798H"
+  url = "https://open.spotify.com/track/1Qoc5qy57rdeffyrom798H"
+  title = "over and over (From \"DanMachi: Is It Wrong to Try to Pick Up Girls in a Dungeon?\")"
+  artist = "Akano"
+  duration_ms = 96209
+
+[[tracks]]
+  id = "3HC15xN2Cl3HO1k1Kt3R4C"
+  url = "https://open.spotify.com/track/3HC15xN2Cl3HO1k1Kt3R4C"
+  title = "DAY BY DAY"
+  artist = "Hiroshi Sasaki"
+  duration_ms = 271515
+
+[[tracks]]
+  id = "6KlqqFZmbUrpTz6RSC1pqF"
+  url = "https://open.spotify.com/track/6KlqqFZmbUrpTz6RSC1pqF"
+  title = "REALIZE"
+  artist = "Konomi Suzuki"
+  duration_ms = 244000
+
+[[tracks]]
+  id = "3BIhcWQV2hGRoEXdLL3Fzw"
+  url = "https://open.spotify.com/track/3BIhcWQV2hGRoEXdLL3Fzw"
+  title = "fantastic dreamer"
+  artist = "Machico"
+  duration_ms = 243666
+
+[[tracks]]
+  id = "7aNkU0FPfjTTLMDVCDteyx"
+  url = "https://open.spotify.com/track/7aNkU0FPfjTTLMDVCDteyx"
+  title = "Chiisana Boukensha"
+  artist = "Oke/a/"
+  duration_ms = 96625
+
+[[tracks]]
+  id = "478MR37OX1FZV8ngGCqemn"
+  url = "https://open.spotify.com/track/478MR37OX1FZV8ngGCqemn"
+  title = "TOMORROW"
+  artist = "Machico"
+  duration_ms = 277480
+
+[[tracks]]
+  id = "3dhOI6vcmYl0h76Knl0oRw"
+  url = "https://open.spotify.com/track/3dhOI6vcmYl0h76Knl0oRw"
+  title = "HELLO to DREAM (From \"DanMachi: Is It Wrong to Try to Pick Up Girls in a Dungeon?\")"
+  artist = "Akano"
+  duration_ms = 90615
+
+[[tracks]]
+  id = "6KrdIyI17xhkXuZDydgP3T"
+  url = "https://open.spotify.com/track/6KrdIyI17xhkXuZDydgP3T"
+  title = "Dilemma"
+  artist = "DECO*27"
+  duration_ms = 166733
+
+[[tracks]]
+  id = "7Lpm4GU78jmjSrQDhiAqzJ"
+  url = "https://open.spotify.com/track/7Lpm4GU78jmjSrQDhiAqzJ"
+  title = "乙女解剖"
+  artist = "DECO*27"
+  duration_ms = 223400
+
+[[tracks]]
+  id = "31x5fgKxhvRP5HFzWajnX2"
+  url = "https://open.spotify.com/track/31x5fgKxhvRP5HFzWajnX2"
+  title = "Escape"
+  artist = "Selphius"
+  duration_ms = 221228

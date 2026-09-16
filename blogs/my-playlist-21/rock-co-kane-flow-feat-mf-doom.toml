@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "6RBMpENxbx74lTdR5SBcaF"
+url = "https://open.spotify.com/track/6RBMpENxbx74lTdR5SBcaF?si=a1c93b3211a946c4"
+title = "Rock Co.Kane Flow (feat. MF Doom)"
+creator = "De La Soul, MF DOOM"
+artwork = "rock-co-kane-flow-feat-mf-doom.jpg"
+duration_ms = 185266
+explicit = true
+
+[colors]
+  background = "#00587d"
+  background_tinted = "#003457"
+  text = "#ffffff"
+  text_subdued = "#83d8ff"

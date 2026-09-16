@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "1N7ClAuAUHOvYjJeZbZ519"
+url = "https://open.spotify.com/track/1N7ClAuAUHOvYjJeZbZ519?si=4446e6340d31458f"
+title = "Je Ne Te connais pas"
+creator = "Prototypes"
+artwork = "je-ne-te-connais-pas.jpg"
+duration_ms = 179746
+
+[colors]
+  background = "#901028"
+  background_tinted = "#4e0008"
+  text = "#ffffff"
+  text_subdued = "#ffbdbd"

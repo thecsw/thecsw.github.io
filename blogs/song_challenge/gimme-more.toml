@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "6ic8OlLUNEATToEFU3xmaH"
+url = "https://open.spotify.com/track/6ic8OlLUNEATToEFU3xmaH"
+title = "Gimme More"
+creator = "Britney Spears"
+artwork = "gimme-more.jpg"
+duration_ms = 251244
+explicit = true
+
+[colors]
+  background = "#9e001c"
+  background_tinted = "#610004"
+  text = "#ffffff"
+  text_subdued = "#ffbdb8"

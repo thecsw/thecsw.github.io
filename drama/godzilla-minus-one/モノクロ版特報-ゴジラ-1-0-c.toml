@@ -1,0 +1,13 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "PShgB-ielBI"
+url = "https://youtu.be/PShgB-ielBI"
+title = "【モノクロ版特報】『ゴジラ-1.0／C』"
+creator = "東宝MOVIEチャンネル"
+artwork = "モノクロ版特報-ゴジラ-1-0-c.jpg"

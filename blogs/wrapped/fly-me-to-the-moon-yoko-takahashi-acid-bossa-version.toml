@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "6o97UuQmaxccF95fdt9PPR"
+url = "https://open.spotify.com/track/6o97UuQmaxccF95fdt9PPR"
+title = "FLY ME TO THE MOON - YOKO TAKAHASHI Acid Bossa Version"
+creator = "Shiro SAGISU, Yoko Takahashi"
+artwork = "fly-me-to-the-moon-yoko-takahashi-acid-bossa-version.jpg"
+duration_ms = 230681
+
+[colors]
+  background = "#005d4a"
+  background_tinted = "#003929"
+  text = "#ffffff"
+  text_subdued = "#7fdec6"

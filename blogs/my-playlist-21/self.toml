@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5rNqaOOSNGrYtMo4sLDXU6"
+url = "https://open.spotify.com/track/5rNqaOOSNGrYtMo4sLDXU6?si=0f51f1847c034192"
+title = "Self"
+creator = "Noname"
+artwork = "self.jpg"
+duration_ms = 94932
+explicit = true
+
+[colors]
+  background = "#4d5555"
+  background_tinted = "#2e3434"
+  text = "#ffffff"
+  text_subdued = "#c7cfcf"

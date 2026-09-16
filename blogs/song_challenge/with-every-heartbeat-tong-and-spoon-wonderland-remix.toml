@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "17FSlwAcuzwITI7cA1w0Lq"
+url = "https://open.spotify.com/track/17FSlwAcuzwITI7cA1w0Lq"
+title = "With Every Heartbeat - Tong and Spoon Wonderland Remix"
+creator = "Robyn, Kleerup, Pete Tong, Dave Spoon"
+artwork = "with-every-heartbeat-tong-and-spoon-wonderland-remix.jpg"
+duration_ms = 434853
+
+[colors]
+  background = "#972700"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbfa7"

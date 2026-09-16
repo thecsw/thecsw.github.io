@@ -43,23 +43,23 @@ Most importantly...
 
 I am obsessed with good YT edits, so please enjoy some of them below.
 
-[[https://youtu.be/x5YqmvwcFR8][x5YqmvwcFR8]]
+{{{youtube_embed(najimi-osana-edit-lovefool-loop-alight-motion.toml)}}}
 
-[[https://youtu.be/0r9JuDz-OzE][0r9JuDz-OzE]]
+{{{youtube_embed(osana-najimi-edit-the-feels.toml)}}}
 
-[[https://youtu.be/jIl6PHT6jww][jIl6PHT6jww]]
+{{{youtube_embed(najimi-edit-bad-habits.toml)}}}
 
-[[https://youtu.be/IJndji2tLwo][IJndji2tLwo]]
+{{{youtube_embed(osana-najimi-edit-u-look-so-good.toml)}}}
 
-[[https://youtu.be/BwGFrPspArA][BwGFrPspArA]]
+{{{youtube_embed(komi-can-t-communicate-osana-najimi-edit.toml)}}}
 
-[[https://youtu.be/e_rY2di38Is][e_rY2di38Is]]
+{{{youtube_embed(najimi-osana-edit.toml)}}}
 
-[[https://youtu.be/QXwlge4a_s4][QXwlge4a_s4]]
+{{{youtube_embed(osana-najimi-edit.toml)}}}
 
-[[https://youtu.be/OTEfMinT3hE][OTEfMinT3hE]]
+{{{youtube_embed(edit-osana-najimi-komi-san-tadano-kun.toml)}}}
 
-[[https://youtu.be/ksNFqxv1iro][ksNFqxv1iro]]
+{{{youtube_embed(magnets-osana-najimi-4k-edit.toml)}}}
 
 /Najimi Osana adapts to things./
 

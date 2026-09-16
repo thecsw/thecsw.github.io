@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4i7QbO97jhQWihsVIIQF3s"
+url = "https://open.spotify.com/track/4i7QbO97jhQWihsVIIQF3s?si=e5fcd1867c464ee0"
+title = "Ridin Round"
+creator = "Kali Uchis"
+artwork = "ridin-round.jpg"
+duration_ms = 276500
+explicit = true
+
+[colors]
+  background = "#2d5960"
+  background_tinted = "#06383e"
+  text = "#ffffff"
+  text_subdued = "#a6d5dd"

@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "7oeNO6HoCTIHIuoNUp2Ur4"
+url = "https://open.spotify.com/track/7oeNO6HoCTIHIuoNUp2Ur4?si=adac060251144b2d"
+title = "kometostai.aintreallynootherwaytoputitro"
+creator = "Knxwledge"
+artwork = "kometostai-aintreallynootherwaytoputitro.jpg"
+duration_ms = 73897
+
+[colors]
+  background = "#9e1000"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbfa8"

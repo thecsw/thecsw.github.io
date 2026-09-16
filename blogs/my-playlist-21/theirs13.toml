@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "63kj5bCib1ovmtty6OllEt"
+url = "https://open.spotify.com/track/63kj5bCib1ovmtty6OllEt?si=509df69b08bb42d2"
+title = "Theirs13"
+creator = "JGrrey"
+artwork = "theirs13.jpg"
+duration_ms = 124137
+
+[colors]
+  background = "#005e4a"
+  background_tinted = "#003a28"
+  text = "#ffffff"
+  text_subdued = "#7ddfc5"

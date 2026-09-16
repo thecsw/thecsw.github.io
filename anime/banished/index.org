@@ -123,6 +123,6 @@ and no one else’s.
 
 Also, the opening song never fails to brighten up the mood for me.  
 
-[[https://open.spotify.com/track/4IuiAmZd248MLAntebZFKo][spotify track]]
+{{{spotify_embed(息を吸う-ここで吸う-生きてく.toml)}}}
 
 That's all! Thank you for reading.

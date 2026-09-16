@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "1jFhnVoJkcB4lf9tT0rSZS"
+url = "https://open.spotify.com/track/1jFhnVoJkcB4lf9tT0rSZS"
+title = "Unchained Melody"
+creator = "The Righteous Brothers"
+artwork = "unchained-melody.jpg"
+duration_ms = 216266
+
+[colors]
+  background = "#584848"
+  background_tinted = "#322424"
+  text = "#ffffff"
+  text_subdued = "#dcc9c9"

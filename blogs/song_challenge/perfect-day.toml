@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4TOMI010Sd4ZAX4aZ5TS85"
+url = "https://open.spotify.com/track/4TOMI010Sd4ZAX4aZ5TS85"
+title = "Perfect Day"
+creator = "Lou Reed"
+artwork = "perfect-day.jpg"
+duration_ms = 226509
+
+[colors]
+  background = "#6a4e00"
+  background_tinted = "#462d00"
+  text = "#ffffff"
+  text_subdued = "#e7cb7f"

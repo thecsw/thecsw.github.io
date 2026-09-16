@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "3wuCCNCnBhJlwkIJTBZFiv"
+url = "https://open.spotify.com/track/3wuCCNCnBhJlwkIJTBZFiv"
+title = "They Don't Care About Us"
+creator = "Michael Jackson"
+artwork = "they-don-t-care-about-us.jpg"
+duration_ms = 284310
+
+[colors]
+  background = "#782830"
+  background_tinted = "#340004"
+  text = "#ffffff"
+  text_subdued = "#ffbcbe"

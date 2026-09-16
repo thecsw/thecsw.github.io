@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "0KzAbK6nItSqNh8q70tb0K"
+url = "https://open.spotify.com/track/0KzAbK6nItSqNh8q70tb0K?si=26940f7b1c29493b"
+title = "Where Is My Mind?"
+creator = "Pixies"
+artwork = "where-is-my-mind.jpg"
+duration_ms = 229226
+
+[colors]
+  background = "#535353"
+  background_tinted = "#333333"
+  text = "#ffffff"
+  text_subdued = "#cdcdcd"

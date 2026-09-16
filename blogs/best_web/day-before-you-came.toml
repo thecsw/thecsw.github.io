@@ -1,0 +1,14 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "SGZc72g_aPI"
+url = "https://youtu.be/SGZc72g_aPI"
+title = "Abba  The Day Before You Came"
+creator = "Андрей Данилов"
+class = "day-before-you-came"
+artwork = "day-before-you-came.jpg"

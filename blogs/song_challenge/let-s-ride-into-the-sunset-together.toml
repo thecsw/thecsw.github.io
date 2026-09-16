@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "17ozPYYjhdjiOYqVHjSt2j"
+url = "https://open.spotify.com/track/17ozPYYjhdjiOYqVHjSt2j"
+title = "Let's Ride Into The Sunset Together"
+creator = "Tony Vice, Jerry Burnham"
+artwork = "let-s-ride-into-the-sunset-together.jpg"
+duration_ms = 180535
+
+[colors]
+  background = "#405470"
+  background_tinted = "#20344d"
+  text = "#ffffff"
+  text_subdued = "#b7cfef"

@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5r96TaQquRrlo3Ym3ZlSL2"
+url = "https://open.spotify.com/track/5r96TaQquRrlo3Ym3ZlSL2"
+title = "Amish Paradise (Parody of \"Gangsta's Paradise\" by Coolio)"
+creator = "\"Weird Al\" Yankovic"
+artwork = "amish-paradise-parody-of-gangsta-s-paradise-by-coolio.jpg"
+duration_ms = 202930
+
+[colors]
+  background = "#744740"
+  background_tinted = "#502620"
+  text = "#ffffff"
+  text_subdued = "#f7c1b7"
