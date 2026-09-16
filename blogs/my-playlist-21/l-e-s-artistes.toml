@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4dmCLAZbWYT0qtcG7GVMdb"
+url = "https://open.spotify.com/track/4dmCLAZbWYT0qtcG7GVMdb?si=2d6af92244c245f3"
+title = "L.E.S. Artistes"
+creator = "Santigold"
+artwork = "l-e-s-artistes.jpg"
+duration_ms = 204906
+
+[colors]
+  background = "#53535a"
+  background_tinted = "#323239"
+  text = "#ffffff"
+  text_subdued = "#cdcdd5"

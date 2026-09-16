@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5RLzsVW6UNiV2YrOlKwzNN"
+url = "https://open.spotify.com/track/5RLzsVW6UNiV2YrOlKwzNN"
+title = "Blue Moon - 1999 Remastered"
+creator = "Frank Sinatra"
+artwork = "blue-moon-1999-remastered.jpg"
+duration_ms = 171426
+
+[colors]
+  background = "#704b00"
+  background_tinted = "#4a2b00"
+  text = "#ffffff"
+  text_subdued = "#f0c781"

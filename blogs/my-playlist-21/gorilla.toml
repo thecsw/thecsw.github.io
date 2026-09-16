@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "0pJO1tc1GpnxFyQp6Zp82r"
+url = "https://open.spotify.com/track/0pJO1tc1GpnxFyQp6Zp82r?si=2fe7f236bf76402b"
+title = "Gorilla"
+creator = "Little Simz"
+artwork = "gorilla.jpg"
+duration_ms = 245819
+explicit = true
+
+[colors]
+  background = "#585252"
+  background_tinted = "#383232"
+  text = "#ffffff"
+  text_subdued = "#d4cccc"

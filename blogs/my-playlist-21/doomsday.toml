@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "7EQvdUJqZ2i7SWvSB2VqGA"
+url = "https://open.spotify.com/track/7EQvdUJqZ2i7SWvSB2VqGA?si=d21ac6b084af4a12"
+title = "Doomsday"
+creator = "MF DOOM, Pebbles The Invisible Girl"
+artwork = "doomsday.jpg"
+duration_ms = 298053
+explicit = true
+
+[colors]
+  background = "#9f0000"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbeb3"

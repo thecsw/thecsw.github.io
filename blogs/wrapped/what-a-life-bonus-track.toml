@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "2zWivfUQjnXyUozQOrSCVc"
+url = "https://open.spotify.com/track/2zWivfUQjnXyUozQOrSCVc"
+title = "What A Life - Bonus Track"
+creator = "Scarlet Pleasure"
+artwork = "what-a-life-bonus-track.jpg"
+duration_ms = 185942
+explicit = true
+
+[colors]
+  background = "#395c01"
+  background_tinted = "#1b3900"
+  text = "#ffffff"
+  text_subdued = "#bbd6a3"

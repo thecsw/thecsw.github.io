@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "6DYLWAdxEJvwWmT7EkeDkX"
+url = "https://open.spotify.com/track/6DYLWAdxEJvwWmT7EkeDkX?si=0c5d67f8478e4914"
+title = "Charmed"
+creator = "Σtella, Redinho"
+artwork = "charmed.jpg"
+duration_ms = 158359
+
+[colors]
+  background = "#9c1700"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbfa6"

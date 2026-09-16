@@ -1,0 +1,13 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "piGuCMs_qok"
+url = "https://youtu.be/piGuCMs_qok"
+title = "Boys Love Rap | Kaguya-Sama: Love Is War -Ultra Romantic-"
+creator = "Crunchyroll"
+artwork = "boys-love-rap-kaguya-sama-love-is-war-ultra-romantic.jpg"

@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5D06AhoBSkwDbgkuALoIot"
+url = "https://open.spotify.com/track/5D06AhoBSkwDbgkuALoIot"
+title = "Digital Love - Radio Edit"
+creator = "Daft Punk"
+artwork = "digital-love-radio-edit.jpg"
+duration_ms = 240826
+
+[colors]
+  background = "#9f0001"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbdb5"

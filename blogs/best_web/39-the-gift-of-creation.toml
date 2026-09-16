@@ -1,0 +1,13 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "hFztL7tnk-s"
+url = "https://youtu.be/hFztL7tnk-s"
+title = "39 | The gift of creation"
+creator = "Telepurte"
+artwork = "39-the-gift-of-creation.jpg"

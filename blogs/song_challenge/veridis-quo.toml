@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "2LD2gT7gwAurzdQDQtILds"
+url = "https://open.spotify.com/track/2LD2gT7gwAurzdQDQtILds"
+title = "Veridis Quo"
+creator = "Daft Punk"
+artwork = "veridis-quo.jpg"
+duration_ms = 345186
+
+[colors]
+  background = "#302040"
+  background_tinted = "#57476a"
+  text = "#ffffff"
+  text_subdued = "#d9c6ef"

@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "7hTCHEP1eqydVwD2NMU5fK"
+url = "https://open.spotify.com/track/7hTCHEP1eqydVwD2NMU5fK?si=e72a714ee7174b17"
+title = "Smack A Bitch"
+creator = "Rico Nasty"
+artwork = "smack-a-bitch.jpg"
+duration_ms = 138352
+explicit = true
+
+[colors]
+  background = "#004dab"
+  background_tinted = "#002481"
+  text = "#ffffff"
+  text_subdued = "#a5d2ff"

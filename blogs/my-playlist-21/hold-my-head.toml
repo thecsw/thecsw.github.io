@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4eSZUNz2flCKs7zESV50kW"
+url = "https://open.spotify.com/track/4eSZUNz2flCKs7zESV50kW?si=49a390e4ce3a4b61"
+title = "Hold My Head"
+creator = "Kenny Beats"
+artwork = "hold-my-head.jpg"
+duration_ms = 106866
+
+[colors]
+  background = "#3c5c11"
+  background_tinted = "#1d3900"
+  text = "#ffffff"
+  text_subdued = "#bbd6a2"

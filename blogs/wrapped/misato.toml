@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "0E9W4ZDAl2ceQSJI8TOgOS"
+url = "https://open.spotify.com/track/0E9W4ZDAl2ceQSJI8TOgOS"
+title = "MISATO"
+creator = "Shiro SAGISU"
+artwork = "misato.jpg"
+duration_ms = 92066
+
+[colors]
+  background = "#00558b"
+  background_tinted = "#003163"
+  text = "#ffffff"
+  text_subdued = "#96d5ff"

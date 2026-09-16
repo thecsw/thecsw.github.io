@@ -1,0 +1,194 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-playlist"
+id = "0AmXSAYsAcufJ7oIiEsVZw"
+url = "https://open.spotify.com/playlist/0AmXSAYsAcufJ7oIiEsVZw?si=8bb44a0b3bd14962"
+title = "Best of 12022"
+creator = "thecsw"
+artwork = "best-of-12022.jpg"
+
+[colors]
+  background = "#6d475e"
+  background_tinted = "#4a273d"
+  text = "#ffffff"
+  text_subdued = "#eec1db"
+
+[[tracks]]
+  id = "5XLXrm5JVMdOus1fWmTOFw"
+  url = "https://open.spotify.com/track/5XLXrm5JVMdOus1fWmTOFw"
+  title = "Beneath the Mask"
+  artist = "Lyn, ATLUS Sound Team, ATLUS GAME MUSIC"
+  duration_ms = 277880
+
+[[tracks]]
+  id = "5RhWszHMSKzb7KiXk4Ae0M"
+  url = "https://open.spotify.com/track/5RhWszHMSKzb7KiXk4Ae0M"
+  title = "One Last Kiss"
+  artist = "Hikaru Utada"
+  duration_ms = 252026
+
+[[tracks]]
+  id = "2qEIVphvwMEkE35CXxdWAT"
+  url = "https://open.spotify.com/track/2qEIVphvwMEkE35CXxdWAT"
+  title = "Deal with the devil"
+  artist = "Tia"
+  duration_ms = 282546
+
+[[tracks]]
+  id = "30kpqo2lUMRZcn9CwRXNPR"
+  url = "https://open.spotify.com/track/30kpqo2lUMRZcn9CwRXNPR"
+  title = "D City Rock feat. Debra Zeer"
+  artist = "TeddyLoid, Debra Zeer"
+  duration_ms = 272400
+
+[[tracks]]
+  id = "7oRB1KvYJD4oZAHWyQMaV7"
+  url = "https://open.spotify.com/track/7oRB1KvYJD4oZAHWyQMaV7"
+  title = "Beautiful Day"
+  artist = "Yuinishio"
+  duration_ms = 191733
+
+[[tracks]]
+  id = "7E6VM4eg8ADYdgbMnXO97d"
+  url = "https://open.spotify.com/track/7E6VM4eg8ADYdgbMnXO97d"
+  title = "Komm, süsser Tod"
+  artist = "Astrophysics, Marina Rios"
+  duration_ms = 335250
+
+[[tracks]]
+  id = "6JXAzCUM0Drgc4FgVA6mGC"
+  url = "https://open.spotify.com/track/6JXAzCUM0Drgc4FgVA6mGC"
+  title = "Fallen Angel feat. Aimee B"
+  artist = "Mitsunori Ikeda, Aimee B"
+  duration_ms = 267600
+
+[[tracks]]
+  id = "2BlDX1yfT0ea5wo0vjCKKa"
+  url = "https://open.spotify.com/track/2BlDX1yfT0ea5wo0vjCKKa"
+  title = "光るなら"
+  artist = "Goose house"
+  duration_ms = 252133
+
+[[tracks]]
+  id = "4MxL1VijbxrUGBu39TgzMY"
+  url = "https://open.spotify.com/track/4MxL1VijbxrUGBu39TgzMY"
+  title = "Pipo Password"
+  artist = "TeddyLoid, Bonjour Suzuki"
+  duration_ms = 265000
+
+[[tracks]]
+  id = "2rk8hnBWF0zZDFIVoeE16O"
+  url = "https://open.spotify.com/track/2rk8hnBWF0zZDFIVoeE16O"
+  title = "Hedgehog's Dilemma"
+  artist = "Shiro SAGISU"
+  duration_ms = 167306
+
+[[tracks]]
+  id = "5ivhfpfnoHhD8rUI2t3aJG"
+  url = "https://open.spotify.com/track/5ivhfpfnoHhD8rUI2t3aJG"
+  title = "IGNITE"
+  artist = "Eir Aoi"
+  duration_ms = 244173
+
+[[tracks]]
+  id = "0h230p3y1ZB47BRuInGhkp"
+  url = "https://open.spotify.com/track/0h230p3y1ZB47BRuInGhkp"
+  title = "Joy"
+  artist = "ATLUS Sound Team"
+  duration_ms = 170080
+
+[[tracks]]
+  id = "3KhwEuqLNjHfsKaBDo1yVh"
+  url = "https://open.spotify.com/track/3KhwEuqLNjHfsKaBDo1yVh"
+  title = "Boku no Sensou"
+  artist = "Shinsei Kamattechan"
+  duration_ms = 280466
+
+[[tracks]]
+  id = "0KCSJzsQVxkloxoT7dyrqV"
+  url = "https://open.spotify.com/track/0KCSJzsQVxkloxoT7dyrqV"
+  title = "The Rumbling (TV Size)"
+  artist = "SiM"
+  duration_ms = 90265
+
+[[tracks]]
+  id = "0oCP1Vu9LGVP88atKzOswC"
+  url = "https://open.spotify.com/track/0oCP1Vu9LGVP88atKzOswC"
+  title = "ambiguous"
+  artist = "GARNiDELiA"
+  duration_ms = 272480
+
+[[tracks]]
+  id = "0UNIPFUn2MnhpKp7VJiYAH"
+  url = "https://open.spotify.com/track/0UNIPFUn2MnhpKp7VJiYAH"
+  title = "Fukashigi no Carte"
+  artist = "Selphius"
+  duration_ms = 235897
+
+[[tracks]]
+  id = "54BW4qpq5ms4bnzBgiWVOo"
+  url = "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo"
+  title = "NIGHT RUNNING"
+  artist = "Shin Sakiura, AAAMYYY"
+  duration_ms = 233666
+
+[[tracks]]
+  id = "7olMFQZhjN2EHf7ra2PjE7"
+  url = "https://open.spotify.com/track/7olMFQZhjN2EHf7ra2PjE7"
+  title = "Fly Away"
+  artist = "TeddyLoid"
+  duration_ms = 263826
+
+[[tracks]]
+  id = "3lQCsg0VaUkUYRhIK8JFY0"
+  url = "https://open.spotify.com/track/3lQCsg0VaUkUYRhIK8JFY0"
+  title = "ごめんね、いいコじゃいられない。"
+  artist = "Miku Sawai"
+  duration_ms = 283520
+
+[[tracks]]
+  id = "4cPnNnTMkJ6soUOUzEtmcp"
+  url = "https://open.spotify.com/track/4cPnNnTMkJ6soUOUzEtmcp"
+  title = "Last Surprise"
+  artist = "Lyn, ATLUS Sound Team, ATLUS GAME MUSIC"
+  duration_ms = 235546
+
+[[tracks]]
+  id = "5KAI6nfg3wQRmtwJ0PPaEW"
+  url = "https://open.spotify.com/track/5KAI6nfg3wQRmtwJ0PPaEW"
+  title = "KISS OF DEATH（Produced by HYDE）"
+  artist = "Mika Nakashima"
+  duration_ms = 250200
+
+[[tracks]]
+  id = "0DI3WNmIyfi2GZLQwhYDQC"
+  url = "https://open.spotify.com/track/0DI3WNmIyfi2GZLQwhYDQC"
+  title = "KOMM, SUSSER TOD - M-10 Director's Edit Version"
+  artist = "Arianne"
+  duration_ms = 466481
+
+[[tracks]]
+  id = "6shqTPLADEpK31Qgi8LC7k"
+  url = "https://open.spotify.com/track/6shqTPLADEpK31Qgi8LC7k"
+  title = "シルシ"
+  artist = "LiSA"
+  duration_ms = 288253
+
+[[tracks]]
+  id = "2j1r3ubqqxuoTFaPVnTV1j"
+  url = "https://open.spotify.com/track/2j1r3ubqqxuoTFaPVnTV1j"
+  title = "ANIMA"
+  artist = "ReoNa"
+  duration_ms = 269120
+
+[[tracks]]
+  id = "08qU2grYIu0XldcJZ7jEOb"
+  url = "https://open.spotify.com/track/08qU2grYIu0XldcJZ7jEOb"
+  title = "流星"
+  artist = "Eir Aoi"
+  duration_ms = 252426

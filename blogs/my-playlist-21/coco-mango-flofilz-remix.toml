@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "1JZW4KLFdvnpUfw3zSvsIl"
+url = "https://open.spotify.com/track/1JZW4KLFdvnpUfw3zSvsIl?si=7d52ae5d5ff24033"
+title = "Coco Mango (FloFilz Remix)"
+creator = "MF DOOM, FloFilz"
+artwork = "coco-mango-flofilz-remix.jpg"
+duration_ms = 137230
+
+[colors]
+  background = "#00587d"
+  background_tinted = "#003456"
+  text = "#ffffff"
+  text_subdued = "#84d8ff"

@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5xGSJpiaTlId1EjPxaWS4t"
+url = "https://open.spotify.com/track/5xGSJpiaTlId1EjPxaWS4t?si=4e5b30b691534c90"
+title = "Wasted Nun"
+creator = "Cherry Glazerr"
+artwork = "wasted-nun.jpg"
+duration_ms = 198893
+
+[colors]
+  background = "#535353"
+  background_tinted = "#333333"
+  text = "#ffffff"
+  text_subdued = "#cdcdcd"

@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5mkGfmJGFZpwK9nA5amOhv"
+url = "https://open.spotify.com/track/5mkGfmJGFZpwK9nA5amOhv"
+title = "Sex & Candy"
+creator = "Marcy Playground"
+artwork = "sex-candy.jpg"
+duration_ms = 173493
+
+[colors]
+  background = "#1e5876"
+  background_tinted = "#003551"
+  text = "#ffffff"
+  text_subdued = "#9bd5f8"

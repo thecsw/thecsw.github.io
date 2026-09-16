@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4dZ3V71vsqSn9MJ18y8YaJ"
+url = "https://open.spotify.com/track/4dZ3V71vsqSn9MJ18y8YaJ"
+title = "Supreme"
+creator = "Robbie Williams"
+artwork = "supreme.jpg"
+duration_ms = 260399
+
+[colors]
+  background = "#305097"
+  background_tinted = "#112c70"
+  text = "#ffffff"
+  text_subdued = "#b1cfff"

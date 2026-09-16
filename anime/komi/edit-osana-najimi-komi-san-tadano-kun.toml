@@ -1,0 +1,13 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "OTEfMinT3hE"
+url = "https://youtu.be/OTEfMinT3hE"
+title = "Edit - Osana Najimi | Komi-san | \"Tadano-Kun!\""
+creator = "Chazz o Melhor"
+artwork = "edit-osana-najimi-komi-san-tadano-kun.jpg"

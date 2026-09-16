@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "1AMADyXgIWayh5vXLZo2qF"
+url = "https://open.spotify.com/track/1AMADyXgIWayh5vXLZo2qF?si=c1f002191e4c46ae"
+title = "Covet"
+creator = "Basement"
+artwork = "covet.jpg"
+duration_ms = 227340
+
+[colors]
+  background = "#5f5300"
+  background_tinted = "#3d3200"
+  text = "#ffffff"
+  text_subdued = "#d9cf81"

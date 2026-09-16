@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "54BW4qpq5ms4bnzBgiWVOo"
+url = "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo"
+title = "NIGHT RUNNING"
+creator = "Shin Sakiura, AAAMYYY"
+class = "night-running"
+artwork = "night-running.jpg"
+duration_ms = 233666
+
+[colors]
+  background = "#98005b"
+  background_tinted = "#5e0034"
+  text = "#ffffff"
+  text_subdued = "#ffb9db"

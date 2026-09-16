@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "69Tf2qK9sYOi1ncnXrfIUV"
+url = "https://open.spotify.com/track/69Tf2qK9sYOi1ncnXrfIUV?si=36da326d12b54a8f"
+title = "1 4 2"
+creator = "Inner Wave"
+artwork = "1-4-2.jpg"
+duration_ms = 305467
+
+[colors]
+  background = "#682020"
+  background_tinted = "#8e4240"
+  text = "#ffffff"
+  text_subdued = "#ffbdb7"

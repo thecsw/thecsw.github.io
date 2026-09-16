@@ -1,0 +1,13 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "QJSBSPrS3gs"
+url = "https://youtu.be/QJSBSPrS3gs"
+title = "Aqua is my Waifu"
+creator = "Dale Lopez"
+artwork = "aqua-is-my-waifu.jpg"

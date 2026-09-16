@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5XLXrm5JVMdOus1fWmTOFw"
+url = "https://open.spotify.com/track/5XLXrm5JVMdOus1fWmTOFw?si=6d164e8764be44a5"
+title = "Beneath the Mask"
+creator = "Lyn, ATLUS Sound Team, ATLUS GAME MUSIC"
+artwork = "beneath-the-mask.jpg"
+duration_ms = 277880
+
+[colors]
+  background = "#9f0000"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbeb1"

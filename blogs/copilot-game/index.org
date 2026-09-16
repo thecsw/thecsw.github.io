@@ -22,7 +22,7 @@ writing, where all I do is give the original start signature (this was my
 second attempt, so I gave it =def start(self):= to nudge copilot into giving me
 what I had right before) and just pressing tabs.
 
-[[https://youtu.be/Im_13hXjIl0][copilote writes a game]]
+{{{youtube_embed(copilot-writes-a-text-based-adventure-game-in-python.toml)}}}
 
 You can get the python file [[start.py][here]].
 

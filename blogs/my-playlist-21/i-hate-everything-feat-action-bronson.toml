@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "67eqrRkxp2ED26CEqvqbDv"
+url = "https://open.spotify.com/track/67eqrRkxp2ED26CEqvqbDv?si=57c648d4d87844a5"
+title = "I Hate Everything (feat. Action Bronson)"
+creator = "The Alchemist, Action Bronson"
+artwork = "i-hate-everything-feat-action-bronson.jpg"
+duration_ms = 82133
+explicit = true
+
+[colors]
+  background = "#9f0000"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbeb2"

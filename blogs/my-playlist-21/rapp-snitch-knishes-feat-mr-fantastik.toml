@@ -1,0 +1,21 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "4xz7WX28IkmcaHv06lCezR"
+url = "https://open.spotify.com/track/4xz7WX28IkmcaHv06lCezR?si=b6be7ded33094aa4"
+title = "Rapp Snitch Knishes (feat. Mr. Fantastik)"
+creator = "MF DOOM, Mr Fantastik"
+artwork = "rapp-snitch-knishes-feat-mr-fantastik.jpg"
+duration_ms = 172893
+explicit = true
+
+[colors]
+  background = "#90312a"
+  background_tinted = "#610002"
+  text = "#ffffff"
+  text_subdued = "#ffbeb3"

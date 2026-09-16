@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "7CH99b2i1TXS5P8UUyWtnM"
+url = "https://open.spotify.com/track/7CH99b2i1TXS5P8UUyWtnM?si=d1616c65f7124621"
+title = "Them Changes"
+creator = "Thundercat"
+artwork = "them-changes.jpg"
+duration_ms = 188453
+
+[colors]
+  background = "#804038"
+  background_tinted = "#591d17"
+  text = "#ffffff"
+  text_subdued = "#ffbeb2"

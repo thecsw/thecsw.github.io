@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "2RlgNHKcydI9sayD2Df2xp"
+url = "https://open.spotify.com/track/2RlgNHKcydI9sayD2Df2xp"
+title = "Mr. Blue Sky"
+creator = "Electric Light Orchestra"
+artwork = "mr-blue-sky.jpg"
+duration_ms = 303820
+
+[colors]
+  background = "#9f0000"
+  background_tinted = "#610000"
+  text = "#ffffff"
+  text_subdued = "#ffbeb0"

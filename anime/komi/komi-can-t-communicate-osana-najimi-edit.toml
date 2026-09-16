@@ -1,0 +1,13 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "BwGFrPspArA"
+url = "https://youtu.be/BwGFrPspArA"
+title = "Komi can't communicate /   Osana Najimi edit"
+creator = "Студия с яойчиком"
+artwork = "komi-can-t-communicate-osana-najimi-edit.jpg"

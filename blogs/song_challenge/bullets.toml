@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "5zxJ3BZyd6BK2gX4b2RnB4"
+url = "https://open.spotify.com/track/5zxJ3BZyd6BK2gX4b2RnB4"
+title = "Bullets"
+creator = "Archive"
+artwork = "bullets.jpg"
+duration_ms = 353573
+
+[colors]
+  background = "#47555d"
+  background_tinted = "#27353b"
+  text = "#ffffff"
+  text_subdued = "#bfd0d8"

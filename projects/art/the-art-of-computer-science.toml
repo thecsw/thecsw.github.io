@@ -1,0 +1,13 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "YouTube"
+kind = "youtube"
+id = "JjN-eE4kti8"
+url = "https://youtu.be/JjN-eE4kti8"
+title = "The Art of Computer Science"
+creator = "Sandy"
+artwork = "the-art-of-computer-science.jpg"

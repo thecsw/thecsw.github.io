@@ -17,6 +17,8 @@ description_length = 137
 roman_footnotes = true
 footnote_brackets = false
 clickable_images = false
+# Keep social media as first-party paper cards; load providers only when followed.
+embed_mode = "card"
 
 syntax_highlighting = true
 syntax_highlighting_languages = "scripts/highlight/languages"

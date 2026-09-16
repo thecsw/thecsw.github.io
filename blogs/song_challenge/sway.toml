@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "2ajUl8lBLAXOXNpG4NEPMz"
+url = "https://open.spotify.com/track/2ajUl8lBLAXOXNpG4NEPMz"
+title = "Sway"
+creator = "Michael Bublé"
+artwork = "sway.jpg"
+duration_ms = 188066
+
+[colors]
+  background = "#005a70"
+  background_tinted = "#00364a"
+  text = "#ffffff"
+  text_subdued = "#8fd8f1"

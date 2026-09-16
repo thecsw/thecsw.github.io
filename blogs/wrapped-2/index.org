@@ -12,7 +12,7 @@ First and foremost, I found out that my top genres this year were: /Anime/,
 one song and artist that I listened the living vibes out of were of course
 /Beneath the Mask/ and /Lyn/, respectively.
 
-[[https://open.spotify.com/track/5XLXrm5JVMdOus1fWmTOFw?si=6d164e8764be44a5][Beneath the Mask]]
+{{{spotify_embed(beneath-the-mask.toml)}}}
 
 #+begin_gallery :path pics :num 3
 - [[genres.jpeg][My Top Genres "I'm such a weakling for all of my favorite shows"]]
@@ -52,7 +52,7 @@ it looks like this person /maybe likes anime/. Unclear.
 Withouth further adieu -- those are pretty self-explanatory. Please find the top
 selection of this Wrapped below! /Until next time./
 
-[[https://open.spotify.com/playlist/0AmXSAYsAcufJ7oIiEsVZw?si=8bb44a0b3bd14962][Best of 12022]]
+{{{spotify_embed(best-of-12022.toml)}}}
 
 #+begin_gallery :path pics :num 3
 - [[day.jpeg][My Audio Day "I'm just a chill person, apparently -- yay"]]

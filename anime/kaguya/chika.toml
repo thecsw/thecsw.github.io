@@ -1,0 +1,68 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-playlist"
+id = "5Ow6RHkjg8ip2cTHRKGUxh"
+url = "https://open.spotify.com/playlist/5Ow6RHkjg8ip2cTHRKGUxh?si=f3f2f46fc9ed4cc0"
+title = "Chika ❤️"
+creator = "thecsw"
+artwork = "chika.jpg"
+
+[colors]
+  background = "#5d5056"
+  background_tinted = "#3c2f36"
+  text = "#ffffff"
+  text_subdued = "#d9c9d1"
+
+[[tracks]]
+  id = "7AhMVnj6N89jmuCKNyr0AZ"
+  url = "https://open.spotify.com/track/7AhMVnj6N89jmuCKNyr0AZ"
+  title = "ラブ・ドラマティック"
+  artist = "Masayuki Suzuki, 伊原六花"
+  duration_ms = 263613
+
+[[tracks]]
+  id = "5RtsmtLsEnwa96TEf56tJQ"
+  url = "https://open.spotify.com/track/5RtsmtLsEnwa96TEf56tJQ"
+  title = "GIRI GIRI"
+  artist = "Masayuki Suzuki, すぅ"
+  duration_ms = 258765
+
+[[tracks]]
+  id = "4xeWELPxBZKhhCrUr84jmp"
+  url = "https://open.spotify.com/track/4xeWELPxBZKhhCrUr84jmp"
+  title = "DADDY ! DADDY ! DO !"
+  artist = "Masayuki Suzuki, Airi Suzuki"
+  duration_ms = 254640
+
+[[tracks]]
+  id = "0U5rDikbdSNEkrTd3UTMpM"
+  url = "https://open.spotify.com/track/0U5rDikbdSNEkrTd3UTMpM"
+  title = "Love is Show"
+  artist = "Masayuki Suzuki, 高城れに"
+  duration_ms = 242027
+
+[[tracks]]
+  id = "31fN64zoCHnWmFmPVmiVJT"
+  url = "https://open.spotify.com/track/31fN64zoCHnWmFmPVmiVJT"
+  title = "センチメンタルクライシス"
+  artist = "halca"
+  duration_ms = 243960
+
+[[tracks]]
+  id = "7JKJ7p6vz8ZMDdzzd3mww2"
+  url = "https://open.spotify.com/track/7JKJ7p6vz8ZMDdzzd3mww2"
+  title = "ハートはお手上げ"
+  artist = "Airi Suzuki"
+  duration_ms = 227027
+
+[[tracks]]
+  id = "6qi17D1xjNEFMLpYwFurV1"
+  url = "https://open.spotify.com/track/6qi17D1xjNEFMLpYwFurV1"
+  title = "風に吹かれて"
+  artist = "福原 遥"
+  duration_ms = 272826

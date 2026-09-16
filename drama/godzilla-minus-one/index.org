@@ -13,4 +13,4 @@ Just look how *exciting* this looks.
 <p class="pre-vid-skip"></p>
 #+end_export
 
-[[https://youtu.be/PShgB-ielBI][【モノクロ版特報】『ゴジラ-1.0／C』（1/12上映開始！）]]
+{{{youtube_embed(モノクロ版特報-ゴジラ-1-0-c.toml)}}}

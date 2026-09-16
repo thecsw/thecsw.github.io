@@ -1,0 +1,20 @@
+# Misa control flags (uncomment only when needed):
+# locked = true       # never rewrite this file, even with -force
+# needs_manual = true # retry incomplete metadata on the next normal vendor run
+# If both are true, locked wins.
+
+version = 1
+provider = "Spotify"
+kind = "spotify-track"
+id = "6PuoZT4kgw5DrUEdnQ6e01"
+url = "https://open.spotify.com/track/6PuoZT4kgw5DrUEdnQ6e01?si=2f409be31b704160"
+title = "This Must Be The Place"
+creator = "Sure Sure"
+artwork = "this-must-be-the-place.jpg"
+duration_ms = 219260
+
+[colors]
+  background = "#005971"
+  background_tinted = "#00364b"
+  text = "#ffffff"
+  text_subdued = "#7fdaf4"
